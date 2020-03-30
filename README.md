@@ -10,36 +10,36 @@ Post all questions, wishes and discussion into the [KVR Thread](http://www.kvrau
 Download the latest release from <a href="http://www.mossgrabers.de">my homepage.</a>
 > **The version on GitHub might always be in an alpha or beta state, you have been warned!**
 
-List with [Changes](Changes)
+List with [Changes](Bitwig/Changes.md)
 
 ## Documentation & Tutorials
 
 There are several in-depth video tutorials available on my [Youtube channel](https://www.youtube.com/channel/UCMgtq3iKqYamt9C-xbxwjTA).
 
-First start with the [Installation instructions](Installation).
+First start with the [Installation instructions](Bitwig/Installation.md).
 After that check the specific controller documentation below for additional installation notes:
 
 * Ableton
-  * [Push I & II](Ableton-Push-I-&-II)
+  * [Push I & II](Ableton/Ableton-Push-I-&-II.md)
 * Akai
   * [APC40 & APC40mkII](Akai/Akai-APC40-&-APC40mkII.md)
   * [APCmini](Akai/Akai-APCmini.md)
 * Arturia
-  * [Beatstep](Arturia-Beatstep)
+  * [Beatstep](Arturia/Arturia-Beatstep.md)
 * Mackie
-  * [HUI Protocol](Mackie-HUI)
-  * [MCU Protocol](Mackie-MCU)
+  * [HUI Protocol](Mackie/Mackie-HUI.md)
+  * [MCU Protocol](Mackie/Mackie-MCU.md)
 * Native Instruments
-  * [Kontrol S25, S49, S61, S88 mk I](Native-Instruments-Kontrol1)
-  * [Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments-Kontrol2)
-  * [Maschine Mikro Mk3](Native-Instruments-Maschine-Mikro-Mk3)
+  * [Kontrol S25, S49, S61, S88 mk I](Native-Instruments/Native-Instruments-Kontrol1.md)
+  * [Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments/Native-Instruments-Kontrol2.md)
+  * [Maschine Mikro Mk3](Native-Instruments/Native-Instruments-Maschine-Mikro-Mk3.md)
 * Novation
-  * [Launchkey Mini Mk3](Novation-LaunchkeyMiniMk3)
-  * [Launchpad MkII, Pro, Mini Mk3, X](Novation-Launchpad)
-  * [SL MkI & MkII](Novation-Remote-SLmkI-&-mkII)
-  * [SL Mk III](Novation-SLMkIII)
+  * [Launchkey Mini Mk3](Novation/Novation-LaunchkeyMiniMk3.md)
+  * [Launchpad MkII, Pro, Mini Mk3, X](Novation/Novation-Launchpad.md)
+  * [SL MkI & MkII](Novation/Novation-Remote-SLmkI-&-mkII.md)
+  * [SL Mk III](Novation/Novation-SLMkIII.md)
 * Generic, Tools & Protocols
-  * [Auto Color](AutoColor)
-  * [Generic Flexi](Generic-Flexi)
-  * [Midi Monitor](MidiMonitor)
-  * [Open Sound Control (OSC)](Open-Sound-Control-(OSC))
+  * [Auto Color](Generic-Tools-Protocols/AutoColor.md)
+  * [Generic Flexi](Generic-Tools-Protocols/Generic-Flexi.md)
+  * [Midi Monitor](Generic-Tools-Protocols/MidiMonitor.md)
+  * [Open Sound Control (OSC)](Generic-Tools-Protocols/Open-Sound-Control-(OSC).md)
