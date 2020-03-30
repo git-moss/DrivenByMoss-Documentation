@@ -22,8 +22,8 @@ After that check the specific controller documentation below for additional inst
 * Ableton
   * [Push I & II](Ableton-Push-I-&-II)
 * Akai
-  * [APC40 & APC40mkII](Akai/Akai-APC40-&-APC40mkII)
-  * [APCmini](Akai/Akai-APCmini)
+  * [APC40 & APC40mkII](Akai/Akai-APC40-&-APC40mkII.md)
+  * [APCmini](Akai/Akai-APCmini.md)
 * Arturia
   * [Beatstep](Arturia-Beatstep)
 * Mackie
