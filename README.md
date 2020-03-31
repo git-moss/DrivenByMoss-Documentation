@@ -13,12 +13,13 @@ Post all questions, bug reports wishes and discussion
 Always download the latest release from [my homepage](http://www.mossgrabers.de).
 > **The version on GitHub might always be in an alpha or beta state, you have been warned!**
 
-List with [Bitwig Changes](Bitwig/Changes.md)
-List with [Reaper Changes](Reaper/Changes.md)
+List with [Bitwig Changes](Bitwig/Changes.md).
+
+List with [Reaper Changes](Reaper/Changes.md).
 
 ## Video Tutorials
 
-There are several in-depth video tutorials available on my [Youtube channel](https://www.youtube.com/channel/UCMgtq3iKqYamt9C-xbxwjTA).
+There are many in-depth video tutorials available on my [Youtube channel](https://www.youtube.com/channel/UCMgtq3iKqYamt9C-xbxwjTA).
 
 ## Installation & Feature Documentation
 
