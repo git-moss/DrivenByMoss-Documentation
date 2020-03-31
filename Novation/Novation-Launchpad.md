@@ -1,4 +1,4 @@
-# Bitwig Studio | Novation Launchpad Pro, MkII, Mini Mk3, X
+# Novation Launchpad Pro, MkII, Mini Mk3, X
 
 Support script for several of Novation's Launchpad controllers. You can control track parameters, devices, transport, session 
 view and play the pads.
@@ -214,5 +214,5 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 
 ## Preferences Dialog
 
-You can set several preferences in the Preferences dialog of the script, which are stored when you exit Bitwig.
+You can set several preferences in the Preferences dialog of the script, which are stored when you exit the DAW.
 Note that some of them are not available via the Launchpad Pro controller.

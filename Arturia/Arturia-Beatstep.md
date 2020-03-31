@@ -1,4 +1,4 @@
-# Bitwig Studio | Arturia Beatstep
+# Arturia Beatstep
 
 Support script for Arturia's Beatstep controller. You can control track parameters incl. groups, devices, transport, browse patches, session view, play the pads and have a drum and note sequencer.
 

@@ -1,6 +1,6 @@
-# Bitwig Studio | Native Instruments Komplete Kontrol 1 S25, S49, S61, S88
+# Native Instruments Komplete Kontrol 1 S25, S49, S61, S88
 
-Support script for Native Instruments Komplete Kontrol controller Version 1. You can control track parameters, devices and transport.
+Support script for Native Instruments Komplete Kontrol controller Version 1.
 
 ## Global
 
@@ -79,4 +79,4 @@ Press **SHIFT+SCALE** button to enter the configuration mode for the current sca
 
 ## Preferences Dialog
 
-You can set several preferences in the Preferences dialog of the script, which are stored when you exit Bitwig.
+You can set several preferences in the Preferences dialog of the script, which are stored when you exit the DAW.

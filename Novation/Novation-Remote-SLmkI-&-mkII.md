@@ -1,4 +1,4 @@
-# Bitwig Studio | Novation Remote SL MkI & MkII
+# Novation Remote SL MkI & MkII
 
 Support script for Novations' Remote MkII controller. You can control track parameters, devices, transport, play the pads, start scenes and a step sequencer.
 

@@ -1,4 +1,4 @@
-# Changes
+# Changes for Bitwig Studio
 
 ## 8.95 (unreleased)
 

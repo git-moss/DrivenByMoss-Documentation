@@ -1,11 +1,11 @@
-# Bitwig Studio | Mackie HUI
+# Mackie HUI
 
 Support script for the Mackie HUI protocol. While this extension supports the Mackie HUI protocol in general I could only test it with the following devices:
 
 * icon QConPro X (in Pro Tools mode)
 * Novation SLMkIII
 
-In the following the supported Bitwig features are described. In brackets the names of the HUI buttons are noted which trigger the feature.
+In the following, the supported features are described. In brackets the names of the HUI buttons are noted which trigger the feature.
 
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
 

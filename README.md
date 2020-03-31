@@ -1,22 +1,30 @@
 # Welcome to the DrivenByMoss Documentation
 
-DrivenByMoss is a Bitwig Studio extension, which supports many controllers and protocols. Furthermore, it brings some tools and utilities.
-DrivenByMoss is written by Jürgen Moßgraber also known as MOSS.
+DrivenByMoss is an extension for the digital audio workstations (DAW) **Bitwig Studio** and **Cockos Reaper**. It provides support for many hardware controllers as well as protocols like OSC. Furthermore, it brings some tools and utilities.
 
-## Contact
-Post all questions, wishes and discussion into the [KVR Thread](http://www.kvraudio.com/forum/viewtopic.php?f=268&t=502948).
+DrivenByMoss is written by [Jürgen Moßgraber](http://www.mossgrabers.de) also known as MOSS.
 
-## Latest Release
-Download the latest release from <a href="http://www.mossgrabers.de">my homepage.</a>
+## Feedback and Bug Reports
+Post all questions, bug reports wishes and discussion 
+* related to **Bitwig Studio** into the [KVR Thread](http://www.kvraudio.com/forum/viewtopic.php?f=268&t=502948).
+* related to **Cockos Reaper** into the [Reaper Forum Thread](https://forum.cockos.com/showthread.php?p=1988209).
+
+## Download latest Release
+Always download the latest release from [my homepage](http://www.mossgrabers.de).
 > **The version on GitHub might always be in an alpha or beta state, you have been warned!**
 
-List with [Changes](Bitwig/Changes.md)
+List with [Bitwig Changes](Bitwig/Changes.md)
+List with [Reaper Changes](Reaper/Changes.md)
 
-## Documentation & Tutorials
+## Video Tutorials
 
 There are several in-depth video tutorials available on my [Youtube channel](https://www.youtube.com/channel/UCMgtq3iKqYamt9C-xbxwjTA).
 
-First start with the [Installation instructions](Bitwig/Installation.md).
+## Installation & Feature Documentation
+
+For **Bitwig Studio** follow the [Bitwig Installation instructions](Bitwig/Installation.md).
+For **Cockos Reaper** follow the [Reaper Installation instructions](Reaper/Installation.md).
+
 After that check the specific controller documentation below for additional installation notes:
 
 * Ableton

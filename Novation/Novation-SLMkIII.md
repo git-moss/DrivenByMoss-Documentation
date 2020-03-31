@@ -1,4 +1,4 @@
-# Bitwig Studio | Novation SL Mk III
+# Novation SL Mk III
 
 Support for Novations' SL Mk III controller.
 
@@ -29,7 +29,7 @@ Support for Novations' SL Mk III controller.
 
 * Hold the Clear button and move an encoder to reset a value to its default value in all modes.
 * Hold the Duplicate button and press one of the Select buttons below the display to duplicate an item.
-* Hold the Clear button and press one of the Select buttons below the display to remove an item (currently not supported due to Bitwig API limitations).
+* Hold the Clear button and press one of the Select buttons below the display to remove an item.
 * Hold the Shift button when using the Encoders for fine increment value changes.
 
 ### Options Mode
@@ -137,4 +137,4 @@ are drawn in the color of the selected drum pad.
 
 ## Preferences Dialog
 
-You can set several preferences which are stored when you exit Bitwig.
+You can set several preferences which are stored when you exit the DAW.

@@ -1,0 +1,769 @@
+# Changes for Cockos Reaper
+
+## 8.95 (unreleased)
+
+* APC / APCmini
+  * Fixed: Fixed a crash in Raindrop sequencer
+* Launchpad
+  * Fixed: Fixed a crash in Raindrop sequencer
+* Komplete Kontrol Mk 1
+  * Fixed: Modulation wheel did trigger button press of the main encoder
+* Push 1/2
+  * Fixed: Shift+New did also activate Record but should not
+  * Fixed: Fixed a crash in Raindrop sequencer
+  * Push 2: Clip Mode in midi grid layout did not show the notes
+
+## 8.94
+
+* All devices
+  * Fixed: Creating sequencer notes was broken
+* Generic Flexi
+  * New: Commands to edit 64 user parameters (controls track fx parameters). See commands in new category User.
+  * New: The MIDI channel for the keyboard (or pads if it is a pad controller) can be explicitly set (previously it was fixed to channel 1). It can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played. Note: If you have selected All for the channel the note is blocked on all channels!
+  * New: Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can now automatically be routed to Reaper. You can now turn them off individually if you want to map them to something else.
+* Launchpad
+  * New: Option to remove the master track from the track bank (requires restart of extension).
+  * New: Pro: Disabled Delete button if used without button combination to prevent accidential deletions. 
+  * New: Pro: Added user mode (controls track fx parameters). Press USER button to enter. Scene buttons switch between the 8 pages of 8 parameters.
+* OSC
+  * New: Added user parameters (controls track fx parameters).
+  * Fixed: Changing output server/port did still not work.
+* Push 1/2
+  * New: Added User mode (controls track fx parameters). Allows to map 64 parameters. Press USER button to enter. Setup on Push 1 is now Shift+USER.
+
+## 8.93
+
+* All devices
+  * Fixed: Pressing OK button in configuration dialog removed the extension.
+
+## 8.92
+
+* All devices
+  * New: Added version information to Windows DLL
+  * Fixed: Temporary freezes of the Reaper UI with heavy CPU plugins with lots of parameters
+  * Fixed: Shutdown was not fully completed after JVM was stopped.
+* Launchpad
+  * Fixed: Note selection was activated when coming from a non-note mode but should not.
+
+## 8.91
+
+* All devices
+  * Fixed: Pitchbend and Modulation Wheels did not work.
+* Generic Flexi
+  * New: Improved handling of Program Change as source. For trigger commands also a *button up* is executed; for continuous commands the value of the PC is sent (and not always replaced with 127).
+  * New: Patch Bank Selection, see Generic Flexi documentation for more info. But this is currently not that helpful with Reaper since all settings are global.
+* Launchpad
+  * New: Easier selection of note modes. Pressing the note button brings up a menu where you can directly select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes.
+  * New: Changing note length does now also work in Poly Sequencer
+  * New: Inverted back the clip/scene scroll direction (was also not conform with the LED lighting)
+  * Fixed: Displaying longer notes did not work in Poly Sequencer
+* Maschine Mikro 3
+  * Fixed: Removed restriction that drum octave could only be changed if a clip was active.
+* MCU
+  * New: Group/Write Automation changed to trigger Latch automation
+  * New: Support for Read/Trim automation mode
+* Push 1/2
+  * New: Support for *Read/Trim* and *Latch Preview* automation modes
+  * New: Inverted back the clip/scene scroll direction
+  * New: Changing note length does now also work in Poly Sequencer
+  * Fixed: Displaying longer notes did not work in Poly Sequencer
+
+## 8.80
+
+* All devices
+  * New: The project start time, which can be configured in the project settings, is now added to the displayed time.
+  * Fixed: jna-platform.jar file was missing. E.g. caused the file dialog in the Generic Flexi to crash.
+  * Fixed: Blinking pads in simulator UI did not work
+  * Fixed: Mapping of CC commands to specific values was broken. Mainly affected Kontrol keyboards.
+  * Fixed: Scene/clip scrolling LEDs not indicated correctly. Session birds eye view navigation did not work.
+* Akai APCmini
+  * New: Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
+* Akai APC40 / APC40mkII
+  * New: Change note length or create long notes in the Sequencers (Note, Drum) by pressing a note pad and then a pad right of it.
+  * New: Improved scrolling of browser columns
+  * Fixed: Browser crashed when activated
+* Generic Flexi
+  * New: Added new function: **Clip: Quantize**
+  * New: Added functions for note repeat
+  * New: Added functions for transposing the keyboard
+  * Fixed: Configured knob speed settings were not set on startup
+* Komplete Kontrol A-Series / M32
+  * Fixed: Configured knob speed settings were not set on startup
+  * Fixed: Crashes when scrolling clip page
+* Launchpad
+  * New: Virtual faders support 4 velocity steps (on all models)
+  * New: Activates hardware play mode again when extension is stopped
+  * New: Change note length or create long notes in the Sequencers (Note, Drum, Drum 4, Drum 8) by pressing a note pad and then a pad right of it.
+  * New: Launchpad Pro: Duplicate notes in Drum 4 and Drum 8 sequencers
+  * Fixed: Color of front LED was wrong when mode was changed
+  * Fixed: Cursor left was not lit correctly in Drum 4 and Drum 8 mode
+* Push 1/2
+  * New: Change note length or create long notes in the Sequencers (Note, Drum, Drum 4, Drum 8) by pressing a note pad and then a pad right of it.
+  * Fixed: Master mode only showed up shortly when Master volume knob was touched
+  * Fixed: Configured knob speed settings were not set on startup
+
+## 8.70
+
+* All devices
+  * New: Stop (or toggle playback) also disables record
+  * New: Improved autodetect: Do not add a device if one of the midi ins/outs is already in use. Refresh midi devices before executing the autodetect.
+  * New: Configuration window is now a top level window
+  * New: Added simulator window for each device
+  * Fixed: Some LEDs did not update correctly
+  * Fixed: Duplicating media items from the session view did always duplicate the selected media items.
+* Beatstep
+  * New: Easier switching between note selection and step editing in sequencers. Turning knob left selects play/note select, turning it right selects step editing.
+  * Fixed: Value change on some knobs were flipped (e.g. scrolling browser).
+  * Fixed: The Note Sequencer used the drum mapping and octave shifting.
+  * Fixed: Pads sometimes lit with wrong color after pad was pressed
+  * Fixed: Pads sometimes lit with wrong color after leaving Shift mode
+  * Fixed: Browser mode was canceled when Shift was released
+* Push 1/2
+  * Fixed: Filter active sensing warnings from log console
+  * Fixed: Push 1: Frame mode showed an empty display
+* Launchpad:
+  * New: Non-Pro models: Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
+  * New: Turn of panorama lights for non-existing tracks, instead of showing them centered
+  * Fixed: Launchpad X was not correctly using the velocity faders
+  * Fixed: Fader scaling was wrong (except Launchpad Pro)
+* Komplete Kontrol A-Series / S-Series Mk2 / M32
+  * Fixed: Some buttons did not work (Quantize, Metro, Undo)
+* MCU
+  * Fixed: Record button was not always lit correctly
+* Push 2
+  * New: Added duplicating notes in Note, Drum, Drum 4 and Drum 8 sequencers. Keep Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+  * New: Tempo and Position knobs only show their value as a popup notification. The metronome settings can now be accessed by long-pressing the **Metronome** button. Note: play position text is only updated when playback is active!
+  * Fixed: Layout of Touchstrip mode was not updated to new features on Push 1
+  * Fixed: Play view was not active on a newly added track
+* SL MkIII
+  * Fixed: Crash when selecting track again to enter device mode
+
+## 8.60
+
+* All devices
+  * New: Color drum pads in the tracks color
+* AutoColor
+  * Fixed: Crashed on startup
+* Launchpad
+  * New: Drum 4 and Drum 8 Sequencers: draw longer notes in darker color
+* Mackie MCU
+  * New: Added an explicit setting for devices with only 1 channel ("Has only 1 fader"), e.g. the Behringer X-TOuch One. For devices with the normal 8 channels the select button now works again in marker and device mode.
+  * New: Send button states for function keys (F1-F5) which turns on the LED if the device has one and supports it (e.g. Behringer X-Touch One).
+  * New: Knob LEDs in device mode show only one dot
+  * Fixed: Knob speed was too slow
+  * Fixed: Knob LEDs were off when panorama was fully left
+* Maschine Mikro Mk3
+  * Include Bitwig template as Template (Bitwig.ncmm3) again, not the full Memory dump (Bitwig.ncc).
+  * You need to load this new template into the Maschine (Bitwig.ncmm3) first (due to changes to the Touchstrip settings).
+  * New: Change note repeat period and length via ribbon (MOD: CC1, CC11; PERFORM: Master Volume; NOTES: Note Repeat Period / Length)
+  * New: The touchstrip LEDs are updated matching the selected mode.
+  * New: Pitchbend modes of touchstrip return to zero setting when finger is released.
+  * New: Flipped direction of Pitchbend Down Mode of touchstrip to match the LEDs.
+  * New: Added setting "Action for pressing rec armed empty clip"
+  * New: Erase+pad deletes scene, clip, track (depending on the selected mode)
+  * New: Duplicate+pad duplicates scene, clip, track (depending on the selected mode)
+  * New: Browser+pad in Clip Mode opens the browser to load a clip
+  * New: Stop+pad in Clip Mode stops the clip. Clips queued to be stopped are now lit in dark green
+* Native Instruments Kontrol 1
+  * Fixed: Did crash when there was not track in the project
+* Push 1/2
+  * New: Long press notes in Drum, Drum 4 and Drum 8 Sequencers to edit it.
+  * New: Drum 4 and Drum 8 Sequencers: draw longer notes in darker color
+  * New: Slow down value changes in note repeat mode
+  * New: Change note repeat period and length via ribbon
+  * Fixed: Fixed Length button was lit when volume mode was active
+
+## 8.51
+
+* All devices
+  * Fixed: Log output was not visible on startup.
+  * Removed support for Arturia Beatstep Pro due to too much limitations (use Generic Flexi instead).
+* APC40
+  * New: Changed direction of session-clip/scene scrolling
+* Mackie HUI
+  * New: Added support for icon Master fader extension
+  * New: Insert buttons select track
+  * New: Added (HUI QICK PUNCH) - Toggle Punch In
+  * New: Added (HUI IN) - Toggle Punch In
+  * New: Added (HUI OUT) - Toggle Punch Out
+  * New: Added (HUI ON LINE) - Toggle Audio Engine on/off for current project
+  * New: Added (HUI RETURN TO ZERO) - Return the play cursor to the start of the arranger
+  * New: Improved unmute/unsolo all tracks
+* Native Instruments Kontrol 1
+  * New: Improved speed of knobs
+  * New: Changed direction of session-clip/scene scrolling
+* Launchpad
+  * New: Added Poly Sequencer
+  * New: Delete + Scene button in Session view deletes the scene
+  * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
+  * New: Sends mode: Display name of sends when selected
+  * New: Light buttons brighter when pressed
+  * New: Flipped Up/Down button in Device mode
+  * New: Changed direction of session-clip/scene scrolling
+  * New: Added notification messages to Shift view
+  * New: Used several colors in Shift view for easier function identification
+  * Fixed: Duplicate did not work on non-pro models
+* Maschine Mikro Mk3
+  * You need to load the new template into the Maschine (Bitwig.ncc) first
+  * New: Use multiple colors on pads
+  * New: Added note repeat (long press note view to change settings)
+  * New: Pressing the encoder button always toggles between slow/fast value change, except tempo (tap tempo) and browser mode (confirm selection)
+* OSC
+  * New: Added commands for note repeat (/vkb_midi/noterepeat/...)
+  * New: Added /track/hasParent {0,1}
+* Push 1/2
+  * New: Delete + Scene button (in Play, Piano, Drum 64, Session view): Delete the scene
+  * New: Delete + pad in scene play mode: Delete the scene
+  * New: The quantize mode now contains the record quantization configuration as well
+  * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
+  * New: Buttons are lit brighter when pressed
+  * New: Changed direction of session-clip/scene scrolling
+  * New: Scrolling scenes in scene play view scrolls whole 64 scenes
+  * Fixed: Push 1: Header text in Master mode was missing
+* SL MkIII
+  * New: Changed direction of session-clip/scene scrolling
+
+## 8.40
+
+* New: Do not display note feedback from muted media items
+* New: Switched to "MIDI Arpeggiator" instead of "MIDI Note Repeater" for Note Repeat.
+  This requires a fix on the MIDI Arpeggiator JS plugin to make the note length work:
+  Increase the note length step resolution from 0.1 to 0.001 like this:
+    slider2:1<0.01,1,0.001>Note Length
+* New: Support for Novation Launchpad X
+* New: Support for Novation Launchpad Mini Mk3
+* Fixed: Controller instance was not stopped when deactivated
+* Launchpad
+  * New: Shift mode: Enable note repeat and set the note repeat period and length with the pads in the middle
+* Maschine Mikro Mk3
+  * New: Added note repeat settings
+* OSC
+  * New: Added commands for note repeat
+* Push 1/2
+  * New: Added note repeat, long press Repeat button for configuration settings
+  * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
+
+## 8.30
+
+* New: Speed up browsing filter columns
+* Fixed: Last item in a browser filter column could not be selected.
+* Support for Novation Launchkey Mini Mk3
+* Launchpad MkII
+  * Fixed: The Play and New functions in Shift mode were switched.
+  * Fixed: Sequencers were not available
+* MCU
+  * Fixed: Do not set pan mode on fader touch release when volume mode was active before.
+* OSC
+  * Fixed: OSC did crash on startup
+  * Fixed: Calls to /track/x/clip did not work
+
+## 8.21
+
+* Fixed: Endless recursion when accessing clips
+
+## 8.20
+
+* New: Improved auto-detect of some devices. Added CoreMidi4J prefix support on Macos.
+* Ableton Push
+  * New: Added info to the browser mode about if insert or replace is happending and 
+         selected track.
+  * New: Added aftertouch processing to Drum and Drum 64 mode.
+  * Fixed: Blinking on queued clips did not work
+* Launchpad Pro/MkII
+  * New: All tracks are displayed (incl. fx and master track)
+  * New: Shift-mode can now also be accessed from the Session mode. To access the Bird-Eye 
+         view of the Session mode long press the Session button.
+  * New: Optimized Shift-mode, Scene buttons select (again) the Mix-mode of MkII, they 
+         have no function on the Pro. First row of buttons select the length of new clips 
+         on both models.
+  * New: Sequencers are now available.
+  * New: Pro: Added aftertouch processing to Drum and Drum 64 mode.
+  * Fixed: Blinking on queued clips did not work
+  * Fixed: Page Left LED indication in Note and Raindrops Sequencer was not correct.
+  * Fixed: Play in Shift mode of MkII did not work (triggered toggle loop instead).
+  * Fixed: Mixer-LED on MkII was not lit.
+  * Fixed: Play-Layout was not set when first time switching between Session and Play.
+  * Fixed: Stop-Clip mode could not be activated on MkII
+* Maschine Mikro MkIII
+  * New: Show info text when Duplicate is enabled
+  * New: Added template with required settings to the resources folder.
+  * New: Added flip arranger and clip recording option
+* MCU
+  * New: Added preset for Behringer X-Touch One
+  * New: If device or marker mode is active, do not change track with MCU_SELECT (necessary 
+    for 1 channel controllers like Behringer X-Touch One)
+* Native Instruments Komplete S-MkII, A-series/M32
+  * New: You can now set the speed of the knobs in the settings.
+
+## 8.11
+
+* All devices
+    * New: Detect button for auto-detecting connected devices.
+    * New: Many performance improvements: Some updates were put on a slower thread, track 
+      chunk only is read and analysed if playback is stopped, GUI only gets created if 
+      dialog is opened, ...
+    * Fixed: Layout of Debug dialog
+* MCU
+  * New: Added new function key option "Toggle use faders like editing knobs".
+* Native Instruments Komplete S-MkII, A-series/M32
+	* Fixed: Definition files were mixed up and therefore the devices did not work properly
+* Push 2    
+    * Fixed: Display preview window did not update and window layout was wrong
+
+## 8.10
+
+* All devices
+  * New: Added new scales
+  * New: Added a Debug dialog where you can test to deactivate update routines
+  * Fixed: Creating clips did not start recording.
+  * Fixed: Send values were always sent for Send 1.
+  * Fixed: Only use send envelopes when active
+* APCmini
+  * Fixed: Sometimes the pad grid was not drawn after startup, since the APCmini is slow to be ready for receiving commands.
+* APC40mkI/mkII, APCmini, Launchpad MkII/Pro, Novation SL, Push
+  * Fixed: Deactivate all sequencers if no clip is selected. This caused weird effects if 
+    the grid resolution of the sequencer was changed with no clip selected and then a clip
+    was selected.
+* Beatstep Pro
+  * Fixed: Some knobs did not toggle its value
+* Mackie HUI
+  * Fixed: Crash on startup and shutdown if Display was active
+* Native Instruments Komplete S-MkII, A-series/M32
+  * New: The extension is now split up into two. One for the S-series and one for the A-series/M32. You need to add your Kontrol device again.
+* Novation SLMkIII
+  * New: Notification messages are also displayed on the SL display
+  * New: Firmware version is displayed on startup
+* OSC
+  * New: /playbutton - Toggles playback, you can configure the Stop behaviour in the configuration settings
+  * Fixed: All /vkb_midi commands did crash
+* Push
+  * Fixed: Display a message if no clip is selected in clip mode
+  * Fixed: Octave buttons were not updated in sequencer modes.
+
+## 8.00
+
+* All devices
+  * Fixed: Changing track selection did not correctly adjust the track bank page on the device (except Push)
+* Komplete Kontrol A-Series / M32
+  * Fixed: Track name was not displayed
+* Novation Remote SL Mk III
+  * New: Added setting to disable the faders (to prevent accidently changing volume)
+* Push 1/2
+  * New: Changed layout of Repeat configuration settings (long press Repeat button)
+  * New: Changed the layout of the quantize/groove mode
+  * New: Implemented editing of note parameters: length and velocity
+  * New: Session: The octave and page buttons navigate the pages of the session grid
+  * New: Push 1: Show longer track/layer names in Details mode
+  * New: Push 1: Indicate volume with one bar when VU is active
+  * New: Push 2: Improved layout of transport mode
+  * New: Push 2: Only redraw display image if something has changed
+  * Fixed: Stepping out of track folders did skip a level
+  * Fixed: Do not close transport mode when accidently tempo or position knob is touched.
+  * Fixed: Push 1: Groove mode crashed
+  * Fixed: Push 1: Layout of panorama on max right
+  * Fixed: Push 1: Send modes could not be accessed
+  * Fixed: Push 2: Notification messages were not shown on the display
+
+## 7.05
+
+* Generic Flexi:
+  * New: Commands to set Solo, Mute, Rec Arm, Monitor and Auto Monitor (in addition to toggle).
+* Launchpad MkII
+  * Fixed: Blinking of playing clips did not work
+* Push 1
+  * Fixed: Do not send color palette request, which is only working for Push 2
+
+## 7.04
+
+* All devices
+  * New: Note feedback is implemented. Playing notes from MIDI clips are shown in play and drum views.
+  * Fixed: Parameter updates are only slowed down if automation writing is enabled
+  * Fixed: Setting automation mode sometimes addressed the wrong track  
+* Ableton Push 2
+  * Fixed: Improved stability writing the color palette
+* Komplete Kontrol MkII
+  * New: Added Send mode (CLEAR button to toggle). Edit all sends of the selected channel.
+  * New: Add track number to mixer view channels
+  * New: Added Recording Option: Toggle Rec Arm State of selected track
+  * New: Now, first checks if the selected device on the selected channel is a Komplete 
+    Kontrol devcice, if not the first instrument device is checked. This way you can edit 
+    multiple Komplete Kontrol instances on a channel.
+
+## 7.03
+
+* All devices
+  * New: Reflect automation changes on device (Volume, Pan, Mute, Send Volume)
+  * New: Support for displaying and setting the color of the master track.
+  * New: Support for Automation modes on master track.
+  * Fixed: Writing Automation did not always work
+* Ableton Push 2
+  * New: Set a new color palette for the pad LEDs and improved the algorithm to calculate the closest available color.
+  * Fixed: The default note view is set to Play again, was Drum View.
+* APC40
+  * Fixed: All views except Play View were drawn wrong.
+* Komplete Kontrol MkII
+  * New: Added a parameter/device mode (CLEAR button to toggle)!
+* Maschine Mikro MkIII
+  * Fixed: Display warning when no device is selected in parameter mode
+  * Fixed: Indicate non-existing parameters as "None" in parameter mode
+* MCU
+  * Fixed: Jogwheel jumped back one step after movement ended
+* Novation Remote SL Mk III
+  * Fixed: Drawing of track and device modes were wrong when no track was selected (2nd try).
+  * Fixed: Another crash in the browser.
+* OSC
+  * Fixed: Open Stage Control template produced a crash if the master volume was changed.
+
+## 7.02
+
+* Novation Remote SL Mk II
+  * Fixed: Drum pads did not work
+  * Fixed: Crash displaying send and master track
+* Novation Remote SL Mk III
+  * New: The browser result name is now shown in two columns
+  * Fixed: Drawing of track modes were wrong when no track was selected
+  * Fixed: Track could not be added when no track was selected
+  * Fixed: Browser mode could crash if a non-existing filter column was selected
+  * Fixed: Button long press events caused unnecessary warnings in the log
+  * Fixed: Keyboard did not work
+  * Fixed: Implemented a workaround for button LEDs being lit when knob or fader values were changed on Windows (bug with MIDI Sysex in JDK).
+* OSC
+  * New: Added layer tab to Open Stage Control template.
+  * New: Added sending of /device/layer/selected/{attributes}
+  * Fixed: Some types used "selected" and some "select". Both can be used now.
+  * Fixed: Fixed location of master track in Open Stage Control template for 0.47.1.
+* New: Updated to OpenJdk 11.0.3+7
+* New: Faster calculation of browser results
+* Fixed: Navigating parameter pages with cursor keys did not work
+* Fixed: flush was still called when a device was set to be deactivated
+
+## 7.01
+
+* Fixed: Reaper INI was not read on Linux.
+* Arturia Beatstep
+  * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
+* Generic Flexi
+  * Fixed: MMC commands with device IDs > 15 did not work.
+* Novation SL Mk III
+  * New: Route all 16 MIDI channels to Reaper (not only channel 1)
+
+## 7.0
+
+* New: Added support for Novation SL Mk III
+* Fixed: scrolling of parameter pages by page bank did not work (e.g. Shift + cursor left/right on Push)
+* Ableton Push 2
+  * New: Deactivated channels and layers are drawn in dark colors
+* Komplete Kontrol Mk II / A-series / M32
+  * New: Light record button as well on clip recording and clip overdub
+
+## 6.4
+
+* Generic Flexi
+  * New: The speed (fast and slow) for relative knob changes can be configured
+  * New: A command can be assigned to be the Shift button (Global: Shift Button), which gives extra functionality if combined with another control (e.g. Play, Rewind, Forward and Knob Speeds).
+* Komplete Kontrol
+  * New: Mapping of first Komplete Kontrol parameter is no longer necessary
+  * New: Improved automatic lookup
+* Changed storing of Reaper settings to prevent corruption of ini file.
+  
+## 6.3
+
+* Generic Flexi
+  * New: Added setting to store the last selected mode
+  * New: MIDI CC is now available as a function destination
+* Komplete Kontrol
+  * New: Added setting to flip the track/clip navigation of the encoder knob
+  * New: Added setting to flip the clip and scene navigation of the encoder knob
+  * New: Added setting to set the length of new clips
+  * New: Added setting to set the behaviour on transport stop
+  * New: Added M32 to the extension name
+* Fixed: Navigation from and to master track was reversed.
+
+## 6.2
+
+* APC40
+  * New: Shift mode stays active until you release the Shift key.
+  * Fixed: Clip indicator was not displayed.
+* Launchpad Pro
+  * Improved 2 colors.
+* Komplete Kontrol
+  * Fixed: Record option "Record clip" did not start recording when transport was stopped.
+* Midi Monitor
+  * New: Log system realtime events
+  * New: Setting to filter system realtime events
+* Push 1/2
+  * New: You can now tweak the speed of the knobs in the settings (Workflow -> Knob Speed Normal / Knob Speed Slow)
+* Fixed: Did crash Reaper on startup if UserPlugins folder was located in a path with non-ASCII characters.
+
+## 6.1
+
+* Generic Flexi
+  * Fixed: Exception when Send volume was mapped/changed and a FX or the Master track was selected.
+* Komplete Kontrol
+  * New: Added information about mute state due to soloed track(s)
+  * New: Added more selected track information to confirm to updated protocol
+  * New: Added scene navigation and play
+  * New: Slowed down knob change rate on MkII
+* OSC
+  * New: You can now configure the value range. So far, this was 128. Now you can increase the range to 1024 or 16384. Note that you also need to configure the widgets in your OSC client accordingly.
+* Fixed: NullPointerException on hierarchical track navigation
+* Fixed: A Jar file was missing in the 6.0 release.
+* Fixed: Toggling Note Repeat did not work
+
+## 6.0
+
+* Generic Flexi
+  * New: Use native dialog for selecting the configuration file.
+  * Fixed: Fixed a typo (CC40 was named CC30).
+* Komplete Kontrol
+  * Switched to new MIDI protocol
+  * Support for A-series and M32
+* Mackie HUI
+  * Support added
+* Mackie MCU
+  * Fixed: Knob LED was not turned off on non-existing tracks for panorama mode.
+* OSC
+  * Fixed: Reduced the size of a OSC bundles to stay below 64 Kb, which is the maximum for an UDP packet.
+* Push
+  * Automation could not be activated if an effect track or the master track was selected.
+
+## 5.91
+
+* OSC
+    * Fixed: Reduced the size of a OSC bundles to stay below 64 Kb, which is the maximum for an
+      UDP packet.
+
+## 5.90
+
+* Beatstep
+    * Fixed: Track and Device mode selection did not work.
+* Maschine Mikro Mk3
+    * Fixed: Pan and Send modes could not be switched.
+* MCU
+    * Display mode names for Track, Volume and Sends. Send modes also display the name of the send.
+    * You can flip backwards through the send modes with Shift+Send.
+
+## 5.80
+
+* Launchpad
+    * Fixed: Switching of Note and Sequencer did not work (only if also Push 1/2 was running)
+
+## 5.70
+
+* Launchpad
+    * New: The Bootloader and Firmware version is now logged to the console
+    * New: Pro: The user button acts now like the Shift button
+* MCU
+    * New: Option + one of the Mute buttons: Deactivate all mutes
+    * New: Option + one of the Solo buttons: Deactivate all solos
+* Push 1/2
+    * New: Select + Mute: Deactivate all mutes
+    * New: Select + Solo: Deactivate all solos
+
+## 5.60
+
+* MCU
+    * Fixed: Removed unescessary clip indication.
+* Midi Monitor
+    * Fixed: System Exclusive formatting was wrong.
+    * Fixed: Check for MMC was wrong.
+* OSC
+    * Fixed: Track selection did not work when using only "select" and/or did not set 1 as parameter.
+    * Fixed: Decimal changes of tempo did not work.
+    * Fixed: /device/layer/{1-8}/send/{1-8}/volume and /device/layer/{1-8}/send/{1-8}/volume/touched
+
+## 5.50
+
+* New: Integrated DrivenByMoss 5.5
+    * New: There is now only one version number, the number of DrivenByMoss, and one changes file in the Wiki.
+    * New: Extension Midi Monitor added
+    * Fixed: Scene navigation with cursors was broken on most devices
+    * Ableton Push / Push 2 11.04
+        * Fixed: Clip indication was broken
+
+## 5.30
+
+* New: Integrated DrivenByMoss 5.30
+    * Added new Midi Monitor extension.
+    * Renamed Utilities extension to Auto Color
+* Fixed: Removed stretching of dialog configuration widgets when only a view elements are present.
+
+## 5.20
+
+* New: Integrated DrivenByMoss 5.20
+    * Ableton Push / Push 2 11.04
+        * New: Use Shift+Octave Up/Down in Drum Sequencer modes to move the pads by 4.
+        * Fixed: Marker mode was broken.
+    * Akai APC40 / APC40mkII 5.20
+        * New: Changed Nudge- to Undo and Nudge+ to Redo.
+        * New: Flipped functionality of "Detail View" (is now "Toggle plugin window") and Shift+"Details View" (is now "Step through the layout perspectives").
+        * New: Drum sequencer: The highlighted grid in the drum machine now only show the 12 pads. The scene buttons 1/2 move the pad view by 4. The scene buttons 4/5 move the pad view by 12 (previously 16).
+        * Fixed: "Step through the layout perspectives" did not work on some display profiles.
+    * Generic Flexi 2.2
+        * New: Added commands to control Browser filter columns 7 and 8.
+        * New: Added Browser mode.
+        * New: Added absolute mode for toggle buttons.
+        * New: Added support for MMC.
+        * New: Added "Transport: Rewind" and "Transport: Fast Forward"
+        * New: Select buttons in Parametermode select parameter pages instead of devices.
+        * Fixed: Removed duplicated function "Transport: Set Crossfader", use "Master: Crossfader" instead.
+        * Fixed: Mode knobs did always use relative mode 1, even if 2 or 3 was selected.
+        * Fixed: Values of Track-, Volume- and Parametermode were not reflected correctly back to the device.
+        * Fixed: Prevent console warnings when values go out of bounds in relative modes.
+* New: Added an action to open the DrivenByMoss extension window (search for "DrivenByMoss" in the action list).
+* New: The DrivenByMoss extension and configuration windows can now be closed with the Escape key.
+
+## 5.10
+
+* New: Integrated DrivenByMoss 5.10
+    * Native Instruments Komplete Kontrol 1 S25, S49, S61, S88 1.1
+        * New: Improved displayed scale colors. Only the root note is now displayed in the track color. All other notes are colored in white. Played note are in green or red if recording. Furthermore, sequenced notes are also displayed in green.
+        * New: If a track with a drum device is selected the keyboard LEDs display the according slot colors.
+        * New: Keyboard range is displayed on screen and display if changed.
+        * New: SHIFT+BACK - Toggles monitor on the selected track.
+        * New: SHIFT+ENTER - Toggles rec arm on the selected track.
+    * Generic Flexi 2.1
+        * New: Added command: "Device: Parameters"
+    * Generic Utilities 1.0 added (AutoColor)
+* New: Controllers can be deactivated so they do not use any resources when they are 
+       not connected.
+* New: Speed up of Java/C++ communication; fixes lag of controller playing
+* New: Menu for adding controllers is now hierarchical
+* New: Improved folder navigation
+* New: Implemented sending of Escape and Enter key to Reaper (used by MCU protocol, only Windows & macOS)
+* New: Implemented transport restart function (used by Generic Flexi and OSC)
+* Fixed: Toggling of plugin window did not work
+* Fixed: MIDI editor is no longer closing when executing quantize from a controller, 
+         if it was already open.
+
+## 5.02
+
+* Fixed: Widgets in configuration dialog did not always update their values correctly.
+* Fixed: The integrated Java VM did not contain the accessibility module. Therefore,
+         DrivenByMoss crashed on system with enabled accessibility support.
+
+## 5.01
+
+* Fixed: "error -99" on Macos with Push 2.
+* Fixed: NullPointerException in Color Picker, if Cancel is selected.
+
+## 5.00
+
+* Integrated DrivenByMoss 5.0
+    * Open Sound Control (OSC) protocol - 6.12
+        * Fixed: Potential synchronisation issue when sending OSC messages.
+    * Generic Flexi -  2.0
+        * New: Completely new settings user interface
+        * New: Support for modes: Track, Volume, Panorama, Send 1-8, Parameters
+        * New: Support for using Pitchbend as a controller
+        * New: Added command: "Master: Crossfader"
+        * Fixed: Blocking notes which are mapped to a command did only work after restart.
+        * Fixed: "Send value to device" did always send on midi channel 1.
+* Bundled Java Virtual Machine for easier installation
+
+## 4.03
+
+* Integrated DrivenByMoss 4.03
+    * Ableton Push / Push 2 - 11.03
+        * Fixed: Fixed resetting of Push 2 display colors.
+    * Novation Launchpad Pro & MkII - 3.45
+        * Fixed: Transposing the piano view was broken
+* Fixed: New tracks with no name did sometimes not turn up until given a name
+
+## 4.02
+
+* Integrated DrivenByMoss 4.02
+    * Ableton Push / Push 2 11.02
+        * New: Mute and Solo work now in all modes (not only in track modes).
+        * Fixed: Fixed a crash in the Browser.
+* Fixed: The track for setting the automation mode was off by 1.
+* Fixed: Komplete Kontrol 2 plugin browsing and selection works now.
+
+## 4.01
+
+* Integrated DrivenByMoss 4.01
+    * Ableton Push / Push 2 11.01
+        * New: Push 2: You can now use Delete+Touch knob in the Setup mode to reset the values to its default.
+    * Open Sound Control (OSC) protocol 6.11
+        * Fixed: Changed midi channel range for /vkb_midi to 1-16 to be consistent to all other numberings, which start with 1. Furthermore, fixed the documentation which indicated 0-16.
+    * Novation Launchpad Pro & MkII 3.44
+        * Fixed: Flipped session view triggered the wrong clips
+        * Fixed: Temporary modes Rec Arm, Track Select, Mute, Solo and Stop Clip did not return to previous views.
+* Fixed: Setting sequencer "loops" was broken.
+* Fixed: Push 2: Changing values in Setup mode was buggy.
+
+## 4.00
+
+* Integrated DrivenByMoss 4.00
+    * Mackie MCU - Changes 2.63
+        * Fixed: Crash if Marker mode was selected and Assignment display was enabled.
+    * Native Instruments Komplete Kontrol 2 S49, S61 * Changes 1.20
+        * Fixed: Mute and Solo did not work on Hybrid tracks
+    * Maschine Mikro Mk3
+        * Initial release
+
+## 3.31
+
+* New: Clip Loop parameter turns on/off the media items "Loop item source" parameter.
+* Fixed: Recording Track Automation did not work.
+
+## 3.30
+
+* New: Integrated DrivenByMoss 3.30.
+* Fixed: Push 2: Clip piano roll: Note texts could not be seen when notes were black.
+* Fixed: Scrolling of clips did not work.
+
+## 3.20
+
+* New: Integrated DrivenByMoss 3.20.
+* New: Repeat can be enabled (this uses an Arp in the channel insert). Long press Repeat button to set the speed.
+* New: Using 'New' to create a clip does not start recording anymore for easier use with sequencers.
+* Fixed: Creating a new clip did not set the selection state correctly.
+
+## 3.02
+
+* Fixed: Scrolling tracks on Push 1/2 was broken when folders are in the project.
+
+## 3.01
+
+* Fixed: Tracks without a name did not show up.
+* Fixed: New clip did sometimes not work.
+* Fixed: Notes in Sequencer were not updated when clip was deselected and selected again.
+
+## 3.00
+
+* New: Replaced the Reaper EEL backend with a C++ implementation.
+* New: Support for clips
+* New: Support for scenes
+* New: Support for markers
+* New: Support for sequencers
+
+## 2.10
+
+* New: If supported by the Java/OS platform the application is run as a tray icon.
+       Closing the app minimizes it to the tray. Double click the tray icon to show it again.
+       Right click on the tray icon to show the context menu with the options to show
+       the application or to exit it. If Auto-run is enabled, the app is automatically minimized
+       on startup.
+* New: The console window is no longer shown on startup.
+* New: 64 drum pad view for Ableton Push and Novation Launchpad Pro / MkII.
+* New: Bank page is now automatically adjusted on controller if changed in Reaper.
+* Fixed: Midi In-/Outpus were not correctly restarted when Configuration dialog was closed.
+* Fixed: Push 2 preview display window was still drawn when hidden.
+* Fixed: Push 2 preview display window producerd OutOfMemoryExceptions after a while.
+
+## 2.03
+
+* Fixed: The Reaper start path was not stored.
+
+## 2.02
+
+* Fixed: Could not start Reaper when spaces are included in the path.
+
+## 2.01
+
+* New: Added more logging information for loading Reaper INI files
+
+## 2.00
+
+* New: Initial release after switching to Java

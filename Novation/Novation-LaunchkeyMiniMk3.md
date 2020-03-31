@@ -1,4 +1,4 @@
-# Bitwig Studio | Novation Launchkey Mini Mk3
+# Novation Launchkey Mini Mk3
 
 Support for the Novation Launchkey Mini Mk3 controller.
 
@@ -89,4 +89,4 @@ Note: Do only change the pad display, not the knob settings!
 
 ## Preferences Dialog
 
-You can set several preferences which are stored when you exit Bitwig.
+You can set several preferences which are stored when you exit the DAW.

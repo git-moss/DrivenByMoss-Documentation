@@ -1,9 +1,9 @@
-# Bitwig Studio | Generic Flexi
+# Generic Flexi
 
 Supports any MIDI controller with 1 midi in-/output.
 
 Open the settings to configure your device. First, select the input and output of your MIDI controller.
-You have 200 slots to map buttons, knobs, faders, etc. to a function in Bitwig.
+You have 200 slots to map buttons, knobs, faders, etc. to a function in your DAW.
 
 Select the slot in which you want to put a mapping.
 
@@ -98,4 +98,4 @@ After that up to 127 lines with program names can follow (you can have less).
 If your controller has a keyboards or pads you can enable it by configuring the MIDI channel. The MIDI channel can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played.
 **Note**: If you have selected All for the channel the note is blocked on all channels!
 
-The Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can automatically be routed to Bitwig. Turn them off if you want to map them to something else.
+The Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can automatically be routed to your DAW. Turn them off if you want to map them to something else.

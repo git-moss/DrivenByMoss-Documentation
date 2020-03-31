@@ -1,4 +1,4 @@
-# Installation
+# Installation for Bitwig Studio
 
 Get the latest stable release from [my homepage](http://www.mossgrabers.de/Software/Bitwig/Bitwig.html).
 

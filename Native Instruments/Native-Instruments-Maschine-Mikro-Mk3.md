@@ -1,4 +1,4 @@
-# Bitwig Studio | Native Instruments Maschine Mikro Mk3
+# Native Instruments Maschine Mikro Mk3
 
 Support for Native Instruments Maschine Mikro Mk3.
 

@@ -1,4 +1,4 @@
-# Bitwig Studio | Ableton Push / Push 2
+# Ableton Push 1 / 2
 
 Support script for Ableton's Push 1 and Push 2 controller. You can control track parameters, devices, transport, session view and play the pads.
 
@@ -262,7 +262,7 @@ Press _"Note"_ and select *PrgChang* to enter **Program Change** mode.
 
 ## Preferences Dialog
 
-You can set several preferences which are stored when you exit Bitwig. Note that some of them are not available via the Push controller.
+You can set several preferences which are stored when you exit the DAW. Note that some of them are not available via the Push controller.
 
 * Ribbon, Accent, Scale, VU meter and Pad sensitivity settings.
 * Option to convert the Poly Aftertouch of the pads to Channel Aftertouch or a CC.

@@ -1,4 +1,4 @@
-# Bitwig Studio | Akai APCmini
+# Akai APCmini
 
 Support script for Akais' APCmini controller. You can control track parameters, devices and session view.
 

@@ -1,4 +1,4 @@
-# Bitwig Studio | Mackie MCU
+# Mackie MCU
 
 Support script for the Mackie MCU protocol. While this extension supports the Mackie MCU protocol in general I could only test it with the following devices:
 
@@ -8,7 +8,7 @@ Support script for the Mackie MCU protocol. While this extension supports the Ma
 * icon Platform M/M+ with extender
 * Zoom R16
 
-In the following the supported Bitwig features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
+In the following the supported features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
 
 ## Configuration
 
