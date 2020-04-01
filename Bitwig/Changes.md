@@ -1,14 +1,21 @@
 # Changes for Bitwig Studio
 
-## 8.95 (unreleased)
+## 8.95
 
 * APC / APCmini
   * Fixed: Fixed a crash in Raindrop sequencer
+* Generic Flexi
+  * New: Added option to send the LED value even when command is received from the device.
+* Launchpad
+  * New: Poly Sequencer: Currently played sequencer notes are also lit on the play area
+  * Fixed: Fixed a crash in Raindrop sequencer
 * Komplete Kontrol Mk 1
   * Fixed: Modulation wheel did trigger button press of the main encoder
-* Launchpad
-  * Fixed: Fixed a crash in Raindrop sequencer
+* Mackie HUI:
+  * Fixed: New command could not be triggered from footswitch
+  * Fixed: Faders and knobs in simulator view did not work
 * Push 1/2
+  * New: Poly Sequencer: Currently played sequencer notes are also lit on the play area
   * Fixed: Fixed a crash in Raindrop sequencer
 
 ## 8.94

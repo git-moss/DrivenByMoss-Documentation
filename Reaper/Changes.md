@@ -1,17 +1,29 @@
 # Changes for Cockos Reaper
 
-## 8.95 (unreleased)
+## 8.95
 
 * APC / APCmini
   * Fixed: Fixed a crash in Raindrop sequencer
-* Launchpad
-  * Fixed: Fixed a crash in Raindrop sequencer
+* Generic Flexi
+  * New: Added option to send the LED value even when command is received from the device.
 * Komplete Kontrol Mk 1
   * Fixed: Modulation wheel did trigger button press of the main encoder
+* Komplete Kontrol Mk 2
+  * Fixed: Simulator view did not work
+* Launchpad
+  * New: Poly Sequencer: Currently played sequencer notes are also lit on the play area
+  * Fixed: Note mode menu could not be called up from any drum mode
+  * Fixed: Fixed a crash in Raindrop sequencer
+* Mackie HUI:
+  * Fixed: New command could not be triggered from footswitch
+  * Fixed: Simulator GUI did not work
+  * Fixed: DO not light LEDs for non-existing tracks
 * Push 1/2
+  * New: Poly Sequencer: Currently played sequencer notes are also lit on the play area
+  * New: When Automation is turned off it is set to Trim/Read instead of Read.
   * Fixed: Shift+New did also activate Record but should not
   * Fixed: Fixed a crash in Raindrop sequencer
-  * Push 2: Clip Mode in midi grid layout did not show the notes
+  * Fixed: Push 2: Clip Mode in midi grid layout did not show the notes
 
 ## 8.94
 
