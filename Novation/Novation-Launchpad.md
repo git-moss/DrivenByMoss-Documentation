@@ -57,6 +57,8 @@ These differences will not be mentioned again in the following text and **only t
 
 Note: The preferred play/sequencer mode is remembered for each track.
 
+![Overview](./Diagrams/Launchpad/overview.png)
+
 ## Shift Mode
 
 If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The first column (from the left) of the grid now represents the missing left column of the Pro model.
@@ -72,6 +74,8 @@ Further functions (all models):
 * The three green buttons in the right upper corner insert an instrument, audio or effect track.
 * The red button in the lower right corner stops the playback of all clips.
 * The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The pads of the first two columns below change the note repeat period and the other two columns the note length.
+
+![Shift menu diagram](./Diagrams/Launchpad/shift-menu.png)
 
 ## Track Control (Lower button row)
 
@@ -109,9 +113,22 @@ _Long press_ to enter birds-eye-view.
 * Hold **Delete** and press a clip button to delete the clip.
 * Hold **Delete** and press a Scene button to delete the scene.
 
+![Session mode diagram](./Diagrams/Launchpad/session-clip-view.png)
+![Session bird's eye view diagram](./Diagrams/Launchpad/session-birds-eye-view.png)
+
+## Selecting Note or Sequencer Modes
+
+Press _"Note"_ to choose a **Note** or **Sequencer** mode.
+
+* The first three (red) pads represent **Play** modes - Scale, Piano, and Drum64.
+* The second three (blue) pads represent **Drum Sequencer** modes - Drum, Drum4, and Drum 8
+* The final three (orange) pads represent **Note Sequencer** modes - Sequencer, Poly, and Raindrop
+
+![Session mode diagram](./Diagrams/Launchpad/note-mode-selection.png)
+
 ## Note Mode (Playing the pads)
 
-Press _"Note"_ to enter.
+Press _"Note"_  and select the first red pad to change to **Scale** mode.
 
 * The key layout is the same one used with Ableton Push
 * Left/Right buttons change the scale (Major, Minor, etc.)
@@ -120,6 +137,8 @@ Press _"Note"_ to enter.
 * The white scene button toggles between Chromatic and Scale Only  mode.
 * The lower 2 scene buttons change the root note of the scale.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
+
+![Play Mode - Scale](./Diagrams/Launchpad/play-mode-scale.png)
   
 ## Piano Mode
 
@@ -130,11 +149,15 @@ Press _"Note"_ twice to enter.
 * The gray lit pads are the black keys.
 * You get 4 octaves to play with
 
+![Play Mode - Piano](./Diagrams/Launchpad/play-mode-piano.png)
+
 ## Drum 64 play mode
 
 Press _"Note"_ multiple times to select *Drum 64*.
 
 This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
+
+![Play Mode - Drum64](./Diagrams/Launchpad/play-mode-drum64.png)
 
 ## Sequencer Functions common to all sequencers (except Raindrop)
 
@@ -148,42 +171,53 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 
 ## Sequencer Mode
 
-Press _"Shift+Note"_ to enter the **Sequencer** mode:
+Press _"Note"_  and select the first orange pad to enter the **Sequencer** mode:
 
 * The pads display an 8x8 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
 
+![Sequencer Mode - Sequencer](./Diagrams/Launchpad/note-sequencer-sequencer.png)
+
 ## Poly Sequencer
 
-Press _"Shift+Note"_ two times to change to the Poly Sequencer:
+Press _"Note"_ and select the second orange pad to change to the **Poly Sequencer**:
 
 * The lower half displays the playable notes like in the Note Mode
 * Play one or more notes in that area
 * Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
 * Arrow keys change the octaves and step pages
 
+![Sequencer Mode - Poly](./Diagrams/Launchpad/note-sequencer-poly.png)
+
+## Raindrop sequencer
+
+Press _"Note"_ and select the third orange pad to change to the **Raindrop Sequencer**:
+
+* The lowest row displays the playable notes
+* The row above a note starts a raindrop
+* If the raindrop reaches the note it sounds
+
+![Sequencer Mode - Raindrop](./Diagrams/Launchpad/note-sequencer-raindrop.png)
+
 ## Drum Sequencer Mode
 
-Press _"Note"_ three times to enter the Drum Sequencer.
+Press _"Note"_ and select the first blue pad to change to the **Drum Sequencer**.
 
 * The drum sequencer works as described in the Ableton Push manual.
 * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
 
+![Drum Sequencer Mode - Drum](./Diagrams/Launchpad/drum-sequencer-drum.png)
+
 ## Drum 4 and Drum 8 sequencer
 
-Press _"Note"_ multiple times to select *Drum 4* or *Drum 8*.
+Press _"Note"_ and select the second or third blue pad to change to *Drum 4* or *Drum 8*.
 
 These drum sequencers show 4 or 8 drum sounds for sequencing. Use the cursor buttons to move in the clip.
 
-## Raindrop sequencer
-
-Press _"Shift+Note"_ three times to change to the Raindrop Sequencer:
-
-* The lowest row displays the playable notes
-* The row above a note starts a raindrop
-* If the raindrop reaches the note it sounds
+![Drum Sequencer Mode - Drum4](./Diagrams/Launchpad/drum-sequencer-drum4.png)
+![Drum Sequencer Mode - Drum8](./Diagrams/Launchpad/drum-sequencer-drum8.png)
 
 ## Device Mode
 
@@ -194,6 +228,8 @@ Press _"Device"_ to enter the **Device** mode:
 * Hit buttons harder for faster fader change.
 * Cursor up/down to the next / previous device
 * Cursor left/right to the next / previous parameter bank
+
+![Device Mode](./Diagrams/Launchpad/device-inst-parameters.png)
 
 ## Browser Mode
 
@@ -211,6 +247,8 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 * The purple buttons are for previewing presets of instrument devices.
 * Left/Right buttons switch to the next / previous browser tab.
 * Up/Down buttons switch from replacing the current device to inserting a new device before or after it.
+
+![Browser Mode](./Diagrams/Launchpad/device-inst-browser.png)
 
 ## Preferences Dialog
 
