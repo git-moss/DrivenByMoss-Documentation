@@ -1,6 +1,6 @@
-# Changes for Cockos Reaper
+# Changes - Cockos Reaper
 
-## 8.96 (Unreleased)
+**8.96 (Unreleased)**
 
 * Launchpad
   * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
@@ -11,7 +11,7 @@
 * Push 1/2
   * Fixed: Position now really shows the time (did display measures before)
 
-## 8.95
+**8.95**
 
 * APC / APCmini
   * Fixed: Fixed a crash in Raindrop sequencer
@@ -36,7 +36,7 @@
   * Fixed: Fixed a crash in Raindrop sequencer
   * Fixed: Push 2: Clip Mode in midi grid layout did not show the notes
 
-## 8.94
+**8.94**
 
 * All devices
   * Fixed: Creating sequencer notes was broken
@@ -54,12 +54,12 @@
 * Push 1/2
   * New: Added User mode (controls track fx parameters). Allows to map 64 parameters. Press USER button to enter. Setup on Push 1 is now Shift+USER.
 
-## 8.93
+**8.93**
 
 * All devices
   * Fixed: Pressing OK button in configuration dialog removed the extension.
 
-## 8.92
+**8.92**
 
 * All devices
   * New: Added version information to Windows DLL
@@ -68,7 +68,7 @@
 * Launchpad
   * Fixed: Note selection was activated when coming from a non-note mode but should not.
 
-## 8.91
+**8.91**
 
 * All devices
   * Fixed: Pitchbend and Modulation Wheels did not work.
@@ -91,7 +91,7 @@
   * New: Changing note length does now also work in Poly Sequencer
   * Fixed: Displaying longer notes did not work in Poly Sequencer
 
-## 8.80
+**8.80**
 
 * All devices
   * New: The project start time, which can be configured in the project settings, is now added to the displayed time.
@@ -125,7 +125,7 @@
   * Fixed: Master mode only showed up shortly when Master volume knob was touched
   * Fixed: Configured knob speed settings were not set on startup
 
-## 8.70
+**8.70**
 
 * All devices
   * New: Stop (or toggle playback) also disables record
@@ -161,7 +161,7 @@
 * SL MkIII
   * Fixed: Crash when selecting track again to enter device mode
 
-## 8.60
+**8.60**
 
 * All devices
   * New: Color drum pads in the tracks color
@@ -196,7 +196,7 @@
   * New: Change note repeat period and length via ribbon
   * Fixed: Fixed Length button was lit when volume mode was active
 
-## 8.51
+**8.51**
 
 * All devices
   * Fixed: Log output was not visible on startup.
@@ -246,7 +246,7 @@
 * SL MkIII
   * New: Changed direction of session-clip/scene scrolling
 
-## 8.40
+**8.40**
 
 * New: Do not display note feedback from muted media items
 * New: Switched to "MIDI Arpeggiator" instead of "MIDI Note Repeater" for Note Repeat.
@@ -266,7 +266,7 @@
   * New: Added note repeat, long press Repeat button for configuration settings
   * New: The note insert/edit MIDI channel can be selected in the Track Details mode and in the document settings
 
-## 8.30
+**8.30**
 
 * New: Speed up browsing filter columns
 * Fixed: Last item in a browser filter column could not be selected.
@@ -280,11 +280,11 @@
   * Fixed: OSC did crash on startup
   * Fixed: Calls to /track/x/clip did not work
 
-## 8.21
+**8.21**
 
 * Fixed: Endless recursion when accessing clips
 
-## 8.20
+**8.20**
 
 * New: Improved auto-detect of some devices. Added CoreMidi4J prefix support on Macos.
 * Ableton Push
@@ -318,7 +318,7 @@
 * Native Instruments Komplete S-MkII, A-series/M32
   * New: You can now set the speed of the knobs in the settings.
 
-## 8.11
+**8.11**
 
 * All devices
     * New: Detect button for auto-detecting connected devices.
@@ -333,7 +333,7 @@
 * Push 2    
     * Fixed: Display preview window did not update and window layout was wrong
 
-## 8.10
+**8.10**
 
 * All devices
   * New: Added new scales
@@ -363,7 +363,7 @@
   * Fixed: Display a message if no clip is selected in clip mode
   * Fixed: Octave buttons were not updated in sequencer modes.
 
-## 8.00
+**8.00**
 
 * All devices
   * Fixed: Changing track selection did not correctly adjust the track bank page on the device (except Push)
@@ -387,7 +387,7 @@
   * Fixed: Push 1: Send modes could not be accessed
   * Fixed: Push 2: Notification messages were not shown on the display
 
-## 7.05
+**7.05**
 
 * Generic Flexi:
   * New: Commands to set Solo, Mute, Rec Arm, Monitor and Auto Monitor (in addition to toggle).
@@ -396,7 +396,7 @@
 * Push 1
   * Fixed: Do not send color palette request, which is only working for Push 2
 
-## 7.04
+**7.04**
 
 * All devices
   * New: Note feedback is implemented. Playing notes from MIDI clips are shown in play and drum views.
@@ -412,7 +412,7 @@
     Kontrol devcice, if not the first instrument device is checked. This way you can edit 
     multiple Komplete Kontrol instances on a channel.
 
-## 7.03
+**7.03**
 
 * All devices
   * New: Reflect automation changes on device (Volume, Pan, Mute, Send Volume)
@@ -437,7 +437,7 @@
 * OSC
   * Fixed: Open Stage Control template produced a crash if the master volume was changed.
 
-## 7.02
+**7.02**
 
 * Novation Remote SL Mk II
   * Fixed: Drum pads did not work
@@ -460,7 +460,7 @@
 * Fixed: Navigating parameter pages with cursor keys did not work
 * Fixed: flush was still called when a device was set to be deactivated
 
-## 7.01
+**7.01**
 
 * Fixed: Reaper INI was not read on Linux.
 * Arturia Beatstep
@@ -470,7 +470,7 @@
 * Novation SL Mk III
   * New: Route all 16 MIDI channels to Reaper (not only channel 1)
 
-## 7.0
+**7.0**
 
 * New: Added support for Novation SL Mk III
 * Fixed: scrolling of parameter pages by page bank did not work (e.g. Shift + cursor left/right on Push)
@@ -479,7 +479,7 @@
 * Komplete Kontrol Mk II / A-series / M32
   * New: Light record button as well on clip recording and clip overdub
 
-## 6.4
+**6.4**
 
 * Generic Flexi
   * New: The speed (fast and slow) for relative knob changes can be configured
@@ -489,7 +489,7 @@
   * New: Improved automatic lookup
 * Changed storing of Reaper settings to prevent corruption of ini file.
   
-## 6.3
+**6.3**
 
 * Generic Flexi
   * New: Added setting to store the last selected mode
@@ -502,7 +502,7 @@
   * New: Added M32 to the extension name
 * Fixed: Navigation from and to master track was reversed.
 
-## 6.2
+**6.2**
 
 * APC40
   * New: Shift mode stays active until you release the Shift key.
@@ -518,7 +518,7 @@
   * New: You can now tweak the speed of the knobs in the settings (Workflow -> Knob Speed Normal / Knob Speed Slow)
 * Fixed: Did crash Reaper on startup if UserPlugins folder was located in a path with non-ASCII characters.
 
-## 6.1
+**6.1**
 
 * Generic Flexi
   * Fixed: Exception when Send volume was mapped/changed and a FX or the Master track was selected.
@@ -533,7 +533,7 @@
 * Fixed: A Jar file was missing in the 6.0 release.
 * Fixed: Toggling Note Repeat did not work
 
-## 6.0
+**6.0**
 
 * Generic Flexi
   * New: Use native dialog for selecting the configuration file.
@@ -550,13 +550,13 @@
 * Push
   * Automation could not be activated if an effect track or the master track was selected.
 
-## 5.91
+**5.91**
 
 * OSC
     * Fixed: Reduced the size of a OSC bundles to stay below 64 Kb, which is the maximum for an
       UDP packet.
 
-## 5.90
+**5.90**
 
 * Beatstep
     * Fixed: Track and Device mode selection did not work.
@@ -566,12 +566,12 @@
     * Display mode names for Track, Volume and Sends. Send modes also display the name of the send.
     * You can flip backwards through the send modes with Shift+Send.
 
-## 5.80
+**5.80**
 
 * Launchpad
     * Fixed: Switching of Note and Sequencer did not work (only if also Push 1/2 was running)
 
-## 5.70
+**5.70**
 
 * Launchpad
     * New: The Bootloader and Firmware version is now logged to the console
@@ -583,7 +583,7 @@
     * New: Select + Mute: Deactivate all mutes
     * New: Select + Solo: Deactivate all solos
 
-## 5.60
+**5.60**
 
 * MCU
     * Fixed: Removed unescessary clip indication.
@@ -595,7 +595,7 @@
     * Fixed: Decimal changes of tempo did not work.
     * Fixed: /device/layer/{1-8}/send/{1-8}/volume and /device/layer/{1-8}/send/{1-8}/volume/touched
 
-## 5.50
+**5.50**
 
 * New: Integrated DrivenByMoss 5.5
     * New: There is now only one version number, the number of DrivenByMoss, and one changes file in the Wiki.
@@ -604,14 +604,14 @@
     * Ableton Push / Push 2 11.04
         * Fixed: Clip indication was broken
 
-## 5.30
+**5.30**
 
 * New: Integrated DrivenByMoss 5.30
     * Added new Midi Monitor extension.
     * Renamed Utilities extension to Auto Color
 * Fixed: Removed stretching of dialog configuration widgets when only a view elements are present.
 
-## 5.20
+**5.20**
 
 * New: Integrated DrivenByMoss 5.20
     * Ableton Push / Push 2 11.04
@@ -636,7 +636,7 @@
 * New: Added an action to open the DrivenByMoss extension window (search for "DrivenByMoss" in the action list).
 * New: The DrivenByMoss extension and configuration windows can now be closed with the Escape key.
 
-## 5.10
+**5.10**
 
 * New: Integrated DrivenByMoss 5.10
     * Native Instruments Komplete Kontrol 1 S25, S49, S61, S88 1.1
@@ -659,18 +659,18 @@
 * Fixed: MIDI editor is no longer closing when executing quantize from a controller, 
          if it was already open.
 
-## 5.02
+**5.02**1
 
 * Fixed: Widgets in configuration dialog did not always update their values correctly.
 * Fixed: The integrated Java VM did not contain the accessibility module. Therefore,
          DrivenByMoss crashed on system with enabled accessibility support.
 
-## 5.01
+**5.01**
 
 * Fixed: "error -99" on Macos with Push 2.
 * Fixed: NullPointerException in Color Picker, if Cancel is selected.
 
-## 5.00
+**5.00**
 
 * Integrated DrivenByMoss 5.0
     * Open Sound Control (OSC) protocol - 6.12
@@ -684,7 +684,7 @@
         * Fixed: "Send value to device" did always send on midi channel 1.
 * Bundled Java Virtual Machine for easier installation
 
-## 4.03
+**4.03**
 
 * Integrated DrivenByMoss 4.03
     * Ableton Push / Push 2 - 11.03
@@ -693,7 +693,7 @@
         * Fixed: Transposing the piano view was broken
 * Fixed: New tracks with no name did sometimes not turn up until given a name
 
-## 4.02
+**4.02**
 
 * Integrated DrivenByMoss 4.02
     * Ableton Push / Push 2 11.02
@@ -702,7 +702,7 @@
 * Fixed: The track for setting the automation mode was off by 1.
 * Fixed: Komplete Kontrol 2 plugin browsing and selection works now.
 
-## 4.01
+**4.01**
 
 * Integrated DrivenByMoss 4.01
     * Ableton Push / Push 2 11.01
@@ -715,7 +715,7 @@
 * Fixed: Setting sequencer "loops" was broken.
 * Fixed: Push 2: Changing values in Setup mode was buggy.
 
-## 4.00
+**4.00**
 
 * Integrated DrivenByMoss 4.00
     * Mackie MCU - Changes 2.63
@@ -725,35 +725,35 @@
     * Maschine Mikro Mk3
         * Initial release
 
-## 3.31
+**3.31**
 
 * New: Clip Loop parameter turns on/off the media items "Loop item source" parameter.
 * Fixed: Recording Track Automation did not work.
 
-## 3.30
+**3.30**
 
 * New: Integrated DrivenByMoss 3.30.
 * Fixed: Push 2: Clip piano roll: Note texts could not be seen when notes were black.
 * Fixed: Scrolling of clips did not work.
 
-## 3.20
+**3.20**
 
 * New: Integrated DrivenByMoss 3.20.
 * New: Repeat can be enabled (this uses an Arp in the channel insert). Long press Repeat button to set the speed.
 * New: Using 'New' to create a clip does not start recording anymore for easier use with sequencers.
 * Fixed: Creating a new clip did not set the selection state correctly.
 
-## 3.02
+**3.02**
 
 * Fixed: Scrolling tracks on Push 1/2 was broken when folders are in the project.
 
-## 3.01
+**3.01**
 
 * Fixed: Tracks without a name did not show up.
 * Fixed: New clip did sometimes not work.
 * Fixed: Notes in Sequencer were not updated when clip was deselected and selected again.
 
-## 3.00
+**3.00**
 
 * New: Replaced the Reaper EEL backend with a C++ implementation.
 * New: Support for clips
@@ -761,7 +761,7 @@
 * New: Support for markers
 * New: Support for sequencers
 
-## 2.10
+**2.10**
 
 * New: If supported by the Java/OS platform the application is run as a tray icon.
        Closing the app minimizes it to the tray. Double click the tray icon to show it again.
@@ -775,18 +775,22 @@
 * Fixed: Push 2 preview display window was still drawn when hidden.
 * Fixed: Push 2 preview display window producerd OutOfMemoryExceptions after a while.
 
-## 2.03
+**2.03**
 
 * Fixed: The Reaper start path was not stored.
 
-## 2.02
+**2.02**
 
 * Fixed: Could not start Reaper when spaces are included in the path.
 
-## 2.01
+**2.01**
 
 * New: Added more logging information for loading Reaper INI files
 
-## 2.00
+**2.00**
 
 * New: Initial release after switching to Java
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

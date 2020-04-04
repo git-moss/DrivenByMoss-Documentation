@@ -1,3 +1,17 @@
+---
+title: The DrivenByMoss Manual
+author: 
+- Jürgen Moßgraber
+- Ryan Bateman (Launchpad images)
+geometry: margin=2.5cm
+papersize: a4paper
+date:   \today
+...
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
+
 # Welcome to the DrivenByMoss Documentation
 
 DrivenByMoss is an extension for the digital audio workstations (DAW) **Bitwig Studio** and **Cockos Reaper**. It provides support for many hardware controllers as well as protocols like OSC. Furthermore, it brings some tools and utilities.
@@ -5,12 +19,14 @@ DrivenByMoss is an extension for the digital audio workstations (DAW) **Bitwig S
 DrivenByMoss is written by [Jürgen Moßgraber](http://www.mossgrabers.de) also known as MOSS.
 
 ## Feedback and Bug Reports
-Post all questions, bug reports wishes and discussion 
+Post all questions, bug reports wishes and discussion
+
 * related to **Bitwig Studio** into the [KVR Thread](http://www.kvraudio.com/forum/viewtopic.php?f=268&t=502948).
 * related to **Cockos Reaper** into the [Reaper Forum Thread](https://forum.cockos.com/showthread.php?p=1988209).
 
 ## Download latest Release
 Always download the latest release from [my homepage](http://www.mossgrabers.de).
+
 > **The version on GitHub might always be in an alpha or beta state, you have been warned!**
 
 List with [Bitwig Changes](Bitwig/Changes.md).
@@ -23,8 +39,7 @@ There are many in-depth video tutorials available on my [Youtube channel](https:
 
 ## Installation & Feature Documentation
 
-For **Bitwig Studio** follow the [Bitwig Installation instructions](Bitwig/Installation.md).
-For **Cockos Reaper** follow the [Reaper Installation instructions](Reaper/Installation.md).
+Follow the [Installation instructions](Installation.md).
 
 After that check the specific controller documentation below for additional installation notes:
 
@@ -52,3 +67,7 @@ After that check the specific controller documentation below for additional inst
   * [Generic Flexi](Generic-Tools-Protocols/Generic-Flexi.md)
   * [Midi Monitor](Generic-Tools-Protocols/MidiMonitor.md)
   * [Open Sound Control (OSC)](Generic-Tools-Protocols/Open-Sound-Control-(OSC).md)
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

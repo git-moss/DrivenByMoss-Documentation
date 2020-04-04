@@ -76,3 +76,7 @@ The Touchstrip behaves based on the following modes.
 * **Keyboard** - Selects the next item (scene, clip, track, parameter page). Switches to play layout in Play (Event) mode.
 * **Chords** - Selects the previous item page (scene, clip, track, device). Switches notes 1 octave down in Play (Event) mode.
 * **Step** - Selects the next item page (scene, clip, track, device). Switches notes 1 octave up in Play (Event) mode.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

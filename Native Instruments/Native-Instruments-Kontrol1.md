@@ -80,3 +80,7 @@ Press **SHIFT+SCALE** button to enter the configuration mode for the current sca
 ## Preferences Dialog
 
 You can set several preferences in the Preferences dialog of the script, which are stored when you exit the DAW.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

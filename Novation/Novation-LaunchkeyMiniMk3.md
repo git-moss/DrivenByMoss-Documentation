@@ -90,3 +90,7 @@ Note: Do only change the pad display, not the knob settings!
 ## Preferences Dialog
 
 You can set several preferences which are stored when you exit the DAW.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

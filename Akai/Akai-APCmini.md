@@ -109,3 +109,7 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
 
 * Scale settings
 * Fader Ctrl, Soft Keys
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

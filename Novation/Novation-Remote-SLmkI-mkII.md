@@ -118,3 +118,7 @@ The first mode is for playing the notes, the last played note selects it for the
 ## Preference dialog
 
 You can configure the functionality of the touchpad.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

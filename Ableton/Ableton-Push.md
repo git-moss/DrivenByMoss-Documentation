@@ -134,7 +134,9 @@ After you have copied the file reboot your computer.
     * Buttons of 2nd row select currently have no function.
     * User page names can be edited in the document settings.
 
-## Note Mode (Playing the pads)
+## Play Modes
+
+### Note Mode
 
 Press _"Note"_ and select *Play* to change to the Play view.
 
@@ -143,6 +145,21 @@ Press _"Note"_ and select *Play* to change to the Play view.
 * Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
+
+### Piano Mode
+
+Press _"Note"_ and select *Piano* to enter **Piano** mode.
+
+* Arranges the pads like a classic piano keyboard.
+* The white lit pads are the white keys.
+* The gray lit pads are the black keys.
+* You get 4 octaves to play with
+
+### Drum 64 play mode
+
+Press _"Note"_ and select *Drum 64*.
+
+This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
 
 ## Session Mode
 
@@ -169,12 +186,14 @@ Press the Session button twice to flip the grid which then matches the arrangeme
 
 When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode.
 
-### Scene view
+## Scene view
 
 This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). 
 **Delete + pad** deletes a scene.
 
-## Sequencer Functions common to all sequencers (except Raindrop)
+## Sequencers
+
+### Sequencer Functions common to all sequencers (except Raindrop)
 
 * To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
 * Note that you can scroll past the end of the clip (to the right).
@@ -185,7 +204,7 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * Long press a pad which contains a note to edit the parameters of the note.
 * Use the Scene buttons to change the grids resolution.
 
-## Note Sequencer Mode
+### Note Sequencer
 
 Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 
@@ -193,7 +212,7 @@ Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 * The rows represent the notes of the selected scale.
 * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
-## Poly Sequencer
+### Poly Sequencer
 
 Press _"Note"_ and select *Poly Seq.* to enter **Poly Sequencer** mode:
 
@@ -201,7 +220,7 @@ Press _"Note"_ and select *Poly Seq.* to enter **Poly Sequencer** mode:
 * Play one or more notes in that area
 * Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
 
-## Drum Sequencer Mode
+### Drum Sequencer
 
 Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 
@@ -217,19 +236,13 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 * Use Octave Up/Down to move the pads by 16.
 * Use Shift+Octave Up/Down to move the pads by 4.
 
-## Drum 4 and Drum 8 sequencer
+### Drum 4 and Drum 8 sequencer
 
 Press _"Note"_ and select *Drum 4* or *Drum 8*.
 
 These drum sequencers show 4 or 8 drum sounds for sequencing. Use the Page buttons to move in the clip.
 
-## Drum 64 play mode
-
-Press _"Note"_ and select *Drum 64*.
-
-This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
-
-## Raindrop sequencer
+### Raindrop sequencer
 
 Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.
 
@@ -237,15 +250,6 @@ Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.
 * The row above a note starts a raindrop
 * If the raindrop reaches the note it sounds
 * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
-
-## Piano Mode
-
-Press _"Note"_ and select *Piano* to enter **Piano** mode.
-
-* Arranges the pads like a classic piano keyboard.
-* The white lit pads are the white keys.
-* The gray lit pads are the black keys.
-* You get 4 octaves to play with
 
 ## Program Change Mode
 
@@ -266,3 +270,7 @@ You can set several preferences which are stored when you exit the DAW. Note tha
 
 * Ribbon, Accent, Scale, VU meter and Pad sensitivity settings.
 * Option to convert the Poly Aftertouch of the pads to Channel Aftertouch or a CC.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

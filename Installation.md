@@ -1,11 +1,26 @@
-# Installation for Cockos Reaper
+# Installation
 
-Requires Reaper 64 bit, 5.95+ version!
+## Bitwig Studio
+
+1. Extract the ZIP file. It contains a file named **DrivenByMoss.bwextension**.
+2. Copy that file in the following location depending on your OS:
+   * Windows: `%USERPROFILE%\Documents\Bitwig Studio\Extensions\`
+   * Mac: `~/Documents/Bitwig Studio/Extensions/`
+   * Linux:   `~/Bitwig Studio/Extensions/`
+3. Start Bitwig Studio and open the *Dashboard*. Select *Settings* and *Controllers*.
+4. If **Autdetect** is enabled for most of the controllers you automatically get a popup notification.
+5. Alternatively, select **Add controller manually**. In that case note that the extension does not start 
+   until you configured the necessary in- and outputs!
+
+See the documentation of the individual controllers for further installation/configuration instructions.
+
+## Cockos Reaper
 
 1. Unzip the downloaded file "DrivenByMoss4Reaper-X.XX-PLATFORM.zip" to the 
    Reaper UserPlugins folder.
    
    Important:
+
    1. Make sure you keep the folder structure of the ZIP file intact
       (UserPlugins/java-runtime, UserPlugins/drivenbymoss-libs, ...)!
    2. Do not put the files in an additional sub-folder 
@@ -17,23 +32,24 @@ Requires Reaper 64 bit, 5.95+ version!
    You find the UserPlugins folder at the following locations:
 
    * Windows 10
-     > C:\Users\<YOUR_USER_NAME>\AppData\Roaming\REAPER\UserPlugins
+     > `C:\Users\<YOUR_USER_NAME>\AppData\Roaming\REAPER\UserPlugins`
      Note that the AppData folder is hidden, you need to make it visible
      by enabling "Show hidden files" in the View tab of explorer.
 
    * Mac OS X (minimum version 10.12 Sierra)
-     > ~/Library/Application Support/REAPER/UserPlugins
+     > `~/Library/Application Support/REAPER/UserPlugins`
      These folders are hidden as well. Press cmd+shift+. in the finder
      to make them visible.
 
    * Linux (I am testing on Ubuntu Studio)
      Look up the location at which you have installed Reaper. 
-     Install the *.so file into ~/.config/REAPER/UserPlugins or in the case of a 
+     Install the *.so file into `~/.config/REAPER/UserPlugins` or in the case of a 
      portable install into REAPER/UserPlugins.
 
 2. Security check on Mac OS 
-   If you get the following error when starting Reaper: >> "reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software. <<,
+   If you get the following error when starting Reaper:  `"reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software.`,
    do the following:
+
    1. Run Reaper to get the error
    2. Close Reaper
    3. Open the System Settings
@@ -43,6 +59,7 @@ Requires Reaper 64 bit, 5.95+ version!
    7. Click the button to "allow it anyway"
 
 3. Configuration
+
    1. Start Reaper
    2. Open the Preferences (Ctrl+P)
    3. Scroll down and select "Control/OSC/web"
@@ -59,3 +76,7 @@ Requires Reaper 64 bit, 5.95+ version!
    7. Make sure that all MIDI inputs and outputs you configure in DrivenByMoss are
       fully disabled in the Reaper MIDI settings! Otherwise you will have strange 
       effects!
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

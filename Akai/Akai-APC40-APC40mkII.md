@@ -175,3 +175,7 @@ If you keep Shift pressed there are additional functions available on the pads o
 ## Preferences dialog
 
 * Set preferences for Scale settings
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

@@ -1,7 +1,6 @@
 # Novation Launchpad Pro, MkII, Mini Mk3, X
 
-Support script for several of Novation's Launchpad controllers. You can control track parameters, devices, transport, session 
-view and play the pads.
+Support script for several of Novation's Launchpad controllers.
 
 ## Installation
 
@@ -10,7 +9,7 @@ view and play the pads.
 * Make sure the Launchpad sends on Midi Channel 1!
 * To have pads blinking in sync with your song tempo activate to send MIDI clock to the device.
 
-## IMPORTANT: Differences between the Launchpad models
+## Differences between the Launchpad models
 
 The Pro has an additional left column and bottom row of buttons. Especially, it has a **Shift** button to access 
 additional functionality (see the _Shift Mode_ below).
@@ -18,6 +17,7 @@ To work around this another button has to function as the Shift button. It is th
 (MkII: **Mixer**, Mini Mk3: **User**, X: **Capture Midi**).
 
 The three buttons on the top row, right to the cursor keys are also named differently on the models:
+
 * Pro: Session, Note, Device
 * MkII: Session, User 1, User 2
 * X: Session, Note, Custom
@@ -57,7 +57,7 @@ These differences will not be mentioned again in the following text and **only t
 
 Note: The preferred play/sequencer mode is remembered for each track.
 
-![Overview](./Diagrams/Launchpad/overview.png)
+![Overview](Diagrams/Launchpad/overview.png)
 
 ## Shift Mode
 
@@ -75,7 +75,7 @@ Further functions (all models):
 * The red button in the lower right corner stops the playback of all clips.
 * The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The pads of the first two columns below change the note repeat period and the other two columns the note length.
 
-![Shift menu diagram](./Diagrams/Launchpad/shift-menu.png)
+![Shift menu diagram](Diagrams/Launchpad/shift-menu.png)
 
 ## Track Control (Lower button row)
 
@@ -113,8 +113,8 @@ _Long press_ to enter birds-eye-view.
 * Hold **Delete** and press a clip button to delete the clip.
 * Hold **Delete** and press a Scene button to delete the scene.
 
-![Session mode diagram](./Diagrams/Launchpad/session-clip-view.png)
-![Session bird's eye view diagram](./Diagrams/Launchpad/session-birds-eye-view.png)
+![Session mode diagram](Diagrams/Launchpad/session-clip-view.png)
+![Session bird's eye view diagram](Diagrams/Launchpad/session-birds-eye-view.png)
 
 ## Selecting Note or Sequencer Modes
 
@@ -124,9 +124,11 @@ Press _"Note"_ to choose a **Note** or **Sequencer** mode.
 * The second three (blue) pads represent **Drum Sequencer** modes - Drum, Drum4, and Drum 8
 * The final three (orange) pads represent **Note Sequencer** modes - Sequencer, Poly, and Raindrop
 
-![Session mode diagram](./Diagrams/Launchpad/note-mode-selection.png)
+![Session mode diagram](Diagrams/Launchpad/note-mode-selection.png)
 
-## Note Mode (Playing the pads)
+## Play modes
+
+### Note Mode (Playing the pads)
 
 Press _"Note"_  and select the first red pad to change to **Scale** mode.
 
@@ -138,9 +140,9 @@ Press _"Note"_  and select the first red pad to change to **Scale** mode.
 * The lower 2 scene buttons change the root note of the scale.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 
-![Play Mode - Scale](./Diagrams/Launchpad/play-mode-scale.png)
+![Play Mode - Scale](Diagrams/Launchpad/play-mode-scale.png)
   
-## Piano Mode
+### Piano Mode
 
 Press _"Note"_ twice to enter.
 
@@ -149,17 +151,19 @@ Press _"Note"_ twice to enter.
 * The gray lit pads are the black keys.
 * You get 4 octaves to play with
 
-![Play Mode - Piano](./Diagrams/Launchpad/play-mode-piano.png)
+![Play Mode - Piano](Diagrams/Launchpad/play-mode-piano.png)
 
-## Drum 64 play mode
+### Drum 64 play mode
 
 Press _"Note"_ multiple times to select *Drum 64*.
 
 This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
 
-![Play Mode - Drum64](./Diagrams/Launchpad/play-mode-drum64.png)
+![Play Mode - Drum64](Diagrams/Launchpad/play-mode-drum64.png)
 
-## Sequencer Functions common to all sequencers (except Raindrop)
+## Sequencers
+
+### Sequencer Functions common to all sequencers (except Raindrop)
 
 * Use the arrow keys to navigate in the grid.
 * Note that you can scroll past the end of the clip (to the right).
@@ -169,16 +173,16 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 * Note starts and lengths are lit in different colors.
 * Use the Scene buttons to change the grids resolution.
 
-## Sequencer Mode
+### Sequencer Mode
 
 Press _"Note"_  and select the first orange pad to enter the **Sequencer** mode:
 
 * The pads display an 8x8 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
 
-![Sequencer Mode - Sequencer](./Diagrams/Launchpad/note-sequencer-sequencer.png)
+![Sequencer Mode - Sequencer](Diagrams/Launchpad/note-sequencer-sequencer.png)
 
-## Poly Sequencer
+### Poly Sequencer
 
 Press _"Note"_ and select the second orange pad to change to the **Poly Sequencer**:
 
@@ -187,9 +191,9 @@ Press _"Note"_ and select the second orange pad to change to the **Poly Sequence
 * Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
 * Arrow keys change the octaves and step pages
 
-![Sequencer Mode - Poly](./Diagrams/Launchpad/note-sequencer-poly.png)
+![Sequencer Mode - Poly](Diagrams/Launchpad/note-sequencer-poly.png)
 
-## Raindrop sequencer
+### Raindrop sequencer
 
 Press _"Note"_ and select the third orange pad to change to the **Raindrop Sequencer**:
 
@@ -197,9 +201,9 @@ Press _"Note"_ and select the third orange pad to change to the **Raindrop Seque
 * The row above a note starts a raindrop
 * If the raindrop reaches the note it sounds
 
-![Sequencer Mode - Raindrop](./Diagrams/Launchpad/note-sequencer-raindrop.png)
+![Sequencer Mode - Raindrop](Diagrams/Launchpad/note-sequencer-raindrop.png)
 
-## Drum Sequencer Mode
+### Drum Sequencer Mode
 
 Press _"Note"_ and select the first blue pad to change to the **Drum Sequencer**.
 
@@ -208,16 +212,16 @@ Press _"Note"_ and select the first blue pad to change to the **Drum Sequencer**
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
 
-![Drum Sequencer Mode - Drum](./Diagrams/Launchpad/drum-sequencer-drum.png)
+![Drum Sequencer Mode - Drum](Diagrams/Launchpad/drum-sequencer-drum.png)
 
-## Drum 4 and Drum 8 sequencer
+### Drum 4 and Drum 8 sequencer
 
 Press _"Note"_ and select the second or third blue pad to change to *Drum 4* or *Drum 8*.
 
 These drum sequencers show 4 or 8 drum sounds for sequencing. Use the cursor buttons to move in the clip.
 
-![Drum Sequencer Mode - Drum4](./Diagrams/Launchpad/drum-sequencer-drum4.png)
-![Drum Sequencer Mode - Drum8](./Diagrams/Launchpad/drum-sequencer-drum8.png)
+![Drum Sequencer Mode - Drum4](Diagrams/Launchpad/drum-sequencer-drum4.png)
+![Drum Sequencer Mode - Drum8](Diagrams/Launchpad/drum-sequencer-drum8.png)
 
 ## Device Mode
 
@@ -229,7 +233,7 @@ Press _"Device"_ to enter the **Device** mode:
 * Cursor up/down to the next / previous device
 * Cursor left/right to the next / previous parameter bank
 
-![Device Mode](./Diagrams/Launchpad/device-inst-parameters.png)
+![Device Mode](Diagrams/Launchpad/device-inst-parameters.png)
 
 ## Browser Mode
 
@@ -248,7 +252,7 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 * Left/Right buttons switch to the next / previous browser tab.
 * Up/Down buttons switch from replacing the current device to inserting a new device before or after it.
 
-![Browser Mode](./Diagrams/Launchpad/device-inst-browser.png)
+![Browser Mode](Diagrams/Launchpad/device-inst-browser.png)
 
 ## Preferences Dialog
 

@@ -196,3 +196,7 @@ Touch the master fader to enter
 * Set preferences for Device capabilities, etc.
 
 The following MCU buttons are currently not used: GLOBAL VIEW, BUSSES, OUTPUT, CONTROL, ALT, F8, GROUP, NUDGE, DROP
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

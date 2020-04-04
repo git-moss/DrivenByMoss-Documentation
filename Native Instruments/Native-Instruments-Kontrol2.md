@@ -39,3 +39,7 @@ The S-series has additional device/parameters and send modes. **Toggle these mod
 * The encoder left/right switches between the parameter pages of the selected device
 * Pressing the encoder toggles the window of the selected device (if any)
 * Select/Mute/Solo buttons always control the tracks
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

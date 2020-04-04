@@ -380,3 +380,7 @@ MAX_VALUE is configured in the configuration settings.
 ### Receive - Misc
 
 * /refresh    Flushes all values to the clients
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

@@ -1,6 +1,6 @@
-# Changes for Bitwig Studio
+# Changes - Bitwig Studio
 
-## 8.96 (Unreleased)
+**8.96 (Unreleased)**
 
 * Launchpad
   * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
@@ -11,7 +11,7 @@
 * Push 1/2
   * Fixed: Position now really shows the time (did display measures before)
 
-## 8.95
+**8.95**
 
 * APC / APCmini
   * Fixed: Fixed a crash in Raindrop sequencer
@@ -29,7 +29,7 @@
   * New: Poly Sequencer: Currently played sequencer notes are also lit on the play area
   * Fixed: Fixed a crash in Raindrop sequencer
 
-## 8.94
+**8.94**
 
 * Generic Flexi
   * New: The MIDI channel for the keyboard (or pads if it is a pad controller) can be explicitly set (previously it was fixed to channel 1). It can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played. Note: If you have selected All for the channel the note is blocked on all channels!
@@ -40,14 +40,14 @@
 * OSC
   * Fixed: Changing output server/port did still not work.
 
-## 8.92
+**8.92**
 
 * Requires Bitwig 3.1.3+ (which fixes the issues with 8.80)
 * Launchpad
   * Fixed: Note selection mode could not be activated on Launchpad Pro since it was mixed up with the user mode.
   * Fixed: Note selection was activated when coming from a non-note mode but should not.
 
-## 8.91
+**8.91**
 
 * Requires Bitwig 3.1+.
 * All devices
@@ -66,7 +66,7 @@
   * New: Changing note length does now also work in Poly Sequencer
   * Fixed: Displaying longer notes did not work in Poly Sequencer
 
-## 8.90
+**8.90**
 
 * Requires Bitwig 3.1+.
 * All devices
@@ -80,7 +80,7 @@
   * New: Last selected Layer mix mode is remembered
   * New: Inverted back the clip/scene scroll direction
 
-## 8.80
+**8.80**
 
 * Requires Bitwig 3.1+.
 * All devices
@@ -114,7 +114,7 @@
   * Fixed: Master mode only showed up shortly when Master volume knob was touched
   * Fixed: Configured knob speed settings were not set on startup
 
-## 8.70
+**8.70**
 
 * Requires Bitwig 3.1+.
 * All devices
@@ -155,7 +155,7 @@
 * SL MkIII
   * Fixed: Crash when selecting track again to enter device mode
 
-## 8.60
+**8.60**
 
 * Requires Bitwig 3.1+.
 * Known Issues
@@ -190,7 +190,7 @@
   * New: Slow down value changes in note repeat mode
   * New: Change note repeat period and length via ribbon
 
-## 8.51
+**8.51**
 
 * Requires Bitwig 3.1+.
 * Launchkey Mini Mk3
@@ -199,7 +199,7 @@
 * Maschine Mikro Mk3
   * Fixed: Displayed Parameter names of row 3 and 4 were flipped
 
-## 8.50
+**8.50**
 
 * Requires Bitwig 3.1+.
   * All devices use the new Hardware API
@@ -261,13 +261,13 @@
 * SL MkIII
   * New: Changed direction of session-clip/scene scrolling
 
-## 7.60
+**7.60**
 
 * Requires Bitwig 2.4+.
 * Support for Novation Launchpad X
 * Support for Novation Launchpad Mini Mk3
 
-## 7.50
+**7.50**
 
 * Requires Bitwig 2.4+.
 * Support for Novation Launchkey Mini Mk3
@@ -279,7 +279,7 @@
   * Fixed: OSC did crash on startup
   * Fixed: Calls to /track/x/clip did not work
 
-## 7.40
+**7.40**
 
 * Requires Bitwig 2.4+.
 * New: Improved auto-detect of some devices
@@ -318,14 +318,14 @@
 * Native Instruments Komplete S-MkII, A-series/M32
   * New: You can now set the speed of the knobs in the settings.
 
-## 7.32
+**7.32**
 
 * Requires Bitwig 2.4+.
 * Added a help page for the extension. Help button appears now with each instance.
 * MCU
   * New: Added new function key option "Toggle use faders like editing knobs".
 
-## 7.31
+**7.31**
 
 * Requires Bitwig 2.4+.
 * Added new scales
@@ -334,7 +334,7 @@
 * Mackie HUI
   * Fixed: Crash on startup and shutdown if Display was active
 
-## 7.30
+**7.30**
 
 * Requires Bitwig 2.4+.
 * APCmini
@@ -352,14 +352,14 @@
   * Fixed: Display a message if no clip is selected in clip mode
   * Fixed: Octave buttons were not updated in sequencer modes.
 
-## 7.21
+**7.21**
 
 * Requires Bitwig 2.4+.
 * OSC
   * New: /playbutton - Toggles playback, you can configure the Stop behaviour in the configuration settings
   * Fixed: All /vkb_midi commands did crash
 
-## 7.20
+**7.20**
 
 * Requires Bitwig 2.4+.
 * Launchpad Pro
@@ -373,7 +373,7 @@
 * OSC
   * New: Added user parameters
 
-## 7.10
+**7.10**
 
 * Requires Bitwig 2.4+.
 * Generic Flexi
@@ -394,7 +394,7 @@
   * Fixed: Push 1: Send modes could not be accessed
   * Fixed: Push 1: NullPointerException if Track mode was active and an effect track was selected in Bitwig
 
-## 7.05
+**7.05**
 
 * Requires Bitwig 2.4+.
 * Generic Flexi:
@@ -408,7 +408,7 @@
 * Push 1
   * Fixed: Do not send color palette request, which is only working for Push 2
 
-## 7.04
+**7.04**
 
 * Requires Bitwig 2.4+.
 * Ableton Push 2
@@ -421,7 +421,7 @@
     Kontrol devcice, if not the first instrument device is checked. This way you can edit 
     multiple Komplete Kontrol instances on a channel.
 
-## 7.03
+**7.03**
 
 * Requires Bitwig 2.4+.
 * All devices
@@ -443,7 +443,7 @@
 * OSC
   * Fixed: Open Stage Control template produced a crash if the master volume was changed.
 
-## 7.02
+**7.02**
 
 * Requires Bitwig 2.4+.
 * Novation Remote SL Mk II
@@ -461,7 +461,7 @@
   * Fixed: Some types used "selected" and some "select". Both can be used now.
   * Fixed: Fixed location of master track in Open Stage Control template for 0.47.1.
 
-## 7.01
+**7.01**
 
 * Requires Bitwig 2.4+.
 * Arturia Beatstep
@@ -471,7 +471,7 @@
 * Novation SL Mk III
   * New: Route all 16 MIDI channels to Bitwig (not only channel 1)
 
-## 7.0
+**7.0**
 
 * Requires Bitwig 2.4+.
 * New: Added support for Novation SL Mk III
@@ -481,7 +481,7 @@
 * Komplete Kontrol Mk II / A-series / M32
   * New: Light record button as well on clip recording and clip overdub
 
-## 6.4
+**6.4**
 
 * Requires Bitwig 2.4+.
 * Generic Flexi
@@ -491,7 +491,7 @@
   * New: Mapping of first Komplete Kontrol parameter is no longer necessary
   * New: Improved automatic lookup
 
-## 6.3
+**6.3**
 
 * Requires Bitwig 2.4+.
 * Generic Flexi
@@ -504,7 +504,7 @@
   * New: Added setting to set the behaviour on transport stop
   * New: Added M32 to the extension name
 
-## 6.2
+**6.2**
 
 * Requires Bitwig 2.4+.
 * APC40
@@ -521,7 +521,7 @@
 * Push 1/2
   * New: You can now tweak the speed of the knobs in the settings (Workflow -> Knob Speed Normal / Knob Speed Slow)
 
-## 6.1
+**6.1**
 
 * Requires Bitwig 2.4.
 * Generic Flexi
@@ -534,7 +534,7 @@
 * OSC
   * New: You can now configure the value range. So far, this was 128. Now you can increase the range to 1024 or 16384. Note that you also need to configure the widgets in your OSC client accordingly.
 
-## 6.0
+**6.0**
 
 * Requires Bitwig 2.4+.
 * Generic Flexi
@@ -552,7 +552,7 @@
 * Push
   * Automation could not be activated if an effect track or the master track was selected.
 
-## 5.9
+**5.9**
 
 * Requires Bitwig 2.4.
 * Beatstep
@@ -563,12 +563,12 @@
   * Display mode names for Track, Volume and Sends. Send modes also display the name of the send.
   * You can flip backwards through the send modes with Shift+Send.
 
-## 5.8
+**5.8**
 
 * Requires Bitwig 2.4.
 * Launchpad: Fixed: Switching of Note and Sequencer did not work (only if also Push 1/2 was running)
 
-## 5.7
+**5.7**
 
 * Requires Bitwig 2.4.
 * Launchpad
@@ -581,7 +581,7 @@
   * New: Select + Mute: Deactivate all mutes
   * New: Select + Solo: Deactivate all solos
 
-## 5.6
+**5.6**
 
 * Requires Bitwig 2.4.
 * MCU
@@ -594,7 +594,7 @@
   * Fixed: Decimal changes of tempo did not work.
   * Fixed: /device/layer/{1-8}/send/{1-8}/volume and /device/layer/{1-8}/send/{1-8}/volume/touched
 
-## 5.5
+**5.5**
 
 * Requires Bitwig 2.4.
 * New: There is now only one version number, the number of DrivenByMoss, and one changes file in the Wiki.
@@ -602,3 +602,7 @@
 * Fixed: Scene navigation with cursors was broken on most devices
 * Push 1/2
   * Fixed: Clip indication was broken
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

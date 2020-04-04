@@ -138,3 +138,7 @@ are drawn in the color of the selected drum pad.
 ## Preferences Dialog
 
 You can set several preferences which are stored when you exit the DAW.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

@@ -105,3 +105,7 @@ Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. 
 ## Preferences dialog
 
 * Set preferences for Device capabilities, etc.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

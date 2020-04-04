@@ -108,3 +108,7 @@ This mode is for browsing patches of a device. The first knob row has no functio
 Column 1   Column 2   Column 3   Column 4   Column 5   Column 6   -EMPTY-    Patch
 -EMPTY-    -EMPTY-      C3         C4         C5         C6       -EMPTY-    -EMPTY-
 Discard    -EMPTY-      C-1        C0         C1         C2       -EMPTY-    Accept</pre>
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
