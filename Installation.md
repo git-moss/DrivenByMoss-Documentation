@@ -16,49 +16,51 @@ See the documentation of the individual controllers for further installation/con
 
 ## Cockos Reaper
 
-1. Unzip the downloaded file "DrivenByMoss4Reaper-X.XX-PLATFORM.zip" to the 
-   Reaper UserPlugins folder.
+### Installation
+
+Unzip the downloaded file "DrivenByMoss4Reaper-X.XX-PLATFORM.zip" to the Reaper UserPlugins folder.
    
-   Important:
+Important:
 
-   1. Make sure you keep the folder structure of the ZIP file intact
-      (UserPlugins/java-runtime, UserPlugins/drivenbymoss-libs, ...)!
-   2. Do not put the files in an additional sub-folder 
-      (e.g. DO NOT: UserPlugins/DrivenByMoss-6.11/reaper-drivenbymoss.lib)!
+1. Make sure you keep the folder structure of the ZIP file intact
+   (UserPlugins/java-runtime, UserPlugins/drivenbymoss-libs, ...)!
+2. Do not put the files in an additional sub-folder 
+   (e.g. DO NOT: UserPlugins/DrivenByMoss-6.11/reaper-drivenbymoss.lib)!
 
-   Note: For the Portable Reaper installation drop the files into the "Plugins" 
-   folder of your portable installation.
+Note: For the Portable Reaper installation drop the files into the "Plugins" 
+folder of your portable installation.
 
-   You find the UserPlugins folder at the following locations:
+You find the UserPlugins folder at the following locations:
 
-   * Windows 10
-     > `C:\Users\<YOUR_USER_NAME>\AppData\Roaming\REAPER\UserPlugins`
-     Note that the AppData folder is hidden, you need to make it visible
-     by enabling "Show hidden files" in the View tab of explorer.
+* Windows 10
+   > `C:\Users\<YOUR_USER_NAME>\AppData\Roaming\REAPER\UserPlugins`
+   Note that the AppData folder is hidden, you need to make it visible
+   by enabling "Show hidden files" in the View tab of explorer.
 
-   * Mac OS X (minimum version 10.12 Sierra)
-     > `~/Library/Application Support/REAPER/UserPlugins`
-     These folders are hidden as well. Press cmd+shift+. in the finder
-     to make them visible.
+* Mac OS X (minimum version 10.12 Sierra)
+   > `~/Library/Application Support/REAPER/UserPlugins`
+   These folders are hidden as well. Press cmd+shift+. in the finder
+   to make them visible.
 
-   * Linux (I am testing on Ubuntu Studio)
-     Look up the location at which you have installed Reaper. 
-     Install the *.so file into `~/.config/REAPER/UserPlugins` or in the case of a 
-     portable install into REAPER/UserPlugins.
+* Linux (I am testing on Ubuntu Studio)
+   Look up the location at which you have installed Reaper. 
+   Install the *.so file into `~/.config/REAPER/UserPlugins` or in the case of a 
+   portable install into REAPER/UserPlugins.
 
-2. Security check on Mac OS 
-   If you get the following error when starting Reaper:  `"reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software.`,
-   do the following:
+### Mac OS specifics
 
-   1. Run Reaper to get the error
-   2. Close Reaper
-   3. Open the System Settings
-   4. Open the Security tab
-   5. Click the Lock icon at the bottom of the window and enter your password
-   6. Above it you should see the notification that "reaper_drivenbymoss.dylib" was blocked
-   7. Click the button to "allow it anyway"
+If you get the following error when starting Reaper:  `"reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software.`,
+do the following:
 
-3. Configuration
+1. Run Reaper to get the error
+2. Close Reaper
+3. Open the System Settings
+4. Open the Security tab
+5. Click the Lock icon at the bottom of the window and enter your password
+6. Above it you should see the notification that "reaper_drivenbymoss.dylib" was blocked
+7. Click the button to "allow it anyway"
+
+### Configuration
 
    1. Start Reaper
    2. Open the Preferences (Ctrl+P)
@@ -76,6 +78,13 @@ See the documentation of the individual controllers for further installation/con
    7. Make sure that all MIDI inputs and outputs you configure in DrivenByMoss are
       fully disabled in the Reaper MIDI settings! Otherwise you will have strange 
       effects!
+
+### Differences to Bitwig
+
+DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which are not available in Reaper, e.g. Scenes, Clips and User parameters. However, there are alternatives implemented:
+
+* **User Parameters**: On devices which support User Parameters, these control the Track FX parameters in Reaper.
+* **Scenes**: Scenes are emulated by range markers. Starting the n-th Scene triggers playback from the start of the n-th range marker.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
