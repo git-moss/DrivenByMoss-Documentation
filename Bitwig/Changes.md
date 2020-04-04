@@ -2,6 +2,8 @@
 
 **8.96 (Unreleased)**
 
+* All devices
+  * New: Included PDF manual
 * Launchpad
   * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
 * MCU
