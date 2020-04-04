@@ -37,8 +37,9 @@ MAX_VALUE is configured in the configuration settings.
 * /autowrite {0,1}
 * /autowrite/launcher {0,1}
 * /automationWriteMode {latch,touch,write}
-* /time/str {text}
-* /time/signature
+* /beat/str {measures.quarters.eights:ticks}            Reaper: {measures.beats:ticks}
+* /time/str {hours.minutes.seconds:milliseconds}
+* /time/signature {numerator / denominator}
 * /tempo/raw {0-666}
 * /quantize
 

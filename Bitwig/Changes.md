@@ -1,5 +1,16 @@
 # Changes for Bitwig Studio
 
+## 8.96 (Unreleased)
+
+* Launchpad
+  * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
+* MCU
+  * New: **Option+Tempo/Ticks** toggles between displaying the time or beats. **Tempo/Ticks** toggles the display of ticks/milliseconds or the current tempo for the last 3 digits. Both are also available in the settings.
+* OSC
+  * Fixed: /time/str now really sends the time (did send measures before)
+* Push 1/2
+  * Fixed: Position now really shows the time (did display measures before)
+
 ## 8.95
 
 * APC / APCmini
