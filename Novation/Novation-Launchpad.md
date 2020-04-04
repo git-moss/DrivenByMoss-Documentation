@@ -58,9 +58,6 @@ These differences will not be mentioned again in the following text and **only t
 Note: The preferred play/sequencer mode is remembered for each track.
 
 ![Overview](./Diagrams/Launchpad/overview.png)
-![Overview](Diagrams/Launchpad/overview.png)
-![Overview](Novation/Diagrams/Launchpad/overview.png)
-![Overview](/Novation/Diagrams/Launchpad/overview.png)
 
 ## Shift Mode
 
