@@ -44,9 +44,9 @@ Follow the [Installation instructions](Installation.md).
 After that check the specific controller documentation below for additional installation notes:
 
 * Ableton
-  * [Push I & II](Ableton/Ableton-Push-I-&-II.md)
+  * [Push I & II](Ableton/Ableton-Push-I-II.md)
 * Akai
-  * [APC40 & APC40mkII](Akai/Akai-APC40-&-APC40mkII.md)
+  * [APC40 & APC40mkII](Akai/Akai-APC40-APC40mkII.md)
   * [APCmini](Akai/Akai-APCmini.md)
 * Arturia
   * [Beatstep](Arturia/Arturia-Beatstep.md)
@@ -60,7 +60,7 @@ After that check the specific controller documentation below for additional inst
 * Novation
   * [Launchkey Mini Mk3](Novation/Novation-LaunchkeyMiniMk3.md)
   * [Launchpad MkII, Pro, Mini Mk3, X](Novation/Novation-Launchpad.md)
-  * [SL MkI & MkII](Novation/Novation-Remote-SLmkI-&-mkII.md)
+  * [SL MkI & MkII](Novation/Novation-Remote-SLmkI-mkII.md)
   * [SL Mk III](Novation/Novation-SLMkIII.md)
 * Generic, Tools & Protocols
   * [Auto Color](Generic-Tools-Protocols/AutoColor.md)
