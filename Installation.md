@@ -60,6 +60,14 @@ do the following:
 6. Above it you should see the notification that "reaper_drivenbymoss.dylib" was blocked
 7. Click the button to "allow it anyway"
 
+### Accessibility Support
+
+If you have a screen reader installed you might get the following error:
+`drivenbymoss: ERROR: Could not call startup.java.lang.UnsatisfiedLinkError: bin\javaaccessbridge.dll: Can't find dependent libraries`
+
+In that case try to install the full Java JDK from: https://adoptopenjdk.net/
+This should install the missing files.
+
 ### Configuration
 
    1. Start Reaper
