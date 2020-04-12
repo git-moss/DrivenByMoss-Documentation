@@ -32,7 +32,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Shift + Dev. Lock** - Pin the cursor track and the cursor device.
 * **Tempo** - Change the tempo. Keep Shift pressed for fine adjustment.
 
-## Devices
+## Device and Parameters
 
 * **Device Knobs 1-8** - Change the currently selected 8 device parameters
 * **Device On/Off** - Turn the selected device on/off
@@ -88,7 +88,13 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Track control**
   * Press and hold **Sends/Send A** button and press **Track Select 1-8** to select the sends 1 to 8.
   * *only mkI* Press Shift+Send A/B/C to select the sends 4 to 6.
-  * *only mkII* Press USER to select Send 2.
+
+## User mode - *only mkII*
+
+*  Press USER to select the user mode.
+* **Device Knobs 1-8** - Change the mapped user parameter
+* **Cursor right** - Move to next user page
+* **Cursor left** - Move to previous user page
 
 ## Clip/scene control
 
@@ -123,7 +129,9 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * *Scene Launch button 5* - Transpose notes 1 octave down. The new key range is displayed on the computer screen.
 * Press **Shift** and use the first two row buttons (arranged like a keyboard) to select the root note of the scale.
 
-## Drum Sequencer
+## Sequencers
+
+### Drum Sequencer
 
 * The drum sequencer works as described in the Ableton Push manual. The differences are:
   * Since the APCs have only 5 rows of clip buttons the selection/play grid has only 3 rows and the notes have only 2 rows.
@@ -133,7 +141,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * *Scene Launch button 4* - Transpose notes 1 block up. The new key range is displayed on the computer screen.
 * *Scene Launch button 5* - Transpose notes 1 block down. The new key range is displayed on the computer screen.
 
-## Note Sequencer
+### Note Sequencer
 
 * The pads display an 5x8 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
@@ -148,7 +156,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * *Scene Launch button 5* - Transpose notes 1 octave down. The new key range is displayed on the computer screen.
 * Press **Shift** and use the first two row buttons (arranged like a keyboard) to select the root note of the scale.
 
-## Raindrop sequencer
+### Raindrop sequencer
 
 * The lowest row displays the playable notes
 * The row above a note starts a raindrop

@@ -83,6 +83,7 @@ In all track modes hold **Shift** for additional functions:
 ### Device Modes
 
 Press the **Up button** left to the display to switch to Device mode and toggle between the display of devices and parameter pages.
+Alternatively, hold the **Up button** and select one of the modes with the select buttons below the display. This menu also contains the **User Mode** (press 8th button).
 
 1. **Device - Devices** - The Up button LED is lit **Mint**
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the Clear key and turn the encoder to reset its value.
@@ -92,7 +93,12 @@ Press the **Up button** left to the display to switch to Device mode and toggle 
     * 8 edit knobs: As above.
     * Buttons select a parameter page of the selected device.
 
-In all device modes hold **Shift** for additional functions:
+3. **User Mode** - The Up button LED is lit **White**
+    * 8 edit knobs: Change the value of the mapped user parameters.
+    * Buttons select a user parameter page (8x8). The pages can be named in the settings.
+
+In the device and parameters modes hold **Shift** for additional functions:
+
 * Button 1 **On/Off**: De-/Activate the selected device
 * Button 2 **Params**: Show/hide the remote controls section of the currently selected device
 * Button 3 **Expanded**: Show the currently selected device in narrow or wide form

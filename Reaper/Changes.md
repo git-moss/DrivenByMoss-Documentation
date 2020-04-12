@@ -1,16 +1,25 @@
 # Changes - Cockos Reaper
 
-**8.96 (Unreleased)**
+**8.96**
 
 * All devices
   * New: Included PDF manual
+  * Fixed: Buttons in the Simulator UI which expect a specific CC value did not work
+  * Fixed: Fader/knob touch states were not sent to Reaper
+  * Fixed: Some texts were not displayed in the simulator
+* APC40 MkII
+  * New: Added user mode
 * Launchpad
   * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
 * MCU
   * New: **Option+Tempo/Ticks** toggles between displaying the time or beats. **Tempo/Ticks** toggles the display of ticks/milliseconds or the current tempo for the last 3 digits. Both are also available in the settings.
+  * Fixed: Fixed some issues with fader touch
+* Novation SLMkIII
+  * New: Added user mode. Long press the UP button and then 8th row button below the display. Page names are configurable in the settings.
 * OSC
   * Fixed: /time/str now really sends the time (did send measures before)
 * Push 1/2
+  * New: Cancel notification message when changing modes
   * Fixed: Position now really shows the time (did display measures before)
 
 **8.95**
