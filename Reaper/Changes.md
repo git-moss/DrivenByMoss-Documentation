@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**8.97** (Unreleased)
+
+* All devices
+  * New: Project/document specific settings (e.g. Scale or Note Repeat Settings) are now stored with the project.
+  * New: There is now a dialog to edit project/document specific settings (click on the Project button or assign an Action key).
+
 **8.96**
 
 * All devices
@@ -10,7 +16,7 @@
 * APC40 MkII
   * New: Added user mode
 * Launchpad
-  * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
+  * Fixed: Do not switch to play mode when changing tracks in Volume, Pan and Send modes.
 * MCU
   * New: **Option+Tempo/Ticks** toggles between displaying the time or beats. **Tempo/Ticks** toggles the display of ticks/milliseconds or the current tempo for the last 3 digits. Both are also available in the settings.
   * Fixed: Fixed some issues with fader touch

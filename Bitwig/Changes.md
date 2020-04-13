@@ -1,5 +1,8 @@
 # Changes - Bitwig Studio
 
+**8.97** (Unreleased)
+
+
 **8.96**
 
 * All devices
@@ -10,7 +13,7 @@
 * Launchkey Mini Mk III
   * New: Option to remove the master and group-master tracks from the track bank (requires restart of extension).
 * Launchpad
-  * Fixed: Do not switch to play mode when changing tracks in Volume, Pand and Send modes.
+  * Fixed: Do not switch to play mode when changing tracks in Volume, Pan and Send modes.
 * MCU
   * New: **Option+Tempo/Ticks** toggles between displaying the time or beats. **Tempo/Ticks** toggles the display of ticks/milliseconds or the current tempo for the last 3 digits. Both are also available in the settings.
   * Fixed: Fixed some issues with fader touch
