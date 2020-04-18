@@ -5,6 +5,15 @@
 * All devices
   * New: Project/document specific settings (e.g. Scale or Note Repeat Settings) are now stored with the project.
   * New: There is now a dialog to edit project/document specific settings (click on the Project button or assign an Action key).
+* Launchkey Mini Mk3
+  * New: Display user pages when switching in user mode
+* MCU
+  * New: IMPORTANT: The device MIDI ports are now ordered left to right, which means if your main device is to the right, it needs to be the last!
+  * New: You can configure for each of your MCU devices if it should act like the main device (e.g. enable transport controls; you can have multiple) and has now the option to support the specific Mackie extender protocol.
+* OSC
+  * New: The bank page size can be configured from 1-200.
+* Push 1/2
+  * New: Color settings are used in MIDI clip mode. Furthermore, always at least 4 rows are displayed.
 
 **8.96**
 

@@ -2,6 +2,17 @@
 
 **8.97** (Unreleased)
 
+* Launchkey Mini Mk3
+  * New: Display user pages when switching in user mode
+  * Fixed: User mode mapping mapped to CC instead of user parameters.
+* MCU
+  * New: IMPORTANT: The device MIDI ports are now ordered left to right, which means if your main device is to the right, it needs to be the last!
+  * New: You can configure for each of your MCU devices if it should act like the main device (e.g. enable transport controls; you can have multiple) and has now the option to support the specific Mackie extender protocol.
+* OSC
+  * New: The bank page size can be configured from 1-200.
+* Push 1/2
+  * New: In Marker mode it can now choose to either Launch or only Select the marker when pressed.
+  * New: Color settings are used in MIDI clip mode. Furthermore, always at least 4 rows are displayed.
 
 **8.96**
 
