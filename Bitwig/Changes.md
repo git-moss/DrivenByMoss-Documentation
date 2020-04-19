@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**8.97** (Unreleased)
+**8.97**
 
 * Launchkey Mini Mk3
   * New: Display user pages when switching in user mode

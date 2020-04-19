@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**8.97** (Unreleased)
+**8.97**
 
 * All devices
   * New: Project/document specific settings (e.g. Scale or Note Repeat Settings) are now stored with the project.
