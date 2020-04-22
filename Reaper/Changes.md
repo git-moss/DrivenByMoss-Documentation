@@ -12,7 +12,7 @@
   * New: You can configure for each of your MCU devices if it should act like the main device (e.g. enable transport controls; you can have multiple) and has now the option to support the specific Mackie extender protocol.
 * OSC
   * New: The bank page size can be configured from 1-200.
-* Push 1/2
+* Push 2
   * New: Color settings are used in MIDI clip mode. Furthermore, always at least 4 rows are displayed.
 
 **8.96**
