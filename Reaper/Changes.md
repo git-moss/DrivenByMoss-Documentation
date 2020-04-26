@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**8.98**
+
+* All devices
+  * Fixed: Values of panorama envelope were flipped (left was right and vice versa)
+  * Fixed: Document setting code must not be executed when extension is not running
+  * Fixed: Fixed several issues on first startup (when DrivenByMoss is not yet added as control surface)
+
 **8.97**
 
 * All devices

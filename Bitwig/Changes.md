@@ -1,7 +1,26 @@
 # Changes - Bitwig Studio
 
+**9.00 (unreleased)**
+
+* Requires Bitwig 3.2+
+* Known Issues: OSC User parameters are broken
+* All devices
+  * Fixed: Grid pads did only play MIDI notes but did not execute secondary function - necessary adaption to API 11
+* Push
+  * Fixed: User parameters did not display infomation (name, value, ...), modulated value still missing - necessary adaption to API 11
+
+**8.98**
+
+* Requires Bitwig 3.1.3
+* All devices
+  * Fixed: Sometimes non-existing notes appeared when switching sequencer pages
+* OSC
+  * New: Added /device/parameters {0,1}
+  * Fixed: OpenStageControl template: Fixed touch commands on faders
+
 **8.97**
 
+* Requires Bitwig 3.1.3
 * Launchkey Mini Mk3
   * New: Display user pages when switching in user mode
   * Fixed: User mode mapping mapped to CC instead of user parameters.
@@ -16,6 +35,7 @@
 
 **8.96**
 
+* Requires Bitwig 3.1.3
 * All devices
   * New: Included PDF manual
   * Fixed: Fixed several issues with user modes
@@ -38,6 +58,7 @@
 
 **8.95**
 
+* Requires Bitwig 3.1.3
 * APC / APCmini
   * Fixed: Fixed a crash in Raindrop sequencer
 * Generic Flexi
@@ -56,6 +77,7 @@
 
 **8.94**
 
+* Requires Bitwig 3.1.3
 * Generic Flexi
   * New: The MIDI channel for the keyboard (or pads if it is a pad controller) can be explicitly set (previously it was fixed to channel 1). It can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played. Note: If you have selected All for the channel the note is blocked on all channels!
   * New: Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend were previously automatically routed to Bitwig. You can now turn them off individually if you want to map them to something else.
@@ -67,7 +89,7 @@
 
 **8.92**
 
-* Requires Bitwig 3.1.3+ (which fixes the issues with 8.80)
+* Requires Bitwig 3.1.3 (which fixes the issues with 8.80)
 * Launchpad
   * Fixed: Note selection mode could not be activated on Launchpad Pro since it was mixed up with the user mode.
   * Fixed: Note selection was activated when coming from a non-note mode but should not.

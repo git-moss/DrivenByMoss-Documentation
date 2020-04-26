@@ -117,6 +117,7 @@ MAX_VALUE is configured in the configuration settings.
 * /device/name {text}
 * /device/bypass {0,1}
 * /device/expand {0,1}
+* /device/parameters {0,1}
 * /device/window {0,1}
 * /device/param/{1-8}/name {text}
 * /device/param/{1-8}/value {0-MAX_VALUE}
@@ -293,8 +294,9 @@ MAX_VALUE is configured in the configuration settings.
 
 * /device/{+,-}
 * /device/window        Displays the window for VST plugins (or Bitwig devices with additional popout windows)
-* /device/bypass
-* /device/expand
+* /device/bypass {0,1}
+* /device/expand {0,1}
+* /device/parameters {0,1}
 * /device/param/{+,-}
 * /device/param/bank/page/{+,-}
 * /device/param/{1-8}/value {0-MAX_VALUE}
