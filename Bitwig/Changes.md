@@ -5,9 +5,13 @@
 * Requires Bitwig 3.2+
 * Known Issues: OSC User parameters are broken
 * All devices
-  * Fixed: Grid pads did only play MIDI notes but did not execute secondary function - necessary adaption to API 11
+  * New: Added setting to hide deactivated items (tracks, sends, devices, layers)
+  * Fixed: Grid pads did only play MIDI notes but did not execute secondary function (API 11 adaption)
+* Beatstep
+  * New: Renamed note inputs
+  * Fixed: Knobs did not work (API 11 adaption)
 * Push
-  * Fixed: User parameters did not display infomation (name, value, ...), modulated value still missing - necessary adaption to API 11
+  * Fixed: User parameters did not display infomation (name, value, ...), modulated value still missing (API 11 adaption)
 
 **8.98**
 

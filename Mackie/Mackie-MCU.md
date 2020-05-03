@@ -15,6 +15,18 @@ In the following the supported features are described. In brackets the names of 
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
 If your device is not listed make sure you configure the hardware settings manually to match your device.
 
+### Parameter page changes X-Touch One
+
+In device mode the FADER BANK left/right buttons change the devices, while the CHANNEL left/right buttons change single parameters of the current bank page. To also be able to switch parameter pages, you can sacrifice 2 buttons, e.g. F1 and F2:
+
+1. Press Stop + Press the edit knob to enter the configuration mode
+2. Make sure that you have selected the "MCU user" mode.
+3. Keep F1 pressed and select "CHAN <" with the edit knob.
+4. Keep F2 pressed and select "CHAN >" with the edit knob.
+5. Press the edit knob 3 times to leave configuration  mode
+
+F1 will now select the previous page, and F2 the next.
+
 ## Transport
 
 * **Play** (MCU PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
