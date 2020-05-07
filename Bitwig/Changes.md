@@ -2,16 +2,23 @@
 
 **9.00 (unreleased)**
 
-* Requires Bitwig 3.2+
-* Known Issues: OSC User parameters are broken
+* Requires Bitwig 3.2 Beta 5
+* Known Issues
+  * OSC User parameters are broken
+  * User Parameters cannot be reset
 * All devices
   * New: Added setting to hide deactivated items (tracks, sends, devices, layers)
+  * New: Drum modes: selection follows the selection if FOLLOW PLAYED NOTES is active, e.g. if triggered from a different keyboard/controller
   * Fixed: Grid pads did only play MIDI notes but did not execute secondary function (API 11 adaption)
+* Akai APC40 / APC40mkII
+  * Fixed: Changing sequencer resolutions with Clip Stop buttons did not work
 * Beatstep
   * New: Renamed note inputs
   * Fixed: Knobs did not work (API 11 adaption)
+* Launchpad
+  * Fixed: 8th row in Session mode was not drawn on startup
 * Push
-  * Fixed: User parameters did not display infomation (name, value, ...), modulated value still missing (API 11 adaption)
+  * Fixed: User parameters did not display information, e.g. name, value, ... (API 11 adaption)
 
 **8.98**
 

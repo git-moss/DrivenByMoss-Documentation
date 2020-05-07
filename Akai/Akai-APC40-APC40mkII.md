@@ -161,6 +161,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * The lowest row displays the playable notes
 * The row above a note starts a raindrop
 * If the raindrop reaches the note it sounds
+* *Clip Stop buttons* - Select the note resolution (displayed on computer screen)
 * *Scene Launch button 1* - Selects the next Scale. The new scale is displayed on the computer screen.
 * *Scene Launch button 2* - Selects the previous Scale. The new scale is displayed on the computer screen.
 * *Scene Launch button 3* - Switch between Chromatic and In-Key.
