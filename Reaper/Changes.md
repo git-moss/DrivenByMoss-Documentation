@@ -1,5 +1,24 @@
 # Changes - Cockos Reaper
 
+**9.00**
+
+* All devices
+  * New: Added setting to hide deactivated tracks (tracks with lock state)
+  * Fixed: Retrieval of track lock state (used for active state) was broken
+  * Fixed: Potential crash on shutdown of Reaper
+  * Fixed: Only add MIDI arp to track if Repeat is on (was added always if track was selected)
+* Akai APC40 / APC40mkII
+  * New: Keep a note pressed and use the mode knobs to change the parameters of the note (Sequencer + Drum mode)
+  * Fixed: Changing sequencer resolutions with Clip Stop buttons did not work
+* Launchpad
+  * New: Added a new Mixmode. Press Shift+Session to enable it. This mode contains session modes at once. The rows from bottom to top are: rec arm, solo, mute, clip stop, send 2, send 1, panorama, volume. The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
+  * New: Masterfader in Volume mode now has 4 steps per pad (like the other track faders)
+  * New: In Pan mode the scene buttons control now the panormama of the master fader (to be consistent with volume mode)
+  * New: Stop Clip buttons are now lit in red if pressed
+  * Fixed: 8th row in Session mode was not drawn on startup
+* Maschine Mikro Mk3
+  * Fixed: Extension did crash on startup
+
 **8.98**
 
 * All devices

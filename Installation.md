@@ -47,6 +47,9 @@ You find the UserPlugins folder at the following locations:
    Install the *.so file into `~/.config/REAPER/UserPlugins` or in the case of a 
    portable install into REAPER/UserPlugins.
 
+Alternatively, you can start Reaper and click in the Options menu on *Show REAPER resource path in explorer/finder...".
+In the folder that open navigate into the UserPlugins subfolder.
+
 ### Mac OS specifics
 
 If you get the following error when starting Reaper:  `"reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software.`,

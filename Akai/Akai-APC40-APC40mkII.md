@@ -141,6 +141,22 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * *Scene Launch button 4* - Transpose notes 1 block up. The new key range is displayed on the computer screen.
 * *Scene Launch button 5* - Transpose notes 1 block down. The new key range is displayed on the computer screen.
 
+**Editing notes**
+
+Press the pad of an existing note and keep it pressed to edit the values of a note with the 8 mode knobs.
+The knobs edit the following parameters:
+
+1. Duration (1/32 to 4 bars (128 * 32th))
+2. Velocity
+3. Release Velocity
+4. Gain
+5. Panorama
+6. Pitch
+7. Timbre
+8. Pitch
+
+Parameter 3 to 8 are only available with Bitwig.
+
 ### Note Sequencer
 
 * The pads display an 5x8 view of the selected clips note grid.
@@ -155,12 +171,13 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * *Scene Launch button 4* - Transpose notes 1 octave up. The new key range is displayed on the computer screen.
 * *Scene Launch button 5* - Transpose notes 1 octave down. The new key range is displayed on the computer screen.
 * Press **Shift** and use the first two row buttons (arranged like a keyboard) to select the root note of the scale.
+* **Editing notes**, see the Drum Sequencer
 
 ### Raindrop sequencer
 
 * The lowest row displays the playable notes
-* The row above a note starts a raindrop
-* If the raindrop reaches the note it sounds
+* Pressing a pad in a row above a note start a raindrop
+* If the raindrop reaches the note it makes the note sound
 * *Clip Stop buttons* - Select the note resolution (displayed on computer screen)
 * *Scene Launch button 1* - Selects the next Scale. The new scale is displayed on the computer screen.
 * *Scene Launch button 2* - Selects the previous Scale. The new scale is displayed on the computer screen.
@@ -180,6 +197,8 @@ If you keep Shift pressed there are additional functions available on the pads o
 * 5th: Add device after
 * 7th: Undo
 * 8th: Redo
+
+The 2 rows at the bottom represent a keyboard, which allows you to select the root note of the scale.
 
 ## Preferences dialog
 

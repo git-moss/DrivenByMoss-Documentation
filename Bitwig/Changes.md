@@ -3,7 +3,7 @@
 **9.00 (unreleased)**
 
 * Requires Bitwig 3.2 Beta 5
-* Known Issues
+* Known Issues with Bitwig 3.2 Beta 5
   * OSC User parameters are broken
   * User Parameters cannot be reset
 * All devices
@@ -11,11 +11,16 @@
   * New: Drum modes: selection follows the selection if FOLLOW PLAYED NOTES is active, e.g. if triggered from a different keyboard/controller
   * Fixed: Grid pads did only play MIDI notes but did not execute secondary function (API 11 adaption)
 * Akai APC40 / APC40mkII
+  * New: Keep a note pressed and use the mode knobs to change the parameters of the note (Sequencer + Drum mode)
   * Fixed: Changing sequencer resolutions with Clip Stop buttons did not work
 * Beatstep
   * New: Renamed note inputs
   * Fixed: Knobs did not work (API 11 adaption)
 * Launchpad
+  * New: Added a new Mixmode. Press Shift+Session to enable it. This mode contains session modes at once. The rows from bottom to top are: rec arm, solo, mute, clip stop, send 2, send 1, panorama, volume. The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
+  * New: Masterfader in Volume mode now has 4 steps per pad (like the other track faders)
+  * New: In Pan mode the scene buttons control now the panormama of the master fader (to be consistent with volume mode)
+  * New: Stop Clip buttons are now lit in red if pressed
   * Fixed: 8th row in Session mode was not drawn on startup
 * Push
   * Fixed: User parameters did not display information, e.g. name, value, ... (API 11 adaption)

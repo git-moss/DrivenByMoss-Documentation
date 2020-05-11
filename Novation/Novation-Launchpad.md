@@ -61,16 +61,18 @@ Note: The preferred play/sequencer mode is remembered for each track.
 
 ## Shift Mode
 
-If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The first column (from the left) of the grid now represents the missing left column of the Pro model.
-The second column represents the functions of these buttons in Shift state.
+If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The **first column (from the left)** of the grid now represents the missing left column of the Pro model.
+The **second column** represents the functions of these buttons in Shift state.
 
-Pressing the Delete and Duplicate pads in shift mode activates the related mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is turned off.
+Pressing the **Delete (pink) or Duplicate (purple) pads** in shift mode activates the related mode. The pad starts to blink to indicate that the Delete/Duplicate mode is enabled. Press the pad again to cancel the mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is automatically turned off.
 
-The Scene buttons represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
+The **Scene buttons** represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
 The colors of the buttons are identical. This area is empty on the Pro model.
 
+Press the **Session** button to enter Mix-Mode.
+
 Further functions (all models):
-* The pads of the first row change the length of newly created clips.
+* The pads of the first row (from the bottom) change the length of newly created clips.
 * The three green buttons in the right upper corner insert an instrument, audio or effect track.
 * The red button in the lower right corner stops the playback of all clips.
 * The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The pads of the first two columns below change the note repeat period and the other two columns the note length.
@@ -253,6 +255,21 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 * Up/Down buttons switch from replacing the current device to inserting a new device before or after it.
 
 ![Browser Mode](Diagrams/Launchpad/device-inst-browser.png)
+
+## Mix Mode
+
+Press _"Shift+Session"_ to activate Mix mode.
+
+This mode contains all session modes at once. The rows from bottom to top are:
+* rec arm, 
+* solo, 
+* mute, 
+* clip stop, 
+* send 2, 
+* send 1, 
+* panorama, 
+* volume.
+The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
 
 ## Preferences Dialog
 
