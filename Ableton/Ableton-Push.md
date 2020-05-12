@@ -201,7 +201,7 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * Change the note length or create long notes by pressing a note pad and then a pad right of it.
 * To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
 * Note starts and lengths are lit in different colors.
-* Long press a pad which contains a note to edit the parameters of the note.
+* Long press a pad which contains a note to edit the parameters of the note (except Poly Sequencer).
 * Use the Scene buttons to change the grids resolution.
 
 ### Note Sequencer
