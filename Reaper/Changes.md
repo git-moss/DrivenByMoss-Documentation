@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**9.01 (unreleased)**
+**9.01**
 
 * All devices
   * Fixed: Crash when closing Reaper device configuration dialog with OK.
