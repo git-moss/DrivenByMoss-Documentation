@@ -22,6 +22,8 @@
   * New: In Pan mode the scene buttons control now the panormama of the master fader (to be consistent with volume mode)
   * New: Stop Clip buttons are now lit in red if pressed
   * Fixed: 8th row in Session mode was not drawn on startup
+* MCU
+  * Fixed: Touching multiple faders did not restore Pan mode on release.
 * Push
   * Fixed: User parameters did not display information, e.g. name, value, ... (API 11 adaption)
 

@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**9.01 (unreleased)**
+
+* All devices
+  * Fixed: Crash when closing Reaper device configuration dialog with OK.
+* MCU
+  * Fixed: Selecting *Mackie Extender* did not work
+  * Fixed: Touching multiple faders did not restore Pan mode on release.
+
 **9.00**
 
 * All devices
