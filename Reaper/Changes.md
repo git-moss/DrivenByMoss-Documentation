@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**9.02 (unreleased)**
+
+* All devices
+  * Fixed: reaper-jsfx.ini could not be loaded if it contained non UTF-8 characters
+* Push
+  * Fixed: Push 2: Message was flickering if no presets matched the filter in the browser
+
 **9.01**
 
 * All devices

@@ -136,9 +136,9 @@ Press _"Note"_  and select the first red pad to change to **Scale** mode.
 
 * The key layout is the same one used with Ableton Push
 * Left/Right buttons change the scale (Major, Minor, etc.)
-* Up/Down buttons transpose the grid up/down.
+* Up/Down buttons transpose the note range (pitch) up/down.
 * The upper 2 scene buttons change the key layout.
-* The white scene button toggles between Chromatic and Scale Only  mode.
+* The white scene button toggles between Chromatic and Scale Only mode.
 * The lower 2 scene buttons change the root note of the scale.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 

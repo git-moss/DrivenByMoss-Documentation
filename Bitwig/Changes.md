@@ -26,6 +26,7 @@
   * Fixed: Touching multiple faders did not restore Pan mode on release.
 * Push
   * Fixed: User parameters did not display information, e.g. name, value, ... (API 11 adaption)
+  * Fixed: Push 2: Message was flickering if no presets matched the filter in the browser
 
 **8.98**
 
