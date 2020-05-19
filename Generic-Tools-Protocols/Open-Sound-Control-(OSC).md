@@ -352,9 +352,9 @@ MAX_VALUE is configured in the configuration settings.
 * /browser/device/before        Activates the browser to insert a device before the currently selected device
 * /browser/commit               Commits the current selection in the browser
 * /browser/cancel               Cancels the current browser session
-* /browser/filter/{1-6}/{+,-}   The columns are as follows: 1: Location, 2: Favorites, 3: Creator, 4: Tags, 5: Devices, 6: Category
+* /browser/filter/{1-6}/{+,-}   The columns are as follows: 1: Favorites, 2: Location, 3: File Type, 4: Category, 5: Tags, 6: Creator
 * /browser/filter/{1-6}/reset   Resets the filter of the column
-* /browser/preset/{+,-}         Select the next/previous preset
+* /browser/result/{+,-}         Select the next/previous result
 * /browser/tab/{+,-}            Select the next/previous tab (Devices/Presets/Multisamples/...)
 
 ### Receive - Play
