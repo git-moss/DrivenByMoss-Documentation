@@ -19,7 +19,7 @@ After you have copied the file reboot your computer.
 * **Select+Shift+Play** - Toggle Punch Out
 * **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
-* **New** - It creates a new clip on the selected track and slot, starts play and enables overdub.
+* **New** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Shift+New** - Like New button but without activating launcher overdub.
 * **Automation** - Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.
 * **Shift + Automation** - Toggles the clip launcher automation write enabled state of the transport.

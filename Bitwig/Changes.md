@@ -1,11 +1,19 @@
 # Changes - Bitwig Studio
 
-**9.00 (unreleased)**
+**9.00 Beta 6 (unreleased)**
 
-* Requires Bitwig 3.2 Beta 5
-* Known Issues with Bitwig 3.2 Beta 5
+* Requires Bitwig 3.2 Beta 6
+* Known Issues with Bitwig 3.2 Beta 6
   * OSC User parameters are broken
   * User Parameters cannot be reset
+* Launchpad
+  * New: Support for Launchpad Pro Mk3
+  * New: Pads which show states in Shift mode are lit brighter when enabled (Play, Record, Metronome, ...)
+  * New: **Shift+Delete**: Toggle Repeat (was Shift+Duplicate)
+  * New: **Shift+Duplicate**: Doubles the clips content
+  * New: Simulator layout is no closer to the specific Launchpad model
+
+**9.00 Beta 5 (unreleased)**
 * All devices
   * New: Added setting to hide deactivated items (tracks, sends, devices, layers)
   * New: Drum modes: selection follows the selection if FOLLOW PLAYED NOTES is active, e.g. if triggered from a different keyboard/controller

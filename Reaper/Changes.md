@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**9.02 (unreleased)**
+**9.02**
 
 * All devices
   * Fixed: reaper-jsfx.ini could not be loaded if it contained non UTF-8 characters
