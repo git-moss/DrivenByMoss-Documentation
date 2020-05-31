@@ -1,29 +1,42 @@
-# Novation Launchpad Pro, MkII, Mini Mk3, X
+# Novation Launchpad
 
-Support script for several of Novation's Launchpad controllers.
+The following of Novation's Launchpad controllers are supported:
+* Launchpad Pro
+* Launchpad ProMk3
+* Launchpad Mk2
+* Launchpad Mini Mk3
+* Launchpad X
 
 ## Installation
 
-* Pro, Mini Mk3, X: If you added the controller manually, choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
+If you added the controller manually, choose the following in-/output ports:
+* Pro Mk3: choose the 1st port (e.g. *LPProMK3 MIDI* on Windows).
+* Pro, Mini Mk3, X: choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
   *MIDIOUT2 (Launchpad Pro)* on Windows).
 * Make sure the Launchpad sends on Midi Channel 1!
 * To have pads blinking in sync with your song tempo activate to send MIDI clock to the device.
 
 ## Differences between the Launchpad models
 
-The Pro has an additional left column and bottom row of buttons. Especially, it has a **Shift** button to access 
-additional functionality (see the _Shift Mode_ below).
-To work around this another button has to function as the Shift button. It is the last button of the top button row
-(MkII: **Mixer**, Mini Mk3: **User**, X: **Capture Midi**).
+The Pro models have an additional left column and bottom row of buttons.
 
-The three buttons on the top row, right to the cursor keys are also named differently on the models:
+Especially, they have a **Shift** button to access additional functionality (see the _Shift Mode_ below).
+To work around this missing button on the other models another button has to function as the Shift button. It is the last button of the top button row (MkII: **Mixer**, Mini Mk3: **User**, X: **Capture Midi**).
 
-* Pro: Session, Note, Device
+The three buttons on the top row, right to the cursor keys are named differently on the models:
+
+* Pro Mk1: Session, Note, Device
 * MkII: Session, User 1, User 2
 * X: Session, Note, Custom
 * Mini Mk3: Session, Drums, Keys
 
 These differences will not be mentioned again in the following text and **only the names of the Pro model will be used!**
+
+### Pro Mk3
+
+The differences on the Pro Mk3 are more drastic. It contains an additional row of buttons to select a track on the bottom. Additional functions are available in combination with the Clear button, to delete a track and the Duplicate button to duplicate a track.
+
+Furthermore, some buttons were moved to a button which needs to be used in combination with the Shift button, e.g. for Undo press Shift+Record Arm. The implementation follows the labels on the buttons.
 
 ## Transport and Editing (Left button column)
 
@@ -32,28 +45,31 @@ These differences will not be mentioned again in the following text and **only t
 * **Shift+Click** - Tap Tempo
 * **Undo** - Undo. Press Shift for Redo.
 * **Delete** - Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
+* **Shift+Delete** - Toggle repeat
 * **Quantise** - Quantises the selected clip.
-* **Duplicate** - Always duplicates the first selected clip on the current track if pressed with no other button.
+* **Record Quantise** - Press multiple times to toggle througgh the record quantisation settings.
+* **Duplicate** (**Clear** on the Pro Mk3) - Always duplicates the first selected clip on the current track if pressed with no other button.
   * Launchpad Pro: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
   * Launchpad Pro: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
   * Launchpad Pro: Keep the Duplicate button pressed and select a scene to duplicate it.
-* **Shift+Duplicate** - Toggle repeat
-* **Double** - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift+Double** - Creates a new clip on the selected track and slot, starts play and enables overdub.
+* **Shift+Duplicate** - Double the currently selected MIDI clip incl. its' content.
+* **Double** (**Play** on the Pro Mk3) - Start/Stop playback. Double click to move play cursor to start of song.
+* **Shift+Double** (**Play** on the Pro Mk3) - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
 
 ## Cursors and Mode selection (Upper button row)
 
-* **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific 
-    View (e.g. track, scene).
+* **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific View (e.g. track, scene).
 * **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice.
     Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode.
-* **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes.
+* **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes. On the **Pro Mk3** pressing the Note button toggles through the 3 play modes.
 * **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens 
     the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one
-* **User** (only Pro) - Brings up the user mode.
+* **User** (only Pro, **Custom** on the Mk3) - Brings up the user mode.
+* **Chord** (only Pro Mk3) - Toggles through the 3 drum sequencer modes.
+* **Sequencer** (only Pro Mk3) - Toggles through the 3 note sequencer modes.
 
 Note: The preferred play/sequencer mode is remembered for each track.
 
@@ -102,7 +118,16 @@ These buttons only work in the Session mode. If the Session mode is not yet sele
   to select the Sends 1 to 8.
 * **Stop Clip** - The 8 buttons of the bottom row of the grid allow to stop the playing clip of the track of the 
   currently focused 8 tracks of the track bank.
-* **Shift+Stop Clip** - Stops all currently playing clips. (Mixer + 8th button of 2nd row on MkII)
+
+### Shifted functions on the Pro models
+
+* **Shift+Record Arm**: Undo
+* **Shift+Mute**: Redo
+* **Shift+Solo**: Toggle Metronome
+* **Shift+Sends**: Tap Tempo
+* **Shift+Solo**: Toggle Metronome
+* **Shift+Device**: Enter tempo mode
+* **Shift+Stop Clip**: Enter swing mode
 
 ## Session Mode
 
@@ -121,6 +146,7 @@ _Long press_ to enter birds-eye-view.
 ## Selecting Note or Sequencer Modes
 
 Press _"Note"_ to choose a **Note** or **Sequencer** mode.
+On the **Pro Mk3** use the **Note**, **Chord** and **Sequencer** buttons to toggle through the modes.
 
 * The first three (red) pads represent **Play** modes - Scale, Piano, and Drum64.
 * The second three (blue) pads represent **Drum Sequencer** modes - Drum, Drum4, and Drum 8
@@ -271,7 +297,22 @@ This mode contains all session modes at once. The rows from bottom to top are:
 * volume.
 The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
 
+## Tempo mode
+
+Press **Shift+Device** on the Pro models. On all other models. Press Shift and either the arrow up or down button.
+
+The grid displays the current tempo. Change the tempo with the cursor keys. Up/down change by 1 and left/right by steps of 10. You can also keep a button pressed for continuous changes.
+
+Press any of the grid pads to exit this mode.
+
+## Shuffle mode
+
+Press **Shift+Stop clip** on the Pro models. On all other models. Press Shift and either the arrow left or right button.
+
+The grid displays the current shuffle value. Change the value with the cursor keys. Up/down change by 1 and left/right by steps of (about) 10. You can also keep a button pressed for continuous changes.
+
+Press any of the grid pads to exit this mode.
+
 ## Preferences Dialog
 
 You can set several preferences in the Preferences dialog of the script, which are stored when you exit the DAW.
-Note that some of them are not available via the Launchpad Pro controller.

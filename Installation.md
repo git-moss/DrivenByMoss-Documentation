@@ -16,11 +16,15 @@ See the documentation of the individual controllers for further installation/con
 
 ## Cockos Reaper
 
+### Updating a previous version
+
+**Important:** If you update from a previous version make sure to delete the old files first. Otherwise you will have files in different versions, which will result in several problems.
+
 ### Installation
 
 Unzip the downloaded file "DrivenByMoss4Reaper-X.XX-PLATFORM.zip" to the Reaper UserPlugins folder.
    
-Important:
+**Important:**
 
 1. Make sure you keep the folder structure of the ZIP file intact
    (UserPlugins/java-runtime, UserPlugins/drivenbymoss-libs, ...)!

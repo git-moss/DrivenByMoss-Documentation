@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**9.10**
+
+* Launchpad
+  * New: Support for Launchpad Pro Mk3
+  * New: Pads which show states in Shift mode are lit brighter when enabled (Play, Record, Metronome, ...)
+  * New: **Shift+Delete**: Toggle Repeat (was Shift+Duplicate)
+  * New: **Shift+Duplicate**: Doubles the clips content
+  * New: Simulator layout is now closer to the specific Launchpad model
+  * New: In Shift mode, cursor up or down enters the tempo mode. In Tempo mode you can change the tempo with the cursor keys.
+  * New: In Shift mode, cursor left or right enters the shuffle mode. In Shuffle mode you can change the shuffle amount with the cursor keys.
+  * New: Added record quantization setting (Shift+Quantise)
+* Push
+  * New: Drum sequencers use the colors of the drum pads of the drum machine device
+
 **9.02**
 
 * All devices

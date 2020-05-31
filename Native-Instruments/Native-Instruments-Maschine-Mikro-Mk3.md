@@ -20,7 +20,7 @@ The **Shift** and **Cursor buttons** do not send MIDI values, therefore they can
 * **Rec** - Start/Stop recording.
 * **Stop** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song. Use in combination with a pad in Clip Mode to stop the clip.
 * **Restart/Loop** - Toggle transport loop
-* **Erase** - Undo. Use in combinbation with a pad to duplicate a scene, clip or track depending on the selected mode.
+* **Erase** - Undo. Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
 * **Erase + touch encoder knob** - Reset the currently edited value to its default.
 * **Tap** - Toggle metronome
 * **Follow** - Quantize the selected clip
