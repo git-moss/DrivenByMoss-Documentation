@@ -287,6 +287,7 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 Press _"Shift+Session"_ to activate Mix mode.
 
 This mode contains all session modes at once. The rows from bottom to top are:
+
 * rec arm, 
 * solo, 
 * mute, 
@@ -295,11 +296,12 @@ This mode contains all session modes at once. The rows from bottom to top are:
 * send 1, 
 * panorama, 
 * volume.
+
 The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
 
 ## Tempo mode
 
-Press **Shift+Device** on the Pro models. On all other models. Press Shift and either the arrow up or down button.
+Press **Shift+Device** on the Pro models. On all other models, press Shift and either the arrow up or down button.
 
 The grid displays the current tempo. Change the tempo with the cursor keys. Up/down change by 1 and left/right by steps of 10. You can also keep a button pressed for continuous changes.
 
@@ -312,6 +314,25 @@ Press **Shift+Stop clip** on the Pro models. On all other models. Press Shift an
 The grid displays the current shuffle value. Change the value with the cursor keys. Up/down change by 1 and left/right by steps of (about) 10. You can also keep a button pressed for continuous changes.
 
 Press any of the grid pads to exit this mode.
+
+## Project mode (only Launchpad Pro Mk3)
+
+Press the **Project** button to enter.
+
+* Top Border (from left to right):
+  * Switch to previous project (if multiple projects are open)
+  * Toggle Audio Engine on/off of the selected project
+  * Switch to next project (if multiple projects are open)
+* Left Border: Toggle the inspector pane
+* Right Border: Toggle the Browser pane
+* Bottom Border (from left to right):
+  * Toggle Note editor pane
+  * Toggle Automation editor pane
+  * Toggle Devices pane
+  * Toggle Mixer pane
+* Center buttons: Select layouts 1-3
+* Cursor keys left/right: Zoom the arranger (arranger pane needs to be active!)
+* Cursor keys up/down: Toggle track height (arranger or clip pane needs to be active!)
 
 ## Preferences Dialog
 

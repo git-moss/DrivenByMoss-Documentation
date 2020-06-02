@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**9.11 (unreleased)**
+
+* All devices
+  * Fixed: MIDI Arp got unecessarily instantiated on project load even if Note Repeat was off
+
 **9.10**
 
 * Launchpad
