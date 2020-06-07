@@ -4,6 +4,9 @@
 
 * All devices
   * Fixed: MIDI Arp got unecessarily instantiated on project load even if Note Repeat was off
+  * Fixed: Scrolling track bank by 1 was not implemented (e.g. MCU)
+* Akai APC40 / APC40mkII
+  * Fixed: User mode did not work
 
 **9.10**
 

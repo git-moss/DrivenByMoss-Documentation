@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**9.11 (unreleased)**
+
+* Requires Bitwig 3.2
+* Akai APC40 / APC40mkII
+  * Fixed: User mode did not work
+
 **9.10**
 
 * Requires Bitwig 3.2 Beta 8
