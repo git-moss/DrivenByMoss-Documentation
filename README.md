@@ -48,6 +48,7 @@ After that check the specific controller documentation below for additional inst
 * Akai
   * [APC40 & APC40mkII](Akai/Akai-APC40-APC40mkII.md)
   * [APCmini](Akai/Akai-APCmini.md)
+  * [Fire](Akai/Akai-Fire.md)
 * Arturia
   * [Beatstep](Arturia/Arturia-Beatstep.md)
 * Mackie

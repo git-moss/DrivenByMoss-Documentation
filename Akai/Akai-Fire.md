@@ -207,3 +207,21 @@ The Mute/Solo buttons have the following functions:
 * **Mute/Solo 2**: Redo
 * **Mute/Solo 3**: Quantize
 * **Mute/Solo 4**: -
+
+### Browser Mode
+
+You can use the browser to add devices, switch presets and select sounds for the drum machine.
+
+You can activate the browser in different ways, depending on the use-case:
+* **Browser**: Activates the browser mode to exchange the currently selected device or select a different preset for the device.
+* **Shift + Browser**: Activates the browser mode to insert a device *before* the currently selected one.
+* **Alt + Browser**: Activates the browser mode to insert a device *after* the currently selected one.
+* **Browser + Pad**: If the drum sequencer is active and the Bitwig drum machine is loaded in the selected track you can exchange the sound of one of the drum machine pads by keeping the browser button pressed and pressing any of the grid pads. The sound of the row which contains the pressed pad will be exchanged.
+
+The browser is used in the same way no matter how you opened it:
+**Knobs 1-4**: Change the filter value of the respective filter column
+**Alt + Knobs 1-3**: dito, for column 5-7
+**Select Knob**: Choose a new result item. If you keep the knob pressed while turning the knob you switch sounds in steps of 3.
+**Grid left/right**: Change the browser pane (Devices, Presets, ...)
+
+To close the browser and confirm the selection press either the select knob or the browser button. To discard the selection press **Alt + Browser**.

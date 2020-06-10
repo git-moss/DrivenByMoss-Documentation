@@ -1,10 +1,13 @@
 # Changes - Bitwig Studio
 
-**9.11 (unreleased)**
+**9.20 (unreleased)**
 
-* Requires Bitwig 3.2
+* Requires Bitwig 3.2+
+* New: Support for Akai Fire
 * Akai APC40 / APC40mkII
   * Fixed: User mode did not work
+* Push 2
+  * New: Increased text size of list elements
 
 **9.10**
 
