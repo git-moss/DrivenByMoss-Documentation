@@ -57,6 +57,7 @@ After that check the specific controller documentation below for additional inst
 * Native Instruments
   * [Kontrol S25, S49, S61, S88 mk I](Native-Instruments/Native-Instruments-Kontrol1.md)
   * [Kontrol S49, S61, S88 mk II, A-series, M32](Native-Instruments/Native-Instruments-Kontrol2.md)
+  * [Maschine Mk3](Native-Instruments/Native-Instruments-Maschine-Mk3.md)
   * [Maschine Mikro Mk3](Native-Instruments/Native-Instruments-Maschine-Mikro-Mk3.md)
 * Novation
   * [Launchkey Mini Mk3](Novation/Novation-LaunchkeyMiniMk3.md)

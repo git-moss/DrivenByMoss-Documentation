@@ -1,13 +1,35 @@
 # Changes - Bitwig Studio
 
-**9.20 (unreleased)**
+**10.0.0**
 
 * Requires Bitwig 3.2+
+* The manual has now a *known issues* sesction
 * New: Support for Akai Fire
+  * Note: The display update of the Akai Fire is very slow on Macos and makes it nearly unusable
+* New: Support for Native Instruments Maschine Mk3
 * Akai APC40 / APC40mkII
   * Fixed: User mode did not work
+* Maschine Mikro
+  * New: Show more on-screen notifications (Tap Tempo, Fixed Velocity, value change speed)
+  * New: **Stop + Pad Mode** - Selects the previous base note of the scale.
+  * New: **Stop + Keyboard** - Selects the next base note of the scale.
+  * New: **Stop + Chords** - Selects the previous note layout.
+  * New: **Stop + Step** - Selects the next note layout.
+  * New: **Stop + Plug-In** - Toggle the window (if any) of the selected device (if any).
+  * New: **Sampling** - Brings up the Slice to Drum Machine dialog.
+  * New: **Stop + Sampling** - Bring up the Slice to Multi-sample dialog.
+  * New: **Auto** - Toggle write arranger automation.
+  * New: **Stop + Auto** - Toggle write clip launcher automation.
+  * New: **Lock** - Toggle arranger overdub.
+  * New: **Stop + Lock** - Toggle clip launcher overdub.
+  * New: **Stop + Projects** - Save the project.
+  * New: **Tap** - Tap Tempo
+  * New: **Stop + Tap** - Toggle metronome
+  * Fixed: FX and Master track were missing in Select, Solo and Mute modes
 * Push 2
   * New: Increased text size of list elements
+* SL MkIII
+  * Fixed: Updated MIDI port lookup names on Macos
 
 **9.10**
 
