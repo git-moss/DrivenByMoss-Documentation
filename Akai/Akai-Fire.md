@@ -227,3 +227,7 @@ The browser is used in the same way no matter how you opened it:
 **Grid left/right**: Change the browser pane (Devices, Presets, ...)
 
 To close the browser and confirm the selection press either the select knob or the browser button. To discard the selection press **Alt + Browser**.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
