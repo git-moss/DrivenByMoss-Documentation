@@ -221,9 +221,13 @@ You can activate the browser in different ways, depending on the use-case:
 
 The browser is used in the same way no matter how you opened it:
 
-**Knobs 1-4**: Change the filter value of the respective filter column
-**Alt + Knobs 1-3**: dito, for column 5-7
-**Select Knob**: Choose a new result item. If you keep the knob pressed while turning the knob you switch sounds in steps of 3.
-**Grid left/right**: Change the browser pane (Devices, Presets, ...)
+* **Knobs 1-4**: Change the filter value of the respective filter column
+* **Alt + Knobs 1-3**: dito, for column 5-7
+* **Select Knob**: Choose a new result item. If you keep the knob pressed while turning the knob you switch sounds in steps of 3.
+* **Grid left/right**: Change the browser pane (Devices, Presets, ...)
 
 To close the browser and confirm the selection press either the select knob or the browser button. To discard the selection press **Alt + Browser**.
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
