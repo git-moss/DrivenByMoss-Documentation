@@ -118,6 +118,14 @@ Press the **Step** button to activate. The STEP LED is lit orange.
 * **Mute/Solo 3**: Toggle Solo of selected track
 * **Mute/Solo 4**: Toggle Record Arm of selected track
 
+To edit a note, press the pad with the note (and keep it pressed) and then turn the knobs:
+
+* **Volume knob**: Changes the gain of the note
+* **Pan knob**: Changes the panorama of the note
+* **Filter knob**: Changes the duration of the note
+* **Resonance knob**: Changes the velocity of the note
+* **Select knob**: Changes the pitch of the note
+
 ### Poly Sequencer Mode
 
 Press the **Step** button twice to activate. The STEP LED is lit red.
@@ -151,6 +159,8 @@ Press the **Drum** button to activate. The DRUM LED is lit orange.
 * **Alt + Grid buttons**: Change the step resolution
 * **Mute/Solo 1-4**: Mute the drum sound of the row
 * **Shift + Mute/Solo 1-4**: Solo the drum sound of the row
+
+Editing a note works like in the note sequencer.
 
 ### Drum 64 Mode
 

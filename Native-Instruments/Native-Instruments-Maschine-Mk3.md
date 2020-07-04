@@ -16,13 +16,13 @@ The **Shift** button does not send MIDI values, therefore it cannot be used. Som
 
 ## Global
 
-* **Channel** - Not used (yet)
+* **Channel** - Insert a new instrument channel
+* **Stop + Channel** - Insert a new audio channel
 * **Plugin** - Toggle device window
 * **Arranger** - Toggle layouts (Arrange, Mix, Edit)
 * **Sampling** - Brings up the Slice to Drum Machine dialog.
 * **Stop + Sampling** - Bring up the Slice to Multi-sample dialog.
-* **File** - Adds an instrument track. If the browser is active, it closes the browser and discards the new selection.
-* **Stop + File** - Save the project.
+* **File** - Saves the project.
 * **Auto** - Toggle write clip launcher automation.
 * **Macro** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Lock** - Toggle write arranger automation.
@@ -87,6 +87,7 @@ The buttons above the display have the following functions:
 ### Volume mode
 
 * **Knob 1-8** - Changes the volume of the 8 tracks of the current track bank page
+* **Erase + Knob 1-8** - Reset the volume to the default value
 * **Page left/right** - Selects the previous/next clips/scenes page
 * **Encoder left/right** - Selects the previous/next track
 * **Encoder up/down** - Selects the previous/next track bank page
@@ -95,6 +96,7 @@ The buttons above the display have the following functions:
 ### Panorama mode
 
 * **Knob 1-8** - Changes the panorama of the 8 tracks of the current track bank page
+* **Erase + Knob 1-8** - Reset the panorama to the default value
 * **Page left/right** - Selects the previous/next clips/scenes page
 * **Encoder left/right** - Selects the previous/next track
 * **Encoder up/down** - Selects the previous/next track bank page
@@ -103,6 +105,7 @@ The buttons above the display have the following functions:
 ### Send 1-8 mode
 
 * **Knob 1-8** - Changes the volume of the selected send of the 8 tracks of the current track bank page
+* **Erase + Knob 1-8** - Reset the volume of the send to the default value
 * **Page left/right** - Selects the previous/next clips/scenes page
 * **Encoder left/right** - Selects the previous/next track
 * **Encoder up/down** - Selects the previous/next track bank page
@@ -119,6 +122,7 @@ The buttons above the display have the following functions:
 ### Device Parameters mode
 
 * **Knob 1-8** - Changes the value of the 8 parameters of the current parameter page
+* **Erase + Knob 1-8** - Reset the value of the parameter to the default value
 * **Page left/right** - Selects the previous/next device of the selected track
 * **Encoder left/right** - Selects the previous/next parameter
 * **Encoder up/down** - Selects the previous/next parameters page

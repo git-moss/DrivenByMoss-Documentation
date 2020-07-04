@@ -44,7 +44,7 @@ F1 will now select the previous page, and F2 the next.
 * **Stop** (MCU STOP) - Stop playback. Press again to move play cursor to start of song.
 * **Jog Wheel** - Move play cursor (press **Shift** for fine adjustment)
 * **Option + Jog Wheel** - Change tempo (press **Shift** for fine adjustment)
-* **Scrub** - Toggles between Track and Device editing mode
+* **Scrub** - Toggles between all editing mode
 * **Arrow left, right, up, down** - Like pressing the arrow keys on the computer keyboard
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
 * **Nudge** - Executes Tap Tempo

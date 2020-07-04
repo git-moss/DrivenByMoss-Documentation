@@ -1,15 +1,64 @@
 # Changes - Bitwig Studio
 
+**10.1.0 (unreleased)**
+
+* Requires Bitwig 3.2+
+* All devices
+  * Fixed: Replaced a special **#** character (e.g. from Diatonic Transposer) with the normal ASCII #.
+* APCmini
+  * Fixed: Scene buttons were not lit
+  * Fixed: Drum sequencer crashed
+* Komplete Kontrol MKI
+  * Fixed: Several crashes when activating Scale due to not configured colors
+  * Fixed: Light guide did not work correctly when keyboard was transposed
+* MCU
+  * New: *use faders as knobs* and *Marker mode* functions display their state on the screen if toggled.
+  * Fixed: Do not select tracks on fader touch if *use faders as knobs* is active.
+* Maschine Mk3
+  * New: **Channel** - Insert a new instrument channel (was File)
+  * New: **Stop + Channel** - Insert a new audio channel
+  * New: **File** - Saves the project (was Stop + File)
+  * New: **Page left / right** moves to the previous/next clip on the selected track (moved the scene page before)
+  * New: **Stop + Page left / right** moves to the previous/next clip page
+  * New: **Stop + Volume** - Toggles VU meter display
+  * New: Scale and Note Repeat settings are displayed and can be edited with knobs
+* Mikro Mk3
+  * New: In track and parameter selection modes the selected tracks/parameters blink.
+* Maschine Mk3 / Mikro Mk3
+  * New: Play mode is now accessed by pressing *Keyboard*. Press again for play configuration mode.
+  * New: Drum mode is now accessed by pressing *Pad Mode*. Press again for drum configuration mode.
+  * New: Activating Step provides a step sequencer for the currently selected *drum machine cell* or the last played note if *Keyboard* is active. Follow button provides grid resolution setting and page selection.
+  * New: Chord button enables chords in play mode. Note of pad adds 2 thirds on top.
+  * New: **Stop + Rec** - Start recording a clip in the currently selected (empty) slot
+  * New: *Sequential up* is now the default play layout
+  * New: **Erase** - Does no longer trigger Undo. Use **Stop + Pad 1** instead.
+  * New: To change bank pages turn the encoder and keep the related button pressed (scenes - *Scene*, clips - *Pattern*, tracks - *Select, Solo or Mute*))
+  * New: In the parameter selection (*Variation* button) use the top row pads to switch devices and parameter pages. The parameter pads are now colored in the Bitwig parameter colors
+  * New: **Stop + Pad 1 (Undo)** - Undo
+  * New: **Stop + Pad 2 (Redo)** - Redo
+  * New: **Stop + Pad 5 (Quantize)** - Quantizes the selected MIDI 100%
+  * New: **Stop + Pad 6 (QUANTIZE 50%)** - Quantizes the selected MIDI 50%
+  * New: **Stop + Pad 9 (CLEAR)** - Deletes all MIDI notes from the selected MIDI clip
+  * New: **Stop + Pad 13 (SEMITONE -)** - Transpose the selected MIDI clip a semitone down
+  * New: **Stop + Pad 14 (SEMITONE +)** - Transpose the selected MIDI clip a semitone up
+  * New: **Stop + Pad 15 (OCTAVE -)** - Transpose the selected MIDI clip an octave down
+  * New: **Stop + Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
+  * New: Keep **Fixed Vel** pressed and turn the encoder to change the fixed accent value
+  * Fixed: *Sequential ^* and *Sequential >* scale layout were using 8 not 4 pads
+  * Fixed: Auto and Lock buttons did not respect the setting "Flip arranger and clip record / automation"
+* Novation SLMkIII
+  * Fixed: Renamed remote control parameters changed to the original name when switching from devices to parameters mode.
+
 **10.0.0**
 
 * Requires Bitwig 3.2+
-* The manual has now a *known issues* sesction
+* The manual has now a *known issues* section
 * New: Support for Akai Fire
   * Note: The display update of the Akai Fire is very slow on Macos and makes it nearly unusable
 * New: Support for Native Instruments Maschine Mk3
 * Akai APC40 / APC40mkII
   * Fixed: User mode did not work
-* Maschine Mikro
+* Maschine Mikro Mk3
   * New: Show more on-screen notifications (Tap Tempo, Fixed Velocity, value change speed)
   * New: **Stop + Pad Mode** - Selects the previous base note of the scale.
   * New: **Stop + Keyboard** - Selects the next base note of the scale.
