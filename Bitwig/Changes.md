@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**10.1.0 (unreleased)**
+**10.1.0**
 
 * Requires Bitwig 3.2+
 * All devices
@@ -46,6 +46,10 @@
   * New: **Stop + Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
   * New: Keep **Fixed Vel** pressed and turn the encoder to change the fixed accent value
   * New: Pressing Stop flushes the whole state (display / buttons) to the device. This helps when you switch to MIDI mode and the DAW state changed meanwhile, since there is no way to get the information that the user switches to MIDI mode.
+  * New: **Auto** - Toggle write arranger automation.
+  * New: **Shift + Auto** - Toggle write clip launcher automation.
+  * New: **Lock** - Toggle arranger overdub.
+  * New: **Shift + Lock** - Toggle clip launcher overdub.
   * Fixed: *Sequential ^* and *Sequential >* scale layout were using 8 not 4 pads
   * Fixed: Auto and Lock buttons did not respect the setting "Flip arranger and clip record / automation"
 * Novation SLMkIII

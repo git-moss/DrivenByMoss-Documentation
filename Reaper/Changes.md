@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**10.1.0 (unreleased)**
+**10.1.0**
 
 * All devices
   * Fixed: Replaced a special **#** character (e.g. from Diatonic Transposer) with the normal ASCII #.
@@ -24,6 +24,16 @@
   * New: Scale and Note Repeat settings are displayed and can be edited with knobs
 * Mikro Mk3
   * New: In track and parameter selection modes the selected tracks/parameters blink.
+  * New: **Scene** - Press again to select the next page.
+  * New: **Stop + Scene** - Select the previous scene page.
+  * New: **Pattern** - Press again to select the next page.
+  * New: **Stop + Pattern** - Select the previous clip page.
+  * New: **Select** - Press a pad to select one of 16 channels of the current bank page. The selected track blinks. Press again to select the next page.
+  * New: **Stop + Select** - Select the previous track page.
+  * New: **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Soloed tracks blink. Press again to select the next page.
+  * New: **Stop + Solo** - Select the previous track page.
+  * New: **Mute** - Press a pad to toggle Mute of 16 channels of the current bank page. Muted tracks blink. Press again to select the next page.
+  * New: **Stop + Mute** - Select the previous track page.
 * Maschine Mk3 / Mikro Mk3
   * New: Play mode is now accessed by pressing *Keyboard*. Press again for play configuration mode.
   * New: Drum mode is now accessed by pressing *Pad Mode*. Press again for drum configuration mode.
@@ -45,6 +55,10 @@
   * New: **Stop + Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
   * New: Keep **Fixed Vel** pressed and turn the encoder to change the fixed accent value
   * New: Pressing Stop flushes the whole state (display / buttons) to the device. This helps when you switch to MIDI mode and the DAW state changed meanwhile, since there is no way to get the information that the user switches to MIDI mode.
+  * New: **Auto** - Toggle write arranger automation.
+  * New: **Shift + Auto** - Toggle write clip launcher automation.
+  * New: **Lock** - Toggle arranger overdub.
+  * New: **Shift + Lock** - Toggle clip launcher overdub.
   * Fixed: *Sequential ^* and *Sequential >* scale layout were using 8 not 4 pads
   * Fixed: Auto and Lock buttons did not respect the setting "Flip arranger and clip record / automation"
 

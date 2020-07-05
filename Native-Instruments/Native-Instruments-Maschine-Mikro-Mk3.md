@@ -4,7 +4,7 @@ Support for Native Instruments Maschine Mikro Mk3.
 
 ## Installation
 
-Load the respective template from the folder _resources/Maschine Mikro Mk3_ into the device by using Native Instruments Controller Editor.
+Load the respective template from the folder _resources/Maschine Mikro Mk3_ into the device by using Native Instruments Controller Editor. Since there is no notification when the user switches to MIDI mode, the displayed state can be inconsistent. In that case, press the Stop button once to update it.
 
 ## Important notes
 
@@ -16,11 +16,13 @@ The **Shift** and **Cursor buttons** do not send MIDI values, therefore they can
 
 ## Global
 
+* **Sampling** - Brings up the Slice to Drum Machine dialog.
+* **Stop + Sampling** - Bring up the Slice to Multi-sample dialog.
 * **Group** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Auto** - Toggle write arranger automation.
-* **Stop + Auto** - Toggle write clip launcher automation.
+* **Shift + Auto** - Toggle write clip launcher automation.
 * **Lock** - Toggle arranger overdub.
-* **Stop + Lock** - Toggle clip launcher overdub.
+* **Shift + Lock** - Toggle clip launcher overdub.
 * **Note Repeat** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. In that mode the first two pad columns allow to change the period of the note repeat and the last two columns the length of the notes. Press Note Repeat again to leave the configuration mode.
 
 ## Transport
@@ -29,11 +31,11 @@ The **Shift** and **Cursor buttons** do not send MIDI values, therefore they can
 * **Rec** - Start/Stop recording.
 * **Stop** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song. Use in combination with a pad in Clip Mode to stop the clip.
 * **Restart/Loop** - Toggle transport loop
-* **Erase** - Undo. Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
+* **Erase** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
 * **Erase + touch encoder knob** - Reset the currently edited value to its default.
 * **Tap** - Tap Tempo
 * **Stop + Tap** - Toggle metronome
-* **Follow** - Quantize the selected clip
+* **Follow** - Toggles the display of the step sequencer grid resolution
 
 ## Browser
 
@@ -54,8 +56,6 @@ If the browser is active...
 * **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder multiple times to tap the tempo.
 * **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Keep the Erase button pressed and touch the encoder to set the parameter to its default value. Press the encoder to toggle between fast and slow value changes.
 * **Stop + Plug-In** - Toggle the window (if any) of the selected device (if any).
-* **Sampling** - Brings up the Slice to Drum Machine dialog.
-* **Stop + Sampling** - Bring up the Slice to Multi-sample dialog.
 
 ## Touchstrip
 
@@ -68,33 +68,36 @@ The Touchstrip behaves based on the following modes.
 
 ## Pad Modes
 
-* **Fixed Vel** - If active, velocity of a played pad is always maximum.
+* **Fixed Vel** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
 * **Scene** - Press a pad to start one of the 16 scenes of the current bank page.
 * **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track.
-* **Events** - This is the Play or Drum mode (press twice).
-* **Variation** - Press a pad to select one of 8 or 9 parameters of the current bank page on the selected track.
+* **Variation** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **Duplicate** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
-* **Select** - Press a pad to select one of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
-* **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
-* **Mute** - Press a pad to toggle Mute of 16 channels of the current bank page. Use Chords and Steps buttons to flip through the bank pages.
+* **Select** - Press a pad to select one of 16 channels of the current bank page. The selected track blinks.
+* **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Soloed tracks blink.
+* **Mute** - Press a pad to toggle Mute of 16 channels of the current bank page. Muted tracks blink.
 
-* **Pad Mode** - Selects the previous item (scene, clip, track, parameter page).
-* **Keyboard** - Selects the next item (scene, clip, track, parameter page).
-* **Chords** - Selects the previous item page (scene, clip, track, device).
-* **Step** - Selects the next item page (scene, clip, track, device).
+To change bank pages turn the encoder and keep the related button pressed (scenes - *Scene*, clips - *Pattern*, tracks - *Select, Solo or Mute*))
+
+### Drum Mode
+
+Press *Pad Mode* to activate. Press again to toggle to the configuration page. On this page pad 15/16 transpose the drum pads up/down.
+Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
+To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Turn the encoder to change the value of the selected note parameter. Select the 6 available parameters by pressing the *Volume*, *Swing* and *Tempo* buttons. Press the buttons twice for the second parameter.
 
 ### Play Mode
 
-Press *Events* to activate.
+Press *Keyboard* to activate. Press again to toggle to the configuration page:
+* Pad 1 toggles chromatic or scale notes only modes
+* Pad 5/6 select the scale layout
+* Pad 9/10 select the root note for the active scale
+* Pad 13/14 select the active scale
+* Pad 15/16 transpose the grid up/down by an octave
 
-* **Pad Mode** - Selects the previous scale.
-* **Keyboard** - Selects the next scale.
-* **Chords** - Switches notes 1 octave down.
-* **Step** - Switches notes 1 octave up.
-* **Stop + Pad Mode** - Selects the previous base note of the scale.
-* **Stop + Keyboard** - Selects the next base note of the scale.
-* **Stop + Chords** - Selects the previous note layout.
-* **Stop + Step** - Selects the next note layout.
+Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the last played note. Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
+To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note.
+
+Enable the chord mode by pressing **Chords**. Playing a pad adds 2 thirds on top of the played note. The second visible octave plays the inversion (added notes are lower than the played note).
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

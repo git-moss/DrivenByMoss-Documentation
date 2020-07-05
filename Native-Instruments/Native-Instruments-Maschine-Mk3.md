@@ -8,7 +8,7 @@ Load the respective template from the folder _resources/Maschine Mk3_ into the d
 
 ## Important notes
 
-This extension uses the MIDI mode of the device. Press **Shift + CHANNEL** (on the left / top) buttons to enter MIDI mode.
+This extension uses the MIDI mode of the device. Press **Shift + CHANNEL** (on the left / top) buttons to enter MIDI mode. Since there is no notification when the user switches to MIDI mode, the displayed state can be inconsistent. In that case, press the Stop button once to update it.
 
 Since the extension requires the Native Instruments Host Integration service it **only works on Windows and Mac (no Linux)**.
 
@@ -20,13 +20,18 @@ The **Shift** button does not send MIDI values, therefore it cannot be used. Som
 * **Stop + Channel** - Insert a new audio channel
 * **Plugin** - Toggle device window
 * **Arranger** - Toggle layouts (Arrange, Mix, Edit)
+* **Mixer** - Toggle the mixer
 * **Sampling** - Brings up the Slice to Drum Machine dialog.
 * **Stop + Sampling** - Bring up the Slice to Multi-sample dialog.
+* **Page left / right** moves to the previous/next clip on the selected track (moved the scene page before)
+* **Stop + Page left / right** moves to the previous/next clip page
 * **File** - Saves the project.
-* **Auto** - Toggle write clip launcher automation.
+* **Auto** - Toggle write arranger automation.
+* **Shift + Auto** - Toggle write clip launcher automation.
+* **Lock** - Toggle arranger overdub.
+* **Shift + Lock** - Toggle clip launcher overdub.
 * **Macro** - Creates a new clip on the selected track and slot, starts play and enables overdub.
-* **Lock** - Toggle write arranger automation.
-* **Note Repeat** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. In that mode the first two pad columns allow to change the period of the note repeat and the last two columns the length of the notes. Press Note Repeat again to leave the configuration mode.
+* **Note Repeat** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. Use the display knobs to edit the settings. Press Note Repeat again to leave the configuration mode.
 
 ## Transport
 
@@ -34,11 +39,11 @@ The **Shift** button does not send MIDI values, therefore it cannot be used. Som
 * **Rec** - Start/Stop recording.
 * **Stop** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song. Use in combination with a pad in Clip Mode to stop the clip.
 * **Restart/Loop** - Toggle transport loop
-* **Erase** - Undo. Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
+* **Erase** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
 * **Erase + touch encoder knob** - Reset the currently edited value to its default.
 * **Tap** - Tap Tempo
 * **Stop + Tap** - Toggle metronome
-* **Follow** - Quantize the selected clip
+* **Follow** - Toggles the display of the step sequencer grid resolution
 
 ## Bank buttons
 
@@ -52,8 +57,8 @@ The bank buttons select the tracks in the current page of the track bank. They c
 
 ## Browser
 
-* **Settings** - Open the browser to add a device on the selected channel. If the browser is active, toggles the selection of Favorites in the browser.
 * **Browser** - Opens the browser on the current device. If there is no device the browser is opened to insert a new device. If the browser is active, the browser is closed and the selection is accepted. Use in combination with a pad in Clip Mode to open the browser to load a clip.
+* **Settings** - Open the browser to add a device on the selected channel. If the browser is active, toggles the selection of Favorites in the browser.
 
 If the browser is active...
 
@@ -68,10 +73,10 @@ If the browser is active...
 ## Encoder modes
 
 * **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value. Press the encoder to toggle between fast and slow value changes.
+* **Stop + Volume** - Toggles VU meter display.
 * **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to toggle between fast and slow movement.
 * **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder to toggle between fast and slow value changes.
-* **Plug-In** - Enables device mode. The encoder changes the value of a device parameter. Keep the Erase button pressed and touch the encoder to set the parameter to its default value. Press the encoder to toggle between fast and slow value changes.
-* **Stop + Plug-In** - Toggle the window (if any) of the selected device (if any).
+* **Plug-In** - Toggle the window (if any) of the selected device (if any).
 
 The buttons above the display have the following functions:
 
@@ -139,33 +144,43 @@ The Touchstrip behaves based on the following modes.
 
 ## Pad Modes
 
-* **Fixed Vel** - If active, velocity of a played pad is always maximum.
+* **Fixed Vel** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
 * **Scene** - Press a pad to start one of the 16 scenes of the current bank page.
 * **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track.
-* **Events** - This is the Play or Drum mode (press twice).
-* **Variation** - Press a pad to select one of 8 or 9 parameters of the current bank page on the selected track.
+* **Variation** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **Duplicate** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
 * **Select** - Toggles the rec arm state of the currently selected track. Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
 * **Solo** - Toggles the solo state of the currently selected track. Keep pressed and use in combination with the bank buttons to toggle the solo state of the track.
 * **Mute** - Toggles the mute state of the currently selected track. Keep pressed and use in combination with the bank buttons to toggle the mute state of the track.
 
-* **Pad Mode** - Selects the previous item (scene, clip, track, parameter page).
-* **Keyboard** - Selects the next item (scene, clip, track, parameter page).
-* **Chords** - Selects the previous item page (scene, clip, track, device).
-* **Step** - Selects the next item page (scene, clip, track, device).
+### Drum Mode
+
+Press *Pad Mode* to activate. Press again to toggle to the configuration page. On this page pad 15/16 transpose the drum pads up/down.
+Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
+To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note.
 
 ### Play Mode
 
-Press *Events* to activate.
+Press *Keyboard* to activate. Press again to toggle to the configuration mode. Use the display knobs to edit the settings.
 
-* **Pad Mode** - Selects the previous scale.
-* **Keyboard** - Selects the next scale.
-* **Chords** - Switches notes 1 octave down.
-* **Step** - Switches notes 1 octave up.
-* **Stop + Pad Mode** - Selects the previous base note of the scale.
-* **Stop + Keyboard** - Selects the next base note of the scale.
-* **Stop + Chords** - Selects the previous note layout.
-* **Stop + Step** - Selects the next note layout.
+Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the last played note. Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
+To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note.
+
+Enable the chord mode by pressing **Chords**. Playing a pad adds 2 thirds on top of the played note. The second visible octave plays the inversion (added notes are lower than the played note).
+
+### Shift Mode
+
+Keep the *Stop* button pressed to activate.
+
+* **Stop + Pad 1 (Undo)** - Undo
+* **Stop + Pad 2 (Redo)** - Redo
+* **Stop + Pad 5 (Quantize)** - Quantizes the selected MIDI 100%
+* **Stop + Pad 6 (QUANTIZE 50%)** - Quantizes the selected MIDI 50%
+* **Stop + Pad 9 (CLEAR)** - Deletes all MIDI notes from the selected MIDI clip
+* **Stop + Pad 13 (SEMITONE -)** - Transpose the selected MIDI clip a semitone down
+* **Stop + Pad 14 (SEMITONE +)** - Transpose the selected MIDI clip a semitone up
+* **Stop + Pad 15 (OCTAVE -)** - Transpose the selected MIDI clip an octave down
+* **Stop + Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
