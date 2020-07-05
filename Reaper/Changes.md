@@ -4,6 +4,7 @@
 
 * All devices
   * Fixed: Replaced a special **#** character (e.g. from Diatonic Transposer) with the normal ASCII #.
+  * Fixed: Prevent to display identical on-screen messages
 * APCmini
   * Fixed: Scene buttons were not lit
   * Fixed: Drum sequencer crashed
@@ -43,6 +44,7 @@
   * New: **Stop + Pad 15 (OCTAVE -)** - Transpose the selected MIDI clip an octave down
   * New: **Stop + Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
   * New: Keep **Fixed Vel** pressed and turn the encoder to change the fixed accent value
+  * New: Pressing Stop flushes the whole state (display / buttons) to the device. This helps when you switch to MIDI mode and the DAW state changed meanwhile, since there is no way to get the information that the user switches to MIDI mode.
   * Fixed: *Sequential ^* and *Sequential >* scale layout were using 8 not 4 pads
   * Fixed: Auto and Lock buttons did not respect the setting "Flip arranger and clip record / automation"
 
