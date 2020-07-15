@@ -1,5 +1,20 @@
 # Changes - Cockos Reaper
 
+**10.2.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* Akai Fire
+  * New: Pressing Select knob toggles the window of the current device.
+* MCU
+  * New: Footswitches and Functions keys can now execute an Action. Select *Action* from the list, then select the Action from the list below.
+  * New: Option to disable Master VU (iCON extension)
+  * Fixed: New function did not work
+* OSC
+  * New: Updated the Open Stage Control template for Open Stage Control 1.0.0. VU meters are now gray if track is muted.
+  * Fixed: /automationWriteMode was broken
+* Push
+  * Fixed: Device and Parameter navigation was broken
+
 **10.1.0**
 
 * All devices
@@ -24,16 +39,6 @@
   * New: Scale and Note Repeat settings are displayed and can be edited with knobs
 * Mikro Mk3
   * New: In track and parameter selection modes the selected tracks/parameters blink.
-  * New: **Scene** - Press again to select the next page.
-  * New: **Stop + Scene** - Select the previous scene page.
-  * New: **Pattern** - Press again to select the next page.
-  * New: **Stop + Pattern** - Select the previous clip page.
-  * New: **Select** - Press a pad to select one of 16 channels of the current bank page. The selected track blinks. Press again to select the next page.
-  * New: **Stop + Select** - Select the previous track page.
-  * New: **Solo** - Press a pad to toggle Solo of 16 channels of the current bank page. Soloed tracks blink. Press again to select the next page.
-  * New: **Stop + Solo** - Select the previous track page.
-  * New: **Mute** - Press a pad to toggle Mute of 16 channels of the current bank page. Muted tracks blink. Press again to select the next page.
-  * New: **Stop + Mute** - Select the previous track page.
 * Maschine Mk3 / Mikro Mk3
   * New: Play mode is now accessed by pressing *Keyboard*. Press again for play configuration mode.
   * New: Drum mode is now accessed by pressing *Pad Mode*. Press again for drum configuration mode.

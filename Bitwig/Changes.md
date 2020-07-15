@@ -1,5 +1,26 @@
 # Changes - Bitwig Studio
 
+**10.2.0 (unreleased)**
+
+* Requires Bitwig 3.2+
+* Akai Fire
+  * New: Pressing Select knob toggles the window of the current device.
+* Generic Flexi
+  * New: Option to execute one of 8 Actions.
+* MCU
+  * New: Added option - include FX and master tracks in track bank
+  * New: Added option - pin FX tracks to last device
+  * New: Footswitches and Functions keys can now execute an Action. Select *Action* from the list, then select the Action from the list below.
+  * New: Option to disable Master VU (iCON extension)
+  * Fixed: New function did not work
+* OSC
+  * New: Updated the Open Stage Control template for Open Stage Control 1.0.0. VU meters are now gray if track is muted.
+  * New: /action/{1-8}/ to execute 8 different Actions.
+  * Fixed: /automationWriteMode was broken
+  * Fixed: /click/ticks did always toggle and was not documented
+* Push
+  * Fixed: Device and Parameter navigation was broken
+
 **10.1.0**
 
 * Requires Bitwig 3.2+

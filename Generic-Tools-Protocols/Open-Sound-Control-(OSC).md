@@ -28,6 +28,7 @@ MAX_VALUE is configured in the configuration settings.
 * /click/volume {0-MAX_VALUE}
 * /click/volumeStr {text}
 * /click/preroll {0,1}
+* /click/ticks {1,0}
 * /punchIn {1,0}
 * /punchOut {1,0}
 * /preroll {0,1,2,4}
@@ -205,6 +206,7 @@ MAX_VALUE is configured in the configuration settings.
 * /click {1,-}              1 = Enable, No value ("-") = Toggle
 * /click/volume
 * /click/preroll {-,1}      Toggles click in preroll
+* /click/ticks {1,0}
 * /punchIn {1,-}
 * /punchOut {1,-}
 * /record {1,-}
@@ -360,6 +362,7 @@ MAX_VALUE is configured in the configuration settings.
 ### Receive - Play
 
 * /vkb_midi/{Channel:1-16}/note/{Note:0-127} {Velocity:0-127}
+* /vkb_midi/{Channel:1-16}/note {Note:0-127} {Velocity:0-127}
 * /vkb_midi/{Channel:1-16}/note/+    1 octave up
 * /vkb_midi/{Channel:1-16}/note/-    1 octave down
 * /vkb_midi/{Channel:1-16}/drum/{Note:0-127} {Velocity:0-127}
