@@ -203,11 +203,59 @@ Touch the master fader to enter
 * **Footswitch 1** (MCU USER A) - Function be assigned in the settings dialog.
 * **Footswitch 2** (MCU USER B) - Function be assigned in the settings dialog.
 
-## Preferences dialog
+## Preferences Settings
 
-* Set preferences for Device capabilities, etc.
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
-The following MCU buttons are currently not used: GLOBAL VIEW, BUSSES, OUTPUT, CONTROL, ALT, F8, GROUP, NUDGE, DROP
+### Hardware Setup
+* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the acoording entry from the list.
+* Has a display: Enable if the MCU compatible controller has a display.
+* Has a second display: Enable if the controller has a second display, which supports the specific iCON protocol extension.
+* Has a segment display: Enable if the MCU compatible controller has an additional segment display (for play position and tempo).
+* Has a assignment display: Enable if the MCU compatible controller has an additional assignment display (to display to current mode).
+* Has motor faders: Enable if the MCU compatible controller has motor faders.
+* Has only 1 fader: Enables a specific handling of banks to support controllers with only 1 fader
+* Display track names in 1st display: If enabled to 1st row of the 1st display the track names instead of the mode labels.
+* Use vertical zoom to change tracks: If enabled, the up/down cursor keys in zoom mode can be used to select tracks
+* Use faders like editing knobs: If enabled, the faders execute the same functions as the knobs. Handy for e.g. recording automation data.
+* VU meters: Enable if the MCU compatible controller supports the display of VU values.
+* Master VU Meter: Enable if the controller support the protocol extensions for VU values of the master fader.
+
+### Extender Setup
+Select the type of the MCU compatible controller. The number of slots depends on which extension is chosen. Select *Main* for the main device, this enables the master fader as well as all additional commands like transport control. Select *Extender* if the device is an extender which uses the same MCU protocol as the main device. Select *MCU Extender* if the extender uses the original Mackie MCU extender protocol.
+It is possible to select multiple main devices.
+Changing these settings requires a restart of the extension.
+
+### Segment Display
+* Display time or beats: If a segment display is present, selects to display time or beats (measures) of the play position.
+* Display tempo or ticks: Select what to display with the last 3 digits
+
+### Tracks
+* Include FX and master tracks in track bank: If enabled, all tracks are included in the track bank. Handy if the controller misses a master track or has no button to toggle between track banks.
+* Pin FX tracks to last device: If enabled the FX track bank is created with a page of 8 fx tracks and is always displayed on the last (right most) controller. The page size of the instrument/audio track bank is reduced accordingly.
+
+### Assignable buttons
+
+* Footswitch 1/2: Select a function to execute when the first/second footswitch is pressed
+* F1-F8: Select a function to execute when the respective function key is pressed
+* If *Action* is selected as the function, the field below allows to select the action to execute
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
+
+### Play and Sequence
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Display crossfader on track: If you use the crossfader (e.g. for DJing) enable this setting to see the A/B option on the track.
+* New clip length: The length of a clip created with the New function.
+* Zoom: If enabled, cursor keys are used for zooming in the arranger.
+* Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
+
+### Browser
+* Options to hide filter columns which are not used to easier spot the relevant ones
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

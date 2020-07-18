@@ -1,8 +1,12 @@
 # Changes - Bitwig Studio
 
-**10.2.0 (unreleased)**
+**10.2.0**
 
 * Requires Bitwig 3.2+
+* All devices
+  * New: All settings are now documented in the manual.
+* Akai APC40
+  * New: The cursor keys can now be used in the browser mode: Left/right select the previous/next tab. Up/Down select the previous/next result.
 * Akai Fire
   * New: Pressing Select knob toggles the window of the current device.
 * Generic Flexi

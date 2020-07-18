@@ -115,9 +115,21 @@ The first mode is for playing the notes, the last played note selects it for the
 7. 3rd + 4th button row - Play notes / sequence
     * Toggle step or play/select notes
 
-## Preference dialog
+## Preferences Settings
 
-You can configure the functionality of the touchpad.
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Touchpad
+* Mode: Select what to control with the touchpad
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Display crossfader on track: If you use the crossfader (e.g. for DJing) enable this setting to see the A/B option on the track.
+* New clip length: The length of a clip created with the New function.
+* Use drum pads for mode selection: The drums can be used to select the different modes if enabled
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

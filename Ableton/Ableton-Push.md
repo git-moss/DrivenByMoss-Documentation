@@ -264,12 +264,88 @@ Press _"Note"_ and select *PrgChang* to enter **Program Change** mode.
 * The pads change the length of the currently selected clip loop
 * This is the default view for audio tracks.
 
-## Preferences Dialog
+## Preferences Settings
 
-You can set several preferences which are stored when you exit the DAW. Note that some of them are not available via the Push controller.
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
-* Ribbon, Accent, Scale, VU meter and Pad sensitivity settings.
-* Option to convert the Poly Aftertouch of the pads to Channel Aftertouch or a CC.
+### Session
+* Session View: How/what to display on the grid
+* Display scenes/clips: Display the names of scenes/clips in the display
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view.
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
+
+### Play and Sequence
+* Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
+* Fixed Accent Value: The velocity value to use when fixed accent is active.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Default note view: The view should be the default when you select an instrument track.
+
+### Drum Sequencer
+* Auto-select drum settings: If *channel* is selected and a drum pad is played the display switches to the layer settings of the drum cell.
+* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled they pad LEDs are off.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* VU meters: The display of VU meters can be disabled with this option
+* Display crossfader on track: If you use the crossfader (e.g. for DJing) enable this setting to see the A/B option on the track.
+* Footswitch 2: What action to execute if you press the 2nd footswitch (1st footswitch is always assigned to MIDI sustain).
+* Stop automation recording on knob release: If you e.g. change the volume of a track for automation and release the knob, automation recording is automatically switched off.
+* New clip length: The length of a clip created with the New function.
+* Knob Speed Normal: Adjust the speed of the knobs
+* Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
+
+### Ribbon
+* Mode: What the Ribbon should do
+* CC: The MIDI CC command to send if CC is selected as the mode.
+* Function if Note Repeat is active: Option to use the ribbon for note repeat (or always use the selected Mode).
+
+### Pads
+* Sensitivty: Adjust the hardware sensitivity of the pads
+* Gain: Adjust the hardware gain of the pads
+* Dynamics: Adjust the hardware dynamics of the pads
+* Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
+
+### Browser
+* Options to hide filter columns which are not used to easier spot the relevant ones
+
+### Hardware Setup
+* Display brightness: Dims down the display
+* LED brightness: Dims down the pad LEDs
+
+### Display Colors
+* Reset colors to default: Sets all values to their defualt value
+* Color options: Changes the color of different elements of the display graphics
+
+### Debug
+These options are only for testing. Ignore them.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Scales
+* Scale: Select the scale
+* Base: Select the base note of the scale
+* In Key: Select *Chromatic* to also display notes which are not part of the scale.
+* Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
+
+### Note Repeat
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
+
+### Play and Sequence
+* MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers
+
+### Workflow
+* User Page 1-8: Allows to set a name for the user parameter pages
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

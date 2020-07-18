@@ -141,9 +141,23 @@ are drawn in the color of the selected drum pad.
 * **Scene up/down** - Change the range of selected notes.
 * **Shift+Scene up/down** - Navigate the pages of a clip.
 
-## Preferences Dialog
+## Preferences Settings
 
-You can set several preferences which are stored when you exit the DAW.
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
+* Enable Faders: Option to disable the faders to prevent unwanted value changes.
+* User Page 1-8: Allows to set a name for the user parameter pages
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+
+### Session
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

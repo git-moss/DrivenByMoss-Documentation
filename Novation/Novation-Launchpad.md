@@ -334,6 +334,50 @@ Press the **Project** button to enter.
 * Cursor keys left/right: Zoom the arranger (arranger pane needs to be active!)
 * Cursor keys up/down: Toggle track height (arranger or clip pane needs to be active!)
 
-## Preferences Dialog
+## Preferences Settings
 
-You can set several preferences in the Preferences dialog of the script, which are stored when you exit the DAW.
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Play and Sequence
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
+
+### Session
+* Flip Session: Change the orientation of the tracks/clips horizontal or vertical
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+
+### Drum Sequencer
+* Auto-select drum settings: If *channel* is selected and a drum pad is played the display switches to the layer settings of the drum cell.
+* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled they pad LEDs are off.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
+* New clip length: The length of a clip created with the New function.
+
+### Pads
+* Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Scales
+* Scale: Select the scale
+* Base: Select the base note of the scale
+* In Key: Select *Chromatic* to also display notes which are not part of the scale.
+* Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
+
+### Note Repeat
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
+
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>

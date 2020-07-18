@@ -182,6 +182,45 @@ Keep the *Stop* button pressed to activate.
 * **Stop + Pad 15 (OCTAVE -)** - Transpose the selected MIDI clip an octave down
 * **Stop + Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
 
+## Preferences Settings
+
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
+
+### Play and Sequence
+* Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
+* Fixed Accent Value: The velocity value to use when fixed accent is active.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Ribbon Mode: Select the function of the ribbon strip
+
+### Session
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Scales
+* Scale: Select the scale
+* Base: Select the base note of the scale
+* In Key: Select *Chromatic* to also display notes which are not part of the scale.
+* Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
+
+### Note Repeat
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
+
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
 </div>

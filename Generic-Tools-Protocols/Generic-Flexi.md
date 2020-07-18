@@ -8,7 +8,7 @@ You have 200 slots to map buttons, knobs, faders, etc. to a function in your DAW
 Select the slot in which you want to put a mapping.
 
 To assign a slot press a button or move a knob/fader on your controller. You should see the transmitted
-MIDI CC, note or Program Change (other MIDI data types are not supported) that was sent by your controller.
+MIDI CC, note, Program Change, Pitchbend or MMC (other MIDI data types are not supported) that was sent by your controller.
 
 Click the Set button to assign this MIDI values to the selected slot. After that select the function you 
 want to assign.
@@ -21,6 +21,7 @@ If you want to clear a slot, set the MIDI trigger type to "Off".
 * In the **Ex-/Import section** enter a file name in the text field to store to. On Windows and Mac you can click on the Select button to choose a file. On Linux you have to type the file name. Make sure you choose a name in a writable folder.
 * Click on Export to store the settings.
 * Click on Import to load a configuration (make sure you export your current configuration first).
+* The selected file will automatically be loaded when the DAW starts the next time
 
 ## The parameters are as follows:
 
@@ -99,6 +100,82 @@ If your controller has a keyboards or pads you can enable it by configuring the 
 **Note**: If you have selected All for the channel the note is blocked on all channels!
 
 The Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can automatically be routed to your DAW. Turn them off if you want to map them to something else.
+
+## Preferences Settings
+
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Slot
+* Selected: The selected mapping slot to edit (1-200)
+
+### Selected Slot - MIDI trigger
+This block configures the MIDI command, which needs to be received to trigger the function of this slot.
+* Type: The type of MIDI command to trigger the command
+* Number: The number of the MIDI command
+* Midi Channel: The MIDI channel on which to receive the command
+* Knob Mode: The encoding of the value sent by a knob, e.g. relative or absolute knobs
+* Send value to device: Enable if value changes of the assigned function should be reflected back to the controller. Only works, if the controller uses the exact same command for sending and receiving.
+* Send value to device when received: Sends back the received value to the controller. This is necessary to update button states on some controllers but can confuse others.
+
+### Selected Slot - Function
+You can select only one function from the lists. If you select a function from a different list the previous list will be set to *Off*.
+* Browser: Select a browser related function
+* Clip: Select a clip related function
+* Device: Select a device related function
+* FX Track: Select an effect track related function
+* Global: Select global commands
+* Layout: Select layout related function
+* Marker: Select a marker related function
+* Master: Select a function which is related to the Master track
+* MIDI CC: Sends a MIDI CC message to the DAW. This can also be used to transform a MIDI CC to a different one (e.g. Expression to Modulation)
+* Modes: Select a mode related function. See the mode descriptions above.
+* Note Input: Functions to control Note Repeat and Tranposition of the attached keyboard/pads.
+* Scene: Select a scene related function
+* Track: Select a track related function. The function *Toggle trackbank* allows to switch between the Instrument/Audio track bank and the Effect track bank.
+* Transport: Select a transport related function
+* User: Select a user parameter related function
+* Action: Function to execute one of 8 actions. The 8 actions are selected below under *Options*
+
+### Use a knob/fader/button then click Set...
+* Type, Number, Midi channel: Displays the received MIDI values
+* Set: Press the button to assign the received MIDI command as the MIDI trigger for the currently selected mapping slot.
+
+### Ex-/Import
+* Filename to ex-/import: An absolute path to the filename to store/read the current settings
+* Select: Show the files dialog of the operating system for selecting the file
+* Export: Store the current configuration into the selected file
+* Import: Read the configuration from the selected file
+
+### Keyboard / Pads
+Changing these settings requires restarting the extension to make them active!
+If the connected device has a keyboard or pads, the following settings allow to configure it.
+* Midi Channel: The MIDI channel on which the keyboard sends its data
+* Route Modulation: Enable to send received MIDI modulation commands to the DAW. Disable if you use MIDI modulation as a slot trigger.
+* Route Sustain: Enable to send received MIDI sustain commands to the DAW. Disable if you use MIDI sustain as a slot trigger.
+* Route Pitchbend: Enable to send received MIDI pitchbend commands to the DAW. Disable if you use MIDI pitchbend as a slot trigger.
+
+### Options
+* Selected Mode: The currently selected mode (if modes are used).
+* Action 1-8: Select the DAW Action to execute if the functions Action 1-8 are used.
+
+### Workflow
+* Knob Speed Normal: Adjust the speed of the knobs
+* Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Note Repeat
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
+
+### Program Banks
+In this section configured program banks are displayed for selection. See *Configuring Program Banks* above.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

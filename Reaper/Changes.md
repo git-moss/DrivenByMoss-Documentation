@@ -1,8 +1,10 @@
 # Changes - Cockos Reaper
 
-**10.2.0 (unreleased)**
+**10.2.0**
 
 * Requires Reaper 6.12+
+* All devices
+  * New: All settings are now documented in the manual.
 * Akai Fire
   * New: Pressing Select knob toggles the window of the current device.
 * MCU
@@ -11,6 +13,7 @@
   * Fixed: New function did not work
 * OSC
   * New: Updated the Open Stage Control template for Open Stage Control 1.0.0. VU meters are now gray if track is muted.
+  * New: /action/{1-8}/ to execute 8 different Actions.
   * Fixed: /automationWriteMode was broken
 * Push
   * Fixed: Device and Parameter navigation was broken

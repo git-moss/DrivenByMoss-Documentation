@@ -13,6 +13,7 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 * Since Reaper does not have specific track types FX Track Banks do not appear (or cannot be selected) on the devices. E.g. in Generic Flexi the *FX Track* actions do nothing. Furthermore, options to in-/exclude FX tracks have no effect.
 * The only way to insert MIDI messages into Reaper is via the Virtual MIDI keyboard input. If you map something with generic Flexi, it goes only into that channel (but not into the Action mapping) and does only work if the channel is record enabled. Therefore, the use-case is only to control devices which react or require MIDI CC.
 * Browser support (devices and presets) is only available on devices with a display. Since the browser of Reaper cannot be controlled you are currently navigating blind.
+* If you use Melda plugins, turn off GPU acceleration in the Melda plugin settings. Otherwise Reaper will crash.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

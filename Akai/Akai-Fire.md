@@ -49,7 +49,7 @@ Change parameters of the currently selected track. Combine with **Shift** for fi
 
 * **Alt + Select Knob**: Select the previous/next track. In addition you can press the knob while turning to switch between track pages (a page contains 16 tracks).
 
-### User 1 Mode
+### User 1 Mode (Device Mode)
 
 Change parameters of the currently selected device. Combine with **Shift** for fine adjustments.
 
@@ -64,8 +64,9 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 
 * **Alt + Select Knob**: Select the previous/next device.
 * **Shift + Alt + Select Knob**: Select the previous/next parameter page.
+* Press the **Select knob** to toggle the window of the current device.
 
-### User 2 Mode
+### User 2 Mode (User Mode)
 
 Change user parameters. Combine with **Shift** for fine adjustments.
 
@@ -113,6 +114,8 @@ Press the **Step** button to activate. The STEP LED is lit orange.
 * **Grid buttons**: Move to the previous/next page of the clip
 * **Alt + Grid buttons**: Change the step resolution
 
+To change the scale settings switch to the Play Mode and change it there.
+
 * **Mute/Solo 1** (from top): Stop playing clip of selected track
 * **Mute/Solo 2**: Toggle Mute of selected track
 * **Mute/Solo 3**: Toggle Solo of selected track
@@ -132,6 +135,8 @@ Press the **Step** button twice to activate. The STEP LED is lit red.
 
 The buttons behave as with Note Sequencer.
 Play a chord in the lower part then enable steps in the upper chord which will be filled with the played chord.
+
+To change the scale settings switch to the Play Mode and change it there.
 
 ### Play Mode
 
@@ -237,6 +242,52 @@ The browser is used in the same way no matter how you opened it:
 * **Grid left/right**: Change the browser pane (Devices, Presets, ...)
 
 To close the browser and confirm the selection press either the select knob or the browser button. To discard the selection press **Alt + Browser**.
+
+## Preferences Settings
+
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Session
+* Flip Session: Flip the display of clip between horizontal and vertical
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view.
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
+
+### Play and Sequence
+* Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
+* Fixed Accent Value: The velocity value to use when fixed accent is active.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+
+### Drum Sequencer
+* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled they pad LEDs are off.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Scales
+* Scale: Select the scale
+* Base: Select the base note of the scale
+* In Key: Select *Chromatic* to also display notes which are not part of the scale.
+* Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
+
+### Note Repeat
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
+
+### Play and Sequence
+* MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

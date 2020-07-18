@@ -56,17 +56,11 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 ## Browser
 
-### Browser - Specifics for the Mk I
-
-* Press _Shift+Stop All Clips_ button
-* Navigate columns with the _Track Control knobs_.
-* To confirm the patch selection and close the Browser press Press _Shift+Stop All Clips_ again.
-
-### Browser - Specifics for the Mk II
-
-* Press the _Bank_ button
-* Navigate columns with the _Track Control knobs_.
-* To confirm the patch selection and close the Browser press _Bank_ again. To discard the patch selection press _Shift+Bank_.
+* MkI: Press _Shift+Stop All Clips_ button to open/close the browser.
+* MkII: Press the _Bank_ button to open/close the browser. To discard the patch selection press _Shift+Bank_.
+* Navigate filter and result columns with the _Track Control knobs_.
+* Cursor left/right: select the previous/next browser tab.
+* Cursor up/Down: select the previous/next result item.
 
 ## Tracks
 
@@ -202,7 +196,30 @@ The 2 rows at the bottom represent a keyboard, which allows you to select the ro
 
 ## Preferences dialog
 
-* Set preferences for Scale settings
+You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Play and Sequence
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+
+### Workflow
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
+
+### Transport
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+
+### Session
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Scales
+* Scale: Select the scale
+* Base: Select the base note of the scale
+* In Key: Select *Chromatic* to also display notes which are not part of the scale.
+* Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
