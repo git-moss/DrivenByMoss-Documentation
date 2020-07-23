@@ -1,5 +1,12 @@
 # Changes - Bitwig Studio
 
+**10.5.0 (unreleased)**
+* Requires Bitwig 3.2.5+
+* All devices
+  * New: Improved lookup of drum machine device for drum sequencers
+* Akai Fire
+  * Fixed: Drum sequencer crashed when changing note length on the grid
+
 **10.2.0**
 
 * Requires Bitwig 3.2+

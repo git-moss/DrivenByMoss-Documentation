@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**10.5.0 (unreleased)**
+* Requires Reaper 6.12+
+* Push
+  * Fixed: Exception when selecting a drum pad
+
 **10.2.0**
 
 * Requires Reaper 6.12+
