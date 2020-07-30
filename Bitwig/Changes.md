@@ -3,9 +3,21 @@
 **10.5.0 (unreleased)**
 * Requires Bitwig 3.2.5+
 * All devices
-  * New: Improved lookup of drum machine device for drum sequencers
+  * New: Improved lookup of drum machine device for drum sequencers.
+  * New: Only create the device monitors which are necessary for the specific extension.
+  * New: Improved synchronization of device and Bitwig browser. If the browser is opened in Bitwig, it will open as well on the device (if browsing is supported on the device).
+* APC40 / APC40MkII
+  * New: Tempo is displayed on grid when tempo is changed.
+  * New: APC40: Tap Tempo + Cue Level changes tempo.
+  * Fixed: APC40: *Shift+Stop All Clips* did not open the browser.
+  * Fixed: Browser mode was not cancelled when browser was close in Bitwig.
 * Akai Fire
-  * Fixed: Drum sequencer crashed when changing note length on the grid
+  * Fixed: Drum sequencer crashed when changing note length on the grid.
+  * Fixed: Note in sequencer could not be deleted if its' pitch was changed.
+* Push
+  * Fixed: Temporarily activating session mode did only work for starting clips but not for starting scenes.
+  * Fixed: Longpressing a pad in Drum 4 mode to edit the note did not work.
+  * Fixed: Add Device/Effect did call Replace effect instead of Insert.
 
 **10.2.0**
 

@@ -2,8 +2,17 @@
 
 **10.5.0 (unreleased)**
 * Requires Reaper 6.12+
+* APC40 / APC40MkII
+  * New: Tempo is displayed on grid when tempo is changed
+  * New: APC40: Tap Tempo + Cue Level changes tempo
+  * Fixed: APC40: *Shift+Stop All Clips* did not open the browser
+* Akai Fire
+  * Fixed: Drum sequencer crashed when changing note length on the grid
 * Push
   * Fixed: Exception when selecting a drum pad
+  * Fixed: Temporarily activating session mode did only work for starting clips but not for starting scenes.
+  * Fixed: Longpressing a pad in Drum 4 mode to edit the note did not work.
+  * Fixed: Add Device/Effect did call Replace effect instead of Insert.
 
 **10.2.0**
 

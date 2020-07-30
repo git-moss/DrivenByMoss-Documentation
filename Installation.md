@@ -75,24 +75,35 @@ If you have a screen reader installed you might get the following error:
 In that case try to install the full Java JDK from: https://adoptopenjdk.net/
 This should install the missing files.
 
-### Configuration
+### Configuration in Reaper
 
-   1. Start Reaper
-   2. Open the Preferences (Ctrl+P)
-   3. Scroll down and select "Control/OSC/web"
-   4. Click on "Add"
-   5. In the "Control surface mode" select "DrivenByMoss4Reaper" (if it is not 
-      there, you put the reaper_drivenbymoss library file into a wrong location).
-   6. The configuration displays the JAVA_HOME path for information and contains
-      a button to open the DrivenByMoss user interface. You can keep this user 
-      interface open if you want and only close the Reaper dialogs.
-      Use the Add button in the window to add the device(s) you want to use.
-      Select a device and click the configure button to change its settings.
-      Your setup will automatically be loaded if you run Reaper and shutdown when 
-      you close Reaper.
-   7. Make sure that all MIDI inputs and outputs you configure in DrivenByMoss are
-      fully disabled in the Reaper MIDI settings! Otherwise you will have strange 
-      effects!
+1. Start Reaper
+2. Open the Preferences (Ctrl+P)
+3. Scroll down and select "Control/OSC/web"
+4. Click on "Add"
+5. In the "Control surface mode" select "DrivenByMoss4Reaper" (if it is not 
+   there, you put the reaper_drivenbymoss library file into a wrong location).
+6. The configuration displays the JAVA_HOME path for information and contains
+   a button to open the DrivenByMoss user interface. You can keep this user 
+   interface open if you want and only close the Reaper dialogs.
+
+### Adding and configuring devices
+
+The DrivenByMoss window consists of three parts:
+1. The list of the configured controllers. The listbox before the controller name depicts if he controller is active (checked) or deactivated.
+2. The lower part displays logging information about started controllers and errors.
+3. The buttons on the right have the following functions:
+   * **Detect** - Automatically adds connected controllers.
+   * **Add** - Not all controllers can be detected automatically. Use the Add button and select the controller to add from the appearing menu.
+   * **Remove** - Removes the controller which is selected in the list
+   * **Configuration** - Opens the configuration dialog for the controller. Make sure that the correct in-/outputs are selected. All other options are described in the specific controller section in this manual.
+   * **Projects** - Opens the dialog with controller settings which are stored individually with each Reaper project, e.g. Scale settings. See the specific controller section in this manual.
+   * **Dis-/enable** - Disable a controller to save performance if you do not use it (or it is not connected).
+   * **Debug** - Only used for development, ignore it. However, the *Device simulator* might be handy for some people with a touch display.
+
+Note:
+* Make sure that all MIDI inputs and outputs you configure in DrivenByMoss are fully disabled in the Reaper MIDI settings! Otherwise you will have strange effects!
+* Your setup will automatically be loaded if you run Reaper and stored when you close Reaper.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 
