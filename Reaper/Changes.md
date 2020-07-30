@@ -2,13 +2,25 @@
 
 **10.5.0 (unreleased)**
 * Requires Reaper 6.12+
+* APCMini
+  * New: Long press a pad in session mode to select the clip without starting it.
 * APC40 / APC40MkII
+  * New: Long press a pad in session mode to select the clip without starting it.
   * New: Tempo is displayed on grid when tempo is changed
   * New: APC40: Tap Tempo + Cue Level changes tempo
   * Fixed: APC40: *Shift+Stop All Clips* did not open the browser
 * Akai Fire
+  * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Drum sequencer crashed when changing note length on the grid
+* Komplete Kontrol MkII, A-Series / M32
+  * Fixed: Lookup of Komplete instance did not work.
+* Launchpad
+  * New: Long press a pad in session mode to select the clip without starting it.
+  * Fixed: Modes could only be activated once (non-pro models)
+* Novation SLMkIII
+  * New: Long press a pad in session mode to select the clip without starting it.
 * Push
+  * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Exception when selecting a drum pad
   * Fixed: Temporarily activating session mode did only work for starting clips but not for starting scenes.
   * Fixed: Longpressing a pad in Drum 4 mode to edit the note did not work.
