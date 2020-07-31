@@ -135,6 +135,7 @@ Press _"Session"_ to enter **Session** mode. Press again to toggle the clip orie
 _Long press_ to enter birds-eye-view.
 
 * The buttons on the grid start/record the clips.
+* Long press a pad to select the clip without starting it.
 * The 8 scene buttons on the right start the scenes.
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
 * Hold **Delete** and press a clip button to delete the clip.

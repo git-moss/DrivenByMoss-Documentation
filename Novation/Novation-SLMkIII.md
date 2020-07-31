@@ -122,6 +122,7 @@ Buttons 6-8 open the browser mode, which works as follows:
 Press the Grid button till the LED is lit Green to enter **Session** mode.
 
 * The buttons on the grid start/record the clips.
+* Long press a pad to select the clip without starting it.
 * The 2 scene buttons start scenes.
 * The arrow keys left of the grid scroll the grid. Hold **Shift** to scroll in blocks of 8.
 * Press **Clear** + Pad In Session Mode to the delete the clip.
@@ -149,6 +150,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Enable Faders: Option to disable the faders to prevent unwanted value changes.
+* Enable Lightguide: Activates the lightguide, which displays the currently selected scale. The root note is lit in the color of the currently selected track. Change the scale and root note in the document settings.
 * User Page 1-8: Allows to set a name for the user parameter pages
 
 ### Transport

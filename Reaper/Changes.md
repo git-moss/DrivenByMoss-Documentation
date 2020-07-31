@@ -1,6 +1,7 @@
 # Changes - Cockos Reaper
 
-**10.5.0 (unreleased)**
+**10.5.0**
+
 * Requires Reaper 6.12+
 * APCMini
   * New: Long press a pad in session mode to select the clip without starting it.
@@ -19,6 +20,8 @@
   * Fixed: Modes could only be activated once (non-pro models)
 * Novation SLMkIII
   * New: Long press a pad in session mode to select the clip without starting it.
+  * New: The lightguide displays the scale notes. The scale can be selected in the document settings.
+  * New: The lightguide can be turned off in the settings.
 * Push
   * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Exception when selecting a drum pad

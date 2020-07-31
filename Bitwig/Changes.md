@@ -1,6 +1,7 @@
 # Changes - Bitwig Studio
 
-**10.5.0 (unreleased)**
+**10.5.0**
+
 * Requires Bitwig 3.2.5+
 * All devices
   * New: Improved lookup of drum machine device for drum sequencers.
@@ -23,6 +24,8 @@
   * Fixed: Modes could only be activated once (non-pro models)
 * Novation SLMkIII
   * New: Long press a pad in session mode to select the clip without starting it.
+  * New: The lightguide displays the scale notes. The scale can be selected in the document settings.
+  * New: The lightguide can be turned off in the settings.
 * Push
   * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Temporarily activating session mode did only work for starting clips but not for starting scenes.

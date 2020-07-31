@@ -16,6 +16,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Shift+Detail View** - Step through the layout perspectives
 * **Cue Level** - Move play cursor (press shift for finer adjustment)
 * **Tap Tempo** - Tap Tempo
+* APC40: **Tap Tempo + Cue Level** changes tempo.
 * **Nudge+** - Redo
 * **Nudge-** - Undo
 
@@ -112,6 +113,11 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * 3rd button: Drum sequencer (as known from the Push) - Requires a selected midi clip
 * 4th button: Note sequencer (as known from the Push) - Requires a selected midi clip
 * 5th button: Raindrop sequencer - Requires a selected midi clip
+
+## Session Mode
+
+* Press pad to start clip
+* Long press a pad in session mode to select the clip without starting it.
 
 ## Play Mode
 

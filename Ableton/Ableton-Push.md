@@ -173,6 +173,7 @@ Hold *Browse* and select a pad to browse for clips.
 All the buttons and knobs behave like in Play mode with the following exceptions:
 
 * The buttons on the grid start/record the clips.
+* Long press a pad to select the clip without starting it.
 * If Select is pressed when pressing a pad it is only selected and not started.
 * The 1/4 to 1/32t buttons start scenes.
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
