@@ -17,7 +17,7 @@
     * /eq/freq/{1-8} - Set/get the frequency of the n-th band
     * /eq/gain/{1-8} - Set/get the gain of the n-th band
     * /eq/q/{1-8} - Set/get the q-factor of the n-th band
-
+  * New: Added example Open Stage Control template for equalizer control
 
 * Push 2
   * Fixed: Some device icons were not correct

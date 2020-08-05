@@ -8,6 +8,15 @@
   * Fixed: APC40: Shift+Stop All Clips did open the browser to insert before the device instead of replacing the current.
 * Akai Fire
   * New: **Alt + Stop** - Toggle arranger automation write
+* OSC
+  * New: Added equalizer commands (uses first ReaEQ device on a track)
+    * /eq/... - All values/commands available for /device
+    * /eq/add - Add an ReaEQ device as the last device on the track
+    * /eq/type/{1-8} - Set/get the band type (off, lowcut, lowshelf, bell, highcut, highshelf, notch)
+    * /eq/freq/{1-8} - Set/get the frequency of the n-th band
+    * /eq/gain/{1-8} - Set/get the gain of the n-th band
+    * /eq/q/{1-8} - Set/get the q-factor of the n-th band
+  * New: Added example Open Stage Control template for equalizer control
 
 **10.5.0**
 
