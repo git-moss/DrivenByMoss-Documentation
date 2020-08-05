@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**10.6.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* APC40 / APC40MkII
+  * Fixed: Insert device before / after current from Shift mode did crash.
+  * Fixed: APC40: Shift+Stop All Clips did open the browser to insert before the device instead of replacing the current.
+* Akai Fire
+  * New: **Alt + Stop** - Toggle arranger automation write
+
 **10.5.0**
 
 * Requires Reaper 6.12+

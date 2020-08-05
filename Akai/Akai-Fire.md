@@ -4,15 +4,18 @@ Support script for Akai Fire controller.
 
 ## Transport
 
+* **Pattern/Song** - Toggle metronome
+* **Shift + Pattern/Song** - Toggle metronome ticks
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
 * **Shift + Play** - Toggle repeat
 * **Alt + Play** - Toggle Punch In
 * **Alt + Shift + Play** - Toggle Punch Out
+* **Stop** - Stop playback. If already stopped the play cursor is set to the start of the arranger timeline.
+* **Shift + Stop** - Toggle clip automation write
+* **Alt + Stop** - Toggle arranger automation write
 * **Record** - Start/Stop recording
 * **Shift + Record** - Toggle launcher overdub
 * **Alt + Record** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
-* **Pattern/Song** - Toggle metronome
-* **Shift + Pattern/Song** - Toggle metronome ticks
 
 ## Knob Modes
 

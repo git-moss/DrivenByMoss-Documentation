@@ -1,5 +1,27 @@
 # Changes - Bitwig Studio
 
+**10.6.0 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* APC40 / APC40MkII
+  * Fixed: Insert device before / after current from Shift mode did crash.
+  * Fixed: APC40: Shift+Stop All Clips did open the browser to insert before the device instead of replacing the current.
+* Akai Fire  
+  * New: **Shift + Stop** - Toggle clip automation write
+  * New: **Alt + Stop** - Toggle arranger automation write
+* OSC
+  * New: Added equalizer commands (uses first EQ+ device on a track)
+    * /eq/... - All values/commands available for /device
+    * /eq/add - Add an EQ+ device as the last device on the track
+    * /eq/type/{1-8} - Set/get the band type (off, lowcut, lowshelf, bell, highcut, highshelf, notch)
+    * /eq/freq/{1-8} - Set/get the frequency of the n-th band
+    * /eq/gain/{1-8} - Set/get the gain of the n-th band
+    * /eq/q/{1-8} - Set/get the q-factor of the n-th band
+
+
+* Push 2
+  * Fixed: Some device icons were not correct
+
 **10.5.0**
 
 * Requires Bitwig 3.2.5+
