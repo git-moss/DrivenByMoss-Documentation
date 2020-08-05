@@ -73,6 +73,7 @@ Press the **Down button** left to the display to switch between the different mo
     * Buttons behave as above.
 
 In all track modes hold **Shift** for additional functions:
+
 * Button 1 **On/Off**: De-/Activate track
 * Button 2 **Pin**: Pin the track (does no longer follow the selection in Bitwig)
 * Button 3 **Color**: Select a new color for the track. After pressing the button press one of the pads to select a color. You can access more colors by using the Scene up/down buttons.

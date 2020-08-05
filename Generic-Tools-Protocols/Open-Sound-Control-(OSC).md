@@ -112,7 +112,7 @@ MAX_VALUE is configured in the configuration settings.
 * /track/{1-8}/clip/{1-8}/isStopQueued      (does not work)
 * /track/{1-8}/clip/{1-8}/isRecordingQueued
 
-### Send - Device
+### Send - Cursor Device / Primary Device / EQ
 
 * /device/exists {0,1}
 * /device/name {text}
@@ -146,6 +146,14 @@ MAX_VALUE is configured in the configuration settings.
 * /device/page/selected/name {name}
 * /device/sibling/{1-8}/name {name}
 * /device/sibling/{1-8}/selected {0,1}
+* Same messages apply for the primary and eq device instead of /device it is /primary and /eq
+
+**Additional EQ parameters**
+
+* /eq/type/{1-8} - Get the band type (off, lowcut, lowshelf, bell, highcut, highshelf, notch)
+* /eq/freq/{1-8} - Get the frequency of the n-th band
+* /eq/gain/{1-8} - Get the gain of the n-th band
+* /eq/q/{1-8} - Get the q-factor of the n-th band
 
 ### Send - User Parameters
 
@@ -292,7 +300,7 @@ MAX_VALUE is configured in the configuration settings.
 * /track/{1-8}/enter   Enter the group, if the track is a group
 * /track/parent        Select the parent (group)
 
-### Receive - Cursor Device / Primary Device
+### Receive - Cursor Device / Primary Device / EQ
 
 * /device/{+,-}
 * /device/window        Displays the window for VST plugins (or Bitwig devices with additional popout windows)
@@ -328,6 +336,14 @@ MAX_VALUE is configured in the configuration settings.
 * /device/layer/selected/{attributes}          The selected layer, same attributes as above
 * /device/drumpad/{1-16}/...                   Same attributes as for a layer
 * Same commands apply for the primary device but use /primary/... instead of /device/...
+
+**Additional EQ parameters**
+
+* /eq/add - Add an equalizer device as the last device on the track
+* /eq/type/{1-8} - Set the band type (off, lowcut, lowshelf, bell, highcut, highshelf, notch)
+* /eq/freq/{1-8} - Set the frequency of the n-th band
+* /eq/gain/{1-8} - Set the gain of the n-th band
+* /eq/q/{1-8} - Set the q-factor of the n-th band
 
 ### Receive - User Parameters
 
@@ -391,30 +407,38 @@ MAX_VALUE is configured in the configuration settings.
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Setup
+
 * Port to receive on: The port on which the OSC extension listens for incoming commands.
 * Host to send to: The host address to which to send OSC commands from the OSC extension. Requires a restart of the extension if changed.
 * Port to send to: The host port to which to send OSC commands from the OSC extension. Requires a restart of the extension if changed.
 
 ### Protocol
+
 * Value resolution: Configures the value range to use. Higher values provide a higer resolution but the client need (or OSC template of your clieant) needs to be configured accordingly! The included Open Stage Control template uses a 128 resolution.
 * Bank page size: The number of entries to be used for bank pages. The default is 8. Increase the size to control more tracks, etc. at once but the OSC client must support that as well.
 
 ### Transport
+
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 
 ### Play and Sequence
+
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
 
 ### Actions
+
 * Action 1-8: Select the Action to execute if an /action command is received
 
 ### Debug
+
 Enable only for finding issues since this has a performance impact.
+
 * Log input commands: Received OSC commands are logged to the console if enabled
 * Log output commands: Transmitted OSC commands are logged to the console if enabled
 * Filter heartbeat commands: Ping commands are not logged if enabled

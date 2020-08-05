@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**10.6.0 (unreleased)**
+**10.6.0**
 
 * Requires Bitwig 3.2.5+
 * APC40 / APC40MkII

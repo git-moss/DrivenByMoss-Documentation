@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**10.6.0 (unreleased)**
+**10.6.0**
 
 * Requires Reaper 6.12+
 * APC40 / APC40MkII

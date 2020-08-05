@@ -169,11 +169,11 @@ Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. 
 
 Touch the master fader to enter
 
-* ** 1st knob** - Change the master volume. Press to reset.
-* ** 2nd knob** - Change the master panorama. Press to reset.
-* ** knob 3-5** - Press to toggle the audio engine on/off for this project
-* ** 7th knob** - Press to switch to the previous project.
-* ** 8th knob** - Press to switch to the next project.
+* **1st knob** - Change the master volume. Press to reset.
+* **2nd knob** - Change the master panorama. Press to reset.
+* **knob 3-5** - Press to toggle the audio engine on/off for this project
+* **7th knob** - Press to switch to the previous project.
+* **8th knob** - Press to switch to the next project.
 
 ### Devices edit mode
 

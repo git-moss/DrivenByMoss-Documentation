@@ -114,7 +114,9 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Selected: The selected mapping slot to edit (1-200)
 
 ### Selected Slot - MIDI trigger
+
 This block configures the MIDI command, which needs to be received to trigger the function of this slot.
+
 * Type: The type of MIDI command to trigger the command
 * Number: The number of the MIDI command
 * Midi Channel: The MIDI channel on which to receive the command
@@ -123,7 +125,9 @@ This block configures the MIDI command, which needs to be received to trigger th
 * Send value to device when received: Sends back the received value to the controller. This is necessary to update button states on some controllers but can confuse others.
 
 ### Selected Slot - Function
+
 You can select only one function from the lists. If you select a function from a different list the previous list will be set to *Off*.
+
 * Browser: Select a browser related function
 * Clip: Select a clip related function
 * Device: Select a device related function
@@ -142,28 +146,34 @@ You can select only one function from the lists. If you select a function from a
 * Action: Function to execute one of 8 actions. The 8 actions are selected below under *Options*
 
 ### Use a knob/fader/button then click Set...
+
 * Type, Number, Midi channel: Displays the received MIDI values
 * Set: Press the button to assign the received MIDI command as the MIDI trigger for the currently selected mapping slot.
 
 ### Ex-/Import
+
 * Filename to ex-/import: An absolute path to the filename to store/read the current settings
 * Select: Show the files dialog of the operating system for selecting the file
 * Export: Store the current configuration into the selected file
 * Import: Read the configuration from the selected file
 
 ### Keyboard / Pads
+
 Changing these settings requires restarting the extension to make them active!
 If the connected device has a keyboard or pads, the following settings allow to configure it.
+
 * Midi Channel: The MIDI channel on which the keyboard sends its data
 * Route Modulation: Enable to send received MIDI modulation commands to the DAW. Disable if you use MIDI modulation as a slot trigger.
 * Route Sustain: Enable to send received MIDI sustain commands to the DAW. Disable if you use MIDI sustain as a slot trigger.
 * Route Pitchbend: Enable to send received MIDI pitchbend commands to the DAW. Disable if you use MIDI pitchbend as a slot trigger.
 
 ### Options
+
 * Selected Mode: The currently selected mode (if modes are used).
 * Action 1-8: Select the DAW Action to execute if the functions Action 1-8 are used.
 
 ### Workflow
+
 * Knob Speed Normal: Adjust the speed of the knobs
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
@@ -173,6 +183,7 @@ If the connected device has a keyboard or pads, the following settings allow to 
 These settings are specific to each project.
 
 ### Note Repeat
+
 * Active: Enable note repeat
 * Period: The repeat rate of the note repeat
 * Length: The length of a repeated note
@@ -180,6 +191,7 @@ These settings are specific to each project.
 * Octave: The octave range which is used by the arpeggiator
 
 ### Program Banks
+
 In this section configured program banks are displayed for selection. See *Configuring Program Banks* above.
 
 <div style="page-break-after: always; visibility: hidden"> 
