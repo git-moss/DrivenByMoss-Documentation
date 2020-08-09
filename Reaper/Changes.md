@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**10.6.1 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: The crossfader controls the 1st track FX parameter on the master track.
+  * Fixed: FX parameters (user parameters) on the master track could not be changed
+* APC40MkII
+  * New: Scene buttons are lit in the color of the scene
+
 **10.6.0**
 
 * Requires Reaper 6.12+

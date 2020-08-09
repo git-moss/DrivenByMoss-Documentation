@@ -16,7 +16,7 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 
 ### Workarounds
 For some limitations there are workarounds available:
-* **User Parameters**: On devices which support User Parameters, these control the Track FX parameters in Reaper.
+* **User Parameters**: On devices which support User Parameters, these control the Track FX parameters in Reaper. If a user mode is active and a new Track FX parameter is added, the user mode must be left and reentered to make the parameter work.
 * **Scenes**: Scenes are emulated by range markers. Starting the n-th Scene triggers playback from the start of the n-th range marker.
 
 ### Further issues

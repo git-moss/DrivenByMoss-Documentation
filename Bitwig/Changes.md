@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**10.6.1 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* APC40MkII
+  * New: Scene buttons are lit in the color of the scene
+* Akai Fire  
+  * Fixed: Ghost notes could appear when quickly editing pitches in the sequencer and create a new clip.
+* Push
+  * Fixed: Mapped User Parameters did not show their name and value
+
 **10.6.0**
 
 * Requires Bitwig 3.2.5+
@@ -18,7 +28,6 @@
     * /eq/gain/{1-8} - Set/get the gain of the n-th band
     * /eq/q/{1-8} - Set/get the q-factor of the n-th band
   * New: Added example Open Stage Control template for equalizer control
-
 * Push 2
   * Fixed: Some device icons were not correct
 
