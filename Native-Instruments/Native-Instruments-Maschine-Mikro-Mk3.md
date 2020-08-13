@@ -88,6 +88,7 @@ To edit a note in the step sequencer press **Events**. In this mode, press a pad
 ### Play Mode
 
 Press *Keyboard* to activate. Press again to toggle to the configuration page:
+
 * Pad 1 toggles chromatic or scale notes only modes
 * Pad 5/6 select the scale layout
 * Pad 9/10 select the root note for the active scale

@@ -90,6 +90,7 @@ This should install the missing files.
 ### Adding and configuring devices
 
 The DrivenByMoss window consists of three parts:
+
 1. The list of the configured controllers. The listbox before the controller name depicts if he controller is active (checked) or deactivated.
 2. The lower part displays logging information about started controllers and errors.
 3. The buttons on the right have the following functions:
@@ -102,6 +103,7 @@ The DrivenByMoss window consists of three parts:
    * **Debug** - Only used for development, ignore it. However, the *Device simulator* might be handy for some people with a touch display.
 
 Note:
+
 * Make sure that all MIDI inputs and outputs you configure in DrivenByMoss are fully disabled in the Reaper MIDI settings! Otherwise you will have strange effects!
 * Your setup will automatically be loaded if you run Reaper and stored when you close Reaper.
 

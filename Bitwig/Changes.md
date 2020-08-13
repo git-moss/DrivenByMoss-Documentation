@@ -1,14 +1,18 @@
 # Changes - Bitwig Studio
 
-**10.6.1 (unreleased)**
+**10.6.1**
 
 * Requires Bitwig 3.2.5+
 * APC40MkII
-  * New: Scene buttons are lit in the color of the scene
-* Akai Fire  
+  * New: Scene buttons are lit in the color of the scene.
+* Akai Fire
   * Fixed: Ghost notes could appear when quickly editing pitches in the sequencer and create a new clip.
+  * Fixed: Removed session flip option, which did crash.
+  * Fixed: Also prevent deletion of note in sequencer when knob was touched but not turned.
+* Komplete Kontrol MkI
+  * Fixed: Interpretation of knob speed was wrong.
 * Push
-  * Fixed: Mapped User Parameters did not show their name and value
+  * Fixed: Mapped User Parameters did not show their name and value.
 
 **10.6.0**
 
@@ -97,7 +101,7 @@
 * APCmini
   * Fixed: Scene buttons were not lit
   * Fixed: Drum sequencer crashed
-* Komplete Kontrol MKI
+* Komplete Kontrol MkI
   * Fixed: Several crashes when activating Scale due to not configured colors
   * Fixed: Light guide did not work correctly when keyboard was transposed
 * MCU

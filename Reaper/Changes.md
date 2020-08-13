@@ -1,13 +1,18 @@
 # Changes - Cockos Reaper
 
-**10.6.1 (unreleased)**
+**10.6.1**
 
 * Requires Reaper 6.12+
 * All devices
   * New: The crossfader controls the 1st track FX parameter on the master track.
-  * Fixed: FX parameters (user parameters) on the master track could not be changed
+  * Fixed: FX parameters (user parameters) on the master track could not be changed.
+* Akai Fire
+  * Fixed: Removed session flip option, which did crash.
+  * Fixed: Also prevent deletion of note in sequencer when knob was touched but not turned.
 * APC40MkII
-  * New: Scene buttons are lit in the color of the scene
+  * New: Scene buttons are lit in the color of the scene (region).
+* Komplete Kontrol MkI
+  * Fixed: Interpretation of knob speed was wrong.
 
 **10.6.0**
 

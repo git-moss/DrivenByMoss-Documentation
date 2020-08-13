@@ -252,7 +252,6 @@ To close the browser and confirm the selection press either the select knob or t
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Session
-* Flip Session: Flip the display of clip between horizontal and vertical
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 * Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
 * Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view.
