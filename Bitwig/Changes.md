@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**10.6.2 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* Launchpad
+  * New: Display the track number and name on track selection.
+  * New: Display the function of the selected row in Mix mode.
+  * Fixed: Not all selected modes were displayed in Bitwig and some names showed Session.
+  * Fixed: Mix view was cancelled when track selection changed.
+  * Fixed: Long pressing a pad in a fader mode caused the selection of a track.
+
 **10.6.1**
 
 * Requires Bitwig 3.2.5+
