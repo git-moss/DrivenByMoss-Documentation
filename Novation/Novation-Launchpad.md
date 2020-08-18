@@ -303,6 +303,8 @@ This mode contains all session modes at once. The rows from bottom to top are:
 
 The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
 
+![Mix Mode](Diagrams/Launchpad/mix-mode.png)
+
 ## Tempo mode
 
 Press **Shift+Device** on the Pro models. On all other models, press Shift and either the arrow up or down button.
@@ -311,6 +313,8 @@ The grid displays the current tempo. Change the tempo with the cursor keys. Up/d
 
 Press any of the grid pads to exit this mode.
 
+![Tempo Mode](Diagrams/Launchpad/tempo-mode.png)
+
 ## Shuffle mode
 
 Press **Shift+Stop clip** on the Pro models. On all other models. Press Shift and either the arrow left or right button.
@@ -318,6 +322,8 @@ Press **Shift+Stop clip** on the Pro models. On all other models. Press Shift an
 The grid displays the current shuffle value. Change the value with the cursor keys. Up/down change by 1 and left/right by steps of (about) 10. You can also keep a button pressed for continuous changes.
 
 Press any of the grid pads to exit this mode.
+
+![Shuffle Mode](Diagrams/Launchpad/shuffle-mode.png)
 
 ## Project mode (only Launchpad Pro Mk3)
 
