@@ -6,9 +6,14 @@
 * Launchpad
   * New: Display the track number and name on track selection.
   * New: Display the function of the selected row in Mix mode.
+  * New: Drum mode 4 and 8 move in steps of 4 and 8 up and down so that now all sounds can be reached.
   * Fixed: Not all selected modes were displayed in Bitwig and some names showed Session.
   * Fixed: Mix view was cancelled when track selection changed.
   * Fixed: Long pressing a pad in a fader mode caused the selection of a track.
+* Push
+  * New: Drum mode 4 and 8 move in steps of 4 and 8 up and down so that now all sounds can be reached. The previous selection with Shift + Scene was removed.
+  * New: Note Repeat + Scene - Change note repeat period
+  * New: Shift + Note Repeat + Scene - Change note repeat note length
 
 **10.6.1**
 
