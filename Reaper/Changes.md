@@ -1,8 +1,11 @@
 # Changes - Cockos Reaper
 
-**10.6.2 (unreleased)**
+**10.6.2**
 
-* Requires Bitwig 3.2.5+
+* Requires Reaper 6.12+
+* Akai Fire
+  * New: Shift + Scene: Selects the scene without starting it.
+  * New: Selecting or starting a scene shows its' name in the display.
 * Launchpad
   * New: Display the track number and name on track selection.
   * New: Display the function of the selected row in Mix mode.

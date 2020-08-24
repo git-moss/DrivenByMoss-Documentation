@@ -61,6 +61,8 @@ After you have copied the file reboot your computer.
 * **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
 * **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Repeat**: Toggles note repeat. Long press to enter Note Repeat Mode to configure the note repeat settings.
+* **Repeat + Scene**: Changes note repeat period.
+* **Shift + Note Repeat + Scene**: Changes note repeat note length
 * **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
 * **Scale**: De-/Activates the Scale mode
 * **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
