@@ -1,5 +1,21 @@
 # Changes - Bitwig Studio
 
+**10.6.3**
+
+* Requires Bitwig 3.2.5+
+* All devices
+  * Fixed: Raindrop sequencer did crash if more measures than 32 or 32 with 1/32t and 1/32 were used. The later issue is fixed and the first issue get blocked (only 32 measures get filled).
+  * Fixed: Drum 4 / Drum 8 - setting note length on the grid was broken
+* Akai Fire
+  * New: Displays the number of the edit page when switching to the previous/next.
+  * Fixed: Crash in browser when select knob was released.
+* Launchpad
+  * New: Updated documentation images
+  * New: Added fixed accent option to the settings
+  * New: Fixed accent can be toggled with the yellow pad in the right upper corner of the shift mode
+* Push 2
+  * Fixed: Long press delay was about double the time as with Push 1
+
 **10.6.2**
 
 * Requires Bitwig 3.2.5+
