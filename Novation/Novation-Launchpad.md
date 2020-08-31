@@ -93,6 +93,7 @@ Further functions (all models):
 
 * The pads of the first row (from the bottom) change the length of newly created clips.
 * The three green buttons in the right upper corner insert an instrument, audio or effect track.
+* The yellow button in the right upper corner toggles between fixed accent/velocity for the pads in note/drum modes. The percentage value of the fixed accent can be set in the controller settings panel.
 * The red button in the lower right corner stops the playback of all clips.
 * The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The pads of the first two columns below change the note repeat period and the other two columns the note length.
 
