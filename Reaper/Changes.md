@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**10.6.4**
+
+* Requires Reaper 6.12+
+* Push
+  * Fixed: Grid resolution could not be changed in drum modes
+
 **10.6.3**
 
 * Requires Reaper 6.12+

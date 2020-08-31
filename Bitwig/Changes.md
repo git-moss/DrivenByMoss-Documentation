@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**10.6.4**
+
+* Requires Bitwig 3.2.5+
+* Push
+  * Fixed: Grid resolution could not be changed in drum modes
+
 **10.6.3**
 
 * Requires Bitwig 3.2.5+
