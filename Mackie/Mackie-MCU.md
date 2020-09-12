@@ -4,7 +4,7 @@ Support script for the Mackie MCU protocol. While this extension supports the Ma
 
 * Behringer X-Touch One
 * Mackie MCU Pro
-* icon QConPro X
+* icon QConPro X - Select the Bitwig mode and use the Bitwig overlay!
 * icon Platform M/M+ with extender
 * Zoom R16
 
@@ -237,7 +237,7 @@ Changing these settings requires a restart of the extension.
 ### Assignable buttons
 
 * Footswitch 1/2: Select a function to execute when the first/second footswitch is pressed
-* F1-F8: Select a function to execute when the respective function key is pressed
+* F1-F5: Select a function to execute when the respective function key is pressed
 * If *Action* is selected as the function, the field below allows to select the action to execute
 
 ### Transport

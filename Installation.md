@@ -96,7 +96,7 @@ The DrivenByMoss window consists of three parts:
 3. The buttons on the right have the following functions:
    * **Detect** - Automatically adds connected controllers.
    * **Add** - Not all controllers can be detected automatically. Use the Add button and select the controller to add from the appearing menu.
-   * **Remove** - Removes the controller which is selected in the list
+   * **Remove** - Removes the controller which is selected in the list.
    * **Configuration** - Opens the configuration dialog for the controller. Make sure that the correct in-/outputs are selected. All other options are described in the specific controller section in this manual.
    * **Projects** - Opens the dialog with controller settings which are stored individually with each Reaper project, e.g. Scale settings. See the specific controller section in this manual.
    * **Dis-/enable** - Disable a controller to save performance if you do not use it (or it is not connected).

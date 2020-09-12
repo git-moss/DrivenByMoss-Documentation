@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**10.6.5 (unreleased)**
+
+* Requires Reaper 6.12+
+* Launchpad
+  * Fixed: Pro Mk3: The last selected play / sequencer mode was not restored
+  * Fixed: Volume, Pan and Sends view was canceled when track selection changed.
+  * Fixed: LED lighting of up/down buttons in scene and mix mode was wrong
+* OSC
+  * Fixed: /vkb_midi/note/{0-127}/color did not send scale colors, only played notes
+
 **10.6.4**
 
 * Requires Reaper 6.12+

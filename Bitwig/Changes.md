@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**10.6.5 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* Launchpad
+  * Fixed: Pro Mk3: The last selected play / sequencer mode was not restored
+  * Fixed: Volume, Pan and Sends view was canceled when track selection changed.
+* OSC
+  * Fixed: /vkb_midi/note/{0-127}/color did not send scale colors, only played notes
+
 **10.6.4**
 
 * Requires Bitwig 3.2.5+
