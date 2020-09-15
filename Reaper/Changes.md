@@ -9,6 +9,8 @@
   * Fixed: LED lighting of up/down buttons in scene and mix mode was wrong
 * OSC
   * Fixed: /vkb_midi/note/{0-127}/color did not send scale colors, only played notes
+* Push 2
+  * Fixed: Shutdown of the display process did not always exit cleanly
 
 **10.6.4**
 
