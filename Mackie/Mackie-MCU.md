@@ -253,6 +253,8 @@ Changing these settings requires a restart of the extension.
 * New clip length: The length of a clip created with the New function.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
+* Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
+* Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
 
 ### Browser
 * Options to hide filter columns which are not used to easier spot the relevant ones

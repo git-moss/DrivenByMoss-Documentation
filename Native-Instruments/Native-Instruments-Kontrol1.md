@@ -88,6 +88,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
+* Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
+* Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
 
 ## Document Settings
 
