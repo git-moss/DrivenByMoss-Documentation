@@ -1,5 +1,7 @@
 # Known Issues
 
+* You might get the following error on Windows: **Could not open MIDI output. There is not enough Memory for this Task**. This error means that Windows cannot open the device since another process already opened it. Check if you have accidently assigned it to another script or any MIDI tool you have runs in the background. If it is a Native Instruments device also check if the NI background services work correctly.
+
 ## Bitwig Studio
 
 * The display update of the Akai Fire is very slow on Macos and makes it nearly unusable

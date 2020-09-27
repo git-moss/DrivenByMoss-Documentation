@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**10.7.1**
+
+* Requires Reaper 6.12+
+* APC40 / APC40 mk2
+  * New: APC40 mk2: Select user mode pages now with User+Select 1-8. Cursor keys change tracks like in pan and send mode.
+  * Fixed: Pressing notes in drum sequencer for editing did always select notes in the first sequencer row.
+* Launchpad Pro Mk3
+  * Fixed: (Regression in 10.7) Mode selection did not always work
+* Push 2
+  * New: The 4th/8th send name is now always displayed if the current tracks are not inside of a group. Furthermore, it is displayed if the 8th knob is touched.
+
 **10.7.0**
 
 * Requires Reaper 6.12+

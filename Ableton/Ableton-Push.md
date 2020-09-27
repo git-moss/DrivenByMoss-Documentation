@@ -93,7 +93,7 @@ After you have copied the file reboot your computer.
     * Buttons behave as above.
 
 4. **Track** - Press "Track" (Push 1) or "Mix" (Push 2) to enter (press twice to toggle between normal and effect tracks)
-    * 8 edit knobs: Change volume/pan/crossfader/Send1-5 of selected track. Hold **Shift** for fine adjustments. You can configure in the preferences that the crossfader option is hidden and you get 6 sends instead.
+    * 8 edit knobs: Change volume/pan/crossfader/Send1-5 of selected track. Hold **Shift** for fine adjustments.
     * Buttons behave as above.
 
 5. **Clip** - Press "Clip" to modify clip properties
@@ -295,7 +295,6 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
-* Display crossfader on track: If you use the crossfader (e.g. for DJing) enable this setting to see the A/B option on the track.
 * Footswitch 2: What action to execute if you press the 2nd footswitch (1st footswitch is always assigned to MIDI sustain).
 * Stop automation recording on knob release: If you e.g. change the volume of a track for automation and release the knob, automation recording is automatically switched off.
 * New clip length: The length of a clip created with the New function.

@@ -249,7 +249,6 @@ Changing these settings requires a restart of the extension.
 
 ### Workflow
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
-* Display crossfader on track: If you use the crossfader (e.g. for DJing) enable this setting to see the A/B option on the track.
 * New clip length: The length of a clip created with the New function.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.

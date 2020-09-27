@@ -143,7 +143,7 @@ _Long press_ to enter birds-eye-view.
 * The buttons on the grid start/record the clips.
 * Long press a pad to select the clip without starting it.
 * The 8 scene buttons on the right start the scenes.
-* The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
+* The arrow keys scroll the grid.
 * Hold **Delete** and press a clip button to delete the clip.
 * Hold **Delete** and press a Scene button to delete the scene.
 

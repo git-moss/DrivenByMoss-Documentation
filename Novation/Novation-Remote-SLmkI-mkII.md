@@ -124,7 +124,6 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
-* Display crossfader on track: If you use the crossfader (e.g. for DJing) enable this setting to see the A/B option on the track.
 * New clip length: The length of a clip created with the New function.
 * Use drum pads for mode selection: The drums can be used to select the different modes if enabled
 

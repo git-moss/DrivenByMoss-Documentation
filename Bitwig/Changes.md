@@ -1,5 +1,23 @@
 # Changes - Bitwig Studio
 
+**10.7.1**
+
+* Requires Bitwig 3.2.5+
+* APC40 / APC40 mk2
+  * New: APC40 mk2: Select user mode pages now with User+Select 1-8. Cursor keys change tracks like in pan and send mode.
+  * New: Knobs in panorama and send mode as well as the faders and device knobs use the new hardware API.
+  * Fixed: Pressing notes in drum sequencer for editing did always select notes in the first sequencer row.
+* Fire
+  * New: Knobs in Mixer and Parameter mode use the new hardware API.
+* Launchpad Pro Mk3
+  * Fixed: (Regression in 10.7) Mode selection did not always work
+* MCU / Novation SLMkI/II
+  * New: Removed "Display Crossfader on Track". Does not make much sense with these devices.
+* Push
+  * New: Removed "Display Crossfader on Track". On Push 2 the crossfade mode setting is now always visble and can be changed with the third knob in track mode. On Push 1 it is never displayed in track mode. Use the crossfade mode instead to change the settings.
+  * New: Push 2: Nicer drawing of crossfade mode on channel
+  * New: Push 2: The 4th/8th send name is now always displayed if the current tracks are not inside of a group. Furthermore, it is displayed if the 8th knob is touched.
+
 **10.7.0**
 
 * Requires Bitwig 3.2.5+

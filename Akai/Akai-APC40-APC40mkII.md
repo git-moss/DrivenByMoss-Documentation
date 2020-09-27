@@ -86,10 +86,9 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 ## User mode - *only mkII*
 
-*  Press USER to select the user mode.
-* **Device Knobs 1-8** - Change the mapped user parameter
-* **Cursor right** - Move to next user page
-* **Cursor left** - Move to previous user page
+* Press USER to select the user mode.
+* **Device Knobs 1-8** - Change the mapped user parameter.
+* **User+Select 1-8** - Select one of the 8 user pages.
 
 ## Clip/scene control
 
