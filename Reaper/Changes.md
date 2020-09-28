@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**10.7.2**
+
+* Requires Reaper 6.12+
+* AutoColor
+  * Fixed: Crashed on startup
+* Komplete Kontrol
+  * Fixed: Crashed on startup
+
 **10.7.1**
 
 * Requires Reaper 6.12+

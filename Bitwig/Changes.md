@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**10.7.2**
+
+* Requires Bitwig 3.2.5+
+* AutoColor
+  * Fixed: Crashed on startup
+* Komplete Kontrol
+  * Fixed: Crashed on startup
+
 **10.7.1**
 
 * Requires Bitwig 3.2.5+
