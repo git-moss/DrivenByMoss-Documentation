@@ -2,7 +2,7 @@
 
 **10.7.3 (unreleased)**
 
-* Requires Bitwig 3.2.5+
+* Requires Reaper 6.12+
 * All devices
   * Fixed: Notification message display time was too short (since message was canceled straight away).
 * APC40
