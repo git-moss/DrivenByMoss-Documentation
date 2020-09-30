@@ -1,5 +1,18 @@
 # Changes - Cockos Reaper
 
+**10.7.3 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* All devices
+  * Fixed: Notification message display time was too short (since message was canceled straight away).
+* APC40
+  * New: Display Send index and name as well as user pages when changing to these modes.
+  * Fixed: Crash when switching to effect tracks.
+  * Fixed: Mk2: Do not switch to next Send when Send button was used in combination with track selection (to select Send N).
+  * Fixed: Mk2: Last send mode was not remembered when changed with track selection combination.
+* Push
+  * Fixed: Select button is now blocked in Browse mode since it does not have any function in that mode and left the extension with a blank screen when accidently pressed.
+
 **10.7.2**
 
 * Requires Reaper 6.12+
