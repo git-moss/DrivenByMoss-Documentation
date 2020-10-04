@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**10.7.3 (unreleased)**
+**10.7.3**
 
 * Requires Bitwig 3.2.5+
 * All devices
@@ -11,7 +11,12 @@
   * Fixed: Crash when switching to effect tracks.
   * Fixed: Mk2: Do not switch to next Send when Send button was used in combination with track selection (to select Send N).
   * Fixed: Mk2: Last send mode was not remembered when changed with track selection combination.
+* Komplete Kontrol Mk2
+  * Fixed: Finished conversion to new hardware API, therefore volume and parameters change with the same speed again.
+* Launchpad
+  * New: When duplicating a clip the destination clip can now be chosen. Pro models: Keep Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button. On the non-pro models, activate duplicate mode, duplicate mode is deactivated, as soon as you select an empty clip as the destination.
 * Push
+  * New: When duplicating a clip the destination clip can now be chosen. Keep Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
   * Fixed: Select button is now blocked in Browse mode since it does not have any function in that mode and left the extension with a blank screen when accidently pressed.
 
 **10.7.2**

@@ -53,7 +53,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Quantise** - Quantises the selected clip.
 * **Record Quantise** - Press multiple times to toggle througgh the record quantisation settings.
 * **Duplicate** (**Clear** on the Pro Mk3) - Always duplicates the first selected clip on the current track if pressed with no other button.
-  * Launchpad Pro: Keep the Duplicate button pressed and select a clip in session mode to duplicate it
+  * To copy clips in Session mode on Pro models: Keep Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button. On the non-pro models, activate duplicate mode, duplicate mode is deactivated, as soon as you select an empty clip as the destination.
   * Launchpad Pro: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
   * Launchpad Pro: Keep the Duplicate button pressed and select a scene to duplicate it.
 * **Shift+Duplicate** - Double the currently selected MIDI clip incl. its' content.
