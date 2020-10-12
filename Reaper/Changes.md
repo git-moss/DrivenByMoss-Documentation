@@ -1,5 +1,17 @@
 # Changes - Cockos Reaper
 
+**10.7.4 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Support for absolute metronome value changes (e.g. MCU). Relative metronome changes do no longer require SWS to be installed (e.g. Push). The metronome volume text description is still not updated (always shows -6.0dB).
+* APC40
+  * Fixed: Coloring of Tempo mode in simulator was wrong.
+* Fire
+  * Fixed: Note was always created with velocity of 0 in drum sequencer (except when Accent was enabled).
+* OSC
+  * Fixed: Changing bank size did not work.
+
 **10.7.3**
 
 * Requires Reaper 6.12+

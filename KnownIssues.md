@@ -5,7 +5,9 @@
 ## Bitwig Studio
 
 * The display update of the Akai Fire is very slow on Macos and makes it nearly unusable
-* The display update of the Novation SL MkIII lags on Macos (might be the same issue as with Akai Fire but device is still usable)
+* Novation SL MkIII
+    * The display update lags on Macos (might be the same issue as with Akai Fire but device is still usable).
+    * If the keyboard is transposed the pressed notes are off for the light guide.
 * User Parameters cannot be reset
 
 ## Cockos Reaper
@@ -18,6 +20,7 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 * The only way to insert MIDI messages into Reaper is via the Virtual MIDI keyboard input. If you map something with generic Flexi, it goes only into that channel (but not into the Action mapping) and does only work if the channel is record enabled. Therefore, the use-case is only to control devices which react or require MIDI CC.
 * Browser support (devices and presets) is only available on devices with a display. Since the browser of Reaper cannot be controlled you are currently navigating blind.
 * MIDI clock cannot be sent to the device since this would require to enable the MIDI output of the device in Reaper.
+* The metronome volume text description is not updated (always shows -6.0dB).
 
 ### Workarounds
 
