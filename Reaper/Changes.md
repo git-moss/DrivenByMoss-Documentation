@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**10.7.4 (unreleased)**
+**10.7.4**
 
 * Requires Reaper 6.12+
 * All devices
@@ -8,6 +8,7 @@
 * APC40
   * Fixed: Coloring of Tempo mode in simulator was wrong.
 * Fire
+  * New: Added knob speed settings   
   * Fixed: Note was always created with velocity of 0 in drum sequencer (except when Accent was enabled).
 * OSC
   * Fixed: Changing bank size did not work.
