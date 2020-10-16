@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**10.7.5 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* APC40
+  * Fixed: Changing tempo in combination with Shift button left the shift mode active.
+* Launchpad
+  * Fixed: Crash when session mode was flipped and 8th row was active
+
 **10.7.4**
 
 * Requires Bitwig 3.2.5+
@@ -8,8 +16,8 @@
   * Fixed: Knob value changes could hang if takeover mode was set to Catch.
   * Fixed: Coloring of Tempo mode in simulator was wrong.
 * Fire
-  * New: The pad index is now displayed (instead of the pad index).
-  * New: Added knob speed settings   
+  * New: The pad index is now displayed (instead of the page index).
+  * New: Added knob speed settings.
   * Fixed: Note was always created with velocity of 0 in drum sequencer (except when Accent was enabled).
 * MCU
   * Fixed: Motor fader value changes could hang if takeover mode was set to Catch.

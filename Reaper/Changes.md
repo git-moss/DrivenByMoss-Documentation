@@ -4,7 +4,13 @@
 
 * Requires Reaper 6.12+
 * All devices
-  * New: Support for absolute metronome value changes (e.g. MCU). Relative metronome changes do no longer require SWS to be installed (e.g. Push). The metronome volume text description is still not updated (always shows -6.0dB).
+  * New: Added support for AU plugins in browser on Macos.
+
+**10.7.4**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Support for absolute metronome volume changes (e.g. MCU). Relative changes do no longer require SWS to be installed (e.g. Push). The metronome volume text description is still not updated (always shows -6.0dB).
 * APC40
   * Fixed: Coloring of Tempo mode in simulator was wrong.
 * Fire
