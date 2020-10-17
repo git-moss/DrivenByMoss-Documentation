@@ -56,7 +56,6 @@ Notes for the **ZeRO SL MkII**:
     * **Send 3** - Change the volume of 3rd send of the selected track.
     * **Send 4** - Change the volume of 4th send of the selected track.
     * **Send 5** - Change the volume of 5th send of the selected track.
-    * Press row selection button multiple times (or use the P1 buttons) to toggle between the editing of normal tracks, effect tracks and the master track.
 
 5. Drum Pads - Plays the Midi notes 36 to 43
 

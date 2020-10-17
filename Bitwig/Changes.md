@@ -7,12 +7,19 @@
   * Fixed: Changing tempo in combination with Shift button left the shift mode active.
 * Launchpad
   * Fixed: Crash when session mode was flipped and 8th row was active
+* Maschine Mk3
+  * New: Converted knobs to new hardware API.
+  * Fixed: Scene, pattern and fixed velocity with encoder knob did behave erroneous.
+* SL Mk I + II
+  * New: Converted knobs and faders to new hardware API.
+  * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks, effect tracks and master).
+  * Fixed: Crash in sequencer/play mode.
 
 **10.7.4**
 
 * Requires Bitwig 3.2.5+
 * APC40
-  * New: Converted crossfader to new hardware API
+  * New: Converted crossfader to new hardware API.
   * Fixed: Knob value changes could hang if takeover mode was set to Catch.
   * Fixed: Coloring of Tempo mode in simulator was wrong.
 * Fire

@@ -1,5 +1,18 @@
 # Changes - Cockos Reaper
 
+**10.7.5 (unreleased)**
+
+* Requires Reaper 6.12+
+* APC40
+  * Fixed: Changing tempo in combination with Shift button left the shift mode active.
+* Launchpad
+  * Fixed: Crash when session mode was flipped and 8th row was active
+* Maschine Mk3
+  * Fixed: Scene, pattern and fixed velocity with encoder knob did behave erroneous.
+* SL Mk I + II
+  * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks and master).
+  * Fixed: Crash in sequencer/play mode.
+
 **10.7.4**
 
 * Requires Reaper 6.12+
