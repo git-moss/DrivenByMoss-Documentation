@@ -81,23 +81,25 @@ Note: The preferred play/sequencer mode is remembered for each track.
 
 ## Shift Mode
 
-If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. The **first column (from the left)** of the grid now represents the missing left column of the Pro model.
-The **second column** represents the functions of these buttons in Shift state.
+If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. 
 
-Pressing the **Delete (pink) or Duplicate (purple) pads** in shift mode activates the related mode. The pad starts to blink to indicate that the Delete/Duplicate mode is enabled. Press the pad again to cancel the mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is automatically turned off.
+### All models
 
-The **Scene buttons** represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
-The colors of the buttons are identical. This area is empty on the Pro model.
-
-Press the **Session** button to enter Mix-Mode.
-
-Further functions (all models):
-
+* Press the **Session** button to enter Mix-Mode.
 * The pads of the first row (from the bottom) change the length of newly created clips.
 * The three green buttons in the right upper corner insert an instrument, audio or effect track.
 * The yellow button in the right upper corner toggles between fixed accent/velocity for the pads in note/drum modes. The percentage value of the fixed accent can be set in the controller settings panel.
-* The red button in the lower right corner stops the playback of all clips.
 * The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The pads of the first two columns below change the note repeat period and the other two columns the note length.
+* Up/down cursor buttons activate **Tempo mode**.
+* Left/right cursor buttons activate **Swing mode**.
+* The red button in the lower right corner stops the playback of all clips.
+
+### Non-pro models
+
+* The **first column (from the left)** of the grid now represents the missing left column of the Pro model. The **second column** represents the functions of these buttons in Shift state.
+* Pressing the **Delete (pink) or Duplicate (purple) pads** in shift mode activates the related mode. The pad starts to blink to indicate that the Delete/Duplicate mode is enabled. Press the pad again to cancel the mode. Leaving the shift mode and entering session mode allows then to delete/duplicate clips, scenes and tracks. After deleting/duplicating an item the delete/duplicate mode is automatically turned off.
+* The **Scene buttons** represent the missing bottom row of the Pro (Volume, Pan, etc. but differently ordered).
+The colors of the buttons are identical. This area is empty on the Pro model.
 
 ![Shift menu diagram](Diagrams/Launchpad/shift-menu.png)
 
@@ -310,9 +312,10 @@ The panorama and sends pad are only colored for the selected track. Press one of
 
 ## Tempo mode
 
-Press **Shift+Device** on the Pro models. On all other models, press Shift and either the arrow up or down button.
+On all models, press Shift and either the arrow up or down button. On the Pro models you can also press **Shift+Device**.
 
 The grid displays the current tempo. Change the tempo with the cursor keys. Up/down change by 1 and left/right by steps of 10. You can also keep a button pressed for continuous changes.
+If you do not release the Shift button when entering the mode with up/down the up/down buttons change the fractions of the tempo.
 
 Press any of the grid pads to exit this mode.
 

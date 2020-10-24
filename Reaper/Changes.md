@@ -1,15 +1,17 @@
 # Changes - Cockos Reaper
 
-**10.7.5 (unreleased)**
+**10.8.0 (unreleased)**
 
 * Requires Reaper 6.12+
 * All devices
   * New: Support for AU devices in browser on Macos.
+  * Fixed: Resetting volumes sets them to 0dB (was -Inf) and pan to center (was full left).
 * APC40
   * Fixed: Changing tempo in combination with Shift button left the shift mode active.
 * Launchpad
   * Fixed: Crash when session mode was flipped and 8th row was active
   * Fixed: Session grid was off by 1 if 8th row was active and long press was used (also crashed on 1st row).
+  * Fixed: Stop all clips button was missing in Shift mode on Pro models.
 * Maschine Mk3
   * Fixed: Scene, pattern and fixed velocity with encoder knob did behave erroneous.
 * SL Mk I + II
@@ -18,12 +20,6 @@
 * SL Mk III
   * New: Out of scale keys of the light guide can now also be lit in dark grey. Select *Chromatic* in the document settings.
   * Fixed: Switching modes did not work with single button presses.
-
-**10.7.4**
-
-* Requires Reaper 6.12+
-* All devices
-  * New: Added support for AU plugins in browser on Macos.
 
 **10.7.4**
 

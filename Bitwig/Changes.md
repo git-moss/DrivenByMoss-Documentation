@@ -6,8 +6,9 @@
 * APC40
   * Fixed: Changing tempo in combination with Shift button left the shift mode active.
 * Launchpad
-  * Fixed: Crash when session mode was flipped and 8th row was active
+  * Fixed: Crash when session mode was flipped and 8th row was active.
   * Fixed: Session grid was off by 1 if 8th row was active and long press was used (also crashed on 1st row).
+  * Fixed: Stop all clips button was missing in Shift mode on Pro models.
 * Maschine Mk3
   * New: Converted knobs to new hardware API.
   * Fixed: Scene, pattern and fixed velocity with encoder knob did behave erroneous.
@@ -17,6 +18,7 @@
   * Fixed: Crash in sequencer/play mode.
 * SL Mk III
   * New: Out of scale keys of the light guide can now also be lit in dark grey. Select *Chromatic* in the document settings.
+  * New: Converted faders and knobs to new hardware API.
   * Fixed: Switching modes did not work with single button presses.
 
 **10.7.4**
