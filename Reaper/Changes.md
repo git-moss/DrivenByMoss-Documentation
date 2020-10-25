@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**10.8.0 (unreleased)**
+**10.8.0**
 
 * Requires Reaper 6.12+
 * All devices
@@ -14,6 +14,8 @@
   * Fixed: Stop all clips button was missing in Shift mode on Pro models.
 * Maschine Mk3
   * Fixed: Scene, pattern and fixed velocity with encoder knob did behave erroneous.
+* MCU
+  * Fixed: Page Up/Down (MCU MODE EQ / DYN) did not work.
 * SL Mk I + II
   * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks and master).
   * Fixed: Crash in sequencer/play mode.

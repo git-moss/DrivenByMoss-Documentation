@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**10.7.5 (unreleased)**
+**10.8.0**
 
 * Requires Bitwig 3.2.5+
 * APC40
@@ -12,6 +12,9 @@
 * Maschine Mk3
   * New: Converted knobs to new hardware API.
   * Fixed: Scene, pattern and fixed velocity with encoder knob did behave erroneous.
+* MCU
+  * New: Converted knobs and faders to new hardware API.
+  * Fixed: Page Up/Down (MCU MODE EQ / DYN) did not work.
 * SL Mk I + II
   * New: Converted knobs and faders to new hardware API.
   * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks, effect tracks and master).
