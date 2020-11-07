@@ -1,5 +1,26 @@
 # Changes - Bitwig Studio
 
+**10.9.0**
+
+* Requires Bitwig 3.2.5+
+* Fire
+  * New: In Shift mode the 10th button of the first row (blue) activates duplicate mode. Can be used with the first row of the Mix mode to duplicate tracks and with clips in the Session mode.
+  * New: In Shift mode the 12th button of the first row (red) activates delete mode. Can be used with the first row of the Mix mode to delete tracks and with clips in the Session mode.
+  * New: In Shift mode the 11th button of the first row (green) doubles the content of the currently selected clip.
+  * New: Press Stop+Clip in Session mode to stop the playback of the clip.
+* Midi Monitor
+  * Fixed: Displayed note octave was wrong for Note on/off and Poly aftertouch (e.g. showed C6 instead of C4).
+* MCU
+  * New: Added User mode. Press Device button twice to activate user mode.
+* OSC
+  * New: Added /update before and after each update cycle (if there is at least 1 update message).
+  * New: /track/{1-8}/name {text} - Set a new name for the track
+  * New: /device/layer/{1-8}/name {text} - Set a new name for the layer
+  * New: Open Stage Control template: name of track and layer can be set
+  * New: Open Stage Control template: added data receive indicator LED to transport bar
+* SL Mk III
+  * Fixed: Lightguide was only drawn black but not turned off on the hardware when disabled in the settings. The hardware light guide can now used again when the settings is disabled.
+
 **10.8.0**
 
 * Requires Bitwig 3.2.5+

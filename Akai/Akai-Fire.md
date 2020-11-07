@@ -217,9 +217,13 @@ In the first 2 4x4 blocks the note *repeat settings* can be configured:
 * The first to columns in the second block select the period length
 * The remaining two columns in the second block select the note length
 
-With the bottom row of the 3rd and 4th block the length of new clips are selected (which can be created with Alt+Record).
+The other buttons have the following functions:
 
-The three buttons in the other right corner create new Instrument, Audio and Effect tracks.
+* With the bottom row of the 3rd and 4th block the length of new clips are selected (which can be created with Alt+Record).
+* The 10th button of the first row (blue) activates duplicate mode. Can be used with the first row of the Mix mode to duplicate tracks and with clips in the Session mode.
+* The 11th button of the first row (green) doubles the content of the currently selected clip.
+* The 12th button of the first row (red) activates delete mode. Can be used with the first row of the Mix mode to delete tracks and with clips in the Session mode.
+* The three buttons in the upper right corner create new Instrument, Audio and Effect tracks.
 
 The Mute/Solo buttons have the following functions:
 

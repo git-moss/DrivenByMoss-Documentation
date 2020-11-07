@@ -14,6 +14,12 @@ Note: The templates require the setting "resolution" to be set to low.
 
 MAX_VALUE is configured in the configuration settings.
 
+### Send - Global
+
+* /crossfade {0-MAX_VALUE}
+* /quantize
+* /update {0, 1}        Sent before and after each update cycle (if there is at least 1 update message)
+
 ### Send - Project
 
 * /project/name
@@ -34,7 +40,6 @@ MAX_VALUE is configured in the configuration settings.
 * /preroll {0,1,2,4}
 * /overdub {1,0}
 * /overdub/launcher {1,0}
-* /crossfade {0-MAX_VALUE}
 * /autowrite {0,1}
 * /autowrite/launcher {0,1}
 * /automationWriteMode {latch,touch,write}
@@ -42,7 +47,6 @@ MAX_VALUE is configured in the configuration settings.
 * /time/str {hours.minutes.seconds:milliseconds}
 * /time/signature {numerator / denominator}
 * /tempo/raw {0-666}
-* /quantize
 
 ### Send - Layout and panels
 
@@ -258,6 +262,7 @@ MAX_VALUE is configured in the configuration settings.
 * /track/bank/page/{+,-}            Scrolls bank by 8
 * /track/{1-8}/color rgb(r,g,b)     with r,g,b = 0..255
 * /track/{+,-}                      Select the next/previous track
+* /track/{1-8}/name {text}          Set a new name for the track
 * /track/vu {0,1}                   En-/Disable VU-Meter notifications
 * /track/toggleBank                 Toggles between the Audio/Instrument and Effect track bank
 * /track/add/audio
@@ -318,6 +323,7 @@ MAX_VALUE is configured in the configuration settings.
 * /device/bank/page/{+,-}
 * /device/sibling/{1-8}/selected {0,1}
 * /device/layer/{1-8}/selected
+* /device/layer/{1-8}/name {test}                   Set a new name for the layer
 * /device/layer/{1-8}/volume {0-MAX_VALUE}
 * /device/layer/{1-8}/volume/indicate {0,1}
 * /device/layer/{1-8}/volume/touched {0,1}
