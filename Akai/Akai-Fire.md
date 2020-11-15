@@ -68,6 +68,7 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 * **Alt + Select Knob**: Select the previous/next device.
 * **Shift + Alt + Select Knob**: Select the previous/next parameter page.
 * Press the **Select knob** to toggle the window of the current device.
+* Activate delete mode and press the **Select knob** to delete the currently selected device.
 
 ### User 2 Mode (User Mode)
 

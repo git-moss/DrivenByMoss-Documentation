@@ -1,5 +1,23 @@
 # Changes - Bitwig Studio
 
+**10.9.1**
+
+* Requires Bitwig 3.2.5+
+* APCmini
+  * Fixed: Switching modes was broken.
+* Beatstep
+  * Fixed: Changing scale base note did only work in one direction.
+* Fire
+  * New: Activate delete mode and press the select knob to delete the currently selected device.
+  * Fixed: Don't apply knob speed settings in Browser mode.
+* Generic Flexi
+  * New: Display parameter changes for Note Input functions.
+  * New: Scale Note Input period and length to 127 for better use with absolute faders and knobs. If you assigned these to multiple buttons you need to update their values.
+* Launchpad
+  * Fixed: Duplicating notes in Poly Sequencer did create notes with velocity of 0 for all notes.
+* Push
+  * Fixed: Duplicating notes in Poly Sequencer did create notes with velocity of 0 for all notes.
+
 **10.9.0**
 
 * Requires Bitwig 3.2.5+
