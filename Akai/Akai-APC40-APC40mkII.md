@@ -41,10 +41,10 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 ### Devices - Specifics for the Mk I
 
-* **Arrow left** - Move focus to previous device
-* **Arrow right** - Move focus to next device
-* **Shift+Arrow left** - Select previous parameter bank of device
-* **Shift+Arrow right** - Select next parameter bank of device
+* **Arrow left** - Select previous parameter bank of device
+* **Arrow right** - Select next parameter bank of device
+* **Shift+Arrow left** - Move focus to previous device
+* **Shift+Arrow right** - Move focus to next device
 
 ### Devices - Specifics for the Mk II
 

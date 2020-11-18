@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**10.9.2**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Changed that resetting volume sets it to 0.0dB (was -5.6dB).
+  * Fixed: Setting absolute faders controlled by CC was broken.
+* MCU
+  * Fixed: Scrolling in browser did always jump between first and last item.
+
 **10.9.1**
 
 * Requires Reaper 6.12+

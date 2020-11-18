@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**10.9.2**
+
+* Requires Bitwig 3.2.5+
+* All devices
+  * Fixed: Implemented a workaround for parameters not showing their renamed labels.
+* MCU
+  * Fixed: Scrolling in browser did always jump between first and last item.
+
 **10.9.1**
 
 * Requires Bitwig 3.2.5+
