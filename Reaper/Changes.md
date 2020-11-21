@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**10.9.3 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Implemented a workaround for pitchbend messages on Linux.
+  * Fixed: Crash when a clip without a take was on a track.
+
 **10.9.2**
 
 * Requires Reaper 6.12+
