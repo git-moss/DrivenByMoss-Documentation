@@ -270,6 +270,7 @@ MAX_VALUE is configured in the configuration settings.
 * /track/add/instrument
 * /track/{1-8}/activated {0,1}
 * /track/{1-8}/select
+* /track/{1-8}/remove
 * /track/{1-8}/volume {0-MAX_VALUE}
 * /track/{1-8}/volume/indicate {0,1}
 * /track/{1-8}/volume/reset
@@ -310,6 +311,7 @@ MAX_VALUE is configured in the configuration settings.
 * /device/{+,-}
 * /device/window        Displays the window for VST plugins (or Bitwig devices with additional popout windows)
 * /device/bypass {0,1}
+* /device/remove
 * /device/expand {0,1}
 * /device/parameters {0,1}
 * /device/param/{+,-}

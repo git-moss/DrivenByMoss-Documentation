@@ -1,11 +1,19 @@
 # Changes - Cockos Reaper
 
-**10.9.3 (unreleased)**
+**10.9.3**
 
 * Requires Reaper 6.12+
 * All devices
+  * Fixed: First track was renamed to 'Track' when first loading a project after startup.
   * Fixed: Implemented a workaround for pitchbend messages on Linux.
-  * Fixed: Crash when a clip without a take was on a track.
+  * Fixed: Crash when a clip without a take was on a track.  
+* Novation SLMkIII
+  * New: Shift + Play toggles write automation.
+* OSC
+  * New: Added new command /track/{1-8}/remove
+  * New: Added new command /device/remove
+* Push 1/2
+  * New: Improved the layout of the Groove mode.
 
 **10.9.2**
 

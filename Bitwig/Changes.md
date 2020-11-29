@@ -1,12 +1,20 @@
 # Changes - Bitwig Studio
 
-**10.9.3 (unreleased)**
+**10.9.3**
 
 * Requires Bitwig 3.2.5+
 * All devices
   * New: The cursor clip can now be pinned in the studio pane (below the cursor track). By using this you can edit different launcher clips on multiple controllers.
+* Novation SLMkIII
+  * New: Press Stop + Clip in Session mode to stop the playback of the clip.
+  * New: Shift + Play toggles write arranger automation.
+  * New: Shift + Loop toggles write clip launcher automation.
+* OSC
+  * New: Added new command /track/{1-8}/remove
+  * New: Added new command /device/remove
 * Push 1/2
   * New: First button in the clip mode toggles if the clip is pinned.
+  * New: Improved the layout of the Groove mode.
 
 **10.9.2**
 
