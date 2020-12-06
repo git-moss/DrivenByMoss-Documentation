@@ -16,18 +16,18 @@ If you want to clear a slot, set the MIDI trigger type to "Off".
 
 ### Important notes
 
-* Your settings are not automatically stored! Use EWxport (see below).
+* Your settings are not automatically stored! Use *Save* (see below).
+* Linux: If the file dialogs to save/load do not work make sure you have *zenity* installed. To install zenity from the command line enter: sudo apt install zenity
 * MIDI notes are blocked when mapped
-    * If you have selected All for the keyboard channel the note is blocked on all channels!
+    * If you have selected *All* for the keyboard channel the note is blocked on all channels!
     * The blocked notes are only updated when loading a configuration or when switching between slots.
 * Using CC as a target can only be used with VST plugins in Bitwig. It cannot be mapped with the Bitwig mapping system, which will always see the original MIDI command. Instead use User parameters.
 
 ## Storing and loading a configuration
 
-* In the **Ex-/Import section** enter a file name in the text field to store to. On Windows and Mac you can click on the Select button to choose a file. On Linux you have to type the file name. Make sure you choose a name in a writable folder.
-* Click on Export to store the settings.
-* Click on Import to load a configuration (make sure you export your current configuration first).
-* The selected file will automatically be loaded when the DAW starts the next time
+* In the **Load/Save section** click on the Save button, enter a file name and confirm the dialog to store the settings.
+* Click on *Load* to load a configuration (make sure you *Save* your current configuration first).
+* The last selected file (shown in the filename text field) will automatically be loaded when the DAW starts the next time.
 
 ## The parameters are as follows:
 
@@ -150,12 +150,11 @@ You can select only one function from the lists. If you select a function from a
 * Type, Number, Midi channel: Displays the received MIDI values
 * Set: Press the button to assign the received MIDI command as the MIDI trigger for the currently selected mapping slot.
 
-### Ex-/Import
+### Load/Save
 
-* Filename to ex-/import: An absolute path to the filename to store/read the current settings
-* Select: Show the files dialog of the operating system for selecting the file
-* Export: Store the current configuration into the selected file
-* Import: Read the configuration from the selected file
+* Filename: An absolute path to the filename to automatically load when started.
+* Save: Store the current configuration into the selected file.
+* Load: Load the configuration from the selected file.
 
 ### Keyboard / Pads
 

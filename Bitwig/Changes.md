@@ -1,5 +1,20 @@
 # Changes - Bitwig Studio
 
+**10.9.4**
+
+* Requires Bitwig 3.2.5+
+* Launchkey Mini Mk3
+  * New: Added options to choose the function for the record and shift+record button.
+* Fire
+  * New: Alt + Mute/Solo buttons display the drum sounds name in drum sequencer mode.
+* Generic Flexi
+  * New: Replaced Select/Export/Import buttons with Load/Save buttons. Remove and add the extension to remove the old buttons (Bitwig bug)!
+  * Fixed: File dialogs did not work on Linux.
+  * Fixed: Dialog height was *jumping* until you changed the height.
+  * Fixed: Item Select in Parameters mode did not set the parameter page.
+* Push
+  * Fíxed: Play view could be off if quickly switching between track pages.
+
 **10.9.3**
 
 * Requires Bitwig 3.2.5+

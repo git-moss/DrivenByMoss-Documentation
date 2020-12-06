@@ -168,6 +168,7 @@ Press the **Drum** button to activate. The DRUM LED is lit orange.
 * **Alt + Grid buttons**: Change the step resolution
 * **Mute/Solo 1-4**: Mute the drum sound of the row
 * **Shift + Mute/Solo 1-4**: Solo the drum sound of the row
+* **Alt + Mute/Solo**: Display the drum sounds name in drum sequencer mode
 
 Editing a note works like in the note sequencer.
 

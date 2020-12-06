@@ -1,5 +1,17 @@
 # Changes - Cockos Reaper
 
+**10.9.4**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Switched to TAR files for Linux and Macos to preserve the permissions of the Java runtime files.
+* Launchkey Mini Mk3
+  * New: Added options to choose the function for the record and shift+record button.
+* Generic Flexi
+  * New: Replaced Select/Export/Import buttons with Load/Save buttons.
+  * Fixed: File dialogs did not work on Linux.
+  * Fixed: Dialog height was *jumping* between two heights until it was manually adjusted.
+
 **10.9.3**
 
 * Requires Reaper 6.12+
