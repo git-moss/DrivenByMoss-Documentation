@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**10.9.5 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* Fire
+  * New: The brightness and the color intensity of the pads can be adjusted in the settings.
+
 **10.9.4**
 
 * Requires Bitwig 3.2.5+
