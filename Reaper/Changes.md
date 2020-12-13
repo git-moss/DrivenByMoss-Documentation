@@ -1,12 +1,14 @@
 # Changes - Cockos Reaper
 
-**10.9.5 (unreleased)**
+**10.9.5**
 
 * Requires Reaper 6.12+
 * All devices
   * Fixed: Naming of attributes in DrivenByMoss settings files could be wrong depending on the OS' language locale (e.g. Turkish  locale), which could have some strange side effects like e.g. sequencers not working. If this is the case for your OS check the controller settings after the update.
 * Fire
   * New: The brightness and the color intensity of the pads can be adjusted in the settings.
+* Push
+  * New: The Groove mode allows now to dis-/enable the arrange swing grid and set the amount.
 
 **10.9.4**
 

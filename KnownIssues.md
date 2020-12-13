@@ -21,6 +21,7 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 * Browser support (devices and presets) is only available on devices with a display. Since the browser of Reaper cannot be controlled you are currently navigating blind.
 * MIDI clock cannot be sent to the device since this would require to enable the MIDI output of the device in Reaper.
 * The metronome volume text description is not updated (always shows -6.0dB).
+* The Groove settings allow to dis-/enable the arrange swing grid and set the amount.
 
 ### Workarounds
 

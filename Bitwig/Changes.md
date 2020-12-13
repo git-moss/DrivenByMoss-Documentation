@@ -1,8 +1,10 @@
 # Changes - Bitwig Studio
 
-**10.9.5 (unreleased)**
+**10.9.5**
 
 * Requires Bitwig 3.2.5+
+* All devices
+  * Fixed: LEDs and controls did not update on Macos 11 on startup. All states are now flushed 10s after startup.
 * Fire
   * New: The brightness and the color intensity of the pads can be adjusted in the settings.
 
