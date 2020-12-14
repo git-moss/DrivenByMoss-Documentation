@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**10.9.6 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
+  * Fixed: Global settings were not stored when changed from the controller.
+
 **10.9.5**
 
 * Requires Reaper 6.12+

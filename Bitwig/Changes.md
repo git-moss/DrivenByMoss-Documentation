@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**10.9.6 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* All devices
+  * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
+
 **10.9.5**
 
 * Requires Bitwig 3.2.5+
