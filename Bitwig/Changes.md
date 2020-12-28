@@ -5,6 +5,26 @@
 * Requires Bitwig 3.2.5+
 * All devices
   * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
+* Generic Flexi
+  * New: Added new function **Track Selected: Toggle Pin**.
+  * New: Added new function **Track Selected: Set Pin**.
+  * New: Added new function **Device: Toggle Pin**.
+  * New: Added new function **Clip: Toggle Pin**.
+* MCU
+  * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behaviour. Toggling instrument/audio and effect tracks is now on Shift+Flip.
+* OSC
+  * New: New command for send and receive **/track/selected/pinned {0,1,-}**.
+  * New: New command for send and receive **/device/pinned {0,1,-}**.
+  * New: New command for send **/clip/exists {0,1}**
+  * New: New command for send **/clip/color** with rgb(r,g,b); r,g,b = 0..255.
+  * New: New command for send and receive **/clip/pinned {0,1,-}**.
+  * New: New command for receive **/clip/{+,-}**.
+  * New: New command for receive **/clip/launch**.
+  * New: New command for receive **/clip/stop**.
+  * New: New command for receive **/clip/record**.
+  * New: New command for receive **/clip/quantize**.
+* Midi Monitor
+  * Fixed: Crashed on startup.
 
 **10.9.5**
 

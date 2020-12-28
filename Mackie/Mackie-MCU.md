@@ -112,8 +112,9 @@ F1 will now select the previous page, and F2 the next.
 
 ### Fader Controls
 
-* **Lock** (Not on MCU) - Locks the faders
-* **Flip** (MCU FLIP) - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
+* **Lock** (Not on MCU) - Locks the faders.
+* **Flip** (MCU FLIP) - Toggles **Use faders like knobs** option.
+* **Shift+Flip** - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
 * **Cancel** (MCU CANCEL) - Cancels browsing when the Browser is active, otherwise like pressing the Escape key on the computer keyboard.
 * **Enter** (MCU ENTER) - Confirms browsing when the Browser is active, otherwise like pressing the Enter key on the computer keyboard.
 * **|<** (MCU BANK LEFT) - Move track bank focus 8 track up. If Device mode is active, the previous device parameter bank is selected.

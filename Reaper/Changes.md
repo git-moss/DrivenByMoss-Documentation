@@ -6,6 +6,19 @@
 * All devices
   * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
   * Fixed: Global settings were not stored when changed from the controller.
+* MCU
+  * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behaviour. Toggling instrument/audio and effect tracks is now on Shift+Flip.
+* Midi Monitor
+  * Fixed: Crashed on startup.
+* OSC
+  * New: New command for send **/clip/exists {0,1}**
+  * New: New command for send **/clip/color** with rgb(r,g,b); r,g,b = 0..255.
+  * New: New command for receive **/clip/{+,-}**.
+  * New: New command for receive **/clip/launch**.
+  * New: New command for receive **/clip/record**.
+  * New: New command for receive **/clip/quantize**.
+* Push
+  * Fixed: Pin button LED was lit in track details mode which is not supported.
 
 **10.9.5**
 
