@@ -11,6 +11,7 @@
 * Midi Monitor
   * Fixed: Crashed on startup.
 * OSC
+  * Documented all OSC commands in the manual.
   * New: New command for send **/clip/exists {0,1}**
   * New: New command for send **/clip/color** with rgb(r,g,b); r,g,b = 0..255.
   * New: New command for receive **/clip/{+,-}**.
@@ -18,7 +19,7 @@
   * New: New command for receive **/clip/record**.
   * New: New command for receive **/clip/quantize**.
 * Push
-  * Fixed: Pin button LED was lit in track details mode which is not supported.
+  * Fixed: Pin button LED was lit in track details mode which is not supported with Reaper.
 
 **10.9.5**
 

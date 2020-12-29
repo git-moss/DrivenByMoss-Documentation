@@ -13,6 +13,7 @@
 * MCU
   * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behaviour. Toggling instrument/audio and effect tracks is now on Shift+Flip.
 * OSC
+  * Documented all OSC commands in the manual.
   * New: New command for send and receive **/track/selected/pinned {0,1,-}**.
   * New: New command for send and receive **/device/pinned {0,1,-}**.
   * New: New command for send **/clip/exists {0,1}**
