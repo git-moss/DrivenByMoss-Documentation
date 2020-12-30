@@ -1,11 +1,16 @@
 # Changes - Cockos Reaper
 
-**10.9.6 (unreleased)**
+**10.9.6**
 
 * Requires Reaper 6.12+
 * All devices
   * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
   * Fixed: Global settings were not stored when changed from the controller.
+* APC40 MkI
+  * Fixed: Drum sequencer crashed.
+* Launchpad
+  * New: First button in Shuffle view toggles now Shuffle grid.
+  * Fixed: Shuffle view could not be closed.
 * MCU
   * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behaviour. Toggling instrument/audio and effect tracks is now on Shift+Flip.
 * Midi Monitor

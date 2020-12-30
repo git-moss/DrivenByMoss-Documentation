@@ -1,15 +1,21 @@
 # Changes - Bitwig Studio
 
-**10.9.6 (unreleased)**
+**10.9.6**
 
 * Requires Bitwig 3.2.5+
 * All devices
   * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
+Fixed remembering of views.
+* APC40 MkI
+  * Fixed: Drum sequencer crashed.
 * Generic Flexi
   * New: Added new function **Track Selected: Toggle Pin**.
   * New: Added new function **Track Selected: Set Pin**.
   * New: Added new function **Device: Toggle Pin**.
   * New: Added new function **Clip: Toggle Pin**.
+* Launchpad
+  * New: First button in Shuffle view toggles now Groove. 3rd and 4th button selects shuffle rate.
+  * Fixed: Shuffle view could not be closed.
 * MCU
   * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behaviour. Toggling instrument/audio and effect tracks is now on Shift+Flip.
 * OSC
