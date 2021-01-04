@@ -61,6 +61,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Shift+Double** (**Play** on the Pro Mk3) - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
+* **Fixed Length** (only Pro Mk3) - Executes the *New* function.
 
 ## Cursors and Mode selection (Upper button row)
 
@@ -172,10 +173,15 @@ Press _"Note"_  and select the first red pad to change to **Scale** mode.
 * The key layout is the same one used with Ableton Push
 * Left/Right buttons change the scale (Major, Minor, etc.)
 * Up/Down buttons transpose the note range (pitch) up/down.
+* The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
+
+Scene buttons have to following functions:
+
 * The upper 2 scene buttons change the key layout.
+* The 4th scene button (green) in the play mode activates additional controls in the first pad row. First pad toggles sustain. Second and third pad are pitch down/up and the following pads switch to different intensities of the modulation wheel. You can slide these modulation wheel pads to imitate a modulation wheel.
+* The 5th scene button (amber) in the play mode activates the chords mode. This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The rows from bottom to top contain the following chords: Triads, Dyads (Powerchords), Suspended second (Sus2), Suspended fourth (Sus4), Add sixth (6), Major seventh chord (maj7), Add ninth (9), Add eleventh (11). The same octave, scale and base note settings apply as with the play mode.
 * The white scene button toggles between Chromatic and Scale Only mode.
 * The lower 2 scene buttons change the root note of the scale.
-* The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 
 ![Play Mode - Scale](Diagrams/Launchpad/play-mode-scale.png)
   

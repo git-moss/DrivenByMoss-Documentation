@@ -1,11 +1,27 @@
 # Changes - Bitwig Studio
 
+**11.0.0**
+
+* Requires Bitwig 3.2.5+
+* All devices
+  * Fixed: 8th layout for scales which do not have 7 intervals was not aligned correctly (Push, Launchpad, APC).
+* Launchpad
+  * New: Press the 4th scene button (green) in the play mode to activate additional controls in the first pad row. First pad toggles sustain. Second and third pad are pitch down/up and the following pads switch to different intensities of the modulation wheel. You can slide these modulation wheel pads to imitate a modulation wheel.
+  * New: Press the 5th scene button (amber) in the play mode to activate chords mode. This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The rows from bottom to top contain the following chords: Triads, Dyads (Powerchords), Suspended second (Sus2), Suspended fourth (Sus4), Add sixth (6), Major seventh chord (maj7), Add ninth (9), Add eleventh (11). The same octave, scale and base note settings apply as with the play mode.
+  * New: Pro Mk3: *Fixed Length* button triggers the New clip command.
+  * New: The mode strip in session view is now displayed vertically if session is flipped (in the 8th column).
+  * New: Show the flipped state in Bitwig when Session is activated from a different view.
+  * New: Scrolling in Birdseye view is now per page.
+  * Fixed: Birdseye view in session mode should not display mode button row.
+* Push
+  * New: Added chord mode. Press Note and select *Chords* to enable it or use the Layout button. Functionality is like described above for the launchpad.
+  * Fixed: Push 2: Selected play view for a track was not remembered when changed via the Layout button.
+  
 **10.9.6**
 
 * Requires Bitwig 3.2.5+
 * All devices
   * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
-Fixed remembering of views.
 * APC40 MkI
   * Fixed: Drum sequencer crashed.
 * Generic Flexi

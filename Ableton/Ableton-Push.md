@@ -148,6 +148,24 @@ Press _"Note"_ and select *Play* to change to the Play view.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
 
+### Chords Mode
+
+Press _"Note"_ and select *Chords* to change to the Chords view.
+
+This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The same octave, scale and base note settings apply as with the play mode.
+The rows from bottom to top contain the following chords: 
+
+* Triads, 
+* Dyads (Powerchords), 
+* Suspended second (Sus2), 
+* Suspended fourth (Sus4), 
+* Add sixth (6), 
+* Major seventh chord (maj7), 
+* Add ninth (9), 
+* Add eleventh (11). 
+
+Other functions are identical to the Play view.
+
 ### Piano Mode
 
 Press _"Note"_ and select *Piano* to enter **Piano** mode.
@@ -155,7 +173,8 @@ Press _"Note"_ and select *Piano* to enter **Piano** mode.
 * Arranges the pads like a classic piano keyboard.
 * The white lit pads are the white keys.
 * The gray lit pads are the black keys.
-* You get 4 octaves to play with
+* You get 4 octaves to play with.
+* Other functions are identical to the Play view.
 
 ### Drum 64 play mode
 
