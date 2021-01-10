@@ -6,7 +6,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Play** - Toggle repeat
-* **Stop** *only mkI* - Stop playback. Press again to move play cursor to start of song.
+* **Stop** *only mkI* - Stop playback. Press again to move play cursor to start of the song. Double click to move play cursor to end of song.
 * **Record** - Start/Stop recording
 * **Shift+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars

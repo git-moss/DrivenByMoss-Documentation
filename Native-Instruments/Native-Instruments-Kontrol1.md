@@ -22,7 +22,7 @@ Support script for Native Instruments Komplete Kontrol controller Version 1.
 * **SHIFT+PLAY** - Create new clip, start playback and activate overdub
 * **REC (Record)** - Start/Stop recording
 * **SHIFT+REC** - Toggle launcher overdub
-* **STOP** - Stop playback. Press again to move the playback cursor to the start of the arranger.
+* **STOP** - Stop playback. Press again to move the playback cursor to the start of the arranger. Double click to move play cursor to the end of the song.
 
 Use the page left and right buttons to switch modes.
 

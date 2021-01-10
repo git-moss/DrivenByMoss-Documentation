@@ -14,7 +14,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **<<** (HUI REWIND) - Move the play cursor to the left.
 * **>>** (HUI FORWARD) - Move the play cursor to the right.
 * **Repeat** (HUI LOOP) - Toggle repeat
-* **Stop** (HUI STOP) - Stop playback. Press again to move play cursor to start of song.
+* **Stop** (HUI STOP) - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Play** (HUI PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift (HUI SHIFT) + Play** - Toggle repeat
 * **Option (HUI OPTION) + Play** - Toggle Punch In

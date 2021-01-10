@@ -8,14 +8,14 @@ Support for Novations' SL Mk III controller.
 
 ## Global Features
 
-* **<<** - Move the playcursor to the left in the arranger
-* **>>** - Move the playcursor to the right in the arranger
-* **Stop** - Stop playback. Press again to move play cursor to start of song.
+* **<<** - Move the playcursor to the left in the arranger.
+* **>>** - Move the playcursor to the right in the arranger.
+* **Stop** - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
-* **Shift+Play** - Toggle repeat
-* **Repeat** - Toggle repeat
-* **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub
+* **Shift+Play** - Toggle repeat.
+* **Repeat** - Toggle repeat.
+* **Record** - Start/Stop recording.
+* **Shift+Record** - Toggle launcher overdub.
 * **Duplicate** - Duplicates the first selected clip on the current track. Combine with a pad in session mode (duplicate clip) or a track select button (duplicate track).
 * **Clear** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons and knobs, see the mode and view explanations below.
 

@@ -45,15 +45,18 @@ The S-series has additional device/parameters and send modes. **Toggle these mod
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Transport
+
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 * Record button: Select the function of the record button.
 * Shift + Record button: Select the function of the record button when used in combination with the Shift key.
 
 ### Behaviour on Stop
+
 * Flip track/clip navigation: Flips the direction (previous/next) if enabled
 * Flip clip/scene navigation: Flips the direction (previous/next) if enabled
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Knob Speed Normal: Adjust the speed of the knobs

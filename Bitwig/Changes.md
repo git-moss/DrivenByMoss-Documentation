@@ -1,5 +1,21 @@
 # Changes - Bitwig Studio
 
+**11.5.0**
+
+* Requires Bitwig 3.2.5+
+* Komplete Kontrol Mk2
+  * New: Allow all MIDI channels for the keyboard, so far only channel 1 was enabled.
+* Launchkey Mk3
+  * New: Added support for models 25, 37, 49 and 61
+* Launchkey Mini Mk3
+  * Fixed: Session clip indication was no enabled.
+  * Fixed: Improved contrast between selected and unselected scene.
+  * Fixed: Long pressing a mode pad did crash.
+* Launchpad
+  * Fixed: Pro Mk3: *Fixed Length* button was missing in simulator.
+* APC40, Fire, HUI, MCU, Kontrol MkI/MkII, SL MkIII
+  * New: Double click the *stop* button when playback is stopped to move the play cursor to the end of the project.
+
 **11.0.0**
 
 * Requires Bitwig 3.2.5+
@@ -16,7 +32,7 @@
 * Push
   * New: Added chord mode. Press Note and select *Chords* to enable it or use the Layout button. Functionality is like described above for the launchpad.
   * Fixed: Push 2: Selected play view for a track was not remembered when changed via the Layout button.
-  
+
 **10.9.6**
 
 * Requires Bitwig 3.2.5+

@@ -41,7 +41,7 @@ F1 will now select the previous page, and F2 the next.
 * **<<** (MCU REWIND) - Move the play cursor to the left.
 * **>>** (MCU FORWARD) - Move the play cursor to the right.
 * **Repeat** (MCU REPEAT) - Toggle repeat
-* **Stop** (MCU STOP) - Stop playback. Press again to move play cursor to start of song.
+* **Stop** (MCU STOP) - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Jog Wheel** - Move play cursor (press **Shift** for fine adjustment)
 * **Option + Jog Wheel** - Change tempo (press **Shift** for fine adjustment)
 * **Scrub** - Toggles between all editing mode

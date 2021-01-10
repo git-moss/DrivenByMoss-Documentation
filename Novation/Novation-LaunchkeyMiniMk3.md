@@ -9,9 +9,9 @@ Support for the Novation Launchkey Mini Mk3 controller.
 ## Global Features
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift+Play** - Toggle repeat
-* **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub
+* **Shift+Play** - Toggle repeat.
+* **Record** - Start/Stop recording. Can be changed in the settings.
+* **Shift+Record** - Toggle launcher overdub. Can be changed in the settings.
 
 ## Modes
 
@@ -58,11 +58,11 @@ Use the 3 amber colored buttons to switch between the modes for the knobs. The t
 
 #### Session Mode
 
-The Session mode is quite complex since it hides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode.
+The Session mode is quite complex since it provides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode.
 
 The pads start playback or recording of the respective clip. The Scene and SSM buttons start the first and second scene in the selected scene window. Use Shift+Scene/SSM buttons to move the scene window.
 
-If one of the sub-modes is enabled, the lower pad row changes and display the states of the sub-mode. Press one of these pads to toggle the state. The following sub-modes are available:
+If one of the sub-modes is enabled, the lower pad row changes and displays the states of the sub-mode. Press one of these pads to toggle the state. The following sub-modes are available:
 
 1) **Record Arm**: Toggle the recording armed state of the 8 tracks on the selected track bank page.
 2) **Track select**:  Select one of the 8 tracks on the selected track bank page.
