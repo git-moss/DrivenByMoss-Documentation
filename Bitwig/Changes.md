@@ -1,5 +1,30 @@
 # Changes - Bitwig Studio
 
+**11.5.1**
+
+* Requires Bitwig 3.2.5+
+* APC40
+  * New: Knob LEDs are totally turned off if parameter does not exist.
+* Fire
+  * New: In Note Sequencer **Shift + Grid buttons** change the Scale, **Shift + Alt + Grid buttons** change the Scale Base key. For consistency the button combinations in Play and Piano modes are adjusted accordingly.
+  * New: Use **Shift + Select knob** in note and Poly Sequencer mode to transpose notes of clip up/down.
+  * Fixed: Channel parameters did not get reassigned when drum pad was changed.
+  * Fixed: Selection got lost when scrolling too fast through drum pads in drum sequencer.
+  * Fixed: Wrong parameter name was shown in combination with ALT button.
+* Generic Flexi
+  * New: Added functions to toggle user parameters between minimum and maximum value.
+* Launchkey Mk3
+  * Fixed: Endless opening / closing loop of browser if browser was opened in Bitwig instead of from the Launchkey.
+* Launchpad
+  * Fixed: Tap tempo in Shift Mode did not work.
+* Maschine Mk3 / Mikro Mk3
+  * New: Channel and Polyaftertouch of the pads are now routed to Bitwig.
+* OSC
+  * New: Added */clip/stopall* which stops all playing clips.
+* Push
+  * Fixed: Device data on Info page was not displayed.
+  * Fixed: Several issues with knob mapping in layer modes.
+
 **11.5.0**
 
 * Requires Bitwig 3.2.5+

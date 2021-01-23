@@ -1,5 +1,28 @@
 # Changes - Cockos Reaper
 
+**11.5.1**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Added 128 dummy drum channels to the drum pad bank. This allows e.g. to scroll now the rows of the drum sequencer of the Akai Fire.
+  * Fixed: User parameters could not be changed.
+* APC40
+  * New: Knob LEDs are totally turned off if parameter does not exist.
+* Fire
+  * New: In Note Sequencer **Shift + Grid buttons** change the Scale, **Shift + Alt + Grid buttons** change the Scale Base key. For consistency the button combinations in Play and Piano modes are adjusted accordingly.
+  * New: Use **Shift + Select knob** in note and Poly Sequencer mode to transpose notes of clip up/down.
+  * Fixed: Channel parameters did not get reassigned when drum pad was changed.
+  * Fixed: Selection got lost when scrolling too fast through drum pads in drum sequencer.
+  * Fixed: Wrong parameter name was shown in combination with ALT button.
+* Generic Flexi
+  * New: Added functions to toggle user parameters between minimum and maximum value.
+* Launchpad
+  * Fixed: Tap tempo in Shift Mode did not work.
+* Maschine Mk3 / Mikro Mk3
+  * New: Channel and Polyaftertouch of the pads are now routed to Reaper.
+* Push
+  * Fixed: Device data on Info page was not displayed.
+
 **11.5.0**
 
 * Requires Reaper 6.12+

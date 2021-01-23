@@ -118,8 +118,11 @@ Press the **Step** button to activate. The STEP LED is lit orange.
 * **Select Knob**: Move the note range up/down
 * **Grid buttons**: Move to the previous/next page of the clip
 * **Alt + Grid buttons**: Change the step resolution
+* **Shift + Grid buttons**: Change the Scale
+* **Shift + Alt + Grid buttons**: Change the Scale Base key
+* **Shift + Select knob**: Transpose notes of clip up/down
 
-To change the scale settings switch to the Play Mode and change it there.
+To change the other scale settings switch to the Play Mode and change it there.
 
 * **Mute/Solo 1** (from top): Stop playing clip of selected track
 * **Mute/Solo 2**: Toggle Mute of selected track
@@ -141,17 +144,17 @@ Press the **Step** button twice to activate. The STEP LED is lit red.
 The buttons behave as with Note Sequencer.
 Play a chord in the lower part then enable steps in the upper chord which will be filled with the played chord.
 
-To change the scale settings switch to the Play Mode and change it there.
+To change the other scale settings switch to the Play Mode and change it there.
 
 ### Play Mode
 
 Press the **Note** button to activate. The NOTE LED is lit orange.
 
 * **Select Knob**: Move the note range one octave up/down
-* **Grid buttons**: Change the Scale
-* **Shift + Grid buttons**: Change the Scale Base key
+* **Grid buttons**: Toggle Chromatic / In Scale
+* **Shift + Grid buttons**: Change the Scale
 * **Alt + Grid buttons**: Change the Scale Layout
-* **Shift + Alt + Grid buttons**: Toggle Chromatic / In Scale
+* **Shift + Alt + Grid buttons**: Change the Scale Base key
 * **Mute/Solo 1-4**: Same as in Note Sequencer mode
 
 ### Piano Mode

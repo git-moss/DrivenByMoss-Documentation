@@ -356,6 +356,7 @@ The parameters of the command documentation below are as follows:
 | /clip/{+,-}                           |             | Select the next/previous slot on the track.    |
 | /clip/launch                          |             | Launch the cursor clip.                        |
 | /clip/stop                            |             | Stop the playback of the cursor clip.          |
+| /clip/stopall                         |             | Stop the playback of all playing clips.        |
 | /clip/record                          |             | Record a clip in the selected slot.            |
 | /clip/quantize                        |             | Quantize the cursor clip.                      |
 
