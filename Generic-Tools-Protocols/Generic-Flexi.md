@@ -14,10 +14,13 @@ Click the Set button to assign this MIDI values to the selected slot. After that
 want to assign.
 If you want to clear a slot, set the MIDI trigger type to "Off".
 
-### Important notes
+## Installation
+
+Linux: If the file dialogs to save/load do not work make sure you have *zenity* installed. To install zenity from the command line enter: sudo apt install zenity
+
+## Important notes
 
 * Your settings are not automatically stored! Use *Save* (see below).
-* Linux: If the file dialogs to save/load do not work make sure you have *zenity* installed. To install zenity from the command line enter: sudo apt install zenity
 * MIDI notes are blocked when mapped
     * If you have selected *All* for the keyboard channel the note is blocked on all channels!
     * The blocked notes are only updated when loading a configuration or when switching between slots.
