@@ -126,7 +126,8 @@ Press the Grid button till the LED is lit Green to enter **Session** mode.
 * Long press a pad to select the clip without starting it.
 * The 2 scene buttons start scenes.
 * The arrow keys left of the grid scroll the grid. Hold **Shift** to scroll in blocks of 8.
-* Press **Clear** + Pad In Session Mode to the delete the clip.
+* Press **Clear** + Pad In Session Mode to delete the clip.
+* Press **Stop** + Pad In Session Mode to stop the clip.
 
 2. **Sequencer** - The Grid button LED is lit **Blue**
 

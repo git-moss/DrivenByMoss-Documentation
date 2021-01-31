@@ -20,6 +20,7 @@ Support for the Novation Launchkey Mini Mk3 controller models 25, 37, 49 and 61.
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Play** - Toggle repeat.
 * **Stop** - Stops playback. If stopped moves the play cursor to start of song.
+* **Shift+Stop** - Stops all playing clips.
 * **Record** - Start/Stop recording. Can be changed in the settings.
 * **Shift+Record** - Toggle launcher overdub. Can be changed in the settings.
 * **Repeat** - Toggle repeat.
@@ -92,6 +93,7 @@ The Session mode is quite complex since it provides several sub-modes for contro
 * Long press a pad to only select the clip without starting it.
 * The Scene and SSM buttons start the first and second scene in the selected scene window.
 * Use Scene up/down buttons to move the clip/scene window.
+* Press **Stop** + Pad In Session Mode to stop the clip.
 
 If one of the sub-modes is enabled, the lower pad row changes and displays the states of the sub-mode. Press one of these pads to toggle the state. The following sub-modes are available:
 

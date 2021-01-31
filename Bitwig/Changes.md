@@ -1,5 +1,27 @@
 # Changes - Bitwig Studio
 
+**11.5.2**
+
+* Requires Bitwig 3.2.5+
+* APC40mkI/mkII
+  * New: Press **Stop Clip** + Pad In Session Mode to delete the clip.
+  * New: Press **Select** + Pad In Session Mode to duplicate the clip.
+* Fire
+  * Fixed: Press **Stop** + Pad In Session Mode to stop the clip did not work.
+* Launchkey Mk3
+  * New: Press **Shift + Stop** to stop all playing clips.
+  * New: Press **Stop** + Pad In Session Mode to stop the clip.
+  * New: Press **Undo** + Pad In Session Mode to delete the clip.
+  * New: Scenes/Clips scroll now by 1 instead of 2, which is a bit less confusing. 
+  * Fixed: Browser did open when pressing a pad in session mode when browser was used before.
+* Launchpad
+  * New: Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
+  * Fixed: Virtual fader in mix mode did not work when Takover Mode was set to Relative Scaling or Catch.
+* Maschine
+  * Fixed: Could not scroll browser results.
+* Novation SLMkIII
+  * Fixed: Press **Stop** + Pad In Session Mode to stop the clip did not work and was missing in the documentation.
+
 **11.5.1**
 
 * Requires Bitwig 3.2.5+

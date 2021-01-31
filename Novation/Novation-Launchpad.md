@@ -66,11 +66,9 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 ## Cursors and Mode selection (Upper button row)
 
 * **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific View (e.g. track, scene).
-* **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice.
-    Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode.
+* **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice. Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode. Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
 * **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes. On the **Pro Mk3** pressing the Note button toggles through the 3 play modes.
-* **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens 
-    the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
+* **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one
 * **User** (only Pro, **Custom** on the Mk3) - Brings up the user mode.
 * **Chord** (only Pro Mk3) - Toggles through the 3 drum sequencer modes.

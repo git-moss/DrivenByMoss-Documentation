@@ -116,7 +116,9 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 ## Session Mode
 
 * Press pad to start clip
-* Long press a pad in session mode to select the clip without starting it.
+* Long press a pad to select the clip without starting it.
+* Press the **Stop Clip** button of the track and a pad to delete the clip.
+* Press the **Select** button of the track and a pad to duplicate the clip.
 
 ## Play Mode
 
@@ -204,16 +206,20 @@ The 2 rows at the bottom represent a keyboard, which allows you to select the ro
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Play and Sequence
+
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 
 ### Transport
+
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 
 ### Session
+
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 
 ## Document Settings
@@ -221,6 +227,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 These settings are specific to each project.
 
 ### Scales
+
 * Scale: Select the scale
 * Base: Select the base note of the scale
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.

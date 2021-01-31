@@ -1,5 +1,21 @@
 # Changes - Cockos Reaper
 
+**11.5.2**
+
+* Requires Reaper 6.12+
+* APC40mkI/mkII
+  * New: Press **Stop Clip** + Pad In Session Mode to delete the clip.
+  * New: Press **Select** + Pad In Session Mode to duplicate the clip.
+* Launchkey Mk3
+  * New: Press **Undo** + Pad In Session Mode to delete the clip.
+  * New: Scenes/Clips scroll now by 1 instead of 2, which is a bit less confusing. 
+* Launchpad
+  * New: Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
+* Maschine
+  * Fixed: Could not scroll browser results.
+* MCU
+  * New: The scaling of the VU meters is now in the range from -60 to +6dB like in the Reaper mixer display.
+
 **11.5.1**
 
 * Requires Reaper 6.12+
