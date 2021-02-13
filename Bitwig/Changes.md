@@ -1,5 +1,20 @@
 # Changes - Bitwig Studio
 
+**11.5.3 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* Generic Flexi
+  * Fixed: Resolution for relative knobs was limited to 128 steps.
+* Launchkey Mk3
+  * New: Fader button is glowing if the track is selected.
+  * New: Fader buttons are turned off if track does not exist.
+  * New: **Shift + Play** switches playback back to arranger on all tracks.
+  * New: **Play + Pad** switches playback back to arranger on the track which contains the clip.
+* Maschine Mk3 / Mikro Mk3
+  * New: **Pattern + Pad** stops the clip.
+* MCU
+  * New: If *Select Channel on Fader Touch* is set to *Off*, touching the master fader is ignored as well.
+
 **11.5.2**
 
 * Requires Bitwig 3.2.5+

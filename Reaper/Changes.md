@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**11.5.3 (unreleased)**
+
+* Requires Reaper 6.12+
+* Generic Flexi
+  * Fixed: Resolution for relative knobs was limited to 128 steps.
+* Launchkey Mk3
+  * New: Fader button is glowing if the track is selected.
+  * New: Fader buttons are turned off if track does not exist.
+* MCU
+  * New: If *Select Channel on Fader Touch* is set to *Off*, touching the master fader is ignored as well.
+
 **11.5.2**
 
 * Requires Reaper 6.12+
