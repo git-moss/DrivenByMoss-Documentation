@@ -71,6 +71,7 @@ The Touchstrip behaves based on the following modes.
 * **Fixed Vel** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
 * **Scene** - Press a pad to start one of the 16 scenes of the current bank page.
 * **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track.
+* **Pattern + Pad** - Stops the clip.
 * **Variation** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **Duplicate** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
 * **Select** - Press a pad to select one of 16 channels of the current bank page. The selected track blinks.

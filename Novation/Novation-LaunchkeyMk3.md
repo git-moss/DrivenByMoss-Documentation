@@ -17,8 +17,8 @@ Support for the Novation Launchkey Mini Mk3 controller models 25, 37, 49 and 61.
 * **Shift+Click** - Tap Tempo.
 * **Undo** - Undoes the last action.
 * **Shift+Undo** - Executes the last undone action.
-* **Play** - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift+Play** - Toggle repeat.
+* **Shift + Play** switches playback back to arranger on all tracks.
+* **Play + Pad** switches playback back to arranger on the track which contains the clip.
 * **Stop** - Stops playback. If stopped moves the play cursor to start of song.
 * **Shift+Stop** - Stops all playing clips.
 * **Record** - Start/Stop recording. Can be changed in the settings.
