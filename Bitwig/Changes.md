@@ -1,8 +1,12 @@
 # Changes - Bitwig Studio
 
-**11.5.3 (unreleased)**
+**11.6.0**
 
 * Requires Bitwig 3.2.5+
+* APC40mkI/mkII
+  * New: The selected clip in the session is now glowing white (mkII) or blinking yellow (mkI).
+* Fire
+  * New: The selected clip in the session is now blinking white (if not played back or recording).
 * Generic Flexi
   * Fixed: Resolution for relative knobs was limited to 128 steps.
 * Launchkey Mk3
@@ -14,6 +18,9 @@
   * New: **Pattern + Pad** stops the clip.
 * MCU
   * New: If *Select Channel on Fader Touch* is set to *Off*, touching the master fader is ignored as well.
+* Push
+  * New: Adding a track has now a menu which allows to add favorite devices. These favorites can be configured in the settings (currently only Bitwig devices).
+  * New: The selected clip in the session is now glowing white (if not played back or recording).
 
 **11.5.2**
 

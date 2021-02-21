@@ -1,8 +1,15 @@
 # Changes - Cockos Reaper
 
-**11.5.3 (unreleased)**
+**11.6.0**
 
 * Requires Reaper 6.12+
+* New: Supports now Macos on ARM!
+* All devices
+  * Fixed: Removed dependency on SWS for doublicating clip content and deactivating track.
+* APC40mkI/mkII
+  * New: The selected clip in the session is now glowing white (mkII) or blinking yellow (mkI).
+* Fire
+  * New: The selected clip in the session is now blinking white (if not played back or recording).
 * Generic Flexi
   * Fixed: Resolution for relative knobs was limited to 128 steps.
 * Launchkey Mk3
@@ -10,6 +17,9 @@
   * New: Fader buttons are turned off if track does not exist.
 * MCU
   * New: If *Select Channel on Fader Touch* is set to *Off*, touching the master fader is ignored as well.
+* Push
+  * New: Adding a track has now a menu which allows to add favorite devices. These favorites can be configured in the settings.
+  * New: The selected clip in the session is now glowing white (if not played back or recording).
 
 **11.5.2**
 
