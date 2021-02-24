@@ -1,5 +1,19 @@
 # Changes - Bitwig Studio
 
+**11.6.1 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* APCmini
+  * Fixed: Selecting a mode did still send the pad up event to the new mode and e.g. started a clip in session mode.
+  * Fixed: Selected mode was not always displayed correctly.
+  * Fixed: Play/Stop did not work.
+* APC40mkI
+  * Fixed: All clips did blink not only the selected one.
+* Launchpad
+  * Fixed: Drum 64 mode: Selected pads in the right bottom corner were lit in the left upper corner.
+* Push
+  * Fixed: Drum 64 mode: Selected pads in the right bottom corner were lit in the left upper corner.
+
 **11.6.0**
 
 * Requires Bitwig 3.2.5+
