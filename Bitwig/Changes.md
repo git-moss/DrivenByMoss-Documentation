@@ -1,18 +1,21 @@
 # Changes - Bitwig Studio
 
-**11.6.1 (unreleased)**
+**11.6.1**
 
 * Requires Bitwig 3.2.5+
+* APC40/mkII
+  * New: Select Session mode again when already in Session mode to dis-/activate birds-eye view, which allows to quickly navigate the session grid.
+  * Fixed: MkI: All clips did blink not only the selected one.
+  * Fixed: Cursor up/down was mixed up in the simulator.
 * APCmini
   * Fixed: Selecting a mode did still send the pad up event to the new mode and e.g. started a clip in session mode.
   * Fixed: Selected mode was not always displayed correctly.
   * Fixed: Play/Stop did not work.
-* APC40mkI
-  * Fixed: All clips did blink not only the selected one.
 * Launchpad
   * Fixed: Drum 64 mode: Selected pads in the right bottom corner were lit in the left upper corner.
 * Push
   * Fixed: Drum 64 mode: Selected pads in the right bottom corner were lit in the left upper corner.
+  * Fixed: Clip parameters could not be slowly changed with Shift.
 
 **11.6.0**
 

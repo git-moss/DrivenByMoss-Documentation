@@ -107,7 +107,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 But there is MUCH more! If you keep the Shift button pressed and press one of the five Scene Launch buttons you will change the main modes of the script:
 
-* 1st button: Session mode (the basic functionality)
+* 1st button: Session mode - if already enabled toggles the birds-eye view
 * 2nd button: Play mode, allows you to play notes in different scales
 * 3rd button: Drum sequencer (as known from the Push) - Requires a selected midi clip
 * 4th button: Note sequencer (as known from the Push) - Requires a selected midi clip
@@ -119,6 +119,11 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 * Long press a pad to select the clip without starting it.
 * Press the **Stop Clip** button of the track and a pad to delete the clip.
 * Press the **Select** button of the track and a pad to duplicate the clip.
+
+## Session Mode - Birds-eye-view
+
+If Session Mode is already enabled select it again to toggle the birds-eye view.
+In this mode one pad represents a 8x5 area in the clip grid. Press a pad to quickly move to that area.
 
 ## Play Mode
 
