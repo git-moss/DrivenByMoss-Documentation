@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**11.6.2 (unreleased)**
+
+* Requires Reaper 6.12+
+* Generic Flexi:
+  * Fixed: Feedback was not send for notes (only CC and pitchbend).
+
 **11.6.1**
 
 * Requires Reaper 6.12+

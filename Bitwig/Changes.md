@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**11.6.2 (unreleased)**
+
+* Requires Bitwig 3.2.5+
+* Generic Flexi:
+  * Fixed: Feedback was not send for notes (only CC and pitchbend).
+
 **11.6.1**
 
 * Requires Bitwig 3.2.5+

@@ -1,13 +1,10 @@
 # Known Issues
 
-* You might get the following error on Windows: **Could not open MIDI output. There is not enough Memory for this Task**. This error means that Windows cannot open the device since another process already opened it. Check if you have accidently assigned it to another script or any MIDI tool you have runs in the background. If it is a Native Instruments device also check if the NI background services work correctly.
+* You might get the following error on Windows: **Could not open MIDI output. There is not enough Memory for this Task**. This error means that Windows cannot open the device since another process already opened it. Check if you have accidently assigned it to another script or any MIDI tool which is runing in the background. If it is a Native Instruments device also check if the NI background services work correctly.
 
 ## Bitwig Studio
 
-* The display update of the Akai Fire is very slow on Macos and makes it nearly unusable
-* Novation SL MkIII
-    * The display update lags on Macos (might be the same issue as with Akai Fire but device is still usable).
-    * If the keyboard is transposed the pressed notes are off for the light guide.
+* Novation SL MkIII: If the keyboard is transposed the pressed notes are off for the light guide.
 * User Parameters cannot be reset
 
 ## Cockos Reaper
