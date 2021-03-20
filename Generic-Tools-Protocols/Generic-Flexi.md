@@ -1,18 +1,8 @@
 # Generic Flexi
 
-Supports any MIDI controller with 1 midi in-/output.
+Supports any MIDI controller with 1 midi in-/output. You can assign several commands in Bitwig to the knobs, button, faders, etc. of your controller, which will then be readily available each time you start your DAW.
 
-Open the settings to configure your device. First, select the input and output of your MIDI controller.
-You have 200 slots to map buttons, knobs, faders, etc. to a function in your DAW.
-
-Select the slot in which you want to put a mapping.
-
-To assign a slot press a button or move a knob/fader on your controller. You should see the transmitted
-MIDI CC, note, Program Change, Pitchbend or MMC (other MIDI data types are not supported) that was sent by your controller.
-
-Click the Set button to assign this MIDI values to the selected slot. After that select the function you 
-want to assign.
-If you want to clear a slot, set the MIDI trigger type to "Off".
+The Generic Flexi needs to be added manually. Open the controller settings and click on *Add controller*, select *Generic*, and then *Flexi* from the list. After that, select the input and output of your MIDI controller.
 
 ## Installation
 
@@ -29,10 +19,28 @@ Linux: If the file dialogs to save/load do not work make sure you have *zenity* 
 ## Storing and loading a configuration
 
 * In the **Load/Save section** click on the Save button, enter a file name and confirm the dialog to store the settings.
-* Click on *Load* to load a configuration (make sure you *Save* your current configuration first).
+* Click on *Load* to load a configuration (make sure to *Save* your current configuration first).
 * The last selected file (shown in the filename text field) will automatically be loaded when the DAW starts the next time.
 
-## The parameters are as follows:
+## Configuration
+
+You have 200 slots to map buttons, knobs, faders, etc. to a function in your DAW. It is a good idea to save the settings to a file before you start to do any mapping, then regularily click on *Save* again.
+
+To map your controller do the following:
+
+1. Select the slot in which you want to put a mapping.
+
+2. Next press a button, move a knob/fader or press a pad/key on your controller. You should see the transmitted MIDI command (CC, note, Program Change, Pitchbend or MMC (other MIDI data types are not supported)) that was sent by your controller. Alternatively, you can select the values manually.
+
+3. Click the Set button to assign the received MIDI values to the selected slot. 
+
+4. Finally, select the function you want to assign from the various drop down lists. The special *mode commands* are explained below. 
+
+5. Select the next slot and continue with step 2. If you want to clear a slot, set the MIDI trigger type to "Off".
+
+## Parameters for each slot
+
+Each slot has the following parameters:
 
 * Type: MIDI status type, which triggers the function: CC, a note, program change command or pitchbend
 * Number: The CC, note or Program change number, which should trigger the function (ignored for pitchbend)

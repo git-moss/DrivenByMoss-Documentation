@@ -3,8 +3,12 @@
 **11.6.2 (unreleased)**
 
 * Requires Bitwig 3.2.5+
-* Generic Flexi:
+* Documentation
+  * Clarified installation of the extensions which need to be added manually (Flexi, Auto Color, ...)
+* Generic Flexi
   * Fixed: Feedback was not send for notes (only CC and pitchbend).
+* Komplete Kontrol Mk2
+  * Fixed: Shorten device and page names in parameter mode to prevent too long text.
 
 **11.6.1**
 
