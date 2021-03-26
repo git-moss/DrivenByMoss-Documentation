@@ -316,6 +316,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/crossfadeMode/{A,B,AB} |        | Set the crossfade mode: A = Channel A, B = Channel B, AB = both.   |
 | /track/{1-8}/select          | {1,-}         | Select the track.                                                  |
 | /track/{1-8}/remove          |               | Remove/delete the track.                                           |
+| /track/{1-8}/duplicate       |               | Duplicate the track.                                               |
 | /track/{1-8}/volume          | {0-MAX_VALUE} | Set the volume of the track.                                       |
 | /track/{1-8}/volume/indicate | {0,1,-}       | Turn off/on, toggle the volume indication.                         |
 | /track/{1-8}/volume/reset    |               | Reset the volume value to its' default.                            |
@@ -346,10 +347,13 @@ The parameters of the command documentation below are as follows:
 | /scene/bank/{+,-}                     | {1,-}       | Step by 8.                                     |
 | /scene/create                         | {1,-}       | Create a new scene from all playing clips.     |
 | /scene/{1-8}/launch                   |             | Launches the scene.                            |
+| /scene/{1-8}/remove                   |             | Removes the scene.                             |
+| /scene/{1-8}/duplicate                |             | Duplicates the scene.                          |
 | /track/{1-8}/clip/{1-8}/select        |             | Select the clip.                               | 
 | /track/{1-8}/clip/{1-8}/launch        |             | Launch the clip.                               |
 | /track/{1-8}/clip/{1-8}/record        |             | Record a clip in the slot.                     |
 | /track/{1-8}/clip/{1-8}/remove        |             | Remove/delete the clip.                        |
+| /track/{1-8}/clip/{1-8}/duplicate     |             | Duplicate the clip.                            |
 | /track/{1-8}/clip/{1-8}/color         | {color}     | Set the color of the clip.                     |
 | /track/{1-8}/clip/stop                |             | Stop the playing clip on the track.            |
 | /track/{1-8}/clip/returntoarrangement |             | Switch playback back to the arrangement.       |
@@ -369,6 +373,7 @@ The following commands apply to all devices. The cursor device (/device), the pr
 | :----------------                     |:-----------   |:---------------                                |
 | /device/page/selected                 | {1-8}         | Select the device page.                        |
 | /device/remove                        |               | Remove/delete the device.                      |
+| /device/duplicate                     |               | Duplicate the device.                          |
 | /device/bypass                        |               | Toggle bypass.                                 |
 | /device/expand                        | {0,1}         | Toggle the devices' expanded display.          |
 | /device/parameters                    | {0,1}         | Toggle the devices' parameters section.        |
