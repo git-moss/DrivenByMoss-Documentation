@@ -1,14 +1,35 @@
 # Changes - Bitwig Studio
 
-**11.6.2 (unreleased)**
+**11.7.0 (unreleased)**
 
-* Requires Bitwig 3.2.5+
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Documentation
   * Clarified installation of the extensions which need to be added manually (Flexi, Auto Color, ...)
+* Fire
+  * New: Added VU meters to the channel and mixer mode.
+  * New: In Mixer mode press Alt+Bank button to switch to a new display mode, which shows the volume, pan and sends of 16 tracks depending on the touched knob. Especially, helpful in the performance mix view. If playback is active and no knob is touched it shows the VU meter activity of all 16 tracks.
+  * New: In Channel mode you can press Alt+Bank button to switch to a new display mode, which shows the volume, pan and sends of the 4 drum machine channels depending on the touched knob. If playback is active and no knob is touched it shows the VU meter activity of the 4 channels.
 * Generic Flexi
+  * IMPORTANT: Remove all instances of Generic Flexi in the Bitwig settings and add them again. Otherwise you will have mixed up edit controls.
+  * New: Added support for 14-bit CC values.
+  * Fixed: 0x80 as Note off was missing
   * Fixed: Feedback was not send for notes (only CC and pitchbend).
 * Komplete Kontrol Mk2
   * Fixed: Shorten device and page names in parameter mode to prevent too long text.
+* Launchpad
+  * New: The loop area in the drum sequencer was shortened by 4 pads. These 4 pads can now be used in combination with the play area. From left to right they provide the following functions: select a drum pad without playing the sound, mute the drum pad, solo the drum pad, open the browser for the drum pad.
+* OSC
+  * New: Added /track/{1-8}/duplicate to duplicate a track.
+  * New: Added /track/{1-8}/clip/{1-8}/duplicate to duplicate the clip.
+  * New: Added /device/duplicate to duplicate the device.
+  * New: Added /scene/{1-8}/duplicate to duplicate the scene.
+  * New: Added /scene/{1-8}/remove to remove/delete the scene.
+  * New: Added /track/{1-8}/clip/{1-8}/create {beats} creates a new clip, activates overdub and starts it.
+  * New: Added /clip/create {beats} creates a new clip, activates overdub and starts it.
+  * New: /track/{1-8}/clip/{1-8}/record and /clip/record start now playback as well.
+* Push
+  * New: Added several VST plugins to the favorite menus. This requires Bitwig 3.3.4+ (crashes in older versions) and that you have the plugin installed.
+  * New: Push 2: VUs of muted tracks are drawn in the mute-color.
 
 **11.6.1**
 

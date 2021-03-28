@@ -252,6 +252,7 @@ Press _"Note"_ and select the first blue pad to change to the **Drum Sequencer**
 * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
+* The loop area in the drum sequencer is shortened by 4 pads. These 4 pads can be used in combination with the play area. From left to right they provide the following functions: select a drum pad without playing the sound, mute the drum pad, solo the drum pad, open the browser for the drum pad. With Reaper only selection is functional.
 
 ![Drum Sequencer Mode - Drum](Diagrams/Launchpad/drum-sequencer-drum.png)
 

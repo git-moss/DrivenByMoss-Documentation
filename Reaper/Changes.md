@@ -1,14 +1,30 @@
 # Changes - Cockos Reaper
 
-**11.6.2 (unreleased)**
+**11.7.0 (unreleased)**
 
 * Requires Reaper 6.12+
 * Documentation
   * Clarified installation of the extensions which need to be added manually (Flexi, Auto Color, ...)
-* Generic Flexi:
+* Fire
+  * New: Added VU meters to the channel and mixer mode.
+  * New: In Mixer mode press Alt+Bank button to switch to a new display mode, which shows the volume, pan and sends of 16 tracks depending on the touched knob. Especially, helpful in the performance mix view. If playback is active and no knob is touched it shows the VU meter activity of all 16 tracks.
+* Generic Flexi
+  * New: Added support for 14-bit CC values.
+  * Fixed: 0x80 as Note off was missing
   * Fixed: Feedback was not send for notes (only CC and pitchbend).
 * Komplete Kontrol Mk2
   * Fixed: Shorten device and page names in parameter mode to prevent too long text.
+* Launchpad
+  * New: The loop area in the drum sequencer was shortened by 4 pads. These 4 pads can now be used in combination with the play area. From left to right they provide the following functions: select a drum pad without playing the sound, mute the drum pad, solo the drum pad, open the browser for the drum pad. With Reaper only selection is functional.
+* OSC
+  * New: Added /track/{1-8}/duplicate to duplicate a track.
+  * New: Added /track/{1-8}/clip/{1-8}/duplicate to duplicate the clip.
+  * New: Added /device/duplicate to duplicate the device.
+  * New: Added /scene/{1-8}/remove to remove/delete the scene.
+  * New: Added /track/{1-8}/clip/{1-8}/create {beats} creates a new clip, activates overdub and starts it.
+  * New: Added /clip/create {beats} creates a new clip, activates overdub and starts it.
+* Push
+  * New: Push 2: VUs of muted tracks are drawn in the mute-color.
 
 **11.6.1**
 

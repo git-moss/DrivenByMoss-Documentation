@@ -45,6 +45,7 @@ Each slot has the following parameters:
 * Type: MIDI status type, which triggers the function: CC, a note, program change command or pitchbend
 * Number: The CC, note or Program change number, which should trigger the function (ignored for pitchbend)
 * Midi Channel: The midi channel (1-16), on which the MIDI message should be accepted/received
+* Resolution: High resolution of 14-bit is available for pitchbend (always) and CC messages below 32.
 * Knob Mode: This option only applies to continuous functions like changing the volume of a track. Depending on the possibilities of your controller knob you need to choose the matching mode.
 * Function: Choose a function from the different categories that should be executed, when the configured MIDI message is received.
 * Send value to device: This option only applies to continuous functions like changing the volume of a track. If it is enabled, the current value is sent to the controller with the configured CC.
@@ -131,6 +132,7 @@ This block configures the MIDI command, which needs to be received to trigger th
 * Type: The type of MIDI command to trigger the command
 * Number: The number of the MIDI command
 * Midi Channel: The MIDI channel on which to receive the command
+* Resolution: High resolution of 14-bit (16384 values instead of 128) is available for pitchbend (always) and CC messages below 32.
 * Knob Mode: The encoding of the value sent by a knob, e.g. relative or absolute knobs
 * Send value to device: Enable if value changes of the assigned function should be reflected back to the controller. Only works, if the controller uses the exact same command for sending and receiving.
 * Send value to device when received: Sends back the received value to the controller. This is necessary to update button states on some controllers but can confuse others.

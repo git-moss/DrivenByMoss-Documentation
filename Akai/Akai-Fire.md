@@ -20,8 +20,11 @@ Support script for Akai Fire controller.
 
 ## Knob Modes
 
+In all modes use the knobs in combination with the Shift key for fine adjustments.
+
 * **Bank button**: Select the next Knob mode
-* Use Knobs in combination with the Shift key for fine adjustments
+* **Shift + Bank button**: Select the previous Knob mode
+* **Alt + Bank button**: If MIXER is active it switches to a new display mode, which shows the volume, pan and sends of 16 tracks depending on the touched knob. Especially, helpful in the performance mix view. If CHANNEL is active it shows the volume, pan and sends of the 4 drum machine channels depending on the touched knob. If playback is active and no knob is touched it shows the VU meter activity of all 16 tracks.
 
 ### Channel Mode
 
@@ -38,7 +41,7 @@ Changes the parameters of the selected layer of the first instrument device on t
 
 * **Alt + Select Knob**: Select the previous/next track. In addition you can press the knob while turning to switch between track pages (a page contains 16 tracks).
 
-### Mixer Mode
+### Track Mode
 
 Change parameters of the currently selected track. Combine with **Shift** for fine adjustments.
 
@@ -52,6 +55,10 @@ Change parameters of the currently selected track. Combine with **Shift** for fi
 * **Alt + Resonance knob**: Change the tracks send 6
 
 * **Alt + Select Knob**: Select the previous/next track. In addition you can press the knob while turning to switch between track pages (a page contains 16 tracks).
+
+### Mixer Mode
+
+TODO
 
 ### User 1 Mode (Device Mode)
 
