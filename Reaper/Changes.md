@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**11.7.0 (unreleased)**
+**11.7.0**
 
 * Requires Reaper 6.12+
 * Documentation
@@ -16,6 +16,9 @@
   * Fixed: Shorten device and page names in parameter mode to prevent too long text.
 * Launchpad
   * New: The loop area in the drum sequencer was shortened by 4 pads. These 4 pads can now be used in combination with the play area. From left to right they provide the following functions: select a drum pad without playing the sound, mute the drum pad, solo the drum pad, open the browser for the drum pad. With Reaper only selection is functional.
+* MCU
+  * New: Hold arrow left/right and turn the jog wheel to zoom in/out
+  * New: Hold arrow up/down and turn the jog wheel to change the track height
 * OSC
   * New: Added /track/{1-8}/duplicate to duplicate a track.
   * New: Added /track/{1-8}/clip/{1-8}/duplicate to duplicate the clip.
