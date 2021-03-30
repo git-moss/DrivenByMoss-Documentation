@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**11.7.2**
+
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
+* Launchpad
+  * Fixed: Fixed several issues introduced to the Shift view in 11.7.1.
+
 **11.7.1**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)

@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**11.7.2**
+
+* Requires Reaper 6.12+
+* Launchpad
+  * Fixed: Fixed several issues introduced to the Shift view in 11.7.1.
+
 **11.7.1**
 
 * Requires Reaper 6.12+
