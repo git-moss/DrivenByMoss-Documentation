@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**11.7.1**
+
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
+* Launchpad
+  * Fixed: Play button in shift view did not work.
+  * Fixed: Using browse button combination in drum mode did randomly change the pad mappings.
+* Komplete Kontrol MkI
+  * Fixed: Linux: Added USB access rights to rules file and added installation instructions to the manual.
+
 **11.7.0**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
