@@ -1,5 +1,16 @@
 # Changes - Bitwig Studio
 
+**11.7.3 (unreleased)**
+
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
+* All devices
+  * New: Newly added tracks now get a color.
+* Komplete Kontrol MkI
+  * Fixed: Linux: Fixed USB access rights in rules file.
+* Push
+  * New: Added some more VST plugins to the favorite menus.
+  * New: Tracks added via the favorite menu now get the name of the plugin.
+
 **11.7.2**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
