@@ -1,12 +1,18 @@
 # Changes - Cockos Reaper
 
-**11.7.3 (unreleased)**
+**11.7.3**
 
 * Requires Reaper 6.12+
 * All devices
   * New: Newly added tracks now get a color.
+* APC40/mkII
+  * Fixed: Switching track bank in session mode did leave session mode.  
 * Komplete Kontrol MkI
   * Fixed: Linux: Fixed USB access rights in rules file.
+* Launchpad
+  * Fixed: Incorrect and missing on-screen notifications when cursor buttons were used.
+  * Fixed: LED state of scene scroll buttons was incorrect in scene mode.
+  * Fixed: If temporary modes were used in session mode, session mode was left on button release.
 * Push
   * New: Tracks added via the favorite menu now get the name of the plugin.
 
