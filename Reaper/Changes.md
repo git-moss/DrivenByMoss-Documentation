@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**11.7.4 (unreleased)**
+
+* Requires Reaper 6.12+
+* APC40, Kontrol MkI, Push
+  * Fixed: Changing selection displayed *None* message.
+* Launchpad
+  * Fixed: Aftertouch was not working.
+  * Fixed: First parameter fader column is now red again (had the same color as the 2nd column).
+* SLMkIII
+  * Fixed: Added correct lookup names on Linux.
+
 **11.7.3**
 
 * Requires Reaper 6.12+

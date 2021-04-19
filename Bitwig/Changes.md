@@ -1,5 +1,20 @@
 # Changes - Bitwig Studio
 
+**11.7.4 (unreleased)**
+
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
+* APC40, Kontrol MkI, Push
+  * Fixed: Changing selection displayed *None* message.
+* Launchpad
+  * Fixed: Aftertouch was not working.
+  * Fixed: First parameter fader column is now red again (had the same color as the 2nd column).
+* OSC
+  * New: Added /launcher/postRecordingAction to get/set the action to execute after recording a clip.
+  * New: Added /launcher/postRecordingTimeOffset to get/set the time offset of the post recording action.
+  * New: Added /launcher/defaultQuantization to get/set the default clip launcher quantization.
+* SLMkIII
+  * Fixed: Added correct lookup names on Linux.
+
 **11.7.3**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
