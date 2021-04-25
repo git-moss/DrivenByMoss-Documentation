@@ -8,7 +8,13 @@
 * Launchpad
   * Fixed: Aftertouch was not working.
   * Fixed: First parameter fader column is now red again (had the same color as the 2nd column).
-* SLMkIII
+* Mackie HUI
+  * New: Added support for up to 3 HUI devices.
+  * Fixed: Jog Wheel direction was inverted.
+  * Fixed: Master fader did not work.
+* Mackie MCU
+  * New: Track navigation can now be switched to hierarchical in the settings (requires restart). Press the select button again to enter a folder. Long press any of the select buttons to leave the folder.
+* SL MkIII
   * Fixed: Added correct lookup names on Linux.
 
 **11.7.3**
@@ -241,7 +247,7 @@
   * Fixed: First track was renamed to 'Track' when first loading a project after startup.
   * Fixed: Implemented a workaround for pitchbend messages on Linux.
   * Fixed: Crash when a clip without a take was on a track.  
-* Novation SLMkIII
+* Novation SL MkIII
   * New: Shift + Play toggles write automation.
 * OSC
   * New: Added new command /track/{1-8}/remove
@@ -296,7 +302,7 @@
   * New: /track/{1-8}/name {text} - Set a new name for the track
   * New: Open Stage Control template: name of track can be set
   * New: Open Stage Control template: added data receive indicator LED to transport bar
-* SL Mk III
+* SL MkIII
   * Fixed: Lightguide was only drawn black but not turned off on the hardware when disabled in the settings. The hardware light guide can now used again when the settings is disabled.
 
 **10.8.0**
@@ -318,7 +324,7 @@
 * SL Mk I + II
   * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks and master).
   * Fixed: Crash in sequencer/play mode.
-* SL Mk III
+* SL MkIII
   * New: Out of scale keys of the light guide can now also be lit in dark grey. Select *Chromatic* in the document settings.
   * Fixed: Switching modes did not work with single button presses.
 
@@ -481,7 +487,7 @@
 * Launchpad
   * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Modes could only be activated once (non-pro models)
-* Novation SLMkIII
+* Novation SL MkIII
   * New: Long press a pad in session mode to select the clip without starting it.
   * New: The lightguide displays the scale notes. The scale can be selected in the document settings.
   * New: The lightguide can be turned off in the settings.
@@ -1028,7 +1034,7 @@
   * Fixed: Crash on startup and shutdown if Display was active
 * Native Instruments Komplete S-MkII, A-series/M32
   * New: The extension is now split up into two. One for the S-series and one for the A-series/M32. You need to add your Kontrol device again.
-* Novation SLMkIII
+* Novation SL MkIII
   * New: Notification messages are also displayed on the SL display
   * New: Firmware version is displayed on startup
 * OSC
@@ -1044,7 +1050,7 @@
   * Fixed: Changing track selection did not correctly adjust the track bank page on the device (except Push)
 * Komplete Kontrol A-Series / M32
   * Fixed: Track name was not displayed
-* Novation Remote SL Mk III
+* Novation Remote SL MkIII
   * New: Added setting to disable the faders (to prevent accidently changing volume)
 * Push 1/2
   * New: Changed layout of Repeat configuration settings (long press Repeat button)
@@ -1106,7 +1112,7 @@
   * Fixed: Indicate non-existing parameters as "None" in parameter mode
 * MCU
   * Fixed: Jogwheel jumped back one step after movement ended
-* Novation Remote SL Mk III
+* Novation Remote SL MkIII
   * Fixed: Drawing of track and device modes were wrong when no track was selected (2nd try).
   * Fixed: Another crash in the browser.
 * OSC
@@ -1114,10 +1120,10 @@
 
 **7.02**
 
-* Novation Remote SL Mk II
+* Novation Remote SL MkII
   * Fixed: Drum pads did not work
   * Fixed: Crash displaying send and master track
-* Novation Remote SL Mk III
+* Novation Remote SL MkIII
   * New: The browser result name is now shown in two columns
   * Fixed: Drawing of track modes were wrong when no track was selected
   * Fixed: Track could not be added when no track was selected
@@ -1142,12 +1148,12 @@
   * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
 * Generic Flexi
   * Fixed: MMC commands with device IDs > 15 did not work.
-* Novation SL Mk III
+* Novation SL MkIII
   * New: Route all 16 MIDI channels to Reaper (not only channel 1)
 
 **7.0**
 
-* New: Added support for Novation SL Mk III
+* New: Added support for Novation SL MkIII
 * Fixed: scrolling of parameter pages by page bank did not work (e.g. Shift + cursor left/right on Push)
 * Ableton Push 2
   * New: Deactivated channels and layers are drawn in dark colors

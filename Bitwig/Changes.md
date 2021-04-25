@@ -3,16 +3,26 @@
 **11.7.4 (unreleased)**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
+* All devices
+  * Fixed: Implemented workaround to show page of added track.
 * APC40, Kontrol MkI, Push
   * Fixed: Changing selection displayed *None* message.
+* Fire
+  * Fixed: Track and channel touch automation was not working.
 * Launchpad
   * Fixed: Aftertouch was not working.
   * Fixed: First parameter fader column is now red again (had the same color as the 2nd column).
+* Mackie HUI
+  * New: Added support for up to 3 HUI devices.
+  * Fixed: Jog Wheel direction was inverted.
+  * Fixed: Master fader did not work.
+* Mackie MCU
+  * New: Track navigation can now be switched to hierarchical in the settings (requires restart). Press the select button again to enter a group. Long press any of the select buttons to leave the group.
 * OSC
   * New: Added /launcher/postRecordingAction to get/set the action to execute after recording a clip.
   * New: Added /launcher/postRecordingTimeOffset to get/set the time offset of the post recording action.
   * New: Added /launcher/defaultQuantization to get/set the default clip launcher quantization.
-* SLMkIII
+* SL MkIII
   * Fixed: Added correct lookup names on Linux.
 
 **11.7.3**
@@ -139,7 +149,7 @@
   * Fixed: Virtual fader in mix mode did not work when Takover Mode was set to Relative Scaling or Catch.
 * Maschine
   * Fixed: Could not scroll browser results.
-* Novation SLMkIII
+* Novation SL MkIII
   * Fixed: Press **Stop** + Pad In Session Mode to stop the clip did not work and was missing in the documentation.
 
 **11.5.1**
@@ -260,7 +270,7 @@
 * Requires Bitwig 3.2.5+
 * All devices
   * New: The cursor clip can now be pinned in the studio pane (below the cursor track). By using this you can edit different launcher clips on multiple controllers.
-* Novation SLMkIII
+* Novation SL MkIII
   * New: Press Stop + Clip in Session mode to stop the playback of the clip.
   * New: Shift + Play toggles write arranger automation.
   * New: Shift + Loop toggles write clip launcher automation.
@@ -315,7 +325,7 @@
   * New: /device/layer/{1-8}/name {text} - Set a new name for the layer
   * New: Open Stage Control template: name of track and layer can be set
   * New: Open Stage Control template: added data receive indicator LED to transport bar
-* SL Mk III
+* SL MkIII
   * Fixed: Lightguide was only drawn black but not turned off on the hardware when disabled in the settings. The hardware light guide can now used again when the settings is disabled.
 
 **10.8.0**
@@ -337,7 +347,7 @@
   * New: Converted knobs and faders to new hardware API.
   * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks, effect tracks and master).
   * Fixed: Crash in sequencer/play mode.
-* SL Mk III
+* SL MkIII
   * New: Out of scale keys of the light guide can now also be lit in dark grey. Select *Chromatic* in the document settings.
   * New: Converted faders and knobs to new hardware API.
   * Fixed: Switching modes did not work with single button presses.
@@ -394,7 +404,7 @@
   * New: Knobs in Mixer and Parameter mode use the new hardware API.
 * Launchpad Pro Mk3
   * Fixed: (Regression in 10.7) Mode selection did not always work
-* MCU / Novation SLMkI/II
+* MCU / Novation SL MkI/II
   * New: Removed "Display Crossfader on Track". Does not make much sense with these devices.
 * Push
   * New: Removed "Display Crossfader on Track". On Push 2 the crossfade mode setting is now always visble and can be changed with the third knob in track mode. On Push 1 it is never displayed in track mode. Use the crossfade mode instead to change the settings.
@@ -523,7 +533,7 @@
 * Launchpad
   * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Modes could only be activated once (non-pro models)
-* Novation SLMkIII
+* Novation SL MkIII
   * New: Long press a pad in session mode to select the clip without starting it.
   * New: The lightguide displays the scale notes. The scale can be selected in the document settings.
   * New: The lightguide can be turned off in the settings.
@@ -610,7 +620,7 @@
   * New: **Shift + Lock** - Toggle clip launcher overdub.
   * Fixed: *Sequential ^* and *Sequential >* scale layout were using 8 not 4 pads
   * Fixed: Auto and Lock buttons did not respect the setting "Flip arranger and clip record / automation"
-* Novation SLMkIII
+* Novation SL MkIII
   * Fixed: Renamed remote control parameters changed to the original name when switching from devices to parameters mode.
 
 **10.0.0**
@@ -726,7 +736,7 @@
 * MCU
   * New: **Option+Tempo/Ticks** toggles between displaying the time or beats. **Tempo/Ticks** toggles the display of ticks/milliseconds or the current tempo for the last 3 digits. Both are also available in the settings.
   * Fixed: Fixed some issues with fader touch
-* Novation SLMkIII
+* Novation SL MkIII
   * New: Added user mode. Long press the UP button and then 8th row button below the display. Page names are configurable in the settings.
 * OSC
   * Fixed: /time/str now really sends the time (did send measures before)
@@ -1089,7 +1099,7 @@
 * Requires Bitwig 2.4+.
 * Launchpad Pro
   * New: Added user mode. Press USER button to enter. Scene buttons switch between the 8 pages of 8 parameters.
-* Novation Remote SL Mk III
+* Novation Remote SL MkIII
   * New: Added setting to disable the faders (to prevent accidently changing volume)
 * Push
   * New: Session: The octave and page buttons navigate the pages of the session grid
@@ -1163,7 +1173,7 @@
   * Fixed: Indicate non-existing parameters as "None" in parameter mode
 * MCU
   * Fixed: Jogwheel jumped back one step after movement ended
-* Novation Remote SL Mk III
+* Novation Remote SL MkIII
   * Fixed: Drawing of track and device modes were wrong when no track was selected (2nd try)
 * OSC
   * Fixed: Open Stage Control template produced a crash if the master volume was changed.
@@ -1171,10 +1181,10 @@
 **7.02**
 
 * Requires Bitwig 2.4+.
-* Novation Remote SL Mk II
+* Novation Remote SL MkII
   * Fixed: Drum pads did not work
   * Fixed: Crash displaying send and master track
-* Novation Remote SL Mk III
+* Novation Remote SL MkIII
   * New: The browser result name is now shown in two columns
   * Fixed: Drawing of track modes were wrong when no track was selected
   * Fixed: Track could not be added when no track was selected
@@ -1193,13 +1203,13 @@
   * Fixed: Caught exception when pads are transposed. Now an error is printed to the console.
 * Generic Flexi
   * Fixed: MMC commands with device IDs > 15 did not work.
-* Novation SL Mk III
+* Novation SL MkIII
   * New: Route all 16 MIDI channels to Bitwig (not only channel 1)
 
 **7.0**
 
 * Requires Bitwig 2.4+.
-* New: Added support for Novation SL Mk III
+* New: Added support for Novation SL MkIII
 * Fixed: scrolling of parameter pages by page bank did not work (e.g. Shift + cursor left/right on Push)
 * Ableton Push 2
   * New: Deactivated channels and layers are drawn in dark colors
