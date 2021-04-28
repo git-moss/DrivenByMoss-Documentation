@@ -1,6 +1,8 @@
 # Mackie MCU
 
-Support script for the Mackie MCU protocol. While this extension supports the Mackie MCU protocol in general I could only test it with the following devices:
+Support script for the Mackie MCU protocol. It supports up to 4 MCU devices, which can be original Mackie extenders or any other device which supports the protocol.
+
+While this extension supports the Mackie MCU protocol in general I could only test it with the following devices:
 
 * Behringer X-Touch One
 * Mackie MCU Pro
@@ -131,7 +133,7 @@ F1 will now select the previous page, and F2 the next.
 * **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track
 * **Option + one of the Mute buttons**: Deactivate all mutes
 * **Option + one of the Solo buttons**: Deactivate all solos
-* **Track selection buttons** (MCU SELECT1-8) - Select the specific track.
+* **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
 * **Send (MCU MODE SENDS) + Track selection buttons** - Select the send channel 1-8.
 * **Shift + Track selection buttons** - Set the length of a new clip.
 * **Option + Track selection buttons** - Stop the playing clip on the specific track.
@@ -213,6 +215,7 @@ Touch the master fader to enter
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Hardware Setup
+
 * Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the acoording entry from the list.
 * Has a display: Enable if the MCU compatible controller has a display.
 * Has a second display: Enable if the controller has a second display, which supports the specific iCON protocol extension.
@@ -227,17 +230,22 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Master VU Meter: Enable if the controller support the protocol extensions for VU values of the master fader.
 
 ### Extender Setup
+
 Select the type of the MCU compatible controller. The number of slots depends on which extension is chosen. Select *Main* for the main device, this enables the master fader as well as all additional commands like transport control. Select *Extender* if the device is an extender which uses the same MCU protocol as the main device. Select *MCU Extender* if the extender uses the original Mackie MCU extender protocol.
 It is possible to select multiple main devices.
 Changing these settings requires a restart of the extension.
 
 ### Segment Display
+
 * Display time or beats: If a segment display is present, selects to display time or beats (measures) of the play position.
 * Display tempo or ticks: Select what to display with the last 3 digits
 
 ### Tracks
+
 * Include FX and master tracks in track bank: If enabled, all tracks are included in the track bank. Handy if the controller misses a master track or has no button to toggle between track banks.
 * Pin FX tracks to last device: If enabled the FX track bank is created with a page of 8 fx tracks and is always displayed on the last (right most) controller. The page size of the instrument/audio track bank is reduced accordingly.
+* Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown. Press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
+
 
 ### Assignable buttons
 
@@ -246,13 +254,16 @@ Changing these settings requires a restart of the extension.
 * If *Action* is selected as the function, the field below allows to select the action to execute
 
 ### Transport
+
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 * Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence
+
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
@@ -261,6 +272,7 @@ Changing these settings requires a restart of the extension.
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
 
 ### Browser
+
 * Options to hide filter columns which are not used to easier spot the relevant ones
 
 <div style="page-break-after: always; visibility: hidden"> 

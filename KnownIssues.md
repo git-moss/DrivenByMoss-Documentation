@@ -6,6 +6,7 @@
 
 * Novation SL MkIII: If the keyboard is transposed the pressed notes are off for the light guide.
 * User Parameters cannot be reset
+* If you are wondering where the document settings are: open the right hand pane (which contains the browser as well) and select the pane "Studio I/O" on the bottom. Then click the little arrow before the script name to reveal the document settings. These settings are stored with every project individually.
 
 ## Cockos Reaper
 

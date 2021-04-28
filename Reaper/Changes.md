@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**11.7.4 (unreleased)**
+**11.8.0**
 
 * Requires Reaper 6.12+
 * APC40, Kontrol MkI, Push
@@ -9,11 +9,14 @@
   * Fixed: Aftertouch was not working.
   * Fixed: First parameter fader column is now red again (had the same color as the 2nd column).
 * Mackie HUI
-  * New: Added support for up to 3 HUI devices.
+  * New: Added support for up to 3 HUI devices. E.g. several Yamaha DM mixers use this.
+  * New: Added setting to turn off sending the ping message.
   * Fixed: Jog Wheel direction was inverted.
   * Fixed: Master fader did not work.
 * Mackie MCU
   * New: Track navigation can now be switched to hierarchical in the settings (requires restart). Press the select button again to enter a folder. Long press any of the select buttons to leave the folder.
+* Maschine Mk3 / Mikro Mk3
+  * Fixed: Aftertouch did not work. For the Maschine Mk3 also reload the template, which contained wrong notes for aftertouch!
 * SL MkIII
   * Fixed: Added correct lookup names on Linux.
 

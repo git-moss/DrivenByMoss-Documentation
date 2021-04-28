@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**11.7.4 (unreleased)**
+**11.8.0**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * All devices
@@ -13,11 +13,14 @@
   * Fixed: Aftertouch was not working.
   * Fixed: First parameter fader column is now red again (had the same color as the 2nd column).
 * Mackie HUI
-  * New: Added support for up to 3 HUI devices.
+  * New: Added support for up to 3 HUI devices. E.g. several Yamaha DM mixers use this.
+  * New: Added setting to turn off sending the ping message.
   * Fixed: Jog Wheel direction was inverted.
   * Fixed: Master fader did not work.
 * Mackie MCU
   * New: Track navigation can now be switched to hierarchical in the settings (requires restart). Press the select button again to enter a group. Long press any of the select buttons to leave the group.
+* Maschine Mk3 / Mikro Mk3
+  * Fixed: Aftertouch did not work. For the Maschine Mk3 also reload the template, which contained wrong notes for aftertouch!
 * OSC
   * New: Added /launcher/postRecordingAction to get/set the action to execute after recording a clip.
   * New: Added /launcher/postRecordingTimeOffset to get/set the time offset of the post recording action.

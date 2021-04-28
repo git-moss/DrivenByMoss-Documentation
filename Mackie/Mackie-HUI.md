@@ -1,6 +1,8 @@
 # Mackie HUI
 
-Support script for the Mackie HUI protocol. While this extension supports the Mackie HUI protocol in general I could only test it with the following devices:
+Support script for the Mackie HUI protocol. It supports up to 3 devices. It can be any combination of devices which support the HUI protocol.
+
+While this extension supports the Mackie HUI protocol in general I could only test it with the following devices:
 
 * icon QConPro X (in Pro Tools mode)
 * Novation SLMkIII
@@ -107,20 +109,25 @@ Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. 
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Hardware Setup
+
 * Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the acoording entry from the list.
 * Has a display: Enable if the HUI compatible controller has a display.
 * Has a position/tempo: Enable if the HUI compatible controller has an additional position display.
 * Has motor faders: Enable if the HUI compatible controller has motor faders.
+* Send Ping: The HUI protocol requires to send a ping message every second otherwise the device will go off. If you do not use an original HUI this might be simply ignored by the device and get in the way when you want to use MIDI learn in a project (since the reply is a note message). Therefore, this option allows you to turn it off.
 * VU meters: Enable if the HUI compatible controller supports the display of VU values.
 
 ### Assignable buttons
+
 * Footswitch 1/2: Select a function to execute when the first/second footswitch is pressed
 * F1-F8: Select a function to execute when the respective function key is pressed
 
 ### Transport
+
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
