@@ -144,6 +144,11 @@ To edit a note, press the pad with the note (and keep it pressed) and then turn 
 * **Resonance knob**: Changes the velocity of the note
 * **Select knob**: Changes the pitch of the note
 
+In User 1 Mode the following knobs edit a different parameter:
+
+* **Volume knob**: Changes the pressure of the note
+* **Filter knob**: Changes the timbre of the note
+
 ### Poly Sequencer Mode
 
 Press the **Step** button twice to activate. The STEP LED is lit red.
