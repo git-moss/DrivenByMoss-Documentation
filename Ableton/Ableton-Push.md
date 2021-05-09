@@ -23,8 +23,8 @@ After you have copied the file reboot your computer.
 * **New** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Shift+New** - Like New button but without activating launcher overdub.
 * **Automation** - Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.
-* **Shift + Automation** - Toggles the clip launcher automation write enabled state of the transport.
-* **Delete + Automation** - Resets any automation overrides.
+* **Shift+Automation** - Toggles the clip launcher automation write enabled state of the transport.
+* **Delete+Automation** - Resets any automation overrides.
 * **Fixed Length** - Select the length of the midi clip for _New_. The upper row gives you the option to create a new clip of the selected length without storing it.
 * **Duplicate** - Combine with a scene pad (duplicate scene) or a track select button (duplicate track). To copy clips in session mode keep the Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip as the source); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
 * **Shift+Duplicate** - Create a new scene from the currently playing clips
@@ -38,17 +38,17 @@ After you have copied the file reboot your computer.
 * **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment).
 * **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment).
 * **Metronome** - Toggle metronome. Long press to bring up the metronome settings mode.
-* **Shift + Metronome** - Toggle metronome ticks
+* **Shift+Metronome** - Toggle metronome ticks
 * **Tap Tempo** - Tap Tempo
 * **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
 * **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
-* **Select + Mute**: Deactivate all mutes
-* **Select + Solo**: Deactivate all solos
-* **Knobs 1-8** Value encoders, [Shift + Knob] fine increment value change.
+* **Select+Mute**: Deactivate all mutes
+* **Select+Solo**: Deactivate all solos
+* **Knobs 1-8** Value encoders, [Shift+Knob] fine increment value change.
 * **Knob 9** - Changes Master Volume
-* **Select + Knob 9** - Changes the Metronome Volume
+* **Select+Knob 9** - Changes the Metronome Volume
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
-* **Stop/Stop Clip** - Press _Shift + Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
+* **Stop/Stop Clip** - Press _Shift+Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
 * **Footswitch 1** - Sends sustain
 * **Footswitch 2** - Triggers the new button.
 * **Arrows** The cursor keys now consistently always change the track (device, layers) and scene bank, except in the browser they change the browser tabs.
@@ -62,8 +62,8 @@ After you have copied the file reboot your computer.
 * **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
 * **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Repeat**: Toggles note repeat. Long press to enter Note Repeat Mode to configure the note repeat settings.
-* **Repeat + Scene**: Changes note repeat period.
-* **Shift + Note Repeat + Scene**: Changes note repeat note length
+* **Repeat+Scene**: Changes note repeat period.
+* **Shift+Note Repeat+Scene**: Changes note repeat note length
 * **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
 * **Scale**: De-/Activates the Scale mode
 * **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
@@ -188,7 +188,7 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 Press _"Session"_ to enter **Session** mode. Keep button pressed to switch back to Note mode on release.
 This allows you to launch clips then release the Session button to jump straight back into Note mode.
 
-**Delete + Scene button** (in Play, Piano, Drum 64, Session view) deletes the scene.
+**Delete+Scene button** (in Play, Piano, Drum 64, Session view) deletes the scene.
 
 Hold *Browse* and select a pad to browse for clips.
 
@@ -203,7 +203,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 * Press the _Fixed Length_ button to choose the length for new clips.
 * Press _Clip_ to display the current clip in the editor.
 * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
-* Press _Delete_ + Pad In Session Mode to the delete the clip.
+* Press _Delete_+Pad In Session Mode to the delete the clip.
 
 Press the Session button twice to flip the grid which then matches the arrangement view.
 
@@ -212,7 +212,7 @@ When in Session view and press Session again a menu turns up (like in note view)
 ## Scene view
 
 This view displays the first 64 scenes ready for jamming. The color of a scene uses the color of the first clip found in the scene (only checks in the first 8 tracks). 
-**Delete + pad** deletes a scene.
+**Delete+pad** deletes a scene.
 
 ## Sequencers
 
@@ -231,7 +231,8 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 
 Press _"Note"_ and select *Squencr* to enter **Sequencer** mode.
 
-* The pads display an 8x8 view of the selected clips note grid.
+* The pads of the top row represent the pages of the clip. Green indicates the page currently played. Blue is the page selected for editing. Press one of the pads to select it for editing. Keep one of the pads pressed and press another one to change the loop.
+* The other pads display an 8x7 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
 * Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
@@ -249,11 +250,11 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 
 * The drum sequencer works as described in the Push manual.
 * Note starts and lengths are lit in different colors.
-* Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
+* Hold *Delete*+Drumpad to delete the midi notes of the current clip on that 'pad'.
 * Hold *Mute/Solo* button + Drumpad to mute/solo the drumpad.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * Hold down the *Select* button while pressing a drumpad to select it without playing its sound. This also selects the according drum pad layer in the display.
-* Press *Browser + Drum Pad* in Drum View and Drum 64 to open the browser.
+* Press *Browser+Drum Pad* in Drum View and Drum 64 to open the browser.
 * The Drumpads use the colors set in the drum machine for each pad.
 * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 * Use Octave Up/Down to move the pads by 16.

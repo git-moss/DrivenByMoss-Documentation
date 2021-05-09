@@ -11,6 +11,7 @@ The *Midi Monitor* extension needs to be added manually. Open the controller set
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Filter
+
 * System Realtime: Filters System Realtime commands from the logging if enabled.
 
 <div style="page-break-after: always; visibility: hidden"> 

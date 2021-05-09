@@ -168,7 +168,7 @@ On the **Pro Mk3** use the **Note**, **Chord** and **Sequencer** buttons to togg
 
 Press _"Note"_  and select the first red pad to change to **Scale** mode.
 
-* The key layout is the same one used with Ableton Push
+* The key layout is the same one used with Ableton Push.
 * Left/Right buttons change the scale (Major, Minor, etc.)
 * Up/Down buttons transpose the note range (pitch) up/down.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
@@ -218,7 +218,8 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 
 Press _"Note"_  and select the first orange pad to enter the **Sequencer** mode:
 
-* The pads display an 8x8 view of the selected clips note grid.
+* The pads of the top row represent the pages of the clip. Green indicates the page currently played. Blue is the page selected for editing. Press one of the pads to select it for editing. Keep one of the pads pressed and press another one to change the loop.
+* The other pads display an 8x7 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
 
 ![Sequencer Mode - Sequencer](Diagrams/Launchpad/note-sequencer-sequencer.png)

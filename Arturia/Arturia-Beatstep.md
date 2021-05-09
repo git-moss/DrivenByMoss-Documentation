@@ -114,9 +114,11 @@ Discard    -EMPTY-      C-1        C0         C1         C2       -EMPTY-    Acc
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 
 ### Pads
+
 * Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
 
 ## Document Settings
@@ -124,6 +126,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 These settings are specific to each project.
 
 ### Scales
+
 * Scale: Select the scale
 * Base: Select the base note of the scale
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.

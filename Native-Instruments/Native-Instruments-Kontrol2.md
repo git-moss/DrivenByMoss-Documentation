@@ -1,7 +1,8 @@
 # Native Instruments Komplete Kontrol 2 S49, S61, S88, Komplete Kontrol A49, A61, M32
 
 Support for Native Instruments Komplete Kontrol controllers, which use the NI Host Integration protocol.
-Since Native Instruments Host Integration service is only available for Windows and Macos,  **Linux is not supported**.
+
+Since Native Instruments Host Integration service is only available for Windows and Macos, **Linux is not supported**.
 
 ## Installation
 
@@ -50,7 +51,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Record button: Select the function of the record button.
 * Shift + Record button: Select the function of the record button when used in combination with the Shift key.
 
-### Behaviour on Stop
+### Navigation
 
 * Flip track/clip navigation: Flips the direction (previous/next) if enabled
 * Flip clip/scene navigation: Flips the direction (previous/next) if enabled

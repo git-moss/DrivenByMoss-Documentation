@@ -95,10 +95,12 @@ Press **SHIFT+SCALE** button to enter the configuration mode for the current sca
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Transport
+
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 * Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
@@ -109,6 +111,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 These settings are specific to each project.
 
 ### Scales
+
 * Is active: Turn the light guide scale on/off
 * Scale: Select the scale
 * Base: Select the base note of the scale

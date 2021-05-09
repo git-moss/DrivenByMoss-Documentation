@@ -137,14 +137,17 @@ The buttons below the faders selects or arms record of a track depending on the 
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Transport
-* Record button: Setting the function for the record button.
-* Shift + Record button: Setting the function for the record button used in combination with Shift.
+
+* Record button: Set the function for the record button.
+* Shift + Record button: Set the function for the record button used in combination with Shift.
 
 ### Workflow
+
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
 
 ### Session
+
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 
 <div style="page-break-after: always; visibility: hidden"> 

@@ -1,5 +1,23 @@
 # Changes - Bitwig Studio
 
+**12.0.0**
+
+* Generic Flexi:
+  * Fixed: Feedback of track mode was wrong.
+* Maschine JAM
+  * New: Now supported by DrivenByMoss!
+* Maschine Mk3 / Maschine Mikro Mk3
+  * New: Renamed template to *DrivenByMoss*.
+  * New: Added option to configure record and shift+record in the settings.
+* Maschine Mk3
+  * New: The Shift button is working!
+  * New: Group buttons display now the button combination state (solo/mute/rec arm).
+  * New: Rec+Group button toggles rec arm.
+  * New: Shift+Solo clears the Solo state on all tracks.
+  * New: Shift+Mute clears the Mute state on all tracks.
+* Kontrol Mk1
+  * Fixed: Out of scale notes were lit.
+
 **11.8.0**
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)

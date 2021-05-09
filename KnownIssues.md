@@ -20,6 +20,7 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 * MIDI clock cannot be sent to the device since this would require to enable the MIDI output of the device in Reaper.
 * The metronome volume text description is not updated (always shows -6.0dB).
 * The Groove settings allow to dis-/enable the arrange swing grid and set the amount.
+* Automation Touch mode is only supported for volume and panorama (limitation of the Reaper CSI API).
 
 ### Workarounds
 
