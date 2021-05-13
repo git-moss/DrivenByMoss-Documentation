@@ -26,7 +26,7 @@ In all modes use the knobs in combination with the Shift key for fine adjustment
 * **Shift + Bank button**: Select the previous Knob mode
 * **Alt + Bank button**: If MIXER is active it switches to a new display mode, which shows the volume, pan and sends of 16 tracks depending on the touched knob. Especially, helpful in the performance mix view. If CHANNEL is active it shows the volume, pan and sends of the 4 drum machine channels depending on the touched knob. If playback is active and no knob is touched it shows the VU meter activity of all 16 tracks.
 
-### Channel Mode
+### Channel Mode (CHANNEL)
 
 Changes the parameters of the selected layer of the first instrument device on the channel. Has no effect if the device does not have layers. Especially useful, for drum devices.
 
@@ -41,7 +41,7 @@ Changes the parameters of the selected layer of the first instrument device on t
 
 * **Alt + Select Knob**: Select the previous/next track. In addition you can press the knob while turning to switch between track pages (a page contains 16 tracks).
 
-### Track Mode
+### Track Mode (MIXER)
 
 Change parameters of the currently selected track. Combine with **Shift** for fine adjustments.
 
@@ -56,11 +56,7 @@ Change parameters of the currently selected track. Combine with **Shift** for fi
 
 * **Alt + Select Knob**: Select the previous/next track. In addition you can press the knob while turning to switch between track pages (a page contains 16 tracks).
 
-### Mixer Mode
-
-TODO
-
-### User 1 Mode (Device Mode)
+### Device Mode (USER 1)
 
 Change parameters of the currently selected device. Combine with **Shift** for fine adjustments.
 
@@ -78,7 +74,7 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 * Press the **Select knob** to toggle the window of the current device.
 * Activate delete mode and press the **Select knob** to delete the currently selected device.
 
-### User 2 Mode (User Mode)
+### User Mode (USER 2)
 
 Change user parameters. Combine with **Shift** for fine adjustments.
 

@@ -55,10 +55,8 @@ After you have copied the file reboot your computer.
 * **Shift+Touchstrip** - Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track** - Turn off/on VU meters.
 * **Browse** - Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
-* **Add Track**: Adds a new instrument track
-* **Shift+Add Track**: Adds a new effect track
-* **Select+Add Track**: Adds a new audio track
-* **Add Device** (Push 2) / **Add Effect** (Push 1): Add a device after the currently selected one
+* **Add Track**: Opens the menu for inserting tracks. Tracks with pre-configured devices can be configured in the settings.
+* **Add Device** (Push 2) / **Add Effect** (Push 1): Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
 * **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
 * **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Repeat**: Toggles note repeat. Long press to enter Note Repeat Mode to configure the note repeat settings.

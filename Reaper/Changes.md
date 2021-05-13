@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**12.1.0**
+
+* Fire, Maschine, Push
+  * New: Editing note pitch changes now in 0.1 steps independent of the knob speed setting.
+* Maschine+
+  * New: Now supported by DrivenByMoss! I still don't have one, so fingers crossed that it works.
+* Maschine Mk2
+  * New: Now supported by DrivenByMoss!
+* Maschine Mikro Mk3
+  * Fixed: Stop button did not emulate Shift button.
+
 **12.0.0**
 
 * Generic Flexi:

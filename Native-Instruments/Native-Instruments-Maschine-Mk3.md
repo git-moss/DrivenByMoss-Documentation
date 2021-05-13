@@ -1,12 +1,12 @@
-# Native Instruments Maschine Mk3
+# Native Instruments Maschine Mk2 / Mk3 / Maschine+
 
-Support for Native Instruments Maschine Mk3.
+Support for Native Instruments Maschine Mk2, Mk3 and Maschine+.
 
 Since the extension requires the Native Instruments Host Integration service it **only works on Windows and Mac (no Linux)**.
 
 ## Installation
 
-Load the respective template from the folder _resources/Maschine Mk3_ into the device by using Native Instruments Controller Editor.
+Load the respective template from the matching folder _resources/Maschine Mk2_, _resources/Maschine Mk3_ or _resources/Maschine+_ into the device by using Native Instruments Controller Editor.
 
 **Important**: Selecting the template is a bit tricky since when you activate a template from the Maschine which overwrites the left/right buttons you are stuck with the template list on the display. Therefore, you need to select the template from the controller editor. If you are already stuck in the template list do the following to fix it:
 
@@ -17,14 +17,28 @@ Load the respective template from the folder _resources/Maschine Mk3_ into the d
 
 ## Important notes
 
-This extension uses the MIDI mode of the device. Press **Shift+CHANNEL** (on the left / top) buttons to enter MIDI mode.
+This extension uses the MIDI mode of the device. Press **Shift+CHANNEL** (on the left / top) buttons to enter MIDI mode. On the Mk2 it is **Shift+CONTROL**.
+
+## Differences Mk2 and Mk3
+
+The Mk2 misses some buttons of the Mk3, the differences are as follows:
+
+* The SHIFT button is not working in MIDI mode on the Mk2. The *STEP LEFT* button (above the REC button) is used for both a replacement of the STOP and SHIFT button.
+* The *STEP RIGHT* button (above the ERASE button) is the *TAP TEMPO/METRO* button.
+* 4D-Encoder left/right: Use the 2 arrows below the encoder.
+* 4D-Encoder up/down: Use the 2 arrows below the encoder with Shift (STEP LEFT).
+* *Lock* button is the *Enter* button.
+* *File/Save* is *All/Save*.
+* *Auto* is *Auto Wr*.
+* The 4 buttons above the pads are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the top/left next to the CONTROL button.
+* *Events* is the *Select/Events*
 
 ## Global
 
 * **Channel** - Insert a new instrument channel
 * **Stop+Channel** - Insert a new audio channel
 * **Plugin** - Toggle device window
-* **Arranger** - Toggle layouts (Arrange, Mix, Edit)
+* **Arranger/Ideas** - Toggle layouts (Arrange, Mix, Edit)
 * **Mixer** - Toggle the mixer
 * **Sampling** - Brings up the Slice to Drum Machine dialog.
 * **Shift+Sampling** - Bring up the Slice to Multi-sample dialog.
@@ -37,6 +51,8 @@ This extension uses the MIDI mode of the device. Press **Shift+CHANNEL** (on the
 * **Shift+Lock** - Toggle clip launcher overdub.
 * **Macro** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Note Repeat** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. Use the display knobs to edit the settings. Press Note Repeat again to leave the configuration mode.
+* **Select+Solo** - Clears Solo on all tracks.
+* **Select+Mute** - Clears Mute on all tracks.
 
 ## Transport
 
@@ -77,10 +93,12 @@ If the browser is active...
 
 ## Encoder modes
 
-* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value. Press the encoder to toggle between fast and slow value changes.
+Press the encoder to toggle between fast and slow value changes.
+
+* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value.
 * **Shift+Volume** - Toggles VU meter display.
-* **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger. Press the encoder to toggle between fast and slow movement.
-* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song. Press the encoder to toggle between fast and slow value changes.
+* **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger.
+* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song.
 * **Plug-In** - Toggle the window (if any) of the selected device (if any).
 
 The buttons above the display have the following functions:
