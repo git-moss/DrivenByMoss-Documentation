@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**12.2.1**
+
+* Maschine JAM
+  * New: Swing button is lit when Groove is enabled.
+  * Fixed: Velocity mode was shown on pressing perform, notes and tune but should not.
+  * Fixed: Changing values with encoder and perform, notes and tune did not work.
+  * Fixed: Cursor LEDs were not lit (requires installing the updated template!).
+
 **12.2.0**
 
 * All devices
