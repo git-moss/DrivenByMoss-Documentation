@@ -171,7 +171,7 @@ Press _"Note"_ and select *Piano* to enter **Piano** mode.
 
 * Arranges the pads like a classic piano keyboard.
 * The white lit pads are the white keys.
-* The gray lit pads are the black keys.
+* The pads lit in the color of the track are the black keys.
 * You get 4 octaves to play with.
 * Other functions are identical to the Play view.
 
@@ -313,7 +313,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Drum Sequencer
 
 * Auto-select drum settings: If *channel* is selected and a drum pad is played the display switches to the layer settings of the drum cell.
-* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled they pad LEDs are off.
+* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled the pad LEDs are off.
 
 ### Workflow
 

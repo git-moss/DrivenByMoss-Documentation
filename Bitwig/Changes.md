@@ -1,5 +1,31 @@
 # Changes - Bitwig Studio
 
+**12.2.0**
+
+* All devices
+  * Fixed: Switching between effect and track bank could leave the parameters unassigned in some cases.
+* Akai Fire
+  * New: Note editing mode is now de-/activated with Alt+Step or Alt+Drum (no more long pressing notes). After that select the note to edit by pressing it.
+  * New: In note editing mode Alt+1st knob changes the pressure, Alt+2nd knob the timbre and Alt+4th knob the release velocity.
+  * New: Metronome + Select knob: Change the play position.
+  * New: Metronome + Shift + Select knob: Change the play position in small steps.
+  * Fixed: Tracks could not be changed if the 16 tracks mode was active.
+* Maschine JAM
+  * New: Added new sequencers Drum 4, Drum 8, Poly and Raindrops (keep STEP pressed and use scene buttons).
+  * New: Added new play modes Chords, Piano and Drum 64 (keep PAD MODE pressed and use scene buttons).
+  * New: Lock enables the velocity setting. Keep lock pressed to show and change the velocity options.
+  * New: Cursor keys respect the session flip state.
+  * New: Cursor keys left/right change the layout in play view.
+  * New: Cursor keys left/right change the selected page in sequencers.
+  * New: Cursor keys up/down change the note range in sequencers and play modes.
+  * New: Added option to dis-/enable to display clips of record enabled tracks in red.
+  * New: Add option to turn off empty drum pads: if enabled the pad LEDs are off otherwise empty drum cells are displayed in gray.
+  * New: Shift + AUX: Toggles between instrument/audio and effect tracks.
+  * New: The selected sequencer or play mode is remembered when switching tracks.
+  * Fixed: Blinking of pads was missing, therefore e.g. play state on grid was not visible.
+* MCU
+  * New: Added option to assignable buttons to toggle the motor faders on/off.
+
 **12.1.0**
 
 * Fire, Maschine, Push

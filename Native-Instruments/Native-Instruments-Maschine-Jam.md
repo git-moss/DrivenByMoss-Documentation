@@ -55,7 +55,7 @@ These buttons activate different modes for the 8 smart strips:
 * **MACRO** - Controls the parameters of the selected track: Volume, Panorama, Sends 1-6. Volume and pan is displayed in the track color, the sends in white.
 * **LEVEL** - Toggles between Volume and Panorama editing of 8 tracks. If Volume is active and playback is started the VU of the tracks is displayed as well. All strips are lit in their tracks' color.
 * **AUX** - Edit a specific send for all tracks. Press multiple times to step through up to 8 sends. Press AUX in combination with one of the group buttons A-H to quickly select a send. The sends are lit in white.
-* **SHIFT+AUX** - Select the previous send.
+* **SHIFT+AUX** - Toggles between instrument/audio and effect tracks.
 * **CONTROL** - Toggles between editing remote control parameters (colored) and user parameters (all white).
 * **SHIFT+CONTROL** - Toggles the windows of the selected device, if it has one.
 
@@ -131,13 +131,14 @@ The grid pads provide further features:
 * **SELECT+Scene** - Select the scene without starting it.
 * **SHIFT+Scene** - Creates a new scene from the playing clips.
 * **CLEAR+Scene** - Delete the scene.
+* **LOCK** - Dis-/enables the velocity setting. Keep lock pressed to show and change the velocity options.
 
-### Session Mode
+## Session Mode
 
 Press _"Song"_ to enter **Session** mode. Press again to toggle the clip orientation (vertical or horizontal).
 _Long press_ to enter birds-eye-view. This allows to quickly navigate the clips in blocks of 8.
 
-* The arrow keys scroll the grid by blocks of 8 tracks/scenes. Hold **Shift** to only scroll 1 track/scene.
+* The arrow keys scroll the grid by blocks of 8 tracks/scenes. Hold **Shift** to only scroll 1 track/scene. The keys respect the session flip state.
 * The buttons on the grid start/record the clips. The settings provide some options to change the default behaviour.
 * **SELECT+PAD** - Selects the clip without starting it. Alternatively, *long press* the pad.
 * **CLEAR+PAD** - Delete the clip.
@@ -146,9 +147,14 @@ _Long press_ to enter birds-eye-view. This allows to quickly navigate the clips 
 * **GRID+PAD** - Returns to the playback of the arrangement for that track.
 * **BROWSE+PAD** - Browse for clips.
 
-### Play Mode
+## Play Modes
 
-Press **PAD MODE** to activate.
+### Note Mode
+
+Keep **PAD MODE** pressed and press **Scene 1** to activate.
+
+* Arrow keys up/down change the note range (transposition).
+* Arrow keys left/right change the layout in play view.
 
 Keep one of the following buttons pressed and turn the encoder to change a scale option:
 
@@ -157,9 +163,48 @@ Keep one of the following buttons pressed and turn the encoder to change a scale
 * **LOCK** - Toggle chromatic mode.
 * **TUNE** - Changes the octave offset.
 
-### Sequencer Mode
+### Chords Mode
 
-Press **STEP** to activate.
+Keep **PAD MODE** pressed and press **Scene 2** to activate.
+
+This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The same octave, scale and base note settings apply as with the play mode.
+The rows from bottom to top contain the following chords: 
+
+* Triads, 
+* Dyads (Powerchords), 
+* Suspended second (Sus2), 
+* Suspended fourth (Sus4), 
+* Add sixth (6), 
+* Major seventh chord (maj7), 
+* Add ninth (9), 
+* Add eleventh (11). 
+
+Other functions are identical to the Play view.
+
+### Piano Mode
+
+Keep **PAD MODE** pressed and press **Scene 3** to activate.
+
+* Arranges the pads like a classic piano keyboard.
+* The white lit pads are the white keys.
+* The pads lit in the color of the track are the black keys.
+* You get 4 octaves to play with.
+* Other functions are identical to the Play view.
+
+### Drum 64 play mode
+
+Keep **PAD MODE** pressed and press **Scene 4** to activate.
+
+This mode gives you 64 pads for playing a drum device. The 16 pads in the left lower area are the same as in the drum sequencer mode.
+
+## Sequencers
+
+* Arrow keys up/down change the note range (transposition).
+* Arrow keys left/right change the selected page in sequencers.
+
+### Note Sequencer
+
+Keep **STEP** pressed and press **Scene 1** to activate.
 
 * The pads of the top row represent the pages of the clip. Green indicates the page currently played. Blue is the page selected for editing. Press one of the pads to select it for editing. Keep one of the pads pressed and press another one to change the loop.
 * The other pads display an 8x7 view of the selected clips note grid.
@@ -167,14 +212,32 @@ Press **STEP** to activate.
 
 The **PERFORM**, **NOTES**, **LOCK** and **TUNE** buttons have the same functions as in the *Play Mode*.
 
+### Poly Sequencer
+
+Keep **STEP** pressed and press **Scene 2** to activate.
+
+* The lower half displays the playable notes like in the Note Mode.
+* Play one or more notes in that area.
+* Create a step (or more) in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
+
+### Raindrop sequencer
+
+Keep **STEP** pressed and press **Scene 3** to activate.
+
+* The lowest row displays the playable notes.
+* The row above a note starts a raindrop.
+* If the raindrop reaches the note it sounds.
+* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
+
 ### Drum Mode
 
-Press *STEP* twice to activate.
+Keep **STEP** pressed and press **Scene 4** to activate.
 
 * The drum sequencer works as described in the Ableton Push manual.
 * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
+* **LOCK** - Dis-/enables the velocity setting. Replaces the loop area if enabled.
 
 Keep one of the following buttons pressed and turn the encoder to change additional options:
 
@@ -182,6 +245,12 @@ Keep one of the following buttons pressed and turn the encoder to change additio
 * **NOTES** - None.
 * **LOCK** - None.
 * **TUNE** - Changes the play offset.
+
+### Drum 4 and Drum 8 sequencer
+
+Keep **STEP** pressed and press **Scene 5/6** to activate.
+
+These drum sequencers show 4 or 8 drum sounds for sequencing. Use the Page buttons to move in the clip.
 
 ### Shift Mode
 
@@ -214,6 +283,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 * Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session mode.
+* Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
 * Flip Session: Toggle the session modes' orientation horizontal or vertical.
 
 ### Workflow
@@ -222,6 +292,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
+
+### Drum Sequencer
+
+* Turn off empty drum pads: Empty drum cells are displayed in gray. If enabled the pad LEDs are off.
 
 ## Document Settings
 
