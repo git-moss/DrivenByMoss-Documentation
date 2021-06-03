@@ -1,5 +1,19 @@
 # Changes - Bitwig Studio
 
+**12.2.2**
+
+* All devices
+  * New: Clicking the question mark on the settings page does now open the PDF manual.
+* Maschine+ / Mk3
+  * New: Last touchstrip mode is remembered when switching between categories (Pitch, CC, Note Repeat).
+  * Fixed: Touchstrip did not update, reinstall the template!
+  * Fixed: Mapping of user parameters did not work.
+* Novation SLMkIII
+  * Fixed: Clip indication was not displayed.
+  * Fixed: Improved project left/right label.
+* Push
+  * Fixed: Color selection did trigger the pad release event on the previous grid mode.
+
 **12.2.1**
 
 * Maschine JAM

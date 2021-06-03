@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**12.2.2**
+
+* Maschine+ / Mk3
+  * New: Last touchstrip mode is remembered when switching between categories (Pitch, CC, Note Repeat).
+  * Fixed: Mapping of user parameters did not work.
+  * Fixed: Touchstrip did not update, reinstall the template!
+* Novation SLMkIII
+  * Fixed: Improved project left/right label.
+* Push
+  * Fixed: Color selection did trigger the pad release event on the previous grid mode.
+
 **12.2.1**
 
 * Maschine JAM
