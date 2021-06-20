@@ -1,12 +1,12 @@
-# Native Instruments Maschine Mk2 / Mk3 / Maschine+
+# Native Instruments Maschine Mk2 / Mk3 / Maschine+ / Studio
 
-Support for Native Instruments Maschine Mk2, Mk3 and Maschine+.
+Support for Native Instruments Maschine Mk2, Mk3, Maschine+ and Maschine Studio.
 
 Since the extension requires the Native Instruments Host Integration service it **only works on Windows and Mac (no Linux)**.
 
 ## Installation
 
-Load the respective template from the matching folder _resources/Maschine Mk2_, _resources/Maschine Mk3_ or _resources/Maschine+_ into the device by using Native Instruments Controller Editor.
+Load the respective template from the matching folder _resources/Maschine Mk2_, _resources/Maschine Mk3_, _resources/Maschine+_ or _resources/Maschine Studio_ into the device by using Native Instruments Controller Editor.
 
 **Important**: Selecting the template is a bit tricky since when you activate a template from the Maschine which overwrites the left/right buttons you are stuck with the template list on the display. Therefore, you need to select the template from the controller editor. If you are already stuck in the template list do the following to fix it:
 
@@ -19,75 +19,139 @@ Load the respective template from the matching folder _resources/Maschine Mk2_, 
 
 This extension uses the MIDI mode of the device. Press **Shift+CHANNEL** (on the left / top) buttons to enter MIDI mode. On the Mk2 it is **Shift+CONTROL**.
 
-## Differences Mk2 and Mk3
+## Differences between the models
 
-The Mk2 misses some buttons of the Mk3, the differences are as follows:
+The Mk3 and Maschine+ are identical (besides some slight label changes).
 
-* The SHIFT button is not working in MIDI mode on the Mk2. The *STEP LEFT* button (above the REC button) is used for both a replacement of the STOP and SHIFT button.
+### Mk2
+
+The Mk2 misses some buttons of the Mk3. The differences are as follows:
+
+* The SHIFT button is not working in MIDI mode on the Mk2. The *STEP LEFT* button (above the REC button) is used as both a replacement of the STOP and SHIFT button.
 * The *STEP RIGHT* button (above the ERASE button) is the *TAP TEMPO/METRO* button.
 * 4D-Encoder left/right: Use the 2 arrows below the encoder.
 * 4D-Encoder up/down: Use the 2 arrows below the encoder with Shift (STEP LEFT).
-* *Lock* button is the *Enter* button.
-* *File/Save* is *All/Save*.
-* *Auto* is *Auto Wr*.
-* The 4 buttons above the pads are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the top/left next to the CONTROL button.
-* *Events* is the *Select/Events*
+* The *Lock* button is the *Enter* button on Mk2.
+* The *File/Save* button is the *All/Save* button on Mk2.
+* The *Auto* button is the *Auto Wr* button on Mk2.
+* The *Follow/Grid* button is the *Grid* button on Mk2.
+* The 4 buttons above the pads of the Mk3 are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the top/left next to the CONTROL button.
+* The *Events* button is the *Select/Events* button on Mk2.
+
+### Studio
+
+The Maschine Studio misses some buttons of the Mk3 but also adds new features. The differences are as follows:
+
+* The SHIFT button is not working in MIDI mode on the Maschine Studio. Therefore, the *BACK* button (in the Edit section) is used instead.
+* The Page left / right buttons cannot be used in MIDI mode.
+* 4D-Encoder left/right: Use the 2 function arrows below the encoder.
+* 4D-Encoder up/down: Use the 2 function arrows below the encoder with Shift (BACK).
+* *Select+2 function arrows* select the previous/next device.
+* There is no *Stop* button on the Maschine Studio use the Play Button instead.
+* The *Lock* button is the *Enter* button on the Maschine Studio.
+* The *File/Save* button is the *All/Save* button on the Maschine Studio.
+* The *Follow/Grid* button is the *Grid* button on Maschine Studio.
+* The 4 buttons above the pads are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the left next to the TAP button.
+
+The Maschine Studio provides some additional buttons and features:
+
+* **METRO** - Toggles the metronome.
+* **Shift+METRO** - Toggles the *Play Ticks* option.
+* **COPY** - Not used.
+* **PASTE** - Not used.
+* **NOTE** - Transpose the selected MIDI clip a semitone up.
+* **Shift+NOTE** - Transpose the selected MIDI clip a semitone down.
+* **NUDGE** - Transpose the selected MIDI clip an octave up.
+* **Shift+NUDGE** - Transpose the selected MIDI clip an octave down.
+* **UNDO** - Undo.
+* **REDO** - Redo.
+* **QUANTIZE** - Quantizes the selected MIDI clip 100%.
+* **Shift+QUANTIZE** - Quantizes the selected MIDI clip 50%.
+* **CLEAR** - Deletes all MIDI notes from the selected MIDI clip.
+
+**Metering Section**
+
+The level meter displays the VU of the master track except when GRP is selected then the VU of the selected track is displayed.
+
+Since the LED strips do always display the value of the knob when turned, the VU cannot be used together with the knob.
+Therefore, there are two modes: *VU mode*, in which the knob is deactivated and the *parameter mode* where the knob is active and 
+the LED strips display the value of the selected parameter. The IN3 button toggles between the 2 modes.
+Another limitation of the MIDI mode is that even if there are 2 LED strips, you can only address them as one strip and both show 
+the same value.
+
+The parameter controlled by the encoder knob is set with the 8 buttons above it:
+
+* **MST** - Activates changing the volume of the master track.
+* **IN1** - Activates changing the panorama of the master track.
+* **GRP** - Activates changing the volume of the selected track.
+* **IN2** - Activates changing the panorama of the selected track.
+* **SND** - Activates changing the metronome volume.
+* **IN3** - Toggles VU meters and value control.
+* **CUE** - Activates changing the cue volume.
+* **IN4** - Activates changing the cue mix.
+
+Use the encoder in combination with **SHIFT** for slower changes.
 
 ## Global
 
-* **Channel** - Insert a new instrument channel
-* **Stop+Channel** - Insert a new audio channel
-* **Plugin** - Toggle device window
-* **Arranger/Ideas** - Toggle layouts (Arrange, Mix, Edit)
-* **Mixer** - Toggle the mixer
-* **Sampling** - Brings up the Slice to Drum Machine dialog.
-* **Shift+Sampling** - Bring up the Slice to Multi-sample dialog.
-* **Page left / right** moves to the previous/next clip on the selected track (moved the scene page before)
-* **Shift+Page left / right** moves to the previous/next clip page
-* **File** - Saves the project.
-* **Auto** - Toggle write arranger automation.
-* **Shift+Auto** - Toggle write clip launcher automation.
-* **Lock** - Toggle arranger overdub.
-* **Shift+Lock** - Toggle clip launcher overdub.
-* **Macro** - Creates a new clip on the selected track and slot, starts play and enables overdub.
-* **Note Repeat** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. Use the display knobs to edit the settings. Press Note Repeat again to leave the configuration mode.
-* **Select+Solo** - Clears Solo on all tracks.
-* **Select+Mute** - Clears Mute on all tracks.
+* **CHANNEL** - Insert a new instrument channel.
+* **PLUG-IN** - Toggle device window.
+* **ARRANGE(R)/IDEAS** - Toggle layouts (Arrange, Mix).
+* **MIXER** - Toggle the mixer.
+* **Shift+MIXER** - Toggle the device panel.
+* **SAMPLING** - Brings up the Slice to Drum Machine dialog.
+* **Shift+SAMPLING** - Bring up the Slice to Multi-sample dialog.
+* **PAGE LEFT / RIGHT** moves to the previous/next clip on the selected track (moved the scene page before).
+* **Shift+PAGE LEFT / RIGHT** moves to the previous/next clip page.
+* **FILE** - Saves the project.
+* **AUTO** - Toggle write arranger automation.
+* **Shift+AUTO** - Toggle write clip launcher automation.
+* **LOCK** - Toggle arranger overdub.
+* **Shift+LOCK** - Toggle clip launcher overdub.
+* **MACRO** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
+* **Shift+MACRO** - Creates a new clip on the selected track and slot and starts playback.
+* **NOTE REPEAT** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. Use the display knobs to edit the settings. Press Note Repeat again to leave the configuration mode.
+* **Shift+SOLO** - Clears Solo on all tracks.
+* **Shift+MUTE** - Clears Mute on all tracks.
 
 ## Transport
 
-* **Play** - Start/Stop playback. Double click to move play cursor to the start of song. You can configure the behavior on stop in the preferences.
-* **Rec** - Start/Stop recording.
-* **Stop** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song. Use in combination with a pad in Clip Mode to stop the clip.
-* **Restart/Loop** - Toggle transport loop
-* **Erase** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
-* **Erase+touch encoder knob** - Reset the currently edited value to its default.
-* **Tap** - Tap Tempo
-* **Shift+Tap** - Toggle metronome
-* **Follow** - Toggles the display of the step sequencer grid resolution
+* **PLAY** - Start/Stop playback. Double click to move play cursor to the start of song. You can configure the behavior on stop in the preferences.
+* **Shift+PLAY** - Toggle transport loop
+* **REC** - Different functions can be selected in the settings (see below).
+* **Shift+REC** - Different functions can be selected in the settings (see below).
+* **STOP** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song. Use in combination with a pad in Clip Mode to stop the clip.
+* **RESTART/LOOP** - Toggle transport loop
+* **ERASE** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
+* **ERASE+touch encoder knob** - Reset the currently edited value to its' default.
+* **TAP** - Tap Tempo
+* **Shift+TAP** - Toggle metronome
+* **FOLLOW/GRID** - Toggles the display of the step sequencer grid resolution
 
 ## Group buttons
 
 The group buttons select the tracks in the current page of the track bank. They can be used with the following button combinations:
 
-* **Rec** - Toggle rec arm of the track
-* **Solo** - Toggle solo of the track
-* **Mute** - Toggle mute of the track
-* **Erase** - Delete the track
-* **Duplicate** - Duplicate the track
+* **REC** - Toggle rec arm of the track
+* **SOLO** - Toggle solo of the track
+* **MUTE** - Toggle mute of the track
+* **ERASE** - Delete the track
+* **DUPLICATE** - Duplicate the track
 
 ## Browser
 
-* **Browser** - Opens the browser on the current device. If there is no device the browser is opened to insert a new device. If the browser is active, the browser is closed and the selection is accepted. Use in combination with a pad in Clip Mode to open the browser to load a clip.
-* **Settings** - Open the browser to add a device on the selected channel. If the browser is active, toggles the selection of Favorites in the browser.
+* **BROWSER** - Opens the browser on the current device. If there is no device the browser is opened to insert a new device. If the browser is active, the browser is closed and the selection is accepted. Use in combination with a pad in Clip Mode to open the browser to load a clip.
+* **Shift+BROWSER** - Opens the browser to insert a new device before the currently selected one.
+* **Select+BROWSER** - Opens the browser to insert a new device after the currently selected one.
+* **SETTINGS** - Opens the browser to insert a new device after the currently selected one. If the browser is active, toggles the selection of Favorites in the browser.
 
 If the browser is active...
 
-* **Knob 1-8** - Changes the selection of the filter or results
-* **Page left/right** - Selects the previous/next browser tab
-* **Encoder left/right** - Selects the previous/next value of the selected column
+* **Knob 1-8** - Changes the selection of the filter or results column.
+* **Page left/right** - Selects the previous/next browser tab.
 * **Encoder up/down** - Selects the previous/next browser tab
-* **Encoder turn** - Changes the selection of the selected column
+* **Encoder left/right** - Selects the previous/next filter column.
+* **Encoder turn** - Changes the selection of the selected filter or results column.
 * Press the Encoder to confirm your selection and close the browser.
 * Press the browse button to discard your selection and close the browser.
 
@@ -95,11 +159,10 @@ If the browser is active...
 
 Press the encoder to toggle between fast and slow value changes.
 
-* **Volume** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value.
-* **Shift+Volume** - Toggles VU meter display.
-* **Swing** - Enables position mode. The encoder changes the position of the play cursor in the arranger.
-* **Tempo** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song.
-* **Plug-In** - Toggle the window (if any) of the selected device (if any).
+* **VOLUME** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value.
+* **Shift+VOLUME** - Toggles VU meter display.
+* **SWING** - Enables position mode. The encoder changes the position of the play cursor in the arranger.
+* **TEMPO/TUNE** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song.
 
 The buttons above the display have the following functions:
 
@@ -167,16 +230,16 @@ The Touchstrip behaves based on the following modes.
 
 ## Pad Modes
 
-* **Fixed Vel** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
-* **Scene** - Press a pad to start one of the 16 scenes of the current bank page.
-* **Pattern** - Press a pad to start one of 16 clips of the current bank page on the selected track.
-* **Variation** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
-* **Duplicate** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
-* **Select** - Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
-* **Solo** - Keep pressed and use in combination with the bank buttons to toggle the solo state of the track.
-* **Shift+Solo** - Clears the Solo state on all tracks.
-* **Mute** - Keep pressed and use in combination with the bank buttons to toggle the mute state of the track.
-* **Shift+Mute** - Clears the Mute state on all tracks.
+* **FIXED VEL** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
+* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page.
+* **PATTERN** - Press a pad to start one of 16 clips of the current bank page on the selected track.
+* **VARIATION** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
+* **DUPLICATE** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
+* **SELECT** - Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
+* **SOLO** - Keep pressed and use in combination with the bank buttons to toggle the solo state of the track.
+* **Shift+SOLO** - Clears the Solo state on all tracks.
+* **MUTE** - Keep pressed and use in combination with the bank buttons to toggle the mute state of the track.
+* **Shift+MUTE** - Clears the Mute state on all tracks.
 
 ### Drum Mode
 
@@ -197,15 +260,15 @@ Enable the chord mode by pressing **Chords**. Playing a pad adds 2 thirds on top
 
 Keep the *Shift* button pressed to activate.
 
-* **Shift+Pad 1 (Undo)** - Undo
-* **Shift+Pad 2 (Redo)** - Redo
-* **Shift+Pad 5 (Quantize)** - Quantizes the selected MIDI 100%
-* **Shift+Pad 6 (QUANTIZE 50%)** - Quantizes the selected MIDI 50%
-* **Shift+Pad 9 (CLEAR)** - Deletes all MIDI notes from the selected MIDI clip
-* **Shift+Pad 13 (SEMITONE -)** - Transpose the selected MIDI clip a semitone down
-* **Shift+Pad 14 (SEMITONE +)** - Transpose the selected MIDI clip a semitone up
-* **Shift+Pad 15 (OCTAVE -)** - Transpose the selected MIDI clip an octave down
-* **Shift+Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up
+* **Shift+Pad 1 (Undo)** - Undo.
+* **Shift+Pad 2 (Redo)** - Redo.
+* **Shift+Pad 5 (Quantize)** - Quantizes the selected MIDI clip 100%.
+* **Shift+Pad 6 (QUANTIZE 50%)** - Quantizes the selected MIDI clip 50%.
+* **Shift+Pad 9 (CLEAR)** - Deletes all MIDI notes from the selected MIDI clip.
+* **Shift+Pad 13 (SEMITONE -)** - Transpose the selected MIDI clip a semitone down.
+* **Shift+Pad 14 (SEMITONE +)** - Transpose the selected MIDI clip a semitone up.
+* **Shift+Pad 15 (OCTAVE -)** - Transpose the selected MIDI clip an octave down.
+* **Shift+Pad 16 (OCTAVE +)** - Transpose the selected MIDI clip an octave up.
 
 ## Preferences Settings
 

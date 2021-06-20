@@ -1,5 +1,19 @@
 # Changes - Bitwig Studio
 
+**12.3.0 (unreleased)**
+
+* Launchpad
+  * Fixed: Poly aftertouch did not work.
+* Maschine
+  * New: Added support for Maschine Studio!
+  * New: Shift+Mixer toggles the device panel.
+  * New: Shift+Macro creates a new clip on the selected track and slot and starts playback (like Macro but without enabling overdub).
+  * New: Improved simulator layout of Mk2.
+  * Fixed: Rec+Group buttons did also execute the record action.
+  * Fixed: Poly aftertouch did not work.
+* Push
+  * Fixed: Poly aftertouch did not work.
+
 **12.2.2**
 
 * All devices
