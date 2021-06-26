@@ -1,6 +1,26 @@
 # Changes - Cockos Reaper
 
-**12.3.0 (unreleased)**
+**12.3.1**
+
+* All devices
+  * New: Improved long press delay depending on system.
+* APC, Fire, Maschine Jam, Maschine
+  * New: Shift mode can be operated with one hand. Press and release the Shift button to activate shift mode. Execute Shift actions. Press Shift again to disable Shift mode. Button combinations can still be used as before.
+* Generic Flexi
+  * New: Improved labels of relative modes in selection box
+  * Fixed: Speed of relative knobs in low-res CC mode was much too slow.
+* Launchkey Mk3 / Launchkey Mini Mk3 / SL MkIII
+  * New: In the step view of the drum sequencer change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
+  * New: Longer notes are drawn in a different color.
+* Maschine
+  * Fixed: Changing note length in sequencers did not work.
+  * Fixed: Tempo fractions were truncated.
+* MCU
+  * Fixed: Fixed a weird edge case when a device (specifically Korg nanokontrol 2) sends maximum speed for knobs.
+* Remote SL Mk2
+  * Fixed: Long notification messages were truncated
+
+**12.3.0**
 
 * Launchpad
   * Fixed: Poly aftertouch did not work.

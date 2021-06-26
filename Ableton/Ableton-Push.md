@@ -219,7 +219,7 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * To navigate in a clip use the Page left/right (device in/out on Push 1) buttons.
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes. The velocity of the pressed key is set as well.
-* Change the note length or create long notes by pressing a note pad and then a pad right of it.
+* Change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
 * To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
 * Note starts and lengths are lit in different colors.
 * Long press a pad which contains a note to edit the parameters of the note (except Poly Sequencer).

@@ -74,7 +74,8 @@ If one of the sub-modes is enabled, the lower pad row changes and displays the s
 
 This mode provides a simple drum sequencer and access to the drum instrument but is also usable with any other device. Since the number of buttons on the device is limited you can only access the main 16 notes.
 
-This mode can be toggled with the Scene button between two views: one to play the 16 sounds and one to toggle the note steps of one of the 16 sounds.
+This mode can be toggled with the Scene button between two views: one to play the 16 sounds and one to toggle the note steps of one of the 16 sounds. In the step view change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
+
 If you have a Bitwig drum device selected, the play view displays the colors of the sounds as well if there is an instrument loaded in a slot.
 The last selected pad is the one you can edit when switching to the note steps view.
 

@@ -137,7 +137,8 @@ Press the Grid button till the LED is lit Blue to enter **Sequencer** mode.
 The Sequencer is mainly intended for Drum Sequencing but can also be used for instruments.
 A clip needs to be selected.
 Press one of the pads to play and select a note. Switch to step view with the Scene 1 button.
-In step view dis-/enable the steps by pressing the pads. If a Drum Instrument is selected the steps 
+In step view dis-/enable the steps by pressing the pads. Change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
+If a Drum Instrument is selected the steps 
 are drawn in the color of the selected drum pad.
 
 * **Scene 1** - Toggle between note and step view
