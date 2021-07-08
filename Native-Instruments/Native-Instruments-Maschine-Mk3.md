@@ -36,7 +36,7 @@ The Mk2 misses some buttons of the Mk3. The differences are as follows:
 * The *Auto* button is the *Auto Wr* button on Mk2.
 * The *Follow/Grid* button is the *Grid* button on Mk2.
 * The 4 buttons above the pads of the Mk3 are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the top/left next to the CONTROL button.
-* The *Events* button is the *Select/Events* button on Mk2.
+* The *Events* button is replaced by pressing the *STEP LEFT + Select/Events* button on Mk2.
 
 ### Studio
 
@@ -231,8 +231,8 @@ The Touchstrip behaves based on the following modes.
 ## Pad Modes
 
 * **FIXED VEL** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
-* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page.
-* **PATTERN** - Press a pad to start one of 16 clips of the current bank page on the selected track.
+* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page. Combine with Select button to select the scene without starting it.
+* **PATTERN** - Press a pad to start one of 16 clips of the current bank page on the selected track. Combine with Select button to select the clip without starting it.
 * **VARIATION** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **DUPLICATE** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
 * **SELECT** - Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
@@ -244,8 +244,10 @@ The Touchstrip behaves based on the following modes.
 ### Drum Mode
 
 Press *Pad Mode* to activate. Press again to toggle to the configuration page. On this page pad 15/16 transpose the drum pads up/down.
-Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
-To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note.
+
+* Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Combine with the Select button to select the drum without playing it.
+* Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
+* To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note.
 
 ### Play Mode
 

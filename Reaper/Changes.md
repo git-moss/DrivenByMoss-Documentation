@@ -1,5 +1,25 @@
 # Changes - Cockos Reaper
 
+**12.3.2**
+
+* All devices
+  * Fixed: Track parameters were still shown when the plugin was deactivated
+* Fire
+  * Fixed: Pattern up/down button did trigger twice.
+* Launchkey Mini Mk3
+  * Fixed: Navigation with Shift+Track left / right was broken.
+* Launchpad
+  * Fixed: Exiting birds-eye view did also toggle session flip.
+* Launchpad Pro Mk3
+  * New: Fixed Length + Track buttons creates new clips of different lengths.
+* Maschine (except Mikro)
+  * New: Mk2: Step-left+Select: Toggle note edit (reload the template!).
+  * New: Select + Pattern: Select the clip without starting it.
+  * New: Select + Scene: Select the scene without starting it.
+  * New: Select + Drum Pad: Select the drum without playing it.
+* Push 1/2
+  * New: Select+Pad in session mode displays the name of the selected clip (if it has one).
+
 **12.3.1**
 
 * All devices

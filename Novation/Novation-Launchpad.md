@@ -62,6 +62,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
 * **Fixed Length** (only Pro Mk3) - Executes the *New* function.
+* **Fixed Length + Track buttons** (only Pro Mk3) - Create new clips of different lengths.
 
 ## Cursors and Mode selection (Upper button row)
 

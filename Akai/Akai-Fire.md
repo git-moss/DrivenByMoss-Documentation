@@ -192,7 +192,9 @@ Press the **Drum** button twice to activate. The DRUM LED is lit red.
 
 * **Select Knob**: -
 * **Grid buttons**: -
-* **Mute/Solo 1-4**: -
+* **Mute/Solo 1-2**: -
+* **Mute/Solo 3 + Pad**: Solo the drum sound.
+* **Mute/Solo 4 + Pad**: Mute the drum sound.
 
 ### Session Mode
 
