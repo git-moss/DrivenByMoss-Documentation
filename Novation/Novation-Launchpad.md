@@ -338,6 +338,17 @@ Press any of the grid pads to exit this mode.
 
 ![Shuffle Mode](Diagrams/Launchpad/shuffle-mode.png)
 
+## User mode (only Launchpad Pro / Pro Mk3)
+
+Press **User** button on Pro or **Custom** button on the Pro Mk3 to enter.
+
+Allows to map up to 64 user parameters divided into 8 pages with 8 parameters as virtual sliders. Right click on any parameter in Bitwig and select *Map to controller*. After that *touch* the virtual fader to which you want to map the parameter to complete the mapping. Mappings are stored individually with each project.
+
+IMPORTANT: Do not map any other button on the controller! This will create weird behaviour.
+
+* Each column of the grid controls a mapped user parameter.
+* Select the 8 parameter pages with scene buttons.
+
 ## Project mode (only Launchpad Pro Mk3)
 
 Press the **Project** button to enter.
