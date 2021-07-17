@@ -59,7 +59,7 @@ Press the **Down button** left to the display to switch between the different mo
     * 8 edit knobs: Change volume/pan/Send1-6 of selected track. Hold **Shift** for fine adjustments.
     * 8 buttons: Press to select a track
     * Track Left/Right buttons: Select next/previous track
-    * Shift+Left/right arrows: Select next/previous track bank
+    * Shift+Track Left/right arrows: Select next/previous track bank
 
 2. **Volume** - The Down button LED is lit **Blue**
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
@@ -145,6 +145,7 @@ are drawn in the color of the selected drum pad.
 * **Scene 2** - Open the resolution selection mode. Press one of the buttons below the display to select a resolution.
 * **Scene up/down** - Change the range of selected notes.
 * **Shift+Scene up/down** - Navigate the pages of a clip.
+* **Shift+Pad** - Enables and increases note repeat by 1.
 
 ## Preferences Settings
 

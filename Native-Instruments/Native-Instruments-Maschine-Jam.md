@@ -25,6 +25,7 @@ This extension uses the MIDI mode of the device. Press **SHIFT+HEADPHONES (MIDI)
 * **SELECT+SWING** - Toggle groove on/off.
 * **NOTE REPEAT** - Toggle Note repeat.
 * **SHIFT+NOTE REPEAT** (or long press) - Opens the configuration mode. The first two colored columns control the repeat interval and the other two columns the note length. The bottom row sets the octave range of the note repeat arpeggiator. The two green buttons select the different arpeggiator modes. Press Note Repeat again to close the configuration.
+* **SELECT+NOTE REPEAT** - Toggle Fill Mode.
 * **CLEAR** - Use in combination with other buttons to delete a scene (scene buttons), clip (a pad in session mode) or track (group buttons).
 * **DUPLICATE** - Combine with a scene pad (duplicate scene) or a group button (duplicate track). To copy clips in session mode keep the Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip as the source); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
 * **SHIFT+DUPLICATE** - Duplicate (double) the content of the currently selected clip (not the clip itself).
@@ -201,6 +202,7 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 
 * Arrow keys up/down change the note range (transposition).
 * Arrow keys left/right change the selected page in sequencers.
+* Select+Pad enables and increases note repeat by 1.
 
 ### Note Sequencer
 

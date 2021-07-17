@@ -111,6 +111,7 @@ Use the encoder in combination with **SHIFT** for slower changes.
 * **MACRO** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Shift+MACRO** - Creates a new clip on the selected track and slot and starts playback.
 * **NOTE REPEAT** - Toggle Note repeat. Long press the button to enter note repeat configuration mode. Use the display knobs to edit the settings. Press Note Repeat again to leave the configuration mode.
+* **SELECT+NOTE REPEAT** - Toggle Fill Mode.
 * **Shift+SOLO** - Clears Solo on all tracks.
 * **Shift+MUTE** - Clears Mute on all tracks.
 
@@ -247,7 +248,7 @@ Press *Pad Mode* to activate. Press again to toggle to the configuration page. O
 
 * Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Combine with the Select button to select the drum without playing it.
 * Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
-* To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note.
+* To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note. Use **Encoder up/down** to select more parameter pages.
 
 ### Play Mode
 

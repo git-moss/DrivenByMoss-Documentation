@@ -1,5 +1,18 @@
 # Changes - Cockos Reaper
 
+**13.0.0**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Muted notes are lit in grey in all sequencers.
+* Maschine
+  * New: Smoother update of note edits.
+  * Fixed: Changing note velocity could delete note when set close to 0%.
+* Push 1/2
+  * New: Smoother update of note edits.
+  * New: Support for editing note mute state.
+  * Fixed: Changing note velocity could delete note when set close to 0%.
+
 **12.3.2**
 
 * All devices

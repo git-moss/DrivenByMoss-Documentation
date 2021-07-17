@@ -1,5 +1,34 @@
 # Changes - Bitwig Studio
 
+**13.0.0**
+
+* Requires Bitwig 4.0
+* All devices
+  * New: Muted notes are lit in grey in all sequencers.
+* APC40 / APC40 mkII
+  * New: Cursor Up+Pad in sequencers enables and increases note repeat by 1.
+  * New: Cursor Down+Pad in sequencers enables and decreases note repeat by 1.
+* Fire
+  * New: Pattern Up+Pad in sequencers enables and increases note repeat by 1.
+  * New: Pattern Down+Pad in sequencers enables and decreases note repeat by 1.
+* Novation SL Mk III
+  * New: Shift+Pad in sequencer enables and increases note repeat by 1.
+* Launchpad
+  * New: Cursor Up+Pad in sequencers enables and increases note repeat by 1.
+  * New: Cursor Down+Pad in sequencers enables and decreases note repeat by 1.
+* Mackie MCU / HUI
+  * New: Zoom in/out does no longer require to have the keyboard focus in the arranger.
+* Maschine
+  * New: Support for editing most of the new Operators note parameters.
+* Maschine / Maschine JAM
+  * New: Select+Pad in sequencers enables and increases note repeat by 1.
+  * New: Select+Repeat: Toggle Fill Mode.
+* Push 1/2
+  * New: Support for editing all new Operators note parameters as well as Mute state.
+  * New: Shift+Pad in sequencers enables and increases note repeat by 1.
+  * New: Select+Pad in sequencers enables and decreases note repeat by 1.
+  * New: Select+Repeat: Toggle Fill Mode.
+
 **12.3.2**
 
 * Fire

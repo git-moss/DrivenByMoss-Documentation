@@ -61,9 +61,10 @@ After you have copied the file reboot your computer.
 * **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Repeat**: Toggles note repeat. Long press to enter Note Repeat Mode to configure the note repeat settings.
 * **Repeat+Scene**: Changes note repeat period.
-* **Shift+Note Repeat+Scene**: Changes note repeat note length
+* **Shift+Note Repeat+Scene**: Changes note repeat note length.
+* **Select+Note Repeat**: Toggle Fill Mode.
 * **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
-* **Scale**: De-/Activates the Scale mode
+* **Scale**: De-/Activates the Scale mode.
 * **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
 
 ## Edit Modes
@@ -224,6 +225,8 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * Note starts and lengths are lit in different colors.
 * Long press a pad which contains a note to edit the parameters of the note (except Poly Sequencer).
 * Use the Scene buttons to change the grids resolution.
+* Shift+Pad enables and increases note repeat by 1.
+* Select+Pad enables and decreases note repeat by 1.
 
 ### Note Sequencer
 

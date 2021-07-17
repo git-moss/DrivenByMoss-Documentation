@@ -214,6 +214,8 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 * To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
 * Note starts and lengths are lit in different colors.
 * Use the Scene buttons to change the grids resolution.
+* Cursor Up+Pad: enables and increases note repeat by 1.
+* Cursor Down+Pad: enables and decreases note repeat by 1.
 
 ### Sequencer Mode
 

@@ -119,12 +119,14 @@ The following functions are available in all modes:
 
 Press the **Step** button to activate. The STEP LED is lit orange.
 
-* **Select Knob**: Move the note range up/down
-* **Grid buttons**: Move to the previous/next page of the clip
-* **Alt+Grid buttons**: Change the step resolution
-* **Shift+Grid buttons**: Change the Scale
-* **Shift+Alt+Grid buttons**: Change the Scale Base key
-* **Shift+Select knob**: Transpose notes of clip up/down
+* **Select Knob**: Move the note range up/down.
+* **Grid buttons**: Move to the previous/next page of the clip.
+* **Alt+Grid buttons**: Change the step resolution.
+* **Shift+Grid buttons**: Change the Scale.
+* **Shift+Alt+Grid buttons**: Change the Scale Base key.
+* **Shift+Select knob**: Transpose notes of clip up/down.
+* **Pattern Up+Pad**: Enables and increases note repeat by 1.
+* **Pattern Down+Pad**: Enables and decreases note repeat by 1.
 
 To change the other scale settings switch to the Play Mode and change it there.
 
@@ -175,12 +177,14 @@ The functions are the same as described for the Play mode but the scale settings
 
 Press the **Drum** button to activate. The DRUM LED is lit orange.
 
-* **Select Knob**: Move the note range up/down
-* **Grid buttons**: Move to the previous/next page of the clip
-* **Alt+Grid buttons**: Change the step resolution
-* **Mute/Solo 1-4**: Mute the drum sound of the row
-* **Shift+Mute/Solo 1-4**: Solo the drum sound of the row
-* **Alt+Mute/Solo**: Display the drum sounds name in drum sequencer mode
+* **Select Knob**: Move the note range up/down.
+* **Grid buttons**: Move to the previous/next page of the clip.
+* **Alt+Grid buttons**: Change the step resolution.
+* **Mute/Solo 1-4**: Mute the drum sound of the row.
+* **Shift+Mute/Solo 1-4**: Solo the drum sound of the row.
+* **Alt+Mute/Solo**: Display the drum sounds name in drum sequencer mode.
+* **Pattern Up+Pad**: Enables and increases note repeat by 1.
+* **Pattern Down+Pad**: Enables and decreases note repeat by 1.
 
 Editing a note works like in the note sequencer.
 

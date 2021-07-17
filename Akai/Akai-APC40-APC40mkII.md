@@ -137,6 +137,9 @@ In this mode one pad represents a 8x5 area in the clip grid. Press a pad to quic
 
 ## Sequencers
 
+* Cursor Up+Pad in sequencers enables and increases note repeat by 1.
+* Cursor Down+Pad in sequencers enables and decreases note repeat by 1.
+
 ### Drum Sequencer
 
 * The drum sequencer works as described in the Ableton Push manual. The differences are:
