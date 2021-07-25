@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**13.0.1**
+
+* Requires Bitwig 4.0
+* All devices
+  * Fixed: Certain notification messages could crash devices with text display.
+* Generic Flexi
+  * Fixed: Toggling a value with a MIDI note did not work if Note off (0x80) was sent on note release.
+* Maschine JAM
+  * New: Removed blinking from playing clips.
+
 **13.0.0**
 
 * Requires Reaper 6.12+

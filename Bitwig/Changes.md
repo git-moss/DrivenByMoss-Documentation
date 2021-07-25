@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**13.0.1**
+
+* Requires Bitwig 4.0
+* All devices
+  * Fixed: Certain notification messages could crash devices with text display.
+* Generic Flexi
+  * Fixed: Toggling a value with a MIDI note did not work if Note off (0x80) was sent on note release.
+* Maschine JAM
+  * New: Removed blinking from playing clips.
+
 **13.0.0**
 
 * Requires Bitwig 4.0
@@ -31,6 +41,7 @@
 
 **12.3.2**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Fire
   * New: Scene 3+Pad in Drum 64 mode soloes the drum sound.
   * New: Scene 4+Pad in Drum 64 mode mutes the drum sound.
@@ -51,6 +62,7 @@
 
 **12.3.1**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * All devices
   * New: Improved long press delay depending on system.
   * Fixed: Creating new clips (New-command) did only work on first clip page.
@@ -70,6 +82,7 @@
 
 **12.3.0**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Launchpad
   * Fixed: Poly aftertouch did not work.
 * Maschine
@@ -84,6 +97,7 @@
 
 **12.2.2**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * All devices
   * New: Clicking the question mark on the settings page does now open the PDF manual.
 * Maschine+ / Mk3
@@ -98,6 +112,7 @@
 
 **12.2.1**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Maschine JAM
   * New: Swing button is lit when Groove is enabled.
   * Fixed: Velocity mode was shown on pressing perform, notes and tune but should not.
@@ -106,6 +121,7 @@
 
 **12.2.0**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * All devices
   * Fixed: Switching between effect and track bank could leave the parameters unassigned in some cases.
 * Akai Fire
@@ -132,6 +148,7 @@
 
 **12.1.0**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Fire, Maschine, Push
   * New: Editing note pitch changes now in 0.1 steps independent of the knob speed setting.
 * Maschine+
@@ -143,6 +160,7 @@
 
 **12.0.0**
 
+* Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Generic Flexi:
   * Fixed: Feedback of track mode was wrong.
 * Maschine JAM

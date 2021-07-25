@@ -241,6 +241,7 @@ The parameters of the command documentation below are as follows:
 | /project/{+,-}   |            | Switch to the next/previous opened project.         |
 | /project/engine  | {0,1,-}    | De-/Activate the audio engine.                      |
 | /project/save    |            | Save the current project.                           |
+| /action          | {0-7}      | Execute one of the configured actions.              |
 
 ### Receive - Transport
 
