@@ -70,7 +70,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice. Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode. Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
 * **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes. On the **Pro Mk3** pressing the Note button toggles through the 3 play modes.
 * **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
-* **Shift+Device** - Opens the device browser to add a device after the currently selected one
+* **Shift+Device** - Opens the device browser to add a device after the currently selected one (on the Pro Mk3 this executes Tempo. Use the up/down buttons in the browser instead).
 * **User** (only Pro, **Custom** on the Mk3) - Brings up the user mode.
 * **Chord** (only Pro Mk3) - Toggles through the 3 drum sequencer modes.
 * **Sequencer** (only Pro Mk3) - Toggles through the 3 note sequencer modes.
@@ -103,18 +103,23 @@ The colors of the buttons are identical. This area is empty on the Pro model.
 
 ![Shift menu diagram](Diagrams/Launchpad/shift-menu.png)
 
-## Track Control (Lower button row)
+## Track Control
 
-These buttons only work in the Session mode. If the Session mode is not yet selected it gets activated.
+There are 8 modes to control different aspects of the currently selected page of tracks.
 
-* **Record Arm** - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 
+Use the Shift button in combination with one of the Scene buttons to select the according mode (Volume, Pan, etc.) or 
+the dedicated button row on the Pro models. The modes which trigger something (stop clip, mute, solo and rec arm) send 
+you to the Session mode. The lowest row of the session mode will now be replaced with the according track states of 
+the select mode (e.g. you see the mute-state of the current track page):
+
+* **Record Arm** (red) - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 
   8 tracks of the track bank.
-* **Track Select** - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks 
+* **Track Select** (green) - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks 
   of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. 
   Furthermore, the front LED is also lit in the color of the current track.
-* **Mute** - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the 
+* **Mute** (yellow) - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the 
   track bank.
-* **Solo** - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of 
+* **Solo** (blue) - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of 
   the track bank.
 * **Volume** - Each column of the grid controls the Volume of the currently focused 8 tracks of the track bank. Hit 
   buttons harder for faster change. The color of a fader is the same as the color of the track. Use the scene buttons 

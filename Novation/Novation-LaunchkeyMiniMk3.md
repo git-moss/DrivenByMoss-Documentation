@@ -58,17 +58,29 @@ Use the 3 amber colored buttons to switch between the modes for the knobs. The t
 
 #### Session Mode
 
-The Session mode is quite complex since it provides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode.
+The pads start playback or recording of the respective clip. The Scene and SSM buttons start the first and second scene in the selected scene window. Use **Shift+Scene/SSM buttons** to move the scene window.
 
-The pads start playback or recording of the respective clip. The Scene and SSM buttons start the first and second scene in the selected scene window. Use Shift+Scene/SSM buttons to move the scene window.
+The Session mode provides additional sub-modes for controlling solo, mute, record arm, etc. Keep the **SSM (Scene 2) button** pressed to enter the sub-mode selection view. In the lower row the sub-modes can be selected or turned off. The following sub-modes are available:
 
-If one of the sub-modes is enabled, the lower pad row changes and displays the states of the sub-mode. Press one of these pads to toggle the state. The following sub-modes are available:
+1) **Off** (green): No sub-mode is selected
+2) **Record Arm** (red): Toggle the recording armed state of the 8 tracks on the selected track bank page.
+3) **Track select** (white):  Select one of the 8 tracks on the selected track bank page.
+4) **Mute** (orange):  Toggle the mute state of the 8 tracks on the selected track bank page.
+5) **Solo** (yellow):  Toggle the solo of the 8 tracks on the selected track bank page.
+6) **Stop clip** (rose):  Stop the playing clip on one of the 8 tracks on the selected track bank page.
 
-1) **Record Arm**: Toggle the recording armed state of the 8 tracks on the selected track bank page.
-2) **Track select**:  Select one of the 8 tracks on the selected track bank page.
-3) **Mute**:  Toggle the mute state of the 8 tracks on the selected track bank page.
-4) **Solo**:  Toggle the solo of the 8 tracks on the selected track bank page.
-5) **Stop clip**:  Stop the playing clip on one of the 8 tracks on the selected track bank page.
+The SSM button is also lit in the color of the selected sub-mode. If one of the sub-modes is enabled, the *lower pad row* of the session displays the states of the sub-mode. Press one of these pads to toggle the state (e.g. to toggle mute of the track).
+
+The upper part of the mode selection view provides additional functions:
+
+1) Toggle the metronome
+2) Tap Tempo
+3) Undo
+4) Redo
+5) Quantize
+6) Add an instrument track
+7) Add an audio track
+8) Add an effect track
 
 #### Drum Mode
 
@@ -94,6 +106,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
 * Record button: Setting the function for the record button.
 * Shift + Record button: Setting the function for the record button used in combination with Shift.
 

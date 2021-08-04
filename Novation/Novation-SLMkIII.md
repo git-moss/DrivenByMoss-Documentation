@@ -75,12 +75,13 @@ Press the **Down button** left to the display to switch between the different mo
 
 In all track modes hold **Shift** for additional functions:
 
-* Button 1 **On/Off**: De-/Activate track
-* Button 2 **Pin**: Pin the track (does no longer follow the selection in Bitwig)
+* Button 1 **On/Off**: De-/Activate track.
+* Button 2 **Pin**: Pin the track (does no longer follow the selection in Bitwig).
 * Button 3 **Color**: Select a new color for the track. After pressing the button press one of the pads to select a color. You can access more colors by using the Scene up/down buttons.
-* Button 6 **Add Instr**: Adds a new instrument track
-* Button 7 **Add Audio**: Adds a new audio track
-* Button 8 **Add FX**: Adds a new effect track
+* Button 5 **New Clip**: Creates a new clip on the current track.
+* Button 6 **Add Instr**: Adds a new instrument track.
+* Button 7 **Add Audio**: Adds a new audio track.
+* Button 8 **Add FX**: Adds a new effect track.
 
 ### Device Modes
 
@@ -135,11 +136,16 @@ Press the Grid button till the LED is lit Green to enter **Session** mode.
 Press the Grid button till the LED is lit Blue to enter **Sequencer** mode.
 
 The Sequencer is mainly intended for Drum Sequencing but can also be used for instruments.
-A clip needs to be selected.
-Press one of the pads to play and select a note. Switch to step view with the Scene 1 button.
-In step view dis-/enable the steps by pressing the pads. Change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
-If a Drum Instrument is selected the steps 
-are drawn in the color of the selected drum pad.
+
+* Make sure that a MIDI clip is selected.
+* If a Bitwig Drum Instrument is selected the steps are drawn in the color of the selected drum pad.
+* Press one of the pads to play and select a note.
+
+Switch to step view with the Scene 1 button. In step view:
+
+* dis-/enable the steps by pressing the pads. 
+* change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
+* long press a step to edit the note.
 
 * **Scene 1** - Toggle between note and step view
 * **Scene 2** - Open the resolution selection mode. Press one of the buttons below the display to select a resolution.

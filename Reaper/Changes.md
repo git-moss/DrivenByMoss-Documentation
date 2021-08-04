@@ -1,8 +1,29 @@
 # Changes - Cockos Reaper
 
+**13.5.0**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Playing notes showed errors in the log.
+* Launchpad
+  * Fixed: Mix mode was left straight after entering it.
+* Launchkey Mini Mk3
+  * New: The upper part of the mode selection view provides additional functions: Toggle metronome, Tap Tempo, Undo, Redo, Quantize, Add instrument, audio and effect track.
+  * Fixed: Custom Modes were not displayed on change.
+* Launchkey Mk3 / Mini Mk3
+  * New: Added option for the action to execute when stopping playback.
+* Push 1/2
+  * New: Multiple notes can now be edited in sequencers. Use the select button in combination with a sequencer note pad.
+  * New: To descrease ratcheting use now Shift + Select + Sequencer note pad.
+  * New: Notes in Poly Sequencer can now be edited, too.
+  * New: Renamed first note edit page to 'Common'. Set gain to 50% when resetting (was 0%).
+* Novation SLMkIII
+  * New: A new clip can be created from the track menu.
+  * New: Long press a note in the sequencer to edit the note
+
 **13.0.1**
 
-* Requires Bitwig 4.0
+* Requires Reaper 6.12+
 * All devices
   * Fixed: Certain notification messages could crash devices with text display.
 * Generic Flexi
