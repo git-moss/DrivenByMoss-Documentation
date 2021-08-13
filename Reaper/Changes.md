@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**13.5.1 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Metronome volume could not be changed.
+* Konplete Kontrol MkI
+  * Fixed: Scale LEDs were not set correctly.
+* Launchpad
+  * New: The note repeat octave range can now be changed in the Shift Mode (the two red buttons right to note repeat on/off).
+  * Fixed: Tempo and Swing values could not be changed.
+  * Fixed: Chord mode: additional notes did not respect the velocity (accent) setting.
+* Push
+  * Fixed: Could not switch pages with Shift+Left/Right.
+
 **13.5.0**
 
 * Requires Reaper 6.12+

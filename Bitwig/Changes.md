@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**13.5.1 (unreleased)**
+
+* Requires Bitwig 4.0
+* Launchpad
+  * New: The note repeat octave range can now be changed in the Shift Mode (the two red buttons right to note repeat on/off).
+  * Fixed: Tempo and Swing values could not be changed.
+  * Fixed: Chord mode: additional notes did not respect the velocity (accent) setting.
+* Push
+  * Fixed: Could not switch pages with Shift+Left/Right.
+
 **13.5.0**
 
 * Requires Bitwig 4.0
