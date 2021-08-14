@@ -1,14 +1,29 @@
 # Changes - Bitwig Studio
 
-**13.5.1 (unreleased)**
+**13.6.0**
 
 * Requires Bitwig 4.0
+* Fire
+  * New: Browser+Session clip: Opens browser to insert a new clip.
+  * New: Multiple notes can be selected for editing.
+  * New: Notes in Poly Sequencer can now be edited too.
 * Launchpad
   * New: The note repeat octave range can now be changed in the Shift Mode (the two red buttons right to note repeat on/off).
   * Fixed: Tempo and Swing values could not be changed.
   * Fixed: Chord mode: additional notes did not respect the velocity (accent) setting.
+* Maschine / Mikro Mk3
+  * New: Multiple notes can be selected for editing.
+  * New: Mute+Pad in sequencer toggles the mute state of the note.
+  * New: Sequencer colors in drum and note sequencer are harmonized. Muted notes are grey. The selected notes to edit are yellow.
+* Maschine JAM
+  * New: Mute+Pad in Sequencer toggles the mute state of the note.
 * Push
+  * New: Mute+Pad in sequencers toggles the mute state of the note.
+  * New: Selected notes in sequencers are now lit in yellow.
   * Fixed: Could not switch pages with Shift+Left/Right.
+* Novation SLMkIII
+  * New: Added knob speed settings.
+  * New: Selected notes in sequencers are now lit in yellow.
 
 **13.5.0**
 

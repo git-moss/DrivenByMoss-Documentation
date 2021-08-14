@@ -203,6 +203,7 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 * Arrow keys up/down change the note range (transposition).
 * Arrow keys left/right change the selected page in sequencers.
 * Select+Pad enables and increases note repeat by 1.
+* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
 
 ### Note Sequencer
 

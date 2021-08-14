@@ -145,7 +145,7 @@ Switch to step view with the Scene 1 button. In step view:
 
 * dis-/enable the steps by pressing the pads. 
 * change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
-* long press a step to edit the note.
+* long press a step to edit the note. Selected notes are lit in yellow.
 
 * **Scene 1** - Toggle between note and step view
 * **Scene 2** - Open the resolution selection mode. Press one of the buttons below the display to select a resolution.
@@ -161,6 +161,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
+* Knob Speed Normal: Adjust the speed of the knobs
+* Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
 * Enable Faders: Option to disable the faders to prevent unwanted value changes.
 * Enable Lightguide: Activates the lightguide, which displays the currently selected scale. The root note is lit in the color of the currently selected track. Change the scale and root note in the document settings.
 * User Page 1-8: Allows to set a name for the user parameter pages

@@ -248,7 +248,8 @@ Press *Pad Mode* to activate. Press again to toggle to the configuration page. O
 
 * Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Combine with the Select button to select the drum without playing it.
 * Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
-* To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Use the display knobs to edit the parameters of the selected note. Use **Encoder up/down** to select more parameter pages.
+* To edit a note in the step sequencer press **Events**. In this mode, press one or more pads which contain notes to select them for editing. Use the display knobs to edit the parameters of the selected note(s). Use **Encoder up/down** to select more parameter pages. The selected note is lit in yellow.
+* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
 
 ### Play Mode
 

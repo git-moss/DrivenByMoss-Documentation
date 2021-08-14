@@ -135,8 +135,8 @@ To change the other scale settings switch to the Play Mode and change it there.
 * **Mute/Solo 3**: Toggle Solo of selected track
 * **Mute/Solo 4**: Toggle Record Arm of selected track
 
-Note editing mode is de-/activated with **Alt+Step** or **Alt+Drum**. Press the pad with the note to edit.
-Then use the knobs as follow:
+Note editing mode is de-/activated with **Alt+STEP** or **Alt+DRUM**. Press the pad(s) with the note(s) to edit.
+Selected notes are lit in dark yellow. Then use the knobs as follow:
 
 * **Volume knob**: Changes the gain of the note
 * **Alt+Volume knob**: Changes the pressure of the note
@@ -254,14 +254,14 @@ The Mute/Solo buttons have the following functions:
 
 ### Browser Mode
 
-You can use the browser to add devices, switch presets and select sounds for the drum machine.
+You can use the browser to add devices, switch presets, insert clips and select sounds for the drum machine.
 
 You can activate the browser in different ways, depending on the use-case:
 
 * **Browser**: Activates the browser mode to exchange the currently selected device or select a different preset for the device.
 * **Shift+Browser**: Activates the browser mode to insert a device *before* the currently selected one.
 * **Alt+Browser**: Activates the browser mode to insert a device *after* the currently selected one.
-* **Browser+Pad**: If the drum sequencer is active and the Bitwig drum machine is loaded in the selected track you can exchange the sound of one of the drum machine pads by keeping the browser button pressed and pressing any of the grid pads. The sound of the row which contains the pressed pad will be exchanged.
+* **Browser+Pad**: If the drum sequencer is active and the Bitwig drum machine is loaded in the selected track you can exchange the sound of one of the drum machine pads by keeping the browser button pressed and pressing any of the grid pads. The sound of the row which contains the pressed pad will be exchanged. If the session mode is active the browser is opened to select a clip to insert into the session slot.
 
 The browser is used in the same way no matter how you opened it:
 

@@ -83,8 +83,12 @@ To change bank pages turn the encoder and keep the related button pressed (scene
 ### Drum Mode
 
 Press *Pad Mode* to activate. Press again to toggle to the configuration page. On this page pad 15/16 transpose the drum pads up/down.
-Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
-To edit a note in the step sequencer press **Events**. In this mode, press a pad which contains a note to select it for editing. Turn the encoder to change the value of the selected note parameter. Select the 6 available parameters by pressing the *Volume*, *Swing* and *Tempo* buttons. Press the buttons twice for the second parameter.
+
+* Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell.
+* Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
+* To edit a note in the step sequencer press **Events**. In this mode, press one or more pads which contain notes to select them for editing. Use the display knobs to edit the parameters of the selected note(s). Use **Encoder up/down** to select more parameter pages. The selected note is lit in yellow.
+* Turn the encoder to change the value of the selected note parameter. Select the 6 available parameters by pressing the *Volume*, *Swing* and *Tempo* buttons. Press the buttons twice for the second parameter.
+* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
 
 ### Play Mode
 

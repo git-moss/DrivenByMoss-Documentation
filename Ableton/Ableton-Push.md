@@ -226,8 +226,10 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * Long press a pad which contains a note to edit the parameters of the note (or all notes of the step in case of Poly Sequencer).
 * Multiple notes can be edited in sequencers by using the select button in combination with a sequencer note pad.
 * Use the Scene buttons to change the grids resolution.
-* Shift+Pad enables and increases note repeat by 1.
-* Shift+Select+Pad enables and decreases note repeat by 1.
+* **Shift+Pad** enables and increases note repeat by 1.
+* **Shift+Select+Pad** enables and decreases note repeat by 1.
+* **Select+Pad** selects a note for editing. Selected notes are lit in yellow.
+* **Mute+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
 
 ### Note Sequencer
 
