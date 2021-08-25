@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**13.6.1 (unreleased)**
+
+* Requires Bitwig 4.0
+* New: Improved output message when Java DLL could not be loaded.
+* Launchpad
+  * Fixed: Clips in session mode were always shown in orange when not playing.
+
 **13.6.0**
 
 * Requires Reaper 6.12+

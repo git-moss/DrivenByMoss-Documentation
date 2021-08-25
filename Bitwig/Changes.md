@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**13.6.1 (unreleased)**
+
+* Requires Bitwig 4.0
+* Launchpad
+  * Fixed: Clips in session mode were always shown in orange when not playing.
+
 **13.6.0**
 
 * Requires Bitwig 4.0
