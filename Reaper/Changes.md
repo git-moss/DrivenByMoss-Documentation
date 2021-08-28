@@ -3,7 +3,12 @@
 **13.6.1 (unreleased)**
 
 * Requires Bitwig 4.0
-* New: Improved output message when Java DLL could not be loaded.
+* All devices
+  * New: A browser window is now simulated in Reaper, which makes the browser finally usable on devices without a display.
+  * New: Improved output message when Java DLL could not be loaded.
+  * New: Browser: Filters for AU and AUi are only shown if present.
+  * New: Browser: Categories for JS plugins are integrated in VST categories.
+  * Fixed: Browser preset selection was wrong when there were more than 9 presets.
 * Launchpad
   * Fixed: Clips in session mode were always shown in orange when not playing.
 
