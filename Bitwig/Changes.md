@@ -3,6 +3,12 @@
 **13.6.1 (unreleased)**
 
 * Requires Bitwig 4.0
+* Beatstep
+  * Fixed: Play button did not work.
+  * Fixed: The template had set the wrong global MIDI channel (1 instead of 3).
+  * Fixed: The manual missed the command tables for all modes.
+* Generic Flexi
+  * Fixed: File dialogs were not working on some Linux systems.
 * Launchpad
   * Fixed: Clips in session mode were always shown in orange when not playing.
 
