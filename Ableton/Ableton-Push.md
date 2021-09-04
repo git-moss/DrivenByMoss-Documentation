@@ -40,7 +40,7 @@ After you have copied the file reboot your computer.
 * **Metronome** - Toggle metronome. Long press to bring up the metronome settings mode.
 * **Shift+Metronome** - Toggle metronome ticks
 * **Tap Tempo** - Tap Tempo
-* **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
+* **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Mute**.
 * **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
 * **Select+Mute**: Deactivate all mutes
 * **Select+Solo**: Deactivate all solos
