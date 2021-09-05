@@ -1,18 +1,28 @@
 # Changes - Cockos Reaper
 
-**13.7.0 (unreleased)**
+**13.7.0**
 
 * Requires Reaper 6.12+
 * All devices
   * New: A browser window is now simulated in Reaper, which makes the browser finally usable on devices without a display.
-  * New: Improved output message when Java DLL could not be loaded.
   * New: Browser: Filters for AU and AUi are only shown if present.
   * New: Browser: Categories for JS plugins are integrated in VST categories.
   * New: Improved adding of tracks with devices (faster and more reliable).
   * New: For Instrument tracks input is set to all MIDI inputs and overdub is activated.
+  * New: Preserves the index of the selected device when switching tracks, e.g. if the 2nd device on a track is selected, switching to another track will have the 2nd device on this track selected, if one exists.
+  * New: Tracks can now be pinned.
+  * New: Improved output message when Java DLL could not be loaded.
   * Fixed: Browser preset selection was wrong when there were more than 9 presets.
+* Beatstep
+  * Fixed: Play button did not work.
+  * Fixed: The template had set the wrong global MIDI channel (1 instead of 3).
+  * Fixed: The manual missed the command tables for all modes.
+* Generic Flexi
+  * New: MIDI channel can be set to All but this will disable the reflection of the value to the device.
 * Launchpad
   * Fixed: Clips in session mode were always shown in orange when not playing.
+* Push 2
+  * New: A pinned track shows a pin as its' icon.
 
 **13.6.0**
 

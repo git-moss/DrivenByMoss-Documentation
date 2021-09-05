@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**13.6.1 (unreleased)**
+**13.7.0**
 
 * Requires Bitwig 4.0
 * Beatstep
@@ -8,9 +8,12 @@
   * Fixed: The template had set the wrong global MIDI channel (1 instead of 3).
   * Fixed: The manual missed the command tables for all modes.
 * Generic Flexi
+  * New: MIDI channel can be set to All but this will disable the reflection of the value to the device.
   * Fixed: File dialogs were not working on some Linux systems.
 * Launchpad
   * Fixed: Clips in session mode were always shown in orange when not playing.
+* Push 2
+  * New: A pinned track shows a pin as its' icon.
 
 **13.6.0**
 

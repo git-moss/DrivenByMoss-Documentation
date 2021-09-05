@@ -131,7 +131,7 @@ This block configures the MIDI command, which needs to be received to trigger th
 
 * Type: The type of MIDI command to trigger the command
 * Number: The number of the MIDI command
-* Midi Channel: The MIDI channel on which to receive the command
+* Midi Channel: The MIDI channel on which to receive the command. Can also be set to *All* to accept the command on all MIDI channels. In that case the *Send value to device* option cannot be executed.
 * Resolution: High resolution of 14-bit (16384 values instead of 128) is available for pitchbend (always) and CC messages below 32.
 * Knob Mode: The encoding of the value sent by a knob, e.g. relative or absolute knobs
 * Send value to device: Enable if value changes of the assigned function should be reflected back to the controller. Only works, if the controller uses the exact same command for sending and receiving.
