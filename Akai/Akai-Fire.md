@@ -1,4 +1,4 @@
-# Akai Fire
+# Akai Professional Fire
 
 Support script for Akai Fire controller.
 

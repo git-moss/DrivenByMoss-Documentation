@@ -1,4 +1,4 @@
-# Akai APC40 / APC40mkII
+# Akai Professional APC40 / APC40mkII
 
 Support script for Akais' APC40 and APC40mkII controller.
 

@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**14.0.0 (unreleased)**
+
+* Requires Bitwig 4.0
+* Support for Akai MPC Live
+* Support for Akai MPC Live II
+* Support for Akai MPC One
+* Support for Akai MPC X
+* Support for Akai Force
+
 **13.7.0**
 
 * Requires Bitwig 4.0

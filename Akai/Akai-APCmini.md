@@ -1,4 +1,4 @@
-# Akai APCmini
+# Akai Professional APCmini
 
 Support script for Akais' APCmini controller. You can control track parameters, devices and session view.
 

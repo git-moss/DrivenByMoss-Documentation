@@ -1,5 +1,17 @@
 # Changes - Cockos Reaper
 
+**14.0.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* Support for Akai MPC Live
+* Support for Akai MPC Live II
+* Support for Akai MPC One
+* Support for Akai MPC X
+* Support for Akai Force
+* All devices
+  * New: Arrange and launcher overdub on/off are now mapped to MIDI overdub/replace of the selected track.
+  * New: Follow playback triggers *View: Toggle auto-view-scroll during playback*.
+
 **13.7.0**
 
 * Requires Reaper 6.12+
