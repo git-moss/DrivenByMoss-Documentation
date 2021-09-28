@@ -77,7 +77,7 @@ You can also access the following controls and features by tapping the buttons a
 * Tap Quantize at the bottom of the screen to quantize the currently selected clip according to the *Quantize To* value.
 * Tap Delete at the bottom of the screen to delete the currently selected clip.
 * Tap Insert Scene at the bottom of the screen to insert a new scene.
-* Tap Rec at the bottom of the screen to enable or disable Arrangement Record.
+* Tap Rec at the bottom of the screen to insert a new MIDI clip, start playing it back and enable overdub. The length of the clip can be configured in the settings.
 
 **MPC**
 
@@ -214,6 +214,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

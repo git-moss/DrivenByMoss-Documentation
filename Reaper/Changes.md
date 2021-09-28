@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**14.0.0 (unreleased)**
+**14.0.0**
 
 * Requires Reaper 6.12+
 * Support for Akai MPC Live
@@ -11,6 +11,9 @@
 * All devices
   * New: Arrange and launcher overdub on/off are now mapped to MIDI overdub/replace of the selected track.
   * New: Follow playback triggers *View: Toggle auto-view-scroll during playback*.
+  * New: Create scene: Is now emulated by inserting a new region marker after the last region marker in the project (or at the beginning of the project if there is no region marker yet). The length is taken from the 'new clip length' setting.
+  * New: Duplicate scene: Is now emulated by duplicating all clips in the time range of the region. The new clips are inserted after the current region (all other clips are moved back) and a new region is created for duplicated clips.
+  * New: Create scene from playing clips: Is now emulated by duplicating the the region which contains the edit cursor (if any).
 
 **13.7.0**
 
