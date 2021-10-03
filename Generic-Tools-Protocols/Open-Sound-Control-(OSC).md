@@ -353,6 +353,7 @@ The parameters of the command documentation below are as follows:
 | /scene/{+,-}                          | {1,-}       | Step by 1.                                     |
 | /scene/bank/{+,-}                     | {1,-}       | Step by 8.                                     |
 | /scene/create                         | {1,-}       | Create a new scene from all playing clips.     |
+| /scene/add                            | {1,-}       | Create a new scene  at the end of the scene list. |
 | /scene/{1-8}/launch                   |             | Launches the scene.                            |
 | /scene/{1-8}/duplicate                |             | Duplicates the scene.                          |
 | /scene/{1-8}/remove                   |             | Remove/delete the scene.                       |

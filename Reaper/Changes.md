@@ -1,5 +1,20 @@
 # Changes - Cockos Reaper
 
+**14.1.0**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: The Debug menu contains now an option to disable reading of the track chunk, which is by default enabled. This fixes issues with large sample plugins in the project (e.g. Kontakt or Omnisphere) but loses track deactivation and record quantization states.
+* Generic Flexi
+  * New: *Scene: Create Scene:* - Creates a new scene at the end of the scene list.
+* Launchpad
+  * New: Drum mode: The loop length area has now new functions. There is one red button on the right bottom to toggle the functions on and off. If enabled, the 2nd row contains the previous combination buttons. The first row now allows to toggle note repeat, enable the selection of note repeat period with the Scene buttons, enable the selection of note repeat note length with the Scene buttons.
+* OSC
+  * New: */scene/add* - Creates a new scene at the end of the scene list.
+* Push
+  * New: Select+Duplicate: Creates a new scene at the end of the scene list.
+  * Fixed: Push 1: Notification messages on the display were canceled too early.
+
 **14.0.0**
 
 * Requires Reaper 6.12+

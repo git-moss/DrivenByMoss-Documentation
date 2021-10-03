@@ -1,5 +1,19 @@
 # Changes - Bitwig Studio
 
+**14.1.0**
+
+* Requires Bitwig 4.0
+* Generic Flexi
+  * New: *Scene: Create Scene:* - Creates a new scene at the end of the scene list.
+* Launchpad
+  * New: Drum mode: The loop length area has now new functions. There is one red button on the right bottom to toggle the functions on and off. If enabled, the 2nd row contains the previous combination buttons. The first row now allows to toggle note repeat, enable the selection of note repeat period with the Scene buttons, enable the selection of note repeat note length with the Scene buttons.
+* OSC
+  * New: */scene/add* - Creates a new scene at the end of the scene list.
+* Push
+  * New: Select+Duplicate: Creates a new scene at the end of the scene list.
+  * Fixed: Push 1: Notification messages on the display were canceled too early.
+  * Fixed: Push 2: Drawing glitch when no track was selected when navigating into a group with the cursor keys on the computer keyboard.
+
 **14.0.0**
 
 * Requires Bitwig 4.0
@@ -61,7 +75,7 @@
   * New: Added option for the action to execute when stopping playback.
 * Push 1/2
   * New: Multiple notes can now be edited in sequencers. Use the select button in combination with a sequencer note pad.
-  * New: To descrease ratcheting use now Shift + Select + Sequencer note pad.
+  * New: To decrease ratcheting use now Shift + Select + Sequencer note pad.
   * New: Notes in Poly Sequencer can now be edited, too.
   * New: Renamed first note edit page to 'Common'. Set gain to 50% when resetting (was 0%).
 * Novation SLMkIII

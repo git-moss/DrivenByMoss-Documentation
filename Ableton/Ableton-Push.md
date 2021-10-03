@@ -27,7 +27,8 @@ After you have copied the file reboot your computer.
 * **Delete+Automation** - Resets any automation overrides.
 * **Fixed Length** - Select the length of the midi clip for _New_. The upper row gives you the option to create a new clip of the selected length without storing it.
 * **Duplicate** - Combine with a scene pad (duplicate scene) or a track select button (duplicate track). To copy clips in session mode keep the Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip as the source); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
-* **Shift+Duplicate** - Create a new scene from the currently playing clips
+* **Shift+Duplicate** - Create a new scene from the currently playing clips.
+* **Select+Duplicate** - Creates a new scene at the end of the scene list.
 * **Quantize** - Quantizes the currently selected clip.
 * **Shift+Quantize** (or long press Quantize) - Access the Quantize and Groove configuration modes
 * **Double (Loop)** - Duplicate the content of the currently selected clip (not the clip itself)
