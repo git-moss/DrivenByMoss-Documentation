@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**14.2.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Vertical scroll selected tracks into view (not only in mixer).
+  * New: Updated to JDK 17.
+* Generic Flexi
+  * New: Increased number of slots to 300.
+
 **14.1.0**
 
 * Requires Reaper 6.12+

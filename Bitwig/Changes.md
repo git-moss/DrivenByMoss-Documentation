@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**14.2.0 (unreleased)**
+
+* Requires Bitwig 4.0
+* Generic Flexi
+  * New: Increased number of slots to 300.
+
 **14.1.0**
 
 * Requires Bitwig 4.0
