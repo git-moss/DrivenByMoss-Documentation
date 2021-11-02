@@ -1,0 +1,36 @@
+name: Create PDF
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Configure
+        uses: actions/checkout@v2
+        
+      - name: Create output folder
+        run: |
+          mkdir output  # create output dir
+      
+      - name: Convert MD files to PDF
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: --standalone --toc --resource-path=.:Novation -V geometry:margin=2.5cm --number-sections --output=output/DrivenByMoss-Manual.pdf README.md Installation.md KnownIssues.md Ableton/Ableton-Push.md Akai/Akai-APC40-APC40mkII.md Akai/Akai-APCmini.md Akai/Akai-Fire.md Akai/Akai-MPC-Force.md Arturia/Arturia-Beatstep.md Generic-Tools-Protocols/AutoColor.md Generic-Tools-Protocols/Generic-Flexi.md Mackie/Mackie-HUI.md Mackie/Mackie-MCU.md Generic-Tools-Protocols/MidiMonitor.md "Native-Instruments/Native-Instruments-Kontrol1.md" "Native-Instruments/Native-Instruments-Kontrol2.md" "Native-Instruments/Native-Instruments-Maschine-Jam.md" "Native-Instruments/Native-Instruments-Maschine-Mk3.md" "Native-Instruments/Native-Instruments-Maschine-Mikro-Mk3.md" Novation/Novation-LaunchkeyMk3.md Novation/Novation-LaunchkeyMiniMk3.md Novation/Novation-Launchpad.md Novation/Novation-Remote-SLmkI-mkII.md Novation/Novation-SLMkIII.md Generic-Tools-Protocols/Open-Sound-Control-(OSC).md Bitwig/Changes.md Reaper/Changes.md
+      
+      - name: Publish result
+        uses: actions/upload-artifact@v2
+        with:
+          name: DrivenByMoss-Manual
+          path: output/DrivenByMoss-Manual.pdf
