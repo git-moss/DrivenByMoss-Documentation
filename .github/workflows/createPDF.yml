@@ -18,15 +18,19 @@ jobs:
 
     steps:
       - name: Configure
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
+        
+      - name: Collect MD files
       - run: |
           mkdir output  # create output dir
           # this will also include README.md
           echo "FILELIST=$(printf '"%s" ' *.md)" >> $GITHUB_ENV
+      
       - name: Convert MD files to PDF
-      - uses: docker://pandoc/latex:2.9
+        uses: docker://pandoc/latex:2.9
         with:
           args: --standalone --toc --resource-path=.:/data/Novation -V geometry:margin=2.5cm --number-sections --output=output/DrivenByMoss-Manual.pdf ${ env.FILELIST }
+      
       - name: Publish result
         uses: actions/upload-artifact@v2
         with:
