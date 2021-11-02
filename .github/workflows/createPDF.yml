@@ -32,4 +32,5 @@ jobs:
       - name: Publish result
         uses: actions/upload-artifact@v2
         with:
-         path: output/DrivenByMoss-Manual.pdf
+          name: DrivenByMoss-Manual
+          path: output/DrivenByMoss-Manual.pdf
