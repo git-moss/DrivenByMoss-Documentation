@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Collect MD files
-      - run: |
+        run: |
           mkdir output  # create output dir
           # this will also include README.md
           echo "FILELIST=$(printf '"%s" ' *.md)" >> $GITHUB_ENV
