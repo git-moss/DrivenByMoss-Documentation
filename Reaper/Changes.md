@@ -6,8 +6,17 @@
 * All devices
   * New: Vertical scroll selected tracks into view (not only in mixer).
   * New: Updated to JDK 17.
+* Akai Fire
+  * Fixed: Some missing settings were not documented in the manual.
+* Akai Force
+  * New: COPY - Duplicates the selected clip and starts it.
+  * New: SELECT + COPY - Creates a new scene.
+* Akai MPC
+  * New: COPY - Duplicates the selected clip and starts it.
 * Generic Flexi
   * New: Increased number of slots to 300.
+* Launchpad Pro Mk3 / Launchkey Mk3 / Push 2
+  * New: Improved auto detection depending no Linux version.
 
 **14.1.0**
 

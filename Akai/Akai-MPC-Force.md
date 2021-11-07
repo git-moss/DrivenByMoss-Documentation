@@ -169,7 +169,8 @@ Sadly, the Q-Links on the MPC do not work (they also do not work in Ableton).
 * **LOAD** - Open the Load dialog to open a project (button cannot be lit).
 * **SAVE** - Save the current project (button cannot be lit).
 * **SELECT** - Press and hold this button and tap a clip or scene to select it without launching it.
-* **COPY** - Keep pressed and press a pad to duplicate the according clip. Combine with LAUNCH buttons to duplicate the scene. Combine with track select buttons to duplicate a track.
+* **SELECT + COPY** - Creates a new scene.
+* **COPY** - Duplicates the selected clip and starts it. Keep pressed and press a pad to duplicate the according clip. Combine with LAUNCH buttons to duplicate the scene. Combine with track select buttons to duplicate a track.
 * **DELETE** - Keep pressed and press a pad to delete the according clip. Combine with LAUNCH buttons to delete the scene. Combine with track select buttons to delete a track.
 * **MATRIX, CLIP, MIXER** - Selects the three views of the Control Mode.
 * **Cursor buttons** - Navigate the clip matrix by 1. Use with SHIFT for steps of 8.

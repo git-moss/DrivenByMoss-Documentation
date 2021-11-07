@@ -4,6 +4,8 @@ Support for Novations' SL Mk III controller.
 
 ## Installation
 
+**Important**: Make sure that you have the latest firmware for your device installed with the Novation Components application! Otherwise, you might have strange effects!
+
 * If you added the controller manually, choose the 2nd MIDI port of the device as in-/output. Select the first port as the 2nd input.
 * To activate DAW control you need to press the **INCONTROL button** on the SL MkIII, which is on the left between the Global and Tempo button. Toggling the button allows you to use both the DrivenByMoss features as well as the hardware features of the SL!
 

@@ -4,6 +4,8 @@ Support for the Novation Launchkey Mini Mk3 controller models 25, 37, 49 and 61.
 
 ## Installation
 
+**Important**: Make sure that you have the latest firmware for your device installed with the Novation Components application! Otherwise, you might have strange effects!
+
 * If you added the controller manually, choose the 2nd MIDI port ("DAW port") of the device as in-/output. Select the first port as the 2nd input ("MIDI port").
 * If you want to use the arpeggiator of the Launchkey you need to enable sending MIDI clock to the device.
 
