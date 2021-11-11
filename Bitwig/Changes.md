@@ -1,19 +1,27 @@
 # Changes - Bitwig Studio
 
-**14.2.0 (unreleased)**
+**15.0.0 (unreleased)**
 
-* Requires Bitwig 4.0
+* Requires Bitwig 4.1
 * Akai Fire
   * Fixed: Some missing settings were not documented in the manual.
 * Akai Force
-  * New: COPY - Duplicates the selected clip and starts it.
   * New: SELECT + COPY - Creates a new scene.
-* Akai MPC
+* Akai Force / MPC
   * New: COPY - Duplicates the selected clip and starts it.
+  * New: Undo button is dimmed if undo (or redo with Shift) is not possible.
+  * New: Tapping an already selected group track toggles its' expanded state.
 * Generic Flexi
   * New: Increased number of slots to 300.
 * Launchpad Pro Mk3 / Launchkey Mk3 / Push 2
-  * New: Improved auto detection depending no Linux version.
+  * New: Improved auto detection depending on Linux version.
+* MCU
+  * Fixed: Prevent not supported automation mode 'latch preview' from being set.
+* Push
+  * New: Undo button is off if undo (or redo with Shift) is not possible.
+  * New: Markers can be added in marker mode.
+  * New: Delete + 1st row buttons in Marker mode deletes marker.
+  * New: Improved auto detection depending on Linux version.
 
 **14.1.0**
 

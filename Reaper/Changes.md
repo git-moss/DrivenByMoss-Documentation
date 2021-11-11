@@ -1,22 +1,31 @@
 # Changes - Cockos Reaper
 
-**14.2.0 (unreleased)**
+**15.0.0 (unreleased)**
 
 * Requires Reaper 6.12+
 * All devices
   * New: Vertical scroll selected tracks into view (not only in mixer).
   * New: Updated to JDK 17.
+  * Fixed: There were some issues with markers.
+  * Fixed: Data sent on the low-priority thread was not sent when a data refresh was requested.
 * Akai Fire
   * Fixed: Some missing settings were not documented in the manual.
 * Akai Force
-  * New: COPY - Duplicates the selected clip and starts it.
   * New: SELECT + COPY - Creates a new scene.
-* Akai MPC
+* Akai Force / MPC
   * New: COPY - Duplicates the selected clip and starts it.
+  * New: Undo button is dimmed if undo (or redo with Shift) is not possible.
+  * New: Tapping an already selected group track toggles its' expanded state.
+  * New: The loop start and length is displayed and can be changed.
 * Generic Flexi
   * New: Increased number of slots to 300.
 * Launchpad Pro Mk3 / Launchkey Mk3 / Push 2
   * New: Improved auto detection depending no Linux version.
+* Push
+  * New: Undo button is off if undo (or redo with Shift) is not possible.
+  * New: Delete + 1st row buttons in Marker mode deletes marker.
+  * New: Improved auto detection depending on Linux version.
+  * Fixed: Push 1: *Add Marker* text was missing in marker mode and button LED was not lit.
 
 **14.1.0**
 
