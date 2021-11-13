@@ -15,13 +15,39 @@
 * Akai Force / MPC
   * New: COPY - Duplicates the selected clip and starts it.
   * New: Undo button is dimmed if undo (or redo with Shift) is not possible.
-  * New: Tapping an already selected group track toggles its' expanded state.
+  * New: Selecting an already selected group track toggles its' expanded state.
   * New: The loop start and length is displayed and can be changed.
 * Generic Flexi
   * New: Increased number of slots to 300.
+  * New: Selecting an already selected group track toggles its' expanded state.
+* Komplete Kontrol Mk2
+  * New: Undo button is off if undo (or redo with Shift) is not possible.
+  * New: Selecting an already selected group track toggles its' expanded state.
+* Launchkey Mk3
+  * New: Selecting an already selected group track toggles its' expanded state.
 * Launchpad Pro Mk3 / Launchkey Mk3 / Push 2
+  * New: Selecting an already selected group track toggles its' expanded state.
   * New: Improved auto detection depending no Linux version.
+* Maschine+, Maschine Mk2 / Mk3, Maschine Studio, Mikro Mk3
+  * New: Selecting an already selected group track toggles its' expanded state.
+  * New: Press Swing button twice to select Arrange Loop Start mode.
+  * New: Press Swing button three times to select Arrange Loop Length mode.
+  * New: Multiple footswitch support (2 on Mk3 / Plus, 4 on Studio), e.g. use a Boss FS-6 with a stereo cable.
+* Maschine Jam
+  * New: Selecting an already selected group track toggles its' expanded state.
+  * New: Multiple footswitch support, e.g. use a Boss FS-6 with a stereo cable.
+* MCU
+  * New: Selecting an already selected group track toggles its' expanded state (if track navigation is set to flat).
+* Novation Remote SL, Mk I, Mk II, SLMkIII
+  * New: Selecting an already selected group track toggles its' expanded state.
+* OSC
+  * New: Selecting an already selected group track toggles its' expanded state.
 * Push
+  * New: Selecting an already selected group track toggles its' expanded state.
+  * New: Push 1: For group tracks different characters are prefixed to show the opened state.
+  * New: Push 2: Track icon shows the opened state.
+  * New: Select + Tempo knob: Changes arrange loop start (combine with Shift for small changes).
+  * New: Select + Position knob: Changes arrange loop length (combine with Shift for small changes).
   * New: Undo button is off if undo (or redo with Shift) is not possible.
   * New: Delete + 1st row buttons in Marker mode deletes marker.
   * New: Improved auto detection depending on Linux version.
