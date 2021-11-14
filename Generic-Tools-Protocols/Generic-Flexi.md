@@ -24,7 +24,7 @@ Linux: If the file dialogs to save/load do not work make sure you have *zenity* 
 
 ## Configuration
 
-You have 200 slots to map buttons, knobs, faders, etc. to a function in your DAW. It is a good idea to save the settings to a file before you start to do any mapping, then regularily click on *Save* again.
+You have 300 slots to map buttons, knobs, faders, etc. to a function in your DAW. It is a good idea to save the settings to a file before you start to do any mapping, then regularily click on *Save* again.
 
 To map your controller do the following:
 
@@ -123,7 +123,7 @@ The Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can automatica
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
 ### Slot
-* Selected: The selected mapping slot to edit (1-200)
+* Selected: The selected mapping slot to edit (1-300)
 
 ### Selected Slot - MIDI trigger
 

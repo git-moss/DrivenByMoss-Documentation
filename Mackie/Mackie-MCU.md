@@ -133,7 +133,7 @@ F1 will now select the previous page, and F2 the next.
 * **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track
 * **Option + one of the Mute buttons**: Deactivate all mutes
 * **Option + one of the Solo buttons**: Deactivate all solos
-* **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
+* **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder. If track navigation is set to *flat*, selecting an already selected group track toggles its' expanded state.
 * **Send (MCU MODE SENDS) + Track selection buttons** - Select the send channel 1-8.
 * **Shift + Track selection buttons** - Set the length of a new clip.
 * **Option + Track selection buttons** - Stop the playing clip on the specific track.

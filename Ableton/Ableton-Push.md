@@ -36,8 +36,8 @@ After you have copied the file reboot your computer.
 * **Shift+Convert** (Push 2) - Bring up the Slice to Multi-sample dialog.
 * **Undo** - Undo. Press Shift for Redo.
 * **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
-* **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment).
-* **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment).
+* **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop start (combine with *Shift* for small changes).
+* **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop length (combine with *Shift* for small changes).
 * **Metronome** - Toggle metronome. Long press to bring up the metronome settings mode.
 * **Shift+Metronome** - Toggle metronome ticks
 * **Tap Tempo** - Tap Tempo
@@ -74,6 +74,7 @@ After you have copied the file reboot your computer.
 * Since the Push 2 is missing the buttons Volume and Pan & Send use the navigation knobs above the display. Since you loose the Mute/Solo buttons for the navigation long press Mute or Solo for the same behavior as with Push 1. You can also lock that functionality by pressing **Shift+Mute** or **Shift+Solo**. Press the same combination to unlock it.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
 * In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer. Furthermore, the note insert/edit MIDI channel can be selected in this mode.
+Selecting an already selected group track toggles its' expanded state if the Shift button is held.
 * Push 2: Hold Shift to access the Send 4 and 8 mode.
 
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
@@ -208,6 +209,11 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 Press the Session button twice to flip the grid which then matches the arrangement view.
 
 When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode.
+
+### Marker mode
+
+The 8 buttons below the display moves the play cursor to the position of the marker and (optionally) starts the playback from the respective marker. 2nd row buttons 7 and 8 choose between select only or start playback.
+*Delete* + 1st row buttons in Marker mode deletes a marker. Use the first 2nd row button to add a marker at the current play position.
 
 ## Scene view
 

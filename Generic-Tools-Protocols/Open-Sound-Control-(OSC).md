@@ -321,7 +321,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/name {text}     |               | Set a new name for the track.                                      |
 | /track/{1-8}/activated       | {0,1,-}       | Dis-/enable, toggle the track activation.                          |
 | /track/{1-8}/crossfadeMode/{A,B,AB} |        | Set the crossfade mode: A = Channel A, B = Channel B, AB = both.   |
-| /track/{1-8}/select          | {1,-}         | Select the track.                                                  |
+| /track/{1-8}/select          | {1,-}         | Select the track. Selecting an already selected group track toggles its' expanded state.|
 | /track/{1-8}/duplicate       |               | Duplicate the track.                                               |
 | /track/{1-8}/remove          |               | Remove/delete the track.                                           |
 | /track/{1-8}/volume          | {0-MAX_VALUE} | Set the volume of the track.                                       |

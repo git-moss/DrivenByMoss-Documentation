@@ -68,7 +68,7 @@ The following button comnbinations are available:
 
 ## Group Buttons (A-H)
 
-The **group buttons (A-H)** select the tracks in the current page of the track bank.
+The **group buttons (A-H)** select the tracks in the current page of the track bank. Selecting an already selected group (folder) track toggles its' expanded state.
 
 They can be used with the following button combinations:
 
@@ -295,6 +295,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
+* Footswitch settings: The Maschine Jam supports 2 footswitches. Since there is only 1 stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down lists.
 
 ### Drum Sequencer
 

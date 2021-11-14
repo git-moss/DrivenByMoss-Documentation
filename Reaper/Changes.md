@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**15.0.0 (unreleased)**
+**15.0.0**
 
 * Requires Reaper 6.12+
 * All devices
@@ -44,8 +44,8 @@
   * New: Selecting an already selected group track toggles its' expanded state.
 * Push
   * New: Selecting an already selected group track toggles its' expanded state.
-  * New: Push 1: For group tracks different characters are prefixed to show the opened state.
-  * New: Push 2: Track icon shows the opened state.
+  * New: Push 1: For group tracks different characters are prefixed to show the opened state of a group track.
+  * New: Push 2: Track icon shows the opened state of a group track.
   * New: Select + Tempo knob: Changes arrange loop start (combine with Shift for small changes).
   * New: Select + Position knob: Changes arrange loop length (combine with Shift for small changes).
   * New: Undo button is off if undo (or redo with Shift) is not possible.

@@ -64,7 +64,7 @@ Notes for the **ZeRO SL MkII**:
     * Use the up/down P2 buttons to select the next/previous 8 tracks (track bank)
   
 7. 3rd button row - Track selection
-    * Press one of the buttons to select one of the 8 tracks of the current track bank.
+    * Press one of the buttons to select one of the 8 tracks of the current track bank. Selecting an already selected group track toggles its' expanded state.
 
 8. 4th button row - Transport Off
     * **<< (Rewind)** - Rewinds play cursor position until released.

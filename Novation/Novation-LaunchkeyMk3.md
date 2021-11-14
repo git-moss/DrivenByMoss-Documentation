@@ -133,7 +133,7 @@ Note: There is a little bug in Launchkey, which causes the **...** button to be 
 
 The faders control the values selected by their mode: Device parameters, volume, send 1/2 and the 4 custom modes.
 The master fader always controls the volume of the master track.
-The buttons below the faders selects or arms record of a track depending on the Arm/Select button state.
+The buttons below the faders selects or arms record of a track depending on the Arm/Select button state. Selecting an already selected group track toggles its' expanded state.
 
 ## Preferences Settings
 

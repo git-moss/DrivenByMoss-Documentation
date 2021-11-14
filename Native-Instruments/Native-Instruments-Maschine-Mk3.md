@@ -131,7 +131,8 @@ Use the encoder in combination with **SHIFT** for slower changes.
 
 ## Group buttons
 
-The group buttons select the tracks in the current page of the track bank. They can be used with the following button combinations:
+The group buttons select the tracks in the current page of the track bank. Selecting an already selected group (folder) track toggles its' expanded state.
+They can be used with the following button combinations:
 
 * **REC** - Toggle rec arm of the track
 * **SOLO** - Toggle solo of the track
@@ -162,7 +163,7 @@ Press the encoder to toggle between fast and slow value changes.
 
 * **VOLUME** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value.
 * **Shift+VOLUME** - Toggles VU meter display.
-* **SWING** - Enables position mode. The encoder changes the position of the play cursor in the arranger.
+* **SWING** - Enables position mode. Press Swing button twice to select Arrange Loop Start mode. Press Swing button three times to select Arrange Loop Length mode. In all three modes use the encoder to change the related value.
 * **TEMPO/TUNE** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song.
 
 The buttons above the display have the following functions:
@@ -302,6 +303,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
+* Footswitch settings: The Maschine models Mk3 and Plus support 2 and the Studio 4 footswitches. Since there is only 1 (or 2 on Studio) stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down list.
 
 ## Document Settings
 

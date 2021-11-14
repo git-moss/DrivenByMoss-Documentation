@@ -116,7 +116,7 @@ the select mode (e.g. you see the mute-state of the current track page):
   8 tracks of the track bank.
 * **Track Select** (green) - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks 
   of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. 
-  Furthermore, the front LED is also lit in the color of the current track.
+  Furthermore, the front LED is also lit in the color of the current track. Selecting an already selected group track toggles its' expanded state.
 * **Mute** (yellow) - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the 
   track bank.
 * **Solo** (blue) - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of 

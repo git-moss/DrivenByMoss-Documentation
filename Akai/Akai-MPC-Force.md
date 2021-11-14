@@ -42,7 +42,8 @@ open it). Sadly, none of the modes contains all functions.
 * **Plus icon**: Enables / disables Arrangement overdubbing. Combine with Shift for toggling clip launcher overdubbing.
 * **Automation icon**: Enables / disables Arranger automation recording. Combine with Shift for toggling clip launcher automation.
 * **Loop icon**: Enable / disable the Arrangement loop.
-* **Loop Start and Length**: *currently no function*
+* **Loop Start**: If selected, use the data dial to move the start of the arranger loop. Combine with the Shift button for slower changes.
+* **Loop Length**: If selected, use the data dial to change the length of the arranger loop. Combine with the Shift button for slower changes.
 
 The Settings window also contains a **Quantize To** field to set the time division for quantization: 1/4, 1/8, 1/8T, 1/8 and 1/8T, 1/16, 1/16T,
 1/16 and 1/16T or 1/32. Since these values cannot be set in Bitwig, they are transformed to a *Quantize Amount* between 30% and 100%.
@@ -53,7 +54,7 @@ Control Mode consists of three main views, which can be selected by tapping the 
 display: Matrix View, Mixer View and Device Control View. Click the links to jump to that section.
 In each of these modes, you will always have access to the following controls and functions on the display:
 
-* Tap a track name to select it.
+* Tap a track name to select it. Selecting an already selected group track toggles its' expanded state.
 * Tap the stop icons at the bottom of the display to stop clips in the selected track.
 * Tap the Launch Quantize field (above the scene launch arrows) to set the Launch Quantize value. Since Bitwig does only support straight notes only those can be selected.
 * Tap the Scene Launch arrows on the right side of the display to launch all clips in that row.
@@ -174,7 +175,7 @@ Sadly, the Q-Links on the MPC do not work (they also do not work in Ableton).
 * **DELETE** - Keep pressed and press a pad to delete the according clip. Combine with LAUNCH buttons to delete the scene. Combine with track select buttons to delete a track.
 * **MATRIX, CLIP, MIXER** - Selects the three views of the Control Mode.
 * **Cursor buttons** - Navigate the clip matrix by 1. Use with SHIFT for steps of 8.
-* **Track Selectors** - Select one of the current eight tracks. The selected track will be highlighted white. Combine with COPY/DELETE to duplicate/delete the track.
+* **Track Selectors** - Select one of the current eight tracks. The selected track will be highlighted white. Combine with COPY/DELETE to duplicate/delete the track. Selecting an already selected group track toggles its' expanded state.
 * **MUTE** - Sets the Track Assign buttons to Mute for the current eight tracks.
 * **SOLO** - Sets the Track Assign buttons to Solo for the current eight tracks.
 * **REC ARM** - Sets the Track Assign buttons to Record Arm for the current eight tracks.
