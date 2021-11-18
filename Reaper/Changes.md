@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**15.1.0**
+
+* Requires Reaper 6.12+
+* Push
+  * New: Marker pages can be switched with left/right cursor key (no need to press Shift).
+  * Fixed: The open folder icon was missing.
+
 **15.0.0**
 
 * Requires Reaper 6.12+

@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**15.1.0**
+
+* Requires Bitwig 4.1
+* Push
+  * New: Marker pages can be switched with left/right cursor key (no need to press Shift).
+
 **15.0.0**
 
 * Requires Bitwig 4.1
