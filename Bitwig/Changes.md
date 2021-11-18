@@ -3,8 +3,13 @@
 **15.1.0**
 
 * Requires Bitwig 4.1
+* APC40 / APC40 mkII
+  * New: Selecting an already selected group track toggles its' expanded state.
+  * New: Left cursor + Cue Level knob: Changes arrange loop start (combine with Shift for small changes).
+  * New: Right cursor + Cue Level knob: Changes arrange loop length (combine with Shift for small changes).
 * Push
   * New: Marker pages can be switched with left/right cursor key (no need to press Shift).
+  * Fixed: Open folder icon was not shown in all track modes.
 
 **15.0.0**
 

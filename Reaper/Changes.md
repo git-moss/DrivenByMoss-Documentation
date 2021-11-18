@@ -3,6 +3,10 @@
 **15.1.0**
 
 * Requires Reaper 6.12+
+* APC40 / APC40 mkII
+  * New: Selecting an already selected group track toggles its' expanded state.
+  * New: Left cursor + Cue Level knob: Changes arrange loop start (combine with Shift for small changes).
+  * New: Right cursor + Cue Level knob: Changes arrange loop length (combine with Shift for small changes).
 * Push
   * New: Marker pages can be switched with left/right cursor key (no need to press Shift).
   * Fixed: The open folder icon was missing.

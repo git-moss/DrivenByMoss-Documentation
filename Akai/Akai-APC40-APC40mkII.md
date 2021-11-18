@@ -15,6 +15,8 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Detail View** - Toggle plugin window (if any)
 * **Shift+Detail View** - Step through the layout perspectives
 * **Cue Level** - Move play cursor (press shift for finer adjustment)
+* **Left cursor + Cue Level** - Changes arrange loop start (combine with Shift for small changes).
+* **Right cursor + Cue Level** - Changes arrange loop length (combine with Shift for small changes).
 * **Tap Tempo** - Tap Tempo
 * APC40: **Tap Tempo + Cue Level** changes tempo.
 * **Nudge+** - Redo
