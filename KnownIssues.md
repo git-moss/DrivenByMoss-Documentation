@@ -18,13 +18,14 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 * The only way to insert MIDI messages into Reaper is via the Virtual MIDI keyboard input. If you map something with generic Flexi, it goes only into that channel (but not into the Action mapping) and does only work if the channel is record enabled. Therefore, the use-case is only to control devices which react or require MIDI CC.
 * MIDI clock cannot be sent to the device since this would require to enable the MIDI output of the device in Reaper.
 * The metronome volume text description is not updated (always shows -6.0dB).
-* The Groove settings allow to dis-/enable the arrange swing grid and set the amount.
 * Automation Touch mode is only supported for volume and panorama (limitation of the Reaper CSI API).
+* Disabled envelope automations are still sent to the device.
 
 ### Workarounds
 
 For some limitations there are workarounds available:
 
+* The Groove settings allow to dis-/enable the arrange swing grid and set the amount.
 * The browser is support for devices and Reaper device presets. A browser window is simulated in Reaper.
 * **Scenes**: Scenes are emulated by range markers. Starting the n-th Scene triggers playback from the start of the n-th range marker. *Creating a scene* is emulated by inserting a new region marker after the last region marker in the project (or at the beginning of the project if there is no region marker yet). The length is taken from the *new clip length* setting. *Duplicating a scene* is emulated by duplicating all clips in the time range of the region. The new clips are inserted after the current region (all other clips are moved back) and a new region is created for duplicated clips. *Creating scene from playing clips* is emulated by duplicating the the region which contains the edit cursor (if any). For smooth transitions between scene switches activate the option *Smooth Seeking (seeks at end of measure)* in the Options menu of Reaper. In Reapers' preference dialog in the *Audio* section there is a sub-section called *Seeking*. In its' setting page there is the option *Do not change playback position immediately when seeking (smooth seek)* which is identicial to the option in the Options menu. If enabled there is a refinement to choose to switch on measure or enable *Play to next project marker, ...*.
 * **User Parameters**: On devices which support User Parameters, these control the Track FX parameters in Reaper. If a user mode is active and a new Track FX parameter is added, the user mode must be left and reentered to make the parameter work.
