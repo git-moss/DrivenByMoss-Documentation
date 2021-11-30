@@ -303,7 +303,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
-* Footswitch settings: The Maschine models Mk3 and Plus support 2 and the Studio 4 footswitches. Since there is only 1 (or 2 on Studio) stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down list.
+* Footswitch settings: The Maschine models Mk3 and Plus support 2 and the Studio 4 footswitches. Since there is only 1 (or 2 on Studio) stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down list. The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the Macro button) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
 
 ## Document Settings
 

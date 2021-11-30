@@ -122,6 +122,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Footswitch 1/2: Select a function to execute when the first/second footswitch is pressed
 * F1-F8: Select a function to execute when the respective function key is pressed
 
+The available functions should be self-explanatory, except:
+
+* *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (uses the *New Clip Length* setting) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
+
 ### Transport
 
 * Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
@@ -131,6 +135,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
+* New clip length: The length of a clip created with the New function.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

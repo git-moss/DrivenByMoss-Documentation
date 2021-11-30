@@ -207,8 +207,8 @@ Touch the master fader to enter
 
 ## Foot switches
 
-* **Footswitch 1** (MCU USER A) - Function be assigned in the settings dialog.
-* **Footswitch 2** (MCU USER B) - Function be assigned in the settings dialog.
+* **Footswitch 1** (MCU USER A) - Function be assigned in the settings dialog (see below).
+* **Footswitch 2** (MCU USER B) - Function be assigned in the settings dialog (see below).
 
 ## Preferences Settings
 
@@ -251,7 +251,11 @@ Changing these settings requires a restart of the extension.
 
 * Footswitch 1/2: Select a function to execute when the first/second footswitch is pressed
 * F1-F5: Select a function to execute when the respective function key is pressed
-* If *Action* is selected as the function, the field below allows to select the action to execute
+
+The available functions should be self-explanatory, except:
+
+* *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (uses the *New Clip Length* setting) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
+* *Action*: if selected as the function, the field below allows to select the action to execute.
 
 ### Transport
 

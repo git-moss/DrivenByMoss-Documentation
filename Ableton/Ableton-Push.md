@@ -120,6 +120,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * Hold the Shift button in Preset mode to scroll quickly.
     * 1st button row: Select the previous patch/filter
     * 2nd button row: Select the next patch/filter
+    * Shift + 8th button on the 1st button row: Toggle preview
     * Use the arrow left and right to switch between the browser tabs
     * **Delete+touch knob**: Resets a filter to its default value
     * Press *Browse* again to Confirm the selection or *Shift+Browse* to Cancel.
@@ -309,7 +310,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Display scenes/clips: Display the names of scenes/clips in the display
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 * Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
-* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view?
 
 ### Transport
 
@@ -332,7 +333,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
-* Footswitch 2: What action to execute if you press the 2nd footswitch (1st footswitch is always assigned to MIDI sustain).
+* Footswitch 2: What action to execute if you press the 2nd footswitch (1st footswitch is always assigned to MIDI sustain). The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the New button) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
 * Stop automation recording on knob release: If you e.g. change the volume of a track for automation and release the knob, automation recording is automatically switched off.
 * New clip length: The length of a clip created with the New function.
 * Knob Speed Normal: Adjust the speed of the knobs

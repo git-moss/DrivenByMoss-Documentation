@@ -392,6 +392,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Flip Session: Change the orientation of the tracks/clips horizontal or vertical
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view?
 
 ### Drum Sequencer
 

@@ -1,5 +1,17 @@
 # Changes - Cockos Reaper
 
+**15.2.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Improved handling of MIDI devices. Missing devices (e.g. if turned off or not connected) are no longer overwritten in the settings. Missing devices are shown as missing in the selection box. Devices are sorted alphabetically. When *Rescan* is pressed and a missing device shows up it is selected. Controllers with missing devices are not started. Missing or not configured ports are shown in the log.
+* Generic Flexi
+  * New: New functions to select device parameter pages 1-8.
+* Launchpad
+  * New: Added option to choose action for pressing an empty clip on a record enabled track.
+* Mackie HUI
+  * New: Added *New Clip Length* setting to be used with footwswitch and function-keys commands *New Button* and *Clip Based looper*.
+
 **15.1.0**
 
 * Requires Reaper 6.12+
