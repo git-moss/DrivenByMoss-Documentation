@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**15.2.0 (unreleased)**
+**15.2.0**
 
 * Requires Bitwig 4.1
 * Generic Flexi
@@ -11,7 +11,7 @@
   * New: Added *New Clip Length* setting to be used with footwswitch and function-keys commands *New Button* and *Clip Based looper*.
 * Push 1/2
   * New: Shift+8th button in browser mode toggles the preview.
-  * Fixed: Selecting occurrence types with/without prev channel did crash.
+  * Fixed: Selecting occurrence types 'with/without prev channel' did crash.
 * Push, Maschine, HUI, MCU
   * Fixed: Foot controller command *Clip based looper* did not work. Explanation what it does was added to the manual.
 

@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**15.2.0 (unreleased)**
+**15.2.0**
 
 * Requires Reaper 6.12+
 * All devices
