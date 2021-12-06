@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**15.2.1**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Devices with empty MIDI input or output ports could not be configured.
+
 **15.2.0**
 
 * Requires Reaper 6.12+
