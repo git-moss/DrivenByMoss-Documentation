@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**15.3.0 (unreleased)**
+**15.3.0**
 
 * Generic Flexi
   * New: Support for MPE.
