@@ -1,6 +1,6 @@
 # Generic Flexi
 
-Supports any MIDI controller with 1 midi in-/output. You can assign several commands in Bitwig to the knobs, button, faders, etc. of your controller, which will then be readily available each time you start your DAW.
+Supports any (MPE) MIDI controller with 1 midi in-/output. You can assign several commands in Bitwig to the knobs, button, faders, etc. of your controller, which will then be readily available each time you start your DAW.
 
 The Generic Flexi needs to be added manually. Open the controller settings and click on *Add controller*, select *Generic*, and then *Flexi* from the list. After that, select the input and output of your MIDI controller.
 
@@ -114,9 +114,13 @@ After that up to 127 lines with program names can follow (you can have less).
 
 ## Configure the keyboard / pads
 
+Note (Bitwig): To make changes in this section become effective a restart of the extension is required (turn it off and on again).
+
 If your controller has a keyboards or pads you can enable it by configuring the MIDI channel. The MIDI channel can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played.
 
-The Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend can automatically be routed to your DAW. Turn them off if you want to map them to something else.
+The Modulation Wheel (CC 01), Sustain Pedal (CC 64), Timbre (CC 74) and Pitchbend can be directly routed to your In that case they are not available as a mapping source.
+
+If the controller supports MPE, enable the MPE switch. In that case the lower MPE zone is enabled using all 15 channels. Furthermore, the direct routing of Timbre should be activated, which normally is used as another MPE modulator besides pitch bend.
 
 ## Preferences Settings
 
@@ -174,7 +178,10 @@ You can select only one function from the lists. If you select a function from a
 Changing these settings requires restarting the extension to make them active!
 If the connected device has a keyboard or pads, the following settings allow to configure it.
 
+* MIDI Polyphonic Expression (MPE): Enable if your controller supports MPE.
+* MPE Pitch Bend Sensitivity: Sets the sensitivity of the pitch bend modulation when MPE is active.
 * Midi Channel: The MIDI channel on which the keyboard sends its data
+* Route Timbre: Enable to send received MIDI timbre commands to the DAW. Disable if you use MIDI modulation as a slot trigger. Enable if you use MPE.
 * Route Modulation: Enable to send received MIDI modulation commands to the DAW. Disable if you use MIDI modulation as a slot trigger.
 * Route Sustain: Enable to send received MIDI sustain commands to the DAW. Disable if you use MIDI sustain as a slot trigger.
 * Route Pitchbend: Enable to send received MIDI pitchbend commands to the DAW. Disable if you use MIDI pitchbend as a slot trigger.

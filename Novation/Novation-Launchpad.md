@@ -262,6 +262,7 @@ Press _"Note"_ and select the first blue pad to change to the **Drum Sequencer**
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
 * The loop area in the drum sequencer is shortened by 4 pads. These 4 pads can be used in combination with the play area. From left to right they provide the following functions: select a drum pad without playing the sound, mute the drum pad, solo the drum pad, open the browser for the drum pad. With Reaper only selection is functional.
+* If *Fixed Accent* is active the loop area shows 15 velocities. The selected velocity is used when enabling a note in the sequencer.
 
 ![Drum Sequencer Mode - Drum](Diagrams/Launchpad/drum-sequencer-drum.png)
 

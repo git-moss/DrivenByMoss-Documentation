@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**15.3.0 (unreleased)**
+
+* Generic Flexi
+  * New: Support for MPE.
+* Launchpad
+  * New: If *Fixed Accent* is active the loop/clip length area now shows 15 velocities. The selected velocity is used when enabling a note in the sequencer.
+* Push 1/2
+  * New: If *Accent* is active the loop/clip length area now shows 16 velocities. The selected velocity is used when enabling a note in the sequencer.
+
 **15.2.0**
 
 * Requires Bitwig 4.1
