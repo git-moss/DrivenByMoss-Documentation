@@ -224,7 +224,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Has motor faders: Enable if the MCU compatible controller has motor faders.
 * Has only 1 fader: Enables a specific handling of banks to support controllers with only 1 fader
 * Display track names in 1st display: If enabled to 1st row of the 1st display the track names instead of the mode labels.
-* Use vertical zoom to change tracks: If enabled, the up/down cursor keys in zoom mode can be used to select tracks
+* Use vertical zoom to change modes: If enabled, the up/down cursor keys in zoom mode can be used to select the different parameter modes.
 * Use faders like editing knobs: If enabled, the faders execute the same functions as the knobs. Handy for e.g. recording automation data.
 * VU meters: Enable if the MCU compatible controller supports the display of VU values.
 * Master VU Meter: Enable if the controller support the protocol extensions for VU values of the master fader.

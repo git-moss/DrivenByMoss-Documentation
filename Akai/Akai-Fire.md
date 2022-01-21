@@ -205,7 +205,7 @@ Press the **Drum** button twice to activate. The DRUM LED is lit red.
 Press the **Perform** button to activate. The PERFORM LED is lit orange.
 
 * Long press a pad in session mode to select the clip without starting it.
-* **Select Knob**: Scroll to the previous/next scene. In addition you can press the knob while turning to switch .between scene pages (a page contains 4 scenes).
+* **Select Knob**: Scroll to the previous/next scene. In addition you can press the knob while turning to switch between scene pages (a page contains 4 scenes).
 * **Grid buttons**: Select the previous/next page of the track bank.
 * **Mute/Solo 1-4**: Start Scene 1-4; the LED is lit if the scene is selected.
 * **Shift+Mute/Solo 1-4** Selects the scene without starting it.

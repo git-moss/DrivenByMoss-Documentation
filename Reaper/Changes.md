@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**15.3.1 (unreleased)**
+
+* Launchpad
+  * New: Improved virtual faders for stepped values.
+* MCU
+  * Fixed: Wrong setting label *Use vertical zoom to change tracks* but must be *Use vertical zoom to change modes*. Documentation was wrong, too.
+
 **15.3.0**
 
 * Generic Flexi

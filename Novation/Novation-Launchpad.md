@@ -10,7 +10,10 @@ The following of Novation's Launchpad controllers are supported:
 
 ## Installation
 
-**Important**: If you have one of the newer models which are supported by the Novation Components application, first make sure to update to the latest firmware for your device! Otherwise, you might have strange effects!
+**Important**:
+
+* If you have one of the newer models which are supported by the Novation Components application, first make sure to update to the latest firmware for your device! Otherwise, you might have strange effects!
+* If the virtual faders (volume, pan, send, etc.) do not work, set the *Takeover mode* to *Immidiate*.
 
 If you added the controller manually, choose the following in-/output ports:
 

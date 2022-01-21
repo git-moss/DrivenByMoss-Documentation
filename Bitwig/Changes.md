@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**15.3.1 (unreleased)**
+
+* Launchpad
+  * New: Improved virtual faders for stepped values.
+  * New: Always set values immediately to work around Bitwig catch takeover mode.
+* MCU
+  * Fixed: Wrong setting label *Use vertical zoom to change tracks* but must be *Use vertical zoom to change modes*. Documentation was wrong, too.
+
 **15.3.0**
 
 * Generic Flexi
