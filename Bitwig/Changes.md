@@ -1,7 +1,10 @@
 # Changes - Bitwig Studio
 
-**15.3.1 (unreleased)**
+**15.4.0**
 
+* Fire
+  * New: In Mix mode Mute/Solo 1 moves the play cursor to the start of the arranger loop and Mute/Solo 4 moves the play cursor to the end of the arranger loop.
+  * New: In Mix mode the select knob does now change the play position.
 * Launchpad
   * New: Improved virtual faders for stepped values.
   * New: Always set values immediately to work around Bitwig catch takeover mode.

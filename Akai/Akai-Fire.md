@@ -217,13 +217,13 @@ Use **Shift+Perform** to toggle the birdseye view of the session. In this view a
 
 Press the **Perform** button twice to activate. The PERFORM LED is lit red.
 
-* **Select Knob**: Select the previous/next track. In addition you can press the knob while turning to switch between track pages (a page contains 16 tracks).
+* **Select Knob**: Moves the play position.
 * **Grid buttons**: Select the previous/next page of the track bank
 
-* **Mute/Solo 1** (from top): -
-* **Mute/Solo 2**: Turn off mute on all tracks; the LED is lit red if there is at least one muted track
-* **Mute/Solo 3**: Turn off solo on all tracks; the LED is lit green if there is at least one soloed track
-* **Mute/Solo 4**: -
+* **Mute/Solo 1** (from top): Moves the play cursor to the start of the arranger loop.
+* **Mute/Solo 2**: Turn off mute on all tracks; the LED is lit red if there is at least one muted track.
+* **Mute/Solo 3**: Turn off solo on all tracks; the LED is lit green if there is at least one soloed track.
+* **Mute/Solo 4**: Moves the play cursor to the end of the arranger loop.
 
 ### Shift Mode
 
