@@ -1,7 +1,14 @@
 # Changes - Cockos Reaper
 
+**15.4.1 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: Improved speed of opening browser.
+
 **15.4.0**
 
+* Requires Reaper 6.12+
 * Fire
   * New: In Mix mode Mute/Solo 1 moves the play cursor to the start of the arranger loop and Mute/Solo 4 moves the play cursor to the end of the arranger loop.
   * New: In Mix mode the select knob does now change the play position.
@@ -12,6 +19,7 @@
 
 **15.3.0**
 
+* Requires Reaper 6.12+
 * Generic Flexi
   * New: Support for MPE.
 * Launchpad
