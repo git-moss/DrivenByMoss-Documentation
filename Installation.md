@@ -97,7 +97,8 @@ The DrivenByMoss window consists of three parts:
    * **Add** - Not all controllers can be detected automatically. Use the Add button and select the controller to add from the appearing menu.
    * **Remove** - Removes the controller which is selected in the list.
    * **Configuration** - Opens the configuration dialog for the controller. Make sure that the correct in-/outputs are selected. All other options are described in the specific controller section in this manual.
-   * **Projects** - Opens the dialog with controller settings which are stored individually with each Reaper project, e.g. Scale settings. See the specific controller section in this manual.
+   * **Project** - Opens the dialog with controller settings which are stored individually with each Reaper project, e.g. Scale settings. See the specific controller section in this manual.
+   * **Parameters** - Opens a dialog to modify the mapping of the currently selected devices' parameters.
    * **Dis-/enable** - Disable a controller to save performance if you do not use it (or it is not connected).
    * **Debug** - Only used for development, ignore it. However, the *Device simulator* might be handy for some people with a touch display.
 

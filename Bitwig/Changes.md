@@ -1,10 +1,14 @@
 # Changes - Bitwig Studio
 
-**15.4.1 (unreleased)**
+**15.5.0**
 
 * Requires Bitwig 4.1
 * All devices
   * New: Improved speed of opening browser.
+* Generic Flexi / MCU / OSC
+  * New: Action selection is now split into action categories, which makes the lists much shorter and fixes the issue that not all actions could be displayed on a screen for selection.
+* Push 1/2
+  * New: Added several VST instruments and effects to the favorites devices.
 
 **15.4.0**
 

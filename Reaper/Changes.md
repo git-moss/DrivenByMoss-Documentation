@@ -1,10 +1,13 @@
 # Changes - Cockos Reaper
 
-**15.4.1 (unreleased)**
+**15.5.0**
 
 * Requires Reaper 6.12+
 * All devices
+  * New: Added editor for parameter mapping of devices.
+  * New: Selecting a device, selects does now select it in the device chain.
   * New: Improved speed of opening browser.
+  * New: Replaced colored buttons with icons.
 
 **15.4.0**
 
