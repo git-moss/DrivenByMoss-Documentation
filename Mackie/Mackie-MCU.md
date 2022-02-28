@@ -21,7 +21,7 @@ If your device is not listed make sure you configure the hardware settings manua
 
 In device mode the FADER BANK left/right buttons change the devices, while the CHANNEL left/right buttons change single parameters of the current bank page. To also be able to switch parameter pages, you can sacrifice 2 buttons, e.g. F1 and F2:
 
-1. Press Stop + Press the edit knob to enter the configuration mode
+1. Press Stop+Press the edit knob to enter the configuration mode
 2. Make sure that you have selected the "MCU user" mode.
 3. Keep F1 pressed and select "CHAN <" with the edit knob.
 4. Keep F2 pressed and select "CHAN >" with the edit knob.
@@ -32,20 +32,20 @@ F1 will now select the previous page, and F2 the next.
 ## Transport
 
 * **Play** (MCU PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift (MCU SHIFT) + Play** - Toggle repeat
-* **Option (MCU OPTION) + Play** - Toggle Punch In
-* **Option + Shift + Play** - Toggle Punch Out
+* **Shift (MCU SHIFT)+Play** - Toggle repeat
+* **Option (MCU OPTION)+Play** - Toggle Punch In
+* **Option+Shift+Play** - Toggle Punch Out
 * **Punch in** (MCU F6) - Toggle punch in
 * **Punch out** (MCU F7) - Toggle punch in
 * **Record** (MCU RECORD) - Start/Stop recording
-* **Shift + Record** - Toggle launcher overdub
-* **Option + Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
+* **Shift+Record** - Toggle launcher overdub
+* **Option+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **<<** (MCU REWIND) - Move the play cursor to the left.
 * **>>** (MCU FORWARD) - Move the play cursor to the right.
 * **Repeat** (MCU REPEAT) - Toggle repeat
 * **Stop** (MCU STOP) - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Jog Wheel** - Move play cursor (press **Shift** for fine adjustment)
-* **Option + Jog Wheel** - Change tempo (press **Shift** for fine adjustment)
+* **Option+Jog Wheel** - Change tempo (press **Shift** for fine adjustment)
 * **Scrub** - Toggles between all editing mode
 * **Arrow left, right, up, down** - Like pressing the arrow keys on the computer keyboard
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
@@ -75,18 +75,18 @@ F1 will now select the previous page, and F2 the next.
 ### Assignment
 
 * **Track** (MCU MODE IO, TRACK) - Select the Track edit mode. Press again to select the Volume edit mode. See the section **Edit Modes** below.
-* **Option + Track** - Pin cursor track
+* **Option+Track** - Pin cursor track
 * **Pan** (MCU MODE PAN/SURROUND) - Select the Panorama edit mode. See the section **Edit Modes** below.
 * **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8. Use **Shift+Send** to move backwards.
 * **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. Press again to select User mode. See the section **Edit Modes** below.
-* **Option + Device** - Pin cursor device
+* **Option+Device** - Pin cursor device
 * **Page Up** (MCU MODE EQ) - Move track bank focus 1 track up. If Device mode is active, the previous device parameter bank is selected.
 * **Page Down** (MCU MODE DYN, INSTRUMENT) - Move track bank focus 1 track down. If Device mode is active, the next device parameter bank is selected.
 
 ### Automation
 
 * **Read/Off** (MCU READ) - Disables arranger automation recording.
-* **Option + Read/Off** - Resets any automation overrides.
+* **Option+Read/Off** - Resets any automation overrides.
 * **Write** (MCU WRITE, MCU GROUP) - Enables arranger automation recording and sets it to Write mode.
 * **Trim** (MCU TRIM) - Since Bitwig has not Trim mode, this button toggles the clip automation recording.
 * **Touch** (MCU TOUCH) - Enables arranger automation recording and sets it to Touch mode.
@@ -98,13 +98,14 @@ F1 will now select the previous page, and F2 the next.
 * **Automation Editor** (MCU INPUTS) - Toggles the display of the automation editor pane
 * **Toggle Device**  (MCU AUDIO TRACKS) - Toggles the display of a plugin window
 * **Shift+Toggle Device** - Toggles the different layouts
+* **Option+Toggle Device** - Toggle the devices' expanded state
 * **Mixer** (MCU AUDIO INSTRUMENT) - Toggles the display of the mixer pane
 * **Browser** (MCU USER) - Starts the browser to browse for presets
 * **Shift+Browser** - Starts the browser to insert a new device before the current one
 * **Option+Browser** - Starts the browser to insert a new device after the current one
 * **Metronome** (MCU CLICK) - Toggle metronome
-* **Shift + Metronome** - Toggle Metronome Ticks
-* **Shift + Masterfader** - Changes Metronome Volume
+* **Shift+Metronome** - Toggle Metronome Ticks
+* **Shift+Masterfader** - Changes Metronome Volume
 * **Groove** (MCU SOLO) - Dis-/Enable the Groove
 * **OVR** (MCU REPLACE) - Toggle arranger overdub
 * **Shift+OVR** - Toggle launcher overdub
@@ -131,12 +132,12 @@ F1 will now select the previous page, and F2 the next.
 * **Record-arm buttons** (MCU ARM1-8) - Press to arm the specific track for recording.
 * **Mute buttons** (MCU MUTE1-8) - Un-/mute the specific track
 * **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track
-* **Option + one of the Mute buttons**: Deactivate all mutes
-* **Option + one of the Solo buttons**: Deactivate all solos
+* **Option+one of the Mute buttons**: Deactivate all mutes
+* **Option+one of the Solo buttons**: Deactivate all solos
 * **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder. If track navigation is set to *flat*, selecting an already selected group track toggles its' expanded state.
-* **Send (MCU MODE SENDS) + Track selection buttons** - Select the send channel 1-8.
-* **Shift + Track selection buttons** - Set the length of a new clip.
-* **Option + Track selection buttons** - Stop the playing clip on the specific track.
+* **Send (MCU MODE SENDS)+Track selection buttons** - Select the send channel 1-8.
+* **Shift+Track selection buttons** - Set the length of a new clip.
+* **Option+Track selection buttons** - Stop the playing clip on the specific track.
 * **Shift+Solo** - Toggle auto monitor
 * **Shift+Mute** - Toggle monitor
 * **8 faders** (MCU FADER_TOUCH1-8) - Change volume of selected 8 tracks. Touching a fader automatically selects the track.

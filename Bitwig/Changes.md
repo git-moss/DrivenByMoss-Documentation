@@ -1,5 +1,24 @@
 # Changes - Bitwig Studio
 
+**15.6.0**
+
+* Requires Bitwig 4.1
+* Generic Flexi
+  * New: Added functions for controlling EQ+ equalizer, which is automatically inserted if one of the functions is triggered.
+  * Fixed: Updated/corrected the names of CC and MMC commands.
+  * Fixed: Resolution was set to 14-bit on first slot when CC was less than 32 on file load.
+* Komplete Kontrol Mk1
+  * Fixed: Shift+Play to create a new clip did not work
+* MCU
+  * New: Option+Toggle Device: Toggle the devices' expanded state
+* MidiMonitor
+  * Fixed: Updated/corrected the names of CC and MMC commands.
+* OSC
+  * Fixed: Removed unnecessary invertion of Q-factor parameter. Inverted Q-factor knob in Open Stage Control example template instead.
+* Push 1/2
+  * New: Added new Bitwig 4.2 devices to track template list.
+  * Fixed: Layer detail view (pressing Select button in Drum and Drum 64 modes) did not work for pads > 8.
+
 **15.5.0**
 
 * Requires Bitwig 4.1

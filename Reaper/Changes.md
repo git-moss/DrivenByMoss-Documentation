@@ -1,11 +1,33 @@
 # Changes - Cockos Reaper
 
+**15.6.0**
+
+* Requires Reaper 6.12+
+* All devices
+  * New: A Reaper action was added to open the parameters dialog (assign this to a keyboard shortcut).
+  * New: Controller running states are shown with icons and tooltips.
+  * Fixed: Reordering parameters (move up/down) in the parameter dialog mapping was not stored.
+* Generic Flexi:
+  * New: Added functions for controlling ReaEQ equalizer, which is automatically inserted if one of the functions is triggered.
+  * Fixed: Updated/corrected the names of CC and MMC commands.
+  * Fixed: Resolution was set to 14-bit on first slot when CC was less than 32 on file load.
+* Komplete Kontrol Mk1
+  * Fixed: Shift+Play to create a new clip did not work.
+* MCU
+  * New: Option+Toggle Device: Toggle the devices' expanded state.
+  * Fixed: 'Selecting a device, does now select it in the device chain' did not work for device navigation.
+* MidiMonitor
+  * Fixed: Updated/corrected the names of CC and MMC commands.
+* OSC
+  * Fixed: Removed unnecessary invertion of Q-factor parameter. Inverted Q-factor knob in Open Stage Control example template instead.
+  * Fixed: Not all EQ parameters did work.
+
 **15.5.0**
 
 * Requires Reaper 6.12+
 * All devices
   * New: Added editor for parameter mapping of devices.
-  * New: Selecting a device, selects does now select it in the device chain.
+  * New: Selecting a device, does now select it in the device chain.
   * New: Improved speed of opening browser.
   * New: Replaced colored buttons with icons.
 
