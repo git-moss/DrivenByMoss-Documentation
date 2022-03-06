@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**16.0.0**
+
+* Requires Reaper 6.12+
+* New: Support for Gamepads!
+* All devices
+  * New: Changing play position and loop start/length will stick to the closest grid position.
+  * Fixed: Crash when there is no device selected.
+* Launchpad:
+  * New: Improved the 4 step change of virtual faders on already lit pads. It changes now the direction when the maximum or minimum value of the pad is reached instead of wrapping around.
+
 **15.6.0**
 
 * Requires Reaper 6.12+

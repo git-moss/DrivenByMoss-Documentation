@@ -1,5 +1,12 @@
 # Changes - Bitwig Studio
 
+**16.0.0**
+
+* Requires Bitwig 4.1
+  * New: Support for Gamepads!
+  * Launchpad:
+    * New: Improved the 4 step change of virtual faders on already lit pads. It changes now the direction when the maximum or minimum value of the pad is reached instead of wrapping around.
+
 **15.6.0**
 
 * Requires Bitwig 4.1
