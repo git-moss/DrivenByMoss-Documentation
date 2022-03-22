@@ -2,12 +2,13 @@
 
 Support script for the Mackie MCU protocol. It supports up to 4 MCU devices, which can be original Mackie extenders or any other device which supports the protocol.
 
-While this extension supports the Mackie MCU protocol in general I could only test it with the following devices:
+While this extension supports the Mackie MCU protocol in general, I could only test it with the following devices:
 
+* Behringer X-Touch / X-Touch Extender
 * Behringer X-Touch One
 * Mackie MCU Pro
-* icon QConPro X - Select the Bitwig mode and use the Bitwig overlay!
 * icon Platform M/M+ with extender
+* icon QConPro X - Select the Bitwig mode and use the Bitwig overlay!
 * Zoom R16
 
 In the following the supported features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
@@ -80,15 +81,15 @@ F1 will now select the previous page, and F2 the next.
 * **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8. Use **Shift+Send** to move backwards.
 * **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. Press again to select User mode. See the section **Edit Modes** below.
 * **Option+Device** - Pin cursor device
-* **Page Up** (MCU MODE EQ) - Move track bank focus 1 track up. If Device mode is active, the previous device parameter bank is selected.
-* **Page Down** (MCU MODE DYN, INSTRUMENT) - Move track bank focus 1 track down. If Device mode is active, the next device parameter bank is selected.
+* **EQ** (MCU MODE EQ) - Select the equalizer device edit mode.
+* **Instrument** (MCU MODE DYN, INSTRUMENT) - Select the instrument device edit mode.
 
 ### Automation
 
 * **Read/Off** (MCU READ) - Disables arranger automation recording.
 * **Option+Read/Off** - Resets any automation overrides.
 * **Write** (MCU WRITE, MCU GROUP) - Enables arranger automation recording and sets it to Write mode.
-* **Trim** (MCU TRIM) - Since Bitwig has not Trim mode, this button toggles the clip automation recording.
+* **Trim** (MCU TRIM) - Enables arranger automation recording and sets it to Trim mode. Since Bitwig has not Trim mode, it enables the Read mode.
 * **Touch** (MCU TOUCH) - Enables arranger automation recording and sets it to Touch mode.
 * **Latch** (MCU LATCH) - Enables arranger automation recording and sets it to Latch mode.
 
@@ -96,7 +97,7 @@ F1 will now select the previous page, and F2 the next.
 
 * **Note Editor** (MCU MIDI TRACKS) - Toggles the display of the note editor pane
 * **Automation Editor** (MCU INPUTS) - Toggles the display of the automation editor pane
-* **Toggle Device**  (MCU AUDIO TRACKS) - Toggles the display of a plugin window
+* **Toggle Device** (MCU AUDIO TRACKS) - Toggles the display of a plugin window
 * **Shift+Toggle Device** - Toggles the different layouts
 * **Option+Toggle Device** - Toggle the devices' expanded state
 * **Mixer** (MCU AUDIO INSTRUMENT) - Toggles the display of the mixer pane
@@ -106,12 +107,13 @@ F1 will now select the previous page, and F2 the next.
 * **Metronome** (MCU CLICK) - Toggle metronome
 * **Shift+Metronome** - Toggle Metronome Ticks
 * **Shift+Masterfader** - Changes Metronome Volume
-* **Groove** (MCU SOLO) - Dis-/Enable the Groove
+* **Solo** (MCU SOLO) - Deactivates all solos, Shift+SOLO deactivates all mutes
+* **Shift+Solo** - Deactivates all mutes
 * **OVR** (MCU REPLACE) - Toggle arranger overdub
 * **Shift+OVR** - Toggle launcher overdub
 * **Save** (MCU SAVE) - Save button saves the current project
 * **Marker** (MCU MARKER) - Toggles the display of markers in the arranger
-* **Drop** (MCU DROP) - Duplicate (depending on the focus)
+* **Drop** (MCU DROP) - Duplicate the selected track
 
 ### Fader Controls
 
@@ -144,32 +146,32 @@ F1 will now select the previous page, and F2 the next.
 * **Master fader** (MCU FADER MASTER) - Change volume of master fader. Touching the fader selects the master track.
 * **Press knob** (MCU VSELECT1-8) - Resets the current parameter to its default value.
 
-### Track edit mode
+### Track edit mode (tr)
 
 Press _Track_ to enter.
 
 * **8 knobs** - Change the volume, panorama, crossfader and Send 1-5 of the selected track. Hold **Shift** for fine adjustments.
 * You can configure in the preferences that the crossfader option is hidden and you get 6 sends instead.
 
-### Volume edit mode
+### Volume edit mode (Vl)
 
 Press _Track_ twice to enter.
 
 * **8 knobs** - Change the volume of that channel. Hold **Shift** for fine adjustments.
 
-### Panorama edit mode
+### Panorama edit mode (Pn)
 
 Press _Pan_ to enter.
 
 * **8 knobs** - Change the panorama of that channel. Hold **Shift** for fine adjustments.
 
-### Send 1 - 8 edit mode
+### Send 1 - 8 edit mode (S1, S2, ...)
 
 Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
 
 * **8 knobs** - Change the volume of send of that channel. Hold **Shift** for fine adjustments.
 
-### Master edit mode
+### Master edit mode (Nt)
 
 Touch the master fader to enter
 
@@ -179,21 +181,24 @@ Touch the master fader to enter
 * **7th knob** - Press to switch to the previous project.
 * **8th knob** - Press to switch to the next project.
 
-### Devices edit mode
+### Device edit mode (dC)
 
 * **Device Knobs 1-8** - Change the currently selected 8 device parameters
 * **|<** (MCU BANK LEFT) - If Device mode is active, the previous device parameter bank is selected.
 * **>|** (MCU BANK RIGHT) - If Device mode is active, the next device parameter bank is selected.
 * **<< 8** (MCU TRACK LEFT) - If Device mode is active, the previous device is selected.
 * **8 >>** (MCU TRACK RIGHT) - If Device mode is active, the next device is selected.
-* **Page Up** (MCU MODE EQ) - If Device mode is active, the previous device parameter bank is selected.
-* **Page Down** (MCU MODE DYN, INSTRUMENT) - If Device mode is active, the next device parameter bank is selected.
 
-### User Parameter edit mode
+### Equalizer edit mode (E9)
+
+Works like the Device edit mode but for the equalizer device on the track (Bitwig: EQ+, Reaper: ReaEQ).
+When the EQ mode is active and a track is selected which does not yet have an equalizer device, one is automatically added.
+
+### User Parameter edit mode (uS)
 
 * **Device Knobs 1-8** - Change the currently selected 8 user parameters.
 
-### Browser
+### Browser (Br)
 
 * Press the _Browser_ button to start
 * Navigate columns with the _Track Control knobs_.
@@ -201,7 +206,7 @@ Touch the master fader to enter
 * To confirm a patch or device selection and close the Browser press the _Enter_ button.
 * To discard the patch selection press the _Cancel_ button.
 
-### Marker
+### Marker (Mr)
 
 * Press the _Marker_ button to start. If you do not have a marker button you can assign this command to a function button.
 * Click the knobs to start the playback from a marker position.
@@ -229,6 +234,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Use faders like editing knobs: If enabled, the faders execute the same functions as the knobs. Handy for e.g. recording automation data.
 * VU meters: Enable if the MCU compatible controller supports the display of VU values.
 * Master VU Meter: Enable if the controller support the protocol extensions for VU values of the master fader.
+* Display colors (Behringer X-Touch): Enables the display back-light colors on the Behringer X-Touch and X-Touch Extender models.
+* Use 7 characters: If enabled, 7 characters are used in the display instead of 6 characters and a blank character. Makes sense for devices which do not have one large display but 8 separate ones which have a space in between already.
 
 ### Extender Setup
 

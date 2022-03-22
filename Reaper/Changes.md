@@ -1,5 +1,18 @@
 # Changes - Cockos Reaper
 
+**16.1.0**
+
+* Requires Reaper 6.12+
+* MCU
+  * New: Added hardware profile for Behringer X-Touch.
+  * New: EQ calls up new EQ mode which always edits the parameters of the ReaEQ on the track.
+  * New: INST calls up new instrument mode which always edits the parameters of the first instrument on the track.
+  * New: DROP duplicates the selected track.
+  * New: SOLO deactivates all solos, Shift+SOLO deactivates all mutes.
+  * New: If 'display track names' is enabled and track mode is active, only the name of the selected track is displayed instead of the volume label.
+  * New: Setting to use 7 characters in the display instead of 6 characters and a blank character. Makes sense for devices which do not have one large display but 8 separate ones which have a space in between already.
+  * New: Setting 'Display colors (Behringer X-Touch)' enables the display back-light colors on the Behringer X-Touch and X-Touch Extender models.
+
 **16.0.0**
 
 * Requires Reaper 6.12+
