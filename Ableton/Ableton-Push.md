@@ -52,7 +52,7 @@ After you have copied the file reboot your computer.
 * **Stop/Stop Clip** - Press _Shift+Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
 * **Footswitch 1** - Sends sustain
 * **Footswitch 2** - Triggers the new button.
-* **Arrows** The cursor keys now consistently always change the track (device, layers) and scene bank, except in the browser they change the browser tabs.
+* **Arrows** The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
 * **Shift+Touchstrip** - Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track** - Turn off/on VU meters.
 * **Browse** - Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
@@ -82,9 +82,9 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combibation with the Delete button to delete a track. Long press a button to leave a track group.
     * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
     * **De-/activate a track**: Select+Shift+1st button row.
-    * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection
-    * Left/Right arrows: Select next/previous track
-    * Shift+Left/right arrows: Select next/previous track bank
+    * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection.
+    * Left/Right arrows: Select next/previous track page.
+    * Shift+Left/right arrows: Moves the selected track in the page.
 
 2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2: Press "Mix" and "Crossfader" above the display
     * 8 edit knobs: Change crossfader setting of selected 8 tracks.
@@ -110,6 +110,9 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
     * Left/Right buttons: Select next/previous device or parameter bank
+    * Left/Right arrows: Select next/previous devices or parameter page.
+    * Shift+Left/right arrows: Moves the selected device in the page.
+    * Mute+Device: Toggles the enabled state of the device.    
     * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
     * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Send modes press **Pan** multiple times.
 

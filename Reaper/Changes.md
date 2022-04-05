@@ -1,5 +1,21 @@
 # Changes - Cockos Reaper
 
+**16.2.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Device window was opened when clip was selected.
+* All devices with pad grid
+  * Fixed: 3rd shift in chromatic mode was not correct.
+* Push 1/2
+  * New: Arrow left/right now changes the track/devices page.
+  * New: Shift + Arrow left/right in device mode moves the selected device to the left/right (but only in the page).
+  * New: Shift + Arrow left/right in track modes moves the selected track to the left/right (but only in the page).
+  * New: Added option to ribbon modes 'Last Touched'. This allows to change the parameter which editing knob was last touched.
+  * New: Mute + Device in device mode toggles the enabled state of the device.
+  * New: Disabled devices are now drawn in the background color on Push 2. On Push 1 disabled devices have a prepended division sign.
+  * New: Push 1: Always show full name in track/layer details mode. The track type is now displayed as well.
+
 **16.1.0**
 
 * Requires Reaper 6.12+
