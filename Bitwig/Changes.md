@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**16.2.0 (unreleased)**
+**16.2.0**
 
 * Requires Bitwig 4.1
 * All devices with pad grid
