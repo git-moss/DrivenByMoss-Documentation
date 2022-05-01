@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**16.3.1**
+
+* Requires Reaper 6.12+
+* MCU
+  * Fixed: Fixed a crash in Track mode and increased the number of sends to 14 in that mode.
+
 **16.3.0**
 
 * Requires Reaper 6.12+

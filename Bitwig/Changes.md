@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**16.3.1**
+
+* Requires Bitwig 4.1
+* MCU
+  * Fixed: Fixed a crash in Track mode and increased the number of sends to 14 in that mode.
+
 **16.3.0**
 
 * Requires Bitwig 4.1
