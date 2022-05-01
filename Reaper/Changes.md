@@ -1,5 +1,26 @@
 # Changes - Cockos Reaper
 
+**16.3.0**
+
+* Requires Reaper 6.12+
+* All devices
+  * Fixed: Automated mute was inverted on the controller since the envelope is actually inverted.
+* Launchkey Mini Mk3
+  * New: When a second row mode is active on the pads, scenes are scrolled by one.
+* Maschine JAM
+  * New: GRP - Activates changing the play position with the encoder. This was previously GRID+Encoder, which broke using the GRID button for quantizing the selected clip. When toggled by pressing the encoder it changes the loop start position. Hold SELECT to change the loop length.
+* MCU
+  * New: Option+Marker - Inserts a new marker at the current play position.
+  * New: Option+<< - Move the play cursor to the closest marker before the current play position.
+  * New: Option+>> - Move the play cursor to the closest marker after the current play position.
+  * New: Option+BANK left/right - Moves the selected device to the left/right.
+  * New: Option+CHANNEL left/right - Moves the selected track to the left/right.
+  * New: Added setting 'Workflow: Activate Volume mode on Fader Touch'.
+  * New: Track mode shows now sends 7 and 8 on 2nd device.
+* MCU - X-Touch
+  * New: Sends use the colors of their channel in track mode.
+  * Fixed: Prevent color black to be used for tracks and markers (replaced with gray).
+
 **16.2.0**
 
 * Requires Reaper 6.12+

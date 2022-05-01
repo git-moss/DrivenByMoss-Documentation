@@ -36,8 +36,8 @@ This extension uses the MIDI mode of the device. Press **SHIFT+HEADPHONES (MIDI)
 * **SHIFT+PLAY** (RESTART) - Start playback from beginning of song.
 * **SELECT+PLAY** - Toggle punch in.
 * **SELECT+SHIFT+PLAY** - Toggle punch out.
-* **REC** - Start/Stop recording.
-* **SHIFT+RECORD** - Toggle launcher overdub.
+* **REC** - The function can be configured in the settings (Transport -> Record button).
+* **SHIFT+RECORD** - The function can be configured in the settings (Transport -> Shift + Record button).
 * **SHIFT+PAGE LEFT** - Toggle the metronome.
 * **SHIFT+PAGE RIGHT** - Toggle transport loop.
 * **SHIFT+TEMPO** - Tap Tempo.
@@ -86,14 +86,14 @@ The main mode of the encoder knob is set with the four buttons above the encoder
 The level meter displays the VU of the master track except when GRP is selected then the VU of the selected track is displayed.
 
 * **MST** - Activates changing the volume of the master track.
-* **GRP** - Activates changing the volume of the selected track.
+* **GRP** - Activates changing the play position.
 * **IN1** - Activates changing the metronome volume.
 * **HEADPHONE** - Activates changing the cue volume.
 
 Press the encoder button to toggle to the 2nd order functions:
 
 * **MST** - Activates changing the panorama of the master track.
-* **GRP** - Activates changing the panorama of the selected track.
+* **GRP** - Activates changing the loop start position. Hold **SELECT** to change the loop length.
 * **IN1** - Activates changing the metronome volume.
 * **HEADPHONE** - Activates changing the cue mix.
 

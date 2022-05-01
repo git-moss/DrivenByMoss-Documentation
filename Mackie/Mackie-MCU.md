@@ -43,6 +43,8 @@ F1 will now select the previous page, and F2 the next.
 * **Option+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **<<** (MCU REWIND) - Move the play cursor to the left.
 * **>>** (MCU FORWARD) - Move the play cursor to the right.
+* **Option+<<** (MCU REWIND) - Move the play cursor to the closest marker before the current play position.
+* **Option+>>** (MCU FORWARD) - Move the play cursor to the closest marker after the current play position.
 * **Repeat** (MCU REPEAT) - Toggle repeat
 * **Stop** (MCU STOP) - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Jog Wheel** - Move play cursor (press **Shift** for fine adjustment)
@@ -112,7 +114,9 @@ F1 will now select the previous page, and F2 the next.
 * **OVR** (MCU REPLACE) - Toggle arranger overdub
 * **Shift+OVR** - Toggle launcher overdub
 * **Save** (MCU SAVE) - Save button saves the current project
-* **Marker** (MCU MARKER) - Toggles the display of markers in the arranger
+* **Marker** (MCU MARKER) - Activates marker mode
+* **Shift+Marker** - Toggles the display of markers in the arranger
+* **Option+Marker** - Inserts a new marker at the current play position
 * **Drop** (MCU DROP) - Duplicate the selected track
 
 ### Fader Controls
@@ -122,10 +126,12 @@ F1 will now select the previous page, and F2 the next.
 * **Shift+Flip** - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
 * **Cancel** (MCU CANCEL) - Cancels browsing when the Browser is active, otherwise like pressing the Escape key on the computer keyboard.
 * **Enter** (MCU ENTER) - Confirms browsing when the Browser is active, otherwise like pressing the Enter key on the computer keyboard.
-* **|<** (MCU BANK LEFT) - Move track bank focus 8 track up. If Device mode is active, the previous device parameter bank is selected.
-* **>|** (MCU BANK RIGHT) - Move track bank focus 8 track down. If Device mode is active, the next device parameter bank is selected.
-* **<< 8** (MCU TRACK LEFT) - Move track bank focus 1 tracks up. If Device mode is active, the previous device is selected.
-* **8 >>** (MCU TRACK RIGHT) - Move track bank focus 1 tracks down. If Device mode is active, the next device is selected.
+* **< BANK** (MCU BANK LEFT) - Move track bank focus 8 track up. If Device mode is active, the previous device parameter bank is selected.
+* **BANK >** (MCU BANK RIGHT) - Move track bank focus 8 track down. If Device mode is active, the next device parameter bank is selected.
+* **Option+BANK left/right** - Moves the selected device to the left/right.
+* **< CHANNEL** (MCU TRACK LEFT) - Move track bank focus 1 tracks up. If Device mode is active, the previous device is selected.
+* **CHANNEL >** (MCU TRACK RIGHT) - Move track bank focus 1 tracks down. If Device mode is active, the next device is selected.
+* **Option+CHANNEL left/right** - Moves the selected track to the left/right.
 
 ## Edit Modes
 
@@ -280,6 +286,7 @@ The available functions should be self-explanatory, except:
 * New clip length: The length of a clip created with the New function.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
+* Activate Volume mode on Fader Touch: If enabled the volume mode is temporarily enabled until the fader is no longer touched.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
 

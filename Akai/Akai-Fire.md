@@ -18,6 +18,7 @@ Support script for Akai Fire controller.
 * **Record** - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
 * **Alt+Record** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
+* **Alt+Shift+Record** - Creates a new clip on the selected track and slot and starts playback.
 
 Changing the tempo:
 

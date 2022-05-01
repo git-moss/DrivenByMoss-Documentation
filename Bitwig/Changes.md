@@ -1,5 +1,26 @@
 # Changes - Bitwig Studio
 
+**16.3.0**
+
+* Requires Bitwig 4.1
+* Launchkey Mini Mk3
+  * New: When a second row mode is active on the pads, scenes are scrolled by one.
+* Maschine JAM
+  * New: GRP - Activates changing the play position with the encoder. This was previously GRID+Encoder, which broke using the GRID button for quantizing the selected clip. When toggled by pressing the encoder it changes the loop start position. Hold SELECT to change the loop length.
+* Push 1/2
+  * New: Moving tracks and devices now works across page boundaries.
+* MCU
+  * New: Option+Marker - Inserts a new marker at the current play position.
+  * New: Option+<< - Move the play cursor to the closest marker before the current play position.
+  * New: Option+>> - Move the play cursor to the closest marker after the current play position.
+  * New: Option+BANK left/right - Moves the selected device to the left/right.
+  * New: Option+CHANNEL left/right - Moves the selected track to the left/right.
+  * New: Added setting 'Workflow: Activate Volume mode on Fader Touch'.
+  * New: Track mode shows now sends 7 and 8 on 2nd device.
+* MCU - X-Touch
+  * New: Sends use the colors of their channel in track mode.
+  * Fixed: Prevent color black to be used for tracks and markers (replaced with gray).
+
 **16.2.0**
 
 * Requires Bitwig 4.1

@@ -84,7 +84,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * **De-/activate a track**: Select+Shift+1st button row.
     * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection.
     * Left/Right arrows: Select next/previous track page.
-    * Shift+Left/right arrows: Moves the selected track in the page.
+    * Shift+Left/right arrows: Moves the selected track.
 
 2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2: Press "Mix" and "Crossfader" above the display
     * 8 edit knobs: Change crossfader setting of selected 8 tracks.
@@ -111,7 +111,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
     * Left/Right buttons: Select next/previous device or parameter bank
     * Left/Right arrows: Select next/previous devices or parameter page.
-    * Shift+Left/right arrows: Moves the selected device in the page.
+    * Shift+Left/right arrows: Moves the selected device.
     * Mute+Device: Toggles the enabled state of the device.    
     * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
     * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Send modes press **Pan** multiple times.
