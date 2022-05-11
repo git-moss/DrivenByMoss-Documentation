@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**16.3.2 (unreleased)**
+
+* Requires Bitwig 4.1
+* Komplete Kontrol Mk1
+  * Fixed: Expression pedal triggered start/stop instead of sending expression data.
+* MCU
+  * Fixed: Previous track mode was not restored when leaving master track.
+* MCU - X-Touch
+  * Fixed: In Master mode audio engine and project displays were off.
+
 **16.3.1**
 
 * Requires Bitwig 4.1
