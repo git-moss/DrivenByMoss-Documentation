@@ -9,6 +9,8 @@
   * Fixed: Previous track mode was not restored when leaving master track.
 * MCU - X-Touch
   * Fixed: In Master mode audio engine and project displays were off.
+* Novation SLMkIII
+  * New: Let program changes pass through to Reaper.
 
 **16.3.1**
 
