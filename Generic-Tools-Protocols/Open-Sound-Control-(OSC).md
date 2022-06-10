@@ -57,9 +57,9 @@ The parameters of the command documentation below are as follows:
 | /beat/str             | {text}              | Play position as beats: Bitwig: measures.quarters.eights:ticks Reaper: measures.beats:ticks,   |
 | /tempo/raw            | {0-666}             | The tempo at the play position.                               |
 | /quantize             |                     | Quantizes the currently selected clip.                        |
-| /launcher/postRecordingAction     | {off,play_recorded,record_next_free_slot,stop,return_to_arrangement,return_to_previous_clip,play_random} | The action to execute after recording a clip. |
-| /launcher/postRecordingTimeOffset | {0-4000} | The time offset of the post recording action in beats.         |
-| /launcher/defaultQuantization     | {none,1,2,4,8,1/2,1/4,1/8,1/16} | The default clip launcher quantization. |
+| /launcher/ postRecordingAction     | {off,play_recorded,record_next_free_slot, stop,return_to_arrangement,return_to_previous_clip,play_random} | The action to execute after recording a clip. |
+| /launcher/ postRecordingTimeOffset | {0-4000} | The time offset of the post recording action in beats.         |
+| /launcher/ defaultQuantization     | {none,1,2,4,8,1/2,1/4, 1/8,1/16} | The default clip launcher quantization. |
 
 ### Send - Layout and panels
 

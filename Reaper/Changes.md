@@ -5,7 +5,10 @@
 * Requires Reaper 6.12+
 * Komplete Kontrol Mk1
   * Fixed: Expression pedal triggered start/stop instead of sending expression data.
+* Komplete Kontrol A/M-Series
+  * New: Send and Parameter modes could be activated on these models as well by pressing Shift+Stop (=CLEAR) which was not intended. The labels are now adjusted to make this usable on these models as well. Only drawback is that the display always shows 'Vol' or 'Pan' but everything else works nicely.
 * MCU
+  * Fixed: Previous/next mode function for function keys did not display the selected mode. Also the modes do now wrap around at the beginning/end.
   * Fixed: Previous track mode was not restored when leaving master track.
 * MCU - X-Touch
   * Fixed: In Master mode audio engine and project displays were off.

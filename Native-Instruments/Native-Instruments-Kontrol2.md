@@ -17,28 +17,28 @@ if you installed Komplete Kontrol on your machine.
 The basic feature set is identical to Ableton Live as described in the respective Kontrol manuals.
 Additionally, there are some settings to change the behaviour.
 
-### Extended feature set for S-series
+### Extended features
 
-The S-series has additional device/parameters and send modes. **Toggle these modes with the CLEAR button.**
+There are two additional modes for device parameters and send modes. **Toggle these modes with the CLEAR button.** (on the A/M-models use SHIFT+STOP).
 
 ### Send mode
 
-* The screens display 8 sends of the currently selected track
-* The volume and pan display represents the value of each send
-* The knobs below changes the send values (both in volume and pan mode)
-* The bank left/right buttons switch between the sends 1-8 and 9-16 of the channel
-* The encoder left/right/up/down switch between the sends 1-8 and 9-16 of the channel as well
-* Select/Mute/Solo buttons always control the tracks
+* This mode controls 8 sends of the currently selected track.
+* The volume and pan display represents the value of each send.
+* The knobs below changes the send values (both in volume and pan mode).
+* The bank left/right buttons switch between the sends 1-8 and 9-16 of the channel.
+* The encoder left/right/up/down switch between the sends 1-8 and 9-16 of the channel as well.
+* Select/Mute/Solo buttons always control the tracks.
 
 ### Device/parameters mode
 
-* The screens display 8 parameters
-* The volume and pan display represents the value of each parameter
-* The knobs below changes the parameter values (both in volume and pan mode)
-* The bank left/right buttons switch between the devices of the channel
-* The encoder up/down switches between the devices of the channel as well
-* The encoder left/right switches between the parameter pages of the selected device
-* Pressing the encoder toggles the window of the selected device (if any)
+* This mode controls 8 parameters.
+* The volume and pan display represents the value of each parameter.
+* The knobs below changes the parameter values (both in volume and pan mode).
+* The bank left/right buttons switch between the devices of the channel (only S-Series).
+* The encoder up/down switches between the devices of the channel as well.
+* The encoder left/right switches between the parameter pages of the selected device.
+* Pressing the encoder toggles the window of the selected device (if any).
 * Select/Mute/Solo buttons always control the tracks
 
 ## Preferences Settings
