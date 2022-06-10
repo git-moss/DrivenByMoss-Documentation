@@ -57,7 +57,7 @@ The parameters of the command documentation below are as follows:
 | /beat/str             | {text}              | Play position as beats: Bitwig: measures.quarters.eights:ticks Reaper: measures.beats:ticks,   |
 | /tempo/raw            | {0-666}             | The tempo at the play position.                               |
 | /quantize             |                     | Quantizes the currently selected clip.                        |
-| /launcher/ postRecordingAction     | {off,play_recorded,record_next_free_slot, stop,return_to_arrangement,return_to_previous_clip,play_random} | The action to execute after recording a clip. |
+| /launcher/ postRecordingAction     | {off,play_recorded, record_next_free_slot, stop,return_to_arrangement, return_to_previous_clip,play_random} | The action to execute after recording a clip. |
 | /launcher/ postRecordingTimeOffset | {0-4000} | The time offset of the post recording action in beats.         |
 | /launcher/ defaultQuantization     | {none,1,2,4,8,1/2,1/4, 1/8,1/16} | The default clip launcher quantization. |
 
@@ -87,7 +87,7 @@ The parameters of the command documentation below are as follows:
 | /track/toggleBank      | {0,1}      | Is the Effect track bank is active?                                        |
 | /track/hasParent       | {0,1}      | Is there a parent group track? A group/folder content is displayed.        |
 | /track/{1-8}/name      | {text}     | The name of the track.                                                     |
-| /track/{1-8}/type      | {unknown,audio,instrument,hybrid,group,effect,master,layer} | The type of the track.  |
+| /track/{1-8}/type      | {unknown, audio, instrument, hybrid, group, effect, master, layer} | The type of the track.  |
 | /track/{1-8}/isGroup   | {0,1}      | Is the track a group track?                                                |
 | /track/{1-8}/activated | {0,1}      | Is the track active?                                                       |
 | /track/{1-8}/exists    | {0,1}      | Does the track exist?                                                      |
@@ -273,9 +273,9 @@ The parameters of the command documentation below are as follows:
 | /position/{+,-}       |               | Small in-/decrease of play position.                                     |
 | /position/{++,--}     |               | Large in-/decrease of play position.                                     |
 | /position {-2,-1,1,2} |           | Small in-/decrease of play position for -1 and 1, large for all other values.|
-| /launcher/postRecordingAction     | {off,play_recorded,record_next_free_slot,stop,return_to_arrangement,return_to_previous_clip,play_random} | The action to execute after recording a clip. |
+| /launcher/postRecordingAction     | {off, play_recorded, record_next_free_slot, stop,return_to_arrangement, return_to_previous_clip, play_random} | The action to execute after recording a clip. |
 | /launcher/postRecordingTimeOffset | {0-4000} | The time offset of the post recording action in beats.         |
-| /launcher/defaultQuantization     | {none,1,2,4,8,1/2,1/4,1/8,1/16} | The default clip launcher quantization. |
+| /launcher/defaultQuantization     | {none, 1, 2, 4, 8, 1/2, 1/4, 1/8, 1/16} | The default clip launcher quantization. |
 
 ### Receive - Layout and panels
 
