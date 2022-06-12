@@ -1,19 +1,26 @@
 # Changes - Bitwig Studio
 
-**16.3.2 (unreleased)**
+**16.4.0 (unreleased)**
 
 * Requires Bitwig 4.1+
+* APC40, APCMini, Fire, JAM, Launchpad
+  * New: Added setting for the preferred default note view (e.g. Play, Drum, Sequencer, ...).
+* Generic Flexi
+  * New: Added new functions 'Layout: Zoom in arranger timeline' and 'Layout: Zoom out arranger timeline'.
 * Komplete Kontrol Mk1
   * Fixed: Expression pedal triggered start/stop instead of sending expression data.
 * Komplete Kontrol A/M-Series
   * New: Send and Parameter modes could be activated on these models as well by pressing Shift+Stop (=CLEAR) which was not intended. The labels are now adjusted to make this usable on these models as well. Only drawback is that the display always shows 'Vol' or 'Pan' but everything else works nicely.
 * MCU
+  * New: Pressing a knob can now be combined with modifier keys: SHIFT - set parameter to center value, CONTROL - set parameter to minimum, ALT - set parameter to maximum.
   * Fixed: Previous/next mode function for function keys did not display the selected mode. Also the modes do now wrap around at the beginning/end.
   * Fixed: Previous track mode was not restored when leaving master track.
 * MCU - X-Touch
   * Fixed: In Master mode audio engine and project displays were off.
 * Novation SLMkIII
   * New: Let program changes pass through to Bitwig.
+* OSC
+  * Fixed: Several formatting issues in the manual.
 
 **16.3.1**
 

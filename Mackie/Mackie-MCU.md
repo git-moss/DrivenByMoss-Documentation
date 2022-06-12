@@ -150,7 +150,8 @@ F1 will now select the previous page, and F2 the next.
 * **Shift+Mute** - Toggle monitor
 * **8 faders** (MCU FADER_TOUCH1-8) - Change volume of selected 8 tracks. Touching a fader automatically selects the track.
 * **Master fader** (MCU FADER MASTER) - Change volume of master fader. Touching the fader selects the master track.
-* **Press knob** (MCU VSELECT1-8) - Resets the current parameter to its default value.
+* **Press knob** (MCU VSELECT1-8) - Resets the current parameter to its default value. It can be combined with modifier keys: SHIFT - set parameter to center value, CONTROL - set parameter to minimum, ALT - set parameter to maximum.
+
 
 ### Track edit mode (tr)
 
