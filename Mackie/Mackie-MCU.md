@@ -137,12 +137,14 @@ F1 will now select the previous page, and F2 the next.
 
 ### Common functions in all modes
 
+  * New: Pressing a knob can now be combined with modifier keys: SHIFT - set parameter to center value, CONTROL - set parameter to minimum, ALT - set parameter to maximum.
+
 * **Record-arm buttons** (MCU ARM1-8) - Press to arm the specific track for recording.
-* **Mute buttons** (MCU MUTE1-8) - Un-/mute the specific track
-* **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track
+* **Mute buttons** (MCU MUTE1-8) - Un-/mute the specific track / layer
+* **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track / layer
 * **Option+one of the Mute buttons**: Deactivate all mutes
 * **Option+one of the Solo buttons**: Deactivate all solos
-* **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder. If track navigation is set to *flat*, selecting an already selected group track toggles its' expanded state.
+* **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder. If track navigation is set to *flat*, selecting an already selected group track toggles its' expanded state. Press the select button of the track again to enter layers mode, if the track contains an instrument with layers or drum pads.
 * **Send (MCU MODE SENDS)+Track selection buttons** - Select the send channel 1-8.
 * **Shift+Track selection buttons** - Set the length of a new clip.
 * **Option+Track selection buttons** - Stop the playing clip on the specific track.
@@ -151,7 +153,6 @@ F1 will now select the previous page, and F2 the next.
 * **8 faders** (MCU FADER_TOUCH1-8) - Change volume of selected 8 tracks. Touching a fader automatically selects the track.
 * **Master fader** (MCU FADER MASTER) - Change volume of master fader. Touching the fader selects the master track.
 * **Press knob** (MCU VSELECT1-8) - Resets the current parameter to its default value. It can be combined with modifier keys: SHIFT - set parameter to center value, CONTROL - set parameter to minimum, ALT - set parameter to maximum.
-
 
 ### Track edit mode (tr)
 
@@ -177,6 +178,10 @@ Press _Pan_ to enter.
 Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
 
 * **8 knobs** - Change the volume of send of that channel. Hold **Shift** for fine adjustments.
+
+### Layer / Drum Pad Edit Modes
+
+Layers and drum pads can be edited (Volume, Pan, Sends, Mute, Solo). Press Select on the already selected track containing the instrument with the layers/drum pads on the top level to enter. Use Mode buttons to select the different layer modes. Long press any of the Select buttons to leave layers mode.
 
 ### Master edit mode (Nt)
 

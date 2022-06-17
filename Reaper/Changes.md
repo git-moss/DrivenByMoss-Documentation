@@ -1,10 +1,16 @@
 # Changes - Cockos Reaper
 
-**16.4.0 (unreleased)**
+**16.4.0**
 
 * Requires Reaper 6.12+
+* All devices
+  * New: The selected device page is restored when switching between devices.
+  * New: Added 'Refresh MIDI Ports' to the Debug menu, which rescans all available MIDI devices and restarts all controllers. This is useful if multiple controllers were switched on after the start of Reaper.
+  * Fixed: If Automation-Trim mode is active faders are no longer moving.
 * APC40, APCMini, Fire, JAM, Launchpad
   * New: Added setting for the preferred default note view (e.g. Play, Drum, Sequencer, ...).
+* APC40, APCMini, Fire, JAM, Launchpad, Push
+  * New: Added new scale layouts: Staggered Up and Staggered Right
 * Generic Flexi
   * New: Added new functions 'Layout: Zoom in arranger timeline' and 'Layout: Zoom out arranger timeline'.
 * Komplete Kontrol Mk1
@@ -15,8 +21,9 @@
   * New: Pressing a knob can now be combined with modifier keys: SHIFT - set parameter to center value, CONTROL - set parameter to minimum, ALT - set parameter to maximum.
   * Fixed: Previous/next mode function for function keys did not display the selected mode. Also the modes do now wrap around at the beginning/end.
   * Fixed: Previous track mode was not restored when leaving master track.
+  * Fixed: EQ parameter paging did not work correctly.
 * MCU - X-Touch
-  * Fixed: In Master mode audio engine and project displays were off.
+  * Fixed: In Master mode audio engine and project displays were off. In parameter modes displays are now switched off for not existing parameters.
 * Novation SLMkIII
   * New: Let program changes pass through to Reaper.
 * OSC
