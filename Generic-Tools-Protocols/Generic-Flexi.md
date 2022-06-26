@@ -183,6 +183,7 @@ If the connected device has a keyboard or pads, the following settings allow to 
 * Midi Channel: The MIDI channel on which the keyboard sends its data
 * Route Timbre: Enable to send received MIDI timbre commands to the DAW. Disable if you use MIDI modulation as a slot trigger. Enable if you use MPE.
 * Route Modulation: Enable to send received MIDI modulation commands to the DAW. Disable if you use MIDI modulation as a slot trigger.
+* Route Expression: Enable to send received MIDI expression commands to the DAW. Disable if you use MIDI expression as a slot trigger.
 * Route Sustain: Enable to send received MIDI sustain commands to the DAW. Disable if you use MIDI sustain as a slot trigger.
 * Route Pitchbend: Enable to send received MIDI pitchbend commands to the DAW. Disable if you use MIDI pitchbend as a slot trigger.
 

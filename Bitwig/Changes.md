@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**16.4.1**
+
+* Requires Bitwig 4.1+
+* Generic Flexi:
+  * New: Added setting to directly route expression (CC 11).
+* MPC
+  * New: Q-Link knobs are working now (requires MPC Firmware 2.11).
+  * Fixed: Volume, pan and parameter indicators were off in Bitwig.
+
 **16.4.0**
 
 * Requires Bitwig 4.1+

@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**16.4.1**
+
+* Requires Reaper 6.12+
+* Generic Flexi:
+  * New: Added setting to directly route expression (CC 11).
+* MPC
+  * New: Q-Link knobs are working now (requires MPC Firmware 2.11).
+
 **16.4.0**
 
 * Requires Reaper 6.12+

@@ -160,10 +160,9 @@ The Device Control View allows to control devices (= plugins) from the MPC/Force
 * **ERASE** - Keep pressed and press a pad to delete the according clip or scene depending on the launch mode.
 * **COPY** - Keep pressed and press a pad to duplicate the according clip or scene depending on the launch mode.
 * **PAD BANK A-D** - Moves the clip view left/right and up/down.
+* **Q-Link Knobs** - Page 1 and 2 control the volume of the tracks 1-8. Page 3 and 4 control the 8 parameters of the currently selected device.
 
 All other buttons either have no function or leave the Control Mode.
-
-Sadly, the Q-Links on the MPC do not work (they also do not work in Ableton).
 
 ### Hardware: Only Force
 
