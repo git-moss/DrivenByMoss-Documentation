@@ -1,6 +1,6 @@
 # Novation Launchkey Mk3
 
-Support for the Novation Launchkey Mini Mk3 controller models 25, 37, 49 and 61.
+Support for the Novation Launchkey Mini Mk3 controller models 25, 37, 49, 61 and 88.
 
 ## Installation
 

@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**17.0.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* Launchkey
+  * New: Added detection for Launchkey 88
+
 **16.4.1**
 
 * Requires Reaper 6.12+

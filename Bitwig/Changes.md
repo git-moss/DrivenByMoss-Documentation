@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**17.0.0 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Launchkey
+  * New: Added detection for Launchkey 88
+
 **16.4.1**
 
 * Requires Bitwig 4.1+
