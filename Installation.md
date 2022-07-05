@@ -7,6 +7,7 @@
    * Windows: `%USERPROFILE%\Documents\Bitwig Studio\Extensions\`
    * Mac: `~/Documents/Bitwig Studio/Extensions/`
    * Linux:   `~/Bitwig Studio/Extensions/`
+   Since Bitwig Studio 4.3 you can simply drag and drop the file on it's main window and the file will be automatically copied in the correct folder!
 3. Start Bitwig Studio and open the *Dashboard*. Select *Settings* and *Controllers*.
 4. If **Autdetect** is enabled for most of the controllers you automatically get a popup notification.
 5. Alternatively, click on *Add controller*, select the manufacturer, then the controller and click on *Add*. In that case note that the extension does not start until you configured the necessary in- and outputs!
