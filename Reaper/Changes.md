@@ -1,10 +1,23 @@
 # Changes - Cockos Reaper
 
-**17.0.0 (unreleased)**
+**17.0.0**
 
 * Requires Reaper 6.12+
+* Fire
+  * New: Added a new drum mode, see manual for details.
+  * New: The last selected note/sequencer view is remembered when switching to session/mix and back.
+  * New: All LEDs are full turned off on shutdown and a Goodbye message is displayed.
+  * New: Session mode: ALT + pad selects clip (without starting playback).
+  * New: Bank button + Touch knob: Resets the knobs value to the default value.
+  * Fixed: Black pads were not fully turned off.
+  * Fixed: Do not leave Mix mode on track selection.
+* Komplete Kontrol MkI
+  * New: Works now on Apple Silicon.
+  * Fixed: USB resources were not freed on shutdown.
 * Launchkey
   * New: Added detection for Launchkey 88
+* MCU
+  * Fixed: Knob LEDs went off when panorama was panned fully left.
 
 **16.4.1**
 

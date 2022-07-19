@@ -19,7 +19,7 @@ After you have copied the file reboot your computer.
 * **Select+Play** - Toggle Punch In
 * **Select+Shift+Play** - Toggle Punch Out
 * **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub
+* **Shift+Record** - Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
 * **New** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Shift+New** - Like New button but without activating launcher overdub.
 * **Automation** - Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.
@@ -201,7 +201,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 
 * The buttons on the grid start/record the clips.
 * Long press a pad to select the clip without starting it.
-* If Select is pressed when pressing a pad it is only selected and not started.
+* Hold Select to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
 * The 1/4 to 1/32t buttons start scenes.
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
 * Pressing Shift+1st row buttons returns to the arrangement for that track.

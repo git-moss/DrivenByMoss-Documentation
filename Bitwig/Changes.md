@@ -1,10 +1,27 @@
 # Changes - Bitwig Studio
 
-**17.0.0 (unreleased)**
+**17.0.0**
 
 * Requires Bitwig 4.3+
+* Fire
+  * New: Added a new drum mode, see manual for details.
+  * New: The last selected note/sequencer view is remembered when switching to session/mix and back.
+  * New: All LEDs are full turned off on shutdown and a Goodbye message is displayed.
+  * New: Session mode: ALT + pad selects clip (without starting playback).
+  * New: Bank button + Touch knob: Resets the knobs value to the default value.
+  * Fixed: Black pads were not fully turned off.
+  * Fixed: Do not leave Mix mode on track selection.
+* Fire, Maschine JAM, Push
+  * New: In Session mode hold Select to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip. To select a clip use long pressing the clip pad instead.
+* Fire, Launchpad, Push
+  * New: Shift+Record turns off the recording of the selected slot on the selected track, if it is recording (instead of toggling clip launcher overdub). Enable *Select clip/scene on launch* and *Flip arranger and clip record* to make this work best.
+* Komplete Kontrol MkI
+  * New: Works now on Apple Silicon.
+  * Fixed: USB resources were not freed on shutdown.
 * Launchkey
   * New: Added detection for Launchkey 88
+* MCU
+  * Fixed: Knob LEDs went off when panorama was panned fully left.
 
 **16.4.1**
 

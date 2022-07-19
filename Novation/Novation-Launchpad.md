@@ -64,7 +64,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Double** (**Play** on the Pro Mk3) - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Double** (**Play** on the Pro Mk3) - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub
+* **Shift+Record** - Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
 * **Fixed Length** (only Pro Mk3) - Executes the *New* function.
 * **Fixed Length + Track buttons** (only Pro Mk3) - Create new clips of different lengths.
 

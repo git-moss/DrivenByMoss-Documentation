@@ -141,7 +141,8 @@ _Long press_ to enter birds-eye-view. This allows to quickly navigate the clips 
 
 * The arrow keys scroll the grid by blocks of 8 tracks/scenes. Hold **Shift** to only scroll 1 track/scene. The keys respect the session flip state.
 * The buttons on the grid start/record the clips. The settings provide some options to change the default behaviour.
-* **SELECT+PAD** - Selects the clip without starting it. Alternatively, *long press* the pad.
+* *long press* a pad to select the clip without starting it.
+* **SELECT+PAD** - Hold Select to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
 * **CLEAR+PAD** - Delete the clip.
 * **DUPLICATE** - To duplicate a clip keep the duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
 * **MUTE+PAD** - Select any clip of the track to stop playback of the playing clip of the track.

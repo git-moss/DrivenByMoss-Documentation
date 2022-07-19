@@ -9,10 +9,6 @@ Provides support for the Native Instruments Komplete Kontrol controller Version 
 The device cannot be auto-detected and needs to be manually added. From the controller menu select *Native Instruments* and then *Komplete Kontrol Sxx mk I*, where xx is the number of keys of your specific device (25, 49, 61 or 88).
 As MIDI input select the *normal* Komplete Kontrol input (not the external (EXT) and not the DAW (DAW) one). For the USB port there should only be one option show up, select that one. If none shows up, there is an issue with the USB detection. In that case, try disabling the NI service and/or try different USB ports and cables. Explaining how to disable the NI hardware integration service would lead too far in this manual, search the web for a tutorial how to disable a system service on your OS.
 
-### Macos on Apple Silicon
-
-It is currently not working on that platform. I can only guess that it is an incompatibility with the Rosetta emulation of the driver. Let's hope for a native Apple Silicon version from NI.
-
 ### Installation on Linux
 
 Accessing USB requires root access. To run the Application as a normal user copy the file `99-userusbdevices.rules` to the folder `/etc/udev/rules.d/`.

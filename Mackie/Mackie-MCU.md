@@ -210,7 +210,7 @@ When the EQ mode is active and a track is selected which does not yet have an eq
 
 * **Device Knobs 1-8** - Change the currently selected 8 user parameters.
 
-### Browser (Br)
+### Browser mode (Br)
 
 * Press the _Browser_ button to start
 * Navigate columns with the _Track Control knobs_.
@@ -218,7 +218,7 @@ When the EQ mode is active and a track is selected which does not yet have an eq
 * To confirm a patch or device selection and close the Browser press the _Enter_ button.
 * To discard the patch selection press the _Cancel_ button.
 
-### Marker (Mr)
+### Marker mode (Mr)
 
 * Press the _Marker_ button to start. If you do not have a marker button you can assign this command to a function button.
 * Click the knobs to start the playback from a marker position.

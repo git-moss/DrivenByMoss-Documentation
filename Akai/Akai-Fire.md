@@ -16,7 +16,7 @@ Support script for Akai Fire controller.
 * **Shift+Stop** - Toggle clip automation write
 * **Alt+Stop** - Toggle arranger automation write
 * **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub
+* **Shift+Record** - Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
 * **Alt+Record** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Alt+Shift+Record** - Creates a new clip on the selected track and slot and starts playback.
 
@@ -33,6 +33,7 @@ Changing the tempo:
 In all modes use the knobs in combination with the Shift key for fine adjustments.
 
 * **Bank button**: Select the next Knob mode
+* **Bank button + Touch knob**: Resets the knobs value to the default value
 * **Shift+Bank button**: Select the previous Knob mode
 * **Alt+Bank button**: If MIXER is active it switches to a new display mode, which shows the volume, pan and sends of 16 tracks depending on the touched knob. Especially, helpful in the performance mix view. If CHANNEL is active it shows the volume, pan and sends of the 4 drum machine channels depending on the touched knob. If playback is active and no knob is touched it shows the VU meter activity of all 16 tracks.
 
@@ -102,7 +103,7 @@ Change user parameters. Combine with **Shift** for fine adjustments.
 ## Pad Modes
 
 The play and sequencer modes are selected with the **Step**, **Note** and **Drum** buttons.
-All of the three buttons have two modes. Press the button again when selected to call up the second mode.
+All of the three buttons have two modes (except DRUM has three). Press the button again when selected to call up the second mode.
 The buttons can also be used in combination with Shift and have then the following functions:
 
 * **Shift+Step** - Toggle Accent on/off. If enabled, the velocity of the pads is ignored and the accent value, which can be configured in the settings, is used instead.
@@ -174,16 +175,48 @@ Press the **Note** button twice to activate. The NOTE LED is lit red.
 The grid buttons form a piano style keyboard. The *black keys* are in the color of the selected track.
 The functions are the same as described for the Play mode but the scale settings do not apply.
 
-### Drum 4 Sequencer Mode
+### Drum Sequencer Mode
 
 Press the **Drum** button to activate. The DRUM LED is lit orange.
+
+While the drum sequencers work with any instrument full features (solo , mute, colors) are only available when a drum machine is loaded on the track.
+
+* The *first row* (from the top) represents 16 slots (clips) of the currently selected track.
+  * The pad has the same color as the clip. 
+  * Press one of the pads to start the playback or recording (depending on the settings) of the clip. 
+  * Keep the pad pressed for a bit to only select it. Alternatively, use ALT + pad.
+  * Press and hold Select knob and press a pad to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
+* The *second row* represents 16 drum pads.
+  * The pad has the same color as the drum pad.
+  * Press one of them to select it to edit its' steps as well as to play it.
+  * Use ALT + pad to only select it (without making it sound).
+* Row *three and four* represent up to 32 steps (depending on the selected resolution) of the selected drum pad. Press them to dis-/enable the step. Press two pads (keep the 1st pressed) to create longer notes.
+
+The *Mute/Solo 1-4* buttons can be used in combination with the pads for additional functions:
+
+* **Mute/Solo 1**: Press once to toggle between *copy (green)* and *delete (red)*. If copy is selected keep the button pressed and press the source slot pad (1st row), still keeping the button pressed press the destination slot to copy to the clip. If delete is selected selected a slot to delete its' clip. When combined with the drum pads (2nd row), delete mode clears all notes of the drum pad. Tip: swipe over all pads to clear the full clip.
+In copy mode first select a drum pad (2nd row), then select the destination clip (can be as well the source clip) and then the destination drum pad to copy and overwrite the notes.
+* **Mute/Solo 2**: Press once to toggle between *solo (green)* and *mute (red)*. If solo is selected keep the button pressed and press a clip pad (2nd row) to solo it. If mute is selected keep the button pressed and press a clip pad (2nd row) to mute it. Combine with ALT button either unmute or unsolo all pads.
+* **Mute/Solo 3**: Hold and press a step button (3rd/4th row) to set the loop length (last step) of the clip. Press once to turn on loop length permanently. Press again to turn it off.
+* **Mute/Solo 4**: Press to toggle note repeat.
+
+* **Select Knob**: Move the note range up/down. If note repeat is enabled and one of the drum pads is held, changes the repeat period between 174, 1/8, 1/16 and 1/32.
+* **Grid buttons**: Move to the previous/next page of the clip.
+* **Alt+Grid buttons**: Change the step resolution.
+* **Shift+Grid buttons**: Moves the notes of a drum pad left or right by 1 step.
+* **Pattern Up+Pad**: Enables and increases note repeat by 1.
+* **Pattern Down+Pad**: Enables and decreases note repeat by 1.
+
+### Drum 4 Sequencer Mode
+
+Press the **Drum** button twice to activate. The DRUM LED is lit red.
 
 * **Select Knob**: Move the note range up/down.
 * **Grid buttons**: Move to the previous/next page of the clip.
 * **Alt+Grid buttons**: Change the step resolution.
 * **Mute/Solo 1-4**: Mute the drum sound of the row.
 * **Shift+Mute/Solo 1-4**: Solo the drum sound of the row.
-* **Alt+Mute/Solo**: Display the drum sounds name in drum sequencer mode.
+* **Alt+Mute/Solo**: Show the drum sounds name of the row in the display.
 * **Pattern Up+Pad**: Enables and increases note repeat by 1.
 * **Pattern Down+Pad**: Enables and decreases note repeat by 1.
 
@@ -191,7 +224,7 @@ Editing a note works like in the note sequencer.
 
 ### Drum 64 Mode
 
-Press the **Drum** button twice to activate. The DRUM LED is lit red.
+Press the **Drum** button three times to activate. The DRUM LED is lit bright red.
 
 64 drum sounds can be played.
 
@@ -205,12 +238,14 @@ Press the **Drum** button twice to activate. The DRUM LED is lit red.
 
 Press the **Perform** button to activate. The PERFORM LED is lit orange.
 
-* Long press a pad in session mode to select the clip without starting it.
+* Long press a pad in session mode to select the clip without starting it. Alternatively, use ALT + pad.
 * **Select Knob**: Scroll to the previous/next scene. In addition you can press the knob while turning to switch between scene pages (a page contains 4 scenes).
+* **Press and hold Select knob+PAD**: Immediately launches a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
 * **Grid buttons**: Select the previous/next page of the track bank.
 * **Mute/Solo 1-4**: Start Scene 1-4; the LED is lit if the scene is selected.
 * **Shift+Mute/Solo 1-4** Selects the scene without starting it.
 * **Alt+Mute/Solo 1-4**: Stop all playing clips.
+* Use the **Stop** button in combination with any clip of a track to stop the playing clip of that track.
 
 Use **Shift+Perform** to toggle the birdseye view of the session. In this view a pad represents a block of 16x4 tracks/clips. Press a pad to move the view to that range.
 
