@@ -200,7 +200,7 @@ In copy mode first select a drum pad (2nd row), then select the destination clip
 * **Mute/Solo 3**: Hold and press a step button (3rd/4th row) to set the loop length (last step) of the clip. Press once to turn on loop length permanently. Press again to turn it off.
 * **Mute/Solo 4**: Press to toggle note repeat.
 
-* **Select Knob**: Move the note range up/down. If note repeat is enabled and one of the drum pads is held, changes the repeat period between 174, 1/8, 1/16 and 1/32.
+* **Select Knob**: Move the note range up/down. If note repeat is enabled and one of the drum pads is held, changes the repeat period between 1/4, 1/8, 1/16 and 1/32.
 * **Grid buttons**: Move to the previous/next page of the clip.
 * **Alt+Grid buttons**: Change the step resolution.
 * **Shift+Grid buttons**: Moves the notes of a drum pad left or right by 1 step.
@@ -320,7 +320,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
 * Flip arranger and clip record: if enabled, the functionality of the Record button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence

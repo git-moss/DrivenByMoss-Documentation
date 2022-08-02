@@ -128,7 +128,8 @@ The available functions should be self-explanatory, except:
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
 
 ### Workflow
 

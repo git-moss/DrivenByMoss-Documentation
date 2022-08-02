@@ -141,7 +141,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
 * Record button: Set the function for the record button.
 * Shift + Record button: Set the function for the record button used in combination with Shift.
 

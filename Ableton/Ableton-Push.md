@@ -75,7 +75,7 @@ After you have copied the file reboot your computer.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
 * In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer. Furthermore, the note insert/edit MIDI channel can be selected in this mode.
 Selecting an already selected group track toggles its' expanded state if the Shift button is held.
-* Push 2: Hold Shift to access the Send 4 and 8 mode.
+* Push 2: Hold Shift to access the 4th Send mode.
 
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
@@ -90,7 +90,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * 8 edit knobs: Change crossfader setting of selected 8 tracks.
     * Buttons behave as above.
   
-3. **Pan & Send** - Push 1: Press "Pan & Send" to enter (press multiple times to switch between the 7 modes) - Push 2: Press "Mix" and "Send X" above the display. Toggle between the Sends 1-4 and 5-8.
+3. **Pan & Send** - Push 1: Press "Pan & Send" to enter (press multiple times to switch between the modes) - Push 2: Press "Mix" and "Send X" above the display. The 4th button above the display moves to the next sends page. Combine with Shift to move backwards.
     * 8 edit knobs: Change pan/send1-6 of selected 8 tracks. Hold **Shift** for fine adjustments.
     * Buttons behave as above.
 
@@ -318,7 +318,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
 * Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence

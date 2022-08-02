@@ -279,7 +279,8 @@ The available functions should be self-explanatory, except:
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
 * Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence

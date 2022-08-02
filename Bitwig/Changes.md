@@ -1,5 +1,25 @@
 # Changes - Bitwig Studio
 
+**17.1.0**
+
+* Requires Bitwig 4.3+
+* All
+  * New: Only color existing session slots red (for which a scene exists) for recording.
+* Fire
+  * Fixed: Knobs did not work after leaving note edit mode.
+* MCU
+  * Fixed: Touch state for touch automation recording was not always set correctly.
+* Push
+  * New: Push 2: The 4th button above the display now moves to the next sends page. Combine with Shift to move backwards.
+  * Fixed: Internal Drum Machine Sends were not handled correctly.
+  * Fixed: Do not switch to drum channel when browser is open (when playing pads).
+  * Fixed: Push 1: Layer panorama mode - value bars were not setup as panorama.
+  * Fixed: Push 1: Layer send modes could not be accessed.
+* APC40, APCmini, Launchpad, Launchkey Mini, Maschine, Maschine Mikro, Maschine JAM, Push
+  * New: Renamed 'Behaviour on Play' to 'Behaviour on Pause' and renamed the options as well.
+* Fire, Force, HUI, Kontrol mkI/II, Launchkey, MCU, MPC, SLmkII/mkIII
+  * New: Added additional setting 'Behaviour on Pause' triggered by play button.
+
 **17.0.0**
 
 * Requires Bitwig 4.3+

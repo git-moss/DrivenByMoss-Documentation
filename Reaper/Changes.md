@@ -1,5 +1,21 @@
 # Changes - Cockos Reaper
 
+**17.1.0**
+
+* Requires Reaper 6.12+
+* Fire
+  * Fixed: Knobs did not work after leaving note edit mode.
+* MCU
+  * New: Added volume automation of master fader.
+  * Fixed: Touch state for touch automation recording was not always correctly set.
+  * Fixed: Volume envelope data was not sent to master fader.
+* Push
+  * New: Push 2: The 4th button above the display now moves to the next sends page. Combine with Shift to move backwards.
+* APC40, APCmini, Launchpad, Launchkey Mini, Maschine, Maschine Mikro, Maschine JAM, Push
+  * New: Renamed 'Behaviour on Play' to 'Behaviour on Pause' and renamed the options as well.
+* Fire, Force, HUI, Kontrol mkI/II, Launchkey, MCU, MPC, SLmkII/mkIII
+  * New: Added additional setting 'Behaviour on Pause' triggered by play button.
+
 **17.0.0**
 
 * Requires Reaper 6.12+
