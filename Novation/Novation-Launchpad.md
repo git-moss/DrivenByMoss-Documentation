@@ -386,6 +386,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Play and Sequence
 
+* Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
+* Fixed Accent Value: The velocity value to use when fixed accent is active.
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 
@@ -409,6 +411,12 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
+* New clip length: The length of a clip created with the New function.
+
+### Workflow
+
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Include (Group-)Mastertrack (requires restart): Includes the master tracks for all groups in the track list.
 * New clip length: The length of a clip created with the New function.
 
 ### Pads

@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**17.5.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* Support for Novation LaunchControl XL
+
 **17.1.0**
 
 * Requires Reaper 6.12+
