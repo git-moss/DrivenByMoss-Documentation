@@ -4,6 +4,10 @@
 
 * Requires Bitwig 4.3+
 * Support for Novation LaunchControl XL
+* Beatstep
+  * New: Toggle Window button uses different colors depending on window state (blue = closed, pink = opened).
+  * New: Removed the useless track navigation functions in the track mode and added rec arm and toggling folders instead.
+  * Fixed: Prevent view change on track change, which is confusing on the Beatstep since it leaves Track view.
 
 **17.1.0**
 
