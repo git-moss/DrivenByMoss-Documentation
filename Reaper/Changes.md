@@ -1,8 +1,9 @@
 # Changes - Cockos Reaper
 
-**17.5.0 (unreleased)**
+**17.5.0**
 
 * Requires Reaper 6.12+
+* Increased length of parameter names in Parameter configuration dialog.
 * Support for Novation LaunchControl XL
 * Beatstep
   * New: Toggle Window button uses different colors depending on window state (blue = closed, pink = opened).

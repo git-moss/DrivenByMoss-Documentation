@@ -82,32 +82,13 @@ This mode is not limited to but should be used with a Bitwig Drum Machine device
 
 * **Track Focus buttons**: Selects one of the 8 drum pads (sounds) on the currently selected drum machine pads page.
 * **Track Control / Device Bank**: This depends on the state of the Device, Mute, Solo and Record Arm buttons:
-    * All of the below buttons are off: press to toggle the step on/off.
+    * **Mute/Solo/Rec Arm buttons are off**: Press to toggle the step on/off.
     * **Device** (yellow): Keep the device button pressed to select one of the 1st 8 parameter pages of the drum machine device.
     * **Mute** (amber): If active the Mute state of the 8 drum pads of the currently selected drum machine pads page is toggled. Keep the Mute button pressed to select one of 8 step resolutions for the sequencer.
     * **Solo** (green): If active the Solo state of the 8 drum pads of the currently selected drum machine pads page is toggled. If the *Solo* button is kept pressed it displays 8 scenes. Press one of the buttons to start the scene. The selected scene is highlighted.
     * **Record Arm** (red): If active the Loop Length of the currently selected clip can be set. If the *Record Arm* button is kept pressed it displays the transport bar as already described above.
 * **Send Select**: Moves the page of the drum pads (sounds) up/down.
-* **Track Select**: Select the previous/next page of the clip. If the *Device* button is pressed it selects the previous/next device of the selected track. If the *Solo* button is pressed it selects the previous/next page of scenes.
-
-### Note Sequencer - 5th Factory template
-
-This mode is special in a way that it provides access to many parameters of the 8 displayed steps at once. It is intended to create a monophonic melody.
-
-* **Track Focus buttons**: If the step contains a note it is deleted. Otherwise a new note is created using the currently selected root note.
-* **Track Control / Device Bank**: This depends on the state of the Device, Mute, Solo and Record Arm buttons:
-    * **Device** (yellow): Keep the device button pressed to select one of the 1st 8 parameter pages of the drum machine device.
-
-    TODO
-    
-    * **Mute** (amber): If active the Mute state of the 8 steps is toggled. Keep the Mute button pressed to select one of 8 step resolutions for the sequencer.
-    
-    * **Solo** (green): If active the Solo state of the 8 drum pads of the currently selected drum machine pads page is toggled. If the *Solo* button is kept pressed it displays 8 scenes. Press one of the buttons to start the scene. The selected scene is highlighted.
-    
-    * **Record Arm** (red): If active the Loop Length of the currently selected clip can be set. If the *Record Arm* button is kept pressed it displays the transport bar as already described above.
-
-* **Send Select**: Moves the page of the drum pads (sounds) up/down.
-* **Track Select**: Select the previous/next page of the clip. If the *Device* button is pressed it selects the previous/next device of the selected track. If the *Solo* button is pressed it selects the previous/next page of scenes.
+* **Track Select**: Select the previous/next page of the clip. If the *Solo* button is pressed it selects the previous/next page of scenes.
 
 #### Knobs / Faders
 
@@ -117,6 +98,24 @@ Each column of 3 knobs and 1 fader control different parameters of the respectiv
 * **Send B knobs**: Sets the number of Repeats of the note. To make this usable with the knob the values are limited to 16 in both directions. Center position is only 1 repeat (= off).
 * **Pan/Device knobs**: Sets the panorama of the note.
 * **Faders**: Sets the velocity of the note.
+
+### Note Sequencer - 5th Factory template
+
+This mode is special in a way that it provides access to many parameters of the 8 displayed steps at once. It is intended to create a monophonic melody.
+
+* **Track Focus buttons**: If the step contains a note it is deleted. Otherwise a new note is created using the currently selected base note of the scale.
+* **Track Control / Device Bank**: This depends on the state of the Device, Mute, Solo and Record Arm buttons:
+    * **Mute/Solo/Rec Arm buttons are off**: Press to toggle the mute state of the note of the step.
+    * **Device** (yellow): Keep the device button pressed to select one of the 1st 8 parameter pages of the first  instrument device.
+    * **Mute, Solo, Rec Arm**: These are identical to the drum sequencer. The layer mute/solo might not be that helpful in this sequencer but they are there anyway.
+* **Send Select**: Selects the previous/next scale.
+* **Track Select**: Select the previous/next page of the clip. If the *Solo* button is pressed it selects the previous/next page of scenes.
+
+#### Knobs / Faders
+
+Each column of 3 knobs and 1 fader control different parameters of the respective step. This is identical to the Drum Sequencer except the first button row:
+
+* **Send A knobs**: Sets the pitch of the note (step). This depends on the scale settings!
 
 ## Preferences Settings
 
@@ -134,6 +133,16 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
+
+## Document Settings
+
+These settings are specific to each project.
+
+### Scales
+
+* Scale: Select the scale
+* Base: Select the base note of the scale
+* In Key: Select *Chromatic* to also display notes which are not part of the scale.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

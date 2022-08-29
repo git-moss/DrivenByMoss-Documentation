@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**17.5.0 (unreleased)**
+**17.5.0**
 
 * Requires Bitwig 4.3+
 * Support for Novation LaunchControl XL
