@@ -13,6 +13,7 @@ Selecting a factory template triggers the selection of different modes to contro
 In all modes keeping the *Record Arm* button pressed activates the transport mode on the two button rows:
 
 Track Focus row:
+
 * 1 **Play** (yellow): Creates a new clip. The length can be configured in the settings.
 * 2 **Clip Overdub** (amber): Toggle clip overdub.
 * 3 **Tempo-** (green): Decrease the song tempo by 1.
@@ -23,6 +24,7 @@ Track Focus row:
 * 8 **Plugin Window** (green): Toggles the window of the currently selected device (if it has one).
 
 Track Control row:
+
 * 1 **Play** (green): Start/stop playback. Double tap to move the play cursor to the start of the arranger.
 * 2 **Record** (red): Start arranger recording.
 * 3 **Rewind** (amber): Move the play cursor backwards in the arranger.
