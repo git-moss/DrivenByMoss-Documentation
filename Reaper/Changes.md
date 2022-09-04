@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**17.6.0**
+
+* Requires Reaper 6.12+
+* APC40 mkI/II
+  * New: Drum mode provides functions to select drum pads without sounding them.
+  * New: Note Repeat can now be used in the play and drum mode.
+  * New: Added note repeat settings.
+  * New: Added settings *Display clips of record enabled tracks in red*, *Action for pressing rec armed empty clip* and *Turn off empty drum pads*.
+  * New: Shift + Tap Tempo: Inserts a new marker at the current play position.
+  * New: Cursor right: Move track bank focus 8 tracks up
+  * New: Cursor left: Move track bank focus 8 tracks down
+  * New: Shift+Cursor right: Selects the next marker to the right of the play cursor.
+  * New: Shift+Cursor left: Selects the next marker to the left of the play cursor.
+
 **17.5.0**
 
 * Requires Reaper 6.12+

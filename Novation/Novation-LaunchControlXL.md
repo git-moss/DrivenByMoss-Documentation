@@ -98,6 +98,7 @@ Each column of 3 knobs and 1 fader control different parameters of the respectiv
 
 * **Send A knobs**: Sets the Chance parameter of the note (step). This is the probability that the note will play: 0-100%
 * **Send B knobs**: Sets the number of Repeats of the note. To make this usable with the knob the values are limited to 16 in both directions. Center position is only 1 repeat (= off).
+* **Rec Arm + Send B knobs**: Sets the note chance.
 * **Pan/Device knobs**: Sets the panorama of the note.
 * **Faders**: Sets the velocity of the note.
 
@@ -117,7 +118,7 @@ This mode is special in a way that it provides access to many parameters of the 
 
 Each column of 3 knobs and 1 fader control different parameters of the respective step. This is identical to the Drum Sequencer except the first button row:
 
-* **Send A knobs**: Sets the pitch of the note (step). This depends on the scale settings!
+* **Send A knobs**: Sets the pitch of the note (step). This depends on the scale settings! Combine with *Rec Arm* button to access the chance parameter.
 
 ## Preferences Settings
 

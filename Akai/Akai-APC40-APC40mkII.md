@@ -18,6 +18,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Left cursor + Cue Level** - Changes arrange loop start (combine with Shift for small changes).
 * **Right cursor + Cue Level** - Changes arrange loop length (combine with Shift for small changes).
 * **Tap Tempo** - Tap Tempo
+* **Shift + Tap Tempo** - Inserts a new marker at the current play position.
 * APC40: **Tap Tempo + Cue Level** changes tempo.
 * **Nudge+** - Redo
 * **Nudge-** - Undo
@@ -75,10 +76,10 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Record-arm buttons** - Press to arm the specific track for recording.
 * **Shift+Mute, Shift+Solo** - Toggle monitor and auto monitor
 * **A|B buttons* (on first version press Shift+RecArm) - Select channel A or B for crossfader.
-* **Cursor right** - Move track bank focus 1 track up
-* **Cursor left** - Move track bank focus 1 track down
-* **Shift+Cursor right** - Move track bank focus 8 tracks up
-* **Shift+Cursor left** - Move track bank focus 8 tracks down
+* **Cursor right** - Move track bank focus 8 tracks up
+* **Cursor left** - Move track bank focus 8 tracks down
+* **Shift+Cursor right** - Selects the next marker to the right of the play cursor.
+* **Shift+Cursor left** - Selects the next marker to the left of the play cursor.
 * **Track selection buttons** - Select the specific track
 * **Master button** - Select the master track
 * **Shift+Master button** - Toggles between editing of normal and effect tracks.
@@ -144,13 +145,25 @@ In this mode one pad represents a 8x5 area in the clip grid. Press a pad to quic
 
 ### Drum Sequencer
 
-* The drum sequencer works as described in the Ableton Push manual. The differences are:
-  * Since the APCs have only 5 rows of clip buttons the selection/play grid has only 3 rows and the notes have only 2 rows.
-  * The 4th drum row cannot be accessed
-  * Use the measure bars to select unseen notes.
+* The upper 2 rows contains 16 steps for the currently selected drum pad. Press one of the pads to turn the step on or off.
+* The left bottom 4x3 area contains 12 drum sounds. Pressing a pad plays the drum sound and selects it for editing in the step area.
+* The right bottom 4x3 area contains the available pages of the clip. Press one of the pads to select the page for editing. Keep one of the pads pressed and select a pad after the first one to set the clip loop.
 * *Clip Stop buttons* - Select the note resolution (displayed on computer screen)
+* *Scene Launch button 1* - Transpose notes 1 row up. The new key range is displayed on the computer screen.
+* *Scene Launch button 2* - Transpose notes 1 row down. The new key range is displayed on the computer screen.
+* *Scene Launch button 3* - Toggles the additional combination buttons in the loop area.
 * *Scene Launch button 4* - Transpose notes 1 block up. The new key range is displayed on the computer screen.
 * *Scene Launch button 5* - Transpose notes 1 block down. The new key range is displayed on the computer screen.
+
+Additional combination buttons in the loop area:
+* **Button 1**: Keep pressed and select a drum pad to select it without sounding it.
+* **Button 2**: Keep pressed and select a drum pad to toggle its' mute state.
+* **Button 3**: Keep pressed and select a drum pad to toggle its' solo state.
+* **Button 4**: Keep pressed and select a drum pad to open the browser for it.
+* **Button 5**: Toggles note repeat on/off.
+* **Button 6**: Toggles note repeat period on/off. If enabled the stop clip buttons select the note repeat period.
+* **Button 7**: Toggles note repeat length on/off. If enabled the stop clip buttons select the note repeat length.
+* **Button 8**: -
 
 **Editing notes**
 
@@ -159,12 +172,12 @@ The knobs edit the following parameters:
 
 1. Duration (1/32 to 4 bars (128 * 32th))
 2. Velocity
-3. Release Velocity
+3. Velocity Spread
 4. Gain
 5. Panorama
-6. Pitch
+6. Chance
 7. Timbre
-8. Pitch
+8. Pressure
 
 Parameter 3 to 8 are only available with Bitwig.
 
@@ -211,27 +224,33 @@ If you keep Shift pressed there are additional functions available on the pads o
 
 The 2 rows at the bottom represent a keyboard, which allows you to select the root note of the scale.
 
-## Preferences dialog
+## Preferences Settings
 
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
+
+### Session
+
+* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
+* Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view?
 
 ### Play and Sequence
 
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 
-### Workflow
-
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
-* New clip length: The length of a clip created with the New function.
-
 ### Transport
 
 * Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
 
-### Session
+### Drum Sequencer
 
-* Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
+* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled the pad LEDs are off.
+
+### Workflow
+
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
 
 ## Document Settings
 
@@ -243,6 +262,14 @@ These settings are specific to each project.
 * Base: Select the base note of the scale
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.
 * Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
+
+### Note Repeat
+
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

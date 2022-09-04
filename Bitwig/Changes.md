@@ -1,5 +1,27 @@
 # Changes - Bitwig Studio
 
+**17.6.0**
+
+* Requires Bitwig 4.3+
+* APC40 mkI/II
+  * New: Drum mode provides functions to select, mute, solo and browse drum pads.
+  * New: In note editing the parameter *Release Velocity* was replaced with *Velocity Spread* and *Pitch* with *Chance*.
+  * New: Note Repeat can now be used in the play and drum mode.
+  * New: Added note repeat settings.
+  * New: Added settings *Display clips of record enabled tracks in red*, *Action for pressing rec armed empty clip* and *Turn off empty drum pads*.
+  * New: Renamed Note Input to *Pads*.
+  * New: Shift + Tap Tempo: Inserts a new marker at the current play position.
+  * New: Cursor right: Move track bank focus 8 tracks up
+  * New: Cursor left: Move track bank focus 8 tracks down
+  * New: Shift+Cursor right: Selects the next marker to the right of the play cursor.
+  * New: Shift+Cursor left: Selects the next marker to the left of the play cursor.
+* Fire
+  * New: Alt+Resonance knob: Changes the velocity spread of the note.
+  * New: Alt+Filter knob: Changes the chance of the note.
+* LaunchControl XL
+  * New: Note Sequencer: RecArm + Send A knob: Changes note chance.
+  * New: Drum + Note Sequencer: RecArm + Send B knob: Changes velocity spread.
+
 **17.5.0**
 
 * Requires Bitwig 4.3+

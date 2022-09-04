@@ -145,8 +145,9 @@ Selected notes are lit in dark yellow. Then use the knobs as follow:
 * **Pan knob**: Changes the panorama of the note
 * **Alt+Pan knob**: Changes the timbre of the note
 * **Filter knob**: Changes the duration of the note
+* **Alt+Filter knob**: Changes the chance of the note
 * **Resonance knob**: Changes the velocity of the note
-* **Alt+Resonance knob**: Changes the release velocity of the note
+* **Alt+Resonance knob**: Changes the velocity spread of the note
 * **Select knob**: Changes the pitch of the note
 
 ### Poly Sequencer Mode
