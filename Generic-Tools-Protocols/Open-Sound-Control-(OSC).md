@@ -121,6 +121,7 @@ The parameters of the command documentation below are as follows:
 | /scene/{1-8}/exists                       | {0,1}    | Does the scene exist?                                      |
 | /scene/{1-8}/name                         | {text}   | The name of the scene.                                     |
 | /scene/{1-8}/selected                     | {0,1}    | Is the scene selected?                                     |
+| /scene/color                              | {color}  | The color of the scene.                                    |
 | /track/{1-8}/clip/{1-8}/name              | {text}   | The name of the clipin the slot (if any).                  |
 | /track/{1-8}/clip/{1-8}/isSelected        | {0,1}    | Is the slot selected.                                      |
 | /track/{1-8}/clip/{1-8}/hasContent        | {0,1}    | Does the slot has a clip as content.                       |

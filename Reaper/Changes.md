@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**17.6.1 (unreleased)**
+
+* Requires Reaper 6.12+
+* Maschine
+  * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
+* OSC
+  * New: Added /scene/color
+
 **17.6.0**
 
 * Requires Reaper 6.12+

@@ -54,7 +54,12 @@ You find the UserPlugins folder at the following locations:
 Alternatively, you can start Reaper and click in the Options menu on *Show REAPER resource path in explorer/finder...".
 In the folder that open navigate into the UserPlugins subfolder.
 
-### Mac OS specifics
+### Windows specifics
+
+If you get an error when starting DrivenByMoss that says *jvm.dll could not be loaded - Error 126* make sure that the latest C++ redistributable packet for Visual Studio is installed. It can be downloaded here:
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+### MacOS specifics
 
 If you get the following error when starting Reaper:  `"reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software.`,
 do the following:

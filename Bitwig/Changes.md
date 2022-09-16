@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**17.6.1 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Maschine
+  * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
+* OSC
+  * New: Added /scene/color
+  * Fixed: /track/bank/{+,-} did not report the track selection as Off if the selected track went out of the page.
+
 **17.6.0**
 
 * Requires Bitwig 4.3+

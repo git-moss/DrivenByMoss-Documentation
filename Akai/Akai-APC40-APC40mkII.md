@@ -2,26 +2,27 @@
 
 Support script for Akais' APC40 and APC40mkII controller.
 
-## Navigation
+## Global Functions
 
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift+Play** - Toggle repeat
+* **Shift+Play** - Toggle repeat.
 * **Stop** *only mkI* - Stop playback. Press again to move play cursor to start of the song. Double click to move play cursor to end of song.
-* **Record** - Start/Stop recording
-* **Shift+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
+* **Record** - Start/Stop recording.
+* **Shift+Record** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars
-* **Metronome** - Toggle metronome
-* **Shift + Metronome** - Enable Metronome Ticks
-* **Detail View** - Toggle plugin window (if any)
-* **Shift+Detail View** - Step through the layout perspectives
-* **Cue Level** - Move play cursor (press shift for finer adjustment)
+* **Metronome** - Toggle metronome.
+* **Shift + Metronome** - Enable Metronome Ticks.
+* **Detail View** - Toggle plugin window (if any).
+* **Shift+Detail View** - Step through the layout perspectives.
+* **Cue Level** - Move play cursor (press shift for finer adjustment).
 * **Left cursor + Cue Level** - Changes arrange loop start (combine with Shift for small changes).
 * **Right cursor + Cue Level** - Changes arrange loop length (combine with Shift for small changes).
-* **Tap Tempo** - Tap Tempo
+* **Tap Tempo** - Tap Tempo.
 * **Shift + Tap Tempo** - Inserts a new marker at the current play position.
 * APC40: **Tap Tempo + Cue Level** changes tempo.
-* **Nudge+** - Redo
-* **Nudge-** - Undo
+* **Nudge+** - Redo.
+* **Nudge-** - Undo.
+* **A|B Crossfader** - Crossfade between tracks assigned to crossfade mode A and B.
 
 ### Specifics for the Mk I
 
@@ -75,7 +76,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Solo buttons** - Un-/solo the specific track
 * **Record-arm buttons** - Press to arm the specific track for recording.
 * **Shift+Mute, Shift+Solo** - Toggle monitor and auto monitor
-* **A|B buttons* (on first version press Shift+RecArm) - Select channel A or B for crossfader.
+* **A|B buttons** (on first version press Shift+RecArm) - Select channel A or B for crossfader.
 * **Cursor right** - Move track bank focus 8 tracks up
 * **Cursor left** - Move track bank focus 8 tracks down
 * **Shift+Cursor right** - Selects the next marker to the right of the play cursor.
