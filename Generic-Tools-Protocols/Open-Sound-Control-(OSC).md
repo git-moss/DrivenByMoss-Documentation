@@ -151,10 +151,12 @@ The parameters of the command documentation below are as follows:
 | /device/param/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.            |
 | /device/param/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                      |
 | /device/page/{1-8}/selected        | {0,1}         | Is the parameter page selected?                            |
-| /device/page/{1-8}/                | {text}        | The name of the parameter page.                            |
+| /device/page/{1-8}/name            | {text}        | The name of the parameter page.                            |
 | /device/page/selected/name         | {text}        | The name of the selected parameter page.                   |
+| /device/sibling/{1-8}/exists       | {0,1}         | Does the sibling device exist?                             |
 | /device/sibling/{1-8}/name         | {text}        | The name of the devices sibling (devices before or after the device). |
-| /device/sibling/{1-8}/selected     | {0,1}         | Is the sibling selected?
+| /device/sibling/{1-8}/bypass       | {0,1}         | Is the sibling device bypassed?                              |
+| /device/sibling/{1-8}/selected     | {0,1}         | Is the sibling selected?                                     |
 | /device/layer/{1-8}/exists         | {0,1}         | Does the layer exist?                                        |
 | /device/layer/{1-8}/activated      | {0,1}         | Is the layer active?                                         |
 | /device/layer/{1-8}/selected       | {0,1}         | Is the layer selected?                                       |
@@ -383,6 +385,7 @@ The following commands apply to all devices. The cursor device (/device), the pr
 | Command                               | Value         | Comment                                        |
 | :----------------                     |:-----------   |:---------------                                |
 | /device/page/selected                 | {1-8}         | Select the device page.                        |
+| /device/page/{1-8}/selected           |               | Select the device page.                        |
 | /device/duplicate                     |               | Duplicate the device.                          |
 | /device/remove                        |               | Remove/delete the device.                      |
 | /device/bypass                        |               | Toggle bypass.                                 |

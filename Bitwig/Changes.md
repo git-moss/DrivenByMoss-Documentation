@@ -7,7 +7,12 @@
   * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
 * OSC
   * New: Added /scene/color
+  * New: Added /device/page/{1-8}/name for consistency reasons
+  * New: Added /device/sibling/{1-8}/exists
+  * New: Added /device/sibling/{1-8}/bypass  
   * Fixed: /track/bank/{+,-} did not report the track selection as Off if the selected track went out of the page.
+  * Fixed: /device/param/bank/page/{+,-} did not jump 8 pages but only 1.
+  * Fixed: /device/param/{+,-} did not jump 1 page but 8.
 
 **17.6.0**
 
