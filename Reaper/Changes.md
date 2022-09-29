@@ -3,6 +3,10 @@
 **17.6.1 (unreleased)**
 
 * Requires Reaper 6.12+
+* All devices
+  * Fixed: Insert track did not insert it after the selected track but after the next track.
+* APC40 mkII
+  * New: Selected notes in sequencers are now yellow (instead of white).
 * Maschine
   * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
 * OSC
@@ -76,7 +80,7 @@
 **16.4.1**
 
 * Requires Reaper 6.12+
-* Generic Flexi:
+* Generic Flexi
   * New: Added setting to directly route expression (CC 11).
 * MPC
   * New: Q-Link knobs are working now (requires MPC Firmware 2.11).

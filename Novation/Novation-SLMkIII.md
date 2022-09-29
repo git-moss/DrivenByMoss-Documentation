@@ -145,9 +145,9 @@ The Sequencer is mainly intended for Drum Sequencing but can also be used for in
 
 Switch to step view with the Scene 1 button. In step view:
 
-* dis-/enable the steps by pressing the pads. 
-* change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
-* long press a step to edit the note. Selected notes are lit in yellow.
+* Dis-/enable the steps by pressing the pads. 
+* Change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
+* Long press a step to edit the note. Selected notes are lit in yellow. The first four buttons select between the different edit pages of the note edit mode which contain many note parameters. On the last page, to edit the recurrence pattern hold the Shift button and use the buttons below the display to toggle the steps. The length of the recurrence pattern can be changed with all knobs.
 
 * **Scene 1** - Toggle between note and step view
 * **Scene 2** - Open the resolution selection mode. Press one of the buttons below the display to select a resolution.

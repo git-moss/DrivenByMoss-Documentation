@@ -18,8 +18,8 @@ DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which 
 * The only way to insert MIDI messages into Reaper is via the Virtual MIDI keyboard input. If you map something with generic Flexi, it goes only into that channel (but not into the Action mapping) and does only work if the channel is record enabled. Therefore, the use-case is only to control devices which react or require MIDI CC.
 * MIDI clock cannot be sent to the device since this would require to enable the MIDI output of the device in Reaper.
 * The metronome volume text description is not updated (always shows -6.0dB).
-* Automation Touch mode is only supported for volume and panorama (limitation of the Reaper CSI API) but behaves a bit weirdly and creates little *accordion* spikes. Use Latch mode instead.
-* Disabled envelope automations are still sent to the device.
+* Automation Touch mode is only supported for volume and panorama (limitation of the Reaper CSI API). Use Latch mode instead.
+* Disabled envelope automations are still sent to the device (since the bypass info can currently only be retrieved via the envelope chunk which has a bad performance impact).
 
 ### Workarounds
 

@@ -117,6 +117,58 @@ The following functions are available in all modes:
 * **Alt+Pattern down**: Undo
 * **Alt+Pattern up**: Redo
 
+## Play Modes
+
+These modes are optimized for playing notes like with a real instrument.
+
+### Play Mode
+
+Press the **Note** button to activate. The NOTE LED is lit orange.
+
+* **Select Knob**: Move the note range one octave up/down
+* **Grid buttons**: Toggle Chromatic / In Scale
+* **Shift+Grid buttons**: Change the Scale
+* **Alt+Grid buttons**: Change the Scale Layout
+* **Shift+Alt+Grid buttons**: Change the Scale Base key
+* **Mute/Solo 1-4**: Same as in Note Sequencer mode
+
+### Piano Mode
+
+Press the **Note** button twice to activate. The NOTE LED is lit red.
+The grid buttons form a piano style keyboard. The *black keys* are in the color of the selected track.
+The functions are the same as described for the Play mode but the scale settings do not apply.
+
+### Drum 64 Mode
+
+Press the **Drum** button three times to activate. The DRUM LED is lit bright red.
+
+64 drum sounds can be played.
+
+* **Select Knob**: -
+* **Grid buttons**: -
+* **Mute/Solo 1-2**: -
+* **Mute/Solo 3 + Pad**: Solo the drum sound.
+* **Mute/Solo 4 + Pad**: Mute the drum sound.
+
+## Sequencers
+
+### Note editing
+
+Note editing is available in all sequencers.
+Note edit mode is de-/activated with **Alt+STEP** or **Alt+DRUM**. Press the pad(s) with the note(s) to edit.
+Selected notes are lit in dark yellow. Then use the knobs as follow:
+
+* **Volume knob**: Changes the gain of the note
+* **Alt+Volume knob**: Changes the pressure of the note
+* **Pan knob**: Changes the panorama of the note
+* **Alt+Pan knob**: Changes the timbre of the note
+* **Filter knob**: Changes the duration of the note
+* **Alt+Filter knob**: Changes the chance of the note
+* **Resonance knob**: Changes the velocity of the note
+* **Alt+Resonance knob**: Changes the velocity spread of the note
+* **Select knob**: Changes the pitch of the note
+* **Alt+Select knob**: Changes the repeat count of the note
+
 ### Note Sequencer Mode
 
 Press the **Step** button to activate. The STEP LED is lit orange.
@@ -137,19 +189,6 @@ To change the other scale settings switch to the Play Mode and change it there.
 * **Mute/Solo 3**: Toggle Solo of selected track
 * **Mute/Solo 4**: Toggle Record Arm of selected track
 
-Note editing mode is de-/activated with **Alt+STEP** or **Alt+DRUM**. Press the pad(s) with the note(s) to edit.
-Selected notes are lit in dark yellow. Then use the knobs as follow:
-
-* **Volume knob**: Changes the gain of the note
-* **Alt+Volume knob**: Changes the pressure of the note
-* **Pan knob**: Changes the panorama of the note
-* **Alt+Pan knob**: Changes the timbre of the note
-* **Filter knob**: Changes the duration of the note
-* **Alt+Filter knob**: Changes the chance of the note
-* **Resonance knob**: Changes the velocity of the note
-* **Alt+Resonance knob**: Changes the velocity spread of the note
-* **Select knob**: Changes the pitch of the note
-
 ### Poly Sequencer Mode
 
 Press the **Step** button twice to activate. The STEP LED is lit red.
@@ -158,23 +197,6 @@ The buttons behave as with Note Sequencer.
 Play a chord in the lower part then enable steps in the upper chord which will be filled with the played chord.
 
 To change the other scale settings switch to the Play Mode and change it there.
-
-### Play Mode
-
-Press the **Note** button to activate. The NOTE LED is lit orange.
-
-* **Select Knob**: Move the note range one octave up/down
-* **Grid buttons**: Toggle Chromatic / In Scale
-* **Shift+Grid buttons**: Change the Scale
-* **Alt+Grid buttons**: Change the Scale Layout
-* **Shift+Alt+Grid buttons**: Change the Scale Base key
-* **Mute/Solo 1-4**: Same as in Note Sequencer mode
-
-### Piano Mode
-
-Press the **Note** button twice to activate. The NOTE LED is lit red.
-The grid buttons form a piano style keyboard. The *black keys* are in the color of the selected track.
-The functions are the same as described for the Play mode but the scale settings do not apply.
 
 ### Drum Sequencer Mode
 
@@ -221,19 +243,7 @@ Press the **Drum** button twice to activate. The DRUM LED is lit red.
 * **Pattern Up+Pad**: Enables and increases note repeat by 1.
 * **Pattern Down+Pad**: Enables and decreases note repeat by 1.
 
-Editing a note works like in the note sequencer.
-
-### Drum 64 Mode
-
-Press the **Drum** button three times to activate. The DRUM LED is lit bright red.
-
-64 drum sounds can be played.
-
-* **Select Knob**: -
-* **Grid buttons**: -
-* **Mute/Solo 1-2**: -
-* **Mute/Solo 3 + Pad**: Solo the drum sound.
-* **Mute/Solo 4 + Pad**: Mute the drum sound.
+## Other Modes
 
 ### Session Mode
 

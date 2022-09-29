@@ -3,8 +3,14 @@
 **17.6.1 (unreleased)**
 
 * Requires Bitwig 4.3+
+* APC40 mkII
+  * New: Selected notes in sequencers are now yellow (instead of white).
+* Fire
+  * New: Alt+Select Knob changes the note repeat in note edit mode.
 * Maschine
   * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
+* Novation SLMkIII
+  * New: Improved the layout of the recurrence pattern edit screen. The steps can now be toggled with Shift and the buttons below the display. The length of the pattern can now be changed with all knobs.
 * OSC
   * New: Added /scene/color
   * New: Added /device/page/{1-8}/name for consistency reasons

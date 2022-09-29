@@ -4,14 +4,9 @@ Support script for the Yaeltex Turn controller.
 
 ## Installation
 
-To use the extension the default template (called a *Bank*) needs to be installed and selected on the turn.
-
-If additional templates besides DrivenByMoss e.g. to control a hardware synth should be added, note the following:
-
-1. You need to modify one of the buttons for bank switching with the Yaeltex editor (e.g. the *stop* or *loop*
- buttons could be candidates since their functions is available with a *shift* combination).
-2. Use only MIDI channels 1-9 all others are used by the DrivenByMoss template.
-3. In the Kilowhat editor, do not change any of the global MIDI CHANNELS settings in the Turn Preferences.
+To use the extension the included template (called a *Bank*) needs to be installed on the Yaeltex Turn.
+To do so, open the Kilowhat editor and when prompted choose to load from a file. Select the file TURN.ytx
+from the Yaeltex folder in the resources folder coming with DrivenByMoss. After that, press the button *Send to Device*.
 
 ## Modifier Keys
 
@@ -59,41 +54,62 @@ The following 6 buttons control parameters of the transport:
 * **loop** - Toggle arranger loop.
 * **tap tempo** - Tap Tempo.
 * **shift+tap tempo** - Toggle metronome.
-* **select+arrow left** - Move play cursor to the left (combine with *shift* for finer adjustment)
-* **select+arrow right** - Move play cursor to the right (combine with *shift* for finer adjustment)
+* **select+left** - Move play cursor to the left (combine with *shift* for finer adjustment)
+* **select+right** - Move play cursor to the right (combine with *shift* for finer adjustment)
 
-TODO
+## Track Mode
+
+### Digital knobs - Mixer
+
+These 4 rows of knobs control the following things (from top to bottom):
+
+1. Panorama for 8 tracks.
+2. Volume of the 1st Send of the currently selected send page for 8 tracks.
+3. Volume of the 2nd Send of the currently selected send page for 8 tracks.
+4. 8 parameters of the currently selected device on the selected track.
+
+Pressing a knob has 2 functions depending on the state of the **session** button.
+
+1. Session mode - This shows 4 clip slots for each of the 8 tracks. The LED shows the color of the clip. Pressing a knob starts playback or recording of the slot depending on the rec arm state of the track and the session recording settings. Playing and recording slots do blink in green/red.
+2. Scene Play mode - This shows up to 32 scenes. The LED shows the color of the scene. Pressing a knob starts playback of the scene. The selected scene is lit white.
+
+### Digital knobs - Monophonic Sequencer
+
+Pressing the **clips** button toggles between the Mixer and Monophonic Sequencer.
+
+The idea of the monophonic sequencer is to edit a monophonic melody (one note per step).
+Each of the 32 knobs provide access to the note of a step:
+
+* Press a knob to toggle the step on/off. The created note uses the root note of the currently selected scale.
+
+
+### Analog knobs
+
+These knobs control an equalizer (EQ+) on the currently selected track. Switching a track automatically inserts an EQ+. The four columns control the 8 bands of the equalizer. From top to bottom the rows control the following EQ parameters:
+
+1. Filter type
+2. Q
+3. Frequency
+4. Gain
+
+### Buttons
+
 * **left/right**: Select the previous/next page of tracks to control.
-* **up/down**: Select the previous/next page of sends to control.
+* **up/down**: Select the previous/next page of scenes to control.
 * **shift+up/down**: Select the previous/next page of sends to control.
-
-TODO
-* **shift+Track selection buttons** - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars.
-
-
-## Tracks
-
+* **a/b** buttons - Select channel A or B for crossfader.
+* **stop** buttons - Stop the playing clip on the channel.
+* **select+stop** buttons - Return to arrangement playback for that track.
+* **shift+a/b** and **shift+stop** buttons - Selects one of 16 devices on the selected channel.
+* **arm** buttons - Press to arm the specific track for recording.
+* **cue/solo** buttons - Toggle solo on the specific track.
+* **shift+arm** and **shift+cue/solo** buttons - Selects one of 16 parameter pages of the selected device.
+* **select+cue/solo** buttons - Clears solo on all tracks.
+* **mute** buttons - Toggle mute on the specific track.
+* **select+mute** buttons - Clears mute on all tracks.
+* **select** buttons - Selects a track of the current track page. If already selected and the track is a group it toggles the display of the sub-tracks.
+* **shift+select** buttons - Select the length for new clips: 16 bars, 8 bars, 4 bars, 2 bars, 1 bar, 2 beats, 1 beat, 32 bars.
 * **8 faders** - Change volume of selected 8 tracks.
-* Press Shift and move Volume Fader to move the fader to the current value of the matching track. On the screen you get information if you need to move it up or down.
-* **Master fader** - Change volume of master fader
-* **Activator buttons** - Un-/mute the specific track
-* **Solo buttons** - Un-/solo the specific track
-* **Record-arm buttons** - Press to arm the specific track for recording.
-* **Shift+Mute, Shift+Solo** - Toggle monitor and auto monitor
-* **A|B buttons* (on first version press Shift+RecArm) - Select channel A or B for crossfader.
-* **Cursor right** - Move track bank focus 8 tracks up
-* **Cursor left** - Move track bank focus 8 tracks down
-* **Shift+Cursor right** - Selects the next marker to the right of the play cursor.
-* **Shift+Cursor left** - Selects the next marker to the left of the play cursor.
-* **Track selection buttons** - Select the specific track
-* **Master button** - Select the master track
-* **Shift+Master button** - Toggles between editing of normal and effect tracks.
-* **Track control**
-  * Press and hold **Sends/Send A** button and press **Track Select 1-8** to select the sends 1 to 8.
-  * *only mkI* Press Shift+Send A/B/C to select the sends 4 to 6.
-
-
-
 
 ## Preferences Settings
 
