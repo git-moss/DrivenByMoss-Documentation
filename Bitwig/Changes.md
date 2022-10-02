@@ -1,8 +1,9 @@
 # Changes - Bitwig Studio
 
-**17.6.1 (unreleased)**
+**18.0.0**
 
 * Requires Bitwig 4.3+
+* Added support for Yaeltex Turn.
 * APC40 mkII
   * New: Selected notes in sequencers are now yellow (instead of white).
 * Fire

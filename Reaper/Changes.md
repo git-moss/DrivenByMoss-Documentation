@@ -1,8 +1,9 @@
 # Changes - Cockos Reaper
 
-**17.6.1 (unreleased)**
+**18.0.0**
 
 * Requires Reaper 6.12+
+* Added support for Yaeltex Turn.
 * All devices
   * Fixed: Insert track did not insert it after the selected track but after the next track.
 * APC40 mkII
