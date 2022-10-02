@@ -10,6 +10,9 @@
   * New: Selected notes in sequencers are now yellow (instead of white).
 * Maschine
   * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
+* MCU
+  * Fixed: Crash when Master fader was touched in flip mode.
+  * Fixed: State of Flip LED was not correct.
 * OSC
   * New: Added /scene/color
   * New: Added /device/page/{1-8}/name for consistency reasons

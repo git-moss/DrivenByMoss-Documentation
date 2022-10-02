@@ -10,6 +10,9 @@
   * New: Alt+Select Knob changes the note repeat in note edit mode.
 * Maschine
   * Fixed: Source Aftertouch messages were always sent additionally to the setting of *Convert Aftertouch*.
+* MCU
+  * Fixed: Crash when Master fader was touched in flip mode.
+  * Fixed: State of Flip LED was not correct.
 * Novation SLMkIII
   * New: Improved the layout of the recurrence pattern edit screen. The steps can now be toggled with Shift and the buttons below the display. The length of the pattern can now be changed with all knobs.
 * OSC
