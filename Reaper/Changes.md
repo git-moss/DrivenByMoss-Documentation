@@ -1,12 +1,14 @@
 # Changes - Cockos Reaper
 
-**18.1.0 (unreleased)**
+**18.1.0**
 
 * Requires Reaper 6.12+
 * All devices
   * New: Browser dialog has now an info text about the intent of the browsing.
   * Fixed: First instrument device had always only 1 parameter.
   * Fixed: Changing metronome volume did not work.
+* Fire
+  * Fixed: Regression introduced in 18.0, button LEDs did not update.
 * Generic Flexi
   * Fixed: 40th label in the Number field was named indexed as 30th.
 * MCU
@@ -15,6 +17,8 @@
     * Arrow left/right - Switch to insert a device after the currently selected device (if any)
     * Zoom - Switch to replace the currently selected device (if any)
     * Jogwheel - Scroll the results
+* Push 1
+  * Fixed: Browser mode could crash if presets contained non-ASCII characters.
 
 **18.0.0**
 

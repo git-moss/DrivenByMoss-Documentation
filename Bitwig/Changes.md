@@ -1,8 +1,10 @@
 # Changes - Bitwig Studio
 
-**18.1.0 (unreleased)**
+**18.1.0**
 
 * Requires Bitwig 4.3+
+* Fire
+  * Fixed: Regression introduced in 18.0, button LEDs did not update.
 * Generic Flexi
   * Fixed: 40th label in the Number field was named indexed as 30th.
 * MCU
@@ -11,6 +13,8 @@
     * Arrow left/right - Switch to insert a device after the currently selected device (if any)
     * Zoom - Switch to replace the currently selected device (if any)
     * Jogwheel - Scroll the results
+* Push 1
+  * Fixed: Browser mode could crash if presets contained non-ASCII characters.
 
 **18.0.0**
 
