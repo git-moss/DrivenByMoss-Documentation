@@ -212,11 +212,17 @@ When the EQ mode is active and a track is selected which does not yet have an eq
 
 ### Browser mode (Br)
 
-* Press the _Browser_ button to start
+* Press the _Browser_ button (MCU USER) to start.
 * Navigate columns with the _Track Control knobs_.
 * Click the knobs to enter a filter or the results. Click again to confirm.
-* To confirm a patch or device selection and close the Browser press the _Enter_ button.
-* To discard the patch selection press the _Cancel_ button.
+* To confirm a patch or device selection and close the Browser press the _Browser_ or _Enter_ button.
+* To discard the patch selection press the _Cancel_ button or _Shift+Browser_.
+* **Arrow up**: Switches to the previous browser tab (if any).
+* **Arrow down**: Switches to the next browser tab (if any).
+* **Arrow left**: Switch to insert a device before the currently selected device (if any).
+* **Arrow right**: Switch to insert a device after the currently selected device (if any).
+* **Zoom**: Switch to replace the currently selected device (if any).
+* **Jog Wheel** - Scroll the results.
 
 ### Marker mode (Mr)
 
@@ -242,7 +248,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Has motor faders: Enable if the MCU compatible controller has motor faders.
 * Has only 1 fader: Enables a specific handling of banks to support controllers with only 1 fader
 * Display track names in 1st display: If enabled to 1st row of the 1st display the track names instead of the mode labels.
-* Use vertical zoom to change modes: If enabled, the up/down cursor keys in zoom mode can be used to select the different parameter modes.
+* Use vertical zoom to change modes: If enabled, the up/down arrow keys in zoom mode can be used to select the different parameter modes.
 * Use faders like editing knobs: If enabled, the faders execute the same functions as the knobs. Handy for e.g. recording automation data.
 * VU meters: Enable if the MCU compatible controller supports the display of VU values.
 * Master VU Meter: Enable if the controller support the protocol extensions for VU values of the master fader.
@@ -291,7 +297,7 @@ The available functions should be self-explanatory, except:
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
-* Zoom: If enabled, cursor keys are used for zooming in the arranger.
+* Zoom: If enabled, arrow keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
 * Activate Volume mode on Fader Touch: If enabled the volume mode is temporarily enabled until the fader is no longer touched.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up

@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**18.1.0 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Generic Flexi
+  * Fixed: 40th label in the Number field was named indexed as 30th.
+* MCU
+  * New: Added functions to browser mode: 
+    * Arrow up/down - Switches to the previous browser tab (if any)
+    * Arrow left/right - Switch to insert a device after the currently selected device (if any)
+    * Zoom - Switch to replace the currently selected device (if any)
+    * Jogwheel - Scroll the results
+
 **18.0.0**
 
 * Requires Bitwig 4.3+
