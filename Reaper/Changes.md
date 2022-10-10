@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**18.2.0 (unreleased)**
+
+* Requires Reaper 6.12+
+* OSC
+  * New: Added message: /device/param/{1-8}/exists
+  * New: Added message: /device/page/{1-8}/exists
+  * Fixed: Fixed velocity should not be applied to aftertouch.
+* Push
+  * New: Clip view is now the default for audio tracks.
+
 **18.1.0**
 
 * Requires Reaper 6.12+

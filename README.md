@@ -3,6 +3,11 @@ title: The DrivenByMoss Manual
 author: 
 - Jürgen Moßgraber
 - Ryan Bateman (Launchpad images)
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[LE,RO]{\thechapter \chaptername}
+    \fancyfoot[LE,RO]{\thepage}
 geometry: margin=2.5cm
 papersize: a4paper
 date:   \today

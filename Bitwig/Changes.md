@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**18.2.0 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Komplete Kontrol MkII
+  * New: Added detection for VST3 version of Komplete Kontrol plugin.
+* OSC
+  * New: Added message: /device/param/{1-8}/exists
+  * New: Added message: /device/page/{1-8}/exists
+  * Fixed: Fixed velocity should not be applied to aftertouch.
+* Push
+  * New: Clip view is now the default for audio tracks.
+
 **18.1.0**
 
 * Requires Bitwig 4.3+

@@ -146,10 +146,12 @@ The parameters of the command documentation below are as follows:
 | /device/expand         | {0,1}      | Is the device display expanded?                                             |
 | /device/parameters     | {0,1}      | Are the parameters of the device displayed?                                 |
 | /device/window         | {0,1}      | Is the plugin window displayed (if it has one)?                             |
+| /device/param/{1-8}/exists         | {0,1}         | Does the parameter exist?                                  |
 | /device/param/{1-8}/name           | {text}        | The name of the parameter.                                 |
 | /device/param/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                                |
 | /device/param/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.            |
 | /device/param/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                      |
+| /device/page/{1-8}/exists          | {0,1}         | Does the page exist?                                       |
 | /device/page/{1-8}/selected        | {0,1}         | Is the parameter page selected?                            |
 | /device/page/{1-8}/name            | {text}        | The name of the parameter page.                            |
 | /device/page/selected/name         | {text}        | The name of the selected parameter page.                   |
