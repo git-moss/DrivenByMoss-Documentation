@@ -6,7 +6,6 @@ author:
 header-includes:
     \usepackage{fancyhdr}
     \pagestyle{fancy}
-    \fancyhead[LE,RO]
     \fancyfoot[LE,RO]{\thepage}
 geometry: margin=2.5cm
 papersize: a4paper
