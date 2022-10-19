@@ -43,14 +43,15 @@ After you have copied the file reboot your computer.
 * **Tap Tempo** - Tap Tempo
 * **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Mute**.
 * **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
-* **Select+Mute**: Deactivate all mutes
-* **Select+Solo**: Deactivate all solos
+* **Select+Mute**: Deactivate all mutes.
+* **Select+Solo**: Deactivate all solos.
 * **Knobs 1-8** Value encoders, [Shift+Knob] fine increment value change.
-* **Knob 9** - Changes Master Volume
-* **Select+Knob 9** - Changes the Metronome Volume
+* **Knob 9** - Changes Master Volume.
+* **Shift+Knob 9** - Changes the Metronome Volume.
+* **Select+Knob 9** - Changes the arranger zoom.
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
 * **Stop/Stop Clip** - Press _Shift+Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
-* **Footswitch 1** - Sends sustain
+* **Footswitch 1** - Sends sustain.
 * **Footswitch 2** - Triggers the new button.
 * **Arrows** The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
 * **Shift+Touchstrip** - Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.

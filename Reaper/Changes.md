@@ -3,11 +3,19 @@
 **18.2.0 (unreleased)**
 
 * Requires Reaper 6.12+
+* Added header to manual.
+* APC40
+  * Fixed: 12th page pad was off in drum mode.
+* Generic Flexi
+  * Added new functions: 'Device: Reset Parameter 1-8'
+  * Added new functions: 'User: Reset Parameter 1-8'
 * OSC
   * New: Added message: /device/param/{1-8}/exists
   * New: Added message: /device/page/{1-8}/exists
   * Fixed: Fixed velocity should not be applied to aftertouch.
 * Push
+  * New: Changing play position now show also measures in the display.
+  * New: Select + Master knob: Zoom in/out of arranger.
   * New: Clip view is now the default for audio tracks.
 
 **18.1.0**

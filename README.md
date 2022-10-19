@@ -19,7 +19,7 @@ date:   \today
 
 DrivenByMoss is an extension for the digital audio workstations (DAW) **Bitwig Studio** and **Cockos Reaper**. It provides support for many hardware controllers as well as protocols like OSC. Furthermore, it brings some tools and utilities.
 
-DrivenByMoss is written by [Jürgen Moßgraber](http://www.mossgrabers.de) also known as MOSS.
+DrivenByMoss is written by [Jürgen Moßgraber](https://mossgrabers.de) also known as MOSS.
 
 ## Feedback and Bug Reports
 Post all questions, bug reports wishes and discussion
@@ -28,7 +28,7 @@ Post all questions, bug reports wishes and discussion
 * related to **Cockos Reaper** into the [Reaper Forum Thread](https://forum.cockos.com/showthread.php?p=1988209).
 
 ## Download latest Release
-Always download the latest release from [my homepage](http://www.mossgrabers.de).
+Always download the latest release from [my homepage](https://mossgrabers.de).
 
 > **The version on GitHub might always be in an alpha or beta state, you have been warned!**
 

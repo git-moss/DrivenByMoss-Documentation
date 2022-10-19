@@ -3,6 +3,13 @@
 **18.2.0 (unreleased)**
 
 * Requires Bitwig 4.3+
+* Added header to manual.
+* APC40
+  * Fixed: Cursor left/right to select the previous/next browser tab did not work.
+  * Fixed: 12th page pad was off in drum mode.
+* Generic Flexi
+  * Added new functions: 'Device: Reset Parameter 1-8'
+  * Added new functions: 'User: Reset Parameter 1-8'
 * Komplete Kontrol MkII
   * New: Added detection for VST3 version of Komplete Kontrol plugin.
 * OSC
@@ -10,7 +17,10 @@
   * New: Added message: /device/page/{1-8}/exists
   * Fixed: Fixed velocity should not be applied to aftertouch.
 * Push
+  * New: Changing play position now show also measures in the display.
+  * New: Select + Master knob: Zoom in/out of arranger.
   * New: Clip view is now the default for audio tracks.
+  * New: Note edit mode has now presets for recurrence patterns. Press Shift and use the 1st row buttons.
 
 **18.1.0**
 
