@@ -106,8 +106,8 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 ## Foot switches
 
-* **Footswitch 1** - Sends sustain
-* **Footswitch 2** *only mkI* - Creates a new clip on the selected track and slot, starts play and enables overdub.
+* **Footswitch 1** - The function can be configured in the settings.
+* **Footswitch 2** *only mkI* - The function can be configured in the settings.
 
 But there is MUCH more! If you keep the Shift button pressed and press one of the five Scene Launch buttons you will change the main modes of the script:
 
@@ -252,6 +252,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
+* Footswitch 1: Select the function to execute for the first footswitch.
+* Footswitch 2: - *only mkI* - Select the function to execute for the first footswitch.
 
 ## Document Settings
 

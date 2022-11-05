@@ -1,14 +1,18 @@
 # Changes - Cockos Reaper
 
-**18.2.0 (unreleased)**
+**18.2.0**
 
 * Requires Reaper 6.12+
 * Added header to manual.
 * APC40
+  * New: Footswitches are now configurable in the settings.
   * Fixed: 12th page pad was off in drum mode.
+  * Fixed: MkI: Drum pads in Drum Mode did not send notes.
 * Generic Flexi
   * Added new functions: 'Device: Reset Parameter 1-8'
   * Added new functions: 'User: Reset Parameter 1-8'
+* Maschine / Jam
+  * New: Footswitch options contains now the option to send sustain (CC 64).
 * OSC
   * New: Added message: /device/param/{1-8}/exists
   * New: Added message: /device/page/{1-8}/exists
@@ -17,6 +21,7 @@
   * New: Changing play position now show also measures in the display.
   * New: Select + Master knob: Zoom in/out of arranger.
   * New: Clip view is now the default for audio tracks.
+  * New: Footswitch options contains now the option to send sustain (CC 64).
 
 **18.1.0**
 

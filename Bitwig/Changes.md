@@ -1,17 +1,22 @@
 # Changes - Bitwig Studio
 
-**18.2.0 (unreleased)**
+**18.2.0**
 
 * Requires Bitwig 4.3+
 * Added header to manual.
+* Play position can now be changed during playback and is adjusted to the grid.
 * APC40
+  * New: Footswitches are now configurable in the settings.
   * Fixed: Cursor left/right to select the previous/next browser tab did not work.
   * Fixed: 12th page pad was off in drum mode.
+  * Fixed: MkI: Drum pads in Drum Mode did not send notes.
 * Generic Flexi
   * Added new functions: 'Device: Reset Parameter 1-8'
   * Added new functions: 'User: Reset Parameter 1-8'
 * Komplete Kontrol MkII
   * New: Added detection for VST3 version of Komplete Kontrol plugin.
+* Maschine / Jam
+  * New: Footswitch options contains now the option to send sustain (CC 64).
 * OSC
   * New: Added message: /device/param/{1-8}/exists
   * New: Added message: /device/page/{1-8}/exists
@@ -21,6 +26,7 @@
   * New: Select + Master knob: Zoom in/out of arranger.
   * New: Clip view is now the default for audio tracks.
   * New: Note edit mode has now presets for recurrence patterns. Press Shift and use the 1st row buttons.
+  * New: Footswitch options contains now the option to send sustain (CC 64).
 
 **18.1.0**
 
