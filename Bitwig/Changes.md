@@ -21,6 +21,10 @@
   * New: Control+Jog Wheel - Change loop start (press Shift for fine adjustment)
   * New: Alt+Jog Wheel - Change loop length (press Shift for fine adjustment)
   * Fixed: X-Touch - Notification messages might not be seen due to black displays.
+* Push
+  * New: When changing loop length in Clip view, the second pad can now be pressed multiple times without the need to press the first again.
+  * Fixed: Changing loop length in Clip view did not work with 1/16th resolution selected.
+  * Fixed: Clip view was not selected on startup if an audio track was selected.
 
 **18.2.0**
 
