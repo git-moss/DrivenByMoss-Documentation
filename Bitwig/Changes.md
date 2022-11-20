@@ -1,10 +1,33 @@
 # Changes - Bitwig Studio
 
+**18.3.0**
+
+* Requires Bitwig 4.3+
+* All devices
+  * New: Drum sequencers: When changing note range up/down the offset is now shown on-screen instead of the range (which was wrong anyway).
+* APC40, APCmini, Fire, Launchpad, Maschine JAM, Push.
+  * New: Added setting 'Start with session view'.
+* APC40
+  * Fixed: MkI: Pads in Drum and Play mode did sound wrong notes.
+* Generic Flexi
+  * New: Added new functions: 'Device: Toggle Parameter 1-8'.
+  * New: Added new function: 'Master: Select'.
+  * New: Added several new functions to control layers (e.g. in a Drum Machine).
+* Launchpad
+  * Fixed: Record and toggle overdub did not work in Shift view.
+  * Fixed: Loop area was not drawn when extra function buttons were active.
+* MCU
+  * New: Switching devices or parameter pages shows the device and page name as a notification.
+  * New: Control+Jog Wheel - Change loop start (press Shift for fine adjustment)
+  * New: Alt+Jog Wheel - Change loop length (press Shift for fine adjustment)
+  * Fixed: X-Touch - Notification messages might not be seen due to black displays.
+
 **18.2.0**
 
 * Requires Bitwig 4.3+
 * Added header to manual.
-* Play position can now be changed during playback and is adjusted to the grid.
+* All devices
+  * New: Play position can now be changed during playback and is adjusted to the grid.
 * APC40
   * New: Footswitches are now configurable in the settings.
   * Fixed: Cursor left/right to select the previous/next browser tab did not work.
@@ -102,7 +125,7 @@
 **17.1.0**
 
 * Requires Bitwig 4.3+
-* All
+* All devices
   * New: Only color existing session slots red (for which a scene exists) for recording.
 * Fire
   * Fixed: Knobs did not work after leaving note edit mode.

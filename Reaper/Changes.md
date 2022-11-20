@@ -1,5 +1,30 @@
 # Changes - Cockos Reaper
 
+**18.3.0**
+
+* Requires Bitwig 4.3+
+* All devices
+  * New: Drum sequencers: When changing note range up/down the offset is now shown on-screen instead of the range (which was wrong anyway).
+* APC40, APCmini, Fire, Launchpad, Maschine JAM, Push.
+  * New: Added setting 'Start with session view'.
+* APC40
+  * Fixed: MkI: Pads in Drum and Play mode did sound wrong notes.
+* Generic Flexi
+  * New: Added new functions: 'Device: Toggle Parameter 1-8'.
+  * New: Added new function: 'Master: Select'.
+* Launchpad
+  * Fixed: Record and toggle overdub did not work in Shift view.
+  * Fixed: Loop area was not drawn when extra function buttons were active.
+* MCU
+  * New: Switching devices or parameter pages shows the device and page name as a notification.
+  * New: Control+Jog Wheel - Change loop start (press Shift for fine adjustment)
+  * New: Alt+Jog Wheel - Change loop length (press Shift for fine adjustment)
+  * Fixed: X-Touch - Notification messages might not be seen due to black displays.
+* Push
+  * New: When changing loop length in Clip view, the second pad can now be pressed multiple times without the need to press the first again.
+  * Fixed: Changing loop length in Clip view did not work with 1/16th resolution selected.
+  * Fixed: Clip view was not selected on startup if an audio track was selected.
+
 **18.2.0**
 
 * Requires Reaper 6.12+

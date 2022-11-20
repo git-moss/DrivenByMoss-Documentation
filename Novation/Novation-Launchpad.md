@@ -261,12 +261,20 @@ Press _"Note"_ and select the third orange pad to change to the **Raindrop Seque
 
 Press _"Note"_ and select the first blue pad to change to the **Drum Sequencer**.
 
-* The drum sequencer works as described in the Ableton Push manual.
+* The drum sequencer works as described in the Ableton Push manual (mostly).
 * Hold *Delete* + Drumpad to delete the midi notes of the current clip on that 'pad'.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
 * The Drumpads use the colors set in the drum machine for each pad.
-* The loop area in the drum sequencer is shortened by 4 pads. These 4 pads can be used in combination with the play area. From left to right they provide the following functions: select a drum pad without playing the sound, mute the drum pad, solo the drum pad, open the browser for the drum pad. With Reaper only selection is functional.
 * If *Fixed Accent* is active the loop area shows 15 velocities. The selected velocity is used when enabling a note in the sequencer.
+* The last pad (red) in the loop area toggles additional functions. From left to right and top to bottom they provide the following functions:
+  * **Button 1**: Keep pressed and select a drum pad to select it without sounding it.
+  * **Button 2**: Keep pressed and select a drum pad to toggle its' mute state.
+  * **Button 3**: Keep pressed and select a drum pad to toggle its' solo state.
+  * **Button 4**: Keep pressed and select a drum pad to open the browser for it.
+  * **Button 5**: Toggles note repeat on/off.
+  * **Button 6**: Toggles note repeat period on/off. If enabled the scene buttons select the note repeat period.
+  * **Button 7**: Toggles note repeat length on/off. If enabled the scene buttons select the note repeat length.
+  * **Button 8**: Turns additional functions on/off.
 
 ![Drum Sequencer Mode - Drum](Diagrams/Launchpad/drum-sequencer-drum.png)
 
@@ -390,6 +398,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
+* Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
 ### Transport
 
