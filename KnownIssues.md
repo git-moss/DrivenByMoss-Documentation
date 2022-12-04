@@ -34,7 +34,6 @@ For some limitations there are workarounds available:
 ### Further issues
 
 * If you use Melda plugins, turn off GPU acceleration in the Melda plugin settings. Otherwise Reaper will crash.
-* The Debug menu contains an option to disable reading of the track chunk, which is by default enabled. This fixes issues with large sample plugins in the project (e.g. Kontakt or Omnisphere) but loses track deactivation and record quantization states.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

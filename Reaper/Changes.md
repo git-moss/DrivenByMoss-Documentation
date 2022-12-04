@@ -1,8 +1,20 @@
 # Changes - Cockos Reaper
 
+**18.4.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* All devices
+  * New: Support CLAP plugins in the browser.
+  * New: Removed reading from track chunk completely (also removed the related Debug option) since it causes too much performance issues. This loses track deactivation and record quantization states.
+  * Fixed: Setting of clip color does finally work.
+* MCU
+  * New: Shift+Track selection buttons: Multi-select tracks (Setting the length of a new clip is now on ALT combination). Allows to change volume, pan, solo, mute and rec arm for multiple tracks at once.
+* OSC
+  * Removed the TouchOSC template which is outdated. Please switch OpenStageControl instead.
+
 **18.3.0**
 
-* Requires Bitwig 4.3+
+* Requires Reaper 6.12+
 * All devices
   * New: Drum sequencers: When changing note range up/down the offset is now shown on-screen instead of the range (which was wrong anyway).
 * APC40, APCmini, Fire, Launchpad, Maschine JAM, Push.

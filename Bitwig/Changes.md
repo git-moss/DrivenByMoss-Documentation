@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**18.4.0 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Launchpad
+  * Fixed: Changing note repeat with cursor+pad in sequencers did also switch the transposition.
+* MCU
+  * New: Alt+Track selection buttons: Set the length of a new clip (was SHIFT combination).
+* OSC
+  * Removed the TouchOSC template which is outdated. Please switch OpenStageControl instead.
+
 **18.3.0**
 
 * Requires Bitwig 4.3+

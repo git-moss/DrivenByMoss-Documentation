@@ -147,9 +147,11 @@ F1 will now select the previous page, and F2 the next.
 * **Option+one of the Mute buttons**: Deactivate all mutes
 * **Option+one of the Solo buttons**: Deactivate all solos
 * **Track selection buttons** (MCU SELECT1-8) - Select the specific track. If *hierarchical* is selected as track navigation in the settings, press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder. If track navigation is set to *flat*, selecting an already selected group track toggles its' expanded state. Press the select button of the track again to enter layers mode, if the track contains an instrument with layers or drum pads.
-* **Send (MCU MODE SENDS)+Track selection buttons** - Select the send channel 1-8.
-* **Shift+Track selection buttons** - Set the length of a new clip.
+* **Shift+Track selection buttons** - Multi-select tracks (if supported by DAW).
 * **Option+Track selection buttons** - Stop the playing clip on the specific track.
+* **Control+Track selection buttons** - Open/close the group folder if the track is a group.
+* **Alt+Track selection buttons** - Set the length of a new clip.
+* **Send (MCU MODE SENDS)+Track selection buttons** - Select the send channel 1-8.
 * **Shift+Solo** - Toggle auto monitor
 * **Shift+Mute** - Toggle monitor
 * **8 faders** (MCU FADER_TOUCH1-8) - Change volume of selected 8 tracks. Touching a fader automatically selects the track.
