@@ -7,8 +7,11 @@
   * Fixed: Changing note repeat with cursor+pad in sequencers did also switch the transposition.
 * MCU
   * New: Alt+Track selection buttons: Set the length of a new clip (was SHIFT combination).
+  * New: Save button is lit.
 * OSC
   * Removed the TouchOSC template which is outdated. Please switch OpenStageControl instead.
+* Push
+  * Fixed: Scene buttons did not work in Piano play layout.
 
 **18.3.0**
 

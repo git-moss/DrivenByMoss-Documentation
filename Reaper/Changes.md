@@ -4,13 +4,25 @@
 
 * Requires Reaper 6.71+
 * All devices
-  * New: Support CLAP plugins in the browser.
   * New: Removed reading from track chunk completely (also removed the related Debug option) since it causes too much performance issues. This loses track deactivation and record quantization states.
+  * New: Parameternames in the mapping dialog can now be emptied. By doing so the original name is used. Use this for parameters which change their name (e.g. the 8 macros in Native Instruments Massive).
+  * Browser
+    * New: Browser columns can now be hidden.
+    * New: Support CLAP plugins in the browser.
+    * New: Preferrences of duplicated plugin types are filtered as well, e.g. hides VST3 version of u-he Bazille if CLAP version is preferred.
+    * New: Location was replaced with Architecture.
+    * New: Support braces in NOT arguments in smart folders.
+    * Fixed: Presets in the browser do now load immediately.
   * Fixed: Setting of clip color does finally work.
 * MCU
   * New: Shift+Track selection buttons: Multi-select tracks (Setting the length of a new clip is now on ALT combination). Allows to change volume, pan, solo, mute and rec arm for multiple tracks at once.
+  * New: Save button is lit if project was changed and needs to be saved.
 * OSC
   * Removed the TouchOSC template which is outdated. Please switch OpenStageControl instead.
+* Push 1/2
+  * New: Changes to pre-roll in the Metronome dialog now directly reflect to the controller. Changing pre-roll on the controller is now also applied directly but still does not change the values if the Metronome dialog is open (needs to be closed and reopened to show the effect).
+  * Fixed: Display was off (or empty) when the default Reaper project did not contain any tracks.
+  * Fixed: Scene buttons did not work in Piano play layout.
 
 **18.3.0**
 

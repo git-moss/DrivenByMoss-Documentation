@@ -36,7 +36,7 @@ folder of your portable installation.
 
 You find the UserPlugins folder at the following locations:
 
-* Windows 10
+* Windows 10/11
    > `C:\Users\<YOUR_USER_NAME>\AppData\Roaming\REAPER\UserPlugins`
    Note that the AppData folder is hidden, you need to make it visible
    by enabling "Show hidden files" in the View tab of explorer.
@@ -106,7 +106,7 @@ The DrivenByMoss window consists of three parts:
    * **Project** - Opens the dialog with controller settings which are stored individually with each Reaper project, e.g. Scale settings. See the specific controller section in this manual.
    * **Parameters** - Opens a dialog to modify the mapping of the currently selected devices' parameters.
    * **Dis-/enable** - Disable a controller to save performance if you do not use it (or it is not connected).
-   * **Debug** - Only used for development, ignore it. However, the *Device simulator* might be handy for some people with a touch display.
+   * **Debug** - Only used for development, ignore it. However, the *Device simulator* might be handy for some people with a touch display. Furthermore, if you somehow dislike the popup notifications, they can be disabled here.
 
 Note:
 
