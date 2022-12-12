@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**18.4.0 (unreleased)**
+**18.4.0**
 
 * Requires Bitwig 4.3+
 * Launchpad
