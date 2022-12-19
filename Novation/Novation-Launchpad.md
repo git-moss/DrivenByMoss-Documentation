@@ -53,7 +53,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Shift+Click** - Tap Tempo.
 * **Undo** - Undo. Press Shift for Redo.
 * **Delete** (**Clear** on the Pro Mk3) - Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
-* **Shift+Delete** - Toggle repeat
+* **Shift+Delete** - Toggle arranger loop
 * **Quantise** - Quantises the selected clip.
 * **Record Quantise** - Press multiple times to toggle through the record quantisation settings.
 * **Duplicate** - Always duplicates the first selected clip on the current track if pressed with no other button.
@@ -294,8 +294,16 @@ Press _"Device"_ to enter the **Device** mode:
 * Each column of the grid controls a parameter of the currently selected device.
 * These virtual faders use the same colors as the Bitwig highlight colors.
 * Hit buttons harder for faster fader change.
-* Cursor up/down to the next / previous device
-* Cursor left/right to the next / previous parameter bank
+* **Cursor up/down**: Select the next / previous device
+* **Cursor left/right**: Select the next / previous parameter bank
+* **Scene Button 1**: Toggle the device on/off
+* **Scene Button 2**: -
+* **Scene Button 3**: Toggle the display of the remote control parameters section
+* **Scene Button 4**: Toggle the display of the device user interface
+* **Scene Button 5**: -
+* **Scene Button 6**: Toggle the device window
+* **Scene Button 7**: -
+* **Scene Button 8**: Pin the selected device and track
 
 ![Device Mode](Diagrams/Launchpad/device-inst-parameters.png)
 
