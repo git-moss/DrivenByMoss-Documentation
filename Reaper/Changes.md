@@ -1,14 +1,16 @@
 # Changes - Cockos Reaper
 
-**18.5.0 (unreleased)**
+**18.5.0**
 
 * Requires Reaper 6.71+
 * All devices
   * Fixed: Poly Sequencer: Registration of notes is more reliable.
-  * Fixed: Fixed a NullPointerException with parsing preset files
+  * Fixed: Fixed a NullPointerException with parsing preset files.
+  * Fixed: Extension could not be loaded on older Linux systems.
 * Komplete Kontrol MkII, Launchkey / Mini, Launchpad, Maschine
   * New: Added new record button options to additionally enable automation writing.
 * Launchpad
+  * New: Sequencers have now a note editing mode. Long press a step with a note to activate the note editor.
   * New: Pro Mk3: State of metronome is shown on Solo/Click button when Shift is pressed.
   * New: Changing note repeat with cursor up/down+pad in sequencers works now also for Poly Sequencer.
   * New: Record button (and Shift+Record button) can now be configured (instead of only being able to be flipped).

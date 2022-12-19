@@ -216,6 +216,7 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 
 ### Sequencer Functions common to all sequencers (except Raindrop)
 
+* Long press a step to edit its' note(s).
 * Use the arrow keys to navigate in the grid.
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes. The velocity of the pressed key is set as well.
@@ -225,6 +226,20 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 * Use the Scene buttons to change the grids resolution.
 * Cursor Up+Pad (on a sequencer step): enables and increases note repeat by 1.
 * Cursor Down+Pad (on a sequencer step): enables and decreases note repeat by 1.
+
+### Note Edit Mode
+
+Long press a note and release it to activate the note edit mode. In this mode 9 note parameters can be edited. Press the sequencer button (depending on model) again to leave the note edit mode.
+
+* Column 1: Velocity
+* Column 2: Velocity Spread
+* Column 3: Chance
+* Column 4: Gain
+* Column 5: Panorama
+* Column 6: Pitch
+* Column 7: Timbre
+* Column 8: Pressure
+* Scene 1 mutes the note.
 
 ### Sequencer Mode
 
