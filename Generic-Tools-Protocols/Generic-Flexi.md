@@ -102,13 +102,13 @@ The program banks are contained in a file which must be placed in the same direc
 The **resources** folder of DrivenByMoss contains an example file (Example.programs).
 
 For each bank in the file you need to have one line of the format
-<pre>
+```
 $BANK=bank_name$MSB=msb_value$LSB=lsb_value$CHANNEL=midi_channel
-</pre>
+```
 for example to have a bank named *Bank A*, which is addressed by MSB 0 and LSB 0 on MIDI channel 1, write:
-<pre>
+```
 $BANK=Bank A$MSB=0$LSB=0$CHANNEL=0
-</pre>
+```
 
 After that up to 127 lines with program names can follow (you can have less).
 
