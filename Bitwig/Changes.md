@@ -1,5 +1,12 @@
 # Changes - Bitwig Studio
 
+**18.6.0 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Added support for Electra.One.
+* MIDI Monitor
+  * New: Added number of bytes to system exclusive message logs.
+
 **18.5.0**
 
 * Requires Bitwig 4.3+

@@ -18,7 +18,15 @@ In the following the supported features are described. In brackets the names of 
 The settings dialog contains profiles for several devices, which sets the correct hardware settings.
 If your device is not listed make sure you configure the hardware settings manually to match your device.
 
-### Parameter page changes X-Touch One
+### Configuration X-Touch
+
+To make the display colors work make sure that:
+
+1) The latest X-Touch Firmware is installed (1.22).
+2) The color option for the X-Touch in the settings are enabled (or simply choose the X-Touch from the Profiles menu).
+3) The Mode must be set to "MC" on the X-Touch.
+
+### Configuration X-Touch One
 
 In device mode the FADER BANK left/right buttons change the devices, while the CHANNEL left/right buttons change single parameters of the current bank page. To also be able to switch parameter pages, you can sacrifice 2 buttons, e.g. F1 and F2:
 

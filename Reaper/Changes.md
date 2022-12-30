@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**18.6.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* Added support for Electra.One.
+* MIDI Monitor
+  * New: Added number of bytes to system exclusive message logs.
+
 **18.5.0**
 
 * Requires Reaper 6.71+
