@@ -4,6 +4,12 @@
 
 * Requires Reaper 6.71+
 * Added support for Electra.One.
+* All devices
+  * Fixed: Navigating track groups hierachical did not update the fader/knob bindings.
+  * Fixed: Changing some track parameters did not alter the undo state in Reaper (e.g. mute and solo).
+* Generic Flexi
+  * Fixed: Browser - Scroll Filter Column did crash.
+  * Fixed: Last selected mode was not set after restart.
 * MIDI Monitor
   * New: Added number of bytes to system exclusive message logs.
 

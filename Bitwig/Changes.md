@@ -4,6 +4,9 @@
 
 * Requires Bitwig 4.3+
 * Added support for Electra.One.
+* Generic Flexi
+  * Fixed: Browser - Scroll Filter Column did crash.
+  * Fixed: Last selected mode was not set after restart.
 * MIDI Monitor
   * New: Added number of bytes to system exclusive message logs.
 
