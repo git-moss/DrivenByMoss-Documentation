@@ -12,7 +12,7 @@ Linux: If the file dialogs to save/load do not work make sure you have *zenity* 
 
 * Your settings are not automatically stored! Use *Save* (see below).
 * MIDI notes are blocked when mapped
-    * If you have selected *All* for the keyboard channel the note is blocked on all channels!
+    * If you have selected *All* for the keyboard channel the mapped notes are blocked on all channels!
     * The blocked notes are only updated when loading a configuration or when switching between slots.
 * Using CC as a target can only be used with VST plugins in Bitwig. It cannot be mapped with the Bitwig mapping system, which will always see the original MIDI command. Instead use User parameters.
 
@@ -51,6 +51,11 @@ Each slot has the following parameters:
 * Send value to device: This option only applies to continuous functions like changing the volume of a track. If it is enabled, the current value is sent to the controller with the configured CC.
 
 ## Features of Modes
+
+Besides fixed functions which can be assigned to the hardware controls, there is the concept of modes.
+Each mode controls a parameter (e.g. volume) of an item (e.g. a track) which are grouped into pages of 8 items.
+Each mode uses (up to) 8 continuous controls (a knob or fader) for setting the parameters' value, 8 buttons to select the individual items, and 4 buttons to move the page window of 8 items up or down.
+Furthermore, there are functions to select individual modes or to select the previous/next mode.
 
 ### Track Mode
 
@@ -194,8 +199,8 @@ If the connected device has a keyboard or pads, the following settings allow to 
 
 ### Workflow
 
-* Knob Speed Normal: Adjust the speed of the knobs
-* Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
+* Knob Speed Normal: Adjust the speed of the knobs.
+* Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments. There is a function to define the Shift button available (*Global: Shift button*).
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 
 ## Document Settings

@@ -4,7 +4,7 @@ Support script for the Electra One controller.
 
 ## Configuration
 
-* Make sure that at least Firmware 3.0.3 is installed on the device.
+* Make sure that at least Firmware 3.0.5 is installed on the device.
 * Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra.One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
 * The device should be autodetected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 

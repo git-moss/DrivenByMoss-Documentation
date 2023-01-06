@@ -454,6 +454,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Pads
 
 * Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
+* Brightness (only available on *Mini Mk3* and *X*): Set the global brightness of the pads.
 
 ## Document Settings
 

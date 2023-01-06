@@ -1,15 +1,20 @@
 # Changes - Cockos Reaper
 
-**18.6.0 (unreleased)**
+**19.0.0**
 
 * Requires Reaper 6.71+
-* Added support for Electra.One.
+* Added support for Electra One controller.
 * All devices
-  * Fixed: Navigating track groups hierachical did not update the fader/knob bindings.
+  * Fixed: Navigating track groups hierarchical did not update the fader/knob bindings.
   * Fixed: Changing some track parameters did not alter the undo state in Reaper (e.g. mute and solo).
 * Generic Flexi
   * Fixed: Browser - Scroll Filter Column did crash.
+  * Fixed: Browser - Scrolling in browser mode did always scroll down.
   * Fixed: Last selected mode was not set after restart.
+* Launchpad
+  * New: Set the default for Shift+Record to *New clip + enable automation*.
+  * New: Added a brightness setting for the pads. Only available on *Mini Mk3* and *X*.
+  * Fixed: New record command configuration was broken on non-pro models.
 * MIDI Monitor
   * New: Added number of bytes to system exclusive message logs.
 

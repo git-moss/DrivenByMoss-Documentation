@@ -1,12 +1,17 @@
 # Changes - Bitwig Studio
 
-**18.6.0 (unreleased)**
+**19.0.0**
 
 * Requires Bitwig 4.3+
-* Added support for Electra.One.
+* Added support for Electra One controller.
 * Generic Flexi
   * Fixed: Browser - Scroll Filter Column did crash.
+  * Fixed: Browser - Scrolling in browser mode did always scroll down.
   * Fixed: Last selected mode was not set after restart.
+* Launchpad
+  * New: Set the default for Shift+Record to *New clip + enable automation*.
+  * New: Added a brightness setting for the pads. Only available on *Mini Mk3* and *X*.
+  * Fixed: New record command configuration was broken on non-pro models.
 * MIDI Monitor
   * New: Added number of bytes to system exclusive message logs.
 
