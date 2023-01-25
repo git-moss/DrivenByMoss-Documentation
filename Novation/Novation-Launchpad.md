@@ -75,7 +75,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes. On the **Pro Mk3** pressing the Note button toggles through the 3 play modes.
 * **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one (on the Pro Mk3 this executes Tempo. Use the up/down buttons in the browser instead).
-* **User** (only Pro, **Custom** on the Mk3) - Brings up the user mode.
+* **User** (only Pro, **Custom** on the Mk3) - Brings up the clip length mode.
 * **Chord** (only Pro Mk3) - Toggles through the 3 drum sequencer modes.
 * **Sequencer** (only Pro Mk3) - Toggles through the 3 note sequencer modes.
 
@@ -312,15 +312,26 @@ Press _"Device"_ to enter the **Device** mode:
 * **Cursor up/down**: Select the next / previous device
 * **Cursor left/right**: Select the next / previous parameter bank
 * **Scene Button 1**: Toggle the device on/off
-* **Scene Button 2**: -
+* **Scene Button 2**: Toggle the device window
 * **Scene Button 3**: Toggle the display of the remote control parameters section
 * **Scene Button 4**: Toggle the display of the device user interface
-* **Scene Button 5**: -
-* **Scene Button 6**: Toggle the device window
+* **Scene Button 5**: Pin the selected device and track
+* **Scene Button 6**: -
 * **Scene Button 7**: -
-* **Scene Button 8**: Pin the selected device and track
+* **Scene Button 8**: Opens the browser
 
 ![Device Mode](Diagrams/Launchpad/device-inst-parameters.png)
+
+## User mode
+
+Press _"Device"_ twice to enter the **User** mode:
+
+Allows to map up to 64 user parameters divided into 8 pages with 8 parameters as virtual sliders. Right click on any parameter in Bitwig and select *Map to controller*. After that *touch* the virtual fader to which you want to map the parameter to complete the mapping. Mappings are stored individually with each project.
+
+IMPORTANT: Do not map any other button on the controller! This will create weird behaviour.
+
+* Each column of the grid controls a mapped user parameter.
+* Select the 8 parameter pages with scene buttons.
 
 ## Browser Mode
 
@@ -381,16 +392,12 @@ Press any of the grid pads to exit this mode.
 
 ![Shuffle Mode](Diagrams/Launchpad/shuffle-mode.png)
 
-## User mode (only Launchpad Pro / Pro Mk3)
+## Clip Length Mode (only Launchpad Pro / Pro Mk3)
 
 Press **User** button on Pro or **Custom** button on the Pro Mk3 to enter.
 
-Allows to map up to 64 user parameters divided into 8 pages with 8 parameters as virtual sliders. Right click on any parameter in Bitwig and select *Map to controller*. After that *touch* the virtual fader to which you want to map the parameter to complete the mapping. Mappings are stored individually with each project.
-
-IMPORTANT: Do not map any other button on the controller! This will create weird behaviour.
-
-* Each column of the grid controls a mapped user parameter.
-* Select the 8 parameter pages with scene buttons.
+* The pads change the length of the currently selected clip loop
+* This is the default view for audio tracks.
 
 ## Project mode (only Launchpad Pro Mk3)
 

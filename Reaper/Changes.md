@@ -1,5 +1,25 @@
 # Changes - Cockos Reaper
 
+**19.1.0**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: Fixed some issues with the device bank could e.g. cause cursor LEDs to be not lit correctly.
+  * Fixed: Formatted values of ReaEQ gain parameters were not correct.
+* Fire
+  * New: Device and parameter page names are shown now in two lines instead of one.
+* Launchpad
+  * New: Added clip length (loop area) mode. Press User/Custom on the Pro models. On the other models use the mode selection.
+  * New: User parameter mode is now available on all models.
+  * New: Pressing Device button twice switches to User parameter mode.
+  * New: Rearranged the functions of the Scene buttons in Device mode. Last button opens now the browser.
+  * New: Improved harmonization of mode colors.
+  * Fixed: Pro Mk3: Tracks could not not be selected.
+* Maschine
+  * Fixed: Erase+Master Knob did not work to reset parameters.
+* Push
+  * New: The 'Clip' mode was renamed to 'Clip Length'. The length (actually the loop) is now colored in the clips' color.
+
 **19.0.0**
 
 * Requires Reaper 6.71+

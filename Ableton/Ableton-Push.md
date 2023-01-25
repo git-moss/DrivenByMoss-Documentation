@@ -300,7 +300,7 @@ Press _"Note"_ and select *PrgChang* to enter **Program Change** mode.
 * Scene buttons switch banks
 * Pressing scene button twice toggles 0-63 and 64-127.
 
-## Clip Mode
+## Clip Length Mode
 
 * The pads change the length of the currently selected clip loop
 * This is the default view for audio tracks.
