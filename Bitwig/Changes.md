@@ -1,5 +1,18 @@
 # Changes - Bitwig Studio
 
+**19.2.0 (unreleased)**
+
+* Requires Bitwig 4.3+
+* Electra One
+  * Requires Firmware 3.1!
+  * New: Labels for parameter values are now set.
+  * New: Knob touch states are now available which allows smoother value updates and automation touch mode to work.
+  * New: Play position and tempo can now be changed with knobs.
+  * New: Replaced Cue Volume with Play Position on all pages. Cue Volume is now available on the Transport page.
+* Launchpad
+  * Fixed: Fader animations did not work in user mode (hopefully this fix works on all systems).
+  * Fixed: Browser did not open on tracks without a device present.
+
 **19.1.0**
 
 * Requires Bitwig 4.3+

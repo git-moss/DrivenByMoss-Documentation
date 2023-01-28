@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**19.2.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* ...
+
 **19.1.0**
 
 * Requires Reaper 6.71+

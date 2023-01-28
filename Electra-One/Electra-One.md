@@ -4,7 +4,7 @@ Support script for the Electra One controller.
 
 ## Configuration
 
-* Make sure that at least Firmware 3.0.5 is installed on the device.
+* Make sure that at least Firmware 3.1 is installed on the device.
 * Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra.One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
 * The device should be autodetected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 
@@ -15,7 +15,7 @@ The DrivenByMoss preset contains 5 pages with different features. Switching page
 The following controls in the 6th column are identical on all pages:
 
 * **MASTER VOLUME**: Changes the volume of the master track.
-* **CUE VOLUME**: Changes the cue volume.
+* **POSITION**: Changes the position of the play cursor in the arranger.
 * **RECORD**: Starts recording in the arranger.
 * **PLAY**: Starts/stops playback.
 
@@ -89,24 +89,22 @@ The Transport page give more options for transport control but as well additiona
 
 ### MARKERS area
 
-The 8 buttons in the center move the play position to on of 8 markers. Depending on the state of the **LAUNCH** button on the right, playback is started as well from that position (in sync).
+The 8 buttons in the center move the play position to one of 8 markers. Depending on the state of the **LAUNCH** button on the bottom, playback is started as well from that position (in sync). Press **ADD** in the 5th row to add a new marker at the current position of the play cursor.
 The two buttons on the left move the marker page to the previous/next 8 markers.
+
+### TEMPO area
+
+* **TEMPO**: In-/Decreases the tempo by 1.
+* **TAP TEMPO**: Tap this button multiple times to set a tempo.
 
 ### GLOBAL area
 
 * **REDO**: Redoes the last undone command.
 * **UNDO**: Undoes the last undone command.
-* **TAP TEMPO**: Tap this button multiple times to set a tempo.
-* **TEMPO-**: Decrease the tempo by 1.
-* **TEMPO+**: Increase the tempo by 1.
 * **CLICK**: Toggle the metronome on/off.
 * **CLICK VOLUME**: Change the volume of the metronome click.
+* **CUE VOLUME**: Changes the cue volume.
 * **ARR. OVERDUB**: Toggle overdub in the arranger.
-
-### TRANSPORT
-
-* **<< RWD**: Move the play position to the left.
-* **<< FWD**: Move the play position to the right.
 
 ## Preferences Settings
 
