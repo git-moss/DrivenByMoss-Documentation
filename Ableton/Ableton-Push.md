@@ -81,8 +81,6 @@ Selecting an already selected group track toggles its' expanded state if the Shi
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
     * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combibation with the Delete button to delete a track. Long press a button to leave a track group.
-    * **Toggle monitor and auto monitor**: Keep pressed Select. First row toggles Monitor, second row Auto Monitor.
-    * **De-/activate a track**: Select+Shift+1st button row.
     * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection.
     * Left/Right arrows: Select next/previous track page.
     * Shift+Left/right arrows: Moves the selected track.

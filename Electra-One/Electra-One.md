@@ -8,9 +8,21 @@ Support script for the Electra One controller.
 * Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra.One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
 * The device should be autodetected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 
-## Features
+## Global Features and Page navigation
 
-The DrivenByMoss preset contains 5 pages with different features. Switching pages works like any other Electra One preset.
+The DrivenByMoss preset contains 6 pages with different features. Switching pages works like any other Electra One preset. But there is a faster way: touch 3 consecutive knobs to select a page!
+
+The following *touch gestures* are implemented (knob numbering starts with 1 on the top row):
+
+* Knobs 1, 2 and 3: selects the Mixer page
+* Knobs 2, 3 and 4: selects the Sends page
+* Knobs 3, 4 and 5: selects the Device page
+* Knobs 3, 4 and 5: selects the Device page
+* Knobs 4, 5 and 6: selects the EQ page
+* Knobs 7, 8 and 9: selects the Transport page
+* Knobs 8, 9 and 10: selects the Session page
+* Knobs 10, 11 and 12: jumps to a specific Electra One synthesizer preset for editing the plugin in focus. The preset must have the exact same name as the plugin! To jump back to the DrivenByMoss preset touch the same knobs! Important: knob touch events are not sent for empty slots (or for hidden elements) in the preset. Therefore, make sure that the slots in the 4th, 5th and 6th columns contain an element to make this feature work.
+* Knobs 1, 2 and 7: emulates the pressing of a 'shift' button. Currently, this allows to fine tune all relative knobs, namely Play Position and Tempo.
 
 The following controls in the 6th column are identical on all pages:
 
@@ -67,9 +79,9 @@ The parameters of each band are (from left to right):
 * **GAIN**: Set the gain to de-/increase the frequency of the band.
 * **Q**: Set the Q factor of the the band.
 
-## Transport
+## Transport Page
 
-The Transport page give more options for transport control but as well additional global parameters and marker control. Starting from the top:
+The Transport page gives more options for transport control but as well additional global parameters and marker control. Starting from the top:
 
 ### CLIP area
 
@@ -105,6 +117,32 @@ The two buttons on the left move the marker page to the previous/next 8 markers.
 * **CLICK VOLUME**: Change the volume of the metronome click.
 * **CUE VOLUME**: Changes the cue volume.
 * **ARR. OVERDUB**: Toggle overdub in the arranger.
+
+## Session Page
+
+The session page provides access to scenes and clips.
+
+* The first row buttons launch the respective scene.
+* The 5x5 matrix shows the clips of the respective scene and track.
+* Each clip shows the color (within the limitations of the Electra One) and name of the clip.
+* If the clip does not have a name the name of the track is displayed.
+
+There are 2 additional buttons on the right: NAVIGATION and FUNCTIONS which activate additional modes.
+
+### Navigation
+
+This mode allows to move the window of the displayed clips. The top row buttons move the window either in the direction of the tracks or the scenes in steps of 5.
+The 5x5 matrix provides a fast selection of a specific grid area. Each pad represents 5x5 clips, which means one can quickly navigate between 25 tracks and scenes. The text of the pad displays the track/scene index of the top left clip.
+
+### Functions
+
+This mode gives access to 5 functions which can be executed on the displayed clips. First select one of the 5 functions, then select a clip or empty slot on which to execute the function. The functions are:
+
+* **New**: Creates a new MIDI clip in the selected empty slot. The length of the clip can be configured in the settings.
+* **Delete**: Deletes the clip from the selected slot.
+* **Duplicate**: Duplicates the selected clip into the next slot.
+* **Quantize**: Quantizes the selected clip.
+* **Stop**: Stops the playback of the clip.
 
 ## Preferences Settings
 

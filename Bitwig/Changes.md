@@ -9,9 +9,20 @@
   * New: Knob touch states are now available which allows smoother value updates and automation touch mode to work.
   * New: Play position and tempo can now be changed with knobs.
   * New: Replaced Cue Volume with Play Position on all pages. Cue Volume is now available on the Transport page.
+  * New: Added a Session mode for launching scenes/clips and more.
+  * New: Quick navigation between pages by touching 3 knobs (see the manual).
+  * New: Jump to a specific Electra One synthesizer preset for editing the plugin in focus. The preset must have the same name as the preset.
+* LaunchControl XL
+  * Fixed: Crash when setting the drum or note sequencer resolution.
 * Launchpad
   * Fixed: Fader animations did not work in user mode (hopefully this fix works on all systems).
   * Fixed: Browser did not open on tracks without a device present.
+* MCU
+  * New: Master Track mode is only activated on master track selection if the current mode is the Track mode.
+  * New: Use the first instrument of the track for layer navigation instead of the cursor device.
+* Push
+  * New: If ribbon controller is set to the mode 'Fader' or 'Last Touched' it can now be combined with the delete button to reset the respective parameter to its' default value.
+  * New: Added / updated several devices for the 'Add Track' - favorite devices settings.
 
 **19.1.0**
 
