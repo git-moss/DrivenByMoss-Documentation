@@ -1,8 +1,10 @@
 # Changes - Cockos Reaper
 
-**19.2.0 (unreleased)**
+**19.2.0**
 
 * Requires Reaper 6.71+
+* All devices
+  * Fixed: Parameter formatting was broken in 19.1.
 * Electra One
   * Requires Firmware 3.1!
   * New: Labels for parameter values are now set.
@@ -16,6 +18,7 @@
   * Fixed: Crash when setting the drum or note sequencer resolution.
 * Launchpad
   * Fixed: Browser did not open on tracks without a device present.
+  * Fixed: Do not leave user mode on track change.
 * MCU
   * New: Master Track mode is only activated on master track selection if the current mode is the Track mode.
   * New: Use the first instrument of the track for layer navigation instead of the cursor device.

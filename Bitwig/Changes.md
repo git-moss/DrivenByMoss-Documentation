@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**19.2.0 (unreleased)**
+**19.2.0**
 
 * Requires Bitwig 4.3+
 * Electra One
@@ -16,6 +16,7 @@
   * Fixed: Crash when setting the drum or note sequencer resolution.
 * Launchpad
   * Fixed: Fader animations did not work in user mode (hopefully this fix works on all systems).
+  * Fixed: Do not leave user mode on track change.
   * Fixed: Browser did not open on tracks without a device present.
 * MCU
   * New: Master Track mode is only activated on master track selection if the current mode is the Track mode.
