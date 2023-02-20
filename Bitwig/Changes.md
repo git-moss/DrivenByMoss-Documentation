@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**19.2.1**
+
+* Requires Bitwig 4.3+
+* All devices
+  * New: Sped up arranger position changes (play position, loop, etc.). Normal, changes now 1 bar and slow, 1 quarter.
+* Electra One
+  * New: The last active mode is restored when returning from a different preset.
+  * Fixed: Values were still set in other presets when changes appear in the DAW.
+  * Fixed: Mode did not update the values when jumping back from a different preset.
+
 **19.2.0**
 
 * Requires Bitwig 4.3+
