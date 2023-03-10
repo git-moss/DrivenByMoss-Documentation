@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**19.2.2 (unreleased)**
+
+* Requires Reaper 6.71+
+* All devices
+  * New: Set note repeat octaves to 1 as default.
+
 **19.2.1**
 
 * Requires Reaper 6.71+

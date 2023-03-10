@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**19.2.2 (unreleased)**
+
+* Requires Bitwig 4.3+
+* All devices
+  * Fixed: Set note repeat octaves to 1 to match the Bitwig default.
+* Generic Flexi
+  * New: Enabled clip rectangle.
+
 **19.2.1**
 
 * Requires Bitwig 4.3+

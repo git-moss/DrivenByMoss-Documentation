@@ -67,7 +67,7 @@ do the following:
 1. Run Reaper to get the error
 2. Close Reaper
 3. Open the System Settings
-4. Open the Security tab
+4. Open the Privacy & Security tab
 5. Click the Lock icon at the bottom of the window and enter your password
 6. Above it you should see the notification that "reaper_drivenbymoss.dylib" was blocked
 7. Click the button to "allow it anyway"
