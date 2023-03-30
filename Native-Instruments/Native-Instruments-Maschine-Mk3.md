@@ -283,14 +283,14 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Record button: Set the function for the record button.
 * Shift + Record button: Set the function for the record button used in combination with Shift.
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
 
 ### Play and Sequence
 
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
-* Ribbon Mode: Select the function of the ribbon strip
+* Ribbon Mode: Select the function of the ribbon strip.
 
 ### Session
 
@@ -304,6 +304,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
 * Footswitch settings: The Maschine models Mk3 and Plus support 2 and the Studio 4 footswitches. Since there is only 1 (or 2 on Studio) stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down list. The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the Macro button) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
+
+### Pads
+
+* Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
 
 ## Document Settings
 

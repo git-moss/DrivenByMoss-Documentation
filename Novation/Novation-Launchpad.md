@@ -63,8 +63,8 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Shift+Duplicate** - Double the currently selected MIDI clip incl. its' content.
 * **Double** (**Play** on the Pro Mk3) - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Double** (**Play** on the Pro Mk3) - Creates a new clip on the selected track and slot, starts play and enables overdub.
-* **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
+* **Record** - The function can be configured in the settings. The default is to start Arranger Record and enable automation recording.
+* **Shift+Record** - The function can be configured in the settings. The default is to create a new clip, enable overdub and automation recording.
 * **Fixed Length** (only Pro Mk3) - Executes the *New* function.
 * **Fixed Length + Track buttons** (only Pro Mk3) - Create new clips of different lengths.
 
@@ -433,7 +433,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Transport
 
 * Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
-* Flip arranger and clip record / automation: if enabled, the functionality of the Record and Automation button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
+* Record button: Configure the function to execute when the record button is pressed.
+* Shift + Record button: Configure the function to execute when the record button is pressed in combination with the Shift button.
 
 ### Session
 

@@ -5,6 +5,10 @@
 * Requires Reaper 6.71+
 * All devices
   * New: Set note repeat octaves to 1 as default.
+* Maschine Mk2 / Studio
+  * Fixed: The poly aftertouch settings in the template were off by 2 octaves and therefore did not work. Please install the new template to fix this.
+* Generic Flexi
+  * Fixed: Renamed 'Parameters' to 'Device' in the selected mode list to match the naming in the function lists.
 
 **19.2.1**
 
