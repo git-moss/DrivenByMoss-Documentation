@@ -1,15 +1,19 @@
 # Changes - Bitwig Studio
 
-**19.2.2 (unreleased)**
+**19.2.2**
 
 * Requires Bitwig 4.3+
 * All devices
   * Fixed: Set note repeat octaves to 1 to match the Bitwig default.
-* Maschine Mk2 / Studio
-  * Fixed: The poly aftertouch settings in the template were off by 2 octaves and therefore did not work. Please install the new template to fix this.
 * Generic Flexi
   * New: Enabled clip rectangle.
+  * New: Documented Shift button function in the manual.
   * Fixed: Renamed 'Parameters' to 'Device' in the selected mode list to match the naming in the function lists.
+* Maschine Mk2 / Studio
+  * Fixed: The poly aftertouch settings in the template were off by 2 octaves and therefore did not work. Please install the new template to fix this.
+* Push 1
+  * Fixed: Low pad threshold warning was not displayed in the info mode (and caused a crash).
+  * Fixed: Firmware version was not displayed in info mode.
 
 **19.2.1**
 

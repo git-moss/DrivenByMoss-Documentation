@@ -178,7 +178,7 @@ On the **Pro Mk3** use the **Note**, **Chord** and **Sequencer** buttons to togg
 
 Press _"Note"_  and select the first red pad to change to **Scale** mode.
 
-* The key layout is the same one used with Ableton Push.
+* The key layout is the same one used with Ableton Push. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*.
 * Left/Right buttons change the scale (Major, Minor, etc.)
 * Up/Down buttons transpose the note range (pitch) up/down.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)

@@ -147,7 +147,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
 
 Press _"Note"_ and select *Play* to change to the Play view.
 
-* The key layout is like running the Push with Ableton
+* The key layout is like running the Push with Ableton. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*.
 * The Touchstrip (Ribbon) can be configured for different tasks. Call up the configuration mode with Shift+Touchstrip.
 * Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)

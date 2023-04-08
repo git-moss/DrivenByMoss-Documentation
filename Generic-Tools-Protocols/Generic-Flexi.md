@@ -167,6 +167,17 @@ You can select only one function from the lists. If you select a function from a
 * User: Select a user parameter related function
 * Action: Function to execute one of 8 actions. The 8 actions are selected below under *Options*
 
+#### Global: Shift Button
+
+The function *Global: Shift Button* is intended to be assigned to a button. Using this button in combination with other knobs and buttons provides the following featurs:
+
+1. Using it in combination with a relative (!) knob, slows down the value change of this knob (see *Knob Speed Normal/Slow* settings below).
+2. Some of the functions found in *Transport* provide additional functionality when used with Shift:
+   * Play: Toggles Repeat
+   * Rewind: Moves in slower steps
+   * Fast Forward: Moves in slower steps
+
+
 ### Use a knob/fader/button then click Set...
 
 * Type, Number, Midi channel: Displays the received MIDI values
