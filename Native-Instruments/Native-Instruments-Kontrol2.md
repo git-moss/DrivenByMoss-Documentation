@@ -17,6 +17,8 @@ if you installed Komplete Kontrol on your machine.
 The basic feature set is identical to Ableton Live as described in the respective Kontrol manuals.
 Additionally, there are some settings to change the behaviour.
 
+*Bitwig*: The clip release features cannot be used since pressing the encoder only sends a pressed and no release event.
+
 ### Extended features
 
 There are two additional modes for device parameters and send modes. **Toggle these modes with the CLEAR button.** (on the A/M-models use SHIFT+STOP).

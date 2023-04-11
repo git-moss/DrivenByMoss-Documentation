@@ -91,6 +91,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
   
 3. **Pan & Send** - Push 1: Press "Pan & Send" to enter (press multiple times to switch between the modes) - Push 2: Press "Mix" and "Send X" above the display. The 4th button above the display moves to the next sends page. Combine with Shift to move backwards.
     * 8 edit knobs: Change pan/send1-6 of selected 8 tracks. Hold **Shift** for fine adjustments.
+    * Sends can be dis-/enabled. Keep SHIFT pressed, then additionally SELECT and finally touch a knob which modifies a send.
     * Buttons behave as above.
 
 4. **Track** - Press "Track" (Push 1) or "Mix" (Push 2) to enter (press twice to toggle between normal and effect tracks)
@@ -198,10 +199,9 @@ Hold *Browse* and select a pad to browse for clips.
 
 All the buttons and knobs behave like in Play mode with the following exceptions:
 
-* The buttons on the grid start/record the clips.
-* Long press a pad to select the clip without starting it.
-* Hold Select to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
-* The 1/4 to 1/32t buttons start scenes.
+* The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
+* Hold Select to execute the alternative action of the clip (Bitwig only).
+* The 1/4 to 1/32t buttons start scenes. Use SELECT+Scene button to trigger the alternative Scene function (Bitwig only).
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
 * Pressing Shift+1st row buttons returns to the arrangement for that track.
 * Press the _Fixed Length_ button to choose the length for new clips.

@@ -1,5 +1,27 @@
 # Changes - Cockos Reaper
 
+**20.0.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* Fire
+  * New: Toggling the Birds Eye view in session mode (SHIFT+PERFORM) directly closes the Shift mode and displays an info in the display which mode is selected.
+* Launchkey Mini
+  * New: Mini: The executed functions when Stop/Solo/Mute is pressed are displayed.
+* MCU
+  * New: OPTION + press a knob which controls a send level toggles the send mute on/off.
+* OSC
+  * New: Added sending: /track/{1-8}/send/{1-8}/activated - Is the send disabled or enabled?
+  * New: Added sending: /device/layer/{1-8}/send/{1-8}/activated - Is the send disabled or enabled?
+  * New: Added receive: /track/{1-8}/send/{1-8}/activated - Toggle the send disabled or enabled.
+  * New: Added receive: /device/layer/{1-8}/send/{1-8}/activated - Toggle the send disabled or enabled.
+* Push
+  * New: Sends can be dis-/enabled. Keep SHIFT pressed, then additionally SELECT and finally touch a knob which modifies a send.
+  * New: Added some CLAP devices to the *Add Track* settings.
+  * Fixed: Birds-eye view in Session Mode had a blinking issue.
+* SL Mk II
+  * Fixed: Transport commands did not work in Play mode.
+  * Fixed: Display of scene names did not work for non-existing scenes.
+
 **19.2.2**
 
 * Requires Reaper 6.71+

@@ -126,7 +126,7 @@ Buttons 6-8 open the browser mode, which works as follows:
 
 Press the Grid button till the LED is lit Green to enter **Session** mode.
 
-* The buttons on the grid start/record the clips.
+* The buttons on the grid start/record the clips. The behaviour depends on the clip launch and launch release settings (Bitwig only).
 * Long press a pad to select the clip without starting it.
 * The 2 scene buttons start scenes.
 * The arrow keys left of the grid scroll the grid. Hold **Shift** to scroll in blocks of 8.

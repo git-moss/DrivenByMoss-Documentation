@@ -107,6 +107,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/crossfadeMode/{A,B,AB} | Crossfade mode set for the track: A = Channel A, B = Channel B, AB = both. |
 | /track/{1-8}/vu        | {0-MAX_VALUE} | The current VU meter output value of the track when played back.        |
 | /track/{1-8}/color                | {color} | The color fo the track.                                            |
+| /track/{1-8}/send/{1-8}/activated | {0,1}         | Is the send disabled (=0) or enabled (=1)?                   |
 | /track/{1-8}/send/{1-8}/volume    | {0-MAX_VALUE} | The volume send to the send channel.                         |
 | /track/{1-8}/send/{1-8}/volumeStr | {text}        | The volume send to the send channel formatted as text.       |
 | /track/{1-8}/send/{1-8}/name      | {text}        | The name of the send channel.                                |
@@ -171,6 +172,7 @@ The parameters of the command documentation below are as follows:
 | /device/layer/{1-8}/mute           | {0,1}         | Is the layer muted?                                          |
 | /device/layer/{1-8}/solo           | {0,1}         | Is the layer soloed?                                         |
 | /device/layer/{1-8}/color          | {color}       | The color of the layer.                                      |
+| /device/layer/{1-8}/send/{1-8}/activated | {0,1}        | Is the send disabled (=0) or enabled (=1)?                   |
 | /device/layer/{1-8}/send/{1-8}/volume    | {0-MAX_VALUE}| The volume send to the send channel.                    |
 | /device/layer/{1-8}/send/{1-8}/volumeStr | {text}       | The volume send to the send channel formatted as a text.|
 | /device/layer/selected/{attribute}   | {value}     | All attributes as above for the currently selected layer.    |
@@ -342,6 +344,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/recarm          | {0,1,-}       | Dis-/enable, toggle record arm.                                    |
 | /track/{1-8}/monitor         |               | Dis-/enable, toggle monitoring.                                    |
 | /track/{1-8}/autoMonitor     |               | Dis-/enable, toggle auto monitoring.                               |
+| /track/{1-8}/send/{1-8}/activated | {1,-}    | Toggle the send disabled or enabled.                               |
 | /track/{1-8}/send/{1-8}/volume          | {0-MAX_VALUE} | Set the volume of the send of the track.                | 
 | /track/{1-8}/send/{1-8}/volume/indicate | {0,1}         | Turn off/on, toggle the send volume indication.         |
 | /track/{1-8}/send/{1-8}/volume/touched  | {0,1}         | Turn off/on, toggle the send volume touched state.      |
@@ -359,11 +362,13 @@ The parameters of the command documentation below are as follows:
 | /scene/bank/{+,-}                     | {1,-}       | Step by 8.                                     |
 | /scene/create                         | {1,-}       | Create a new scene from all playing clips.     |
 | /scene/add                            | {1,-}       | Create a new scene  at the end of the scene list. |
-| /scene/{1-8}/launch                   |             | Launches the scene.                            |
+| /scene/{1-8}/launch                   | {0,1}       | Launches the scene.                            |
+| /scene/{1-8}/launchAlt                | {0,1}       | Alternative launch function of the scene.      |
 | /scene/{1-8}/duplicate                |             | Duplicates the scene.                          |
 | /scene/{1-8}/remove                   |             | Remove/delete the scene.                       |
 | /track/{1-8}/clip/{1-8}/select        |             | Select the clip.                               | 
-| /track/{1-8}/clip/{1-8}/launch        |             | Launch the clip.                               |
+| /track/{1-8}/clip/{1-8}/launch        | {0,1}       | Launch the clip (launch = 1, release = 0).     |
+| /track/{1-8}/clip/{1-8}/launchAlt     | {0,1}       | Alternative launch function for the clip (launch = 1, release = 0). |
 | /track/{1-8}/clip/{1-8}/record        |             | Record a clip in the slot.                     |
 | /track/{1-8}/clip/{1-8}/create        | {beats}     | Create new clip, activate overdub and start it. Beats is the length of the clip in quarter notes. |
 | /track/{1-8}/clip/{1-8}/duplicate     |             | Duplicate the clip.                            |
@@ -373,7 +378,8 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/clip/returntoarrangement |             | Switch playback back to the arrangement.       |
 | /clip/pinned                          | {0,1,-}     | Unpin, pin, toggle pinning of the cursor clip. |
 | /clip/{+,-}                           |             | Select the next/previous slot on the track.    |
-| /clip/launch                          |             | Launch the cursor clip.                        |
+| /clip/launch                          | {0,1}       | Launch the cursor clip (launch = 1, release = 0). |
+| /clip/launchAlt                       | {0,1}       | Alternative launch function for the clip (launch = 1, release = 0). |
 | /clip/stop                            |             | Stop the playback of the cursor clip.          |
 | /clip/stopall                         |             | Stop the playback of all playing clips.        |
 | /clip/record                          |             | Record a clip in the selected slot.            |
@@ -411,6 +417,7 @@ The following commands apply to all devices. The cursor device (/device), the pr
 | /device/layer/{1-8}/pan/touched       | {0,1}         | Turn off/on the panorama touched state.        |
 | /device/layer/{1-8}/mute              | {0,1,-}       | Dis-/enable, toggle the layer mute.            |
 | /device/layer/{1-8}/solo              | {0,1,-}       | Dis-/enable, toggle the layer solo.            |
+| /device/layer/{1-8}/send/{1-8}/activated | {1,-}      | Toggle the send disabled or enabled.           |
 | /device/layer/{1-8}/send/{1-8}/volume | {0-MAX_VALUE} | Set the send volume for the layer.             |
 | /device/layer/{1-8}/send/{1-8}/volume/indicate | {0,1} | Dis-/enable the layers' send volume indication. |
 | /device/layer/{1-8}/send/{1-8}/volume/touched  | {0,1} | Dis-/enable the layers' send touch state.     |

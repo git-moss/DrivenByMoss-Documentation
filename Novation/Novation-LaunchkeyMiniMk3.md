@@ -60,7 +60,7 @@ Use the 3 amber colored buttons to switch between the modes for the knobs. The t
 
 #### Session Mode
 
-The pads start playback or recording of the respective clip. The Scene and SSM buttons start the first and second scene in the selected scene window. Use **Shift+Scene/SSM buttons** to move the scene window.
+The pads start playback or recording of the respective clip. The behaviour depends on the clip launch and launch release settings (Bitwig only). The Scene and SSM buttons start the first and second scene in the selected scene window. Use **Shift+Scene/SSM buttons** to move the scene window.
 
 The Session mode provides additional sub-modes for controlling solo, mute, record arm, etc. Keep the **SSM (Scene 2) button** pressed to enter the sub-mode selection view. In the lower row the sub-modes can be selected or turned off. The following sub-modes are available:
 

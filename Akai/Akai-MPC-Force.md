@@ -93,7 +93,9 @@ To move the 4x4 Session Matrix focus by eight rows or eight columns at a time:
 * MPC X: Hold Shift and use the cursor buttons.
 * MPC Live I/II / One: Hold Shift and use the Bank buttons.
 
-To launch a clip from the 4x4 Session Matrix, press the corresponding pad on your MPC. 
+To launch a clip from the 4x4 Session Matrix, press the corresponding pad on your MPC.
+This depends on the clip launch and launch release settings (Bitwig only).
+
 You can also use the pads to launch scenes. To toggle between launching clips and scenes:
 
 * MPC X: Press the XYFX button.
@@ -102,6 +104,11 @@ You can also use the pads to launch scenes. To toggle between launching clips an
 To launch a scene, press a pad in the corresponding row.
 
 **Force**
+
+To launch a clip press the corresponding pad on your Force.
+This depends on the clip launch and launch release settings (Bitwig only).
+Use SELECT in combination with a pad to only select it.
+Hold SHIFT to execute the alternative action of the clip (Bitwig only).
 
 Use the cursor buttons to move the Matrix view by one row or column at a time.
 Press the Master button to select the Master track. This will also bring the Master and Sends tracks into view if they are not already.
@@ -168,7 +175,8 @@ All other buttons either have no function or leave the Control Mode.
 
 * **LOAD** - Open the Load dialog to open a project (button cannot be lit).
 * **SAVE** - Save the current project (button cannot be lit).
-* **SELECT** - Press and hold this button and tap a clip or scene to select it without launching it.
+* **SHIFT** - Press and hold this button and tap a clip or scene to select it without launching it.
+* **SELECT** - Press and hold this button and tap a clip or scene to launch it with the alternative settings (Bitwig only).
 * **SELECT + COPY** - Creates a new scene.
 * **COPY** - Duplicates the selected clip and starts it. Keep pressed and press a pad to duplicate the according clip. Combine with LAUNCH buttons to duplicate the scene. Combine with track select buttons to duplicate a track.
 * **DELETE** - Keep pressed and press a pad to delete the according clip. Combine with LAUNCH buttons to delete the scene. Combine with track select buttons to delete a track.

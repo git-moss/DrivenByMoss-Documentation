@@ -151,8 +151,7 @@ the select mode (e.g. you see the mute-state of the current track page):
 Press _"Session"_ to enter **Session** mode. Press again to toggle the clip orientation (vertical or horizontal).
 _Long press_ to enter birds-eye-view.
 
-* The buttons on the grid start/record the clips.
-* Long press a pad to select the clip without starting it.
+* The buttons on the grid start/record the clips. The behaviour depends on the clip launch and launch release settings (Bitwig only).
 * The 8 scene buttons on the right start the scenes.
 * The arrow keys scroll the grid.
 * Hold **Delete** and press a clip button to delete the clip.

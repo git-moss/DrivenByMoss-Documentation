@@ -119,8 +119,7 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 
 ## Session Mode
 
-* Press pad to start clip
-* Long press a pad to select the clip without starting it.
+* The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
 * Press the **Stop Clip** button of the track and a pad to delete the clip.
 * Press the **Select** button of the track and a pad to duplicate the clip.
 

@@ -61,13 +61,11 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
 
 ## Session Mode
 
-* Press pad to start clip
+* The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
   * Yellow: Present clip
   * Green: Playing clip
   * Red: Recording clip
-* Long press a pad in session mode to select the clip without starting it.
 * **Track buttons** - Clip stop, solo, rec arm, mute or select
-
 
 ## Play Mode
 

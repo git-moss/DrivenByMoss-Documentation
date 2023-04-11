@@ -140,9 +140,8 @@ Press _"Song"_ to enter **Session** mode. Press again to toggle the clip orienta
 _Long press_ to enter birds-eye-view. This allows to quickly navigate the clips in blocks of 8.
 
 * The arrow keys scroll the grid by blocks of 8 tracks/scenes. Hold **Shift** to only scroll 1 track/scene. The keys respect the session flip state.
-* The buttons on the grid start/record the clips. The settings provide some options to change the default behaviour.
-* *long press* a pad to select the clip without starting it.
-* **SELECT+PAD** - Hold Select to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
+* **PAD** - The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
+* **SELECT+PAD** - Hold Select to execute the alternative action of the clip (Bitwig only).
 * **CLEAR+PAD** - Delete the clip.
 * **DUPLICATE** - To duplicate a clip keep the duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
 * **MUTE+PAD** - Select any clip of the track to stop playback of the playing clip of the track.

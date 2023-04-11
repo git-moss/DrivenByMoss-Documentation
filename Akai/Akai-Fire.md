@@ -207,7 +207,8 @@ While the drum sequencers work with any instrument full features (solo , mute, c
 * The *first row* (from the top) represents 16 slots (clips) of the currently selected track.
   * The pad has the same color as the clip. 
   * Press one of the pads to start the playback or recording (depending on the settings) of the clip. 
-  * Keep the pad pressed for a bit to only select it. Alternatively, use ALT + pad.
+  * Use ALT + pad to trigger the alternative function for the clip launch (Bitwig only).
+  * Use ALT + SHIFT + pad to only select the clip.
   * Press and hold Select knob and press a pad to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
 * The *second row* represents 16 drum pads.
   * The pad has the same color as the drum pad.
@@ -249,13 +250,14 @@ Press the **Drum** button twice to activate. The DRUM LED is lit red.
 
 Press the **Perform** button to activate. The PERFORM LED is lit orange.
 
-* Long press a pad in session mode to select the clip without starting it. Alternatively, use ALT + pad.
+* The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
+* *Long press a pad in session mode to select the clip without starting it. Alternatively, use ALT + pad.*
 * **Select Knob**: Scroll to the previous/next scene. In addition you can press the knob while turning to switch between scene pages (a page contains 4 scenes).
 * **Press and hold Select knob+PAD**: Immediately launches a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
 * **Grid buttons**: Select the previous/next page of the track bank.
 * **Mute/Solo 1-4**: Start Scene 1-4; the LED is lit if the scene is selected.
-* **Shift+Mute/Solo 1-4** Selects the scene without starting it.
-* **Alt+Mute/Solo 1-4**: Stop all playing clips.
+* **Alt+Mute/Solo 1-4** Executes the alternative launch function of the scene (Bitwig only).
+* **Alt+Shift+Mute/Solo 1-4**: Stop all playing clips.
 * Use the **Stop** button in combination with any clip of a track to stop the playing clip of that track.
 
 Use **Shift+Perform** to toggle the birdseye view of the session. In this view a pad represents a block of 16x4 tracks/clips. Press a pad to move the view to that range.
