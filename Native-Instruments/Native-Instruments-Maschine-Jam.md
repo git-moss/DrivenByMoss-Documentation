@@ -139,14 +139,16 @@ The grid pads provide further features:
 Press _"Song"_ to enter **Session** mode. Press again to toggle the clip orientation (vertical or horizontal).
 _Long press_ to enter birds-eye-view. This allows to quickly navigate the clips in blocks of 8.
 
-* The arrow keys scroll the grid by blocks of 8 tracks/scenes. Hold **Shift** to only scroll 1 track/scene. The keys respect the session flip state.
 * **PAD** - The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
-* **SELECT+PAD** - Hold Select to execute the alternative action of the clip (Bitwig only).
+* **SHIFT+PAD** - Execute the alternative action of the clip (Bitwig only).
+* **SELECT+PAD** - Selects the clip.
 * **CLEAR+PAD** - Delete the clip.
 * **DUPLICATE** - To duplicate a clip keep the duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
 * **MUTE+PAD** - Select any clip of the track to stop playback of the playing clip of the track.
+* **MUTE+SELECT+PAD** - Select any clip of the track to execute the alternative stop function (Bitwig only).
 * **GRID+PAD** - Returns to the playback of the arrangement for that track.
 * **BROWSE+PAD** - Browse for clips.
+* The arrow keys scroll the grid by blocks of 8 tracks/scenes. Hold **Shift** to only scroll 1 track/scene. The keys respect the session flip state.
 
 ## Play Modes
 
@@ -257,7 +259,7 @@ These drum sequencers show 4 or 8 drum sounds for sequencing. Use the Page butto
 
 ### Shift Mode
 
-Keep the *Stop* button pressed to activate.
+Press and release the *Shift* button to activate.
 
 * **Stop+Pad 1 (UNDO)** - Undo
 * **Stop+Pad 2 (REDO)** - Redo

@@ -71,8 +71,18 @@ These 4 rows of knobs control the following things (from top to bottom):
 
 Pressing a knob has 2 functions depending on the state of the **session** button.
 
-1. Session mode - This shows 4 clip slots for each of the 8 tracks. The LED shows the color of the clip. Pressing a knob starts playback or recording of the slot depending on the rec arm state of the track and the session recording settings. Playing and recording slots do blink in green/red. This depends on the clip launch and launch release settings (Bitwig only). Hold Select to execute the alternative action of the clip (Bitwig only).
-2. Scene Play mode - This shows up to 32 scenes. The LED shows the color of the scene. Pressing a knob starts playback of the scene. The selected scene is lit white.
+1. Session mode
+   * This shows 4 clip slots for each of the 8 tracks. 
+   * The LED shows the color of the clip. Playing and recording slots do blink in green/red. 
+   * Pressing a knob starts playback or recording of the slot depending on the rec arm state of the track and the session recording settings. This depends on the clip launch and launch release settings (Bitwig only). 
+   * Hold Shift to execute the alternative action of the clip (Bitwig only).
+   * Hold Select to select the clip without starting playback.
+2. Scene Play mode
+   * This shows up to 32 scenes.
+   * The LED shows the color of the scene.
+   * Pressing a knob starts playback of the scene. The selected scene is lit white.
+   * Hold Shift to execute the alternative action of the scene (Bitwig only).
+   * Hold Select to select the scene without starting playback.
 
 ### Digital knobs - Monophonic Sequencer
 
@@ -108,6 +118,7 @@ These knobs control an equalizer (EQ+) on the currently selected track. Switchin
 * **shift+up/down**: Select the previous/next page of sends to control.
 * **a/b** buttons: Select channel A or B for crossfader.
 * **stop** buttons: Stop the playing clip on the channel.
+* **shift+stop** buttons: Stop the playing clip on the channel using the alternative setting (Bitwig only).
 * **select+stop** buttons: Return to arrangement playback for that track.
 * **shift+a/b** and **shift+stop** buttons: Selects one of 16 devices on the selected channel.
 * **arm** buttons: Press to arm the specific track for recording.

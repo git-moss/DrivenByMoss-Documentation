@@ -56,10 +56,15 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Shift+Delete** - Toggle arranger loop
 * **Quantise** - Quantises the selected clip.
 * **Record Quantise** - Press multiple times to toggle through the record quantisation settings.
-* **Duplicate** - Always duplicates the first selected clip on the current track if pressed with no other button.
-  * To copy clips in Session mode on Pro models: Keep Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button. On the non-pro models, activate duplicate mode, duplicate mode is deactivated, as soon as you select an empty clip as the destination.
-  * Launchpad Pro: Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
-  * Launchpad Pro: Keep the Duplicate button pressed and select a scene to duplicate it.
+* **Duplicate** button (only Pro models) - On the non-pro models, activate the duplicate mode instead (see Shift mode)
+  * Session mode: Duplicates the first selected clip on the current track if pressed with no other button.
+  * Session mode: To copy a specific clip:
+    * Keep Duplicate button pressed;
+    * choose the source clip (it must be a clip with content, you can still select a different clip with content);
+    * select the destination clip (this must be an empty clip, which can also be on a different track);
+    * release the Duplicate button. 
+  * Keep the Duplicate button pressed and select a pad from the 1st row when a track mode is on to duplicate the track.
+  * Keep the Duplicate button pressed and select a scene to duplicate it.
 * **Shift+Duplicate** - Double the currently selected MIDI clip incl. its' content.
 * **Double** (**Play** on the Pro Mk3) - Start/Stop playback. Double click to move play cursor to start of song.
 * **Shift+Double** (**Play** on the Pro Mk3) - Creates a new clip on the selected track and slot, starts play and enables overdub.
@@ -85,7 +90,7 @@ Note: The preferred play/sequencer mode is remembered for each track.
 
 ## Shift Mode
 
-If you press the Shift button (and keep it pressed) the grid changes to the Shift mode. 
+If you press and release the Shift button the grid changes to the Shift mode. If you keep the Shift button pressed and execute one of the functions of this mode, it will close automatically when the Shift button is released (except in the Session mode).
 
 ### All models
 
@@ -112,12 +117,9 @@ The colors of the buttons are identical. This area is empty on the Pro model.
 There are 8 modes to control different aspects of the currently selected page of tracks.
 
 Use the Shift button in combination with one of the Scene buttons to select the according mode (Volume, Pan, etc.) or 
-the dedicated button row on the Pro models. The modes which trigger something (stop clip, mute, solo and rec arm) send 
-you to the Session mode. The lowest row of the session mode will now be replaced with the according track states of 
-the select mode (e.g. you see the mute-state of the current track page):
+the dedicated button row on the Pro models. The modes which trigger something (stop clip, mute, solo and rec arm) send you to the Session mode. The lowest row of the session mode will now be replaced with the according track states of the select mode (e.g. you see the mute-state of the current track page):
 
-* **Record Arm** (red) - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 
-  8 tracks of the track bank.
+* **Record Arm** (red) - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 8 tracks of the track bank.
 * **Track Select** (green) - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks 
   of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. 
   Furthermore, the front LED is also lit in the color of the current track. Selecting an already selected group track toggles its' expanded state.
@@ -134,7 +136,7 @@ the select mode (e.g. you see the mute-state of the current track page):
   buttons harder for faster change. The color of a fader is the same as the color of the track. Use the Scene buttons 
   to select the Sends 1 to 8.
 * **Stop Clip** - The 8 buttons of the bottom row of the grid allow to stop the playing clip of the track of the 
-  currently focused 8 tracks of the track bank.
+  currently focused 8 tracks of the track bank. Use in combination with the Shift button to trigger the alternative Stop function (Bitwig only).
 
 ### Shifted functions on the Pro models
 
@@ -153,9 +155,10 @@ _Long press_ to enter birds-eye-view.
 
 * The buttons on the grid start/record the clips. The behaviour depends on the clip launch and launch release settings (Bitwig only).
 * The 8 scene buttons on the right start the scenes.
+* Hold **Shift** to execute the alternative action of the clip and scene (Bitwig only).
+* Use **Shift + clip/scene** buttons to execute the alternative clip/scene functions (Bitwig only).
 * The arrow keys scroll the grid.
-* Hold **Delete** and press a clip button to delete the clip.
-* Hold **Delete** and press a Scene button to delete the scene.
+* Hold **Delete** and press a clip/scene button to delete the clip/scene.
 
 ![Session mode diagram](Diagrams/Launchpad/session-clip-view.png)
 ![Session bird's eye view diagram](Diagrams/Launchpad/session-birds-eye-view.png)

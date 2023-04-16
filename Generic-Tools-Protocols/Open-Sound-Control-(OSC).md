@@ -324,6 +324,7 @@ The parameters of the command documentation below are as follows:
 | /track/toggleBank            |               | Toggles between the Audio/Instrument and Effect track bank.        |
 | /track/vu                    | {0,1,-}       | En-/Disable VU-Meter notifications.                                |
 | /track/stop                  |               | Stop the playing clip on the track.                                |
+| /track/stopAlt               |               | Alternative function to stop playback on the track, e.g. not quantized. |
 | /track/parent                |               | Select the parent group, if any.                                   |
 | /track/{1-8}/name {text}     |               | Set a new name for the track.                                      |
 | /track/{1-8}/activated       | {0,1,-}       | Dis-/enable, toggle the track activation.                          |
@@ -382,6 +383,7 @@ The parameters of the command documentation below are as follows:
 | /clip/launchAlt                       | {0,1}       | Alternative launch function for the clip (launch = 1, release = 0). |
 | /clip/stop                            |             | Stop the playback of the cursor clip.          |
 | /clip/stopall                         |             | Stop the playback of all playing clips.        |
+| /clip/stopallAlt                      |             | Alternative function to stop the playback of all clips, e.g. not quantized. |
 | /clip/record                          |             | Record a clip in the selected slot.            |
 | /clip/create                          | {beats}     | Create new clip, activate overdub and start it. Beats is the length of the clip in quarter notes. |
 | /clip/quantize                        |             | Quantize the cursor clip.                      |

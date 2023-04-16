@@ -61,9 +61,9 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 ## Browser
 
-* MkI: Press _Shift+Stop All Clips_ button to open/close the browser.
-* MkII: Press the _Bank_ button to open/close the browser. To discard the patch selection press _Shift+Bank_.
-* Navigate filter and result columns with the _Track Control knobs_.
+* MkI: Press **Shift+Device On/Off** button to open/close the browser.
+* MkII: Press the **Bank** button to open/close the browser. To discard the patch selection press **Shift+Bank**.
+* Navigate filter and result columns with the **Track Control knobs**.
 * Cursor left/right: select the previous/next browser tab.
 * Cursor up/Down: select the previous/next result item.
 
@@ -97,8 +97,9 @@ Support script for Akais' APC40 and APC40mkII controller.
 ## Clip/scene control
 
 * **Clip Stop** - Stop the clip on the specific track.
-* **Shift+Clip Stop** - Returns to the arrangement of that track.
+* **Shift+Clip Stop** - Executes the alternative stop function (Bitwig only).
 * **Stop all clips** - Press this button to stop all playing clips.
+* **Shift+Stop all clips** - Executes the alternative clip stop (Bitwig only).
 * **Scene launch buttons** - Start the specific scene
 * **Cursor up** - Move scene focus 1 scene up
 * **Cursor down** - Move scene focus 1 scene down
@@ -109,7 +110,7 @@ Support script for Akais' APC40 and APC40mkII controller.
 * **Footswitch 1** - The function can be configured in the settings.
 * **Footswitch 2** *only mkI* - The function can be configured in the settings.
 
-But there is MUCH more! If you keep the Shift button pressed and press one of the five Scene Launch buttons you will change the main modes of the script:
+But there is MUCH more! If you press the Shift button and then press one of the five Scene Launch buttons you will change the main mode of the script:
 
 * 1st button: Session mode - if already enabled toggles the birds-eye view
 * 2nd button: Play mode, allows you to play notes in different scales
@@ -120,6 +121,8 @@ But there is MUCH more! If you keep the Shift button pressed and press one of th
 ## Session Mode
 
 * The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
+* The 5 scene buttons on the right start the scenes.
+* Use **Shift + clip/scene** buttons to execute the alternative clip/scene functions (Bitwig only).
 * Press the **Stop Clip** button of the track and a pad to delete the clip.
 * Press the **Select** button of the track and a pad to duplicate the clip.
 
@@ -212,7 +215,9 @@ Parameter 3 to 8 are only available with Bitwig.
 
 ## Functions in Shift mode
 
-If you keep Shift pressed there are additional functions available on the pads of the 5th (top) row:
+If you press and release the Shift button the grid changes to the Shift mode. If you keep the Shift button pressed and execute one of the functions of this mode, it will close automatically when the Shift button is released (except in the Session mode).
+
+The following functions are available on the pads of the 5th (top) row:
 
 * 1st: Add instrument track
 * 2nd: Add audio track

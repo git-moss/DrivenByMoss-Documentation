@@ -156,6 +156,7 @@ The Device Control View allows to control devices (= plugins) from the MPC/Force
 * **SHIFT + TAP** - Toggles the metronome.
 * **UNDO** - Undoes the last action.
 * **REDO** - Executes the last undone action.
+* **SHIFT + Pad** - Press and hold this button and tap a clip or scene to launch it with the alternative settings.
 
 ### Hardware: Only MPC
 
@@ -175,8 +176,7 @@ All other buttons either have no function or leave the Control Mode.
 
 * **LOAD** - Open the Load dialog to open a project (button cannot be lit).
 * **SAVE** - Save the current project (button cannot be lit).
-* **SHIFT** - Press and hold this button and tap a clip or scene to select it without launching it.
-* **SELECT** - Press and hold this button and tap a clip or scene to launch it with the alternative settings (Bitwig only).
+* **SELECT** - Press and hold this button and tap a clip or scene to select it without launching it (Bitwig only).
 * **SELECT + COPY** - Creates a new scene.
 * **COPY** - Duplicates the selected clip and starts it. Keep pressed and press a pad to duplicate the according clip. Combine with LAUNCH buttons to duplicate the scene. Combine with track select buttons to duplicate a track.
 * **DELETE** - Keep pressed and press a pad to delete the according clip. Combine with LAUNCH buttons to delete the scene. Combine with track select buttons to delete a track.
@@ -194,7 +194,7 @@ All other buttons either have no function or leave the Control Mode.
 * **SHIFT + 5th Track Assign** - Toggles the metronome.
 * **Assign A / Assign B** - Press and hold one of these buttons and then press a Track Assign Button to assign the track to one of Bitwig's cue mixes.
 * **Master** - Selects the Master track and Sends. Press again to return to the previously selected track.
-* **Stop All** - Stops all clips that are playing or recording
+* **Stop All** - Stops all clips that are playing or recording.
 * **Knobs** - Adjusts the parameters displayed in the OLED screens above. Use the **Knobs Button** to toggle between Knobs 1–8 (which control Track Level for the eight tracks currently viewed) and Knobs 9–16 (which are mapped to control the device on the current track, based on the location of the "blue hand" in Ableton Live's Detail View).
 * **Crossfader** - Controls Bitwig's crossfader to blend between Cue Mixes A and B.
 

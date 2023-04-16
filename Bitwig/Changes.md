@@ -1,31 +1,49 @@
 # Changes - Bitwig Studio
 
-**20.0.0 (unreleased)**
+**20.0.0**
 
 * Requires Bitwig 5.0+
-* APC40/APCmini, Beatstep, Electra One, Gamepad, Generic Flexi
+* Beatstep, Electra One, Gamepad, Generic Flexi
   * New: The new Bitwig 5 clip and scene release functions can be used.
+* APC40
+  * New: The new Bitwig 5 clip and scene release functions can be used. The alternative functions are triggered in combination with the SHIFT button.
+  * New: Shift+Stop All Clips button triggers the alternative stop function.
+  * New: MkI: Press Shift+Device On/Off button to open/close the browser (was Shift+Stop All Clips).
+  * Fixed: MkI: Selecting channel A or B for crossfader did not work.
+* APCmini
+  * New: The new Bitwig 5 clip and scene release functions can be used. The alternative functions are triggered in combination with the SHIFT button.
+  * New: Existing scenes have now the color green. The selected scene blinks green.
 * Fire
   * New: Toggling the Birds Eye view in session mode (SHIFT+PERFORM) directly closes the Shift mode and displays an info in the display which mode is selected.
-  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative function is triggered in combination with the ALT button. To only select a clip press SHIFT+ALT and the pad of the clip. Works both in session and Drum XoX mode.
-  * New: The new Bitwig 5 scene release and alternative functions can be used. The alternative function is triggered in combination with the ALT button. To stop all playing clips press SHIFT+ALT and one of the scene buttons.
+  * New: The new Bitwig 5 clip and scene release functions can be used. The alternative function is triggered in combination with the SHIFT button. To only select a clip or scene press ALT and the pad of the clip.
 * Generic Flexi:
   * New: Added new functions *Clip: Play Alternative* and *Scene N: Launch Scene Alternative*.
+  * New: Added new functions *Clip: Stop Alternative*, *Clip: Stop All* and *Clip: Stop All Alternative*.
 * Launch Control XL
   * New: The new Bitwig 5 scene release function can be used.
 * Launchkey / Launchkey Mini / SLMk3
   * New: The new Bitwig 5 clip and scene release functions can be used.
   * New: Mini: The executed functions when Stop/Solo/Mute is pressed are displayed.
 * Launchpad
-  * New: The new Bitwig 5 clip release functions can be used. The previous long press function to select a clip had to be removed to make this work.
-* Maschine, Maschine JAM
-  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions is triggered in combination with the SELECT button. The previous long press function to select a clip had to be removed to make this work. Same for scenes.
+  * New: The new Bitwig 5 clip and scene release functions can be used. The alternative functions are triggered in combination with the SHIFT button. The previous long press function to select a clip had to be removed to make this work.
+  * New: The Shift mode has a new button to execute the alternative 'stop all clips' function (left to the normal 'stop all clips' pad).
+  * New: If the 'stop clip' row is active in session mode, the pads can be used in combination with the Shift button to trigger the alternative Stop function.
+  * New: Pro Mk3: Combine Shift with the track buttons in Stop Clip mode to trigger the alternative Stop function.
+* Maschine
+  * New: Pattern + Scene modes: The new Bitwig 5 clip and scene release and alternative functions can be used. The alternative functions are triggered in combination with the SHIFT button. To select a clip/scene use the SELECT button.
+  * New: Pattern mode: Shift+PATTERN button triggers the alternative clip stop function.
+  * New: Scene mode: Shift+SCENE button triggers the alternative clip stop function.
+* Maschine JAM
+  * New: Pattern + Scene modes: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions are triggered in combination with the SHIFT button. To select a clip/scene use the SELECT button.
+  * New: Select + MUTE + clip pad triggers the alternative clip stop function.
 * MCU
   * New: SAVE button LED is off when project is not modified.
   * New: OPTION + press a knob which controls a send level toggles the send on/off.
 * MPC/Force
-  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions is triggered in combination with the SHIFT button. On the Force use SELECT in combination with a pad to only select the clip.
-  * New: Use SELECT+Scene button to trigger the alternative Scene function.
+  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions are triggered in combination with the SHIFT button.
+  * New: Shift+Stop All Clips button triggers the alternative stop function.
+  * New: (Force only): Use SELECT in combination with a pad to only select a clip or scene.
+  * New: (Force only): Use SHIFT+Scene button to trigger the alternative Scene function.
 * OSC
   * New: 'launch' has now a parameter to trigger press and release on both clips and scenes.
   * New: Added 'launchAlt' to trigger the alternative launch function on both clips and scenes.
@@ -33,18 +51,25 @@
   * New: Added sending: /device/layer/{1-8}/send/{1-8}/activated - Is the send disabled or enabled?
   * New: Added receive: /track/{1-8}/send/{1-8}/activated - Toggle the send disabled or enabled.
   * New: Added receive: /device/layer/{1-8}/send/{1-8}/activated - Toggle the send disabled or enabled.
+  * New: Added receive: /track/stopAlt - Alternative function to stop playback on the track, e.g. not quantized.
+  * New: Added receive: /clip/stopallAlt - Alternative function to stop the playback of all clips, e.g. not quantized.
 * Push
-  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions is triggered in combination with the SELECT button. The previous long press function to select a clip had to be removed to make this work.
-  * New: Use SELECT+Scene button to trigger the alternative Scene function.
+  * New: The new Bitwig 5 clip and scene release and alternative functions can be used. The alternative functions are triggered in combination with the SHIFT button. The previous long press function to select a clip had to be removed to make this work.
+  * New: Use Select+Clip/Scene to select it.
+  * New: The birds-eye view in Session mode is now activated by holding Shift+Select.
+  * New: Stop Clip button+first row buttons triggers the alternative stop function.
+  * New: Shift+Stop Clip button triggers the alternative stop all function.
   * New: Sends can be dis-/enabled. Keep SHIFT pressed, then additionally SELECT and finally touch a knob which modifies a send.
   * New: Added some CLAP devices to the *Add Track* settings.
-  * Fixed: Birds-eye view in Session Mode had a blinking issue.
+  * Fixed: Birds-eye view in Session mode had a blinking issue.
 * SL Mk II
   * New: The new Bitwig 5 scene release function can be used.
   * Fixed: Transport commands did not work in Play mode.
   * Fixed: Display of scene names did not work for non-existing scenes.
 * Turn
-  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions is triggered in combination with the SELECT button.
+  * New: The new Bitwig 5 clip release and alternative functions can be used. The alternative functions are triggered in combination with the SHIFT button.
+  * New: Hold Select to select a clip without starting playback.
+  * New: Shift+stop buttons: Stop the playing clip on the channel using the alternative setting.
 
 **19.2.2**
 

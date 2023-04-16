@@ -65,6 +65,8 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
   * Yellow: Present clip
   * Green: Playing clip
   * Red: Recording clip
+* Existing scenes have now the color green. The selected scene blinks green.
+* Use **Shift + clip/scene** buttons to execute the alternative clip/scene functions (Bitwig only).
 * **Track buttons** - Clip stop, solo, rec arm, mute or select
 
 ## Play Mode

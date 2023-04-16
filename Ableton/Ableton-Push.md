@@ -50,7 +50,8 @@ After you have copied the file reboot your computer.
 * **Shift+Knob 9** - Changes the Metronome Volume.
 * **Select+Knob 9** - Changes the arranger zoom.
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
-* **Stop/Stop Clip** - Press _Shift+Stop_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track.
+* **Stop Clip** - Press _Stop Clip_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track. Combine with first row buttons to execute the alternative stop function (Bitwig only).
+* **Shift+Stop Clip** - Executes the alternative stop all clips function (Bitwig only).
 * **Footswitch 1** - Sends sustain.
 * **Footswitch 2** - Triggers the new button.
 * **Arrows** The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
@@ -200,18 +201,18 @@ Hold *Browse* and select a pad to browse for clips.
 All the buttons and knobs behave like in Play mode with the following exceptions:
 
 * The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
-* Hold Select to execute the alternative action of the clip (Bitwig only).
-* The 1/4 to 1/32t buttons start scenes. Use SELECT+Scene button to trigger the alternative Scene function (Bitwig only).
+* The 1/4 to 1/32t buttons start scenes.
+* Hold **Shift** to execute the alternative action of the clip and scene (Bitwig only).
+* Hold **Select** to select a clip or scene without starting it.
+* Hold **Shift+Select** to switch to the birds-eye view. In this mode each pad represents 8x8 clips. Select a pad to quickly jump to that area.
 * The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
-* Pressing Shift+1st row buttons returns to the arrangement for that track.
-* Press the _Fixed Length_ button to choose the length for new clips.
-* Press _Clip_ to display the current clip in the editor.
+* Pressing **Shift+1st row buttons** returns to the arrangement for that track.
+* Press the **Fixed Length** button to choose the length for new clips.
+* Press **Clip** to display the current clip in the editor.
 * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
-* Press _Delete_+Pad In Session Mode to the delete the clip.
+* Press **Delete+Pad** in Session Mode to the delete the clip.
 
-Press the Session button twice to flip the grid which then matches the arrangement view.
-
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode.
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode which display either markers or clips in the display.
 
 ### Marker mode
 

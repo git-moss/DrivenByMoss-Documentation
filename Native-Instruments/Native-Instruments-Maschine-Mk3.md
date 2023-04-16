@@ -121,7 +121,7 @@ Use the encoder in combination with **SHIFT** for slower changes.
 * **Shift+PLAY** - Toggle transport loop
 * **REC** - Different functions can be selected in the settings (see below).
 * **Shift+REC** - Different functions can be selected in the settings (see below).
-* **STOP** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song. Use in combination with a pad in Clip Mode to stop the clip.
+* **STOP** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song.
 * **RESTART/LOOP** - Toggle transport loop
 * **ERASE** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
 * **ERASE+touch encoder knob** - Reset the currently edited value to its' default.
@@ -233,8 +233,8 @@ The Touchstrip behaves based on the following modes.
 ## Pad Modes
 
 * **FIXED VEL** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
-* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page. Combine with Select button to select the scene without starting it.
-* **PATTERN** - Press a pad to start one of 16 clips of the current bank page on the selected track. Combine with Select button to select the clip without starting it.
+* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page. Combine with Select button to select the scene without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep SCENE pressed an press any of the pads to stop all currently playing clips. Combine with SHIFT to execute the alternative stop function (Bitwig only).
+* **PATTERN** (clip mode) - Press a pad to start one of 16 clips of the current bank page on the selected track. Combine with Select button to select the clip without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep PATTERN pressed an press any of the pads to stop the active clips playback. Combine with SHIFT to execute the alternative stop function (Bitwig only).
 * **VARIATION** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **DUPLICATE** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
 * **SELECT** - Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
