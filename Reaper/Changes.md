@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**20.1.0**
+
+* Requires Reaper 6.71+
+* Launch Control XL
+  * Fixed: Moving drum pad range was broken.
+* Launchpad, Push
+  * Fixed: Clip Length mode was not always recalled. 
+* MCU
+  * Fixed: Device froze when there were no sends and send 2 was selected.
+* OSC
+  * Fixed: Moving drum pad range was broken.
+* SLMkIII
+  * Fixed: Set knob layout only when necessary.
+
 **20.0.0**
 
 * Requires Reaper 6.71+

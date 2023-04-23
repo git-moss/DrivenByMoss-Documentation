@@ -8,7 +8,7 @@ Supports the OSC protocol.
 2. Select a midi input port. It is not really important which one you choose because it is just used to insert midi notes into the DAW received as an OSC command. Best thing is to use a virtual midi port.
 3. Adjust the IP-addresses and ports of your computer and the client device you want to use.
 
-The ZIP file has a folder _resources/OSC_ which contains example files for Cycling 74s Max, TouchOSC and Open Stage Control.
+The ZIP file has a folder _resources/OSC_ which contains example files for Cycling 74s Max and Open Stage Control.
 Note: The templates require the setting "resolution" to be set to low.
 
 ## Command documentation

@@ -145,9 +145,9 @@ Selecting an already selected group track toggles its' expanded state if the Shi
 
 ## Play Modes
 
-### Note Mode
+### Play Mode
 
-Press _"Note"_ and select *Play* to change to the Play view.
+Press _"Note"_ and select *Play* to change to the Play mode.
 
 * The key layout is like running the Push with Ableton. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*.
 * The Touchstrip (Ribbon) can be configured for different tasks. Call up the configuration mode with Shift+Touchstrip.
@@ -157,7 +157,7 @@ Press _"Note"_ and select *Play* to change to the Play view.
 
 ### Chords Mode
 
-Press _"Note"_ and select *Chords* to change to the Chords view.
+Press _"Note"_ and select *Chords* to change to the Chords mode.
 
 This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The same octave, scale and base note settings apply as with the play mode.
 The rows from bottom to top contain the following chords: 

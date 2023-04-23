@@ -82,13 +82,13 @@ Difference is that there is no Record Arm mode since layers have no record state
 
 This mode is not limited to but should be used with a Bitwig Drum Machine device. This mode is special in a way that it provides access to many parameters of the 8 displayed steps at once.
 
-* **Track Focus buttons**: Selects one of the 8 drum pads (sounds) on the currently selected drum machine pads page.
+* **Track Focus** buttons: Select one of the 8 drum pads (sounds) on the currently selected drum machine pads page.
 * **Track Control / Device Bank**: This depends on the state of the Device, Mute, Solo and Record Arm buttons:
     * **Mute/Solo/Rec Arm buttons are off**: Press to toggle the step on/off.
     * **Device** (yellow): Keep the device button pressed to select one of the 1st 8 parameter pages of the drum machine device.
-    * **Mute** (amber): If active the Mute state of the 8 drum pads of the currently selected drum machine pads page is toggled. Keep the Mute button pressed to select one of 8 step resolutions for the sequencer.
-    * **Solo** (green): If active the Solo state of the 8 drum pads of the currently selected drum machine pads page is toggled. If the *Solo* button is kept pressed it displays 8 scenes. Press one of the buttons to start the scene. The selected scene is highlighted.
-    * **Record Arm** (red): If active the Loop Length of the currently selected clip can be set. If the *Record Arm* button is kept pressed it displays the transport bar as already described above.
+    * **Mute** (amber): If active, the Mute state of the 8 drum pads of the currently selected drum machine pads page is toggled. Keep the Mute button pressed to select one of 8 step resolutions for the sequencer.
+    * **Solo** (green): If active, the Solo state of the 8 drum pads of the currently selected drum machine pads page is toggled. If the *Solo* button is kept pressed it displays 8 scenes. Press one of the buttons to start the scene. The selected scene is highlighted.
+    * **Record Arm** (red): If active, the Loop Length of the currently selected clip can be set. If the *Record Arm* button is kept pressed it displays the transport bar as already described above.
 * **Send Select**: Moves the page of the drum pads (sounds) up/down.
 * **Track Select**: Select the previous/next page of the clip. If the *Solo* button is pressed it selects the previous/next page of scenes.
 
