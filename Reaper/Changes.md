@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**20.2.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* Added support for the ESI Xjam controller
+
 **20.1.0**
 
 * Requires Reaper 6.71+
