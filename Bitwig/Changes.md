@@ -4,6 +4,8 @@
 
 * Requires Bitwig 5.0+
 * Added support for the ESI Xjam controller
+* MCU
+  * Fixed: Added missing EQ and INST buttons to simulator.
 
 **20.1.0**
 
