@@ -4,6 +4,10 @@
 
 * Requires Reaper 6.71+
 * Added support for the ESI Xjam controller
+* All devices
+  * Fixed: Parameter values were not shown on the controls in the simulator.
+* Komplete Kontrol MkII
+  * New: Make sure that the same slot is selected when switching tracks.
 * MCU
   * Fixed: Added missing EQ and INST buttons to simulator.
 

@@ -4,6 +4,8 @@
 
 * Requires Bitwig 5.0+
 * Added support for the ESI Xjam controller
+* Komplete Kontrol MkII
+  * New: Make sure that the same slot is selected when switching tracks.
 * MCU
   * Fixed: Added missing EQ and INST buttons to simulator.
 
