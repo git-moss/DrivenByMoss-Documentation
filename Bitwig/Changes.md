@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**20.2.0 (unreleased)**
+**20.2.0**
 
 * Requires Bitwig 5.0+
 * Added support for the ESI Xjam controller

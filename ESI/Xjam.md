@@ -87,6 +87,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
+* New clip length: The length of a clip created with the New function.
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * Footswitch: Select the function to be executed when a connected foot switch is pressed.
 
