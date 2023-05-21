@@ -50,7 +50,7 @@ This first mode (PAD BANK LED is lit green) can be used to play notes. Changes t
 
 This second mode (PAD BANK LED is lit orange) provides transport control on the bottom row:
 
-* Play/stop: starts / stops the playback
+* Play/stop: starts / stops the playback. Double tap quickly to move the play cursor to the start of the arranger.
 * Rewind (can be kept pressed): moves the play cursor to the left
 * Forward (can be kept pressed): moves the play cursor to the right
 * Record (function can be configured, see settings below)

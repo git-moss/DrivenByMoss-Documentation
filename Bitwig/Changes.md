@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**20.2.1**
+
+* Requires Bitwig 5.0+
+* Fire
+  * New: Names of drum pads are now displayed when switching selection in drum mode.
+* Generic Flexi
+  * Fixed: MIDI feedback from on/off values did sent 1/0 instead of 127/0.
+* Launchkey Mk3
+  * Fixed: Wrong mode was set after closing the browser.
+* MCU
+  * Fixed: Fader flip did not work in Instrument mode.
+
 **20.2.0**
 
 * Requires Bitwig 5.0+

@@ -53,7 +53,7 @@ After you have copied the file reboot your computer.
 * **Stop Clip** - Press _Stop Clip_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track. Combine with first row buttons to execute the alternative stop function (Bitwig only).
 * **Shift+Stop Clip** - Executes the alternative stop all clips function (Bitwig only).
 * **Footswitch 1** - Sends sustain.
-* **Footswitch 2** - Triggers the new button.
+* **Footswitch 2** - Function can be configured in the settings (see the descriptions of the settings below).
 * **Arrows** The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
 * **Shift+Touchstrip** - Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track** - Turn off/on VU meters.
