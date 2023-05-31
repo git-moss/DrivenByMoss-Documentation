@@ -8,6 +8,8 @@ Support script for Akai devices supporting the ACVS protocol. Currently, these a
 * MPC-X and 
 * the Force.
 
+The MPC Key 61 does currently not support the control mode.
+
 ## Installation
 
 Install the Akai Network Driver as described in the MPC/Force manual. This driver is currently only available for Windows and Intel Macos.

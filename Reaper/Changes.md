@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**20.3.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* Push, Turn
+  * Fixed: Only the first 8 scenes could be launched in Scenes view.
+
 **20.2.1**
 
 * Requires Reaper 6.71+
