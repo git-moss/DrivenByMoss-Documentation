@@ -90,9 +90,9 @@ Support script for Akais' APC40 and APC40mkII controller.
 
 ## User mode - *only mkII*
 
-* Press USER to select the user mode.
-* **Device Knobs 1-8** - Change the mapped user parameter.
-* **User+Select 1-8** - Select one of the 8 user pages.
+* Press USER to select the user mode to control project and track parameters. Press again to toggle between the project and track parameters.
+* **Device Knobs 1-8** - Change the mapped project/track parameter.
+* **User+Select 1-8** - Select one of the 8 parameter pages.
 
 ## Clip/scene control
 

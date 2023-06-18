@@ -248,7 +248,7 @@ The parameters of the command documentation below are as follows:
 | /project/{+,-}   |            | Switch to the next/previous opened project.         |
 | /project/engine  | {0,1,-}    | De-/Activate the audio engine.                      |
 | /project/save    |            | Save the current project.                           |
-| /action          | {0-7}      | Execute one of the configured actions.              |
+| /action          | {1-20}     | Execute one of the configured actions.              |
 
 ### Receive - Transport
 
@@ -349,7 +349,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/send/{1-8}/volume          | {0-MAX_VALUE} | Set the volume of the send of the track.                | 
 | /track/{1-8}/send/{1-8}/volume/indicate | {0,1}         | Turn off/on, toggle the send volume indication.         |
 | /track/{1-8}/send/{1-8}/volume/touched  | {0,1}         | Turn off/on, toggle the send volume touched state.      |
-| /track/{1-8}/enter           |               | Enter the group, if the track is a group/folder track.             |
+| /track/{1-8}/enter           |               | Enter the group, if the track is a group/folder track. Toggles the folder open/closed, if track bank is flat. |
 | /track/{1-8}/color           | {color}       | Set the color of the track.                                        |
 | /track/selected/pinned       | {0,1,-}       | Unpin, pin, toggle pinning of the selected track.                  |
 | /track/selected/{attribute}  | {value}       | As above.                                                          |
@@ -529,12 +529,13 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
+* Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown.
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
 
 ### Actions
 
-* Action 1-8: Select the Action to execute if an /action command is received
+* Action 1-20: Select the Action to execute if an /action command is received
 
 ### Debug
 

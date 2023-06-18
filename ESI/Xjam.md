@@ -38,9 +38,9 @@ The knobs have the following functions from top/left:
 5. Value of the 4th/8th parameter
 6. Volume of the selected track
 
-### Knob Mode 3 - User Parameters
+### Knob Mode 3 - Project Parameters
 
-This third mode (CTRL BANK LED is lit red) controls 6 parameters which can be freely mapped. Right click any parameter in Bitwig and select MIDI learn, now turn one of the 6 knobs to complete the mapping. This mapping is specific to the current project.
+This third mode (CTRL BANK LED is lit red) controls 6 parameters (project remotes) which can be freely mapped on a project level.
 
 ### Pad Mode 1 - Play
 

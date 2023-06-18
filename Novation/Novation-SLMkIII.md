@@ -88,7 +88,7 @@ In all track modes hold **Shift** for additional functions:
 ### Device Modes
 
 Press the **Up button** left to the display to switch to Device mode and toggle between the display of devices and parameter pages.
-Alternatively, hold the **Up button** and select one of the modes with the select buttons below the display. This menu also contains the **User Mode** (press 8th button).
+Alternatively, hold the **Up button** and select one of the modes with the select buttons below the display. This menu also contains the **Project FX** (press 7th button) and the **Track FX** mode (press 8th button).
 
 1. **Device - Devices** - The Up button LED is lit **Mint**
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the Clear key and turn the encoder to reset its value.
@@ -98,9 +98,13 @@ Alternatively, hold the **Up button** and select one of the modes with the selec
     * 8 edit knobs: As above.
     * Buttons select a parameter page of the selected device.
 
-3. **User Mode** - The Up button LED is lit **White**
-    * 8 edit knobs: Change the value of the mapped user parameters.
-    * Buttons select a user parameter page (8x8). The pages can be named in the settings.
+3. **Project FX** - The Up button LED is lit **White**
+    * 8 edit knobs: Change the value of the mapped project parameters.
+    * Buttons select a parameter page.
+
+4. **Track FX** - The Up button LED is lit **White**
+    * 8 edit knobs: Change the value of the mapped parameters of the selected track.
+    * Buttons select a parameter page.
 
 In the device and parameters modes hold **Shift** for additional functions:
 
@@ -167,7 +171,6 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
 * Enable Faders: Option to disable the faders to prevent unwanted value changes.
 * Enable Lightguide: Activates the lightguide, which displays the currently selected scale. The root note is lit in the color of the currently selected track. Change the scale and root note in the document settings.
-* User Page 1-8: Allows to set a name for the user parameter pages
 
 ### Transport
 

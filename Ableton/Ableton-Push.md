@@ -135,13 +135,11 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * Switch to the next/previous opened project with buttons 7 and 8.
 
 9. **User** - Press "User" to enter
-   Allows to map up to 64 user parameters divided into 8 pages with 8 parameters. Right click on any parameter in Bitwig and select *Map to controller*. After that move one of the knobs in user mode to complete the mapping. Mappings are stored with each project.
-   IMPORTANT: Do not try to map any of the buttons below (or above) the display! Also do not map any other buttons or knob on the controller! This will create weird behaviour.
+   Gives access to the project and track parameters.
     * 8 edit knobs: Change value of a mapped parameter. Hold **Shift** for fine adjustments.
     * Left/Right buttons: Select next/previous parameter page
     * Buttons of 1st row select the parameter page.
-    * Buttons of 2nd row select currently have no function.
-    * User page names can be edited in the document settings.
+    * First 2 buttons of the 2nd row toggle between Project and (selected) Track parameters.
 
 ## Play Modes
 
@@ -401,10 +399,6 @@ These settings are specific to each project.
 ### Play and Sequence
 
 * MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers
-
-### Workflow
-
-* User Page 1-8: Allows to set a name for the user parameter pages
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

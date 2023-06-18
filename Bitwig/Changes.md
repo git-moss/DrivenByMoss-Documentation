@@ -3,7 +3,23 @@
 **20.3.0 (unreleased)**
 
 * Requires Bitwig 5.0+
-* Push, Turn
+* APC40 mkI/mkII
+  * New: Sends can now be changed for send channels as well.
+* APC40 mkII
+  * New: Press USER to select the user mode to control project and track parameters. Press again to toggle between the project and track parameters.
+* OSC
+  * New: There is now a setting to choose between flat and hierarchical track navigation.
+  * New: Increased the number of configurable actions to 20.
+  * New: /automationWriteMode also dis-/enables clip automation record.
+  * Fixed: Send attributes could not be changed (except volume).
+* Push
+  * New: The user mode gives now access to the project and track parameters. First 2 buttons of the 2nd row toggle between Project and (selected) Track parameters.
+  * New: Sends can now be changed for send channels as well.
+  * Fixed: Only the first 8 scenes could be launched in Scenes view.
+* SLMkIII
+  * New: The user mode has been replaced with a Project FX and Track FX mode. Keep the **UP** button pressed and select the modes with the 7th/8th row button. These modes give access to the project and track parameters.
+  * New: Sends can now be changed for send channels as well.
+* Turn
   * Fixed: Only the first 8 scenes could be launched in Scenes view.
 
 **20.2.1**
