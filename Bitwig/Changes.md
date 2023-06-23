@@ -3,22 +3,36 @@
 **20.3.0 (unreleased)**
 
 * Requires Bitwig 5.0+
-* APC40 mkI/mkII
+* All devices
   * New: Sends can now be changed for send channels as well.
 * APC40 mkII
   * New: Press USER to select the user mode to control project and track parameters. Press again to toggle between the project and track parameters.
+* Fire
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.
+* Generic Flexi
+  * New: User parameter commands are replaced with commands for project and track parameters (*Project Remotes* / *Track Remotes*).
+  * New: The FX Track section has now also Send commands.
+* Launchkey Mini
+  * New: The User mode was replaced with the Project Parameters mode to change project parameters.
+* Launchpad
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters. Up/down button switches between them. Left/right switches pages.
+* Maschine
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.  Cursor left/right switches between them. Encoder up/down buttons switches pages.
+* Maschine JAM
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.  SELECT+CONTROL switches between them.
+* MCU
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.  Fader bank left/right switches between them. Channel left/right switches pages.
 * OSC
   * New: There is now a setting to choose between flat and hierarchical track navigation.
   * New: Increased the number of configurable actions to 20.
   * New: /automationWriteMode also dis-/enables clip automation record.
   * Fixed: Send attributes could not be changed (except volume).
+  * Fixed: Device page name was missing the 'name' part.
 * Push
   * New: The user mode gives now access to the project and track parameters. First 2 buttons of the 2nd row toggle between Project and (selected) Track parameters.
-  * New: Sends can now be changed for send channels as well.
   * Fixed: Only the first 8 scenes could be launched in Scenes view.
 * SLMkIII
   * New: The user mode has been replaced with a Project FX and Track FX mode. Keep the **UP** button pressed and select the modes with the 7th/8th row button. These modes give access to the project and track parameters.
-  * New: Sends can now be changed for send channels as well.
 * Turn
   * Fixed: Only the first 8 scenes could be launched in Scenes view.
 

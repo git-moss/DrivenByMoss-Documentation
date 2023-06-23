@@ -25,12 +25,22 @@ The parameters of the command documentation below are as follows:
 
 ### Send - Global
 
-| Command         | Value            | Comment                                                                 |
-| :---------------|:-----------------|:------------------------------------------------------                  |
-| /update         | {0,1}            | Sent before / after each update cycle (if there is at least 1 message). |
-| /crossfade      | {0-MAX_VALUE}    | The crossfader value. 0 is to the left and MAX_VALUE to the right.      |
-| /project/name   | {text}           | The name of the project.                                                |
-| /project/engine | {0,1}            | Is audio active (1) or off (0).                                         |
+| Command                             | Value            | Comment                                                |
+| :-----------------------------------|:-----------------|:-------------------------------------------------------|
+| /update                             | {0,1}            | Sent before / after each update cycle (if there is at least 1 message). |
+| /crossfade                          | {0-MAX_VALUE}    | The crossfader value. 0 is to the left and MAX_VALUE to the right.      |
+| /project/name                       | {text}           | The name of the project.                               |
+| /project/engine                     | {0,1}            | Is audio active (1) or off (0).                        |
+| /project/param/selected/name        | {text}           | The name of the selected parameter.                    |
+| /project/param/{1-8}/exists         | {0,1}            | Does the parameter exist?                              |
+| /project/param/{1-8}/name           | {text}           | The name of the parameter.                             |
+| /project/param/{1-8}/value          | {0-MAX_VALUE}    | The value of the parameter.                            |
+| /project/param/{1-8}/valueStr       | {text}           | The value of the parameter formatted as a text.        |
+| /project/param/{1-8}/modulatedValue | {0-MAX_VALUE}    | The modulated value of the parameter.                  |
+| /project/param/page/selected/name   | {text}           | The name of the selected parameter page.               |
+| /project/param/page/{1-8}/exists    | {0,1}            | Does the parameter page exist?                         |
+| /project/param/page/{1-8}/selected  | {0,1}            | Is the parameter page selected?                        |
+| /project/param/page/{1-8}/name      | {text}           | The name of the parameter page.                        |
 
 ### Send - Transport
 
@@ -193,18 +203,6 @@ The parameters of the command documentation below are as follows:
 
 {param} is *freq* for the frequency, *gain* for the The gain and *q* for the q-factor of the n-th band.
 
-### Send - User Parameters
-
-| Command                    | Value         | Comment                                                    |
-| :--------------------      |:-----------   |:---------------                                            |
-| /user/{1-8}/name           | {text}        | The name of the parameter.                                 |
-| /user/selected/name        | {text}        | The name of the selectzed user parameter.                  |
-| /user/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                                |
-| /user/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.            |
-| /user/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                      |
-| /user/{1-8}/selected       | {0,1}         | The name of the selected user parameter page.              |
-| /user/{1-8}/               | {text}        | The name of the user parameter page.                       |
-
 ### Send - Browser
 
 | Command                    | Value         | Comment                                                    |
@@ -240,15 +238,22 @@ The parameters of the command documentation below are as follows:
 
 ### Receive - Global
 
-| Command          | Value      | Comment                                             |
-| :----------------|:-----------|:---------------                                     |
-| /refresh         |            | Flushes all values to the clients.                  |
-| /undo            |            | Undoes the last action.                             |
-| /redo            |            | Redoes the last undone action.                      |
-| /project/{+,-}   |            | Switch to the next/previous opened project.         |
-| /project/engine  | {0,1,-}    | De-/Activate the audio engine.                      |
-| /project/save    |            | Save the current project.                           |
-| /action          | {1-20}     | Execute one of the configured actions.              |
+| Command                       | Value         | Comment                                             |
+| :-----------------------------|:--------------|:----------------------------------------------------|
+| /refresh                      |               | Flushes all values to the clients.                  |
+| /undo                         |               | Undoes the last action.                             |
+| /redo                         |               | Redoes the last undone action.                      |
+| /action                       | {1-20}        | Execute one of the configured actions.              |
+| /project/{+,-}                |               | Switch to the next/previous opened project.         |
+| /project/engine               | {0,1,-}       | De-/Activate the audio engine.                      |
+| /project/save                 |               | Save the current project.                           |
+| /project/param/page/selected  | {1-8}         | Select a project parameter page.                    |
+| /project/param/page/{1-8}     |               | Select a project parameter page.                    |
+| /project/param/{1-8}/value    | {0-MAX_VALUE} | Set the value of the project parameter.             |
+| /project/param/{1-8}/indicate |               | Toggle the edit indication.                         |
+| /project/param/{1-8}/reset    |               | Reset the parameter to its' default value.          |
+| /project/param/{1-8}/touched  |               | Toggle the touched state.                           |
+
 
 ### Receive - Transport
 
@@ -448,18 +453,6 @@ The following commands are additional for the equalizer device.
 | /eq/freq/{1-8}       | {0-MAX_VALUE} | Set the frequency of the n-th band.                           |
 | /eq/gain/{1-8}       | {0-MAX_VALUE} | Set the gain of the n-th band.                                |
 | /eq/q/{1-8}          | {0-MAX_VALUE} | Set the q-factor of the n-th band.                            |
-
-### Receive - User Parameters
-
-| Command               | Value         | Comment                                                      |
-| :----------------     |:-----------   |:---------------                                              |
-| /user/{+,-}           |               | Select the next/previous device.                             |
-| /user/page/selected   | {1-8}         | Select the user page.                                        |
-| /user/page/{1-8}      |               | Select the user page.                                        |
-| /user/{1-8}/value     | {0-MAX_VALUE} | Set the value of the user parameter.                         |
-| /user/{1-8}/indicate  |               | Toggle the edit indication.                                  |
-| /user/{1-8}/reset     |               | Reset the parameter to its' default value.                   |
-| /user/{1-8}/touched   |               | Toggle the touched state.                                    |
 
 ### Receive - Browser
 

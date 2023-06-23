@@ -174,7 +174,7 @@ The buttons above the display have the following functions:
 * **Send +** - Select the next send mode (1-8)
 * **Pin** - Pins either the currently selected track or device depending on the active mode
 * **Active** - Either activates the currently selected track or turns on/off the selected device depending on the active mode
-* **User Params** - Activates user mode which allows to map the 8 knobs to any possible target in Bitwig in 8 pages resulting in 64 user parameters
+* **User Params** - Allows to control either Project or Track remote parameters
 * **Parameters** - Activates the device/parameters mode
 
 ### Volume mode
@@ -204,13 +204,13 @@ The buttons above the display have the following functions:
 * **Encoder up/down** - Selects the previous/next track bank page
 * **Encoder turn** - Changes the volume of the selected send of the selected track
 
-### User Params mode
+### Project/Track Remote Params mode
 
-* **Knob 1-8** - Changes / maps the value of the 8 user parameters of the current user parameter page
-* **Page left/right** - Selects the previous/next user parameters page
-* **Encoder left/right** - Selects the previous/next user parameter
-* **Encoder up/down** - Selects the previous/next user parameters page
-* **Encoder turn** - Changes the value of the selected user parameter
+* **Knob 1-8** - Changes the value of the 8 parameters of the current parameter page
+* **Page left/right** - Selects either Project or Track parameters
+* **Encoder left/right** - Selects the previous/next parameter
+* **Encoder up/down** - Selects the previous/next parameters page
+* **Encoder turn** - Changes the value of the selected parameter
 
 ### Device Parameters mode
 

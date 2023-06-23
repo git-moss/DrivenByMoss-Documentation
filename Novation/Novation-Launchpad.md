@@ -324,16 +324,12 @@ Press _"Device"_ to enter the **Device** mode:
 
 ![Device Mode](Diagrams/Launchpad/device-inst-parameters.png)
 
-## User mode
+## Project/Track Parameter Mode
 
-Press _"Device"_ twice to enter the **User** mode:
+Press _"Device"_ twice to enter this mode. This mode either controls the Project or Track parameters. 
 
-Allows to map up to 64 user parameters divided into 8 pages with 8 parameters as virtual sliders. Right click on any parameter in Bitwig and select *Map to controller*. After that *touch* the virtual fader to which you want to map the parameter to complete the mapping. Mappings are stored individually with each project.
-
-IMPORTANT: Do not map any other button on the controller! This will create weird behaviour.
-
-* Each column of the grid controls a mapped user parameter.
-* Select the 8 parameter pages with scene buttons.
+* **Cursor up/down**: Switches between controlling Project or (selected) Track parameters. 
+* **Cursor left/right**: Switches pages.
 
 ## Browser Mode
 

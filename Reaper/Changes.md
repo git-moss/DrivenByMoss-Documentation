@@ -5,11 +5,24 @@
 * Requires Reaper 6.71+
 * All devices
   * New: Updated JDK to 17.0.7+7.
-  * Fixed: New clip function must not enable record-arm if track is set to automatic record-arm.
-* APC40 mkI/mkII
   * New: Sends can now be changed for send channels as well.
+  * Fixed: 'New clip' function must not enable record-arm if track is set to automatic record-arm.
 * APC40 mkII
   * New: Press USER to select the user mode to control project and track parameters. Press again to toggle between the project and track parameters.
+* Fire
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.
+* Generic Flexi
+  * New: User parameter commands are replaced with commands for project and track parameters (*Project Remotes* / *Track Remotes*).
+* Launchkey Mini
+  * New: The User mode was replaced with the Project Parameters mode to change project parameters.
+* Launchpad
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters. Up/down button switches between them. Left/right switches pages.
+* Maschine
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.  Cursor left/right switches between them. Encoder up/down buttons switches pages.
+* Maschine JAM
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.  SELECT+CONTROL switches between them.
+* MCU
+  * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.  Fader bank left/right switches between them. Channel left/right switches pages.
 * OSC
   * New: Increased the number of configurable actions to 20.
   * New: There is now a setting to choose between flat and hierarchical track navigation.

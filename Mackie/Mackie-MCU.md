@@ -91,7 +91,7 @@ F1 will now select the previous page, and F2 the next.
 * **Option+Track** - Pin cursor track
 * **Pan** (MCU MODE PAN/SURROUND) - Select the Panorama edit mode. See the section **Edit Modes** below.
 * **Send** (MCU MODE SENDS) - Select the Send edit mode. Press multiple times to select the Send channels 1 to 8. See the section **Edit Modes** below. Use in combination with the **Track select** buttons to select the respective Send channel 1-8. Use **Shift+Send** to move backwards.
-* **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. Press again to select User mode. See the section **Edit Modes** below.
+* **Device** (MCU DEVICE, PLUG-IN) - Select the Device edit mode. Press again to select project/track parameters mode. See the section **Edit Modes** below.
 * **Option+Device** - Pin cursor device
 * **EQ** (MCU MODE EQ) - Select the equalizer device edit mode.
 * **Instrument** (MCU MODE DYN, INSTRUMENT) - Select the instrument device edit mode.
@@ -208,8 +208,8 @@ Touch the master fader to enter
 ### Device edit mode (dC)
 
 * **Device Knobs 1-8** - Change the currently selected 8 device parameters
-* **|<** (MCU BANK LEFT) - If Device mode is active, the previous device parameter bank is selected.
-* **>|** (MCU BANK RIGHT) - If Device mode is active, the next device parameter bank is selected.
+* **|<** (MCU BANK LEFT) - If any of the Device modes is active, the previous parameter page is selected.
+* **>|** (MCU BANK RIGHT) - If Device mode is active, the next parameter page is selected.
 * **<< 8** (MCU TRACK LEFT) - If Device mode is active, the previous device is selected.
 * **8 >>** (MCU TRACK RIGHT) - If Device mode is active, the next device is selected.
 
@@ -218,9 +218,10 @@ Touch the master fader to enter
 Works like the Device edit mode but for the equalizer device on the track (Bitwig: EQ+, Reaper: ReaEQ).
 When the EQ mode is active and a track is selected which does not yet have an equalizer device, one is automatically added.
 
-### User Parameter edit mode (uS)
+### Project/Track Parameter edit mode (uS)
 
-* **Device Knobs 1-8** - Change the currently selected 8 user parameters.
+* **Shift+Device** (MCU DEVICE, PLUG-IN) - Toggles between project/track parameters.
+* **Device Knobs 1-8** - Change the currently selected 8 parameters.
 
 ### Browser mode (Br)
 

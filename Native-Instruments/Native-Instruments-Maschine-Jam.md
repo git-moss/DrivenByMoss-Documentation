@@ -57,8 +57,8 @@ These buttons activate different modes for the 8 smart strips:
 * **LEVEL** - Toggles between Volume and Panorama editing of 8 tracks. If Volume is active and playback is started the VU of the tracks is displayed as well. All strips are lit in their tracks' color.
 * **AUX** - Edit a specific send for all tracks. Press multiple times to step through up to 8 sends. Press AUX in combination with one of the group buttons A-H to quickly select a send. The sends are lit in white.
 * **SHIFT+AUX** - Toggles between instrument/audio and effect tracks.
-* **CONTROL** - Toggles between editing remote control parameters (colored) and user parameters (all white). Use *PAGE LEFT* and *PAGE RIGHT* to switch the remote control pages.
-
+* **CONTROL** - Toggles between editing remote control parameters (colored) and project (all white)/track (all amber) parameters. Use *PAGE LEFT* and *PAGE RIGHT* to switch the remote control pages.
+* **SELECT+CONTROL** - Toggles between project/track parameters.
 * **SHIFT+CONTROL** - Toggles the windows of the selected device, if it has one.
 
 The following button comnbinations are available:

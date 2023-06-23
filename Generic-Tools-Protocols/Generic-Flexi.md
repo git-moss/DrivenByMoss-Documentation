@@ -14,7 +14,7 @@ Linux: If the file dialogs to save/load do not work make sure you have *zenity* 
 * MIDI notes are blocked when mapped
     * If you have selected *All* for the keyboard channel the mapped notes are blocked on all channels!
     * The blocked notes are only updated when loading a configuration or when switching between slots.
-* Using CC as a target can only be used with VST plugins in Bitwig. It cannot be mapped with the Bitwig mapping system, which will always see the original MIDI command. Instead use User parameters.
+* Using CC as a target can only be used with VST plugins in Bitwig. It cannot be mapped with the Bitwig mapping system, which will always see the original MIDI command. Instead use Project/Track parameters.
 
 ## Storing and loading a configuration
 
@@ -150,22 +150,23 @@ This block configures the MIDI command, which needs to be received to trigger th
 
 You can select only one function from the lists. If you select a function from a different list the previous list will be set to *Off*.
 
-* Browser: Select a browser related function
-* Clip: Select a clip related function
-* Device: Select a device related function
-* FX Track: Select an effect track related function
-* Global: Select global commands
-* Layout: Select layout related function
-* Marker: Select a marker related function
-* Master: Select a function which is related to the Master track
-* MIDI CC: Sends a MIDI CC message to the DAW. This can also be used to transform a MIDI CC to a different one (e.g. Expression to Modulation)
+* Browser: Select a browser related function.
+* Clip: Select a clip related function.
+* Device: Select a device related function.
+* FX Track: Select an effect track related function.
+* Global: Select global commands.
+* Layout: Select layout related function.
+* Marker: Select a marker related function.
+* Master: Select a function which is related to the Master track.
+* MIDI CC: Sends a MIDI CC message to the DAW. This can also be used to transform a MIDI CC to a different one (e.g. Expression to Modulation).
 * Modes: Select a mode related function. See the mode descriptions above.
 * Note Input: Functions to control Note Repeat and Tranposition of the attached keyboard/pads.
-* Scene: Select a scene related function
+* Project Remotes: Select a project remote parameter related function.
+* Scene: Select a scene related function.
 * Track: Select a track related function. The function *Toggle trackbank* allows to switch between the Instrument/Audio track bank and the Effect track bank.
-* Transport: Select a transport related function
-* User: Select a user parameter related function
-* Action: Function to execute one of 8 actions. The 8 actions are selected below under *Options*
+* Track Remotes: Select a track remote parameter related function.
+* Transport: Select a transport related function.
+* Action: Function to execute one of 8 actions. The 8 actions are selected below under *Options*.
 
 #### Global: Shift Button
 

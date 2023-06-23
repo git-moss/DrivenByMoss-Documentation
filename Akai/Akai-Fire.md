@@ -85,20 +85,21 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 * Press the **Select knob** to toggle the window of the current device.
 * Activate delete mode and press the **Select knob** to delete the currently selected device.
 
-### User Mode (USER 2)
+### Project/Track Parameters Mode (USER 2)
 
-Change user parameters. Combine with **Shift** for fine adjustments.
+Change project or track parameters. Combine with **Shift** for fine adjustments.
 
-* **Volume knob**: Change the 1st user parameter
-* **Pan knob**: Change the 2nd user parameter
-* **Filter knob**: Change the 3rd user parameter
-* **Resonance knob**: Change the 4th user parameter
-* **Alt+Volume knob**: Change the 5th user parameter
-* **Alt+Pan knob**: Change the 6th user parameter
-* **Alt+Filter knob**: Change the 7th user parameter
-* **Alt+Resonance knob**: Change the 8th user parameter
+* **Volume knob**: Change the 1st parameter
+* **Pan knob**: Change the 2nd parameter
+* **Filter knob**: Change the 3rd parameter
+* **Resonance knob**: Change the 4th parameter
+* **Alt+Volume knob**: Change the 5th parameter
+* **Alt+Pan knob**: Change the 6th parameter
+* **Alt+Filter knob**: Change the 7th parameter
+* **Alt+Resonance knob**: Change the 8th parameter
 
-* **Alt+Select Knob**: Select the previous/next user parameter page (1-8).
+* **Alt+Select Knob**: Select project or track parameters.
+* **Shift+Alt+Select Knob**: Select the previous/next parameter page.
 
 ## Pad Modes
 
