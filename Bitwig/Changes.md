@@ -1,12 +1,14 @@
 # Changes - Bitwig Studio
 
-**20.3.0 (unreleased)**
+**20.3.0**
 
 * Requires Bitwig 5.0+
 * All devices
   * New: Sends can now be changed for send channels as well.
 * APC40 mkII
   * New: Press USER to select the user mode to control project and track parameters. Press again to toggle between the project and track parameters.
+* APCmini
+  * Fixed: Send channels could not selected.
 * Fire
   * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters.
 * Generic Flexi
@@ -14,6 +16,8 @@
   * New: The FX Track section has now also Send commands.
 * Launchkey Mini
   * New: The User mode was replaced with the Project Parameters mode to change project parameters.
+* Launchkey Mk3
+  * Fixed: Toggling groups open/closed always got triggered twice.
 * Launchpad
   * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters. Up/down button switches between them. Left/right switches pages.
 * Maschine
@@ -26,6 +30,7 @@
   * New: There is now a setting to choose between flat and hierarchical track navigation.
   * New: Increased the number of configurable actions to 20.
   * New: /automationWriteMode also dis-/enables clip automation record.
+  * New: /user commands are replaced with according /project and /track commands. OpenStageControl template got updated to reflect this (but only with /project commands).
   * Fixed: Send attributes could not be changed (except volume).
   * Fixed: Device page name was missing the 'name' part.
 * Push

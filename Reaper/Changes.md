@@ -1,12 +1,14 @@
 # Changes - Cockos Reaper
 
-**20.3.0 (unreleased)**
+**20.3.0**
 
 * Requires Reaper 6.71+
 * All devices
   * New: Updated JDK to 17.0.7+7.
   * New: Sends can now be changed for send channels as well.
   * Fixed: 'New clip' function must not enable record-arm if track is set to automatic record-arm.
+* APCmini
+  * Fixed: Send channels could not selected.
 * APC40 mkII
   * New: Press USER to select the user mode to control project and track parameters. Press again to toggle between the project and track parameters.
 * Fire
@@ -15,6 +17,8 @@
   * New: User parameter commands are replaced with commands for project and track parameters (*Project Remotes* / *Track Remotes*).
 * Launchkey Mini
   * New: The User mode was replaced with the Project Parameters mode to change project parameters.
+* Launchkey Mk3
+  * Fixed: Toggling groups open/closed always got triggered twice.
 * Launchpad
   * New: The User mode was replaced with the Project/Track Parameters mode to change project or track parameters. Up/down button switches between them. Left/right switches pages.
 * Maschine
@@ -26,6 +30,7 @@
 * OSC
   * New: Increased the number of configurable actions to 20.
   * New: There is now a setting to choose between flat and hierarchical track navigation.
+  * New: /user commands are replaced with according /project and /track commands. OpenStageControl template got updated to reflect this (but only with /project commands).
   * Fixed: Send attributes could not be changed (except volume).
 * Push
   * New: The user mode gives now access to the master and track parameters. First 2 buttons of the 2nd row toggle between the master track (Project) and selected Track parameters.

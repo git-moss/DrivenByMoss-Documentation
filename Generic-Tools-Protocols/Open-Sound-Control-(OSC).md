@@ -37,10 +37,10 @@ The parameters of the command documentation below are as follows:
 | /project/param/{1-8}/value          | {0-MAX_VALUE}    | The value of the parameter.                            |
 | /project/param/{1-8}/valueStr       | {text}           | The value of the parameter formatted as a text.        |
 | /project/param/{1-8}/modulatedValue | {0-MAX_VALUE}    | The modulated value of the parameter.                  |
-| /project/param/page/selected/name   | {text}           | The name of the selected parameter page.               |
-| /project/param/page/{1-8}/exists    | {0,1}            | Does the parameter page exist?                         |
-| /project/param/page/{1-8}/selected  | {0,1}            | Is the parameter page selected?                        |
-| /project/param/page/{1-8}/name      | {text}           | The name of the parameter page.                        |
+| /project/page/selected/name         | {text}           | The name of the selected parameter page.               |
+| /project/page/{1-8}/exists          | {0,1}            | Does the parameter page exist?                         |
+| /project/page/{1-8}/selected        | {0,1}            | Is the parameter page selected?                        |
+| /project/page/{1-8}/name            | {text}           | The name of the parameter page.                        |
 
 ### Send - Transport
 
@@ -123,7 +123,17 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/send/{1-8}/name      | {text}        | The name of the send channel.                                |
 | /track/selected/pinned            | {0,1}         | Is the cursor track pinned? Doesn't follow selection in DAW. |
 | /track/selected/{attribute}       | {value}       | All attributes as above for the currently selected track.    |
-| /master/{attribute}               | {value}       | All attributes as above for the master track, except sends.  |
+| /track/param/selected/name        | {text}           | The name of the selected parameter.                    |
+| /track/param/{1-8}/exists         | {0,1}            | Does the parameter exist?                              |
+| /track/param/{1-8}/name           | {text}           | The name of the parameter.                             |
+| /track/param/{1-8}/value          | {0-MAX_VALUE}    | The value of the parameter.                            |
+| /track/param/{1-8}/valueStr       | {text}           | The value of the parameter formatted as a text.        |
+| /track/param/{1-8}/modulatedValue | {0-MAX_VALUE}    | The modulated value of the parameter.                  |
+| /track/page/selected/name         | {text}           | The name of the selected parameter page.               |
+| /track/page/{1-8}/exists          | {0,1}            | Does the parameter page exist?                         |
+| /track/page/{1-8}/selected        | {0,1}            | Is the parameter page selected?                        |
+| /track/page/{1-8}/name            | {text}           | The name of the parameter page.                        |
+| /master/{attribute}               | {value}       | All attributes as above for the master track, except sends and track parameters.  |
 
 ### Send - Scenes, Slots and Clips
 
@@ -148,25 +158,25 @@ The parameters of the command documentation below are as follows:
 
 ### Send - Cursor Device / Primary Device / EQ
 
-| Command                | Value      | Comment                                                                     |
-| :--------------------  |:-----------|:---------------                                                             |
-| /device/exists         | {0,1}      | Does the device exist?                                                      |
-| /device/name           | {text}     | The name of the device.                                                     |
-| /device/bypass         | {0,1}      | Is the device bypassed?                                                     |
-| /device/pinned         | {0,1}      | Is the cursor device pinned? Only for cursor device.                        |
-| /device/expand         | {0,1}      | Is the device display expanded?                                             |
-| /device/parameters     | {0,1}      | Are the parameters of the device displayed?                                 |
-| /device/window         | {0,1}      | Is the plugin window displayed (if it has one)?                             |
-| /device/param/{1-8}/exists         | {0,1}         | Does the parameter exist?                                  |
-| /device/param/{1-8}/name           | {text}        | The name of the parameter.                                 |
-| /device/param/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                                |
-| /device/param/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.            |
-| /device/param/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                      |
-| /device/page/{1-8}/exists          | {0,1}         | Does the page exist?                                       |
-| /device/page/{1-8}/selected        | {0,1}         | Is the parameter page selected?                            |
-| /device/page/{1-8}/name            | {text}        | The name of the parameter page.                            |
-| /device/page/selected/name         | {text}        | The name of the selected parameter page.                   |
-| /device/sibling/{1-8}/exists       | {0,1}         | Does the sibling device exist?                             |
+| Command                            | Value         | Comment                                                      |
+| :----------------------------------|:--------------|:-------------------------------------------------------------|
+| /device/exists                     | {0,1}         | Does the device exist?                                       |
+| /device/name                       | {text}        | The name of the device.                                      |
+| /device/bypass                     | {0,1}         | Is the device bypassed?                                      |
+| /device/pinned                     | {0,1}         | Is the cursor device pinned? Only for cursor device.         |
+| /device/expand                     | {0,1}         | Is the device display expanded?                              |
+| /device/parameters                 | {0,1}         | Are the parameters of the device displayed?                  |
+| /device/window                     | {0,1}         | Is the plugin window displayed (if it has one)?              |
+| /device/param/{1-8}/exists         | {0,1}         | Does the parameter exist?                                    |
+| /device/param/{1-8}/name           | {text}        | The name of the parameter.                                   |
+| /device/param/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                                  |
+| /device/param/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.              |
+| /device/param/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                        |
+| /device/page/{1-8}/exists          | {0,1}         | Does the page exist?                                         |
+| /device/page/{1-8}/selected        | {0,1}         | Is the parameter page selected?                              |
+| /device/page/{1-8}/name            | {text}        | The name of the parameter page.                              |
+| /device/page/selected/name         | {text}        | The name of the selected parameter page.                     |
+| /device/sibling/{1-8}/exists       | {0,1}         | Does the sibling device exist?                               |
 | /device/sibling/{1-8}/name         | {text}        | The name of the devices sibling (devices before or after the device). |
 | /device/sibling/{1-8}/bypass       | {0,1}         | Is the sibling device bypassed?                              |
 | /device/sibling/{1-8}/selected     | {0,1}         | Is the sibling selected?                                     |
@@ -182,24 +192,24 @@ The parameters of the command documentation below are as follows:
 | /device/layer/{1-8}/mute           | {0,1}         | Is the layer muted?                                          |
 | /device/layer/{1-8}/solo           | {0,1}         | Is the layer soloed?                                         |
 | /device/layer/{1-8}/color          | {color}       | The color of the layer.                                      |
-| /device/layer/{1-8}/send/{1-8}/activated | {0,1}        | Is the send disabled (=0) or enabled (=1)?                   |
+| /device/layer/{1-8}/send/{1-8}/activated | {0,1}        | Is the send disabled (=0) or enabled (=1)?              |
 | /device/layer/{1-8}/send/{1-8}/volume    | {0-MAX_VALUE}| The volume send to the send channel.                    |
 | /device/layer/{1-8}/send/{1-8}/volumeStr | {text}       | The volume send to the send channel formatted as a text.|
-| /device/layer/selected/{attribute}   | {value}     | All attributes as above for the currently selected layer.    |
-| /device/drumpad/{1-16}/{attribute}   | {value}     | All attributes as above for a drum pad layer.                |
-| /device/drumpad/selected/{attribute} | {value}     | All attributes as above for the selected drum pad layer.     |
-| /primary/{attribute} | {value} | All attributes as above for the primary device of the channel, except siblings and pinning.  |
-| /eq/{attribute}      | {value} | All attributes as above for the equalizer device of the channel, except siblings and pinning.|
+| /device/layer/selected/{attribute}       | {value}      | All attributes as above for the currently selected layer. |
+| /device/drumpad/{1-16}/{attribute}       | {value}      | All attributes as above for a drum pad layer.             |
+| /device/drumpad/selected/{attribute}     | {value}      | All attributes as above for the selected drum pad layer.  |
+| /primary/{attribute}                     | {value}      | All attributes as above for the primary device of the channel, except siblings and pinning.  |
+| /eq/{attribute}                          | {value}      | All attributes as above for the equalizer device of the channel, except siblings and pinning.|
 
 **Additional EQ parameters**
 
-| Command                | Value      | Comment                                                                 |
-| :--------------------  |:-----------|:---------------                                                         |
-| /eq/type/{1-8} | {off, lowcut, lowshelf, bell, highcut, highshelf, notch} | The type of the band.             |
-| /eq/{param}/{1-8}/name           | {text}        | The name of the parameter.                                 |
-| /eq/{param}/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                                |
-| /eq/{param}/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.            |
-| /eq/{param}/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                      |
+| Command                          | Value         | Comment                                              |
+| :--------------------------------|:--------------|:---------------                                      |
+| /eq/type/{1-8}  | {off, lowcut, lowshelf, bell, highcut, highshelf, notch} | The type of the band.      |
+| /eq/{param}/{1-8}/name           | {text}        | The name of the parameter.                           |
+| /eq/{param}/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                          |
+| /eq/{param}/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.      |
+| /eq/{param}/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                |
 
 {param} is *freq* for the frequency, *gain* for the The gain and *q* for the q-factor of the n-th band.
 
@@ -247,13 +257,13 @@ The parameters of the command documentation below are as follows:
 | /project/{+,-}                |               | Switch to the next/previous opened project.         |
 | /project/engine               | {0,1,-}       | De-/Activate the audio engine.                      |
 | /project/save                 |               | Save the current project.                           |
-| /project/param/page/selected  | {1-8}         | Select a project parameter page.                    |
-| /project/param/page/{1-8}     |               | Select a project parameter page.                    |
+| /project/param/{+,-}          | {0,1,-}       | Select the next/previous parameter page.            |
 | /project/param/{1-8}/value    | {0-MAX_VALUE} | Set the value of the project parameter.             |
 | /project/param/{1-8}/indicate |               | Toggle the edit indication.                         |
 | /project/param/{1-8}/reset    |               | Reset the parameter to its' default value.          |
 | /project/param/{1-8}/touched  |               | Toggle the touched state.                           |
-
+| /project/page/selected        | {1-8}         | Select a project parameter page.                    |
+| /project/page/{1-8}           |               | Select a project parameter page.                    |
 
 ### Receive - Transport
 
@@ -358,7 +368,14 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/color           | {color}       | Set the color of the track.                                        |
 | /track/selected/pinned       | {0,1,-}       | Unpin, pin, toggle pinning of the selected track.                  |
 | /track/selected/{attribute}  | {value}       | As above.                                                          |
-| /master/{attribute}          | {value}       | As above, except sends.                                            |
+| /track/param/{+,-}           | {0,1,-}       | Select the next/previous parameter page.                           |
+| /track/param/{1-8}/value     | {0-MAX_VALUE} | Set the value of the track parameter.                              |
+| /track/param/{1-8}/indicate  |               | Toggle the edit indication.                                        |
+| /track/param/{1-8}/reset     |               | Reset the parameter to its' default value.                         |
+| /track/param/{1-8}/touched   |               | Toggle the touched state.                                          |
+| /track/page/selected         | {1-8}         | Select a track parameter page.                                     |
+| /track/page/{1-8}            |               | Select a track parameter page.                                     |
+| /master/{attribute}          | {value}       | As above, except sends and track parameters.                       |
 
 ### Receive - Scenes, Slots and Clips
 
@@ -399,8 +416,6 @@ The following commands apply to all devices. The cursor device (/device), the pr
 
 | Command                               | Value         | Comment                                        |
 | :----------------                     |:-----------   |:---------------                                |
-| /device/page/selected                 | {1-8}         | Select the device page.                        |
-| /device/page/{1-8}/selected           |               | Select the device page.                        |
 | /device/duplicate                     |               | Duplicate the device.                          |
 | /device/remove                        |               | Remove/delete the device.                      |
 | /device/bypass                        |               | Toggle bypass.                                 |
@@ -414,6 +429,8 @@ The following commands apply to all devices. The cursor device (/device), the pr
 | /device/param/{1-8}/indicate          | {0,1}         | Turn off/on the parameter indication.          |
 | /device/param/{1-8}/reset             |               | Sets the parameter to its' default value.      |
 | /device/param/{1-8}/touched           | {0,1}         | Turn off/on the touched state.                 |
+| /device/page/selected                 | {1-8}         | Select the device page.                        |
+| /device/page/{1-8}/selected           |               | Select the device page.                        |
 | /device/layer/{1-8}/selected          |               | Select the layer.                              |
 | /device/layer/{1-8}/name              | {text}        | Set a new name for the layer.                  |
 | /device/layer/{1-8}/volume            | {0-MAX_VALUE} | Set the volume of the layer.                   |
