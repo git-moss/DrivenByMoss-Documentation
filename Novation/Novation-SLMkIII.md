@@ -102,7 +102,7 @@ Alternatively, hold the **Up button** and select one of the modes with the selec
     * 8 edit knobs: Change the value of the mapped project parameters.
     * Buttons select a parameter page.
 
-4. **Track FX** - The Up button LED is lit **White**
+4. **Track FX** - The Up button LED is lit **Amber**
     * 8 edit knobs: Change the value of the mapped parameters of the selected track.
     * Buttons select a parameter page.
 

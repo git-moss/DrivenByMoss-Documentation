@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**20.3.1 (unreleased)**
+
+* Requires Bitwig 5.0+
+* All devices
+  * Fixed: There might have been a potential crash.
+* OSC
+  * Fixed: The Open Stage Control template did still send /user commands for touch events.
+
 **20.3.0**
 
 * Requires Bitwig 5.0+

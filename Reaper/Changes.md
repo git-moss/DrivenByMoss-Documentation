@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**20.3.1 (unreleased)**
+
+* Requires Reaper 6.71+
+* OSC
+  * Fixed: The Open Stage Control template did still send /user commands for touch events.
+* SL MkIII
+  * Fixed: Did crash on startup.
+
 **20.3.0**
 
 * Requires Reaper 6.71+

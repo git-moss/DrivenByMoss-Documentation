@@ -89,13 +89,15 @@ The 4 custom modes can be configured with the Novation Components application an
 
 #### Session Mode
 
-The Session mode is quite complex since it provides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode.
+The Session mode is quite complex since it provides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Stop/Solo/Mute - Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode.
 
 * The pads start playback or recording of the respective clip.
 * Long press a pad to only select the clip without starting it.
 * The Scene and SSM buttons start the first and second scene in the selected scene window.
 * Use Scene up/down buttons to move the clip/scene window.
 * Press **Stop** + Pad In Session Mode to stop the clip.
+* Press **Play** + Pad In Session Mode to stop the clip immediately.
+* Press **Undo** + Pad In Session Mode to delete the clip.
 
 If one of the sub-modes is enabled, the lower pad row changes and displays the states of the sub-mode. Press one of these pads to toggle the state. The following sub-modes are available:
 
