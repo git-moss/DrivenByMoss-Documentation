@@ -1,10 +1,20 @@
 # Changes - Cockos Reaper
 
-**20.3.1 (unreleased)**
+**20.3.1**
 
 * Requires Reaper 6.71+
+* All devices
+  * Fixed: Implemented a workaround to distinguish MIDI ports with the same name, like Behringer X-Touch extenders.
+* Gamepad
+  * New: Added different options for the range of MIDI CC values sent for each axis.
+* Generic Flexi
+  * New: Added functions for 1st instrument device.
+  * New: Added more functions to navigate project/track remote pages.
+  * Fixed: Track Remote functions did also show up in Track functions but did not work.
 * OSC
   * Fixed: The Open Stage Control template did still send /user commands for touch events.
+* Push
+  * Fixed: Removed unecessary pad mode notifications on track selection.
 * SL MkIII
   * Fixed: Did crash on startup.
 

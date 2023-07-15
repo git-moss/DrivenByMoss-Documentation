@@ -10,7 +10,13 @@ Make sure your gamepad is connected before starting the DAW. If not, press the R
 
 ## Configuration
 
-The settings show several controls of the gamepad (buttons and continuous controls, called 'axis'). For each of the controls you can select a function to execute. Some functions are marked to be only available for buttons or axis controls. For controls not present on the selected controller the selection list is greyed out.
+The settings show several controls of the gamepad. A control is either a button or an axis (normally a joystick moved horizontally or vertically). For each of these controls a function can be selected to be executed. Some functions are marked to be only available for buttons or axis controls. For controls not present on the selected controller the selection list is greyed out.
+
+For each axis which has a CC message set as the function the range can be configured:
+
+* 127 - 0  :  0 - 127: The axis sends MIDI CC values from 0 to 127 in both directions.
+* 0   - 64 : 64 - 127: The axis covers MIDI CC values from 0 to 63 when moved to the left or upwards, 64 when centered and 65 to 127 when moved to the right or downwards.
+* 127 - 64 : 64 - 0  : Like the previous option but flipped.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

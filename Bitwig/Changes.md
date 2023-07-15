@@ -1,12 +1,22 @@
 # Changes - Bitwig Studio
 
-**20.3.1 (unreleased)**
+**20.3.1**
 
 * Requires Bitwig 5.0+
 * All devices
+  * New: Toggling solo on a track now respects the 'solo exclusive' setting in the Bitwig settings.
   * Fixed: There might have been a potential crash.
+* Gamepad
+  * New: Added different options for the range of MIDI CC values sent for each axis.
+* Generic Flexi
+  * New: Added functions for 1st instrument device.
+  * New: The name of the keyboard input can now be configured.
+  * New: Added more functions to navigate project/track remote pages.
+  * Fixed: Track Remote functions did also show up in Track functions but did not work.
 * OSC
   * Fixed: The Open Stage Control template did still send /user commands for touch events.
+* Push
+  * Fixed: Removed unecessary pad mode notifications on track selection.
 
 **20.3.0**
 

@@ -121,7 +121,7 @@ After that up to 127 lines with program names can follow (you can have less).
 
 Note (Bitwig): To make changes in this section become effective a restart of the extension is required (turn it off and on again).
 
-If your controller has a keyboards or pads you can enable it by configuring the MIDI channel. The MIDI channel can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played.
+If your controller has a keyboards or pads you can enable it by configuring the MIDI channel. The MIDI channel can also be turned off or set to all. If a MIDI note is mapped to a function on this MIDI channel, the note is blocked from being played. The Note Input (Bitwig only) can be named.
 
 The Modulation Wheel (CC 01), Sustain Pedal (CC 64), Timbre (CC 74) and Pitchbend can be directly routed to your In that case they are not available as a mapping source.
 
