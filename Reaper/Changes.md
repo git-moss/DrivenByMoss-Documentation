@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**20.3.2 (unreleased)**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: Improved Undo state when changing volume and panorama.
+
 **20.3.1**
 
 * Requires Reaper 6.71+

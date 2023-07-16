@@ -136,12 +136,6 @@ F1 will now select the previous page, and F2 the next.
 * **Shift+Flip** - Toggles between Instrument/Audio/Hybrid tracks and the Effect tracks.
 * **Cancel** (MCU CANCEL) - Cancels browsing when the Browser is active, otherwise like pressing the Escape key on the computer keyboard.
 * **Enter** (MCU ENTER) - Confirms browsing when the Browser is active, otherwise like pressing the Enter key on the computer keyboard.
-* **< BANK** (MCU BANK LEFT) - Move track bank focus 8 track up. If Device mode is active, the previous device parameter bank is selected.
-* **BANK >** (MCU BANK RIGHT) - Move track bank focus 8 track down. If Device mode is active, the next device parameter bank is selected.
-* **Option+BANK left/right** - Moves the selected device to the left/right.
-* **< CHANNEL** (MCU TRACK LEFT) - Move track bank focus 1 tracks up. If Device mode is active, the previous device is selected.
-* **CHANNEL >** (MCU TRACK RIGHT) - Move track bank focus 1 tracks down. If Device mode is active, the next device is selected.
-* **Option+CHANNEL left/right** - Moves the selected track to the left/right.
 
 ## Edit Modes
 
@@ -165,6 +159,12 @@ F1 will now select the previous page, and F2 the next.
 * **8 faders** (MCU FADER_TOUCH1-8) - Change volume of selected 8 tracks. Touching a fader automatically selects the track.
 * **Master fader** (MCU FADER MASTER) - Change volume of master fader. Touching the fader selects the master track.
 * **Press knob** (MCU VSELECT1-8) - Resets the current parameter to its default value. It can be combined with modifier keys: **SHIFT** - set parameter to center value, **CONTROL** - set parameter to minimum, **ALT** - set parameter to maximum. **OPTION** - of the knob controls a send level it toggles the send on/off.
+* **< BANK** (MCU BANK LEFT) - Move track bank focus 8 track up, except in device mode (see below).
+* **BANK >** (MCU BANK RIGHT) - Move track bank focus 8 track down, except in device mode (see below).
+* **Option+BANK left/right** - Moves the selected device to the left/right, except in device mode (see below).
+* **< CHANNEL** (MCU TRACK LEFT) - Move track bank focus 1 tracks up, except in device mode (see below).
+* **CHANNEL >** (MCU TRACK RIGHT) - Move track bank focus 1 tracks down, except in device mode (see below).
+* **Option+CHANNEL left/right** - Moves the selected track to the left/right.
 
 ### Track edit mode (tr)
 
@@ -207,11 +207,11 @@ Touch the master fader to enter
 
 ### Device edit mode (dC)
 
-* **Device Knobs 1-8** - Change the currently selected 8 device parameters
-* **|<** (MCU BANK LEFT) - If any of the Device modes is active, the previous parameter page is selected.
-* **>|** (MCU BANK RIGHT) - If Device mode is active, the next parameter page is selected.
-* **<< 8** (MCU TRACK LEFT) - If Device mode is active, the previous device is selected.
-* **8 >>** (MCU TRACK RIGHT) - If Device mode is active, the next device is selected.
+* **Device Knobs 1-8** - Change the currently selected 8 device parameters.
+* **< BANK** (MCU BANK LEFT) - Selects the previous device.
+* **BANK >** (MCU BANK RIGHT) - Selects the next device.
+* **< CHANNEL** (MCU TRACK LEFT) - Selects the previous parameter page.
+* **CHANNEL >** (MCU TRACK RIGHT) - Selects the next parameter page.
 
 ### Equalizer edit mode (E9)
 
