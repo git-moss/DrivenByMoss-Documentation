@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**20.3.2**
+
+* Requires Bitwig 5.0+
+* All devices
+  * Fixed: Workaround for an incompatibility with Bitwig 5.0.2.
+* Generic Flexi
+  * Fixed: Crash on startup when keyboard MIDI channel was set to Off.
+
 **20.3.1**
 
 * Requires Bitwig 5.0+

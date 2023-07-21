@@ -1,10 +1,12 @@
 # Changes - Cockos Reaper
 
-**20.3.2 (unreleased)**
+**20.3.2**
 
 * Requires Reaper 6.71+
 * All devices
   * Fixed: Improved Undo state when changing volume and panorama.
+* Generic Flexi
+  * Fixed: Crash on startup when keyboard MIDI channel was set to Off.
 
 **20.3.1**
 
