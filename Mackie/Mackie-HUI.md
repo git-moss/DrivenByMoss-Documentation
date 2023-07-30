@@ -18,12 +18,15 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Repeat** (HUI LOOP) - Toggle repeat
 * **Stop** (HUI STOP) - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Play** (HUI PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift (HUI SHIFT) + Play** - Toggle repeat
-* **Option (HUI OPTION) + Play** - Toggle Punch In
-* **Option + Shift + Play** - Toggle Punch Out
+* **Shift (HUI SHIFT)+Play** - Toggle repeat
+* **Option (HUI OPTION)+Play** - Toggle Punch In
+* **Option+Shift+Play** - Toggle Punch Out
 * **Record** (HUI RECORD) - Start/Stop recording
-* **Shift + Record** - Toggle launcher overdub
+* **Shift+Record** - Toggle launcher overdub
+* **Option+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
 * **Jog Wheel** - Move play cursor (press **Shift** for fine adjustment)
+* **Control+Jog Wheel** - Change loop start (press **Shift** for fine adjustment)
+* **Alt+Jog Wheel** - Change loop length (press **Shift** for fine adjustment)
 * **Scrub** - Toggles between Track and Device editing mode
 * **Arrow left, right, up, down** - Like pressing the arrow keys on the computer keyboard
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
@@ -34,6 +37,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Out** - (HUI OUT) - Toggle Punch Out
 * **Audio Engine** (HUI ON LINE) - Toggle Audio Engine on/off for current project
 * **Return to Zero** (HUI RETURN TO ZERO) - Return the play cursor to the start of the arranger
+* **RecRdyAll** (HUI ASSIGN2 RECRDYAL) toggles rec arm state on all tracks (of the active bank page in Bitwig).
 
 ## Buttons
 
@@ -41,6 +45,8 @@ The settings dialog contains profiles for several devices, which sets the correc
 
 * **Shift** (HUI SHIFT) - Use in combination with other buttons for additional functions.
 * **Option** (HUI OPTION) - Use in combination with other buttons for additional functions.
+* **Control** (HUI CONTROL) - Use in combination with other buttons for additional functions.
+* **Alt** (HUI ALT) - Use in combination with other buttons for additional functions.
 * **F1-F8** (HUI F1-F8) - Functions for these buttons can be assigned in the settings dialog.
 * **Undo** (HUI UNDO) - Undos the last action
 * **Shift+Undo** - Redos the last undone action
@@ -62,7 +68,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 
 * **Note Editor** (HUI WINDOW EDIT) - Toggles the display of the note editor pane
 * **Automation Editor** (HUI WINDOW TRANSPORT) - Toggles the display of the automation editor pane
-* **Toggle Device**  (HUI WINDOW STATUS) - Toggles the display of the device pane
+* **Toggle Device** (HUI WINDOW STATUS) - Toggles the display of the device pane
 * **Shift+Toggle Device** - Toggles the display of a plugin window
 * **Mixer** (HUI WINDOW MIXER) - Toggles the display of the mixer pane
 * **Save** (HUI SAVE) - Save button saves the current project

@@ -144,6 +144,7 @@ F1 will now select the previous page, and F2 the next.
   * New: Pressing a knob can now be combined with modifier keys: SHIFT - set parameter to center value, CONTROL - set parameter to minimum, ALT - set parameter to maximum.
 
 * **Record-arm buttons** (MCU ARM1-8) - Press to arm the specific track for recording.
+* **Shift+Record-arm buttons** - Toggles rec arm state on all tracks (of the active bank page in Bitwig).
 * **Mute buttons** (MCU MUTE1-8) - Un-/mute the specific track / layer
 * **Solo buttons** (MCU SOLO1-8) - Un-/solo the specific track / layer
 * **Option+one of the Mute buttons**: Deactivate all mutes

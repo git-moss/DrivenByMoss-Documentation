@@ -1,5 +1,30 @@
 # Changes - Bitwig Studio
 
+**21.0.0 (unreleased)**
+
+* Requires Bitwig 5.0+
+* All devices
+  * Fixed: Improved feedback of automation modes.
+* Generic Flexi
+  * Fixed: Switching project/track remote pages was triggered twice.
+* HUI
+  * New: RecRdyAll toggles rec arm state on all tracks of the active bank page.
+  * New: Option+Jog Wheel - Change tempo (press Shift for fine adjustment).
+  * New: Control+Jog Wheel - Change loop start (press Shift for fine adjustment).
+  * New: Alt+Jog Wheel - Change loop length (press Shift for fine adjustment).
+  * Fixed: Clip related function did not work when assigned to F1-F8 buttons.
+* MCU
+  * New: Shift+RecArm toggles rec arm state on all tracks of the active bank page.
+* OSC
+  * Fixed: /track/param did trigger project parameters.
+* Push
+  * New: Added support for Ableton Push 3.
+  * New: Push 1: Pressing the Stop Clip button allows now to stop clips with the 8 2nd row buttons (similar to solo/mute). Combine 2nd row button with Shift for alternate stop action. Stopping all clips is now Select+Stop clip.
+  * New: Push 2: Stop Clip can now be locked with Shift+Stop Clip (similar to solo/mute).
+  * New: Push 2: Removed unecessary Rec Arm, Solo and Mute from Cue channel.
+  * New: Metronome volume has been moved into the metronome settings mode (long press metronome button).
+  * Fixed: Push 1: Master volume graphical representation was not missing line if VU mode was active.
+
 **20.3.2**
 
 * Requires Bitwig 5.0+

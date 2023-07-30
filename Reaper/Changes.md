@@ -1,5 +1,27 @@
 # Changes - Cockos Reaper
 
+**21.0.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: Fixed an exception with controllers not having user parameters.
+  * Fixed: Improved feedback of automation modes.
+* Generic Flexi
+  * Fixed: Switching project/track remote pages was triggered twice.
+* HUI
+  * New: RecRdyAll toggles rec arm state on all tracks.
+  * New: Option+Jog Wheel - Change tempo (press Shift for fine adjustment).
+  * New: Control+Jog Wheel - Change loop start (press Shift for fine adjustment).
+  * New: Alt+Jog Wheel - Change loop length (press Shift for fine adjustment).
+  * Fixed: Clip related function did not work when assigned to F1-F8 buttons.
+* MCU
+  * New: Shift+RecArm toggles rec arm state on all tracks.
+* OSC
+  * Fixed: /track/param did trigger project parameters.
+* Push
+  * New: Added support for Ableton Push 3.
+  * New: Push 2: Removed unecessary Rec Arm, Solo and Mute from Cue channel.
+
 **20.3.2**
 
 * Requires Reaper 6.71+

@@ -1,101 +1,153 @@
-# Ableton Push 1 / 2
+# Ableton Push 1, 2 and 3
 
-Support script for Ableton's Push 1 and Push 2 controller. You can control track parameters, devices, transport, session view and play the pads.
+Support script for Ableton's Push 1, Push 2 and Push 3 controller. You can control track parameters, devices, transport, session view and get a plenty of sequencers.
 
 ## Installation
 
-To add the controller manually, choose **Ableton -> Push** or  **Ableton -> Push 2** depending on your specific controller. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** it is the first port.
+To add the controller manually, choose **Ableton -> Push X**, where X is the version of your specific controller. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** and **Push 3** it is the first port.
 
 ### Installation on Linux
 
 Accessing USB requires root access. To run the Application as a normal user copy the file `99-userusbdevices.rules` to the folder `/etc/udev/rules.d/`.
-It gives the group **audio** access to the Push 2 controller. Make sure that your user is a member of that group and the group does exist. A more in-depth explanation can be found [here](http://usb4java.org/faq.html).
+It gives the group **audio** access to the Push 2/3 controller. Make sure that your user is a member of that group and the group does exist. A more in-depth explanation can be found [here](http://usb4java.org/faq.html).
 After you have copied the file reboot your computer.
 
 ## Global Features
 
-* **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
-* **Shift+Play** - Toggle repeat
-* **Select+Play** - Toggle Punch In
-* **Select+Shift+Play** - Toggle Punch Out
-* **Record** - Start/Stop recording
-* **Shift+Record** - Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
-* **New** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
-* **Shift+New** - Like New button but without activating launcher overdub.
-* **Automation** - Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.
-* **Shift+Automation** - Toggles the clip launcher automation write enabled state of the transport.
-* **Delete+Automation** - Resets any automation overrides.
-* **Fixed Length** - Select the length of the midi clip for _New_. The upper row gives you the option to create a new clip of the selected length without storing it.
-* **Duplicate** - Combine with a scene pad (duplicate scene) or a track select button (duplicate track). To copy clips in session mode keep the Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip as the source); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
-* **Shift+Duplicate** - Create a new scene from the currently playing clips.
-* **Select+Duplicate** - Creates a new scene at the end of the scene list.
-* **Quantize** - Quantizes the currently selected clip.
-* **Shift+Quantize** (or long press Quantize) - Access the Quantize and Groove configuration modes
-* **Double (Loop)** - Duplicate the content of the currently selected clip (not the clip itself)
-* **Convert** (Push 2) - Brings up the Slice to Drum Machine dialog.
-* **Shift+Convert** (Push 2) - Bring up the Slice to Multi-sample dialog.
-* **Undo** - Undo. Press Shift for Redo.
-* **Delete** - Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
-* **Small Knob 1** - Change tempo (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop start (combine with *Shift* for small changes).
-* **Small Knob 2** - Move play cursor (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop length (combine with *Shift* for small changes).
-* **Metronome** - Toggle metronome. Long press to bring up the metronome settings mode.
-* **Shift+Metronome** - Toggle metronome ticks
-* **Tap Tempo** - Tap Tempo
-* **Mute** - Push 1: Selects track mute state of 2nd row. Push 2: Mutes the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Mute**.
-* **Solo** - Push 1: Selects track solo state of 2nd row. Push 2: Solos the currently selected track. Long press for the Push 1 behavior. Lock it with **Shift+Solo**.
-* **Select+Mute**: Deactivate all mutes.
-* **Select+Solo**: Deactivate all solos.
-* **Knobs 1-8** Value encoders, [Shift+Knob] fine increment value change.
-* **Knob 9** - Changes Master Volume.
-* **Shift+Knob 9** - Changes the Metronome Volume.
-* **Select+Knob 9** - Changes the arranger zoom.
+* **Play**: Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
+* **Shift+Play**: Toggle repeat
+* **Select+Play**: Toggle Punch In
+* **Select+Shift+Play**: Toggle Punch Out
+* **Record**: Start/Stop recording
+* **Shift+Record**: Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
+* **New**: Creates a new clip on the selected track and slot, starts playback and enables overdub.
+* **Shift+New**: Like New button but without activating launcher overdub.
+* **Automation**: Toggle Automation Write. Long press to bring up the Automation dialog which allows you to change the automation mode.
+* **Shift+Automation**: Toggles the clip launcher automation write enabled state of the transport.
+* **Delete+Automation**: Resets any automation overrides.
+* **Fixed Length**: Select the length of the midi clip for _New_. The upper row gives you the option to create a new clip of the selected length without storing it.
+* **Duplicate**: Combine with a scene pad (duplicate scene) or a track select button (duplicate track). To copy clips in session mode keep the Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip as the source); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
+* **Shift+Duplicate**: Create a new scene from the currently playing clips.
+* **Select+Duplicate**: Creates a new scene at the end of the scene list.
+* **Quantize**: Quantizes the currently selected clip.
+* **Shift+Quantize** (or long press Quantize): Access the Quantize and Groove configuration modes
+* **Double (Loop)**: Duplicate the content of the currently selected clip (not the clip itself)
+* **Undo**: Undoes the last action. Press Shift for Redo.
+* **Delete**: Like pressing the delete key. Hold the button for additional functionality in combination with other buttons knobs, see the mode and view explanations below.
+* **Metronome**: Toggle metronome. Long press to bring up the metronome settings mode which contains volume and pre-roll settings.
+* **Shift+Metronome**: Toggle metronome ticks
+* **Tap Tempo**: Tap Tempo
+* **Knobs 1-8**: Value encoders, [Shift+Knob] fine increment value change.
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
-* **Stop Clip** - Press _Stop Clip_ to stop all playing clips. Keep pressed and press one of the second row buttons to stop the clip on the specific track. Combine with first row buttons to execute the alternative stop function (Bitwig only).
-* **Shift+Stop Clip** - Executes the alternative stop all clips function (Bitwig only).
-* **Footswitch 1** - Sends sustain.
-* **Footswitch 2** - Function can be configured in the settings (see the descriptions of the settings below).
-* **Arrows** The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
-* **Shift+Touchstrip** - Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
-* **Shift+Track** - Turn off/on VU meters.
-* **Browse** - Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
+* **Footswitch 1**: Sends sustain.
+* **Footswitch 2**: Function can be configured in the settings (see the descriptions of the settings below).
+* **Arrows**: The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
+* **Shift+Touchstrip**: Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
+* **Shift+Track**: Turn off/on VU meters.
+* **Browse**: Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
 * **Add Track**: Opens the menu for inserting tracks. Tracks with pre-configured devices can be configured in the settings.
-* **Add Device** (Push 2) / **Add Effect** (Push 1): Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
-* **Shift+Add Device** (Push 2) / **Shift+Add Effect** (Push 1): Add a device before the currently selected one
-* **Shift+User** (Push 1) / **Setup** (Push 2): Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Repeat**: Toggles note repeat. Long press to enter Note Repeat Mode to configure the note repeat settings.
 * **Repeat+Scene**: Changes note repeat period.
 * **Shift+Note Repeat+Scene**: Changes note repeat note length.
 * **Select+Note Repeat**: Toggle Fill Mode.
-* **Accent** - If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
+* **Accent**: If active, velocity is always max in Sequencer and Play modes. Long press Accent to change fixed accent value.
 * **Scale**: De-/Activates the Scale mode.
-* **Layout** (Push 2): Layout button steps through the play or sequencer modes (depending on which type is active). **Shift+Layout** button toggles between play and sequencer modes.
+
+### Push 1 specifics
+
+* **Add Effect**: Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
+* **Shift+Add Effect**: Add a device before the currently selected one.
+* **Shift+User**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
+* **Mute**: Selects track mute state of 2nd row.
+* **Solo**: Selects track solo state of 2nd row.
+* **Stop Clip**: Selects stop clip state of 2nd row. Combine 2nd row button with Shift to execute the alternative stop function (Bitwig only).
+* **Shift+Select+Stop Clip**: Executes the alternative stop all clips function (Bitwig only).
+* **Select+Stop Clip**: Stops all playing clips.
+* **Select+Mute**: Deactivate all mutes.
+* **Select+Solo**: Deactivate all solos.
+* **Small Knob 1**: Change tempo (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop start (combine with *Shift* for small changes).
+* **Small Knob 2**: Move play cursor (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop length (combine with *Shift* for small changes).
+* **Knob 9**: Changes Master Volume.
+* **Select+Knob 9**: Changes the arranger zoom.
+
+### Push 2 specifics
+
+* **Convert**: Brings up the Slice to Drum Machine dialog.
+* **Shift+Convert**: Bring up the Slice to Multi-sample dialog.
+* **Add Device**: Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
+* **Shift+Add Device**: Add a device before the currently selected one.
+* **Setup**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
+* **Layout**: Layout button steps through the play or sequencer modes (depending on which type is active).
+* **Shift+Layout**: Toggles between play and sequencer modes.
+* **Mute**: Mutes the currently selected track. Long press to select mute state with 2nd row buttons. Lock this feature it with **Shift+Mute**.
+* **Solo**: Solos the currently selected track. Long press to select solo state with 2nd row buttons. Lock this feature with **Shift+Solo**.
+* **Stop Clip**: Stops the clip of the currently selected track. Long press to select stop clip state with 2nd row buttons. Lock this feature with **Shift+Stop Clip**. Combine 2nd row button with Shift to execute the alternative stop function (Bitwig only).
+* **Shift+Select+Stop Clip**: Executes the alternative stop all clips function (Bitwig only).
+* **Select+Stop Clip**: Stops all playing clips.
+* **Select+Mute**: Deactivate all mutes.
+* **Select+Solo**: Deactivate all solos.
+* **Small Knob 1**: Change tempo (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop start (combine with *Shift* for small changes).
+* **Small Knob 2**: Move play cursor (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop length (combine with *Shift* for small changes).
+* **Knob 9**: Changes Master Volume.
+* **Select+Knob 9**: Changes the arranger zoom.
+
+### Push 3 specifics
+
+* **File**: Shows the Open dialog.
+* **Save**: Save the project.
+* **Help**: Shows learning resources.
+* **Convert**: Brings up the Slice to Drum Machine dialog.
+* **Shift+Convert**: Bring up the Slice to Multi-sample dialog.
+
+// TODO
+* **Add Device**: Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
+* **Shift+Add Device**: Add a device before the currently selected one.
+
+* **Setup**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
+* **Layout**: Layout button steps through the play or sequencer modes (depending on which type is active).
+* **Shift+Layout**: Toggles between play and sequencer modes.
+* **Mute**: Mutes the currently selected track. Long press to select mute state with 2nd row buttons. Lock this feature it with **Lock+Mute**.
+* **Solo**: Solos the currently selected track. Long press to select solo state with 2nd row buttons. Lock this feature with **Lock+Solo**.
+* **Stop Clip**: Stops the clip of the currently selected track. Long press to select stop clip state with 2nd row buttons. Lock this feature with **Lock+Stop Clip**. Combine 2nd row button with Shift to execute the alternative stop function (Bitwig only).
+* **Shift+Select+Stop Clip**: Executes the alternative stop all clips function (Bitwig only).
+* **Select+Stop Clip**: Stops all playing clips.
+* **Select+Mute**: Deactivate all mutes.
+* **Select+Solo**: Deactivate all solos.
+* **Capture MIDI**: Creates a new scene.
+* **Shift+Capture MIDI**: Creates a new scene from the currently playing launcher clips.
+* **Small Knob**: Change tempo (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop start (combine with *Shift* for small changes). Press to toggle to changing the shuffle amount.
+* **Medium Knob**: Changes Master/Cue Volume. Press to toggle between controlling master volume and cue mix volume.
+* **Select+Medium Knob**: Changes the arranger zoom.
+
+// TODO
+* **Large Knob**: Move play cursor (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop length (combine with *Shift* for small changes).
 
 ## Edit Modes
 
 * Hold Delete and Touch Encoder to reset a value to its default value in all modes.
-* Since the Push 2 is missing the buttons Volume and Pan & Send use the navigation knobs above the display. Since you loose the Mute/Solo buttons for the navigation long press Mute or Solo for the same behavior as with Push 1. You can also lock that functionality by pressing **Shift+Mute** or **Shift+Solo**. Press the same combination to unlock it.
+* Since the Push 2/3 is missing the buttons Volume and Pan & Send use the navigation knobs above the display.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
 * In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer. Furthermore, the note insert/edit MIDI channel can be selected in this mode.
 Selecting an already selected group track toggles its' expanded state if the Shift button is held.
-* Push 2: Hold Shift to access the 4th Send mode.
+* Push 2/3: Hold Shift to access the 4th Send mode.
 
-1. **Volume** - Push 1: Press "Volume" to enter - Push 2: Press "Mix" and "Volume" above the display
+1. **Volume** - Push 1: Press "Volume" to enter - Push 2/3: Press "Mix" and "Volume" above the display
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
     * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combibation with the Delete button to delete a track. Long press a button to leave a track group.
     * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection.
     * Left/Right arrows: Select next/previous track page.
     * Shift+Left/right arrows: Moves the selected track.
 
-2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2: Press "Mix" and "Crossfader" above the display
+2. **Crossfader** - Push 1: Press "Volume" twice to enter - Push 2/3: Press "Mix" and "Crossfader" above the display
     * 8 edit knobs: Change crossfader setting of selected 8 tracks.
     * Buttons behave as above.
   
-3. **Pan & Send** - Push 1: Press "Pan & Send" to enter (press multiple times to switch between the modes) - Push 2: Press "Mix" and "Send X" above the display. The 4th button above the display moves to the next sends page. Combine with Shift to move backwards.
+3. **Pan & Send** - Push 1: Press "Pan & Send" to enter (press multiple times to switch between the modes) - Push 2/3: Press "Mix" and "Send X" above the display. The 4th button above the display moves to the next sends page. Combine with Shift to move backwards.
     * 8 edit knobs: Change pan/send1-6 of selected 8 tracks. Hold **Shift** for fine adjustments.
     * Sends can be dis-/enabled. Keep SHIFT pressed, then additionally SELECT and finally touch a knob which modifies a send.
     * Buttons behave as above.
 
-4. **Track** - Press "Track" (Push 1) or "Mix" (Push 2) to enter (press twice to toggle between normal and effect tracks)
+4. **Track** - Press "Track" (Push 1) or "Mix" (Push 2/3) to enter (press twice to toggle between normal and effect tracks)
     * 8 edit knobs: Change volume/pan/crossfader/Send1-5 of selected track. Hold **Shift** for fine adjustments.
     * Buttons behave as above.
 
@@ -105,8 +157,8 @@ Selecting an already selected group track toggles its' expanded state if the Shi
   
 6. **Device** - Press "Device" to enter
     * Buttons of 1st row select the device or the parameter banks. Use in combibation with the Delete button to delete a device.
-    * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2).
-    * 7th button on 2nd row in device modes displays VST window or pop-out window of specific Bitwig devices (button above display on Push 2).
+    * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2/3).
+    * 7th button on 2nd row in device modes displays VST window or pop-out window of specific Bitwig devices (button above display on Push 2/3).
     * 8th button on 2nd row in device modes moves up to tracks.
     * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
@@ -117,7 +169,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * Press Browse to select a different patch of the device. Hold the Shift button in Preset mode to scroll quickly.
     * Push 1: Use **Select+Volume/Pan/Track** buttons to activate the different layer modes. For Send modes press **Pan** multiple times.
 
-7. **Browse** - Press "Browse" to enter (a device must be selected)
+7. **Browse** - Press "Browse" ("Hot Swap" on Push 3) to enter
     * Edit knob 8: Change the patch
     * Edit knobs 1-7: Change the different filters
     * Tempo knob: Changes the value of the last selected column
@@ -210,7 +262,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
 * Press **Delete+Pad** in Session Mode to the delete the clip.
 
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2 to quickly step through these views. Furthermore, you can select the Marker and Clip mode which display either markers or clips in the display.
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2/3 to quickly step through these views. Furthermore, you can select the Marker and Clip mode which display either markers or clips in the display.
 
 ### Marker mode
 
