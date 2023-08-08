@@ -1,10 +1,12 @@
 # Changes - Bitwig Studio
 
-**21.0.0 (unreleased)**
+**21.0.0**
 
 * Requires Bitwig 5.0+
 * All devices
   * Fixed: Improved feedback of automation modes.
+* Beatstep
+  * New: Clip launcher grid indication is now always enabled (previously only when Session mode was active).
 * Generic Flexi
   * Fixed: Switching project/track remote pages was triggered twice.
 * HUI
@@ -13,6 +15,8 @@
   * New: Control+Jog Wheel - Change loop start (press Shift for fine adjustment).
   * New: Alt+Jog Wheel - Change loop length (press Shift for fine adjustment).
   * Fixed: Clip related function did not work when assigned to F1-F8 buttons.
+* Kontrol MkII
+  * Fixed: Clip launcher grid indication was not enabled.
 * MCU
   * New: Shift+RecArm toggles rec arm state on all tracks of the active bank page.
 * OSC
@@ -23,7 +27,11 @@
   * New: Push 2: Stop Clip can now be locked with Shift+Stop Clip (similar to solo/mute).
   * New: Push 2: Removed unecessary Rec Arm, Solo and Mute from Cue channel.
   * New: Metronome volume has been moved into the metronome settings mode (long press metronome button).
+  * New: Improved session configuration mode. Easier selection of what to show on the display.
+  * New: 'Add Track' mode has now 7 favorites for each track type as well as 7 device favorites.
+  * New: Removed 1st column in browser for the time being until API gets adapted to Bitwig 5 browser.
   * Fixed: Push 1: Master volume graphical representation was not missing line if VU mode was active.
+  * Fixed: Do not notify tempo value when tempo knob is used in browser mode to scroll results.
 
 **20.3.2**
 

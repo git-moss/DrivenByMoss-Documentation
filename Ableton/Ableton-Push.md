@@ -41,7 +41,7 @@ After you have copied the file reboot your computer.
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
 * **Footswitch 1**: Sends sustain.
 * **Footswitch 2**: Function can be configured in the settings (see the descriptions of the settings below).
-* **Arrows**: The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs.
+* **Arrows**: The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs. **Center button** (Push 3 only): Starts the selected scene aith alternate option (Bitwig only).
 * **Shift+Touchstrip**: Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track**: Turn off/on VU meters.
 * **Browse**: Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
@@ -55,7 +55,7 @@ After you have copied the file reboot your computer.
 
 ### Push 1 specifics
 
-* **Add Effect**: Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
+* **Add Effect**: Add a device after the currently selected one.
 * **Shift+Add Effect**: Add a device before the currently selected one.
 * **Shift+User**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Mute**: Selects track mute state of 2nd row.
@@ -74,7 +74,7 @@ After you have copied the file reboot your computer.
 
 * **Convert**: Brings up the Slice to Drum Machine dialog.
 * **Shift+Convert**: Bring up the Slice to Multi-sample dialog.
-* **Add Device**: Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
+* **Add Device**: Add a device after the currently selected one.
 * **Shift+Add Device**: Add a device before the currently selected one.
 * **Setup**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Layout**: Layout button steps through the play or sequencer modes (depending on which type is active).
@@ -98,11 +98,7 @@ After you have copied the file reboot your computer.
 * **Help**: Shows learning resources.
 * **Convert**: Brings up the Slice to Drum Machine dialog.
 * **Shift+Convert**: Bring up the Slice to Multi-sample dialog.
-
-// TODO
-* **Add Device**: Add a device after the currently selected one. Note: You currently cannot insert a new device into an empty slot chain (Bitwig API limitation). If there is at least one device in the chain it works.
-* **Shift+Add Device**: Add a device before the currently selected one.
-
+* **Add Track/Device**: Opens the 'add track/device' menu.
 * **Setup**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Layout**: Layout button steps through the play or sequencer modes (depending on which type is active).
 * **Shift+Layout**: Toggles between play and sequencer modes.
@@ -115,12 +111,11 @@ After you have copied the file reboot your computer.
 * **Select+Solo**: Deactivate all solos.
 * **Capture MIDI**: Creates a new scene.
 * **Shift+Capture MIDI**: Creates a new scene from the currently playing launcher clips.
+* **Show Clip Grid**: Toggle between showing scenes/clips and the mixer when in session mode.
 * **Small Knob**: Change tempo (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop start (combine with *Shift* for small changes). Press to toggle to changing the shuffle amount.
 * **Medium Knob**: Changes Master/Cue Volume. Press to toggle between controlling master volume and cue mix volume.
 * **Select+Medium Knob**: Changes the arranger zoom.
-
-// TODO
-* **Large Knob**: Move play cursor (press _Shift_ for fine adjustment). Press *Select* to change the arrange loop length (combine with *Shift* for small changes).
+* **Large Knob**: Move play cursor (press _Shift_ for fine adjustment). Combine with *Select* to change the arrange loop length (combine with *Shift* for small changes). Pressing it starts/stops playback. Moving it left/right moves the play cursor to the start, start of loop, end of loop and end of project.
 
 ## Edit Modes
 
@@ -180,6 +175,8 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * Use the arrow left and right to switch between the browser tabs
     * **Delete+touch knob**: Resets a filter to its default value
     * Press *Browse* again to Confirm the selection or *Shift+Browse* to Cancel.
+    * **Large Knob** (Push 3 only): Selects the previous/next result or filter item in the selected column. Pushing it works like the *Browse* button on the earlier models. Moving it left/right selects the previous/next filter/result column.
+     **Center Arrow button** (Push 3 only): Toggle between inserting a device before/after the currently selected one.
   
 8. **Master** - Press "Master" to enter
     * 8 edit knobs: Change volume, pan of master track and Cue Volume and Mix. Hold **Shift** for fine adjustments.
@@ -262,7 +259,8 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
 * Press **Delete+Pad** in Session Mode to the delete the clip.
 
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2/3 to quickly step through these views. Furthermore, you can select the Marker and Clip mode which display either markers or clips in the display.
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2/3 to quickly step through these views. Furthermore, you can select the Clip, Marker or Mixer mode which display either clips/scenes, markers or the mixer in the display.
+**Large Knob** (Push 3 only): When clip/scene mode is active it navigates the clip/scenes grid. Turn it to select the previous/next clip/scene. Press it to start the clip/scene. Move it to the left/right to switch tracks/select the previous/next scene.
 
 ### Marker mode
 

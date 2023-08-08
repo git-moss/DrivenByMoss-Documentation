@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**21.0.0 (unreleased)**
+**21.0.0**
 
 * Requires Reaper 6.71+
 * All devices
@@ -21,6 +21,11 @@
 * Push
   * New: Added support for Ableton Push 3.
   * New: Push 2: Removed unecessary Rec Arm, Solo and Mute from Cue channel.
+  * New: Metronome volume has been moved into the metronome settings mode (long press metronome button).
+  * New: Improved session configuration mode. Easier selection of what to show on the display.
+  * New: 'Add Track' mode has now 7 favorites for each track type as well as 7 device favorites.
+  * Fixed: Push 1: Master volume graphical representation was not missing line if VU mode was active.
+  * Fixed: Do not notify tempo value when tempo knob is used in browser mode to scroll results.
 
 **20.3.2**
 
