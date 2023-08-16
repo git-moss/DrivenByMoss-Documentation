@@ -1,5 +1,21 @@
 # Changes - Cockos Reaper
 
+**21.1.0**
+
+* Requires Reaper 6.71+
+* Generic Flexi
+  * New: Clip selection follows now track selection.
+* Launchpad
+  * Fixed: In session mode playing pads were not green and recording pads not red.
+  * Fixed: Pro Mk3: Selected Play/Sequence modes were not restored correctly when switching back from Session.
+* Maschine
+  * Fixed: Do not show play mode notifications on devices with a display.
+* Push
+  * New: Push 1/2: Select+Add Device: Opens the favorites menu on the device page.
+  * Fixed: Push 3: Only activate MPE on Play, Piano, Drum 64 and Drum modes. Also fixed non working button combinations when MPE was active.
+  * Fixed: Push 3: Unsupported MPE pitch bend range is hidden in the configuration mode.
+  * Fixed: MPE settings in configuration were not documented in the manual.
+
 **21.0.0**
 
 * Requires Reaper 6.71+

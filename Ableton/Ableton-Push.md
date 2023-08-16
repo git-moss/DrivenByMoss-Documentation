@@ -57,6 +57,7 @@ After you have copied the file reboot your computer.
 
 * **Add Effect**: Add a device after the currently selected one.
 * **Shift+Add Effect**: Add a device before the currently selected one.
+* **Select+Add Effect**: Opens the favorites menu on the device page.
 * **Shift+User**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Mute**: Selects track mute state of 2nd row.
 * **Solo**: Selects track solo state of 2nd row.
@@ -76,6 +77,7 @@ After you have copied the file reboot your computer.
 * **Shift+Convert**: Bring up the Slice to Multi-sample dialog.
 * **Add Device**: Add a device after the currently selected one.
 * **Shift+Add Device**: Add a device before the currently selected one.
+* **Select+Add Device**: Opens the favorites menu on the device page.
 * **Setup**: Adjust some hardware settings like pad sensitivity. Also configurable in the script settings.
 * **Layout**: Layout button steps through the play or sequencer modes (depending on which type is active).
 * **Shift+Layout**: Toggles between play and sequencer modes.
@@ -408,6 +410,15 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Gain: Adjust the hardware gain of the pads
 * Dynamics: Adjust the hardware dynamics of the pads
 * Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
+
+### Pads (Push 3 only)
+
+* MIDI Polyphonic Expression (MPE): Enable MPE
+* MPE Pitch Bend Sensitivity (Bitwig only): The range of the MPE pitch bend in semitones.
+* Per-Pad Pitchbend: Allows to change the pitch of each pad.
+* In Tune Location: The position at which the pitch bend starts.
+* In Tune Width (mm): The width in millimeter at which the note does not pitch bend.
+* Slide height (mm): The height in millimeter at which the sliding does not start.
 
 ### Browser
 
