@@ -434,6 +434,16 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Reset colors to default: Sets all values to their defualt value
 * Color options: Changes the color of different elements of the display graphics
 
+### Audio Interface (only Push 3)
+
+* Pedal & CV 1: Use the 1st pedal connector either for a foot switch or as 2 CV outputs.
+* Pedal & CV 2: Use the 2nd pedal connector either for a foot switch or as 2 CV outputs.
+* Preamp 1: Preamp setting for the 1st line input.
+* Preamp 2: Preamp setting for the 2nd line input.
+* Gain 1: (Digital) gain setting for the 1st line input.
+* Gain 2: (Digital) gain setting for the 2nd line input.
+* Outputs: Headphone configuration.
+
 ### Debug
 
 These options are only for testing. Ignore them.

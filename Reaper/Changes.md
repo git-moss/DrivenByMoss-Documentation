@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**21.2.0**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: Button combinations on session grid did always execute clip play.
+* Launchkey Mk3
+  * Fixed: Parameter Pages 9-16 could not be accessed.
+* Push 3
+  * New: Added configuration page for audio interface
+
 **21.1.0**
 
 * Requires Reaper 6.71+
