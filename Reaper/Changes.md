@@ -1,5 +1,23 @@
 # Changes - Cockos Reaper
 
+**21.3.0**
+
+* Requires Reaper 6.71+
+* All devices
+  * New: Moved the parameter updates of the primary and EQ plugin on the normal thread (was slower on updates before).
+  * New: Improved resolution of parameter changes with relative knobs. Fixes also the issue that too small speed settings led to no change at all.
+* Auto Color
+  * Fixed: Did crash on startup.
+* Fire
+  * Fixed: Do not toggle the plugin window when the select knob is pressed and turned to transpose the clip by octaves.
+* Generic Flexi
+  * New / Fixed: Added new relative knob mode 'Signed Bit 2'. The previously called knob mode 'Signed Bit' is actually the new 'Signed Bit 2'. IMPORTANT: This is a breaking change, so check all selected relative modes in your configurations!
+  * Fixed: Selecting Send modes 1-8 from the configuration menu did not activate them.
+* Maschine:
+  * New: When switching tracks the previous selected play mode (PAD MODE or KEYBOARD) is recalled.
+* Push
+  * New: Push 2/3: Clip and session modes contain now track names. The mixer layout is changed accordingly for consistency. Reset the colors in the Push settings!
+
 **21.2.0**
 
 * Requires Reaper 6.71+

@@ -174,7 +174,7 @@ Selected notes are lit in dark yellow. Then use the knobs as follow:
 
 Press the **Step** button to activate. The STEP LED is lit orange.
 
-* **Select Knob**: Move the note range up/down.
+* **Select Knob**: Move the note range up/down. Keep it pressed when turning to transpose the clip up or down by octaves.
 * **Grid buttons**: Move to the previous/next page of the clip.
 * **Alt+Grid buttons**: Change the step resolution.
 * **Shift+Grid buttons**: Change the Scale.

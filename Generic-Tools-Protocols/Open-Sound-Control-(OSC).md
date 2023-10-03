@@ -199,7 +199,7 @@ The parameters of the command documentation below are as follows:
 | /device/drumpad/{1-16}/{attribute}       | {value}      | All attributes as above for a drum pad layer.             |
 | /device/drumpad/selected/{attribute}     | {value}      | All attributes as above for the selected drum pad layer.  |
 | /primary/{attribute}                     | {value}      | All attributes as above for the primary device of the channel, except siblings and pinning.  |
-| /eq/{attribute}                          | {value}      | All attributes as above for the equalizer device of the channel, except siblings and pinning.|
+| /eq/{attribute}                          | {value}      | All attributes as above for the equalizer device of the channel, except paramters (see next section instead), siblings and pinning.|
 
 **Additional EQ parameters**
 

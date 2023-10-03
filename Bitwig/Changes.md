@@ -1,5 +1,30 @@
 # Changes - Bitwig Studio
 
+**21.3.0**
+
+* Requires Bitwig 5.0+
+* All devices
+  * Fixed: New clips could only be created on 1st page (slot 1-8).
+* Auto Color
+  * Fixed: Did crash on startup.
+* Fire
+  * Fixed: Do not toggle the plugin window when the select knob is pressed and turned to transpose the clip by octaves.
+* Generic Flexi
+  * New / Fixed: Added new relative knob mode 'Signed Bit 2'. The previously called knob mode 'Signed Bit' is actually the new 'Signed Bit 2'. IMPORTANT: This is a breaking change, so check all selected relative modes in your configurations!
+  * Fixed: Selecting Send modes 1-8 from the configuration menu did not activate them.
+* Kontrol Mk2
+  * Fixed: More stable clip/scene/track navigation with 4D knob.
+* Maschine:
+  * New: When switching tracks the previous selected play mode (PAD MODE or KEYBOARD) is recalled.
+* MCU
+  * Fixed: Removed the no longer working browser filter settings.
+* Push
+  * New: Push 2/3: Clip and session modes contain now track names. The mixer layout is changed accordingly for consistency. Reset the colors in the Push settings!
+  * Fixed: Adapted note pitch transpose to new Bitwig 5 range of -96 to 96 semi-tones (was -24 to 24).
+  * Fixed: Accent parameter in clip mode could not be set.
+  * Fixed: Removed the no longer working browser filter settings.
+  * Fixed: More stable clip/scene/track navigation with large encoder.
+
 **21.2.0**
 
 * Requires Bitwig 5.0+
