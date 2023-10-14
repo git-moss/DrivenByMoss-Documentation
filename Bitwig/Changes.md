@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**21.4.0**
+
+* Requires Bitwig 5.0+
+* Push
+  * New: Support for the Push 3 encoder in Scene display mode.
+  * New: Push 2/3: selected notes in clip note view are now drawn darker.
+  * Fixed: The play position was not drawn correctly in sequencer mode.
+  * Fixed: Push 2/3 - List elements (Scale and Browser mode) were using black text on black background.
+
 **21.3.0**
 
 * Requires Bitwig 5.0+
