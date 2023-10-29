@@ -1,5 +1,15 @@
 # Changes - Bitwig Studio
 
+**21.5.0**
+
+* Requires Bitwig 5.0+
+* Electra One MkI + MkII
+  * Requires Firmware 3.5
+  * New: All knobs are now relative.
+  * New: New page for controlling project and track parameters. Touch knobs 9, 10 and 11 to activate.
+* Generic Flexi
+  * Fixed: Set number of monitored browser results and filter column entries to 1 which speeds up the opening of the browser.
+
 **21.4.0**
 
 * Requires Bitwig 5.0+

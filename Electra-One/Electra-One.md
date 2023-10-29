@@ -1,28 +1,28 @@
 # Electra One
 
-Support script for the Electra One controller.
+Support script for the Electra One Mk I as well as the Mk II controller.
 
 ## Configuration
 
-* Make sure that at least Firmware 3.1 is installed on the device.
+* Make sure that at least Firmware 3.5 is installed on the device.
 * Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra.One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
 * The device should be autodetected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 
 ## Global Features and Page navigation
 
-The DrivenByMoss preset contains 6 pages with different features. Switching pages works like any other Electra One preset. But there is a faster way: touch 3 consecutive knobs to select a page!
+The DrivenByMoss preset contains 7 pages with different features. Switching pages works like any other Electra One preset. But there is a faster way: touch 3 consecutive knobs to select a page!
 
 The following *touch gestures* are implemented (knob numbering starts with 1 on the top row):
 
 * Knobs 1, 2 and 3: selects the Mixer page
 * Knobs 2, 3 and 4: selects the Sends page
 * Knobs 3, 4 and 5: selects the Device page
-* Knobs 3, 4 and 5: selects the Device page
 * Knobs 4, 5 and 6: selects the EQ page
 * Knobs 7, 8 and 9: selects the Transport page
 * Knobs 8, 9 and 10: selects the Session page
-* Knobs 10, 11 and 12: jumps to a specific Electra One synthesizer preset for editing the plugin in focus. The preset must have the exact same name as the plugin! To jump back to the DrivenByMoss preset touch the same knobs! Important: knob touch events are not sent for empty slots (or for hidden elements) in the preset. Therefore, make sure that the slots in the 4th, 5th and 6th columns contain an element to make this feature work.
-* Knobs 1, 2 and 7: emulates the pressing of a 'shift' button. Currently, this allows to fine tune all relative knobs, namely Play Position and Tempo.
+* Knobs 9, 10 and 11: selects the Project/Track parameters page
+* Knobs 10, 11 and 12: jumps to a specific Electra One synthesizer preset for editing the plugin in focus. The preset must have the exact same name as the plugin! To jump back to the DrivenByMoss preset touch the same knobs!
+* Knobs 1, 2 and 7: emulates the pressing of a 'shift' button. Currently, this allows to fine tune all knobs.
 
 The following controls in the 6th column are identical on all pages:
 
@@ -143,6 +143,12 @@ This mode gives access to 5 functions which can be executed on the displayed cli
 * **Duplicate**: Duplicates the selected clip into the next slot.
 * **Quantize**: Quantizes the selected clip.
 * **Stop**: Stops the playback of the clip.
+
+## Project/Track Parameters Page
+
+This provides access to the Project and Track Parameters.
+
+The upper part controls 8 project parameters and the lower part 8 track parameters of the currently selected track. Both provide access to 5 pages of parameters.
 
 ## Preferences Settings
 

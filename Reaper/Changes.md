@@ -1,8 +1,19 @@
 # Changes - Cockos Reaper
 
+**21.5.0**
+
+* Requires Reaper 6.71+
+* Updated Java to 17.0.9+9.
+* Electra One MkI + MkII
+  * Requires Firmware 3.5
+  * New: All knobs are now relative.
+  * New: New page for controlling project and track parameters. Touch knobs 9, 10 and 11 to activate.
+* Generic Flexi
+  * Fixed: Set number of monitored browser results and filter column entries to 1 which speeds up the opening of the browser.
+
 **21.4.0**
 
-* Requires Bitwig 5.0+
+* Requires Reaper 6.71+
 * Push
   * New: Support for the Push 3 encoder in Scene display mode.
   * New: Push 2/3: selected notes in clip note view are now drawn darker.

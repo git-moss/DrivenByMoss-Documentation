@@ -79,7 +79,6 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 * **Alt+Pan knob**: Change the 6th device parameter
 * **Alt+Filter knob**: Change the 7th device parameter
 * **Alt+Resonance knob**: Change the 8th device parameter
-
 * **Alt+Select Knob**: Select the previous/next device.
 * **Shift+Alt+Select Knob**: Select the previous/next parameter page.
 * Press the **Select knob** to toggle the window of the current device.
