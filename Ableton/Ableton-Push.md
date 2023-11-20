@@ -254,7 +254,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 * Hold **Shift** to execute the alternative action of the clip and scene (Bitwig only).
 * Hold **Select** to select a clip or scene without starting it.
 * Hold **Shift+Select** to switch to the birds-eye view. In this mode each pad represents 8x8 clips. Select a pad to quickly jump to that area.
-* The arrow keys scroll the grid. Hold **Shift** to scroll in blocks of 8.
+* The arrow keys up/down scroll the scenes. Hold **Shift** to scroll in blocks of 8.
 * Pressing **Shift+1st row buttons** returns to the arrangement for that track.
 * Press the **Fixed Length** button to choose the length for new clips.
 * Press **Clip** to display the current clip in the editor.

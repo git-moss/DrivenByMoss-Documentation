@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**21.5.1 (unreleased)**
+
+* Requires Bitwig 5.0+
+* Launchpad
+  * Fixed: Project/track remote parameter pages did scroll by 8 instead of 1 page.
+* SL MkIII
+  * Fixed: Parameter text values were not ASCII safe.
+
 **21.5.0**
 
 * Requires Bitwig 5.0+

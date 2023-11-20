@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**21.5.1 (unreleased)**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: Track parameter was empty when it's name was identical to the parameter on the previous track.
+* Launchpad
+  * Fixed: Project/track remote parameter pages did scroll by 8 instead of 1 page.
+* SL MkIII
+  * Fixed: Parameter text values were not ASCII safe.
+
 **21.5.0**
 
 * Requires Reaper 6.71+

@@ -1,6 +1,6 @@
 # ESI Xjam
 
-Support script for the ESI Xjam controller.
+Support for the ESI Xjam controller.
 
 ## Configuration
 

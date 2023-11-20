@@ -136,7 +136,7 @@ The knobs have the following functions:
 
 The pads have the following functions:
 
-* **Pad 1-8**: Sart the scene 1-8
+* **Pad 1-8**: Start the scene 1-8
 * **Pad 9-14**: *Not used*
 * **Pad 15**: Select the previous page of 8 scenes.
 * **Pad 16**: Select the next page of 8 scenes.
