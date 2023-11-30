@@ -3,6 +3,8 @@
 **21.5.1 (unreleased)**
 
 * Requires Bitwig 5.0+
+* All devices
+  * Fixed: Tracks could not be selected on some devices.
 * Launchpad
   * Fixed: Project/track remote parameter pages did scroll by 8 instead of 1 page.
 * SL MkIII

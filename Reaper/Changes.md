@@ -4,6 +4,7 @@
 
 * Requires Reaper 6.71+
 * All devices
+  * Fixed: Tracks could not be selected on some devices.
   * Fixed: Track parameter was empty when it's name was identical to the parameter on the previous track.
 * Launchpad
   * Fixed: Project/track remote parameter pages did scroll by 8 instead of 1 page.

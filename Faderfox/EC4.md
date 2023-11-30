@@ -10,14 +10,14 @@ Send the DrivenByMoss EC4 template (DrivenByMoss.syx) to the device either with 
 
 The Faderfox EC4 was designed for simplicity and has several limitations. Therefore, the idea is not to cram in each and every possible function but instead focus on a clear task. The implementation for the Faderfox EC4 is optimized towards performing, which means it focuses on mixing and device editing. Not on recording, editing or arranger navigation.
 
-Many performancers use prepared projects with 8 tracks (e.g. Drums, Bass, Synths, Vocals, ...) and then perform different scenes and apply effects to them. This implementation supports 12 tracks with 12 scenes as well as editing parameters from the selected device, track parameters and project paramters.
+Many performers use prepared projects with 8 tracks (e.g. Drums, Bass, Synths, Vocals, ...) and then perform different scenes and apply effects to them. This implementation supports 12 tracks with 12 scenes as well as editing parameters from the selected device, track parameters and project paramters.
 
 ## Usage
 
 The implementation uses only the 1st Group of the Setup since switching between groups requires a lot of button presses. Instead modes can be switched in the group itself.
 
 There are 2 main modes, *Track* and *Device* mode (but they contain several sub-modes). Press **knob 14** to toggle between the 2 modes.
-The bottom row of knobs (incl. their buttons) provides the same functionality in both modes:
+The bottom row of knobs (incl. their buttons) provides the same functions in both modes:
 
 * Knob 13: Changes the *Tempo*
 * Knob 14: Changes the *Crossfader*
