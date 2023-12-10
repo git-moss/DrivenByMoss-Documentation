@@ -4,7 +4,7 @@ Support for the Faderfox EC4 controller.
 
 ## Configuration
 
-Send the DrivenByMoss EC4 template (DrivenByMoss.syx) to the device either with the EC4 editor or any MIDI sysex utility. The file is located in the resources folder in the sub-folder Faderfox of the DrivenByMoss download. It can be stored in any of the 16 Setup slots but it needs to be configured in the settings of the extension (default is slot 1). 
+Send the DrivenByMoss EC4 template (*EC4_DrivenByMoss_Setup.syx*) to the device either with the EC4 editor or any MIDI sysex utility. The file is located in the resources folder in the sub-folder Faderfox of the DrivenByMoss download. It can be stored in any of the 16 Setup slots but it needs to be configured in the settings of the extension (default is slot 1). 
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Many performers use prepared projects with 8 tracks (e.g. Drums, Bass, Synths, V
 
 The implementation uses only the 1st Group of the Setup since switching between groups requires a lot of button presses. Instead modes can be switched in the group itself.
 
-There are 2 main modes, *Track* and *Device* mode (but they contain several sub-modes). Press **knob 14** to toggle between the 2 modes.
+There are 2 main modes, namely *Track* and *Device* (but they contain several sub-modes). Press **knob 14** to toggle between the 2 modes.
 The bottom row of knobs (incl. their buttons) provides the same functions in both modes:
 
 * Knob 13: Changes the *Tempo*
@@ -34,7 +34,7 @@ If this mode is active the **buttons 1-12** start the scenes 1-12. This button o
 
 ### Track Mode
 
-This mode controls either the parameters of the selected track or one specific track parameter of all 12 tracks at once (*12-Mode*). Press **button 15** to toggle between the 2 sub-modes.
+This mode controls either the parameters of the selected track or one specific track parameter of 12 tracks at once (*12-Mode*). Press **button 15** to toggle between the 2 sub-modes.
 
 #### Selected Track Sub-Mode
 

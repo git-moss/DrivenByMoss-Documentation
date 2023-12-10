@@ -1,11 +1,19 @@
 # Changes - Cockos Reaper
 
-**21.5.1 (unreleased)**
+**21.5.1**
 
 * Requires Reaper 6.71+
 * All devices
   * Fixed: Tracks could not be selected on some devices.
   * Fixed: Track parameter was empty when it's name was identical to the parameter on the previous track.
+  * Fixed: If a plugin had a space in the filename or in the sub-folder it would not load (e.g. some JS plugins).
+  * Fixed: Plugins which had the company name in parentheses '()' removed did not show up in the results list.
+  * Fixed: Fix for C++ a memory issue (fingers crossed).
+* Electra One
+  * Fixed: Session mode: clip recording could not be started.
+* Generic Flexi
+  * Fixed: 'Device: Reset Parameter 1' command was missing.
+  * Fixed: Could crash if no longer existing command was mapped.
 * Launchpad
   * Fixed: Project/track remote parameter pages did scroll by 8 instead of 1 page.
 * SL MkIII

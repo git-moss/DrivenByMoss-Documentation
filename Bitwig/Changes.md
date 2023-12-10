@@ -1,10 +1,15 @@
 # Changes - Bitwig Studio
 
-**21.5.1 (unreleased)**
+**21.5.1**
 
 * Requires Bitwig 5.0+
 * All devices
   * Fixed: Tracks could not be selected on some devices.
+* Electra One
+  * Fixed: Session mode: clip recording could not be started.
+* Generic Flexi
+  * Fixed: 'Device: Reset Parameter 1' command was missing.
+  * Fixed: Could crash if no longer existing command was mapped.
 * Launchpad
   * Fixed: Project/track remote parameter pages did scroll by 8 instead of 1 page.
 * SL MkIII
