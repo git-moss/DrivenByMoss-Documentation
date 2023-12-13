@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**21.5.2**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: On some Macos systems, Reaper could hang on startup.
+
 **21.5.1**
 
 * Requires Reaper 6.71+
