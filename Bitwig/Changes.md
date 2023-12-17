@@ -1,5 +1,10 @@
 # Changes - Bitwig Studio
 
+**22.0.0 (unreleased)**
+
+* Requires Bitwig 5.0+
+* Added support for Faderfox EC4 (requires Firmware 2.0).
+
 **21.5.1**
 
 * Requires Bitwig 5.0+
