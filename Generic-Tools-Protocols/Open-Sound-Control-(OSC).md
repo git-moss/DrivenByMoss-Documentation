@@ -116,23 +116,24 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/autoMonitor | {0,1}      | Is auto monitoring enabled for the track?                                |
 | /track/{1-8}/crossfadeMode/{A,B,AB} | Crossfade mode set for the track: A = Channel A, B = Channel B, AB = both. |
 | /track/{1-8}/vu        | {0-MAX_VALUE} | The current VU meter output value of the track when played back.        |
-| /track/{1-8}/color                | {color} | The color fo the track.                                            |
+| /track/{1-8}/color                | {color}       | The color fo the track.                                      |
+| /track/{1-8}/recordQuantization   | {OFF, 1/32, 1/16, 1/8, 1/4} | The default record quantization for the MIDI input of the track. This is the global value in Bitwig. |
 | /track/{1-8}/send/{1-8}/activated | {0,1}         | Is the send disabled (=0) or enabled (=1)?                   |
 | /track/{1-8}/send/{1-8}/volume    | {0-MAX_VALUE} | The volume send to the send channel.                         |
 | /track/{1-8}/send/{1-8}/volumeStr | {text}        | The volume send to the send channel formatted as text.       |
 | /track/{1-8}/send/{1-8}/name      | {text}        | The name of the send channel.                                |
 | /track/selected/pinned            | {0,1}         | Is the cursor track pinned? Doesn't follow selection in DAW. |
 | /track/selected/{attribute}       | {value}       | All attributes as above for the currently selected track.    |
-| /track/param/selected/name        | {text}           | The name of the selected parameter.                    |
-| /track/param/{1-8}/exists         | {0,1}            | Does the parameter exist?                              |
-| /track/param/{1-8}/name           | {text}           | The name of the parameter.                             |
-| /track/param/{1-8}/value          | {0-MAX_VALUE}    | The value of the parameter.                            |
-| /track/param/{1-8}/valueStr       | {text}           | The value of the parameter formatted as a text.        |
-| /track/param/{1-8}/modulatedValue | {0-MAX_VALUE}    | The modulated value of the parameter.                  |
-| /track/page/selected/name         | {text}           | The name of the selected parameter page.               |
-| /track/page/{1-8}/exists          | {0,1}            | Does the parameter page exist?                         |
-| /track/page/{1-8}/selected        | {0,1}            | Is the parameter page selected?                        |
-| /track/page/{1-8}/name            | {text}           | The name of the parameter page.                        |
+| /track/param/selected/name        | {text}        | The name of the selected parameter.                          |
+| /track/param/{1-8}/exists         | {0,1}         | Does the parameter exist?                                    |
+| /track/param/{1-8}/name           | {text}        | The name of the parameter.                                   |
+| /track/param/{1-8}/value          | {0-MAX_VALUE} | The value of the parameter.                                  |
+| /track/param/{1-8}/valueStr       | {text}        | The value of the parameter formatted as a text.              |
+| /track/param/{1-8}/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                        |
+| /track/page/selected/name         | {text}        | The name of the selected parameter page.                     |
+| /track/page/{1-8}/exists          | {0,1}         | Does the parameter page exist?                               |
+| /track/page/{1-8}/selected        | {0,1}         | Is the parameter page selected?                              |
+| /track/page/{1-8}/name            | {text}        | The name of the parameter page.                              |
 | /master/{attribute}               | {value}       | All attributes as above for the master track, except sends and track parameters.  |
 
 ### Send - Scenes, Slots and Clips
@@ -155,6 +156,7 @@ The parameters of the command documentation below are as follows:
 | /clip/exists                              | {0,1}    | Does the cursor clip point to an existing clip?            |
 | /clip/color                               | {color}  | The color of the clip the cursor clip is pointing to.      |
 | /clip/pinned                              | {0,1}    | Is the cursor clip pinned? Doesn't follow selection in DAW.|
+| /clip/name                                | {text}   | The name of the cursor clip.                               |
 
 ### Send - Cursor Device / Primary Device / EQ
 
@@ -248,22 +250,23 @@ The parameters of the command documentation below are as follows:
 
 ### Receive - Global
 
-| Command                       | Value         | Comment                                             |
-| :-----------------------------|:--------------|:----------------------------------------------------|
-| /refresh                      |               | Flushes all values to the clients.                  |
-| /undo                         |               | Undoes the last action.                             |
-| /redo                         |               | Redoes the last undone action.                      |
-| /action                       | {1-20}        | Execute one of the configured actions.              |
-| /project/{+,-}                |               | Switch to the next/previous opened project.         |
-| /project/engine               | {0,1,-}       | De-/Activate the audio engine.                      |
-| /project/save                 |               | Save the current project.                           |
-| /project/param/{+,-}          | {0,1,-}       | Select the next/previous parameter page.            |
-| /project/param/{1-8}/value    | {0-MAX_VALUE} | Set the value of the project parameter.             |
-| /project/param/{1-8}/indicate |               | Toggle the edit indication.                         |
-| /project/param/{1-8}/reset    |               | Reset the parameter to its' default value.          |
-| /project/param/{1-8}/touched  |               | Toggle the touched state.                           |
-| /project/page/selected        | {1-8}         | Select a project parameter page.                    |
-| /project/page/{1-8}           |               | Select a project parameter page.                    |
+| Command                        | Value         | Comment                                             |
+| :------------------------------|:--------------|:----------------------------------------------------|
+| /refresh                       |               | Flushes all values to the clients.                  |
+| /undo                          |               | Undoes the last action.                             |
+| /redo                          |               | Redoes the last undone action.                      |
+| /action                        | {1-20}        | Execute one of the configured actions.              |
+| /project/{+,-}                 |               | Switch to the next/previous opened project.         |
+| /project/engine                | {0,1,-}       | De-/Activate the audio engine.                      |
+| /project/save                  |               | Save the current project.                           |
+| /project/param/{+,-}           | {0,1,-}       | Select the next/previous parameter page.            |
+| /project/param/bank/page/{+,-} | {0,1,-}       | Select the next/previous 8 parameter pages.         |
+| /project/param/{1-8}/value     | {0-MAX_VALUE} | Set the value of the project parameter.             |
+| /project/param/{1-8}/indicate  |               | Toggle the edit indication.                         |
+| /project/param/{1-8}/reset     |               | Reset the parameter to its' default value.          |
+| /project/param/{1-8}/touched   |               | Toggle the touched state.                           |
+| /project/page/selected         | {1-8}         | Select a project parameter page.                    |
+| /project/page/{1-8}            |               | Select a project parameter page.                    |
 
 ### Receive - Transport
 
@@ -285,6 +288,7 @@ The parameters of the command documentation below are as follows:
 | /overdub              | {1,-}         | Toggle arranger overdub.                                                 |
 | /overdub/launcher     | {1,-}         | Toggle clip launcher overdub.                                            |
 | /crossfade            | {0-MAX_VALUE} | Sets the crossfader value. 0 is to the left and MAX_VALUE to the right.  |
+| /crossfade/reset      |               | Resets the crossfader to center position.                                |
 | /autowrite            | {1,-}         | Toggle arranger automation write.                                        |
 | /autowrite/launcher   | {1,-}         | Toggle clip laucnher automation write.                                   |
 | /automationWriteMode  | {latch, touch, write} | Set the automation write mode.                                   |
@@ -366,9 +370,11 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/send/{1-8}/volume/touched  | {0,1}         | Turn off/on, toggle the send volume touched state.      |
 | /track/{1-8}/enter           |               | Enter the group, if the track is a group/folder track. Toggles the folder open/closed, if track bank is flat. |
 | /track/{1-8}/color           | {color}       | Set the color of the track.                                        |
-| /track/selected/pinned       | {0,1,-}       | Unpin, pin, toggle pinning of the selected track.                  |
+| /track/{1-8}/recordQuantization | {OFF, 1/32, 1/16, 1/8, 1/4} | Sets the default record quantization for the MIDI input of the track. Sets the global value in Bitwig. |
 | /track/selected/{attribute}  | {value}       | As above.                                                          |
+| /track/selected/pinned       | {0,1,-}       | Unpin, pin, toggle pinning of the selected track.                  |
 | /track/param/{+,-}           | {0,1,-}       | Select the next/previous parameter page.                           |
+| /track/param/bank/page/{+,-} | {0,1,-}       | Select the next/previous 8 parameter pages.                        |
 | /track/param/{1-8}/value     | {0-MAX_VALUE} | Set the value of the track parameter.                              |
 | /track/param/{1-8}/indicate  |               | Toggle the edit indication.                                        |
 | /track/param/{1-8}/reset     |               | Reset the parameter to its' default value.                         |
@@ -379,36 +385,41 @@ The parameters of the command documentation below are as follows:
 
 ### Receive - Scenes, Slots and Clips
 
-| Command                               | Value       | Comment                                        |
-| :----------------                     |:----------- |:---------------                                |
-| /scene/{+,-}                          | {1,-}       | Step by 1.                                     |
-| /scene/bank/{+,-}                     | {1,-}       | Step by 8.                                     |
-| /scene/create                         | {1,-}       | Create a new scene from all playing clips.     |
+| Command                               | Value       | Comment                                           |
+| :------------------------------------ |:----------- |:------------------------------------------------- |
+| /scene/{+,-}                          | {1,-}       | Step by 1.                                        |
+| /scene/bank/{+,-}                     | {1,-}       | Step by 8.                                        |
+| /scene/create                         | {1,-}       | Create a new scene from all playing clips.        |
 | /scene/add                            | {1,-}       | Create a new scene  at the end of the scene list. |
-| /scene/{1-8}/launch                   | {0,1}       | Launches the scene.                            |
-| /scene/{1-8}/launchAlt                | {0,1}       | Alternative launch function of the scene.      |
-| /scene/{1-8}/duplicate                |             | Duplicates the scene.                          |
-| /scene/{1-8}/remove                   |             | Remove/delete the scene.                       |
-| /track/{1-8}/clip/{1-8}/select        |             | Select the clip.                               | 
-| /track/{1-8}/clip/{1-8}/launch        | {0,1}       | Launch the clip (launch = 1, release = 0).     |
+| /scene/{1-8}/select                   | {0,1}       | Selects the scene.                                |
+| /scene/{1-8}/launch                   | {0,1}       | Launches the scene.                               |
+| /scene/{1-8}/launchAlt                | {0,1}       | Alternative launch function of the scene.         |
+| /scene/{1-8}/duplicate                |             | Duplicates the scene.                             |
+| /scene/{1-8}/remove                   |             | Remove/delete the scene.                          |
+| /scene/{1-8}/name                     | {text}      | Set the name of the scene.                        |
+| /scene/{1-8}/color                    | {color}     | Set the color of the scene.                       |
+| /track/{1-8}/clip/{1-8}/select        |             | Select the clip.                                  | 
+| /track/{1-8}/clip/{1-8}/launch        | {0,1}       | Launch the clip (launch = 1, release = 0).        |
 | /track/{1-8}/clip/{1-8}/launchAlt     | {0,1}       | Alternative launch function for the clip (launch = 1, release = 0). |
-| /track/{1-8}/clip/{1-8}/record        |             | Record a clip in the slot.                     |
+| /track/{1-8}/clip/{1-8}/record        |             | Record a clip in the slot.                        |
 | /track/{1-8}/clip/{1-8}/create        | {beats}     | Create new clip, activate overdub and start it. Beats is the length of the clip in quarter notes. |
-| /track/{1-8}/clip/{1-8}/duplicate     |             | Duplicate the clip.                            |
-| /track/{1-8}/clip/{1-8}/remove        |             | Remove/delete the clip.                        |
-| /track/{1-8}/clip/{1-8}/color         | {color}     | Set the color of the clip.                     |
-| /track/{1-8}/clip/stop                |             | Stop the playing clip on the track.            |
-| /track/{1-8}/clip/returntoarrangement |             | Switch playback back to the arrangement.       |
-| /clip/pinned                          | {0,1,-}     | Unpin, pin, toggle pinning of the cursor clip. |
-| /clip/{+,-}                           |             | Select the next/previous slot on the track.    |
+| /track/{1-8}/clip/{1-8}/duplicate     |             | Duplicate the clip.                               |
+| /track/{1-8}/clip/{1-8}/remove        |             | Remove/delete the clip.                           |
+| /track/{1-8}/clip/{1-8}/color         | {color}     | Set the color of the clip.                        |
+| /track/{1-8}/clip/stop                |             | Stop the playing clip on the track.               |
+| /track/{1-8}/clip/returntoarrangement |             | Switch playback back to the arrangement.          |
+| /clip/pinned                          | {0,1,-}     | Unpin, pin, toggle pinning of the cursor clip.    |
+| /clip/{+,-}                           |             | Select the next/previous slot on the track.       |
 | /clip/launch                          | {0,1}       | Launch the cursor clip (launch = 1, release = 0). |
 | /clip/launchAlt                       | {0,1}       | Alternative launch function for the clip (launch = 1, release = 0). |
-| /clip/stop                            |             | Stop the playback of the cursor clip.          |
-| /clip/stopall                         |             | Stop the playback of all playing clips.        |
+| /clip/stop                            |             | Stop the playback of the cursor clip.             |
+| /clip/stopall                         |             | Stop the playback of all playing clips.           |
 | /clip/stopallAlt                      |             | Alternative function to stop the playback of all clips, e.g. not quantized. |
-| /clip/record                          |             | Record a clip in the selected slot.            |
+| /clip/record                          |             | Record a clip in the selected slot.               |
 | /clip/create                          | {beats}     | Create new clip, activate overdub and start it. Beats is the length of the clip in quarter notes. |
-| /clip/quantize                        |             | Quantize the cursor clip.                      |
+| /clip/quantize                        |             | Quantize the cursor clip.                         |
+| /clip/name                            | {text}      | Set the name of the cursor clip.                  |
+| /clip/color                           | {color}     | Set the color of the cursor clip.                 |
 
 ### Receive - Cursor Device / Primary Device / EQ
 

@@ -4,6 +4,26 @@
 
 * Requires Bitwig 5.0+
 * Added support for Faderfox EC4 (requires Firmware 2.0).
+* Electra One
+  * Fixed: Next/previous marker page were flipped.
+  * Fixed: Settings had *Behaviour on stop* instead of *Behaviour on pause*.
+* Komplete Kontrol Mk2
+  * New: Default values for knob speeds are much slower.
+* Maschine Mk3
+  * Fixed: Chord mode did crash when base note which is not part of the selected scale was played.
+* MCU
+  * Fixed: Scrolling upwards in the browser did scroll by 64 steps.
+* OSC
+  * New: Added /scene/{1-8}/select to select a scene.
+  * New: Added /scene/{1-8}/name to set the name of the scene.
+  * New: Added /scene/{1-8}/color to set the color of the scene.
+  * New: Added /clip/name to set the name of the cursor clip.
+  * New: Added /clip/color to set the color of the cursor clip.
+  * New: Added /crossfade/reset to reset the crossfader to center position.
+  * New: Added /track/{1-8}/recordQuantization to get and set the default record quantization for the MIDI input of the track (this is the global value in Bitwig).
+  * New: Added /track/param/bank/page/{+,-} to select the next/previous 8 parameter pages.
+  * New: Added /project/param/bank/page/{+,-} to select the next/previous 8 parameter pages.
+  * Fixed: Prevent unecessary restarts of OSC server.
 
 **21.5.1**
 
