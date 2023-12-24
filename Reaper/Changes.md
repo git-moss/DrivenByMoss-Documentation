@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**22.0.0 (unreleased)**
+**22.0.0**
 
 * Requires Reaper 6.71+
 * All devices
@@ -14,11 +14,17 @@
 * Electra One
   * Fixed: Next/previous marker page were flipped.
   * Fixed: Settings had *Behaviour on stop* instead of *Behaviour on pause*.
+* Generic Flexi
+  * New: Added option to directly route Program Change to DAW.
 * Komplete Kontrol Mk2
   * New: Default values for knob speeds are much slower.
+* Launchkey Mk3
+  * New: Undo+Track button deletes the track.
+  * New: In Session Mode the 'Stop Solo Mute' menu allows to set the New Clip Length with the buttons on the 1st row.
 * Maschine Mk3
   * Fixed: Chord mode did crash when base note which is not part of the selected scale was played.
 * MCU
+  * New: The function keys F6-F8 can be now configured as well. Punch In/Out and Device on/off can now be selected from the list as well and are set as the default for F6-F8.
   * Fixed: Scrolling upwards in the browser did scroll by 64 steps.
 * OSC
   * New: Added /scene/{1-8}/select to select a scene.

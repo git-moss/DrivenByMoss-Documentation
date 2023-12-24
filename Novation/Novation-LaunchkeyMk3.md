@@ -19,9 +19,9 @@ Support for the Novation Launchkey Mk3 controller models 25, 37, 49, 61 and 88.
 * **Shift+Click** - Tap Tempo.
 * **Undo** - Undoes the last action.
 * **Shift+Undo** - Executes the last undone action.
-* **Shift + Play** switches playback back to arranger on all tracks.
-* **Play + Pad** switches playback back to arranger on the track which contains the clip.
-* **Stop** - Stops playback. If stopped moves the play cursor to start of song.
+* **Play** - Start or pause the playback.
+* **Shift + Play** - Switches playback back to arranger on all tracks.
+* **Stop** - Stops playback. If already stopped it moves the play cursor to the start of the song.
 * **Shift+Stop** - Stops all playing clips.
 * **Record** - Start/Stop recording. Can be changed in the settings.
 * **Shift+Record** - Toggle launcher overdub. Can be changed in the settings.
@@ -89,11 +89,12 @@ The 4 custom modes can be configured with the Novation Components application an
 
 #### Session Mode
 
-The Session mode is quite complex since it provides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Stop/Solo/Mute - Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode.
+The Session mode is quite complex since it provides several sub-modes for controlling solo, mute, record arm, etc. Long press the SSM (Stop/Solo/Mute - Scene 2) button to switch between the sub-modes or turn them off. The SSM button is also lit in the color of the selected sub-mode. The first row button allows to set the New Clip Length.
 
 * The pads start playback or recording of the respective clip.
 * The Scene and SSM buttons start the first and second scene in the selected scene window.
 * Use Scene up/down buttons to move the clip/scene window.
+* Press **Repeat** + Pad In Session Mode to trigger the alternative launch of the clip (Bitwig only).
 * Press **Stop** + Pad In Session Mode to stop the clip.
 * Press **Play** + Pad In Session Mode to stop the clip immediately.
 * Press **Undo** + Pad In Session Mode to delete the clip.
@@ -134,7 +135,7 @@ Note: There is a little bug in Launchkey, which causes the **...** button to be 
 
 The faders control the values selected by their mode: Device parameters, volume, send 1/2 and the 4 custom modes.
 The master fader always controls the volume of the master track.
-The buttons below the faders selects or arms record of a track depending on the Arm/Select button state. Selecting an already selected group track toggles its' expanded state.
+The buttons below the faders selects or arms record of a track depending on the Arm/Select button state. Selecting an already selected group track toggles its' expanded state. Keep the **Undo** button pressed and press one of the buttons to delete the track.
 
 ## Preferences Settings
 

@@ -44,8 +44,6 @@ F1 will now select the previous page, and F2 the next.
 * **Shift (MCU SHIFT)+Play** - Toggle repeat
 * **Option (MCU OPTION)+Play** - Toggle Punch In
 * **Option+Shift+Play** - Toggle Punch Out
-* **Punch in** (MCU F6) - Toggle punch in
-* **Punch out** (MCU F7) - Toggle punch in
 * **Record** (MCU RECORD) - Start/Stop recording
 * **Shift+Record** - Toggle launcher overdub
 * **Option+Record** - Creates a new clip on the selected track and slot, starts play and enables overdub.
@@ -80,8 +78,7 @@ F1 will now select the previous page, and F2 the next.
 
 * **Shift** (MCU SHIFT) - Use in combination with other buttons for additional functions.
 * **Option** (MCU OPTION) - Use in combination with other buttons for additional functions.
-* **F1-F5** (MCU F1-F5) - Functions for these buttons can be assigned in the settings dialog.
-* **Device On/Off** (MCU F8) - Toggle device on/off
+* **F1-F8** (MCU F1-F8) - Functions for these buttons can be assigned in the settings dialog.
 * **Undo** (MCU UNDO) - Undos the last action
 * **Shift+Undo** - Redos the last undone action
 
