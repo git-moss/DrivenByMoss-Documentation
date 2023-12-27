@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**22.0.1 (unreleased)**
+
+* Requires Bitwig 5.0+
+* Arturia Beatstep
+  * Fixed: Knobs were totally broken. Additionally, prevented some weird parameter jumps.
+
 **22.0.0**
 
 * Requires Bitwig 5.0+

@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**22.0.1 (unreleased)**
+
+* Requires Reaper 6.71+
+* Arturia Beatstep
+  * Fixed: Knobs were totally broken. Additionally, prevented some weird parameter jumps.
+
 **22.0.0**
 
 * Requires Reaper 6.71+
