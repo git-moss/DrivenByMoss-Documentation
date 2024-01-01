@@ -120,23 +120,13 @@ Use the Shift button in combination with one of the Scene buttons to select the 
 the dedicated button row on the Pro models. The modes which trigger something (stop clip, mute, solo and rec arm) send you to the Session mode. The lowest row of the session mode will now be replaced with the according track states of the select mode (e.g. you see the mute-state of the current track page):
 
 * **Record Arm** (red) - The 8 buttons of the bottom row of the grid allow to toggle record arm of the currently focused 8 tracks of the track bank.
-* **Track Select** (green) - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks 
-  of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. 
-  Furthermore, the front LED is also lit in the color of the current track. Selecting an already selected group track toggles its' expanded state.
-* **Mute** (yellow) - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the 
-  track bank.
-* **Solo** (blue) - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of 
-  the track bank.
-* **Volume** - Each column of the grid controls the Volume of the currently focused 8 tracks of the track bank. Hit 
-  buttons harder for faster change. The color of a fader is the same as the color of the track. Use the scene buttons 
-  for master volume.
-* **Pan** - Each column of the grid controls the Panorama of the currently focused 8 tracks of the track bank. Hit 
-  buttons harder for faster change. The color of a fader is the same as the color of the track.
-* **Sends** - Each column of the grid controls the Send of the currently focused 8 tracks of the track bank. Hit 
-  buttons harder for faster change. The color of a fader is the same as the color of the track. Use the Scene buttons 
-  to select the Sends 1 to 8.
-* **Stop Clip** - The 8 buttons of the bottom row of the grid allow to stop the playing clip of the track of the 
-  currently focused 8 tracks of the track bank. Use in combination with the Shift button to trigger the alternative Stop function (Bitwig only).
+* **Track Select** (green) - The 8 buttons of the bottom row of the grid allow to select one of the currently focused 8 tracks of the track bank. The currently selected track is indicated on the first row (round) buttons by a brighter white. Furthermore, the front LED is also lit in the color of the current track. Selecting an already selected group track toggles its' expanded state.
+* **Mute** (yellow) - The 8 buttons of the bottom row of the grid allow to toggle Mute of the currently focused 8 tracks of the track bank.
+* **Solo** (blue) - The 8 buttons of the bottom row of the grid allow to toggle Solo of the currently focused 8 tracks of the track bank.
+* **Volume** - Each column of the grid controls the Volume of the currently focused 8 tracks of the track bank. Hit buttons harder for faster change. The color of a fader is the same as the color of the track. Use the scene buttons for master volume.
+* **Pan** - Each column of the grid controls the Panorama of the currently focused 8 tracks of the track bank. Hit buttons harder for faster change. The color of a fader is the same as the color of the track.
+* **Sends** - Each column of the grid controls the Send of the currently focused 8 tracks of the track bank. Hit buttons harder for faster change. The color of a fader is the same as the color of the track. Use the Scene buttons to select the Sends 1 to 8.
+* **Stop Clip** - The 8 buttons of the bottom row of the grid allow to stop the playing clip of the track of the currently focused 8 tracks of the track bank. Use in combination with the Shift button to trigger the alternative Stop function (Bitwig only).
 
 ### Shifted functions on the Pro models
 

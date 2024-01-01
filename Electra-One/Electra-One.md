@@ -12,7 +12,8 @@ Support script for the Electra One Mk I as well as the Mk II controller.
 
 The DrivenByMoss preset contains 7 pages with different features. Switching pages works like any other Electra One preset. But there is a faster way: touch 3 consecutive knobs to select a page!
 
-The following *touch gestures* are implemented (knob numbering starts with 1 on the top row):
+The knobs to use can be configured in the settings (or turned off completely).
+The following *touch gestures* are configured by default (knob numbering starts with 1 on the top row):
 
 * Knobs 1, 2 and 3: selects the Mixer page
 * Knobs 2, 3 and 4: selects the Sends page
@@ -22,7 +23,7 @@ The following *touch gestures* are implemented (knob numbering starts with 1 on 
 * Knobs 8, 9 and 10: selects the Session page
 * Knobs 9, 10 and 11: selects the Project/Track parameters page
 * Knobs 10, 11 and 12: jumps to a specific Electra One synthesizer preset for editing the plugin in focus. The preset must have the exact same name as the plugin! To jump back to the DrivenByMoss preset touch the same knobs!
-* Knobs 1, 2 and 7: emulates the pressing of a 'shift' button. Currently, this allows to fine tune all knobs.
+* Knobs 1, 2, 7 or 5, 6, 12: emulates the pressing of a 'shift' button. Currently, this allows to fine tune all knobs.
 
 The following controls in the 6th column are identical on all pages:
 
@@ -164,8 +165,15 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
+* Knob Sensitivity Normal: Adjust the speed of the knobs
+* Knob Sensitivity Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
+
+## Assignable button touches
+
+These allow to configure the execution specific functions and actions when touching 3 knobs.
+If *Action* is selected as the function, select the respective action from the related action field.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

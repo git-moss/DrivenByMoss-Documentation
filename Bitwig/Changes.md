@@ -1,10 +1,15 @@
 # Changes - Bitwig Studio
 
-**22.0.1 (unreleased)**
+**22.1.0**
 
 * Requires Bitwig 5.0+
+* APC40
+  * Fixed: In drum sequencer the first 4 pads of the 2nd step row played sounds.
 * Arturia Beatstep
   * Fixed: Knobs were totally broken. Additionally, prevented some weird parameter jumps.
+* Electra One
+  * New: Added knob sensitivity (speed) settings.
+  * New: Made knob touch combinations configurable with plenty of options.
 
 **22.0.0**
 
