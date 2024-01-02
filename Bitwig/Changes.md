@@ -1,5 +1,16 @@
 # Changes - Bitwig Studio
 
+**22.2.0 (unreleased)**
+
+* Requires Bitwig 5.0+
+* All devices
+  * Fixed: The range of the gain note parameter seems to have changed. Adapted now.
+* Launchpad
+  * New: The selected note for editing is automatically cleared when the note edit mode is closed.
+* Push
+  * New: By long pressing an edited note in the sequencers it can be deselected. If no more notes are selected the previous mode is restored.
+  * New: Push 3: In MIDI clip mode, turning the encoder selects the previous/next note for editing. Moving it left/right selects the previous/next clip page.
+
 **22.1.0**
 
 * Requires Bitwig 5.0+

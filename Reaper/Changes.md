@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**22.2.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: MIDI channel was not handled correctly for sequencer notes.
+* Launchpad
+  * New: The selected note for editing is automatically cleared when the note edit mode is closed.
+* Push
+  * New: By long pressing an edited note in the sequencers it can be deselected. If no more notes are selected the previous mode is restored.
+  * New: Push 3: In MIDI clip mode, turning the encoder selects the previous/next note for editing. Moving it left/right selects the previous/next clip page.
+
 **22.1.0**
 
 * Requires Reaper 6.71+
