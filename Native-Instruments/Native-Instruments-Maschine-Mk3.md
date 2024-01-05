@@ -65,8 +65,8 @@ The Maschine Studio provides some additional buttons and features:
 * **Shift+NUDGE** - Transpose the selected MIDI clip an octave down.
 * **UNDO** - Undo.
 * **REDO** - Redo.
-* **QUANTIZE** - Quantizes the selected MIDI clip 100%.
-* **Shift+QUANTIZE** - Quantizes the selected MIDI clip 50%.
+* **QUANTIZE** - Quantize the selected MIDI clip 100%.
+* **Shift+QUANTIZE** - Quantize the selected MIDI clip 50%.
 * **CLEAR** - Deletes all MIDI notes from the selected MIDI clip.
 
 **Metering Section**
@@ -74,10 +74,8 @@ The Maschine Studio provides some additional buttons and features:
 The level meter displays the VU of the master track except when GRP is selected then the VU of the selected track is displayed.
 
 Since the LED strips do always display the value of the knob when turned, the VU cannot be used together with the knob.
-Therefore, there are two modes: *VU mode*, in which the knob is deactivated and the *parameter mode* where the knob is active and 
-the LED strips display the value of the selected parameter. The IN3 button toggles between the 2 modes.
-Another limitation of the MIDI mode is that even if there are 2 LED strips, you can only address them as one strip and both show 
-the same value.
+Therefore, there are two modes: *VU mode*, in which the knob is deactivated and the *parameter mode* where the knob is active and the LED strips display the value of the selected parameter. The IN3 button toggles between the 2 modes.
+Another limitation of the MIDI mode is that even if there are 2 LED strips, you can only address them as one strip and both show the same value.
 
 The parameter controlled by the encoder knob is set with the 8 buttons above it:
 
@@ -123,7 +121,7 @@ Use the encoder in combination with **SHIFT** for slower changes.
 * **Shift+REC** - Different functions can be selected in the settings (see below).
 * **STOP** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song.
 * **RESTART/LOOP** - Toggle transport loop
-* **ERASE** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
+* **ERASE** - Use in combination with a pad to delete a scene, clip or track depending on the selected mode.
 * **ERASE+touch encoder knob** - Reset the currently edited value to its' default.
 * **TAP** - Tap Tempo
 * **Shift+TAP** - Toggle metronome
@@ -233,8 +231,8 @@ The Touchstrip behaves based on the following modes.
 ## Pad Modes
 
 * **FIXED VEL** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
-* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page. Combine with Select button to select the scene without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep SCENE pressed an press any of the pads to stop all currently playing clips. Combine with SHIFT to execute the alternative stop function (Bitwig only).
-* **PATTERN** (clip mode) - Press a pad to start one of 16 clips of the current bank page on the selected track. Combine with Select button to select the clip without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep PATTERN pressed an press any of the pads to stop the active clips playback. Combine with SHIFT to execute the alternative stop function (Bitwig only).
+* **SCENE** - Press a pad to start one of the 16 scenes of the current bank page. Combine with Select button to select the scene without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep SCENE pressed and press any of the pads to stop all currently playing clips. Combine with SHIFT to execute the alternative stop function (Bitwig only).
+* **PATTERN** (clip mode) - Press a pad to start one of 16 clips of the current bank page on the selected track. Combine with Select button to select the clip without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep PATTERN pressed and press any of the pads to stop the active clips playback. Combine with SHIFT to execute the alternative stop function (Bitwig only).
 * **VARIATION** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **DUPLICATE** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
 * **SELECT** - Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
@@ -250,7 +248,7 @@ Press *Pad Mode* to activate. Press again to toggle to the configuration page. O
 * Enable the step sequencer by pressing **Step**. The pads represent 16 steps of the currently selected drum cell. Combine with the Select button to select the drum without playing it.
 * Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
 * To edit a note in the step sequencer press **Events**. In this mode, press one or more pads which contain notes to select them for editing. Use the display knobs to edit the parameters of the selected note(s). Use **Encoder up/down** to select more parameter pages. The selected note is lit in yellow.
-* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
+* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in gray.
 
 ### Play Mode
 
@@ -267,8 +265,8 @@ Keep the *Shift* button pressed to activate.
 
 * **Shift+Pad 1 (Undo)** - Undo.
 * **Shift+Pad 2 (Redo)** - Redo.
-* **Shift+Pad 5 (Quantize)** - Quantizes the selected MIDI clip 100%.
-* **Shift+Pad 6 (QUANTIZE 50%)** - Quantizes the selected MIDI clip 50%.
+* **Shift+Pad 5 (Quantize)** - Quantize the selected MIDI clip 100%.
+* **Shift+Pad 6 (QUANTIZE 50%)** - Quantize the selected MIDI clip 50%.
 * **Shift+Pad 9 (CLEAR)** - Deletes all MIDI notes from the selected MIDI clip.
 * **Shift+Pad 13 (SEMITONE -)** - Transpose the selected MIDI clip a semitone down.
 * **Shift+Pad 14 (SEMITONE +)** - Transpose the selected MIDI clip a semitone up.
@@ -289,7 +287,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Ribbon Mode: Select the function of the ribbon strip.
 
 ### Session
@@ -299,10 +297,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
-* Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
-* Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
+* Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up.
+* Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up.
 * Footswitch settings: The Maschine models Mk3 and Plus support 2 and the Studio 4 footswitches. Since there is only 1 (or 2 on Studio) stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down list. The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the Macro button) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
 
 ### Pads
@@ -315,18 +313,18 @@ These settings are specific to each project.
 
 ### Scales
 
-* Scale: Select the scale
-* Base: Select the base note of the scale
+* Scale: Select the scale.
+* Base: Select the base note of the scale.
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.
 * Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
 
 ### Note Repeat
 
-* Active: Enable note repeat
-* Period: The repeat rate of the note repeat
-* Length: The length of a repeated note
-* Mode: The arpeggiator mode
-* Octave: The octave range which is used by the arpeggiator
+* Active: Enable note repeat.
+* Period: The repeat rate of the note repeat.
+* Length: The length of a repeated note.
+* Mode: The arpeggiator mode.
+* Octave: The octave range which is used by the arpeggiator.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

@@ -5,8 +5,8 @@ Support script for the Electra One Mk I as well as the Mk II controller.
 ## Configuration
 
 * Make sure that at least Firmware 3.5 is installed on the device.
-* Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra.One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
-* The device should be autodetected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
+* Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
+* The device should be auto detected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 
 ## Global Features and Page navigation
 
@@ -42,14 +42,14 @@ Each track has several parameters, from top to bottom they are:
 2. **PAN**: Changes the panorama of the track.
 3. **REC ARM**: Changes the volume of the track.
 4. **MUTE**: Un-/mutes the track.
-5. **SOLO**: Un-/soloes the track.
+5. **SOLO**: Un-/solos the track.
 6. **SELECT**: Selects the track.
 
-The volume and panorama is colored in the color of the track. Since the Electra.One does currently not support full RGB the closest color is used. Above the volume the position and name of the track is displayed.
+The volume and panorama is colored in the color of the track. Since the Electra One does currently not support full RGB the closest color is used. Above the volume the position and name of the track is displayed.
 
 ## Sends Page
 
-The Sends page is similar to the Mixer page but provdes access to the volume of 6 sends (if they exist).
+The Sends page is similar to the Mixer page but provides access to the volume of 6 sends (if they exist).
 All Send volumes are colored in the color of the track.
 
 ## Devices Page
@@ -59,7 +59,7 @@ Buttons addressing the selected device are:
 
 * **ON**: Toggles the device on/off.
 * **WINDOW**: Open or close the window of the device (if it has one).
-* **PIN**: Un-/pins the selected device as well as the track which contains the device. Selecting different tracks and/or devices in the DAW or with another controller will not change the selection of the device on the Electra.One.
+* **PIN**: Un-/pins the selected device as well as the track which contains the device. Selecting different tracks and/or devices in the DAW or with another controller will not change the selection of the device on the Electra One.
 * **EXPAND**: Expands the user interface of the device.
 
 The other elements are:
@@ -78,7 +78,7 @@ The parameters of each band are (from left to right):
 * **TYPE**: Select the type of the band, e.g. a low pass, bell or high pass.
 * **FREQUENCY**: Set the frequency of the band.
 * **GAIN**: Set the gain to de-/increase the frequency of the band.
-* **Q**: Set the Q factor of the the band.
+* **Q**: Set the Q factor of the band.
 
 ## Transport Page
 
@@ -88,7 +88,7 @@ The Transport page gives more options for transport control but as well addition
 
 * **NEW**: Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **RECORD**: Start recording of a clip in the currently selected slot.
-* **QUANTIZE**: Quantizes the selected clip.
+* **QUANTIZE**: Quantize the selected clip.
 * **OVERDUB**: Toggles clip overdub.
 
 ### AUTOMATION area
@@ -142,7 +142,7 @@ This mode gives access to 5 functions which can be executed on the displayed cli
 * **New**: Creates a new MIDI clip in the selected empty slot. The length of the clip can be configured in the settings.
 * **Delete**: Deletes the clip from the selected slot.
 * **Duplicate**: Duplicates the selected clip into the next slot.
-* **Quantize**: Quantizes the selected clip.
+* **Quantize**: Quantize the selected clip.
 * **Stop**: Stops the playback of the clip.
 
 ## Project/Track Parameters Page
@@ -157,7 +157,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Hardware Setup
 
-* Enable Electra.One logging: If enabled the device is instructed to send logging messages which are written to the console. This is only for debugging and has a performance impact. Therefore, keep it off.
+* Enable Electra One logging: If enabled the device is instructed to send logging messages which are written to the console. This is only for debugging and has a performance impact. Therefore, keep it off.
 
 ### Transport
 
@@ -167,7 +167,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Knob Sensitivity Normal: Adjust the speed of the knobs
 * Knob Sensitivity Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 
 ## Assignable button touches

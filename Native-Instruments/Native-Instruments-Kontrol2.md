@@ -63,7 +63,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Knob Speed Normal: Adjust the speed of the knobs
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments

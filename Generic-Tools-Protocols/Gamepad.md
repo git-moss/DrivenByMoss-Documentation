@@ -1,6 +1,6 @@
 # Gamepad
 
-Supports several Gamepad controllers, e.g. from XBox.
+Supports several Gamepad controllers, e.g. from Xbox.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Make sure your gamepad is connected before starting the DAW. If not, press the R
 
 ## Configuration
 
-The settings show several controls of the gamepad. A control is either a button or an axis (normally a joystick moved horizontally or vertically). For each of these controls a function can be selected to be executed. Some functions are marked to be only available for buttons or axis controls. For controls not present on the selected controller the selection list is greyed out.
+The settings show several controls of the gamepad. A control is either a button or an axis (normally a joystick moved horizontally or vertically). For each of these controls a function can be selected to be executed. Some functions are marked to be only available for buttons or axis controls. For controls not present on the selected controller the selection list is grayed out.
 
 For each axis which has a CC message set as the function the range can be configured:
 

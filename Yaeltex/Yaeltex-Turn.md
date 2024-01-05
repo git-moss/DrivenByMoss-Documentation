@@ -5,8 +5,7 @@ Support script for the Yaeltex Turn controller.
 ## Installation
 
 To use the extension the included template (called a *Bank*) needs to be installed on the Yaeltex Turn.
-To do so, open the Kilowhat editor and when prompted choose to load from a file. Select the file TURN.ytx
-from the Yaeltex folder in the resources folder coming with DrivenByMoss. After that, press the button *Send to Device*.
+To do so, open the Kilowhat editor and when prompted choose to load from a file. Select the file TURN.ytx from the Yaeltex folder in the resources folder coming with DrivenByMoss. After that, press the button *Send to Device*.
 
 ## Modifier Keys
 
@@ -191,8 +190,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button.
 
 ### Session
 
@@ -202,11 +201,11 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Play and Sequence
 
-* MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers
+* MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 
 ## Document Settings
@@ -215,17 +214,17 @@ These settings are specific to each project.
 
 ### Scales
 
-* Scale: Select the scale
-* Base: Select the base note of the scale
+* Scale: Select the scale.
+* Base: Select the base note of the scale.
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.
 
 ### Note Repeat
 
-* Active: Enable note repeat
-* Period: The repeat rate of the note repeat
-* Length: The length of a repeated note
-* Mode: The arpeggiator mode
-* Octave: The octave range which is used by the arpeggiator
+* Active: Enable note repeat.
+* Period: The repeat rate of the note repeat.
+* Length: The length of a repeated note.
+* Mode: The arpeggiator mode.
+* Octave: The octave range which is used by the arpeggiator.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

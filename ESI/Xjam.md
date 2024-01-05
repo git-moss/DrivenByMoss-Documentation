@@ -6,8 +6,8 @@ Support for the ESI Xjam controller.
 
 * Send the DrivenByMoss Xjam preset (DrivenByMoss.xjam) to the device which is located in the resources folder in the sub-folder ESI with the Xjam editor. It can be stored in any Scene you prefer but it must be selected when running **DrivenByMoss**.
 * To have different note setups create a duplicate of this template but only make changes to the first PAD BANK! Then store it to a different scene. You can assign anything to the pads in this mode but stay away from MIDI channel 16 which is used by this extension.
-* The Xjam device should be autodetected. If you need to add it manually, select the Xjam ports as MIDI in-/output. Note that Bitwig already comes with an implementation for the Xjam, therefore make sure that you select the DrivenByMoss version.
-* The knobs are endless encoders but act like absolute encoders! Therefore, set Taveover mode in Bitwig to e.g. *Relative scaling*.
+* The Xjam device should be auto detected. If you need to add it manually, select the Xjam ports as MIDI in-/output. Note that Bitwig already comes with an implementation for the Xjam, therefore make sure that you select the DrivenByMoss version.
+* The knobs are endless encoders but act like absolute encoders! Therefore, set Takeover mode in Bitwig to e.g. *Relative scaling*.
 * To make the REPEAT function of the pads work in sync with the Bitwig tempo make sure that the Clock is set to *External* on the *Repeat* page in the Xjam editor. Then enable that the MIDI clock is sent to the Xjam on the *Synchronization* page in the Bitwig settings.
 
 ## General concept
@@ -27,7 +27,7 @@ This first mode (CTRL BANK LED is lit green) controls the selected track. The kn
 
 ### Knob Mode 2 - Device Parameters
 
-This second mode (CTRL BANK LED is lit orange) controls 8 parameters of the selected parameter page of the selected device. Since there are not 8 knobs, the paramters can be toggled between controlling parameters 1-4 and 5-8 in Pad Mode 3.
+This second mode (CTRL BANK LED is lit orange) controls 8 parameters of the selected parameter page of the selected device. Since there are not 8 knobs, the parameters can be toggled between controlling parameters 1-4 and 5-8 in Pad Mode 3.
 
 The knobs have the following functions from top/left:
 
@@ -88,7 +88,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 
 * New clip length: The length of a clip created with the New function.
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * Footswitch: Select the function to be executed when a connected foot switch is pressed.
 
 <div style="page-break-after: always; visibility: hidden"> 

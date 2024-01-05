@@ -48,8 +48,8 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Control** (HUI CONTROL) - Use in combination with other buttons for additional functions.
 * **Alt** (HUI ALT) - Use in combination with other buttons for additional functions.
 * **F1-F8** (HUI F1-F8) - Functions for these buttons can be assigned in the settings dialog.
-* **Undo** (HUI UNDO) - Undos the last action
-* **Shift+Undo** - Redos the last undone action
+* **Undo** (HUI UNDO) - Undoes the last action
+* **Shift+Undo** - Redoes the last undone action
 
 ### Assignment
 
@@ -116,7 +116,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Hardware Setup
 
-* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the acoording entry from the list.
+* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the according entry from the list.
 * Has a display: Enable if the HUI compatible controller has a display.
 * Has a position/tempo: Enable if the HUI compatible controller has an additional position display.
 * Has motor faders: Enable if the HUI compatible controller has motor faders.
@@ -139,7 +139,7 @@ The available functions should be self-explanatory, except:
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * Zoom: If enabled, cursor keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.
 * New clip length: The length of a clip created with the New function.

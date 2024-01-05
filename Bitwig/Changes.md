@@ -9,6 +9,11 @@
   * New: The selected note for editing is automatically cleared when the note edit mode is closed.
 * Push
   * New: By long pressing an edited note in the sequencers it can be deselected. If no more notes are selected the previous mode is restored.
+  * New: Opening the track/layers detail mode is now only triggered on button up and if the select button was not used to e.g. select a drum sound.
+  * New: The Scenes/Clips and Markers modes stay now active when the session view is left.
+  * New: Tracks can now be optionally navigated 'flat' (instead of 'hierarchical').
+  * New: Added option to include the master track in the track list. This allows to have access to the clips on the master track.
+  * New: Push 3: The button in the upper right switches now between the Session/Clips and Marker mode.
   * New: Push 3: In MIDI clip mode, turning the encoder selects the previous/next note for editing. Moving it left/right selects the previous/next clip page.
 
 **22.1.0**
@@ -52,7 +57,7 @@
   * New: Added /track/{1-8}/recordQuantization to get and set the default record quantization for the MIDI input of the track (this is the global value in Bitwig).
   * New: Added /track/param/bank/page/{+,-} to select the next/previous 8 parameter pages.
   * New: Added /project/param/bank/page/{+,-} to select the next/previous 8 parameter pages.
-  * Fixed: Prevent unecessary restarts of OSC server.
+  * Fixed: Prevent unnecessary restarts of OSC server.
 
 **21.5.1**
 
@@ -165,7 +170,7 @@
   * New: Added support for Ableton Push 3.
   * New: Push 1: Pressing the Stop Clip button allows now to stop clips with the 8 2nd row buttons (similar to solo/mute). Combine 2nd row button with Shift for alternate stop action. Stopping all clips is now Select+Stop clip.
   * New: Push 2: Stop Clip can now be locked with Shift+Stop Clip (similar to solo/mute).
-  * New: Push 2: Removed unecessary Rec Arm, Solo and Mute from Cue channel.
+  * New: Push 2: Removed unnecessary Rec Arm, Solo and Mute from Cue channel.
   * New: Metronome volume has been moved into the metronome settings mode (long press metronome button).
   * New: Improved session configuration mode. Easier selection of what to show on the display.
   * New: 'Add Track' mode has now 7 favorites for each track type as well as 7 device favorites.
@@ -197,7 +202,7 @@
 * OSC
   * Fixed: The Open Stage Control template did still send /user commands for touch events.
 * Push
-  * Fixed: Removed unecessary pad mode notifications on track selection.
+  * Fixed: Removed unnecessary pad mode notifications on track selection.
 
 **20.3.0**
 
@@ -699,7 +704,7 @@
   * New: Added note latch to note repeat menu.
   * New: Added option to ribbon modes 'Last Touched'. This allows to change the parameter which editing knob was last touched.
   * New: Mute + Device in device mode toggles the enabled state of the device.
-  * New: Disabled devices are now drawn in the background color on Push 2. On Push 1 disabled devices have a prepended division sign.
+  * New: Disabled devices are now drawn in the background color on Push 2. On Push 1 disabled devices have a prefixed division sign.
   * New: Push 1: Always show full name in track/layer details mode. The track type is now displayed as well.
 
 **16.1.0**
@@ -736,7 +741,7 @@
 * MidiMonitor
   * Fixed: Updated/corrected the names of CC and MMC commands.
 * OSC
-  * Fixed: Removed unnecessary invertion of Q-factor parameter. Inverted Q-factor knob in Open Stage Control example template instead.
+  * Fixed: Removed unnecessary inversion of Q-factor parameter. Inverted Q-factor knob in Open Stage Control example template instead.
 * Push 1/2
   * New: Added new Bitwig 4.2 devices to track template list.
   * Fixed: Layer detail view (pressing Select button in Drum and Drum 64 modes) did not work for pads > 8.
@@ -781,7 +786,7 @@
 * Launchpad
   * New: Added option to choose action for pressing an empty clip on a record enabled track.
 * Mackie HUI
-  * New: Added *New Clip Length* setting to be used with footwswitch and function-keys commands *New Button* and *Clip Based looper*.
+  * New: Added *New Clip Length* setting to be used with footswitch and function-keys commands *New Button* and *Clip Based looper*.
 * Push 1/2
   * New: Shift+8th button in browser mode toggles the preview.
   * Fixed: Selecting occurrence types 'with/without prev channel' did crash.
@@ -902,7 +907,7 @@
 * Maschine / Mikro Mk3
   * New: Multiple notes can be selected for editing.
   * New: Mute+Pad in sequencer toggles the mute state of the note.
-  * New: Sequencer colors in drum and note sequencer are harmonized. Muted notes are grey. The selected notes to edit are yellow.
+  * New: Sequencer colors in drum and note sequencer are harmonized. Muted notes are gray. The selected notes to edit are yellow.
 * Maschine JAM
   * New: Mute+Pad in Sequencer toggles the mute state of the note.
 * Push
@@ -946,7 +951,7 @@
 
 * Requires Bitwig 4.0
 * All devices
-  * New: Muted notes are lit in grey in all sequencers.
+  * New: Muted notes are lit in gray in all sequencers.
 * APC40 / APC40 mkII
   * New: Cursor Up+Pad in sequencers enables and increases note repeat by 1.
   * New: Cursor Down+Pad in sequencers enables and decreases note repeat by 1.
@@ -975,7 +980,7 @@
 
 * Requires Bitwig 3.2.5+ (3.3.4+ to use VST plugins in the Push favorites menu)
 * Fire
-  * New: Scene 3+Pad in Drum 64 mode soloes the drum sound.
+  * New: Scene 3+Pad in Drum 64 mode solos the drum sound.
   * New: Scene 4+Pad in Drum 64 mode mutes the drum sound.
   * Fixed: Pattern up/down button did trigger twice.
 * Launchkey Mini Mk3
@@ -1258,7 +1263,7 @@
   * Fixed: Browser did open when pressing a pad in session mode when browser was used before.
 * Launchpad
   * New: Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
-  * Fixed: Virtual fader in mix mode did not work when Takover Mode was set to Relative Scaling or Catch.
+  * Fixed: Virtual fader in mix mode did not work when Takeover Mode was set to Relative Scaling or Catch.
 * Maschine
   * Fixed: Could not scroll browser results.
 * Novation SL MkIII
@@ -1312,7 +1317,7 @@
   * Fixed: 8th layout for scales which do not have 7 intervals was not aligned correctly (Push, Launchpad, APC).
 * Launchpad
   * New: Press the 4th scene button (green) in the play mode to activate additional controls in the first pad row. First pad toggles sustain. Second and third pad are pitch down/up and the following pads switch to different intensities of the modulation wheel. You can slide these modulation wheel pads to imitate a modulation wheel.
-  * New: Press the 5th scene button (amber) in the play mode to activate chords mode. This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The rows from bottom to top contain the following chords: Triads, Dyads (Powerchords), Suspended second (Sus2), Suspended fourth (Sus4), Add sixth (6), Major seventh chord (maj7), Add ninth (9), Add eleventh (11). The same octave, scale and base note settings apply as with the play mode.
+  * New: Press the 5th scene button (amber) in the play mode to activate chords mode. This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The rows from bottom to top contain the following chords: Triads, Dyads (Power chords), Suspended second (Sus2), Suspended fourth (Sus4), Add sixth (6), Major seventh chord (maj7), Add ninth (9), Add eleventh (11). The same octave, scale and base note settings apply as with the play mode.
   * New: Pro Mk3: *Fixed Length* button triggers the New clip command.
   * New: The mode strip in session view is now displayed vertically if session is flipped (in the 8th column).
   * New: Show the flipped state in Bitwig when Session is activated from a different view.
@@ -1326,7 +1331,7 @@
 
 * Requires Bitwig 3.2.5+
 * All devices
-  * Fixed: Some configuration values were not initialised correctly after startup (e.g. LED brightness).
+  * Fixed: Some configuration values were not initialized correctly after startup (e.g. LED brightness).
 * APC40 MkI
   * Fixed: Drum sequencer crashed.
 * Generic Flexi
@@ -1338,7 +1343,7 @@
   * New: First button in Shuffle view toggles now Groove. 3rd and 4th button selects shuffle rate.
   * Fixed: Shuffle view could not be closed.
 * MCU
-  * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behaviour. Toggling instrument/audio and effect tracks is now on Shift+Flip.
+  * New: Toggle **Use faders like knobs** has been moved to the Flip button to be more consistent with the intended MCU behavior. Toggling instrument/audio and effect tracks is now on Shift+Flip.
 * OSC
   * Documented all OSC commands in the manual.
   * New: New command for send and receive **/track/selected/pinned {0,1,-}**.
@@ -1375,7 +1380,7 @@
   * Fixed: Dialog height was *jumping* until you changed the height.
   * Fixed: Item Select in Parameters mode did not set the parameter page.
 * Push
-  * Fíxed: Play view could be off if quickly switching between track pages.
+  * Fixed: Play view could be off if quickly switching between track pages.
 
 **10.9.3**
 
@@ -1438,7 +1443,7 @@
   * New: Open Stage Control template: name of track and layer can be set
   * New: Open Stage Control template: added data receive indicator LED to transport bar
 * SL MkIII
-  * Fixed: Lightguide was only drawn black but not turned off on the hardware when disabled in the settings. The hardware light guide can now used again when the settings is disabled.
+  * Fixed: Light guide was only drawn black but not turned off on the hardware when disabled in the settings. The hardware light guide can now used again when the settings is disabled.
 
 **10.8.0**
 
@@ -1460,7 +1465,7 @@
   * New: Show all tracks in volume mode (no need to switch between instrument/audio tracks, effect tracks and master).
   * Fixed: Crash in sequencer/play mode.
 * SL MkIII
-  * New: Out of scale keys of the light guide can now also be lit in dark grey. Select *Chromatic* in the document settings.
+  * New: Out of scale keys of the light guide can now also be lit in dark gray. Select *Chromatic* in the document settings.
   * New: Converted faders and knobs to new hardware API.
   * Fixed: Switching modes did not work with single button presses.
 
@@ -1495,7 +1500,7 @@
   * New: When duplicating a clip the destination clip can now be chosen. Pro models: Keep Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button. On the non-pro models, activate duplicate mode, duplicate mode is deactivated, as soon as you select an empty clip as the destination.
 * Push
   * New: When duplicating a clip the destination clip can now be chosen. Keep Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip with content); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
-  * Fixed: Select button is now blocked in Browse mode since it does not have any function in that mode and left the extension with a blank screen when accidently pressed.
+  * Fixed: Select button is now blocked in Browse mode since it does not have any function in that mode and left the extension with a blank screen when accidentally pressed.
 
 **10.7.2**
 
@@ -1519,7 +1524,7 @@
 * MCU / Novation SL MkI/II
   * New: Removed "Display Crossfader on Track". Does not make much sense with these devices.
 * Push
-  * New: Removed "Display Crossfader on Track". On Push 2 the crossfade mode setting is now always visble and can be changed with the third knob in track mode. On Push 1 it is never displayed in track mode. Use the crossfade mode instead to change the settings.
+  * New: Removed "Display Crossfader on Track". On Push 2 the crossfade mode setting is now always visible and can be changed with the third knob in track mode. On Push 1 it is never displayed in track mode. Use the crossfade mode instead to change the settings.
   * New: Push 2: Nicer drawing of crossfade mode on channel
   * New: Push 2: The 4th/8th send name is now always displayed if the current tracks are not inside of a group. Furthermore, it is displayed if the 8th knob is touched.
 
@@ -1637,7 +1642,7 @@
   * New: Tempo is displayed on grid when tempo is changed.
   * New: APC40: Tap Tempo + Cue Level changes tempo.
   * Fixed: APC40: *Shift+Stop All Clips* did not open the browser.
-  * Fixed: Browser mode was not cancelled when browser was close in Bitwig.
+  * Fixed: Browser mode was not canceled when browser was close in Bitwig.
 * Akai Fire
   * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Drum sequencer crashed when changing note length on the grid.
@@ -1647,12 +1652,12 @@
   * Fixed: Modes could only be activated once (non-pro models)
 * Novation SL MkIII
   * New: Long press a pad in session mode to select the clip without starting it.
-  * New: The lightguide displays the scale notes. The scale can be selected in the document settings.
-  * New: The lightguide can be turned off in the settings.
+  * New: The light guide displays the scale notes. The scale can be selected in the document settings.
+  * New: The light guide can be turned off in the settings.
 * Push
   * New: Long press a pad in session mode to select the clip without starting it.
   * Fixed: Temporarily activating session mode did only work for starting clips but not for starting scenes.
-  * Fixed: Longpressing a pad in Drum 4 mode to edit the note did not work.
+  * Fixed: Long pressing a pad in Drum 4 mode to edit the note did not work.
   * Fixed: Add Device/Effect did call Replace effect instead of Insert.
 
 **10.2.0**
@@ -1717,8 +1722,8 @@
   * New: In the parameter selection (*Variation* button) use the top row pads to switch devices and parameter pages. The parameter pads are now colored in the Bitwig parameter colors
   * New: **Stop + Pad 1 (Undo)** - Undo
   * New: **Stop + Pad 2 (Redo)** - Redo
-  * New: **Stop + Pad 5 (Quantize)** - Quantizes the selected MIDI 100%
-  * New: **Stop + Pad 6 (QUANTIZE 50%)** - Quantizes the selected MIDI 50%
+  * New: **Stop + Pad 5 (Quantize)** - Quantize the selected MIDI 100%
+  * New: **Stop + Pad 6 (QUANTIZE 50%)** - Quantize the selected MIDI 50%
   * New: **Stop + Pad 9 (CLEAR)** - Deletes all MIDI notes from the selected MIDI clip
   * New: **Stop + Pad 13 (SEMITONE -)** - Transpose the selected MIDI clip a semitone down
   * New: **Stop + Pad 14 (SEMITONE +)** - Transpose the selected MIDI clip a semitone up
@@ -1781,7 +1786,7 @@
   * New: Simulator layout is now closer to the specific Launchpad model
   * New: In Shift mode, cursor up or down enters the tempo mode. In Tempo mode you can change the tempo with the cursor keys.
   * New: In Shift mode, cursor left or right enters the shuffle mode. In Shuffle mode you can change the shuffle amount with the cursor keys.
-  * New: Added record quantization setting (Shift+Quantise)
+  * New: Added record quantization setting (Shift+Quantize)
 * Push
   * New: Drum sequencers use the colors of the drum pads of the drum machine device
 
@@ -1800,7 +1805,7 @@
 * Launchpad
   * New: Added a new Mixmode. Press Shift+Session to enable it. This mode contains session modes at once. The rows from bottom to top are: rec arm, solo, mute, clip stop, send 2, send 1, panorama, volume. The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
   * New: Masterfader in Volume mode now has 4 steps per pad (like the other track faders)
-  * New: In Pan mode the scene buttons control now the panormama of the master fader (to be consistent with volume mode)
+  * New: In Pan mode the scene buttons control now the panorama of the master fader (to be consistent with volume mode)
   * New: Stop Clip buttons are now lit in red if pressed
   * Fixed: 8th row in Session mode was not drawn on startup
 * MCU
@@ -1883,7 +1888,7 @@
   * New: Modulation Wheel (CC 01), Sustain Pedal (CC 64) and Pitchbend were previously automatically routed to Bitwig. You can now turn them off individually if you want to map them to something else.
 * Launchpad
   * New: Option to remove the master and group-master tracks from the track bank (requires restart of extension).
-  * New: Pro: Disabled Delete button if used without button combination to prevent accidential deletions. 
+  * New: Pro: Disabled Delete button if used without button combination to prevent accidental deletions. 
 * OSC
   * Fixed: Changing output server/port did still not work.
 
@@ -1988,12 +1993,12 @@
 * Komplete Kontrol A-Series / S-Series Mk2 / M32
   * Fixed: Some buttons did not work (Quantize, Metro, Undo)
 * MCU
-  * Fixed: Crash in Track mode when toggling between fx and noirmal tracks
+  * Fixed: Crash in Track mode when toggling between FX and normal tracks
   * Fixed: Record button was not always lit correctly
 * Push 1/2
-  * New: Added duplicating notes in Note, Drum, Drum 4 and Drum 8 sequencers. Keep Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+  * New: Added duplicating notes in Note, Drum, Drum 4 and Drum 8 sequencers. Keep Duplicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
   * New: Tempo and Position knobs only show their value as a popup notification. The metronome settings can now be accessed by long-pressing the **Metronome** button.  
-  * New: Push 2: Only the selected page in user mode is colored white, all others are grey.
+  * New: Push 2: Only the selected page in user mode is colored white, all others are gray.
   * New: **Duplicate+Scene** duplicates the scene now also in Play, Piano and Drum 64 modes.
   * Fixed: User mode works again
   * Fixed: Modified display colors were not applied after restart
@@ -2141,7 +2146,7 @@
   * New: Added aftertouch processing to Drum and Drum 64 mode.
   * Fixed: Blinking on queued clips did not work
 * Launchpad Pro/MkII
-  * New: All tracks are displayed (incl. fx and master track)
+  * New: All tracks are displayed (incl. FX and master track)
   * New: Shift-mode can now also be accessed from the Session mode. To access the Bird-Eye 
          view of the Session mode long press the Session button.
   * New: Optimized Shift-mode, Scene buttons select (again) the Mix-mode of MkII, they 
@@ -2203,7 +2208,7 @@
 
 * Requires Bitwig 2.4+.
 * OSC
-  * New: /playbutton - Toggles playback, you can configure the Stop behaviour in the configuration settings
+  * New: /playbutton - Toggles playback, you can configure the Stop behavior in the configuration settings
   * Fixed: All /vkb_midi commands did crash
 
 **7.20**
@@ -2212,7 +2217,7 @@
 * Launchpad Pro
   * New: Added user mode. Press USER button to enter. Scene buttons switch between the 8 pages of 8 parameters.
 * Novation Remote SL MkIII
-  * New: Added setting to disable the faders (to prevent accidently changing volume)
+  * New: Added setting to disable the faders (to prevent accidentally changing volume)
 * Push
   * New: Session: The octave and page buttons navigate the pages of the session grid
   * New: Second row buttons (buttons above display on Push 2) allows now to toggle between min/max values in User mode.
@@ -2224,7 +2229,7 @@
 
 * Requires Bitwig 2.4+.
 * Generic Flexi
-  * New: Commands to edit fx tracks. See commands in new category FX Track
+  * New: Commands to edit FX tracks. See commands in new category FX Track
   * New: Commands to edit 64 user parameters. See commands in new category User
   * Fixed: *Track: Toggle trackbank* had no effect
 * Komplete Kontrol A-Series / M32
@@ -2236,7 +2241,7 @@
   * New: Push 2: Improved layout of transport mode
   * New: Push 2: Only redraw display image if something has changed
   * Fixed: Layer details page did not close automatically when Select-button was released.
-  * Fixed: Do not close transport mode when accidently tempo or position knob is touched.
+  * Fixed: Do not close transport mode when accidentally tempo or position knob is touched.
   * Fixed: Push 1: Layout of panorama on max right
   * Fixed: Push 1: Send modes could not be accessed
   * Fixed: Push 1: NullPointerException if Track mode was active and an effect track was selected in Bitwig
@@ -2265,7 +2270,7 @@
   * New: Add track number to mixer view channels
   * New: Added Recording Option: Toggle Rec Arm State of selected track
   * New: Now, first checks if the selected device on the selected channel is a Komplete 
-    Kontrol devcice, if not the first instrument device is checked. This way you can edit 
+    Kontrol device, if not the first instrument device is checked. This way you can edit 
     multiple Komplete Kontrol instances on a channel.
 
 **7.03**
@@ -2348,7 +2353,7 @@
   * New: Added setting to flip the track/clip navigation of the encoder knob
   * New: Added setting to flip the clip and scene navigation of the encoder knob
   * New: Added setting to set the length of new clips
-  * New: Added setting to set the behaviour on transport stop
+  * New: Added setting to set the behavior on transport stop
   * New: Added M32 to the extension name
 
 **6.2**
@@ -2432,7 +2437,7 @@
 
 * Requires Bitwig 2.4.
 * MCU
-  * Fixed: Removed unescessary clip indication.
+  * Fixed: Removed unnescessary clip indication.
 * Midi Monitor
   * Fixed: System Exclusive formatting was wrong.
   * Fixed: Check for MMC was wrong.

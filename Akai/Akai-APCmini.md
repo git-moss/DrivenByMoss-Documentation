@@ -1,6 +1,6 @@
 # Akai Professional APCmini
 
-Support script for Akais' APCmini controller. You can control track parameters, devices and session view.
+Support script for Akai's APCmini controller. You can control track parameters, devices and session view.
 
 ## Installation
 
@@ -113,13 +113,13 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Play and Sequence
 
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 
 ### Transport

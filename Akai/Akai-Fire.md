@@ -107,9 +107,9 @@ All of the three buttons have two modes (except DRUM has three). Press the butto
 The buttons can also be used in combination with Shift and have then the following functions:
 
 * **Shift+Step** - Toggle Accent on/off. If enabled, the velocity of the pads is ignored and the accent value, which can be configured in the settings, is used instead.
-* **Shift+Note** - Toggle through Record Quantisation setting values
-* **Alt+Note** - Quantise the selected clip
-* **Shift+Perform** - Toggle the birdseye view of the session
+* **Shift+Note** - Toggle through Record Quantization setting values
+* **Alt+Note** - Quantize the selected clip
+* **Shift+Perform** - Toggle the birds-eye view of the session
 
 The following functions are available in all modes:
 
@@ -198,11 +198,9 @@ Play a chord in the lower part then enable steps in the upper chord which will b
 
 To change the other scale settings switch to the Play Mode and change it there.
 
-### Drum Sequencer Mode
+### Drum (XoX) Sequencer Mode
 
-Press the **Drum** button to activate. The DRUM LED is lit orange.
-
-While the drum sequencers work with any instrument full features (solo , mute, colors) are only available when a drum machine is loaded on the track.
+This mode is inspired by the Roland XoX devices. Press the **Drum** button to activate. The DRUM LED is lit orange. While the drum sequencers work with any instrument full features (solo, mute, colors) are only available when a drum machine is loaded on the track.
 
 * The *first row* (from the top) represents 16 slots (clips) of the currently selected track.
   * The pad has the same color as the clip. 
@@ -260,7 +258,7 @@ Press the **Perform** button to activate. The PERFORM LED is lit orange.
 * **Alt+Shift+Mute/Solo 1-4**: Stop all playing clips.
 * Use the **Stop** button in combination with any clip of a track to stop the playing clip of that track.
 
-Use **Shift+Perform** to toggle the birdseye view of the session. In this view a pad represents a block of 16x4 tracks/clips. Press a pad to move the view to that range.
+Use **Shift+Perform** to toggle the birds-eye view of the session. In this view a pad represents a block of 16x4 tracks/clips. Press a pad to move the view to that range.
 
 ### Mix Mode
 
@@ -315,7 +313,7 @@ You can activate the browser in different ways, depending on the use-case:
 The browser is used in the same way no matter how you opened it:
 
 * **Knobs 1-4**: Change the filter value of the respective filter column
-* **Alt+Knobs 1-3**: dito, for column 5-7
+* **Alt+Knobs 1-3**: ditto, for column 5-7
 * **Select Knob**: Choose a new result item. If you keep the knob pressed while turning the knob you switch sounds in steps of 3.
 * **Grid left/right**: Change the browser pane (Devices, Presets, ...)
 
@@ -333,25 +331,25 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
-* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
+* behavior on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* behavior on Pause: Sets the action to be executed when playback is stopped with the Play button
 * Flip arranger and clip record: if enabled, the functionality of the Record button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence
 
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
 ### Drum Sequencer
 
-* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled they pad LEDs are off.
+* Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled the pad LEDs are off.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up.
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up.

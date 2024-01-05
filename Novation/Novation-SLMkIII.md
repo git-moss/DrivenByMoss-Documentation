@@ -1,6 +1,6 @@
 # Novation SL Mk III
 
-Support for Novations' SL Mk III controller.
+Support for Novation's SL Mk III controller.
 
 ## Installation
 
@@ -11,8 +11,8 @@ Support for Novations' SL Mk III controller.
 
 ## Global Features
 
-* **<<** - Move the playcursor to the left in the arranger.
-* **>>** - Move the playcursor to the right in the arranger.
+* **<<** - Move the play cursor to the left in the arranger.
+* **>>** - Move the play cursor to the right in the arranger.
 * **Stop** - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Play** - Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
 * **Shift+Play** - Toggle repeat.
@@ -51,7 +51,7 @@ Press the "Options" button to activate.
 * Button 5 **Tap** - Press multiple times to tap a new tempo
 * Button 6 **Off/On** - De-/activate the Metronome
 * Button 7 **Engine** - Dis-/Enable audio engine
-* Button 8 **Quantize** - Quantizes the currently selected clip
+* Button 8 **Quantize** - Quantize the currently selected clip
 
 ### Track Modes
 
@@ -165,12 +165,12 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Knob Speed Normal: Adjust the speed of the knobs
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
 * Enable Faders: Option to disable the faders to prevent unwanted value changes.
-* Enable Lightguide: Activates the lightguide, which displays the currently selected scale. The root note is lit in the color of the currently selected track. Change the scale and root note in the document settings.
+* Enable Lightguide: Activates the light guide, which displays the currently selected scale. The root note is lit in the color of the currently selected track. Change the scale and root note in the document settings.
 
 ### Transport
 

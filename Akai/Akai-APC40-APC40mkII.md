@@ -1,6 +1,6 @@
 # Akai Professional APC40 / APC40mkII
 
-Support script for Akais' APC40 and APC40mkII controller.
+Support script for Akai's APC40 and APC40mkII controller.
 
 ## Global Functions
 
@@ -129,7 +129,7 @@ But there is MUCH more! If you press the Shift button and then press one of the 
 ## Session Mode - Birds-eye-view
 
 If Session Mode is already enabled select it again to toggle the birds-eye view.
-In this mode one pad represents a 8x5 area in the clip grid. Press a pad to quickly move to that area.
+In this mode one pad represents an 8x5 area in the clip grid. Press a pad to quickly move to that area.
 
 ## Play Mode
 
@@ -186,7 +186,7 @@ Parameter 3 to 8 are only available with Bitwig.
 
 ### Note Sequencer
 
-* The pads display an 5x8 view of the selected clips note grid.
+* The pads display an 8x5 view of the selected clips note grid.
 * The rows represent the notes of the selected scale.
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes.
@@ -241,7 +241,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Play and Sequence
 
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
@@ -255,7 +255,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Footswitch 1: Select the function to execute for the first footswitch.
 * Footswitch 2: - *only mkI* - Select the function to execute for the first footswitch.

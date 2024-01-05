@@ -13,7 +13,7 @@ The following of Novation's Launchpad controllers are supported:
 **Important**:
 
 * If you have one of the newer models which are supported by the Novation Components application, first make sure to update to the latest firmware for your device! Otherwise, you might have strange effects!
-* If the virtual faders (volume, pan, send, etc.) do not work, set the *Takeover mode* to *Immidiate*.
+* If the virtual faders (volume, pan, send, etc.) do not work, set the *Takeover mode* to *Immediate*.
 * If (Poly-)Aftertouch is not working (on devices which support it), check the global aftertouch settings of the Launchpad (check the Launchpad manual).
 
 If you added the controller manually, choose the following in-/output ports:
@@ -54,8 +54,8 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 * **Undo** - Undo. Press Shift for Redo.
 * **Delete** (**Clear** on the Pro Mk3) - Hold the button for additional functionality in combination with other buttons knobs, see the view explanations below.
 * **Shift+Delete** - Toggle arranger loop
-* **Quantise** - Quantises the selected clip.
-* **Record Quantise** - Press multiple times to toggle through the record quantisation settings.
+* **Quantise** - Quantizes the selected clip.
+* **Record Quantise** - Press multiple times to toggle through the record quantization settings.
 * **Duplicate** button (only Pro models) - On the non-pro models, activate the duplicate mode instead (see Shift mode)
   * Session mode: Duplicates the first selected clip on the current track if pressed with no other button.
   * Session mode: To copy a specific clip:
@@ -179,7 +179,7 @@ Scene buttons have to following functions:
 
 * The upper 2 scene buttons change the key layout.
 * The 4th scene button (green) in the play mode activates additional controls in the first pad row. First pad toggles sustain. Second and third pad are pitch down/up and the following pads switch to different intensities of the modulation wheel. You can slide these modulation wheel pads to imitate a modulation wheel.
-* The 5th scene button (amber) in the play mode activates the chords mode. This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The rows from bottom to top contain the following chords: Triads, Dyads (Powerchords), Suspended second (Sus2), Suspended fourth (Sus4), Add sixth (6), Major seventh chord (maj7), Add ninth (9), Add eleventh (11). The same octave, scale and base note settings apply as with the play mode.
+* The 5th scene button (amber) in the play mode activates the chords mode. This mode allows to play a chord by pressing a single pad. The base note is taken from the current scale and increases from left to right. The rows from bottom to top contain the following chords: Triads, Dyads (Power chords), Suspended second (Sus2), Suspended fourth (Sus4), Add sixth (6), Major seventh chord (maj7), Add ninth (9), Add eleventh (11). The same octave, scale and base note settings apply as with the play mode.
 * The white scene button toggles between Chromatic and Scale Only mode.
 * The lower 2 scene buttons change the root note of the scale.
 
@@ -213,7 +213,7 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes. The velocity of the pressed key is set as well.
 * Change the note length or create long notes by pressing a note pad and then a pad right of it.
-* To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+* To duplicate notes keep the Duplicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
 * Note starts and lengths are lit in different colors.
 * Use the Scene buttons to change the grids resolution.
 * Cursor Up+Pad (on a sequencer step): enables and increases note repeat by 1.
@@ -414,19 +414,19 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
 ### Transport
 
-* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
 * Record button: Configure the function to execute when the record button is pressed.
 * Shift + Record button: Configure the function to execute when the record button is pressed in combination with the Shift button.
 
 ### Session
 
-* Flip Session: Change the orientation of the tracks/clips horizontal or vertical
+* Flip Session: Change the orientation of the tracks/clips horizontal or vertical.
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 * Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view?
 
@@ -437,14 +437,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
-* New clip length: The length of a clip created with the New function.
-
-### Workflow
-
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
-* Include (Group-)Mastertrack (requires restart): Includes the master tracks for all groups in the track list.
 * New clip length: The length of a clip created with the New function.
 
 ### Pads
@@ -458,18 +452,18 @@ These settings are specific to each project.
 
 ### Scales
 
-* Scale: Select the scale
-* Base: Select the base note of the scale
+* Scale: Select the scale.
+* Base: Select the base note of the scale.
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.
 * Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
 
 ### Note Repeat
 
-* Active: Enable note repeat
-* Period: The repeat rate of the note repeat
-* Length: The length of a repeated note
-* Mode: The arpeggiator mode
-* Octave: The octave range which is used by the arpeggiator
+* Active: Enable note repeat.
+* Period: The repeat rate of the note repeat.
+* Length: The length of a repeated note.
+* Mode: The arpeggiator mode.
+* Octave: The octave range which is used by the arpeggiator.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

@@ -14,8 +14,7 @@ The MPC Key 61 does currently not support the control mode.
 
 Install the Akai Network Driver as described in the MPC/Force manual. This driver is currently only available for Windows and Intel Macos.
 Therefore, Linux is not supported but a Macos ARM driver is planned by Akai.
-After that connect the device to your Mac/PC with a network cable or enable WIFI. Then make sure that the device is
-selected in the *Akai Professional Network MIDI Control Panel*. This is also explained in detail in the MPC/Force manual.
+After that connect the device to your Mac/PC with a network cable or enable WIFI. Then make sure that the device is selected in the *Akai Professional Network MIDI Control Panel*. This is also explained in detail in the MPC/Force manual.
 
 If you have multiple devices connected to your network (e.g. a MPC Live and a Force), only one can be used at a time.
 But it can be changed on the fly in the *Akai Professional Network MIDI Control Panel*.
@@ -32,9 +31,7 @@ On the Force press the *MENU* button and select *LIVE CONTROL*.
 
 ### Control Bar
 
-At the top of the interface is the Control Bar. This toolbar can be configured to one of three presets (Session, 
-Arrangement, Performance) based on typical use cases in the Settings window (press the gearwheel on the right to 
-open it). Sadly, none of the modes contains all functions.
+At the top of the interface is the Control Bar. This toolbar can be configured to one of three presets (Session, Arrangement, Performance) based on typical use cases in the Settings window (press the gearwheel on the right to open it). Sadly, none of the modes contains all functions.
 
 * **BPM field**: adjusts the tempo. Change it with the data dial (combine with Shift for smaller increments) or open the menu by double tapping it or pressing the data dial to enter a value.
 * **Nudge Down / Up**: decreases or increases the tempo by 1.
@@ -52,8 +49,7 @@ The Settings window also contains a **Quantize To** field to set the time divisi
 
 ### Views
 
-Control Mode consists of three main views, which can be selected by tapping the tabs on the left side of the
-display: Matrix View, Mixer View and Device Control View. Click the links to jump to that section.
+Control Mode consists of three main views, which can be selected by tapping the tabs on the left side of the display: Matrix View, Mixer View and Device Control View. Click the links to jump to that section.
 In each of these modes, you will always have access to the following controls and functions on the display:
 
 * Tap a track name to select it. Selecting an already selected group track toggles its' expanded state.
@@ -140,7 +136,7 @@ The Device Control View allows to control devices (= plugins) from the MPC/Force
 * Tap the Track Name under the Control Bar to select the Track. If there is a Device(s) associated with the Track, the first will be shown below.
 * Tap the lock icon on the right side to pin the device.
 * Use the sliders to adjust the parameters of the device. Tap a slider and then use the data dial or –/+ buttons to adjust the parameter. Alternatively, tap and drag a slider to adjust the parameter.
-* Use the Device – and + buttons to change devices on the same track. The white and grey boxes below the parameter sliders represent the number of available Devices.
+* Use the Device – and + buttons to change devices on the same track. The white and gray boxes below the parameter sliders represent the number of available Devices.
 * Use the Bank – and + buttons to cycle through banks of controls for the device, if available.
 * Tap Device On to enable or disable (bypass) the device.
 
@@ -150,7 +146,7 @@ The Device Control View allows to control devices (= plugins) from the MPC/Force
 * **SHIFT + REC** - Toggle Launcher overdub.
 * **OVERDUB** - Toggle Arranger overdub.
 * **SHIFT + OVERDUB** - Toggle Launcher overdub.
-* **STOP** - Stop playback. If already stopped it sets the playcursor to the start of the project. If double clicked it sets the playcursor to the end of the project.
+* **STOP** - Stop playback. If already stopped it sets the play cursor to the start of the project. If double clicked it sets the play cursor to the end of the project.
 * **PLAY** - Start/Stop playback.
 * **SHIFT + PLAY** - Toggle Arranger loop.
 * **PLAY START** - Start the playback from the beginning of the project.
@@ -190,7 +186,7 @@ All other buttons either have no function or leave the Control Mode.
 * **REC ARM** - Sets the Track Assign buttons to Record Arm for the current eight tracks.
 * **CLIP STOP** - Sets the Track Assign buttons to Stop Clips for the current eight tracks.
 * **Track Assign** - Performs the selected action (Mute, Solo, Rec Arm or Clip Stop) for the current eight tracks.
-* **SHIFT + 1st Track Assign** - Quantizes the currently selected clip to the grid value set by Force. To set this value, tap the Setting gear icon in the top-right of the display, then use the Quantize To field to set the value.
+* **SHIFT + 1st Track Assign** - Quantize the currently selected clip to the grid value set by Force. To set this value, tap the Setting gear icon in the top-right of the display, then use the Quantize To field to set the value.
 * **SHIFT + 2nd Track Assign** - Creates a new MIDI clip, starts playback and activates overdub.
 * **SHIFT + 3rd Track Assign** - Duplicates the content of the currently selected clip.
 * **SHIFT + 5th Track Assign** - Toggles the metronome.
@@ -221,11 +217,11 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Play and Sequence
 
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 
 <div style="page-break-after: always; visibility: hidden"> 

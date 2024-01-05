@@ -31,7 +31,7 @@ The **Shift** and **Cursor buttons** do not send MIDI values, therefore they can
 * **Rec** - Start/Stop recording.
 * **Stop** - Stop playback. If pressed when stopped the play cursor is moved to the start of the song.
 * **Restart/Loop** - Toggle transport loop
-* **Erase** - Use in combinbation with a pad to delete a scene, clip or track depending on the selected mode.
+* **Erase** - Use in combination with a pad to delete a scene, clip or track depending on the selected mode.
 * **Erase + touch encoder knob** - Reset the currently edited value to its default.
 * **Tap** - Tap Tempo
 * **Stop + Tap** - Toggle metronome
@@ -88,7 +88,7 @@ Press *Pad Mode* to activate. Press again to toggle to the configuration page. O
 * Press the **Follow** button to activate the grid configuration. The lower 8 buttons select the grid resolution. Pads 13/14 select the current edit page.
 * To edit a note in the step sequencer press **Events**. In this mode, press one or more pads which contain notes to select them for editing. Use the display knobs to edit the parameters of the selected note(s). Use **Encoder up/down** to select more parameter pages. The selected note is lit in yellow.
 * Turn the encoder to change the value of the selected note parameter. Select the 6 available parameters by pressing the *Volume*, *Swing* and *Tempo* buttons. Press the buttons twice for the second parameter.
-* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
+* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in gray.
 
 ### Play Mode
 
@@ -118,7 +118,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Ribbon Mode: Select the function of the ribbon strip
 
 ### Session
@@ -128,7 +128,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 
 ## Document Settings

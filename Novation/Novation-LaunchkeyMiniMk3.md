@@ -93,7 +93,7 @@ This mode can be toggled with the Scene button between two views: one to play th
 If you have a Bitwig drum device selected, the play view displays the colors of the sounds as well if there is an instrument loaded in a slot.
 The last selected pad is the one you can edit when switching to the note steps view.
 
-Long press the SSM (Scene 2) button to enter the drum sequencer settings. While keeping the SSM button pressed, select an uppper row pad to select a grid resolution, which is displayed in Bitwig as well.
+Long press the SSM (Scene 2) button to enter the drum sequencer settings. While keeping the SSM button pressed, select an upper row pad to select a grid resolution, which is displayed in Bitwig as well.
 Use the first 2 lower row pads to select one of the previous/next edit page. The 4th pad toggles the metronome.
 Use the last 2 lower row pads to scroll the drum pads up/down.
 
@@ -114,7 +114,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
 
 ### Session

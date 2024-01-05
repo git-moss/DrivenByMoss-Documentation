@@ -1,6 +1,6 @@
 # Novation Remote SL MkI & MkII
 
-Support script for Novations' Remote MkII controller. You can control track parameters, devices, transport, play the pads, start scenes and a step sequencer.
+Support script for Novation's Remote MkII controller. You can control track parameters, devices, transport, play the pads, start scenes and a step sequencer.
 
 ## Installation
 
@@ -120,18 +120,18 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Touchpad
 
-* Mode: Select what to control with the touchpad
+* Mode: Select what to control with the touchpad.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
-* Use drum pads for mode selection: The drums can be used to select the different modes if enabled
+* Use drum pads for mode selection: The drums can be used to select the different modes if enabled.
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
-* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button.
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

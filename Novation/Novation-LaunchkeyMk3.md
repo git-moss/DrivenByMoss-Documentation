@@ -12,9 +12,9 @@ Support for the Novation Launchkey Mk3 controller models 25, 37, 49, 61 and 88.
 ## Global Features
 
 * **Capture MIDI** - Creates a new clip on the selected track and slot, starts playback and enables overdub.
-* **Shift+Capute MIDI** - Like New button but without activating launcher overdub.
-* **Quantise** - Quantises the selected clip.
-* **Shift+Quantise** - Press multiple times to toggle through the record quantisation settings.
+* **Shift+Capture MIDI** - Like New button but without activating launcher overdub.
+* **Quantise** - Quantizes the selected clip.
+* **Shift+Quantise** - Press multiple times to toggle through the record quantization settings.
 * **Click** - Toggle the metronome.
 * **Shift+Click** - Tap Tempo.
 * **Undo** - Undoes the last action.
@@ -116,7 +116,7 @@ This mode can be toggled with the Scene button between two views: one to play th
 If you have a Bitwig drum device selected, the play view displays the colors of the sounds as well if there is an instrument loaded in a slot.
 The last selected pad is the one you can edit when switching to the note steps view.
 
-Long press the SSM (Scene 2) button to enter the drum sequencer settings (only available if a clip is selected!). While keeping the SSM button pressed, select an uppper row pad to select a grid resolution. The selected resolution is shown in the display.
+Long press the SSM (Scene 2) button to enter the drum sequencer settings (only available if a clip is selected!). While keeping the SSM button pressed, select an upper row pad to select a grid resolution. The selected resolution is shown in the display.
 Use the first 2 lower row pads to select one of the previous/next edit page.
 
 The **Scene up/down** buttons scroll the drum pad range up/down.
@@ -143,14 +143,14 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button
-* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button.
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
 * Record button: Set the function for the record button.
 * Shift + Record button: Set the function for the record button used in combination with Shift.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
 
 ### Session

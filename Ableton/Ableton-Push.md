@@ -29,7 +29,7 @@ After you have copied the file reboot your computer.
 * **Duplicate**: Combine with a scene pad (duplicate scene) or a track select button (duplicate track). To copy clips in session mode keep the Duplicate button pressed; choose the source clip (it must be a clip with content, you can still select a different clip as the source); select the destination clip (this must be an empty clip, which can also be on a different track); release the Duplicate button.
 * **Shift+Duplicate**: Create a new scene from the currently playing clips.
 * **Select+Duplicate**: Creates a new scene at the end of the scene list.
-* **Quantize**: Quantizes the currently selected clip.
+* **Quantize**: Quantize the currently selected clip.
 * **Shift+Quantize** (or long press Quantize): Access the Quantize and Groove configuration modes
 * **Double (Loop)**: Duplicate the content of the currently selected clip (not the clip itself)
 * **Undo**: Undoes the last action. Press Shift for Redo.
@@ -41,8 +41,8 @@ After you have copied the file reboot your computer.
 * Keep the **Master button** pressed for a screen which allows to toggle perspectives and panels.
 * **Footswitch 1**: Sends sustain.
 * **Footswitch 2**: Function can be configured in the settings (see the descriptions of the settings below).
-* **Arrows**: The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs. **Center button** (Push 3 only): Starts the selected scene aith alternate option (Bitwig only).
-* **Shift+Touchstrip**: Change behavior of touchstrip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
+* **Arrows**: The cursor keys change the track page (device, layers) and scene bank, except in the browser they change the browser tabs. **Center button** (Push 3 only): Starts the selected scene with alternate option (Bitwig only).
+* **Shift+Touchstrip**: Change behavior of touch-strip: Send pitch bend, a midi CC or a mixed mode. If mixed mode is selected upwards pitch bend is sent and downwards the select midi cc.
 * **Shift+Track**: Turn off/on VU meters.
 * **Browse**: Enters Preset selection mode for a device. If no device is selected the browser is opened to add a device.
 * **Add Track**: Opens the menu for inserting tracks. Tracks with pre-configured devices can be configured in the settings.
@@ -124,13 +124,12 @@ After you have copied the file reboot your computer.
 * Hold Delete and Touch Encoder to reset a value to its default value in all modes.
 * Since the Push 2/3 is missing the buttons Volume and Pan & Send use the navigation knobs above the display.
 * Press the Duplicate button and one of the Track-Select buttons to duplicate a track.
-* In all track modes, hold the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer. Furthermore, the note insert/edit MIDI channel can be selected in this mode.
-Selecting an already selected group track toggles its' expanded state if the Shift button is held.
+* In all track modes, press and release the Select button to enter the track details mode. In this mode you can set different states like enable, solo, mute, rec arm, monitor and change the color of the track. If you currently have a layer selected this brings up a similar view to edit the states of the layer. Furthermore, the note insert/edit MIDI channel can be selected in this mode. Selecting an already selected group track toggles its' expanded state if the Shift button is held.
 * Push 2/3: Hold Shift to access the 4th Send mode.
 
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2/3: Press "Mix" and "Volume" above the display
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
-    * 1st 8 button row: Press to select a track, press again to enter a group. To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combibation with the Delete button to delete a track. Long press a button to leave a track group.
+    * 1st 8 button row: If tracks are hierarchical (see settings): Press to select a track, press again to enter a group. Combine with the **Select** button to select multiple tracks (Reaper only). To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combination with the Delete button to delete a track. Long press a button to leave a track group.
     * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection.
     * Left/Right arrows: Select next/previous track page.
     * Shift+Left/right arrows: Moves the selected track.
@@ -153,7 +152,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
     * Other buttons behave as above.
   
 6. **Device** - Press "Device" to enter
-    * Buttons of 1st row select the device or the parameter banks. Use in combibation with the Delete button to delete a device.
+    * Buttons of 1st row select the device or the parameter banks. Use in combination with the Delete button to delete a device.
     * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2/3).
     * 7th button on 2nd row in device modes displays VST window or pop-out window of specific Bitwig devices (button above display on Push 2/3).
     * 8th button on 2nd row in device modes moves up to tracks.
@@ -199,7 +198,7 @@ Selecting an already selected group track toggles its' expanded state if the Shi
 Press _"Note"_ and select *Play* to change to the Play mode.
 
 * The key layout is like running the Push with Ableton. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*.
-* The Touchstrip (Ribbon) can be configured for different tasks. Call up the configuration mode with Shift+Touchstrip.
+* The touch-strip (Ribbon) can be configured for different tasks. Call up the configuration mode with Shift+Touchstrip.
 * Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
 * The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
 * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
@@ -212,7 +211,7 @@ This mode allows to play a chord by pressing a single pad. The base note is take
 The rows from bottom to top contain the following chords: 
 
 * Triads, 
-* Dyads (Powerchords), 
+* Dyads (Power chords), 
 * Suspended second (Sus2), 
 * Suspended fourth (Sus4), 
 * Add sixth (6), 
@@ -282,7 +281,7 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * Note that you can scroll past the end of the clip (to the right).
 * Press pads to enter/delete notes. The velocity of the pressed key is set as well.
 * Change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
-* To duplicate notes keep the Dulicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
+* To duplicate notes keep the Duplicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
 * Note starts and lengths are lit in different colors.
 * Long press a pad which contains a note to edit the parameters of the note (or all notes of the step in case of Poly Sequencer).
 * Multiple notes can be edited in sequencers by using the select button in combination with a sequencer note pad.
@@ -290,7 +289,7 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * **Shift+Pad** enables and increases note repeat by 1.
 * **Shift+Select+Pad** enables and decreases note repeat by 1.
 * **Select+Pad** selects a note for editing. Selected notes are lit in yellow.
-* **Mute+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
+* **Mute+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in gray.
 
 ### Note Sequencer
 
@@ -316,11 +315,11 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 * The drum sequencer works as described in the Push manual.
 * Note starts and lengths are lit in different colors.
 * Hold *Delete*+Drumpad to delete the midi notes of the current clip on that 'pad'.
-* Hold *Mute/Solo* button + Drumpad to mute/solo the drumpad.
+* Hold *Mute/Solo* button + Drumpad to mute/solo the drum pad.
 * To make the display of mute/solo/exists states work, the primary device needs to be the drum machine (which is normally the case).
-* Hold down the *Select* button while pressing a drumpad to select it without playing its sound. This also selects the according drum pad layer in the display.
+* Hold down the *Select* button while pressing a drum pad to select it without playing its sound. This also selects the according drum pad layer in the display.
 * Press *Browser+Drum Pad* in Drum View and Drum 64 to open the browser.
-* The Drumpads use the colors set in the drum machine for each pad.
+* The drum pads use the colors set in the drum machine for each pad.
 * There are three additional drum sequencers. Press Shift in drum mode and use upper 4 scene buttons to change between the four modes. 2nd mode displays 4 drum sound, 3rd mode 8. Use the lower 4 scene buttons (while holding Shift) in 2nd mode to toggle between the drum sounds 1-4, 5-8, 9-12, 13-16. Use the lower 2 scene buttons in 3rd mode to toggle the drum sounds 1-8, 9-16. The fourth mode displays 64 drum pads.
 * Use Octave Up/Down to move the pads by 16.
 * Use Shift+Octave Up/Down to move the pads by 4.
@@ -360,8 +359,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Session
 
-* Session View: How/what to display on the grid
-* Display scenes/clips: Display the names of scenes/clips in the display
+* Pads: How/what to display on the grid.
 * Select clip/scene on launch: If a clip/scene is started from the controller and this setting is off the clip/scene will not be selected. Use if you edit another clip and want not to change the focus.
 * Display clips of record enabled tracks in red: if enabled, in the session view for record enabled tracks the empty pads are displayed in red.
 * Action for pressing rec armed empty clip: what should happen if you press an empty clip in the session view?
@@ -375,7 +373,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
@@ -386,9 +384,11 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown. Press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
+* Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
-* Footswitch 2: What action to execute if you press the 2nd footswitch (1st footswitch is always assigned to MIDI sustain). The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the New button) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
+* Footswitch 2: What action to execute if you press the 2nd foot switch (1st foot switch is always assigned to MIDI sustain). The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the New button) and playback is started. As long as the foot switch is pressed overdub is activated. If the foot switch is released overdub is deactivated.
 * Stop automation recording on knob release: If you e.g. change the volume of a track for automation and release the knob, automation recording is automatically switched off.
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Normal: Adjust the speed of the knobs
@@ -406,7 +406,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Pads
 
-* Sensitivty: Adjust the hardware sensitivity of the pads
+* Sensitivity: Adjust the hardware sensitivity of the pads
 * Gain: Adjust the hardware gain of the pads
 * Dynamics: Adjust the hardware dynamics of the pads
 * Convert Poly Aftertouch to: The pads support poly aftertouch. If the device you play does not support this option allows to change it to Channel Aftertouch or a MIDI CC command.
@@ -431,7 +431,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Display Colors
 
-* Reset colors to default: Sets all values to their defualt value
+* Reset colors to default: Sets all values to their default value
 * Color options: Changes the color of different elements of the display graphics
 
 ### Audio Interface (only Push 3)

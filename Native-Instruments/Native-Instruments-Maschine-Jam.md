@@ -61,7 +61,7 @@ These buttons activate different modes for the 8 smart strips:
 * **SELECT+CONTROL** - Toggles between project/track parameters.
 * **SHIFT+CONTROL** - Toggles the windows of the selected device, if it has one.
 
-The following button comnbinations are available:
+The following button combinations are available:
 
 * **SELECT+MACRO**: Add an instrument channel.
 * **SELECT+LEVEL**: Add an audio channel.
@@ -175,7 +175,7 @@ This mode allows to play a chord by pressing a single pad. The base note is take
 The rows from bottom to top contain the following chords: 
 
 * Triads, 
-* Dyads (Powerchords), 
+* Dyads (Power chords), 
 * Suspended second (Sus2), 
 * Suspended fourth (Sus4), 
 * Add sixth (6), 
@@ -206,7 +206,7 @@ This mode gives you 64 pads for playing a drum device. The 16 pads in the left l
 * Arrow keys up/down change the note range (transposition).
 * Arrow keys left/right change the selected page in sequencers.
 * Select+Pad enables and increases note repeat by 1.
-* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in grey.
+* **MUTE+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in gray.
 
 ### Note Sequencer
 
@@ -264,8 +264,8 @@ Press and release the *Shift* button to activate.
 
 * **Stop+Pad 1 (UNDO)** - Undo
 * **Stop+Pad 2 (REDO)** - Redo
-* **Stop+Pad 3 (QUAN)** - Quantizes the selected MIDI 100%
-* **Stop+Pad 4 (QUAN 50%)** - Quantizes the selected MIDI 50%
+* **Stop+Pad 3 (QUAN)** - Quantize the selected MIDI 100%
+* **Stop+Pad 4 (QUAN 50%)** - Quantize the selected MIDI 50%
 * **Stop+Pad 5 (SEMI-)** - Transpose the selected MIDI clip a semitone down
 * **Stop+Pad 6 (SEMI+)** - Transpose the selected MIDI clip a semitone up
 * **Stop+Pad 7 (OCT-)** - Transpose the selected MIDI clip an octave down
@@ -279,11 +279,11 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 * Record button: Set the function for the record button.
 * Shift + Record button: Set the function for the record button used in combination with Shift.
-* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
 
 ### Play and Sequence
 
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
@@ -296,10 +296,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
-* Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
-* Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
+* Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up.
+* Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up.
 * Footswitch settings: The Maschine Jam supports 2 footswitches. Since there is only 1 stereo connector, a double footswitch like a Boss FS-6 needs to be used. Select the function you want to assign to a footswitch from the drop down lists. The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (depending on the *New clip length* setting above) and playback is started. As long as the footswitch is pressed overdub is activated. If the footswitch is released overdub is deactivated.
 
 ### Drum Sequencer
@@ -312,18 +312,18 @@ These settings are specific to each project.
 
 ### Scales
 
-* Scale: Select the scale
-* Base: Select the base note of the scale
+* Scale: Select the scale.
+* Base: Select the base note of the scale.
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.
 * Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
 
 ### Note Repeat
 
-* Active: Enable note repeat
-* Period: The repeat rate of the note repeat
-* Length: The length of a repeated note
-* Mode: The arpeggiator mode
-* Octave: The octave range which is used by the arpeggiator
+* Active: Enable note repeat.
+* Period: The repeat rate of the note repeat.
+* Length: The length of a repeated note.
+* Mode: The arpeggiator mode.
+* Octave: The octave range which is used by the arpeggiator.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

@@ -66,7 +66,7 @@ The parameters of the command documentation below are as follows:
 | /time/signature       | {text}              | The signature at the play position: numerator / denominator   |
 | /beat/str             | {text}              | Play position as beats: Bitwig: measures.quarters.eights:ticks Reaper: measures.beats:ticks,   |
 | /tempo/raw            | {0-666}             | The tempo at the play position.                               |
-| /quantize             |                     | Quantizes the currently selected clip.                        |
+| /quantize             |                     | Quantize the currently selected clip.                         |
 | /launcher/ postRecordingAction     | {off,play_recorded, record_next_free_slot, stop,return_to_arrangement, return_to_previous_clip,play_random} | The action to execute after recording a clip. |
 | /launcher/ postRecordingTimeOffset | {0-4000} | The time offset of the post recording action in beats.         |
 | /launcher/ defaultQuantization     | {none,1,2,4,8,1/2,1/4, 1/8,1/16} | The default clip launcher quantization. |
@@ -116,7 +116,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/autoMonitor | {0,1}      | Is auto monitoring enabled for the track?                                |
 | /track/{1-8}/crossfadeMode/{A,B,AB} | Crossfade mode set for the track: A = Channel A, B = Channel B, AB = both. |
 | /track/{1-8}/vu        | {0-MAX_VALUE} | The current VU meter output value of the track when played back.        |
-| /track/{1-8}/color                | {color}       | The color fo the track.                                      |
+| /track/{1-8}/color                | {color}       | The color of the track.                                      |
 | /track/{1-8}/recordQuantization   | {OFF, 1/32, 1/16, 1/8, 1/4} | The default record quantization for the MIDI input of the track. This is the global value in Bitwig. |
 | /track/{1-8}/send/{1-8}/activated | {0,1}         | Is the send disabled (=0) or enabled (=1)?                   |
 | /track/{1-8}/send/{1-8}/volume    | {0-MAX_VALUE} | The volume send to the send channel.                         |
@@ -144,7 +144,7 @@ The parameters of the command documentation below are as follows:
 | /scene/{1-8}/name                         | {text}   | The name of the scene.                                     |
 | /scene/{1-8}/selected                     | {0,1}    | Is the scene selected?                                     |
 | /scene/color                              | {color}  | The color of the scene.                                    |
-| /track/{1-8}/clip/{1-8}/name              | {text}   | The name of the clipin the slot (if any).                  |
+| /track/{1-8}/clip/{1-8}/name              | {text}   | The name of the clip in the slot (if any).                  |
 | /track/{1-8}/clip/{1-8}/isSelected        | {0,1}    | Is the slot selected.                                      |
 | /track/{1-8}/clip/{1-8}/hasContent        | {0,1}    | Does the slot has a clip as content.                       |
 | /track/{1-8}/clip/{1-8}/color             | {color}  | The color of the clip.                                     |
@@ -201,7 +201,7 @@ The parameters of the command documentation below are as follows:
 | /device/drumpad/{1-16}/{attribute}       | {value}      | All attributes as above for a drum pad layer.             |
 | /device/drumpad/selected/{attribute}     | {value}      | All attributes as above for the selected drum pad layer.  |
 | /primary/{attribute}                     | {value}      | All attributes as above for the primary device of the channel, except siblings and pinning.  |
-| /eq/{attribute}                          | {value}      | All attributes as above for the equalizer device of the channel, except paramters (see next section instead), siblings and pinning.|
+| /eq/{attribute}                          | {value}      | All attributes as above for the equalizer device of the channel, except parameters (see next section instead), siblings and pinning.|
 
 **Additional EQ parameters**
 
@@ -274,7 +274,7 @@ The parameters of the command documentation below are as follows:
 | :----------------     |:-----------   |:---------------                                                          |
 | /stop                 |               | Stop playback.                                                           |
 | /play                 | {0,1,-}       | Stop/Start/toggle playback.                                              |
-| /playbutton           | {1,-}         | Toggles playback, you can configure the Stop behaviour in the configuration settings.|
+| /playbutton           | {1,-}         | Toggles playback, you can configure the Stop behavior in the configuration settings.|
 | /restart              | {1,-}         | Restarts playback from the beginning of the timeline.                    |
 | /record               |               | Start recording in the arranger.                                         |
 | /repeat               | {0,1,-}       | Disable, enable, toggle repeat (loop).                                   |
@@ -290,7 +290,7 @@ The parameters of the command documentation below are as follows:
 | /crossfade            | {0-MAX_VALUE} | Sets the crossfader value. 0 is to the left and MAX_VALUE to the right.  |
 | /crossfade/reset      |               | Resets the crossfader to center position.                                |
 | /autowrite            | {1,-}         | Toggle arranger automation write.                                        |
-| /autowrite/launcher   | {1,-}         | Toggle clip laucnher automation write.                                   |
+| /autowrite/launcher   | {1,-}         | Toggle clip launcher automation write.                                   |
 | /automationWriteMode  | {latch, touch, write} | Set the automation write mode.                                   |
 | /tempo/raw            | {0-666}       | Set the tempo. Can be a decimal value.                                   |
 | /tempo/tap            | {1,-}         | Trigger the tapping the tempo.                                           |
@@ -536,7 +536,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Protocol
 
-* Value resolution: Configures the value range to use. Higher values provide a higer resolution but the client need (or OSC template of your clieant) needs to be configured accordingly! The included Open Stage Control template uses a 128 resolution.
+* Value resolution: Configures the value range to use. Higher values provide a higher resolution but the client need (or OSC template of your client) needs to be configured accordingly! The included Open Stage Control template uses a 128 resolution.
 * Bank page size: The number of entries to be used for bank pages. The default is 8. Increase the size to control more tracks, etc. at once but the OSC client must support that as well.
 
 ### Transport
@@ -551,7 +551,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 
 * Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown.
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
 
 ### Actions

@@ -7,7 +7,7 @@ Known Issues:
 
 ## Installation
 
-Load the respective template from the folder _resources/Beatstep_ into the device by using Arturias Midi Control Center.
+Load the respective template from the folder _resources/Beatstep_ into the device by using Arturia's Midi Control Center.
 
 Make sure that the Global MIDI channel is set to 3.
 
@@ -105,7 +105,7 @@ The knobs have the following functions:
 * **Knob 15**: Select the scale.
 * **Knob 16**: Transpose the pads up or down.
 
-The pads play the notes of the current scale and octave. The pads containing the root notes are coloured in red.
+The pads play the notes of the current scale and octave. The pads containing the root notes are colored in red.
 
 ## Drum Sequencer
 
@@ -164,7 +164,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 
 ### Pads
 

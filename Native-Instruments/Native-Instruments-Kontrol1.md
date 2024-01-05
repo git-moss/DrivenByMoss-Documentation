@@ -6,7 +6,7 @@ Provides support for the Native Instruments Komplete Kontrol controller Version 
 
 **Important**: This implementation accesses the device directly via USB. This has several advantages but also disadvantages. On the positive side, you get useful information in the display, e.g. you can see track and parameter names and it works on Linux. On the negative side, the Komplete Kontrol integration cannot be used.
 
-The device cannot be auto-detected and needs to be manually added. From the controller menu select *Native Instruments* and then *Komplete Kontrol Sxx mk I*, where xx is the number of keys of your specific device (25, 49, 61 or 88).
+The device cannot be auto-detected and needs to be manually added. From the controller menu select *Native Instruments* and then *Komplete Kontrol Sxx MkI*, where xx is the number of keys of your specific device (25, 49, 61 or 88).
 As MIDI input select the *normal* Komplete Kontrol input (not the external (EXT) and not the DAW (DAW) one). For the USB port there should only be one option show up, select that one. If none shows up, there is an issue with the USB detection. In that case, try disabling the NI service and/or try different USB ports and cables. Explaining how to disable the NI hardware integration service would lead too far in this manual, search the web for a tutorial how to disable a system service on your OS.
 
 ### Installation on Linux
@@ -102,7 +102,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up

@@ -79,8 +79,8 @@ F1 will now select the previous page, and F2 the next.
 * **Shift** (MCU SHIFT) - Use in combination with other buttons for additional functions.
 * **Option** (MCU OPTION) - Use in combination with other buttons for additional functions.
 * **F1-F8** (MCU F1-F8) - Functions for these buttons can be assigned in the settings dialog.
-* **Undo** (MCU UNDO) - Undos the last action
-* **Shift+Undo** - Redos the last undone action
+* **Undo** (MCU UNDO) - Undoes the last action
+* **Shift+Undo** - Redoes the last undone action
 
 ### Assignment
 
@@ -251,11 +251,11 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Hardware Setup
 
-* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the acoording entry from the list.
+* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the according entry from the list.
 * Has a display: Enable if the MCU compatible controller has a display.
 * Has a second display: Enable if the controller has a second display, which supports the specific iCON protocol extension.
 * Has a segment display: Enable if the MCU compatible controller has an additional segment display (for play position and tempo).
-* Has a assignment display: Enable if the MCU compatible controller has an additional assignment display (to display to current mode).
+* Has an assignment display: Enable if the MCU compatible controller has an additional assignment display (to display to current mode).
 * Has motor faders: Enable if the MCU compatible controller has motor faders.
 * Has only 1 fader: Enables a specific handling of banks to support controllers with only 1 fader
 * Display track names in 1st display: If enabled to 1st row of the 1st display the track names instead of the mode labels.
@@ -280,7 +280,7 @@ Changing these settings requires a restart of the extension.
 ### Tracks
 
 * Include FX and master tracks in track bank: If enabled, all tracks are included in the track bank. Handy if the controller misses a master track or has no button to toggle between track banks.
-* Pin FX tracks to last device: If enabled the FX track bank is created with a page of 8 fx tracks and is always displayed on the last (right most) controller. The page size of the instrument/audio track bank is reduced accordingly.
+* Pin FX tracks to last device: If enabled the FX track bank is created with a page of 8 FX tracks and is always displayed on the last (right most) controller. The page size of the instrument/audio track bank is reduced accordingly.
 * Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown. Press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
 
 
@@ -302,11 +302,11 @@ The available functions should be self-explanatory, except:
 
 ### Play and Sequence
 
-* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% alignes all notes fully to the grid.
+* Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 
 ### Workflow
 
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * New clip length: The length of a clip created with the New function.
 * Zoom: If enabled, arrow keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.

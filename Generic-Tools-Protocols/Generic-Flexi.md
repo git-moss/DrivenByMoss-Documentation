@@ -24,7 +24,7 @@ Linux: If the file dialogs to save/load do not work make sure you have *zenity* 
 
 ## Configuration
 
-You have 300 slots to map buttons, knobs, faders, etc. to a function in your DAW. It is a good idea to save the settings to a file before you start to do any mapping, then regularily click on *Save* again.
+You have 300 slots to map buttons, knobs, faders, etc. to a function in your DAW. It is a good idea to save the settings to a file before you start to do any mapping, then regularly click on *Save* again.
 
 To map your controller do the following:
 
@@ -160,7 +160,7 @@ You can select only one function from the lists. If you select a function from a
 * Master: Select a function which is related to the Master track.
 * MIDI CC: Sends a MIDI CC message to the DAW. This can also be used to transform a MIDI CC to a different one (e.g. Expression to Modulation).
 * Modes: Select a mode related function. See the mode descriptions above.
-* Note Input: Functions to control Note Repeat and Tranposition of the attached keyboard/pads.
+* Note Input: Functions to control Note Repeat and Transposition of the attached keyboard/pads.
 * Project Remotes: Select a project remote parameter related function.
 * Scene: Select a scene related function.
 * Track: Select a track related function. The function *Toggle trackbank* allows to switch between the Instrument/Audio track bank and the Effect track bank.
@@ -170,7 +170,7 @@ You can select only one function from the lists. If you select a function from a
 
 #### Global: Shift Button
 
-The function *Global: Shift Button* is intended to be assigned to a button. Using this button in combination with other knobs and buttons provides the following featurs:
+The function *Global: Shift Button* is intended to be assigned to a button. Using this button in combination with other knobs and buttons provides the following features:
 
 1. Using it in combination with a relative (!) knob, slows down the value change of this knob (see *Knob Speed Normal/Slow* settings below).
 2. Some of the functions found in *Transport* provide additional functionality when used with Shift:
@@ -213,7 +213,7 @@ If the connected device has a keyboard or pads, the following settings allow to 
 
 * Knob Speed Normal: Adjust the speed of the knobs.
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments. There is a function to define the Shift button available (*Global: Shift button*).
-* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate an deactivated item from the controller.
+* Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 
 ## Document Settings
 
