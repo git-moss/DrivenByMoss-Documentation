@@ -5,9 +5,12 @@
 * Requires Bitwig 5.0+
 * All devices
   * Fixed: The range of the gain note parameter seems to have changed. Adapted now.
+* Fire
+  * Fixed: Alternate clip launch option in Drum XoX could not be used.
 * Launchpad
   * New: The selected note for editing is automatically cleared when the note edit mode is closed.
 * Push
+  * New: Added Drum XoX sequencer.
   * New: By long pressing an edited note in the sequencers it can be deselected. If no more notes are selected the previous mode is restored.
   * New: Opening the track/layers detail mode is now only triggered on button up and if the select button was not used to e.g. select a drum sound.
   * New: The Scenes/Clips and Markers modes stay now active when the session view is left.

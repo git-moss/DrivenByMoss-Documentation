@@ -308,9 +308,18 @@ Press _"Note"_ and select *Poly Seq.* to enter **Poly Sequencer** mode:
 * Play one or more notes in that area
 * Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
 
+### Raindrop sequencer
+
+Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.
+
+* The lowest row displays the playable notes
+* The row above a note starts a raindrop
+* If the raindrop reaches the note it sounds
+* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
+
 ### Drum Sequencer
 
-Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
+Press _"Note"_ and select *Drum* to change to the Drum Sequencer. While the drum sequencers work with any instrument full features (solo, mute, colors) are only available when a Bitwig drum machine device is loaded on the track.
 
 * The drum sequencer works as described in the Push manual.
 * Note starts and lengths are lit in different colors.
@@ -327,18 +336,32 @@ Press _"Note"_ and select *Drum* to change to the Drum Sequencer.
 
 ### Drum 4 and Drum 8 sequencer
 
-Press _"Note"_ and select *Drum 4* or *Drum 8*.
+Press _"Note"_ and select *Drum 4* or *Drum 8* to activate it.
 
 These drum sequencers show 4 or 8 drum sounds for sequencing. Use the Page buttons to move in the clip.
 
-### Raindrop sequencer
+### Drum XoX Sequencer Mode
 
-Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.
+This mode is inspired by the Roland XoX devices. Press _"Note"_ and select *Drum XoX* to activate it. 
 
-* The lowest row displays the playable notes
-* The row above a note starts a raindrop
-* If the raindrop reaches the note it sounds
-* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
+* The *first 2 rows* (from the top) represent 16 slots (clips) of the currently selected track.
+  * The pads have the same color as the clips.
+  * Press one of the pads to start the playback or recording (depending on the settings) of the clip. 
+  * Use SHIFT + pad to trigger the alternative function for the clip launch (Bitwig only).
+  * Use SELECT + pad to only select the clip.
+  * Use DELETE + pad to delete the clip.
+  * Use DUPLICATE + pad to copy a clip. Keep DUPLICATE pressed then first select the source clip and the destination slot.
+* The rows *three and four* represent 16 drum pads.
+  * The pads have the same color as the 'pads' of the drum machine.
+  * Press one of them to select it to edit its' steps as well as to play it.
+  * Use SELECT + pad to only select it (without making it sound).
+  * Use DUPLICATE + pad to copy the steps of a pad. Keep DUPLICATE pressed then first select the source drum pad and the destination drum pad.
+* Rows *five to eight* represent up to 32 steps (depending on the selected resolution) of the selected drum pad.
+  * Press them to dis-/enable the step.
+  * Press two pads (keep the 1st pressed) to create longer notes.
+  * Keep the **Fixed Length** button pressed to set the length of the clip loop.
+  * Move to the previous/next page of the clip with Page left/right.
+  * Use the Fixed buttons to change the step resolution.
 
 ## Program Change Mode
 

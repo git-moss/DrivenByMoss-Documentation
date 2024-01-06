@@ -200,7 +200,7 @@ To change the other scale settings switch to the Play Mode and change it there.
 
 ### Drum (XoX) Sequencer Mode
 
-This mode is inspired by the Roland XoX devices. Press the **Drum** button to activate. The DRUM LED is lit orange. While the drum sequencers work with any instrument full features (solo, mute, colors) are only available when a drum machine is loaded on the track.
+This mode is inspired by the Roland XoX devices. Press the **Drum** button to activate. The DRUM LED is lit orange. While the drum sequencers work with any instrument full features (solo, mute, colors) are only available when a Bitwig drum machine device is loaded on the track.
 
 * The *first row* (from the top) represents 16 slots (clips) of the currently selected track.
   * The pad has the same color as the clip. 

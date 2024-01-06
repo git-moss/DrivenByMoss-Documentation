@@ -8,6 +8,7 @@
 * Launchpad
   * New: The selected note for editing is automatically cleared when the note edit mode is closed.
 * Push
+  * New: Added Drum XoX sequencer.
   * New: By long pressing an edited note in the sequencers it can be deselected. If no more notes are selected the previous mode is restored.
   * New: Opening the track/layers detail mode is now only triggered on button up and if the select button was not used to select something.
   * New: Multiple tracks can now be un-/selected by keeping the select button pressed.
