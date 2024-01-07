@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**22.2.0 (unreleased)**
+**22.2.0**
 
 * Requires Bitwig 5.0+
 * All devices
