@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**22.2.1**
+
+* Requires Bitwig 5.0+
+* Fire
+  * New: Selecting an already selected group track in mix mode does toggle the group open/closed.
+* LaunchControl XL
+  * New: In transport mode (keeping 'Record Arm' pressed) button 5 triggers Undo and button 6 Redo.
+* OSC
+  * Fixed: /track/param/{-,+} and /project/param/{-,+} did switch 8 pages instead of 1.
+* Push
+  * Fixed: Improved button colors in simulator.
+
 **22.2.0**
 
 * Requires Bitwig 5.0+

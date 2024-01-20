@@ -1,5 +1,20 @@
 # Changes - Cockos Reaper
 
+**22.2.1**
+
+* Requires Reaper 6.71+
+* All devices
+  * Fixed: Controllers could be instantiated twice.
+  * Fixed: Device modes could get stuck when switching to a track with less devices than on the previously selected track. Now the first plugin is selected. If there is no plugin on the track the index of the selected plugin is remembered until a track with at least 1 plugin is selected.
+* Fire
+  * New: Selecting an already selected folder track in mix mode does toggle the folder open/closed.
+* LaunchControl XL
+  * New: In transport mode (keeping 'Record Arm' pressed) button 5 triggers Undo and button 6 Redo.
+* OSC
+  * Fixed: /track/param/{-,+} and /project/param/{-,+} did switch 8 pages instead of 1.
+* Push
+  * Fixed: Improved button colors in simulator.
+
 **22.2.0**
 
 * Requires Reaper 6.71+

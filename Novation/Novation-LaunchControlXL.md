@@ -18,8 +18,8 @@ Track Focus row:
 * 2 **Clip Overdub** (amber): Toggle clip overdub.
 * 3 **Tempo-** (green): Decrease the song tempo by 1.
 * 4 **Tempo+** (green): Increase the song tempo by 1.
-* 5 -
-* 6 -
+* 5 **Undo**
+* 6 **Redo**
 * 7 **Clip Automation Write** (red): Toggle clip automation write.
 * 8 **Plugin Window** (green): Toggles the window of the currently selected device (if it has one).
 
@@ -33,6 +33,14 @@ Track Control row:
 * 6 **Click** (green): Toggle the metronome.
 * 7 **Arranger Automation Write** (red): Toggle arranger automation write.
 * 8 **Solo/Mute defeat** (amber): Turn off all mute and solo states.
+
+The following modes are available:
+
+1. [Track Mix](#track-mix-mode---1st-factory-template)
+2. [Equalizer](#equalizer-mode---2nd-factory-template)
+3. [Layer Mix](#layer-mix-mode---3rd-factory-template)
+4. [Drum Sequencer](#drum-sequencer---4th-factory-template)
+5. [Note Sequencer](#note-sequencer---5th-factory-template)
 
 ### Track Mix Mode - 1st Factory template
 
