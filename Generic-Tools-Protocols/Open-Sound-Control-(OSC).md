@@ -368,6 +368,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/send/{1-8}/volume          | {0-MAX_VALUE} | Set the volume of the send of the track.                | 
 | /track/{1-8}/send/{1-8}/volume/indicate | {0,1}         | Turn off/on, toggle the send volume indication.         |
 | /track/{1-8}/send/{1-8}/volume/touched  | {0,1}         | Turn off/on, toggle the send volume touched state.      |
+| /track/{1-8}/send/{1-8}/volume/reset    | {0,1}         | Reset the volume.                                       |
 | /track/{1-8}/enter           |               | Enter the group, if the track is a group/folder track. Toggles the folder open/closed, if track bank is flat. |
 | /track/{1-8}/color           | {color}       | Set the color of the track.                                        |
 | /track/{1-8}/recordQuantization | {OFF, 1/32, 1/16, 1/8, 1/4} | Sets the default record quantization for the MIDI input of the track. Sets the global value in Bitwig. |
@@ -447,15 +448,18 @@ The following commands apply to all devices. The cursor device (/device), the pr
 | /device/layer/{1-8}/volume            | {0-MAX_VALUE} | Set the volume of the layer.                   |
 | /device/layer/{1-8}/volume/indicate   | {0,1}         | Dis-/enable the layer volume indication.       |
 | /device/layer/{1-8}/volume/touched    | {0,1}         | Turn off/on the volume touched state.          |
+| /device/layer/{1-8}/volume/reset      |               | Reset the volume.                              |
 | /device/layer/{1-8}/pan               | {0-MAX_VALUE} | Set the panorama of the layer.                 |
 | /device/layer/{1-8}/pan/indicate      | {0,1}         | Dis-/enable the layer panorama indication.     |
 | /device/layer/{1-8}/pan/touched       | {0,1}         | Turn off/on the panorama touched state.        |
+| /device/layer/{1-8}/pan/reset         |               | Reset the panorama.                            |
 | /device/layer/{1-8}/mute              | {0,1,-}       | Dis-/enable, toggle the layer mute.            |
 | /device/layer/{1-8}/solo              | {0,1,-}       | Dis-/enable, toggle the layer solo.            |
 | /device/layer/{1-8}/send/{1-8}/activated | {1,-}      | Toggle the send disabled or enabled.           |
 | /device/layer/{1-8}/send/{1-8}/volume | {0-MAX_VALUE} | Set the send volume for the layer.             |
 | /device/layer/{1-8}/send/{1-8}/volume/indicate | {0,1} | Dis-/enable the layers' send volume indication. |
 | /device/layer/{1-8}/send/{1-8}/volume/touched  | {0,1} | Dis-/enable the layers' send touch state.     |
+| /device/layer/{1-8}/send/{1-8}/volume/reset    |       | Reset the send volume.                        |
 | /device/layer/{1-8}/enter             |               | Enter the device chain of the layer.           |
 | /device/layer/selected/{attributes}   | {value}       | The selected layer, same attributes as above.  |
 | /device/layer/parent                  |               | Leave the device chain of the layer.           |

@@ -33,10 +33,12 @@ For some limitations there are workarounds available:
 * **Crossfader**: On devices which support a crossfader it controls the 1st track FX parameter on the master track.
 * **Layouts**: Switching to Arrange, Mix or Edit layout setting loads Screenset #01, #02 and #03 in Reaper.
 * **Toggle Automation Editor Pane**: Maps to 'Envelope: Toggle show all active envelopes for all tracks' in Reaper.
+* **Sequencer**: If a note is not perfectly on the grid it is still drawn on the nearest pad(s) but to be deleted it needs to be exactly on the grid. Therefore, hit Quantise after recording and then you can delete the note(s).
 
 ### Further issues
 
 * If you use Melda plugins, turn off GPU acceleration in the Melda plugin settings. Otherwise Reaper will crash.
+* On Linux (Ubuntu) some Undo calls can freeze Reaper. E.g. I could reproduce that by simply creating a loop range and pressing Undo on the Launchpad. It does not happen if executed from inside Reaper. I tried to switch to calling the Undo-action instead of the API Undo-function but it has the same result. Since it hangs in the method call this looks like a Reaper bug to me.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

@@ -1,5 +1,21 @@
 # Changes - Bitwig Studio
 
+**22.2.2 (unreleased)**
+
+* Requires Bitwig 5.0+
+* LaunchkeyMini Mk3
+  * New: In Custom mode Shift+Arp/FixedChord toggles between track/remote parameters and the program change buttons switch pages now to be consistent with device mode.
+* Launchkey
+  * Fixed: 88 version was not fully supported. Display and fader modes did not work.
+* Launchpad
+  * Fixed: Project/Track params mode: color indication on scene buttons were missing.
+* OSC
+  * New: Added /device/layer/{1-8}/volume/reset
+  * New: Added /device/layer/{1-8}/pan/reset
+  * New: Added /device/layer/{1-8}/send/{1-8}/volume/reset
+  * Fixed: /track/{1-8}/send/{1-8}/volume/indicate did set the volume to 0.
+  * Fixed: /track/{1-8}/send/{1-8}/volume/touched did set the volume to 0.
+
 **22.2.1**
 
 * Requires Bitwig 5.0+

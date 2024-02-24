@@ -26,33 +26,33 @@ Use the 5 green buttons to switch between the modes for the knobs. The text abov
 #### Device Mode
 
 * Knob 1-8: Changes the value of the 8 parameters on the current device parameter page.
-* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next device
-* Program Change (Shift + +/-): Select the previous/next parameter page
+* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next device.
+* Program Change (Shift + +/-): Select the previous/next parameter page.
 
 #### Volume Mode
 
 * Knob 1-8: Changes the volume of the 8 tracks on the current track bank page.
-* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next track
-* Program Change (Shift + +/-): Select the previous/next track bank page
+* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next track.
+* Program Change (Shift + +/-): Select the previous/next track bank page.
 
 #### Pan Mode
 
 * Knob 1-8: Changes the panorama of the 8 tracks on the current track bank page.
-* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next track
-* Program Change (Shift + +/-): Select the previous/next track bank page
+* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next track.
+* Program Change (Shift + +/-): Select the previous/next track bank page.
 
 #### Sends Mode
 
 * Press Shift and use pad 7 and 8 on the lower pad row to switch between Send 1 and Send 2. 
 * Knob 1-8: Changes the Send 1 or 2 volume of the 8 tracks on the current track bank page.
-* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next track
-* Program Change (Shift + +/-): Select the previous/next track bank page
+* Track Left/Right buttons (Shift + Arp/Fixed Chord): Select the previous/next track.
+* Program Change (Shift + +/-): Select the previous/next track bank page.
 
 #### Custom Mode
 
-* Knob 1-8: Changes the value of a user mapped parameter. Right click any parameter in Bitwig and select to learn. After that move the knob to which you want to map the parameter. The mapped parameters are stored per project.
-* Track Left/Right buttons (Shift + Arp/Fixed Chord): -
-* Program Change (Shift + +/-): -
+* Knob 1-8: Changes the value of a project/track parameter.
+* Track Left/Right buttons (Shift + Arp/Fixed Chord): Toggles between controlling project and track parameters.
+* Program Change (Shift + +/-): Select the previous/next project/track parameters page.
 
 ### Pad Modes
 

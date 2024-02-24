@@ -320,6 +320,7 @@ Press _"Device"_ twice to enter this mode. This mode either controls the Project
 
 * **Cursor up/down**: Switches between controlling Project or (selected) Track parameters. 
 * **Cursor left/right**: Switches pages.
+* **Scene buttons**: Switch pages by 8.
 
 ## Browser Mode
 
