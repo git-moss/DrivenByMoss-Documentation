@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**22.2.2 (unreleased)**
+**23.0.0**
 
 * Requires Reaper 6.71+
 * LaunchkeyMini Mk3
@@ -9,6 +9,9 @@
   * Fixed: 88 version was not fully supported. Display and fader modes did not work.
 * Launchpad
   * Fixed: Project/Track params mode: color indication on scene buttons were missing.
+* Native Instruments Kontrol
+  * New: Added support for Mk3 keyboards.
+  * New: Added Track and Project parameter modes for S, A and M keyboards.
 * OSC
   * New: Added /device/layer/{1-8}/volume/reset
   * New: Added /device/layer/{1-8}/pan/reset
