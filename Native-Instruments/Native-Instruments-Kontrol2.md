@@ -9,7 +9,8 @@ Since Native Instruments Host Integration service is only available for Windows 
 Native Instruments Host Integration service must be installed and running. It is automatically the case
 if you installed Komplete Kontrol on your machine.
 
-**Important**: to make the selection of the Kontrol plugins work reliably, the Bitwig *Plug-in Hosting Mode* must NOT be set to *Individually*.
+**Important - Bitwig**: to make the selection of the Kontrol/Kontakt plugins work reliably, the Bitwig *Plug-in Hosting Mode* must NOT be set to *Individually*!
+**Important - Reaper**: the selection of the Kontrol/Kontakt plugins are based on their name, therefore do not rename them!
 
 1. Select the MIDI input and output ending with "DAW" as the first channel.
 2. Select the MIDI input and output without an ending as the second.

@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**23.0.1**
+
+* Requires Bitwig 5.0+
+* Native Instruments Kontrol
+  * Fixed: Added missing support for Kontakt 7 plugin UI/light guide.
+
 **23.0.0**
 
 * Requires Bitwig 5.0+

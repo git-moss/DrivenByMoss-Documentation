@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**23.0.1**
+
+* Requires Reaper 6.71+
+* Native Instruments Kontrol
+  * Fixed: Browser/Plugin-buttons were inactive after track changes.
+  * Fixed: Added missing support for Kontakt 7 plugin UI/light guide.
+
 **23.0.0**
 
 * Requires Reaper 6.71+
