@@ -53,7 +53,7 @@ Support script for Akai's APC40 and APC40mkII controller.
 ### Devices - Specifics for the Mk II
 
 * **Device Arrow left** - Move focus to previous device or select previous layer if in layer mode
-* **Device Arrow right**  - Move focus to next device or select next layer if in layer mode
+* **Device Arrow right** - Move focus to next device or select next layer if in layer mode
 * **Shift+Device Arrow left** - Exit layer mode or a layer ("out")
 * **Shift+Device Arrow right** - Enter layer mode or enter a layer ("in")
 * **Bank Arrow left** - Select previous parameter bank of device

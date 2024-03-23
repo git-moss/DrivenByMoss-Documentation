@@ -262,7 +262,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Use vertical zoom to change modes: If enabled, the up/down arrow keys in zoom mode can be used to select the different parameter modes.
 * Use faders like editing knobs: If enabled, the faders execute the same functions as the knobs. Handy for e.g. recording automation data.
 * VU meters: Enable if the MCU compatible controller supports the display of VU values.
-* Master VU Meter: Enable if the controller support the protocol extensions for VU values of the master fader.
+* Always send VU Meters: Always send VU meter updates to the controller, even if the value did not change. Enable if your controller deactivates VU meters after a while when the value is the same.
+* iCON VU Meters: Enable for iCON controllers with master VU meters and ignore the clip value.
 * Display colors (Behringer X-Touch): Enables the display back-light colors on the Behringer X-Touch and X-Touch Extender models.
 * Use 7 characters: If enabled, 7 characters are used in the display instead of 6 characters and a blank character. Makes sense for devices which do not have one large display but 8 separate ones which have a space in between already.
 
@@ -282,7 +283,6 @@ Changing these settings requires a restart of the extension.
 * Include FX and master tracks in track bank: If enabled, all tracks are included in the track bank. Handy if the controller misses a master track or has no button to toggle between track banks.
 * Pin FX tracks to last device: If enabled the FX track bank is created with a page of 8 FX tracks and is always displayed on the last (right most) controller. The page size of the instrument/audio track bank is reduced accordingly.
 * Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown. Press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
-
 
 ### Assignable buttons
 

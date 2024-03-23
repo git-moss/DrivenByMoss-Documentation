@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**23.2.0**
+
+* Requires Reaper 6.71+
+* MCU
+  * New: Added support for iCON V1-M (display RGB colors, 2nd display)
+  * New: Send VU updates only if necessary.
+  * Fixed: VU meters did not work anymore on iCON devices.
+
 **23.0.1**
 
 * Requires Reaper 6.71+
