@@ -1,5 +1,16 @@
 # Changes - Bitwig Studio
 
+**23.2.1**
+
+* Requires Bitwig 5.0+
+* AutoColor
+  * Fixed: Delayed the color change a bit to allow Undo to work.
+* HUI
+  * Fixed: The right VU meter was not working
+* Native Instruments Kontrol
+  * New: Mute/solo states are switched off in Parameter and Send Mode to prevent that the graphics get darkened in the display. Mute/solo buttons can still be used but state will not be visible in these modes.
+  * Fixed: Added missing Poly-Aftertouch (available in 88-key model).
+
 **23.2.0**
 
 * Requires Bitwig 5.0+
