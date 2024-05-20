@@ -28,6 +28,7 @@ The Mk3 and Maschine+ are identical (besides some slight label changes).
 The Mk2 misses some buttons of the Mk3. The differences are as follows:
 
 * The SHIFT button is not working in MIDI mode on the Mk2. The *STEP LEFT* button (above the REC button) is used as both a replacement of the STOP and SHIFT button.
+* The Page left / right buttons cannot be used in MIDI mode. Use NAVIGATE and pads instead (see below).
 * The *STEP RIGHT* button (above the ERASE button) is the *TAP TEMPO/METRO* button.
 * 4D-Encoder left/right: Use the 2 arrows below the encoder.
 * 4D-Encoder up/down: Use the 2 arrows below the encoder with Shift (STEP LEFT).
@@ -43,7 +44,7 @@ The Mk2 misses some buttons of the Mk3. The differences are as follows:
 The Maschine Studio misses some buttons of the Mk3 but also adds new features. The differences are as follows:
 
 * The SHIFT button is not working in MIDI mode on the Maschine Studio. Therefore, the *BACK* button (in the Edit section) is used instead.
-* The Page left / right buttons cannot be used in MIDI mode.
+* The Page left / right buttons cannot be used in MIDI mode. Use NAVIGATE and pads instead (see below).
 * 4D-Encoder left/right: Use the 2 function arrows below the encoder.
 * 4D-Encoder up/down: Use the 2 function arrows below the encoder with Shift (BACK).
 * *Select+2 function arrows* select the previous/next device.
@@ -233,7 +234,7 @@ The Touchstrip behaves based on the following modes.
 * **FIXED VEL** - If active, velocity of a played pad is fixed. Keep the button pressed and turn the encoder to set the fixed value.
 * **SCENE** - Press a pad to start one of the 16 scenes of the current bank page. Combine with Select button to select the scene without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep SCENE pressed and press any of the pads to stop all currently playing clips. Combine with SHIFT to execute the alternative stop function (Bitwig only).
 * **PATTERN** (clip mode) - Press a pad to start one of 16 clips of the current bank page on the selected track. Combine with Select button to select the clip without starting it. Combine with Shift button to execute the alternative launch function (Bitwig only). Keep PATTERN pressed and press any of the pads to stop the active clips playback. Combine with SHIFT to execute the alternative stop function (Bitwig only).
-* **VARIATION** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
+* **VARIATION/NAVIGATE** - Press a pad to select one of 8 or 9 parameters of the current device on the selected track. The parameter pads are colored in the Bitwig parameter colors. The select parameter blinks. Pads 13/14 select the device to edit on the current track. Pads 15/16 select the parameter page.
 * **DUPLICATE** - Use in combination with a pad to duplicate a scene, clip or track depending on the selected mode.
 * **SELECT** - Keep pressed and use in combination with the bank buttons to toggle the rec arm state of the track.
 * **SOLO** - Keep pressed and use in combination with the bank buttons to toggle the solo state of the track.

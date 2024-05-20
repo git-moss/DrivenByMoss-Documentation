@@ -1,5 +1,20 @@
 # Changes - Cockos Reaper
 
+**23.2.2**
+
+* Requires Reaper 6.71+
+* Akai Fire
+  * New: When unselecting the last edit note in seqencers a notification is now shown that the note edit mode is off.
+  * Fixed: In drum sequencers when the last edit note was unselected, it was deleted as well.
+* HUI
+  * New: Automation mode is shown in the display when a new mode is selected.
+* Launchpad Pro
+  * Fixed: Play mode restore did not work when combined with keeping Track Select button pressed.
+* Native Instruments Kontrol Mk3
+  * New: 'Metronome' can now also be selected to switch modes.
+* Native Instruments Maschine Mk2/Studio
+  * Fixed: Shift+Cursor left/right did not switch parameter pages.
+
 **23.2.1**
 
 * Requires Reaper 6.71+
