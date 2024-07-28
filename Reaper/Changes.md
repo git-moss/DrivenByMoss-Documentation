@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**24.0.0 (unreleased)**
+
+* Requires Reaper 6.71+
+* Added support for OXI One hardware sequencer.
+* All devices
+  * Fixed: Device detection was broken on Macos.
+  * Fixed: Issues with parsing Reaper properties.
+* Maschine JAM
+  * Fixed: Extension crashed due to an ill-formatted sysex message.
+
 **23.2.2**
 
 * Requires Reaper 6.71+

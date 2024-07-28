@@ -1,5 +1,16 @@
 # Changes - Bitwig Studio
 
+**24.0.0 (unreleased)**
+
+* Requires Bitwig 5.0+
+* Added support for OXI One hardware sequencer.
+* All devices
+  * Fixed: Device detection was broken on Macos ARM.
+* Maschine JAM
+  * Fixed: Extension crashed due to an ill-formatted sysex message.
+* MCU
+  * Fixed: Device layers could not be navigated.
+
 **23.2.2**
 
 * Requires Bitwig 5.0+

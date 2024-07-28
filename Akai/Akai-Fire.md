@@ -331,8 +331,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* behavior on Stop: Sets the action to be executed when playback is stopped with the Stop button
-* behavior on Pause: Sets the action to be executed when playback is stopped with the Play button
+* Behavior on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Behavior on Pause: Sets the action to be executed when playback is stopped with the Play button
 * Flip arranger and clip record: if enabled, the functionality of the Record button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence
@@ -346,6 +346,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Drum Sequencer
 
 * Turn off empty drum pads: Empty drum cells are displayed in orange. If enabled the pad LEDs are off.
+* Use combination button to sound drum pads: Toggle to sound drum pads with or without pressing Alt button.
 
 ### Workflow
 
@@ -365,22 +366,22 @@ These settings are specific to each project.
 
 ### Scales
 
-* Scale: Select the scale
-* Base: Select the base note of the scale
+* Scale: Select the scale.
+* Base: Select the base note of the scale.
 * In Key: Select *Chromatic* to also display notes which are not part of the scale.
 * Layout: Select the layout of the scale for the Play mode. The numbers are the offsets between the rows of the grid. The arrows depict the direction from lower to higher notes: left to right or bottom to top.
 
 ### Note Repeat
 
-* Active: Enable note repeat
-* Period: The repeat rate of the note repeat
-* Length: The length of a repeated note
-* Mode: The arpeggiator mode
-* Octave: The octave range which is used by the arpeggiator
+* Active: Enable note repeat.
+* Period: The repeat rate of the note repeat.
+* Length: The length of a repeated note.
+* Mode: The arpeggiator mode.
+* Octave: The octave range which is used by the arpeggiator.
 
 ### Play and Sequence
 
-* MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers
+* MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

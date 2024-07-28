@@ -197,10 +197,10 @@ After you have copied the file reboot your computer.
 
 Press _"Note"_ and select *Play* to change to the Play mode.
 
-* The key layout is like running the Push with Ableton. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*.
+* The key layout shows all notes of a scale with different offsets between the rows. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*.
 * The touch-strip (Ribbon) can be configured for different tasks. Call up the configuration mode with Shift+Touchstrip.
-* Press _"Scales"_ (keep pressed for temporary) to change the scales (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
-* The played keys are lighting red if global or clip recording (does not work if recording clip is outside of the monitored 8x8 matrix)
+* Press _"Scales"_ (keep pressed for temporary) to change the scale (Chromatic, Major, Minor, etc.) and the root note with the 16 buttons below the display. Press and keep the **Shift** button to change the scale layout.
+* The played keys are lit green when played and red if global or clip recording is active.
 * Use the Delete button in combination with a pad. This deletes all appearances of that note in the currently selected clip. Use with care since the notes you see lit might not come from the currently selected clip!
 
 ### Chords Mode
