@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**24.0.0 (unreleased)**
+**24.0.0**
 
 * Requires Reaper 6.71+
 * Added support for OXI One hardware sequencer.

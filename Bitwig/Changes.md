@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**24.0.0 (unreleased)**
+**24.0.0**
 
 * Requires Bitwig 5.0+
 * Added support for OXI One hardware sequencer.
