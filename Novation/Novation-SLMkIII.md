@@ -88,21 +88,21 @@ In all track modes hold **Shift** for additional functions:
 ### Device Modes
 
 Press the **Up button** left to the display to switch to Device mode and toggle between the display of devices and parameter pages.
-Alternatively, hold the **Up button** and select one of the modes with the select buttons below the display. This menu also contains the **Project FX** (press 7th button) and the **Track FX** mode (press 8th button).
+Alternatively, hold the **Up button** and select one of the modes with the select buttons below the display. This menu also contains the **First Instrument** (press 6th button), **Project FX** (press 7th button) and the **Track FX** mode (press 8th button).
 
 1. **Device - Devices** - The Up button LED is lit **Mint**
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the Clear key and turn the encoder to reset its value.
     * Buttons select a device of the selected track.
-
 2. **Device - Parameter Pages** - The Up button LED is lit **Purple**
     * 8 edit knobs: As above.
     * Buttons select a parameter page of the selected device.
-
-3. **Project FX** - The Up button LED is lit **White**
+3. **First Ins** - The Up button LED is lit **Yellow**
+    * 8 edit knobs: Change the value of the mapped first instrument parameters on the selected track.
+    * Buttons select a parameter page.
+4. **Project FX** - The Up button LED is lit **White**
     * 8 edit knobs: Change the value of the mapped project parameters.
     * Buttons select a parameter page.
-
-4. **Track FX** - The Up button LED is lit **Amber**
+5. **Track FX** - The Up button LED is lit **Amber**
     * 8 edit knobs: Change the value of the mapped parameters of the selected track.
     * Buttons select a parameter page.
 

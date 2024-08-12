@@ -18,7 +18,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Repeat** (HUI LOOP) - Toggle repeat
 * **Stop** (HUI STOP) - Stop playback. Press again to move play cursor to start of song. Double click to move play cursor to the end of the song.
 * **Play** (HUI PLAY) - Start/Stop playback. Double click to move play cursor to start of song.
-* **Shift (HUI SHIFT)+Play** - Toggle repeat
+* **Shift (HUI SHIFT)+Play** - Toggle arranger repeat
 * **Option (HUI OPTION)+Play** - Toggle Punch In
 * **Option+Shift+Play** - Toggle Punch Out
 * **Record** (HUI RECORD) - Start/Stop recording
@@ -32,7 +32,7 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Zoom** - If active, the arrow buttons left/right zoom the arranger horizontally. The up/down arrows both toggle the height of the track.
 * **Metronome** (HUI PRE) - Toggle metronome
 * **Tap Tempo** - (HUI POST) - Executes Tap Tempo
-* **Quick Punch** - (HUI QICK PUNCH) - Toggle Punch In
+* **Quick Punch** - (HUI QUICK PUNCH) - Toggle Punch In
 * **In** - (HUI IN) - Toggle Punch In
 * **Out** - (HUI OUT) - Toggle Punch Out
 * **Audio Engine** (HUI ON LINE) - Toggle Audio Engine on/off for current project
@@ -53,8 +53,11 @@ The settings dialog contains profiles for several devices, which sets the correc
 
 ### Assignment
 
+* **Track** (HUI ASSIGN1 INPUT) - Activates track mode
 * **Pan** (HUI MODE PAN) - Select the Panorama edit mode. See the section **Edit Modes** below.
 * **Send A-E** (HUI MODE SEND A-E) - Select the Send edit mode A-E.
+* **EQ** (HUI ASSIGN1 OUTPUT) - Selects EQ mode
+* **Device** (HUI ASSIGN2 BYPASS) - Activates device mode
 
 ### Automation
 
@@ -63,6 +66,15 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **Trim** (HUI TRIM) - Since Bitwig has not Trim mode, this button toggles the clip automation recording.
 * **Touch** (HUI TOUCH) - Enables arranger automation recording and sets it to Touch mode.
 * **Latch** (HUI LATCH) - Enables arranger automation recording and sets it to Latch mode.
+
+### Edit
+
+* **Paste** (HUI PASTE) - Adds an instrument track.
+* **Shift+Paste** - Adds an effect track.
+* **Option+Paste** - Adds an audio track.
+* **Copy** (HUI COPY) - Insert/replace a device
+* **Shift+Copy**: Insert a device before the currently selected device.
+* **Option+Copy**: Insert a device after the currently selected device.
 
 ### Utilities
 
@@ -93,6 +105,19 @@ The settings dialog contains profiles for several devices, which sets the correc
 * **8 faders** (HUI FADER_TOUCH1-8) - Change volume of selected 8 tracks. Touching a fader automatically selects the track.
 * **Press knob** (HUI VSELECT1-8) - Resets the current parameter to its default value.
 
+### Track edit mode
+
+Press _Assign 1 - Input_ to enter.
+
+* **Knob 1** - Changes the volume of the selected channel.
+* **Knob 2** - Changes the panorama of the selected channel.
+* **Knob 3** - Changes Send 1 of the selected channel.
+* **Knob 4** - Changes Send 2 of the selected channel.
+* **Knob 5** - Changes Send 3 of the selected channel.
+* **Knob 6** - Changes Send 4 of the selected channel.
+* **Knob 7** - Changes Send 5 of the selected channel.
+* **Knob 8** - Changes Send 6 of the selected channel.
+
 ### Panorama edit mode
 
 Press _Pan_ to enter.
@@ -101,9 +126,25 @@ Press _Pan_ to enter.
 
 ### Send 1 - 8 edit mode
 
-Press _Send_ to enter. Press multiple times to select the Send channels 1 to 8. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
+Press _Send 1_ to enter. Press multiple times to select the Send channels 1 to 8. Use in combination with the **Track select** buttons to select the respective Send channel 1-8.
+_Send 2_ and _Send 3_ directly select Send channels 2 and 3.
 
-* **8 knobs** - Change the volume of send of that channel.
+* **8 knobs** - Change the volume of the selected send on that channel.
+
+### Device edit mode
+
+Press _Assign 2 - Bypass_ to enter.
+
+* **8 knobs** - Changes the parameters of the selected parameter page.
+* Use Channel Left/Right to switch between the different parameter pages.
+* Fader Bank Left/Right switches between the devices on the selected track.
+
+### EQ edit mode
+
+Press _Assign 1 - Output_ to enter. Edits the equalizer device on the track. If none is present a device is inserted when the mode gets activated.
+
+* **8 knobs** - Changes the parameters of the EQ.
+* Use Channel Left/Right to switch between the different parameter pages.
 
 ## Foot switches
 

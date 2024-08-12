@@ -49,6 +49,7 @@ Each slot has the following parameters:
 * Knob Mode: This option only applies to continuous functions like changing the volume of a track. Depending on the possibilities of your controller knob you need to choose the matching mode.
 * Function: Choose a function from the different categories that should be executed, when the configured MIDI message is received.
 * Send value to device: This option only applies to continuous functions like changing the volume of a track. If it is enabled, the current value is sent to the controller with the configured CC.
+* Functions Layer: Assigns the function to one of 10 layers. The function is only executed if the respective layer is active. Layer 1 is the default layer. Use the functions under *Function Layers* to temporarily or permanently activate a different layer.
 
 ## Features of Modes
 
@@ -214,6 +215,11 @@ If the connected device has a keyboard or pads, the following settings allow to 
 * Knob Speed Normal: Adjust the speed of the knobs.
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments. There is a function to define the Shift button available (*Global: Shift button*).
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
+
+### Transport
+
+* Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button.
 
 ## Document Settings
 

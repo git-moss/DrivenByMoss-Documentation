@@ -278,6 +278,7 @@ These settings are specific to each project.
 ### Play and Sequence
 
 * MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers.
+* Turn off scale pads: If enabled, all pads which represent notes which are in-scale are switched off (instead of white).
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

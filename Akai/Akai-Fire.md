@@ -128,8 +128,8 @@ Press the **Note** button to activate. The NOTE LED is lit orange.
 * **Select Knob**: Move the note range one octave up/down
 * **Grid buttons**: Toggle Chromatic / In Scale
 * **Shift+Grid buttons**: Change the Scale
-* **Alt+Grid buttons**: Change the Scale Layout
-* **Shift+Alt+Grid buttons**: Change the Scale Base key
+* **Shift+Alt+Grid buttons**: Change the Scale Layout
+* **Alt+Grid buttons**: Change the Scale Base key
 * **Mute/Solo 1-4**: Same as in Note Sequencer mode
 
 ### Piano Mode
@@ -281,16 +281,22 @@ In the first 2 4x4 blocks the note *repeat settings* can be configured:
 * The left/top button dis-/enables note repeat
 * The buttons 3 and 4 in the top row select the arpeggiator modes
 * All other buttons in the first block select the number of octaves
-* The first to columns in the second block select the period length
+* The first two columns in the second block select the period length
 * The remaining two columns in the second block select the note length
 
-The other buttons have the following functions:
+The buttons in the 3rd and 4th block have the following functions:
 
-* With the bottom row of the 3rd and 4th block the length of new clips are selected (which can be created with Alt+Record).
-* The 10th button of the first row (blue) activates duplicate mode. Can be used with the first row of the Mix mode to duplicate tracks and with clips in the Session mode.
-* The 11th button of the first row (green) doubles the content of the currently selected clip.
-* The 12th button of the first row (red) activates delete mode. Can be used with the first row of the Mix mode to delete tracks and with clips in the Session mode.
-* The three buttons in the upper right corner create new Instrument, Audio and Effect tracks.
+* Buttons of the 1st row (from top):
+  * Button 10 (blue) activates duplicate mode. Can be used with the first row of the Mix mode to duplicate tracks and with clips in the Session mode.
+  * Button 11 (green) doubles the content of the currently selected clip.
+  * Button 12 (red) activates delete mode. Can be used with the first row of the Mix mode to delete tracks and with clips in the Session mode.
+  * Buttons 14-16 create new Instrument, Audio and Effect tracks.
+* Buttons of the 2nd row:
+  * Button 14 (green/red): Toggles pinning of the cursor track.
+  * Button 15 (green/red): Toggles pinning of the cursor device.
+  * Button 16 (green/red): Toggles pinning of the cursor clip.
+* Buttons of the 3rd row select the Automation Write Mode.
+* The bottom row selects the length of new clips (which can be created with Alt+Record).
 
 The Mute/Solo buttons have the following functions:
 
@@ -382,6 +388,7 @@ These settings are specific to each project.
 ### Play and Sequence
 
 * MIDI Edit: Select the MIDI channel to use to display and edit MIDI notes in sequencers.
+* Turn off scale pads: If enabled, all pads which represent notes which are in-scale are switched off (instead of white).
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

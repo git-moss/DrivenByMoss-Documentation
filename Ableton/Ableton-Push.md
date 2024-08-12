@@ -152,10 +152,16 @@ After you have copied the file reboot your computer.
     * Other buttons behave as above.
   
 6. **Device** - Press "Device" to enter
-    * Buttons of 1st row select the device or the parameter banks. Use in combination with the Delete button to delete a device.
-    * 1st button on 2nd row in device modes dis-/enables device (button above display on Push 2/3).
-    * 7th button on 2nd row in device modes displays VST window or pop-out window of specific Bitwig devices (button above display on Push 2/3).
-    * 8th button on 2nd row in device modes moves up to tracks.
+    * The buttons of the 1st row select the device or the parameter banks. Use in combination with the Delete button to delete a device.
+    * 2nd row buttons (buttons above display on Push 2/3):
+        * Button 1: Dis-/enables the device.
+        * Button 2: Shows/hides the remote controls section of the plugin.
+        * Button 3: Toggles the device between extended and small view.
+        * Button 4: Enter the *Chains* sub-devices for Bitwig devices which have slots.
+        * Button 5: Toggles between device and parameter bank navigation.
+        * Button 6: Pins the device to the controller. If a different device is selected in the DAW or from another contrroller it will not change.
+        * Button 7: Opens/closes the plugin window or pop-out window of specific Bitwig devices.
+        * Button 8: Navigates up to the track mode.
     * To navigate groups, layers and devices press now the respective first row button. Long press any of the first row buttons to move up the hierarchy again.
     * 8 edit knobs: Change 8 parameters of the selected device (FX). Hold **Shift** for fine adjustments. Hold the delete key and touch a knob to reset its value.
     * Left/Right buttons: Select next/previous device or parameter bank
@@ -260,7 +266,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.
 * Press **Delete+Pad** in Session Mode to the delete the clip.
 
-When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2/3 to quickly step through these views. Furthermore, you can select the Clip, Marker or Mixer mode which display either clips/scenes, markers or the mixer in the display.
+When in Session view and press Session again a menu turns up (like in note view) where you can select different views. The normal Session view, the flipped version and the Scene view. Use the Layout button on Push 2/3 to quickly step through these views. Furthermore, you can select the Clip, Marker or Mixer mode which display either clips/scenes, markers or the mixer in the display. In Clip and Marker mode the knobs control the volume of the tracks.
 **Large Knob** (Push 3 only): When clip/scene mode is active it navigates the clip/scenes grid. Turn it to select the previous/next clip/scene. Press it to start the clip/scene. Move it to the left/right to switch tracks/select the previous/next scene.
 
 ### Marker mode

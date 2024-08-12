@@ -290,6 +290,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Ribbon Mode: Select the function of the ribbon strip.
+* Turn off scale pads: If enabled, all pads which represent notes which are in-scale are switched off (instead of white).
 
 ### Session
 

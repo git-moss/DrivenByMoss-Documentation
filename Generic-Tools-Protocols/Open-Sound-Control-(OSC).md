@@ -443,6 +443,7 @@ The following commands apply to all devices. The cursor device (/device), the pr
 | /device/param/{1-8}/touched           | {0,1}         | Turn off/on the touched state.                 |
 | /device/page/selected                 | {1-8}         | Select the device page.                        |
 | /device/page/{1-8}/selected           |               | Select the device page.                        |
+| /device/layer/{1-8}/activated         | {0,1}         | De-/actives the layer.                         |
 | /device/layer/{1-8}/selected          |               | Select the layer.                              |
 | /device/layer/{1-8}/name              | {text}        | Set a new name for the layer.                  |
 | /device/layer/{1-8}/volume            | {0-MAX_VALUE} | Set the volume of the layer.                   |

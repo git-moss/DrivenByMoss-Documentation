@@ -1,5 +1,50 @@
 # Changes - Bitwig Studio
 
+**24.1.0**
+
+* Requires Bitwig 5.0+
+* APC40mkII, Fire, Launchpad, Maschine, Maschine JAM, OXI One, Push
+  * New: Added new setting 'Turn off scale pads'. If enabled, all pads which represent notes which are in-scale are switched off (instead of white).
+  * New: Played chords are displayed in play modes.
+* Fire
+  * New: The Shift Mode allows to pin the cursor track, cursor device and cursor clip (3 green buttons in the 2nd row from the top).
+  * New: The Automation Write Mode can be selected in the Shift Mode (buttons of the 3rd row).
+  * New: The initial pad brightness is now set to 20%.
+  * New: Switched button combinations for changing the root note and changing the scale layout.
+  * New: Toggling clip launcher/arranger automation gives now feedback in the display.
+* Generic Flexi
+  * New: Functions can now be assigned to 10 different layers. With the 'Function Layers' functions each layer can be temporarily or permanently activated.
+  * New: Added functions for Groove: 'Toggle Active', 'Set Shuffle Amount', 'Set Accent Amount'.
+  * New: Added functions 'Track: Scroll Bank Page by 1 left', 'Track: Scroll Bank Page by 1 right'.
+  * New: Added functions 'FX Track: Scroll Bank Page by 1 left', 'FX Track: Scroll Bank Page by 1 right'.
+  * New: Added functions 'Scene: Scroll Bank Page by 1 left', 'Scene: Scroll Bank Page by 1 right'.
+  * New: Added settings for 'Behaviour on Pause' and 'Behaviour on Stop'.
+* HUI
+  * New: Added track, device and EQ modes.
+  * New: AUTO1-8 is used for knob press as well (e.g. used like this with X-Touch).
+  * New: 'Paste' adds an instrument track.
+  * New: 'Shift+Paste' adds an effect track.
+  * New: 'Option+Paste' adds an audio track.
+  * New: 'Copy' inserts/replaces a device.
+  * New: 'Shift+Copy' inserts a device before the currently selected device.
+  * New: Option+Copy' inserts a device after the currently selected device.
+* MCU
+  * New: Keep the Shift button pressed to show the devices on the selected track. Press the respective knob to select the device for editing.
+  * New: Added 'Channel Prev/Next' to the function commands which emulate the respective buttons for devices which do not have them.
+* OSC
+  * New: Added command to de-/activate a layer (/device/layer/{1-8}/activated).
+* OXI One
+  * New: Playing/recording clips do no longer blink.
+* Push 1-3
+  * New: In Clips and Markers mode the knobs control now the volume of the tracks.
+  * New: Added Load/Save commands to the master mode.
+* SLMk3
+  * New: Project Parameter Mode - info display shows now the project name.
+  * New: Track Parameter Mode - info display shows now the track name.
+  * New: Parameter Mode - info display shows now the track name instead of the selected parameter page.
+  * New: The first instrument of the track can now be edited (long press UP, then select 'First Ins').
+  * Fixed: Selecting Project/Track parameter pages did not work.
+
 **24.0.0**
 
 * Requires Bitwig 5.0+
