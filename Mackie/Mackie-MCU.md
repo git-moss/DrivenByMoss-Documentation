@@ -4,11 +4,13 @@ Support script for the Mackie MCU protocol. It supports up to 4 MCU devices, whi
 
 While this extension supports the Mackie MCU protocol in general, I could only test it with the following devices:
 
+* Asparion D700
 * Behringer X-Touch / X-Touch Extender
 * Behringer X-Touch One
+* iCON Platform M/M+ with extender
+* iCON QConPro X - Select the Bitwig mode and use the Bitwig overlay!
+* iCON V1M
 * Mackie MCU Pro
-* icon Platform M/M+ with extender
-* icon QConPro X - Select the Bitwig mode and use the Bitwig overlay!
 * Zoom R16
 
 In the following the supported features are described. In brackets the names of the MCU buttons are noted which trigger the feature.
@@ -166,7 +168,7 @@ F1 will now select the previous page, and F2 the next.
 
 ### Track edit mode (tr)
 
-Press _Track_ to enter.
+Press _Track_ to enter or press _Pan_ twice.
 
 * **8 knobs** - Change the volume, panorama, crossfader and Send 1-5 of the selected track. Hold **Shift** for fine adjustments.
 * You can configure in the preferences that the crossfader option is hidden and you get 6 sends instead.
@@ -253,9 +255,9 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Hardware Setup
 
-* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the according entry from the list.
-* Has a display: Enable if the MCU compatible controller has a display.
-* Has a second display: Enable if the controller has a second display, which supports the specific iCON protocol extension.
+* Profile: This list contains some presets to setup the following hardware settings. If one of the controllers from the list is connected select the according entry from the list. Note: this menu will not(!) stay on the selected entry which is correct. It is only for configuring the following parameters.
+* Main display: Enable if the MCU compatible controller has a (main) display. Choose the 7 characters option (instead of 6 characters and a blank) for devices which do not have one large display but 8 separate ones which have a space in between already.
+* Has a second display: Enable if the controller has a second display, which supports specific protocols of Asparion or iCON.
 * Has a segment display: Enable if the MCU compatible controller has an additional segment display (for play position and tempo).
 * Has an assignment display: Enable if the MCU compatible controller has an additional assignment display (to display to current mode).
 * Has motor faders: Enable if the MCU compatible controller has motor faders.
@@ -263,11 +265,9 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Display track names in 1st display: If enabled to 1st row of the 1st display the track names instead of the mode labels.
 * Use vertical zoom to change modes: If enabled, the up/down arrow keys in zoom mode can be used to select the different parameter modes.
 * Use faders like editing knobs: If enabled, the faders execute the same functions as the knobs. Handy for e.g. recording automation data.
-* VU meters: Enable if the MCU compatible controller supports the display of VU values.
+* VU meters: Enable if the MCU compatible controller supports the display of VU values (select Mackie). Specific support for additional Asparion and iCON features.
 * Always send VU Meters: Always send VU meter updates to the controller, even if the value did not change. Enable if your controller deactivates VU meters after a while when the value is the same.
-* iCON VU Meters: Enable for iCON controllers with master VU meters and ignore the clip value.
 * Display colors (Behringer X-Touch): Enables the display back-light colors on the Behringer X-Touch and X-Touch Extender models.
-* Use 7 characters: If enabled, 7 characters are used in the display instead of 6 characters and a blank character. Makes sense for devices which do not have one large display but 8 separate ones which have a space in between already.
 
 ### Extender Setup
 

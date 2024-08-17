@@ -1,5 +1,12 @@
 # Changes - Bitwig Studio
 
+**24.2.0**
+
+* Requires Bitwig 5.0+
+* MCU
+  * New: Added additional MCU support for Aspirion D700 series.
+  * New: Track names have a prefix of the send index in Send mode.
+
 **24.1.0**
 
 * Requires Bitwig 5.0+

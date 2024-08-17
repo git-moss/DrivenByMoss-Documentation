@@ -1,5 +1,12 @@
 # Changes - Cockos Reaper
 
+**24.2.0**
+
+* Requires Reaper 6.71+
+* MCU
+  * New: Added additional MCU support for Aspirion D700 series.
+  * New: Track names have a prefix of the send index in Send mode.
+
 **24.1.0**
 
 * Requires Reaper 6.71+
