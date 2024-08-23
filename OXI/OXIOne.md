@@ -243,6 +243,9 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Play and Sequence
 
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
+* Turn off scale pads: Activate to turn off the pads which are not the root note (instead of being white).
+* Notify played chords: Displays the played chords or notes if enabled.
+* Startup view: The view that should be selected on startup.
 
 ### Drum Sequencer
 

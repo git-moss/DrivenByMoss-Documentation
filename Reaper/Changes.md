@@ -1,5 +1,39 @@
 # Changes - Cockos Reaper
 
+**24.3.0**
+
+* Requires Reaper 6.71+
+* Reaper specifics
+  * New: Improved logging area. Errors are now printed in red.
+  * New: After changing the settings of a controller, only this controller is restarted.
+  * New: The controller can now be double clicked to open the setting dialog.
+  * New: Switched setting of automation to global automation mode (instead of per track).
+  * New: 'Toggle Cue Marker Visibility' triggers now the Reaper action 'Ruler: Display project regions/markers as gridlines in arrange view'.
+  * New: 'Toggle Track Height' triggers now the Reaper action 'View: Cycle track zoom between minimum, default, and maximum height (limit to 100%)'.
+  * Fixed: The controller specific project settings were not restored when a project was auto-loaded on Reaper startup.
+  * Fixed: Fixed some issues related to the controller listbox.
+  * Fixed: There were several startup issues when the extension was initiated for the 1st time and the Reaper configuration dialogs were not closed before making changes in the DrivenByMoss window. The user interface is now blocked until the dialogs are closed. Additionally, some measure are now taken to fix broken configuration files.
+* All devices
+  * New: When scrolling track bank page left the 1st instead of the last track of the new page is selected.
+* APC40mkII, Fire, Launchpad, Maschine, Maschine JAM, OXI One, Push
+  * New: Added option to disable showing played chords.
+  * New: Renamed setting *Default note view* to *Startup view*.
+* Fire
+  * New: The Shift mode is not activated when ALT is already pressed.
+  * Fixed: Slow knob mode got stuck when pressing SHIFT a second time.
+* Launchpad
+  * New: The bird's eye view in session mode is now closed automatically if the Session button is kept pressed.
+  * New: In Project/Track params mode the scene buttons do now select the pages 1-8 (instead of blocks of 8 pages).
+  * Fixed: Extension crashed when pressing one of the cursor keys in clip loop edit view.
+  * Fixed: Shift mode should not be activated when used in combination with cursor keys in session mode.
+* Maschine, OXI One
+  * New: Added new setting 'Startup view' which allows to auto-select the preferred view on startup.
+* MCU
+  * New: Keep the Option button pressed to show the parameter pages of the selected device. Press the respective knob to select the page for editing.
+  * New: Device mode shows number of available pages on 2nd display.
+* Push 1
+  * New: Notification messages which are shorter than 18 characters are now shown in the right upper corner of the display instead of clearing the whole display.
+
 **24.2.0**
 
 * Requires Reaper 6.71+

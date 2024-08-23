@@ -76,7 +76,7 @@ Furthermore, some buttons were moved to a button which needs to be used in combi
 ## Cursors and Mode selection (Upper button row)
 
 * **Arrows** - Navigate in the different modes (see below), holding an arrow button down will scroll through the specific View (e.g. track, scene).
-* **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice. Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode. Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
+* **Session** - Selects the Session mode to start, stop and record clips. Session can be flipped if Session button is pressed twice. Long press Session to select *birds-eye-view* to quickly navigate the clip grid. Press Session again to leave this mode or keep Session pressed while selecting a pad to close it automatically. Temporary session mode: if any mode except session is active, hold the session button and then start a clip or scene. When the session button is released the previous mode is restored.
 * **Note** - Pressing the Note button brings up a menu where you can select the note/sequencer mode. First row (from top) selects play modes, 3rd row drum modes and 5th row sequencer modes. On the **Pro Mk3** pressing the Note button toggles through the 3 play modes.
 * **Device** - Selects the Device mode to change the Parameters of the currently selected device. If pressed again it opens the browser for preset selection mode. If no device is selected the browser is opened to insert a device.
 * **Shift+Device** - Opens the device browser to add a device after the currently selected one (on the Pro Mk3 this executes Tempo. Use the up/down buttons in the browser instead).
@@ -320,7 +320,7 @@ Press _"Device"_ twice to enter this mode. This mode either controls the Project
 
 * **Cursor up/down**: Switches between controlling Project or (selected) Track parameters. 
 * **Cursor left/right**: Switches pages.
-* **Scene buttons**: Switch pages by 8.
+* **Scene buttons**: Select the pages 1-8.
 
 ## Browser Mode
 
@@ -416,9 +416,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Activate Fixed Accent: If a note is played the velocity is ignored and a fixed value is used.
 * Fixed Accent Value: The velocity value to use when fixed accent is active.
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
-* Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
+* Startup view: The view that should be selected on startup.
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
-* Turn off scale pads: If enabled, all pads which represent notes which are in-scale are switched off (instead of white).
+* Turn off scale pads: Activate to turn off the pads which are not the root note (instead of being white).
+* Notify played chords: Displays the played chords or notes if enabled.
 
 ### Transport
 

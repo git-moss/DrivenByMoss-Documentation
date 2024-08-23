@@ -34,6 +34,16 @@ For some limitations there are workarounds available:
 * **Layouts**: Switching to Arrange, Mix or Edit layout setting loads Screenset #01, #02 and #03 in Reaper.
 * **Toggle Automation Editor Pane**: Maps to 'Envelope: Toggle show all active envelopes for all tracks' in Reaper.
 * **Sequencer**: If a note is not perfectly on the grid it is still drawn on the nearest pad(s) but to be deleted it needs to be exactly on the grid. Therefore, hit Quantise after recording and then you can delete the note(s).
+* **Panels/Mixer/Layouts**: The following Bitwig commands are mapped to the following Reaper actions:
+  * **Toggle Automation Editor**: Envelope: Toggle show all active envelopes.
+  * **Toggle Cue Marker Visibility**: Ruler: Display project regions/markers as gridlines in arrange view.
+  * **Toggle Track Height**: View: Cycle track zoom between minimum, default, and maximum height (limit to 100%).
+  * **Toggle Inspector**: View: Show track manager window.
+  * **Toggle Browser Visibility**: Media explorer: Show/hide media explorer.
+  * **Toggle Device Section Visibility**: Mixer: Toggle show FX inserts if space available.
+  * **Toggle Sends Section Visibility**: Mixer: Toggle show sends if space available.
+  * **Toggle IO Section Visibility**: Mixer: Toggle show FX parameters if space available.
+  * **Select panel layout Arranger/Mixer/Edit/Play**: Screenset: Load window set #01/#02/#03/#04
 
 ### Further issues
 

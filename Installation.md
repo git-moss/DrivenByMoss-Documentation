@@ -53,6 +53,7 @@ You find the UserPlugins folder at the following locations:
 
 Alternatively, you can start Reaper and click in the Options menu on *Show REAPER resource path in explorer/finder...".
 In the folder that open navigate into the UserPlugins subfolder.
+Note: This is also the path in which Reaper stores all configuration files including the DrivenByMoss configuration. If you want to backup your DrivenByMoss configuration, simply copy all files in this folder starting with *DrivenByMoss*.
 
 ### Windows specifics
 

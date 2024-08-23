@@ -114,7 +114,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Play and Sequence
 
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
-* Default note view: The view that should be the default when you select an instrument track for the first time (e.g. Play, Drum, Sequencer, ...).
+* Startup view: The view that should be selected on startup.
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
 
 ### Workflow

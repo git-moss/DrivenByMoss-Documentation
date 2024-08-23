@@ -214,6 +214,7 @@ Touch the master fader to enter
 * **CHANNEL >** (MCU TRACK RIGHT) - Selects the next parameter page.
 
 Keep the Shift button pressed to show the devices on the selected track. Press the respective knob to select the device for editing.
+Keep the Option button pressed to show the parameter pages of the selected device. Press the respective knob to select the page for editing.
 
 ### Equalizer edit mode (E9)
 
