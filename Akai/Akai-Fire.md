@@ -82,6 +82,7 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 * **Alt+Select Knob**: Select the previous/next device.
 * **Shift+Alt+Select Knob**: Select the previous/next parameter page.
 * Press the **Select knob** to toggle the window of the current device.
+* Press the **Alt+Select knob** to toggle the on/off state of the current device.
 * Activate delete mode and press the **Select knob** to delete the currently selected device.
 
 ### Project/Track Parameters Mode (USER 2)
@@ -362,6 +363,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up.
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up.
+* Color all track states (mute, solo, rec arm): Since the difference of the colors between the on/off state is not that big, the color for the off-state can be switched off completely.
 
 ### Hardware Setup
 

@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**24.4.0**
+
+* Requires Bitwig 5.2+
+* New: Updated to JDK 21.
+* Fire
+  * New: Added setting 'Color all track states (mute, solo, rec arm)' which allows to switch off the colors for the deactivated states in Mix mode.
+  * New: Press Alt+Select knob to toggle the on/off state of the current device.
+* Generic Flexi
+  * New: Added setting for the length of a new clip.
+* OXI One
+  * Fixed: Extension did crash in 24.3 (regression).
+
 **24.3.0**
 
 * Requires Bitwig 5.0+

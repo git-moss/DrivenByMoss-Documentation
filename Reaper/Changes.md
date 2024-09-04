@@ -1,5 +1,24 @@
 # Changes - Cockos Reaper
 
+**24.4.0**
+
+* Requires Reaper 7.22+
+* Reaper specifics
+  * New: The horizontal scrolling in the arranger is now adaptive to the zoom factor! Furthermore, in slow-mode (normally if combined with the SHIFT button) snap to grid is ignored.
+  * New: Switched to getting available plugins from Reaper API instead of parsing configuration files.
+  * New: Several well known plug-ins are now categorized
+  * New: A plugin is now automatically selected when selected in Reaper but only if the track is selected (if the track would be auto-selected, it would get stuck and no other track could be selected. I tried it).
+  * New: A clip is now indicated as playing when the play cursor is in the range of the region marker with the same index as the clip and playback is active.
+  * New: A slot is now indicated as recording when the play cursor is in the range of the region marker with the same index as the slot and the track is armed.
+  * New: Updated to JDK 21.
+* Fire
+  * New: Added setting 'Color all track states (mute, solo, rec arm)' which allows to switch off the colors for the deactivated states in Mix mode.
+  * New: Press Alt+Select knob to toggle the on/off state of the current device.
+* MCU
+  * New: Improved setting of VU clipping state.
+* OXI One
+  * Fixed: Extension did crash in 24.3 (regression).
+
 **24.3.0**
 
 * Requires Reaper 6.71+

@@ -215,6 +215,7 @@ If the connected device has a keyboard or pads, the following settings allow to 
 * Knob Speed Normal: Adjust the speed of the knobs.
 * Knob Speed Slow: Adjust the speed of the knobs when used with Shift for fine adjustments. There is a function to define the Shift button available (*Global: Shift button*).
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
+* New clip length: The length of a clip created with the New function.
 
 ### Transport
 
