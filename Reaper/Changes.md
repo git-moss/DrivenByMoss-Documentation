@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**24.4.1**
+
+* Requires Reaper 7.22+
+* Fixed: DrivenByMoss did crash on startup on some systems.
+
 **24.4.0**
 
 * Requires Reaper 7.22+
@@ -14,6 +19,8 @@
 * Fire
   * New: Added setting 'Color all track states (mute, solo, rec arm)' which allows to switch off the colors for the deactivated states in Mix mode.
   * New: Press Alt+Select knob to toggle the on/off state of the current device.
+* Generic Flexi
+  * New: Added setting for the length of a new clip.
 * MCU
   * New: Improved setting of VU clipping state.
 * OXI One
