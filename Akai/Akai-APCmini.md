@@ -1,21 +1,20 @@
-# Akai Professional APCmini
+# Akai Professional APCmini / APCmini Mk2
 
-Support script for Akai's APCmini controller. You can control track parameters, devices and session view.
+Support script for Akai's APCmini and APCmini Mk2 controller. You can control track parameters, devices and session view.
 
 ## Installation
 
-If you added the controller manually, select the MIDI input without an extension (not: "EXT, DAW") and the 
-USB connection (there should be only one option for that).
+If you added the controller manually, select the MIDI input and output named 'APC MINI' / 'APC mini mk2'.
 
 ## Features
 
 For the basic usage see the APCmini manual. The differences are as follows:
 
-* *Shift+Device* - Pressing multiple times toggles between Device and Macro editing.
-* *Shift+Scene button 6* - Toggles between editing of normal and effect tracks.
-* *Shift+Scene button 7* - Toggles VST window.
+* *Shift+Device* - If pressed twice, the browser is opened to exchange the selected device.
+* *Shift+Scene button 6 (DRUM on Mk2)* - Toggles between editing of normal and effect tracks.
+* *Shift+Scene button 7 (NOTE on Mk2)* - Toggles VST window.
 
-But there is MUCH more! If you keep the *Shift* button pressed the grid reveals more options:
+But there is MUCH more! If you press the *Shift* button the grid reveals more options:
 
 * **Buttons in left upper corner** - These five buttons change the main modes of the script
   * 1st button: Session mode (the basic functionality)
@@ -23,9 +22,8 @@ But there is MUCH more! If you keep the *Shift* button pressed the grid reveals 
   * 3rd button: Drum sequencer (as known from the Push) - Requires a selected midi clip
   * 4th button: Note sequencer (as known from the Push) - Requires a selected midi clip
   * 5th button: Raindrop sequencer - Requires a selected midi clip
-* *Buttons on the bottom** - These buttons form a 1 octave keyboard. Press one of the keys
-    to select the base note of the current scale. Used for *Play*, *Rain* and *Note Sequencer* mode.
-* **8th column buttons** (from to to bottom) - Transport control
+* **Buttons on the bottom** - These buttons form a 1 octave keyboard (red = black keys, orange = white keys, selection = green). Press one of the keys to select the base note of the current scale. Used for *Play*, *Rain* and *Note Sequencer* mode.
+* **8th column buttons** (from top to bottom) - Transport control
   * Play/Stop
   * Record on/off
   * Toggle arrangement loop on/off
@@ -40,10 +38,10 @@ But there is MUCH more! If you keep the *Shift* button pressed the grid reveals 
   * Select next / previous device parameter bank with the two orange buttons on the left of the Shift-page.
   * The two red buttons in the middle change the scale.
   * Toggle in-key/chromatic with pad below the scale selection pads).
-* *Shift+Cursor up* - Scrolls scene bank down (8 scenes)
-* *Shift+Cursor down* - Scrolls scene bank up (8 scenes)
-* *Shift+Cursor left* - Scrolls track bank down (8 tracks)
-* *Shift+Cursor right* - Scrolls track bank up (8 tracks)
+* **Shift+Cursor up** - Scrolls scene bank down (8 scenes)
+* **Shift+Cursor down** - Scrolls scene bank up (8 scenes)
+* **Shift+Cursor left** - Scrolls track bank down (8 tracks)
+* **Shift+Cursor right** - Scrolls track bank up (8 tracks)
 
 ## Browser Mode
 
@@ -62,12 +60,13 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
 ## Session Mode
 
 * The pads on the grid start/record the clips. This depends on the clip launch and launch release settings (Bitwig only).
+* Existing scenes have now the color green. The selected scene blinks green.
+* Colors of the clips on the Mk1 are as follows:
   * Yellow: Present clip
   * Green: Playing clip
   * Red: Recording clip
-* Existing scenes have now the color green. The selected scene blinks green.
 * Use **Shift + clip/scene** buttons to execute the alternative clip/scene functions (Bitwig only).
-* **Track buttons** - Clip stop, solo, rec arm, mute or select
+* **Track buttons** - Clip stop, solo, mute, rec arm or select
 
 ## Play Mode
 
@@ -78,6 +77,7 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
 ## Drum Sequencer
 
 * The drum sequencer works as described in the Ableton Push manual.
+* *Fader Ctrl buttons* - no function.
 * *Cursor up* - Move the note range up.
 * *Cursor down* - Move the note range down.
 * *Cursor left* - Decrease the edit page of the clip.
@@ -111,11 +111,16 @@ Press _"Shift+Device"_ twice to enter the browser mode for preset selection. It 
 
 You can set several preferences which are stored when you exit the DAW. These are global settings and not specific to projects.
 
+### Hardware
+
+* Pad Brightness (only Mk2): Sets the brightness of the pads.
+
 ### Play and Sequence
 
 * Quantize Amount: The amount of quantization to use when Quantize is executed. 100% aligns all notes fully to the grid.
 * Startup view: The view that should be selected on startup.
 * Start with session view: Enables the session view on startup if active otherwise the default note view is displayed.
+* Notify played chords: Displays the played chords or notes if enabled.
 
 ### Workflow
 

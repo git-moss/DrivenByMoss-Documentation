@@ -145,11 +145,11 @@ Press the **Drum** button three times to activate. The DRUM LED is lit bright re
 
 64 drum sounds can be played.
 
-* **Select Knob**: -
+* **Select Knob**: Move the range 16 notes up/down
 * **Grid buttons**: -
 * **Mute/Solo 1-2**: -
-* **Mute/Solo 3 + Pad**: Solo the drum sound.
-* **Mute/Solo 4 + Pad**: Mute the drum sound.
+* **Mute/Solo 3 + Pad**: Solo the drum sound
+* **Mute/Solo 4 + Pad**: Mute the drum sound
 
 ## Sequencers
 

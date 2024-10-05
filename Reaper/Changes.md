@@ -1,5 +1,18 @@
 # Changes - Cockos Reaper
 
+**24.5.0**
+
+* Requires Reaper 7.22+
+* New: Added support for APCmini mk2.
+* APCmini mk1
+  * New: Added option to toggle 'Notify played chords' on/off.
+* Fire
+  * Fixed: Drum 64 view: Shifting the notes up/down with select knob did not work.
+* Fire, Launchpad, Push
+  * Fixed: Drum 64 view: Notes were not in sync with pad colors.
+* Push
+  * Fixed: Drum XoX view was missing from preferred view selection in settings.
+
 **24.4.1**
 
 * Requires Reaper 7.22+

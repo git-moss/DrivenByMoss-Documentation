@@ -60,7 +60,7 @@ Modes can be changed with in the following ways:
     * **SHIFT+Page left**: Un-/mute the selected track.
     * **SHIFT+Page right**: Un-/solo the selected track.
 * Komplete Kontrol 2 S49, S61, S88
-    * **Push main encoder up/down**: Toggle between editing volume/panorama with the 8 knobs.
+    * **SHIFT+Push main encoder up/down**: Toggle between editing volume/panorama with the 8 knobs.
     * **8 buttons**: Select the track.
     * **MUTE+8 buttons**: Un-/mute the track.
     * **SOLO+8 buttons**: Un-/solo the track.
