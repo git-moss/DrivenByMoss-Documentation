@@ -49,7 +49,7 @@ Each slot has the following parameters:
 * Knob Mode: This option only applies to continuous functions like changing the volume of a track. Depending on the possibilities of your controller knob you need to choose the matching mode.
 * Function: Choose a function from the different categories that should be executed, when the configured MIDI message is received.
 * Send value to device: This option only applies to continuous functions like changing the volume of a track. If it is enabled, the current value is sent to the controller with the configured CC.
-* Functions Layer: Assigns the function to one of 10 layers. The function is only executed if the respective layer is active. Layer 1 is the default layer. Use the functions under *Function Layers* to temporarily or permanently activate a different layer.
+* Functions Layer: Assigns the function to one of 10 layers. The function is only executed if the respective layer is active. Layer 1 is the default layer. Use the functions under *Function Layers* to temporarily or permanently activate a different layer. **Note:** if notes are used as triggers, they are always blocked from being sent to Bitwig, no matter if the layer is active or not. This is due to the fact since this configuration needs to happen on startup of the extension.
 
 ## Features of Modes
 

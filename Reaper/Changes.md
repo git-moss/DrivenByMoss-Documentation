@@ -1,5 +1,22 @@
 # Changes - Cockos Reaper
 
+**24.5.1**
+
+* Requires Reaper 7.22+
+* New: Session views display now muted clips in gray or black (depending on the color capabilities of the device).
+* Fixed: Potential crash when opening the parameter mapping dialog.
+* AutoColor
+  * Fixed: Could crash on start and shutdown.
+* Kontrol Mk2/Mk3
+  * New: Added support for Kontakt 8.
+  * Fixed: Only show option to select mode-switch button on Mk3 devices.
+* LaunchControl XL
+  * New: Keep the Device button pressed and use Send Select up/down to switch between either the cursor device, track parameters or project parameters.
+* Launchpad
+  * New: Press Shift+Session twice to activate the new Scene Play view. In this view each pad represents 1 scene, which means that 64 scenes can be directly triggered.
+* MCU
+  * Fixed: Switched Shift+Press Knob in Parameter mode for selecting devices to Option+Press Knob to still be able to do fine adjustments with Shift+Knob.
+
 **24.5.0**
 
 * Requires Reaper 7.22+

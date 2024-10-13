@@ -54,7 +54,7 @@ In the mix mode the labels on the device match the functions (but there is more)
     * **Mute** (amber): If active the Mute state of the 8 tracks on the currently selected track page is toggled.
     * **Solo** (green): If active the Solo state of the 8 tracks on the currently selected track page is toggled. If the *Solo* button is kept pressed it displays 8 scenes. Press one of the buttons to start the scene. The selected scene is highlighted.
     * **Record Arm** (red): If active the Record Arm state of the 8 tracks on the currently selected track page is toggled. If the *Record Arm* button is kept pressed it displays the transport bar.
-* **Send Select**: Select the previous/next page of sends to control.
+* **Send Select**: Select the previous/next page of sends to control. If the *Device* button is pressed it selects the previous/next parameters mode: either the cursor device, track parameters or project parameters.
 * **Track Select**: Select the previous/next page of tracks to control. If the *Device* button is pressed it selects the previous/next device of the selected track. If the *Solo* button is pressed it selects the previous/next page of scenes.
 
 #### Knobs / Faders
@@ -63,7 +63,7 @@ The knob LEDs are lit brighter with higher values (but sadly on 3 steps plus off
 
 * **Send A knobs**: Controls the first send for all 8 tracks of the currently selected track page.
 * **Send B knobs**: Controls the second send for all 8 tracks of the currently selected track page.
-* **Pan/Device knobs**: Controls panorama for all 8 tracks of the currently selected track page or 8 device parameters of the currently selected parameter page of the currently selected device. This depends on the state of the *Device* button.
+* **Pan/Device knobs**: Controls panorama for all 8 tracks of the currently selected track page or parameters (either from the selected device, track parameters or project parameters). This depends on the state of the *Device* button.
 * **Faders**: Control the volume for all 8 tracks on the currently selected track page. If one of the 8 *Track Focus* buttons is pressed the function changes to controlling the volume of the first 6 send tracks, the metronome volume (fader 7) and the master volume (fader 8).
 
 ### Equalizer Mode - 2nd Factory template

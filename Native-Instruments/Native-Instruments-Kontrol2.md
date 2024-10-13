@@ -97,7 +97,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Hardware Setup
 
-* Switch modes with: Mainly relevant for the Mk3 keyboards to select a button which can be used to switch the extra modes (sends and parameters).
+* Switch modes with (only Mk3): Select a button which can be used to switch the extra modes (sends and parameters).
 
 ### Transport
 

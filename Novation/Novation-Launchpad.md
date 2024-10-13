@@ -153,6 +153,31 @@ _Long press_ to enter birds-eye-view.
 ![Session mode diagram](Diagrams/Launchpad/session-clip-view.png)
 ![Session bird's eye view diagram](Diagrams/Launchpad/session-birds-eye-view.png)
 
+## Mix Mode
+
+Press _"Shift+Session"_ to activate Mix mode.
+
+This mode contains all session modes at once. The rows from bottom to top are:
+
+* rec arm, 
+* solo, 
+* mute, 
+* clip stop, 
+* send 2, 
+* send 1, 
+* panorama, 
+* volume.
+
+The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
+
+![Mix Mode](Diagrams/Launchpad/mix-mode.png)
+
+## Scene Play Mode
+
+Press _"Shift+Session"_ twice to activate Mix mode.
+
+In this view each pad represents 1 scene, which means that 64 scenes can be directly triggered.
+
 ## Selecting Note or Sequencer Modes
 
 Press _"Note"_ to choose a **Note** or **Sequencer** mode.
@@ -340,25 +365,6 @@ Press _"Shift+Device"_ to open the device browser to add a device after the curr
 * Up/Down buttons switch from replacing the current device to inserting a new device before or after it.
 
 ![Browser Mode](Diagrams/Launchpad/device-inst-browser.png)
-
-## Mix Mode
-
-Press _"Shift+Session"_ to activate Mix mode.
-
-This mode contains all session modes at once. The rows from bottom to top are:
-
-* rec arm, 
-* solo, 
-* mute, 
-* clip stop, 
-* send 2, 
-* send 1, 
-* panorama, 
-* volume.
-
-The panorama and sends pad are only colored for the selected track. Press one of the pads of the upper 4 rows to select a track. Select a volume, panorama or sends pad to activate it and then change its value with the virtual fader of the scene buttons.
-
-![Mix Mode](Diagrams/Launchpad/mix-mode.png)
 
 ## Tempo mode
 
