@@ -199,19 +199,19 @@ Play a chord in the lower part then enable steps in the upper chord which will b
 
 To change the other scale settings switch to the Play Mode and change it there.
 
-### Drum (XoX) Sequencer Mode
+### Drum XoX Sequencer Mode
 
 This mode is inspired by the Roland XoX devices. Press the **Drum** button to activate. The DRUM LED is lit orange. While the drum sequencers work with any instrument full features (solo, mute, colors) are only available when a Bitwig drum machine device is loaded on the track.
 
 * The *first row* (from the top) represents 16 slots (clips) of the currently selected track.
-  * The pad has the same color as the clip. 
+  * The pads have the same colors as the clips.
   * Press one of the pads to start the playback or recording (depending on the settings) of the clip. 
   * Use ALT + pad to trigger the alternative function for the clip launch (Bitwig only).
   * Use ALT + SHIFT + pad to only select the clip.
   * Press and hold Select knob and press a pad to immediately launch a clip. Release the clip pad while holding Select, to return immediately to the last playing clip.
 * The *second row* represents 16 drum pads.
-  * The pad has the same color as the drum pad.
-  * Press one of them to select it to edit its' steps as well as to play it.
+  * The pads have the same colors as the drum pads.
+  * Press one of them to select it for editing its steps as well as to play it.
   * Use ALT + pad to only select it (without making it sound).
 * Row *three and four* represent up to 32 steps (depending on the selected resolution) of the selected drum pad. Press them to dis-/enable the step. Press two pads (keep the 1st pressed) to create longer notes.
 

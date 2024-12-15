@@ -1,5 +1,23 @@
 # Changes - Cockos Reaper
 
+**24.6.0**
+
+* Requires Reaper 7.22+
+* Fixed: Project settings might not all get applied when a project was auto-loaded on Reaper start.
+* Fixed: Scrolling items (e.g. tracks) left could jump in steps of 8. Side effect from the change that the 1st instead of the last item is selected when changing a page backwards.
+* Maschine JAM
+  * Fixed: When holding down Grid button in step sequencer mode, the group/channel buttons A-H did not reflect the available resolution options. Furthermore, the number of selectable resolutions was coupled to the number of tracks in the project.
+* MCU
+  * Fixed: Changed VU meter range (when Mackie is selected) to 0-12 instead of 0-13.
+* OXI One
+  * New: Added DrumXoX sequencer (press Arrange button twice).
+  * New: Added the Raindrop sequencer (press Sequencer button 4 times).
+  * New: Added automation mode (press Shift+MOD buttons).
+  * New: Mixer mode: press Shift+track pads to stop the playing clip of the track.
+  * Fixed: Drum 128 was named Drum 64 in the startup view setting.
+* Push 1
+  * Fixed: Notify played chords feature did halt other display updates.
+
 **24.5.1**
 
 * Requires Reaper 7.22+

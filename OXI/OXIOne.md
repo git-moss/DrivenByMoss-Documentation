@@ -108,6 +108,15 @@ Press **Shift+Stop (Sync)** to activate this mode. Press the **Back** button to 
 * **Knob 3**: Changes the metronome volume. Hold Shift and press to toggle the metronome on/off.
 * **Knob 4**: Changes the Play Position. Hold Shift and press the knob to toggle the arranger repeat on/off.
 
+### Automation Mode
+
+Press **Shift+MOD** to activate this mode. Press the **Back** button to leave it.
+
+* **Knob 1**: Selects the automation mode.
+* **Knob 2**: -
+* **Knob 3**: -
+* **Knob 4**: -
+
 ### Play Mode Configuration Mode
 
 Press **Shift+KEYBOARD** to activate this mode. Press the **Back** button to leave it.
@@ -172,12 +181,45 @@ This mode gives access to 16 tracks at once. The pads of the rows have the follo
 
 Clip combination buttons:
 
+* **Shift**: Keep the shift button pressed and select a track to stop the playing clip of the track.
 * **Shift**: Keep the shift button pressed and select clip to start a clip with the alternative start setting.
 * **Duplicate**: Keep the duplicate button pressed and select a clip to duplicate it. If playback is active, the copied clip is started as well.
 * **Shift+Duplicate**: Creates a new scene which contains all currently playing clips.
 * **Delete (Paste)**: Keep the delete button pressed and select a clip to delete it.
 * **Mute**: Turn off mute on all tracks; the LED is lit red if there is at least one muted track.
 * **Shift+Mute**: Turn off solo on all tracks; the LED is lit green if there is at least one soloed track.
+
+### Drum XoX Sequencer Mode
+
+Press the **ARRANGER** button twice to activate this mode. This mode is inspired by the Roland XoX devices but in contrast you get 96 steps at once!
+
+* The *first row* (from the top) represent 16 slots (clips) of the currently selected track.
+  * The pads have the same color as the clips.
+  * Press one of the pads to start the playback or recording (depending on the settings) of the clip.
+  * Use **Shift** + pad to trigger the alternative function for the clip launch (Bitwig only).
+  * Use **Delete (Paste)** + pad to delete the clip.
+  * Press **Duplicate** to copy a clip.
+  * Keep **Duplicate** pressed, then first select the source clip and then the destination slot.
+* The *second* row represents 16 drum pads.
+  * The pads have the same color as the 'pads' of the drum machine.
+  * Press one of them to select it to edit its steps as well as to play it.
+  * Keep **Duplicate** pressed, then first select the source drum pad and then the destination drum pad.
+  * Keep the **Mute** button pressed which changes the content of the pads:
+    * Row 1: Selects the clip of the row without starting it.
+    * Row 2: Selects the drum instrument of the row and shows its name in the display.
+    * Row 3: Toggles mute of the drum sound of the row.
+    * Row 4: Toggles solo the drum sound of the row.
+* Rows *three to eight* represent up to 96 steps (depending on the selected resolution) of the selected drum pad.
+  * Press them to dis-/enable the step.
+  * Press two pads (keep the 1st pressed) to create longer notes.
+  * Keep a note pressed and press a pad to the right of it to lengthen or shorten it.
+  * Keep the **LFO** button pressed to increase the ratcheting setting of the note.
+  * Keep the **Step Chord** button pressed to decrease the ratcheting setting of the note.
+  * Keep the **Init** button pressed and select a pad in the column where the clip loop should start (can be on a different clip page).
+  * Keep the **End** button pressed and select a pad in the column where the clip loop should end (can be on a different clip page).
+  * Press **MOD** to edit notes (see above).
+  * Keep the **Duplicate** button pressed and press a pad to store the note. Then (still keeping Duplicate pressed). Select different pads to insert the note with its settings.
+  * Press **Y Div** to configure the sequencer mode (see above).
 
 ### Play Mode
 
@@ -198,6 +240,8 @@ Press the **KEYBOARD** button twice to activate this mode.
 
 ### Drum 8 Sequencer Mode
 
+Press the **SEQUENCER (HOLD)** button to activate this mode.
+
 This mode gives 8 rows (sounds) with 16 steps.
 
 * Press a pad to create/delete a note.
@@ -206,7 +250,7 @@ This mode gives 8 rows (sounds) with 16 steps.
 * Keep the **Step Chord** button pressed to decrease the ratcheting setting of the note.
 * Press **MOD** to edit notes (see above).
 * Press **Y Div** to configure the sequencer mode (see above).
-* Keep the **Copy** button pressed and press a pad to store the note. Then (still keeping Copy pressed). Select different pads to insert the note with its settings.
+* Keep the **Duplicate** button pressed and press a pad to store the note. Then (still keeping Duplicate pressed). Select different pads to insert the note with its settings.
 * Keep the **Mute** button pressed which changes the content of the pads:
     * Column 1: Selects the drum instrument of the row and shows its name in the display.
     * Column 2: Toggles mute of the drum sound of the row.
@@ -216,12 +260,27 @@ This mode gives 8 rows (sounds) with 16 steps.
 
 ### Note Sequencer Mode
 
+Press the **SEQUENCER (HOLD)** button twice to activate this mode.
+
 This mode works the same as the Drum 8 Sequencer Mode. The difference is that the rows do not represent the drum sounds but the notes of the selected scale. Root notes are drawn in the color of the track. Button combinations work the same except Mute.
 
 ### Poly Sequencer Mode
 
+Press the **SEQUENCER (HOLD)** button three times to activate this mode.
+
 Play a chord (= several notes) in the lower part then enable steps in the upper chord which will be filled with the played chord.
 Button combinations work the same as in note sequencer except that there is no ratcheting.
+
+### Raindrop sequencer
+
+Press the **SEQUENCER (HOLD)** button four times to activate this mode.
+
+This works best with a clip which 32 bars long. Only work on the 1st sequencer page. 
+
+* The lowest row displays the playable notes in the active scale.
+* The row above a note starts a raindrop. The height defines the interval between the single notes.
+* If the raindrop reaches the bottom the note is played.
+* Use the sequencer setup (Y-DIV) to change the visible note range.
 
 ## Preferences Settings
 

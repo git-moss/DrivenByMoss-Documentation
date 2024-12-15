@@ -359,7 +359,7 @@ This mode is inspired by the Roland XoX devices. Press _"Note"_ and select *Drum
   * Use DUPLICATE + pad to copy a clip. Keep DUPLICATE pressed then first select the source clip and the destination slot.
 * The rows *three and four* represent 16 drum pads.
   * The pads have the same color as the 'pads' of the drum machine.
-  * Press one of them to select it to edit its' steps as well as to play it.
+  * Press one of them to select it to edit its steps as well as to play it.
   * Use SELECT + pad to only select it (without making it sound).
   * Use DUPLICATE + pad to copy the steps of a pad. Keep DUPLICATE pressed then first select the source drum pad and the destination drum pad.
 * Rows *five to eight* represent up to 32 steps (depending on the selected resolution) of the selected drum pad.
