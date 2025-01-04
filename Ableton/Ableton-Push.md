@@ -289,13 +289,20 @@ This view displays the first 64 scenes ready for jamming. The color of a scene u
 * Change the note length or create long notes by pressing a note pad, keep it pressed, wait a bit and then press a pad right to it.
 * To duplicate notes keep the Duplicate button pressed, select the source note, press empty destination pad(s). The note will be copied with all settings.
 * Note starts and lengths are lit in different colors.
-* Long press a pad which contains a note to edit the parameters of the note (or all notes of the step in case of Poly Sequencer).
-* Multiple notes can be edited in sequencers by using the select button in combination with a sequencer note pad.
 * Use the Scene buttons to change the grids resolution.
 * **Shift+Pad** enables and increases note repeat by 1.
 * **Shift+Select+Pad** enables and decreases note repeat by 1.
 * **Select+Pad** selects a note for editing. Selected notes are lit in yellow.
 * **Mute+Pad** in step sequencer toggles the mute state of the note. A muted note is lit in gray.
+
+**Note editing**
+
+* Long press a pad which contains a note to activate the note edit mode and edit the parameters of the note (or all notes at that step in case of Poly Sequencer).
+* When the note edit mode is active, press the pads which contain notes to select the for editing or remove them from editing.
+* Multiple notes can be de-/selected for editing by using the select button in combination with a sequencer note pad as well.
+* When the last note is deactivated for editing, the note edit mode is closed.
+* Pressing a pad which does not contain a note closes the edit mode as well.
+* Pressing a pad which does contain the continuation of a note, does nothing.
 
 ### Note Sequencer
 
@@ -313,15 +320,6 @@ Press _"Note"_ and select *Poly Seq.* to enter **Poly Sequencer** mode:
 * The lower half displays the playable notes like in the Note Mode
 * Play one or more notes in that area
 * Create a step in the upper part by pressing a pad. The step will contain the last notes you played in the lower part.
-
-### Raindrop sequencer
-
-Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer.
-
-* The lowest row displays the playable notes
-* The row above a note starts a raindrop
-* If the raindrop reaches the note it sounds
-* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
 ### Drum Sequencer
 
@@ -368,6 +366,15 @@ This mode is inspired by the Roland XoX devices. Press _"Note"_ and select *Drum
   * Keep the **Fixed Length** button pressed to set the length of the clip loop.
   * Move to the previous/next page of the clip with Page left/right.
   * Use the Fixed buttons to change the step resolution.
+
+### Raindrop sequencer
+
+Press _"Note"_ and select *Raindrp* to change to the Raindrop Sequencer. To simulate the raindrops, multiple notes are created which have the distance between them which relates to the *height* from which the raindrop does start. To make this work reliably clip lengths of 32 bars should be used. But also smaller sizes create interesting effects since the height of a drop changes depending on the length of the clip.
+
+* The lowest row displays the playable notes.
+* Press a pad on the rows above the bottom note row to start a raindrop (the note row can be used as well).
+* If the raindrop reaches the bottom row the note is played.
+* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
 ## Program Change Mode
 
@@ -416,6 +423,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 
 * Track navigation: If *flat* is selected all tracks are shown at once. Otherwise if *hierarchical* is selected only folders are shown. Press the select button of the track again to enter a group/folder. Long press the select button of any track to leave the group/folder.
+* Cursor Keys Track Option: Which function should be executed when the left/right cursor keys are used.
+* Shifted Cursor Keys Track Option: Which function should be executed when the left/right cursor keys combined with shift are used.
+* Cursor Keys Scene Option: Which function should be executed when the up/down cursor keys are used.
+* Shifted Cursor Keys Scene Option: Which function should be executed when the up/down cursor keys combined with shift are used.
 * Include (Group-)Mastertrack: If set to off, the group-master tracks are removed from the track bank.
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
 * VU meters: The display of VU meters can be disabled with this option

@@ -404,6 +404,7 @@ The parameters of the command documentation below are as follows:
 | /track/{1-8}/clip/{1-8}/launchAlt     | {0,1}       | Alternative launch function for the clip (launch = 1, release = 0). |
 | /track/{1-8}/clip/{1-8}/record        |             | Record a clip in the slot.                        |
 | /track/{1-8}/clip/{1-8}/create        | {beats}     | Create new clip, activate overdub and start it. Beats is the length of the clip in quarter notes. |
+| /track/{1-8}/clip/{1-8}/insertFile    | {filepath}  | Load a file into the clip.                        |
 | /track/{1-8}/clip/{1-8}/duplicate     |             | Duplicate the clip.                               |
 | /track/{1-8}/clip/{1-8}/remove        |             | Remove/delete the clip.                           |
 | /track/{1-8}/clip/{1-8}/color         | {color}     | Set the color of the clip.                        |
@@ -421,6 +422,7 @@ The parameters of the command documentation below are as follows:
 | /clip/quantize                        |             | Quantize the cursor clip.                         |
 | /clip/name                            | {text}      | Set the name of the cursor clip.                  |
 | /clip/color                           | {color}     | Set the color of the cursor clip.                 |
+| /clip/insertFile                      | {filepath}  | Load a file into the cursor clip.                 |
 
 ### Receive - Cursor Device / Primary Device / EQ
 

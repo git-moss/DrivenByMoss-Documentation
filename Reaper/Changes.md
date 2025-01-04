@@ -1,5 +1,24 @@
 # Changes - Cockos Reaper
 
+**24.7.0**
+
+* Requires Reaper 7.22+
+* New: Note/Chord notification is now off by default.
+* Fixed: Fixed several issues with FX device selection.
+* OSC
+  * New: Added insertFile commands: /track/{1-8}/clip/{1-8}/insertFile and /clip/insertFile
+* OXI One, Push
+  * New: Enabling edit mode and selecting notes for editing has now been harmonized across all sequencers:
+    * Long press a pad which contains a note to activate the note edit mode and edit the parameters of the note (or all notes at that step in case of Poly Sequencer).
+    * When the note edit mode is active, press the pads which contain notes to select them for editing or remove them from editing.
+    * Multiple notes can be de-/selected for editing by using the select button in combination with a sequencer note pad as well.
+    * When the last note is deactivated for editing, the note edit mode is closed.
+    * Pressing a pad which does not contain a note closes the edit mode as well.
+    * Pressing a pad which does contain the continuation of a note, does nothing.
+* Push
+  * New: Added options to configure the behaviour of the cursor keys for scrolling tracks and scenes.
+  * Fixed: *Add Device* and *Shift+Add Device* did not work as expected.
+
 **24.6.0**
 
 * Requires Reaper 7.22+

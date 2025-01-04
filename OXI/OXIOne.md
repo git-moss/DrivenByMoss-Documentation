@@ -16,10 +16,8 @@ Support script for OXI Instruments One controller and sequencer.
 * **48/Down**: Select the previous scene page.
 * **Shift+32/Up**: Scrolls the scene page back by 1
 * **Shift+48/Down**: Scrolls the scene page forward by 1
-* **1**: Starts scene 1 of the currently selected scene page.
-* **2**: Starts scene 2 of the currently selected scene page.
-* **3**: Starts scene 3 of the currently selected scene page.
-* **4**: Starts scene 4 of the currently selected scene page.
+* **1-4**: Starts scene 1-4 of the currently selected scene page.
+* **Shift+1-4**: Alternative start the scene 1-4 of the currently selected scene page.
 * **Mute**: Unmutes all tracks.
 * **Shift+Mute**: Unsoloes all tracks.
 * **Shift+Random**: Toggle device window.
@@ -165,8 +163,6 @@ Use the edit knobs as follow:
 * **Knob 2**: Selects the clip page to edit
 * **Knob 3**: Selects the grid resolution
 
-## Pad Modes
-
 ### Mixer Mode
 
 Press the **ARRANGER** button to activate this mode. Keep it pressed to temporarily activate this mode, then press any of the pads and finally release the button. The view will switch back to the previous pad mode of the selected track.
@@ -188,6 +184,56 @@ Clip combination buttons:
 * **Delete (Paste)**: Keep the delete button pressed and select a clip to delete it.
 * **Mute**: Turn off mute on all tracks; the LED is lit red if there is at least one muted track.
 * **Shift+Mute**: Turn off solo on all tracks; the LED is lit green if there is at least one soloed track.
+
+## Play Modes
+
+### Play Mode
+
+Press the **KEYBOARD** button to activate this mode.
+
+* The key layout shows all notes of a scale with different offsets between the rows. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*. The root note is colored with the (closest available) color of the track.
+* The played keys are lit green when played and red if global or clip recording is active.
+* Press **Shift+KEYBOARD** to activate the configuration mode to change the scale, layout, octave offset and the root note.
+* Press **Shift+ARPEGGIATOR** to activate the configuration mode to change the note repeat settings.
+
+### Drum 128 Mode
+
+Press the **KEYBOARD** button twice to activate this mode.
+
+* This mode allows to play all 128 MIDI notes.
+* If a drum machine is selected the pads are colored like the pads in the drum machine.
+* There is an option in the settings to deactivate all pads which relate to an empty drum slot.
+
+## Sequencer Modes
+
+**Note editing**
+
+* Long press a pad which contains a note to activate the note edit mode and edit the parameters of the note (or all notes at that step in case of Poly Sequencer).
+* When the note edit mode is active, press the pads which contain notes to select the for editing or remove them from editing.
+* Multiple notes can be de-/selected for editing by using the select button in combination with a sequencer note pad as well.
+* When the last note is deactivated for editing, the note edit mode is closed.
+* Pressing a pad which does not contain a note closes the edit mode as well.
+* Pressing a pad which does contain the continuation of a note, does nothing.
+
+### Drum 8 Sequencer Mode
+
+Press the **SEQUENCER (HOLD)** button to activate this mode.
+
+This mode gives 8 rows (sounds) with 16 steps.
+
+* Press a pad to create/delete a note.
+* Keep a note pressed and press a pad to the right of it to lengthen or shorten it.
+* Keep the **LFO** button pressed to increase the ratcheting setting of the note.
+* Keep the **Step Chord** button pressed to decrease the ratcheting setting of the note.
+* Press **MOD** to edit notes (see above).
+* Press **Y Div** to configure the sequencer mode (see above).
+* Keep the **Duplicate** button pressed and press a pad to store the note. Then (still keeping Duplicate pressed). Select different pads to insert the note with its settings.
+* Keep the **Mute** button pressed which changes the content of the pads:
+    * Column 1: Selects the drum instrument of the row and shows its name in the display.
+    * Column 2: Toggles mute of the drum sound of the row.
+    * Column 3: Toggles solo the drum sound of the row.
+* Keep the **Init** button pressed and select a pad in the column where the clip loop should start (can be on a different clip page).
+* Keep the **End** button pressed and select a pad in the column where the clip loop should end (can be on a different clip page).
 
 ### Drum XoX Sequencer Mode
 
@@ -220,43 +266,6 @@ Press the **ARRANGER** button twice to activate this mode. This mode is inspired
   * Press **MOD** to edit notes (see above).
   * Keep the **Duplicate** button pressed and press a pad to store the note. Then (still keeping Duplicate pressed). Select different pads to insert the note with its settings.
   * Press **Y Div** to configure the sequencer mode (see above).
-
-### Play Mode
-
-Press the **KEYBOARD** button to activate this mode.
-
-* The key layout shows all notes of a scale with different offsets between the rows. To get a continuous layout of notes without any offsets, select *Sequent ^* as the scale layout and enable *Chromatic mode*. The root note is colored with the (closest available) color of the track.
-* The played keys are lit green when played and red if global or clip recording is active.
-* Press **Shift+KEYBOARD** to activate the configuration mode to change the scale, layout, octave offset and the root note.
-* Press **Shift+ARPEGGIATOR** to activate the configuration mode to change the note repeat settings.
-
-### Drum 128 Mode
-
-Press the **KEYBOARD** button twice to activate this mode.
-
-* This mode allows to play all 128 MIDI notes.
-* If a drum machine is selected the pads are colored like the pads in the drum machine.
-* There is an option in the settings to deactivate all pads which relate to an empty drum slot.
-
-### Drum 8 Sequencer Mode
-
-Press the **SEQUENCER (HOLD)** button to activate this mode.
-
-This mode gives 8 rows (sounds) with 16 steps.
-
-* Press a pad to create/delete a note.
-* Keep a note pressed and press a pad to the right of it to lengthen or shorten it.
-* Keep the **LFO** button pressed to increase the ratcheting setting of the note.
-* Keep the **Step Chord** button pressed to decrease the ratcheting setting of the note.
-* Press **MOD** to edit notes (see above).
-* Press **Y Div** to configure the sequencer mode (see above).
-* Keep the **Duplicate** button pressed and press a pad to store the note. Then (still keeping Duplicate pressed). Select different pads to insert the note with its settings.
-* Keep the **Mute** button pressed which changes the content of the pads:
-    * Column 1: Selects the drum instrument of the row and shows its name in the display.
-    * Column 2: Toggles mute of the drum sound of the row.
-    * Column 3: Toggles solo the drum sound of the row.
-* Keep the **Init** button pressed and select a pad in the column where the clip loop should start (can be on a different clip page).
-* Keep the **End** button pressed and select a pad in the column where the clip loop should end (can be on a different clip page).
 
 ### Note Sequencer Mode
 
