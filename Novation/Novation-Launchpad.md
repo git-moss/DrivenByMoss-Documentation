@@ -16,9 +16,9 @@ The following of Novation's Launchpad controllers are supported:
 * If the virtual faders (volume, pan, send, etc.) do not work, set the *Takeover mode* to *Immediate*.
 * If (Poly-)Aftertouch is not working (on devices which support it), check the global aftertouch settings of the Launchpad (check the Launchpad manual).
 
-If you added the controller manually, choose the following in-/output ports:
+If you added the controller manually, choose the following port for **both input and output**:
 
-* Pro Mk3: choose the 1st port (e.g. *LPProMK3 MIDI* on Windows).
+* Pro Mk3: choose the 1st port (e.g. `LPProMK3 MIDI` on Windows, `MK3 [hw:X:0:0]` or similar on Linux).
 * Pro, Mini Mk3, X: choose the 2nd port (e.g. *MIDIIN2 (Launchpad Pro)* and 
   *MIDIOUT2 (Launchpad Pro)* on Windows).
 * Make sure the Launchpad sends on Midi Channel 1!
