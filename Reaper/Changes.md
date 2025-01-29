@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**24.7.1**
+
+* Requires Reaper 7.22+
+* Updated some libraries and the Java runtime.
+* Fixed: Linux: Reaper could become unresponsive after opening the DrivenByMoss dialog. This was caused by the GTK look&feel. As a workaround the platform indepenedent look & feel is used.
+* Kontrol MkI
+  * Fixed: Scale could not be changed.
+* Remote SL Mk2
+  * Fixed: Turning relative knobs to the left did reset the value.
+
 **24.7.0**
 
 * Requires Reaper 7.22+

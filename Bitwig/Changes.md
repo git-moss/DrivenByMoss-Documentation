@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**24.7.1**
+
+* Requires Bitwig 5.2+
+* Updated some libraries.
+* Kontrol MkI
+  * Fixed: Scale could not be changed.
+* Remote SL Mk2
+  * Fixed: Turning relative knobs to the left did reset the value.
+
 **24.7.0**
 
 * Requires Bitwig 5.2+
