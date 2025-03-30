@@ -1,5 +1,18 @@
 # Changes - Cockos Reaper
 
+**25.0.0**
+
+* Requires Reaper 7.22+
+* New: Added support for Melbourne Instruments ROTO CONTROL.
+* Fixed: Adding automation envelope data did not check the global automation overwrite mode.
+* Fixed: On devices which show all tracks flat including the master track, could miss the master track if it was the 1st track of a page.
+* Akai Force
+  * Fixed: Scrolling tracks by 8 did not work.
+* Elektra One
+  * Fixed: The Parameter Page Buttons 2 and 5 were flipped on the Devices page. Upload the updated template to fix this.
+* Kontrol MkI
+  * Fixed: Option to dis-/enable 'Notify play chords' was missing.
+
 **24.7.1**
 
 * Requires Reaper 7.22+

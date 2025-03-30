@@ -1,5 +1,16 @@
 # Changes - Bitwig Studio
 
+**25.0.0**
+
+* Requires Bitwig 5.3+
+* New: Added support for Melbourne Instruments ROTO CONTROL.
+* Akai Force
+  * Fixed: Scrolling tracks by 8 did not work.
+* Elektra One
+  * Fixed: The Parameter Page Buttons 2 and 5 were flipped on the Devices page. Upload the updated template to fix this.
+* Kontrol MkI
+  * Fixed: Option to dis-/enable 'Notify play chords' was missing.
+
 **24.7.1**
 
 * Requires Bitwig 5.2+
