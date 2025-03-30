@@ -75,7 +75,7 @@ In Bitwig all parameters which are assigned to the first 10 Remote Control Param
 * **FUNC** - Shows the tracks. Press the button below to select a different track.
 * **(+)** - Pins the device and remain in control of the selected plugin, while navigating others.
 
-# MIDI mode with Motion Recorder
+## MIDI mode with Motion Recorder
 
 Press MODE and then the button below **MIDI** to enter this mode.
 
@@ -85,7 +85,6 @@ This can be used to use the learn function in Bitwig but stay away from MIDI cha
 * **LEARN** - Easy MIDI learn knobs and buttons.
 * **SEL** - Instant recall of up to 64 setups stored on Roto-Control. Universal MIDI start/stop. Access Motion Recorder record and playback modes.
 * **FUNC** - MIDI synchronization options, internal or external clock. Select Motion Recorder step length.
-
 
 ## Preferences Settings
 
