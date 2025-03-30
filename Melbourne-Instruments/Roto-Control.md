@@ -62,6 +62,15 @@ In Bitwig all parameters which are assigned to the first 10 Remote Control Param
 4. Repeat step 2 and 3 for other knobs/buttons
 5. Press **LEARN** button again.
 
+### Reaper
+
+1. Open the UI of the plugin you want to map.
+2. Press the **LEARN** button
+3. Touch one of the knobs or press one of the buttons to which a parameter should be assigned.
+4. Move one of the parameters in the user interface of the plugin window.
+5. Repeat step 3 and 4 for other knobs/buttons
+6. Press **LEARN** button again.
+
 * **SEL** - Hold SEL to choose a different plugin on the same track. Press the button below it. Use the arrows to switch between device pages. Toggle SEL to see all plugins on the selected track and activate plugins on/off.
 * **FUNC** - Shows the tracks. Press the button below to select a different track.
 * **(+)** - Pins the device and remain in control of the selected plugin, while navigating others.
