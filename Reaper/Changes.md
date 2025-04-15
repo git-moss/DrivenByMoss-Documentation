@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**25.0.1**
+
+* Requires Reaper 7.22+
+* ROTO CONTROL
+  * New: Adapted to work with Firmware 1.1.3 but does no longer work with older versions!
+
 **25.0.0**
 
 * Requires Reaper 7.22+

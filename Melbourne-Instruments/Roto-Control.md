@@ -71,6 +71,8 @@ In Bitwig all parameters which are assigned to the first 10 Remote Control Param
 5. Repeat step 3 and 4 for other knobs/buttons
 6. Press **LEARN** button again.
 
+To clear a mapping hold the LEARN button (keep it pressed) whilst touching the knob or button you want to clear, once. You will be promoted to CLEAR, touch the knob or button again to confirm.
+
 * **SEL** - Hold SEL to choose a different plugin on the same track. Press the button below it. Use the arrows to switch between device pages. Toggle SEL to see all plugins on the selected track and activate plugins on/off.
 * **FUNC** - Shows the tracks. Press the button below to select a different track.
 * **(+)** - Pins the device and remain in control of the selected plugin, while navigating others.

@@ -1,8 +1,16 @@
 # Changes - Bitwig Studio
 
+**25.0.1**
+
+* Requires Bitwig 5.2+
+* Fixed: In rare cases groups could not be entered when using hierarchical navigation.
+* ROTO CONTROL
+  * New: Adapted to work with Firmware 1.1.3 but does no longer work with older versions!
+  * New: Increased number of monitored remote control parameter pages to 16 (was 10).
+
 **25.0.0**
 
-* Requires Bitwig 5.3+
+* Requires Bitwig 5.2+
 * New: Added support for Melbourne Instruments ROTO CONTROL.
 * Akai Force
   * Fixed: Scrolling tracks by 8 did not work.
