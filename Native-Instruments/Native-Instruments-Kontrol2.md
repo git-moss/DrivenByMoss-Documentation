@@ -1,8 +1,8 @@
-# Native Instruments Komplete Kontrol 2 S49, S61, S88, Komplete Kontrol A49, A61, M32
+# Native Instruments Komplete Kontrol 2/3 S49, S61, S88, Komplete Kontrol A49, A61, M32
 
 Support for Native Instruments Komplete Kontrol controllers, which use the NI Host Integration protocol.
 
-Since Native Instruments Host Integration service is only available for Windows and Macos, **Linux is not supported**.
+Since Native Instruments Host Integration service is only available for Windows and Macos, **Linux is not supported** for all devices except Kontrol 3 keyboards.
 
 ## Installation
 

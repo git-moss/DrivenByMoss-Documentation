@@ -1,6 +1,42 @@
 # Known Issues
 
+## Windows
+
 * You might get the following error on Windows: **Could not open MIDI output. There is not enough Memory for this Task**. This error means that Windows cannot open the device since another process already opened it. Check if you have accidently assigned it to another script or any MIDI tool which is runing in the background. If it is a Native Instruments device also check if the NI background services work correctly.
+
+## Windows 11 on ARM
+
+I tested all devices which are supported by DrivenByMoss on Windows 11 on ARM. Here are the results.
+
+### Fully working devices
+
+* Ableton: Push 1-3
+*	Akai: APC 40 Mk 1 / Mk 2, APCmini Mk 1 / Mk 2, Fire
+* Arturia: Beatstep (template needs to be installed from a x64 machine)
+* Electra One
+* ESI Xjam
+* Faderfox EC4
+* Generic Flexi
+* Mackie HUI/MCU: Depends on if the specific device needs a MIDI driver or not (class compliant), e.g. Behringer X-Touch works fine
+* Native Instruments Komplete Kontrol Mk 3
+*	Novation: Launchkey Mini mk3, Launchkey mk3, LaunchControl XL, Launchpad, SL Mk 1 / Mk 2 / Mk 3
+* OXI One
+*	Yaeltex TURN
+
+### No MIDI drivers
+
+The following devices miss MIDI drivers and therefore do not work.
+
+* Akai MPC Live I/II, One, X, Force
+*	Native Instruments Kontrol Mk 1, Kontrol Mk 2 / A-series, M32, Maschine Mk 2/3, Studio, Maschine+, JAM, Mikro Mk3
+
+### Needs a MIDI Input
+
+The following extensions do need a MIDI input port to work. So far I could not find a virtual MIDI driver (if there is one please tell me).
+As a workaround connect any MIDI device which features a MIDI input port (and you don't need) and use this MIDI input port.
+
+*	Gamepad
+*	OSC
 
 ## Bitwig Studio
 

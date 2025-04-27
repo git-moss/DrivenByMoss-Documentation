@@ -1,5 +1,14 @@
 # Changes - Bitwig Studio
 
+**25.0.2**
+
+* Requires Bitwig 5.3+
+* Implemented adaptive scrolling for play position as well as the loop start and length on all devices which provide these functions.
+* ROTO CONTROL
+  * New: Support for stepped parameters. Since Bitwig cannot provide the option names, they are labelled Option 1 - Option N.
+  * Fixed: Track button states could get inconsisten when tracks were added or removed.
+  * Fixed: Parameter mapping did only work for parameters on the first page (did crash for all others). Regression in 25.0.1.
+
 **25.0.1**
 
 * Requires Bitwig 5.2+

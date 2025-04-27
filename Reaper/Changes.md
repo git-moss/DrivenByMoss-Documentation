@@ -1,5 +1,15 @@
 # Changes - Cockos Reaper
 
+**25.0.2**
+
+* Requires Reaper 7.22+
+* Only selects the plugin in the plugin chain if the chain window is open.
+* ROTO CONTROL
+  * New: Support for stepped parameters with 2 values (labelled Option 1/2).
+  * Fixed: Track button states could get inconsisten when tracks were added or removed.
+  * Fixed: Track updates could get inconsistent.
+  * Fixed: Parameter mapping did only work if DrivenByMoss parameter page mapping was not used.
+
 **25.0.1**
 
 * Requires Reaper 7.22+
