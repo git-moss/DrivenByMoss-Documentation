@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**25.1.0 (unreleased)**
+**25.1.0**
 
 * Requires Reaper 7.22+
 * Fire

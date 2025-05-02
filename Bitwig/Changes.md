@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**25.1.0 (unreleased)**
+**25.1.0**
 
 * Requires Bitwig 5.3+
 * Fire
