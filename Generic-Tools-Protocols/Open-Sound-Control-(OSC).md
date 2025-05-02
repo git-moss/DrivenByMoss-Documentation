@@ -203,6 +203,16 @@ The parameters of the command documentation below are as follows:
 | /primary/{attribute}                     | {value}      | All attributes as above for the primary device of the channel, except siblings and pinning.  |
 | /eq/{attribute}                          | {value}      | All attributes as above for the equalizer device of the channel, except parameters (see next section instead), siblings and pinning.|
 
+The following values are sent for the last hovered/clicked parameter:
+
+| Command                          | Value         | Comment                                                      |
+| :--------------------------------|:--------------|:-------------------------------------------------------------|
+| /device/lastparam/exists         | {0,1}         | Does the parameter exist?                                    |
+| /device/lastparam/name           | {text}        | The name of the parameter.                                   |
+| /device/lastparam/value          | {0-MAX_VALUE} | The value of the parameter.                                  |
+| /device/lastparam/valueStr       | {text}        | The value of the parameter formatted as a text.              |
+| /device/lastparam/modulatedValue | {0-MAX_VALUE} | The modulated value of the parameter.                        |
+
 **Additional EQ parameters**
 
 | Command                          | Value         | Comment                                              |
@@ -472,22 +482,32 @@ The following commands apply to all devices. The cursor device (/device), the pr
 
 The following commands are additional for the cursor device.
 
-| Command                               | Value         | Comment                                        |
-| :----------------                     |:-----------   |:---------------                                |
-| /device/sibling/{1-8}/selected        | {0,1}         | Select a sibling device.                       |
-| /device/{+,-}                         |               | Select the next/previous device.               |
-| /device/bank/page/{+,-}               |               | Select the next/previous devices page.         |
-| /device/pinned                        | {0,1,-}       | Unpin, pin, toggle pinning of the cursor device. |
+| Command                         | Value         | Comment                                            |
+| :-------------------------------|:--------------|:---------------------------------------------------|
+| /device/sibling/{1-8}/selected  | {0,1}         | Select a sibling device.                           |
+| /device/{+,-}                   |               | Select the next/previous device.                   |
+| /device/bank/page/{+,-}         |               | Select the next/previous devices page.             |
+| /device/pinned                  | {0,1,-}       | Unpin, pin, toggle pinning of the cursor device.   |
 
 The following commands are additional for the equalizer device.
 
 | Command              | Value         | Comment                                                       |
-| :----------------    |:-----------   |:---------------                                               |
+| :--------------------|:--------------|:--------------------------------------------------------------|
 | /eq/add              |               | Add an equalizer device as the last device on the track.      |
 | /eq/type/{1-8}       | {off, lowcut, lowshelf, bell, highcut, highshelf, notch} | Set the band type. |
 | /eq/freq/{1-8}       | {0-MAX_VALUE} | Set the frequency of the n-th band.                           |
 | /eq/gain/{1-8}       | {0-MAX_VALUE} | Set the gain of the n-th band.                                |
 | /eq/q/{1-8}          | {0-MAX_VALUE} | Set the q-factor of the n-th band.                            |
+
+The following commands are supported for the last hovered/clicked parameter.
+
+| Command                    | Value         | Comment                                                 |
+| :--------------------------|:--------------|:--------------------------------------------------------|
+| /device/lastparam/value    | {0-MAX_VALUE} | The value of the parameter.                             |
+| /device/lastparam/indicate | {0,1}         | Turn off/on the parameter indication.                   |
+| /device/lastparam/reset    |               | Sets the parameter to its' default value.               |
+| /device/lastparam/touched  | {0,1}         | Turn off/on the touched state.                          |
+
 
 ### Receive - Browser
 

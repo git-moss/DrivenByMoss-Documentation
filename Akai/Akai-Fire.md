@@ -81,8 +81,8 @@ Change parameters of the currently selected device. Combine with **Shift** for f
 * **Alt+Resonance knob**: Change the 8th device parameter
 * **Alt+Select Knob**: Select the previous/next device.
 * **Shift+Alt+Select Knob**: Select the previous/next parameter page.
-* Press the **Select knob** to toggle the window of the current device.
-* Press the **Alt+Select knob** to toggle the on/off state of the current device.
+* Press the **Alt+Select knob** to toggle the window of the current device.
+* Press the **Shift+Alt+Select knob** to toggle the on/off state of the current device.
 * Activate delete mode and press the **Select knob** to delete the currently selected device.
 
 ### Project/Track Parameters Mode (USER 2)

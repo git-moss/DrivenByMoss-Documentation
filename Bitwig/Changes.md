@@ -1,5 +1,21 @@
 # Changes - Bitwig Studio
 
+**25.1.0 (unreleased)**
+
+* Requires Bitwig 5.3+
+* Fire
+  * New: Press Alt+SELECT knob to toggle thes window of the current device (was only SELECT).
+  * New: Press Shift+Alt+SELECT knob to toggle the on/off state of the current device (was Alt+SELECT).
+  * New: Press SELECT to toggle controlling the hovered parameter introduced in Bitwig 5.3.
+* Generic Flexi
+  * New: Added new function 'Device: Last Parameter' which controls the hovered parameter introduced in Bitwig 5.3..
+* MCU
+  * New: The encoder can now control the hovered parameter introduced in Bitwig 5.3. To toggle the feature assign the *Last hovered/clicked parameter* to a function key or a footswitch.
+* OSC
+  * New: Added new commands and values for /device/lastparam/.
+* Push 1-3
+  * New: The *Last Touched* setting of the ribbon controls now the hovered parameter introduced in Bitwig 5.3.
+
 **25.0.2**
 
 * Requires Bitwig 5.3+
