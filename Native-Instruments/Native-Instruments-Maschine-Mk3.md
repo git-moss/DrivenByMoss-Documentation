@@ -158,12 +158,12 @@ If the browser is active...
 
 ## Encoder modes
 
-Press the encoder to toggle between fast and slow value changes.
-
 * **VOLUME** - Enables volume/pan/Sends mode. Press again to toggle between volume, pan and send modes. The encoder changes the volume/pan/sends of the selected track. Keep the Erase button pressed and touch the encoder to set the parameter to its default value.
 * **Shift+VOLUME** - Toggles VU meter display.
 * **SWING** - Enables position mode. Press Swing button twice to select Arrange Loop Start mode. Press Swing button three times to select Arrange Loop Length mode. In all three modes use the encoder to change the related value.
 * **TEMPO/TUNE** - Enables tempo mode. Press again to toggle between fine tune and normal change. The encoder changes the tempo of the song.
+
+The 4D-Encoder controls the parameter of the selected column (e.g. the volume of the selected track). Press it to toggle to controlling the last hovered/clicked parameter.
 
 The buttons above the display have the following functions:
 

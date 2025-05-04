@@ -1,5 +1,19 @@
 # Changes - Bitwig Studio
 
+**25.1.1**
+
+* Requires Bitwig 5.3+
+* Akai APC40 / APC40mkII
+  * New: Shift mode is automatically closed again if Shift was used in combination with a button.
+* Electra One
+  * New: The 3rd knob on the bottom row of the transport page controls now the hovered parameter introduced in Bitwig 5.3. It is required to reinstall the template.
+* Fire
+  * Fixed: Switching Project and Track parameter pages did jump by 8 and not 1.
+* Maschine
+  * New: The 4D-Encoder can now control the hovered parameter introduced in Bitwig 5.3. Press it to toggle to that function.
+* MCU
+  * New: The hovered parameter introduced in Bitwig 5.3 can now also be controlled with the master fader.
+
 **25.1.0**
 
 * Requires Bitwig 5.3+

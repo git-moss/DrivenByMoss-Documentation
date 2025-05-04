@@ -118,6 +118,7 @@ The two buttons on the left move the marker page to the previous/next 8 markers.
 * **CLICK VOLUME**: Change the volume of the metronome click.
 * **CUE VOLUME**: Changes the cue volume.
 * **ARR. OVERDUB**: Toggle overdub in the arranger.
+* **LAST PARAM**: Changes the last hovered/clicked parameter.
 
 ## Session Page
 

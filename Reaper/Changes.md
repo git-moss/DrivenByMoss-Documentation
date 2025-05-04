@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**25.1.1**
+
+* Requires Reaper 7.22+
+* Akai APC40 / APC40mkII
+  * New: Shift mode is automatically closed again if Shift was used in combination with a button.
+* Electra One
+  * New: The 3rd knob on the bottom row of the transport page controls now the last used parameter of the active plugin. It is required to reinstall the template.
+* Fire
+  * Fixed: Switching Project and Track parameter pages did jump by 8 and not 1.
+* Maschine
+  * New: The 4D-Encoder can now control the last used parameter of the active plugin. Press it to toggle to that function.
+* MCU
+  * New: The last used parameter of the active plugin can now also be controlled with the master fader.
+
 **25.1.0**
 
 * Requires Reaper 7.22+
@@ -8,7 +22,7 @@
   * New: Press Shift+Alt+SELECT knob to toggle the on/off state of the current device (was Alt+SELECT).
   * New: Press SELECT to toggle controlling the last used parameter of the active plugin.
 * Generic Flexi
-  * New: Added new function 'Device: Last Parameter' which controls the hovered last used parameter of the active plugin.
+  * New: Added new function 'Device: Last Parameter' which controls the last used parameter of the active plugin.
 * MCU
   * New: The encoder can now control the last used parameter of the active plugin. To toggle the feature assign the *Last hovered/clicked parameter* to a function key or a footswitch.
 * OSC
