@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**25.1.2**
+
+* Requires Reaper 7.22+
+* Some extensions did crash on start up.
+
 **25.1.1**
 
 * Requires Reaper 7.22+
