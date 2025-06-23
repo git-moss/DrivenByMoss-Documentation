@@ -1,6 +1,6 @@
 # Electra One
 
-Support script for the Electra One Mk I as well as the Mk II controller.
+Support for the Electra One Mk I as well as the Mk II controller.
 
 ## Configuration
 

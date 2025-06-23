@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**25.5.0 (unreleased)**
+
+* Requires Reaper 7.22+
+* New: Added support for Intuitive Instruments Exquis
+* Fixed: Latch Preview does now move motorized faders as well.
+
 **25.1.2**
 
 * Requires Reaper 7.22+

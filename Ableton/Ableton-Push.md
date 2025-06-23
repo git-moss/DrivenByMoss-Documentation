@@ -433,7 +433,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 * Footswitch 2: What action to execute if you press the 2nd foot switch (1st foot switch is always assigned to MIDI sustain). The available functions should be self-explanatory, except *Clip Based Looper*: this uses the currently selected MIDI clip slot. If it is empty, a new clip is created (like using the New button) and playback is started. As long as the foot switch is pressed overdub is activated. If the foot switch is released overdub is deactivated.
 * Stop automation recording on knob release: If you e.g. change the volume of a track for automation and release the knob, automation recording is automatically switched off.
 * New clip length: The length of a clip created with the New function.
-* Knob Sensitivity Normal: Adjust the speed of the knobs
+* Knob Sensitivity Default: Adjust the speed of the knobs
 * Knob Sensitivity Slow: Adjust the speed of the knobs when used with Shift for fine adjustments
 
 ### Add Track - favorite devices

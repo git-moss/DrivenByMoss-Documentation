@@ -1,5 +1,10 @@
 # Changes - Bitwig Studio
 
+**25.5.0 (unreleased)**
+
+* Requires Bitwig 5.3+
+* New: Added support for Intuitive Instruments Exquis
+
 **25.1.1**
 
 * Requires Bitwig 5.3+
