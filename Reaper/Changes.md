@@ -1,6 +1,6 @@
 # Changes - Cockos Reaper
 
-**25.5.0 (unreleased)**
+**25.5.0**
 
 * Requires Reaper 7.22+
 * New: Added support for Intuitive Instruments Exquis
