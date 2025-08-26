@@ -51,8 +51,6 @@ As a workaround connect any MIDI device which features a MIDI input port (and yo
 DrivenByMoss is developed for Bitwig Studio. Bitwig has several concepts, which are not available in Reaper, e.g. Scenes, Clips and User parameters. 
 
 * Since Reaper does not have specific track types FX Track Banks do not appear (or cannot be selected) on the devices. E.g. in Generic Flexi the *FX Track* actions do nothing. Furthermore, options to in-/exclude FX tracks have no effect.
-* The only way to insert MIDI messages into Reaper is via the Virtual MIDI keyboard input. If you map something with generic Flexi, it goes only into that channel (but not into the Action mapping) and does only work if the channel is record enabled. Therefore, the use-case is only to control devices which react or require MIDI CC.
-* MIDI clock cannot be sent to the device since this would require to enable the MIDI output of the device in Reaper.
 * The metronome volume text description is not updated (always shows -6.0dB).
 * Automation Touch mode is only supported for volume and panorama (limitation of the Reaper CSI API). Use Latch mode instead.
 * Disabled envelope automations are still sent to the device (since the bypass info can currently only be retrieved via the envelope chunk which has a bad performance impact).

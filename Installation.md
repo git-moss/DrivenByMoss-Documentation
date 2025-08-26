@@ -52,8 +52,9 @@ You find the UserPlugins folder at the following locations:
    portable install into REAPER/UserPlugins.
 
 Alternatively, you can start Reaper and click in the Options menu on *Show REAPER resource path in explorer/finder...".
-In the folder that open navigate into the UserPlugins subfolder.
-Note: This is also the path in which Reaper stores all configuration files including the DrivenByMoss configuration. If you want to backup your DrivenByMoss configuration, simply copy all files in this folder starting with *DrivenByMoss*.
+In the folder that opens, navigate into the UserPlugins subfolder.
+
+Tip: This is also the path in which Reaper stores all configuration files including the DrivenByMoss configuration. If you want to backup your DrivenByMoss configuration, simply copy all files in this folder starting with *DrivenByMoss*.
 
 ### Windows specifics
 
@@ -95,6 +96,9 @@ This should install the missing files.
 
 ### Adding and configuring devices
 
+**IMPORTANT**: Since DrivenByMoss v26 the native MIDI ports of Reaper are used. Therefore, they need to be enabled in the Reaper MIDI settings! For the outputs make sure that the option "Do not send reset messages" is enabled, otherwise you will have strange effects!
+Sending MIDI clock can be activated for the output if necessary.
+
 The DrivenByMoss window consists of three parts:
 
 1. The list of the configured controllers. The listbox before the controller name depicts if he controller is active (checked) or deactivated.
@@ -103,16 +107,13 @@ The DrivenByMoss window consists of three parts:
    * **Detect** - Automatically adds connected controllers.
    * **Add** - Not all controllers can be detected automatically. Use the Add button and select the controller to add from the appearing menu.
    * **Remove** - Removes the controller which is selected in the list.
-   * **Configuration** - Opens the configuration dialog for the controller. Make sure that the correct in-/outputs are selected. All other options are described in the specific controller section in this manual.
+   * **Configuration** - Opens the configuration dialog for the controller. Make sure that the correct in-/outputs are selected. Only MIDI in-/outputs which are enabled in the Reaper settings are shown! All other options are described in the specific controller section in this manual.
    * **Project** - Opens the dialog with controller settings which are stored individually with each Reaper project, e.g. Scale settings. See the specific controller section in this manual.
    * **Parameters** - Opens a dialog to modify the mapping of the currently selected devices' parameters.
    * **Dis-/enable** - Disable a controller to save performance if you do not use it (or it is not connected).
    * **Debug** - Only used for development, ignore it. However, the *Device simulator* might be handy for some people with a touch display. Furthermore, if you somehow dislike the popup notifications, they can be disabled here.
 
-Note:
-
-* Make sure that all MIDI inputs and outputs you configure in DrivenByMoss are fully disabled in the Reaper MIDI settings! Otherwise you will have strange effects!
-* Your setup will automatically be loaded if you run Reaper and stored when you close Reaper.
+Your setup will automatically be loaded if you run Reaper and stored when you close Reaper.
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

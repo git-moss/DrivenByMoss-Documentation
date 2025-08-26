@@ -1,5 +1,40 @@
 # Changes - Bitwig Studio
 
+**26.0.0**
+
+* Requires Bitwig 5.3+
+* New: Added 'stop is queued' state to the session grid clips. Signal is the same as queued playing.
+* Faderfox EC4
+  * Fixed: Updated template to make it work with current Faderfox web-interface.
+* Generic Flexi
+  * Fixed: Parameter #1 reset on 1st instrument did not work.
+* MCU
+  * Fixed: Improved formatting of bars to align with the text on the hardware.
+* Native Instruments Kontrol Mk2
+    * New: Loop+Encoder changes Loop start
+    * New: The browser presets can be navigated by turning the encoder and confirmed by pressing the encoder.
+* Native Instruments Kontrol Mk3
+  * New: Added support for NHIA protocol v4:
+    * Support for the Shift-Button
+      * Slow change of values when using knobs in combination with Shift
+      * Zoom in/out with Shift+Encoder
+      * Shift+Quantize: switches the options for recording quantize
+      * Shift+Auto: toggle clip automation recording
+    * Support for native Plug-in mode
+    * Support for changing tempo
+    * Colored track VUs
+    * Added detection of Maschine 3 plugin
+    * Loop/Shift+Loop+Encoder changes Loop start/length
+    * Mixer modes are now switched by pressing DAW multiple times
+    * Added a new layer mode
+    * The browser can be used (see the manual for details)
+* Push 2/3
+  * New: Improved state icons in clip mode.
+  * New: Having pressed the Mute/Solo for a longer time does deactivate toggling Mute/Solo on button release.
+  * New: Improved lookup on latest macOS.
+* XJam
+  * New: The knobs are now real relative knobs! Requires Firmware 1.55 and update the template incl. in DrivenByMoss.
+
 **25.5.0**
 
 * Requires Bitwig 5.3+

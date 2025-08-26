@@ -7,7 +7,6 @@ Support for the ESI Xjam controller.
 * Send the DrivenByMoss Xjam preset (DrivenByMoss.xjam) to the device which is located in the resources folder in the sub-folder ESI with the Xjam editor. It can be stored in any Scene you prefer but it must be selected when running **DrivenByMoss**.
 * To have different note setups create a duplicate of this template but only make changes to the first PAD BANK! Then store it to a different scene. You can assign anything to the pads in this mode but stay away from MIDI channel 16 which is used by this extension.
 * The Xjam device should be auto detected. If you need to add it manually, select the Xjam ports as MIDI in-/output. Note that Bitwig already comes with an implementation for the Xjam, therefore make sure that you select the DrivenByMoss version.
-* The knobs are endless encoders but act like absolute encoders! Therefore, set Takeover mode in Bitwig to e.g. *Relative scaling*.
 * To make the REPEAT function of the pads work in sync with the Bitwig tempo make sure that the Clock is set to *External* on the *Repeat* page in the Xjam editor. Then enable that the MIDI clock is sent to the Xjam on the *Synchronization* page in the Bitwig settings.
 
 ## General concept
