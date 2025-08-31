@@ -1,5 +1,9 @@
 # Changes - Cockos Reaper
 
+**26.1.0 (unreleased)**
+
+* Removed support for Melbourne Instrument Roto-Control.
+
 **26.0.0**
 
 * Requires Reaper 7.22+
