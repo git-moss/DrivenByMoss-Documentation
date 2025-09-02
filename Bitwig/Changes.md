@@ -1,6 +1,6 @@
 # Changes - Bitwig Studio
 
-**26.1.0 (unreleased)**
+**26.1.0**
 
 * Removed support for Melbourne Instrument Roto-Control. Use the native Bitwig implementation instead.
 

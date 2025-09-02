@@ -1,7 +1,8 @@
 # Changes - Cockos Reaper
 
-**26.1.0 (unreleased)**
+**26.1.0**
 
+* Fixed restart issue when closing Reaper configuration dialog.
 * Removed support for Melbourne Instrument Roto-Control.
 
 **26.0.0**
