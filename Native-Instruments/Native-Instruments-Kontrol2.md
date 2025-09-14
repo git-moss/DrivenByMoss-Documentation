@@ -126,6 +126,7 @@ This mode controls parameters.
 ### Device/Track/Project parameters mode (Kontrol Mk3)
 
 This mode controls device parameters. If a supported NI-plugin is loaded (Komplete, Kontakt 7/8) a special NKS2 mode is active instead!
+**Note: Since the special NKS mode is not notified, device and track modes cannot be changed when a NKS device is selected!**
 
 If the Volume mode was active the selected device of the currently selected channel is edited. If the Layer mode was active the selected device of the active layer is edited.
 
