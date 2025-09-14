@@ -5,7 +5,6 @@
 * Native Instruments Kontrol Mk3
   * New: In device mode up/down changes tracks.
   * Fixed: First track of the current page could not be muted/soloed.
-  * Fixed: First track of the current page could not be muted/soloed.
   * Fixed: Selecting devices did not fully work after removing/adding a device.
   * Fixed: Fixed several issues caused by the presence of a NKS device (Kontrol, Kontakt 7/8). Note: Since the special NKS mode is not notified, device and track modes cannot be changed when a NKS device is selected!
 * Push 2
