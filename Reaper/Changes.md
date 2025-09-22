@@ -1,7 +1,20 @@
 # Changes - Cockos Reaper
 
+**26.2.1**
+
+* Requires Reaper 7.22+
+* Pitchbend messages were broken on Linux.
+* Electra One
+  * Fixed: The first page (mixer) was not selected on startup, which means that if a different one was selected it did not work.
+  * Fixed: New markers did not show up since their color is black. Markers with the color black are now displayed in gray.
+  * Fixed: The 'Behaviour on Pause' setting was completely ignored.
+* Native Instruments Kontrol Mk3
+  * Fixed: Names in different mix modes are reduced to 1 line to fix overflow of the graphics.
+  * Fixed: Komplete plugin was not detected since the name has to match as well.
+
 **26.2.0**
 
+* Requires Reaper 7.22+
 * Native Instruments Kontrol Mk3
   * New: In device mode up/down changes tracks.
   * Fixed: First track of the current page could not be muted/soloed.
@@ -15,6 +28,7 @@
 
 **26.1.0**
 
+* Requires Reaper 7.22+
 * Fixed restart issue when closing Reaper configuration dialog.
 * Removed support for Melbourne Instrument Roto-Control.
 

@@ -1,7 +1,17 @@
 # Changes - Bitwig Studio
 
+**26.2.1**
+
+* Requires Bitwig 5.3+
+* Electra One
+  * Fixed: The first page (mixer) was not selected on startup, which means that if a different one was selected it did not work.
+  * Fixed: The 'Behaviour on Pause' setting was completely ignored.
+* Native Instruments Kontrol Mk3
+  * Fixed: Names in different mix modes are reduced to 1 line to fix overflow of the graphics.
+
 **26.2.0**
 
+* Requires Bitwig 5.3+
 * Native Instruments Kontrol Mk3
   * New: In device mode up/down changes tracks.
   * Fixed: First track of the current page could not be muted/soloed.
@@ -15,6 +25,7 @@
 
 **26.1.0**
 
+* Requires Bitwig 5.3+
 * Removed support for Melbourne Instrument Roto-Control. Use the native Bitwig implementation instead.
 
 **26.0.0**
