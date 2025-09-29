@@ -315,6 +315,7 @@ The available functions should be self-explanatory, except:
 * Activate Volume mode on Fader Touch: If enabled the volume mode is temporarily enabled until the fader is no longer touched.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up
+* Encoder Knob Slow Down: Use higher values if the main encoder changes too fast.
 
 ### Browser
 

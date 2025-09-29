@@ -36,7 +36,10 @@ The Mk2 misses some buttons of the Mk3. The differences are as follows:
 * The *File/Save* button is the *All/Save* button on Mk2.
 * The *Auto* button is the *Auto Wr* button on Mk2.
 * The *Follow/Grid* button is the *Grid* button on Mk2.
-* The 4 buttons above the pads of the Mk3 are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the top/left next to the CONTROL button.
+* The 4 buttons above the pads of the Mk3 are missing (PAD MODE, KEYBOARD, CHORDS, STEP):
+    * PAD MODE can be found left of the pads. Press it multiple times to toggle between PAD MODE, KEYBOARD and CHORDS mode.
+    * Use Shift+PAD MODE to access the settings of the respective mode.
+    * STEP is found on the top/left next to the CONTROL button.
 * The *Events* button is replaced by pressing the *STEP LEFT + Select/Events* button on Mk2.
 
 ### Studio
@@ -52,7 +55,9 @@ The Maschine Studio misses some buttons of the Mk3 but also adds new features. T
 * The *Lock* button is the *Enter* button on the Maschine Studio.
 * The *File/Save* button is the *All/Save* button on the Maschine Studio.
 * The *Follow/Grid* button is the *Grid* button on Maschine Studio.
-* The 4 buttons above the pads are missing (PAD MODE, KEYBOARD, CHORDS, STEP): PAD MODE can be found left of the pads, use Shift+PAD MODE for KEYBOARD, CHORDS does not have a replacement, STEP is found on the left next to the TAP button.
+    * PAD MODE can be found left of the pads. Press it multiple times to toggle between PAD MODE, KEYBOARD and CHORDS mode.
+    * Use Shift+PAD MODE to access the settings of the respective mode.
+    * STEP is found on the left next to the TAP button.
 
 The Maschine Studio provides some additional buttons and features:
 
@@ -95,7 +100,8 @@ Use the encoder in combination with **SHIFT** for slower changes.
 
 * **CHANNEL** - Insert a new instrument channel.
 * **PLUG-IN** - Toggle device window.
-* **ARRANGE(R)/IDEAS** - Toggle layouts (Arrange, Mix).
+* **ARRANGE(R)/IDEAS** - Toggle between Arrange and Mix layout.
+* **Shift+ARRANGE(R)/IDEAS** - Activate Edit layout.
 * **MIXER** - Toggle the mixer.
 * **Shift+MIXER** - Toggle the device panel.
 * **SAMPLING** - Brings up the Slice to Drum Machine dialog.

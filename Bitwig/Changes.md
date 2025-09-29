@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**26.3.0**
+
+* Requires Bitwig 5.3+
+* Maschine
+  * New: Shift+ARRANGE(R)/IDEAS activates Edit layout.
+* Maschine Mk2/Studio
+  * New: CHORDS mode can now be accessed as well. To support it the behaviour of the PAD MODE button has been changed. Press it multiple times to toggle between PAD MODE, KEYBOARD and CHORDS mode. Use Shift+PAD MODE to access the settings of the respective mode.
+* MCU
+  * New: Added new setting *Encoder Knob Slow Down* which allows to slow down the main encoder.
+  * New: Renamed option *Off* to *None* for the settings 'Main display', 'Has a second display', 'VU Meters' and 'Display Colors'.
+  * Fixed: VU meters can be toggled on/off with *Global View* again.
+
 **26.2.1**
 
 * Requires Bitwig 5.3+
