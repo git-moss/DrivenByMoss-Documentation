@@ -309,6 +309,7 @@ The available functions should be self-explanatory, except:
 ### Workflow
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
+* Startup mode: Select the mode which will be activated on startup.
 * New clip length: The length of a clip created with the New function.
 * Zoom: If enabled, arrow keys are used for zooming in the arranger.
 * Select Channel on Fader Touch: The channel to which the touched fader belongs is selected if this option is enabled.

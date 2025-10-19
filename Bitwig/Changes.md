@@ -1,5 +1,16 @@
 # Changes - Bitwig Studio
 
+**26.4.0**
+
+* Requires Bitwig 5.3+
+* Maschine JAM
+  * New: Using Shift in combination with the faders allows for smaller changes. Furthermore, the value does not jump when the fader is touched.
+  * New: Added setting *Slow Fader Change* to be able to store the small fader changes. Toggle with Shift+Select.
+  * New: Added setting *Startup mode* to select the mode which will be activated on startup.
+  * Fixed: Shift mode does not activate if Shift button was used in combination with another button.
+* MCU
+  * New: Startup mode: Select the mode which will be activated on startup.
+
 **26.3.0**
 
 * Requires Bitwig 5.3+

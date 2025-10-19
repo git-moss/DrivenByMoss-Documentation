@@ -61,6 +61,8 @@ These buttons activate different modes for the 8 smart strips:
 * **SELECT+CONTROL** - Toggles between project/track parameters.
 * **SHIFT+CONTROL** - Toggles the windows of the selected device, if it has one.
 
+Use the faders in combination with Shift for slower changes. Furthermore, the value does not change instantly when touched. Press Shift+Select to activate it permanently.
+
 The following button combinations are available:
 
 * **SELECT+MACRO**: Add an instrument channel.
@@ -233,7 +235,6 @@ Keep **STEP** pressed and press **Scene 3** to activate.
 * The lowest row displays the playable notes.
 * The row above a note starts a raindrop.
 * If the raindrop reaches the note it sounds.
-* Use Shift+Octave Up/Down to transpose by 1 step. Select+Octave transposes in 12 steps.
 
 ### Drum Mode
 
@@ -299,6 +300,8 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Workflow
 
 * Exclude deactivated items: If active, deactivated items like tracks will not be displayed on the controller. This cleans up the displayed banks but also prevents the options to activate a deactivated item from the controller.
+* Slow Fader Change: If enabled, faders do not change instantly when touched and changes are slower when moved up/down.
+* Startup mode: Select the mode which will be activated on startup.
 * New clip length: The length of a clip created with the New function.
 * Knob Sensitivity Default: Negative values slow the knobs changes down, positive values speed them up.
 * Knob Sensitivity Slow: Negative values slow the knobs changes down, positive values speed them up.

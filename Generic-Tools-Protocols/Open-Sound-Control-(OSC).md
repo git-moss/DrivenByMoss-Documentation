@@ -21,7 +21,9 @@ The parameters of the command documentation below are as follows:
 * {color} depicts an RGB color formatted as: *rgb(r,g,b)* with r,g,b in the range of {0-255}.
 * {0,1,-} means that either the off/on value can be turned on (1) or off (0) or toggled if the value is omitted.
 
-## The following OSC messages are sent from the script
+## Sent messages
+
+The following OSC messages are sent from the extension (from the DAW).
 
 ### Send - Global
 
@@ -143,8 +145,8 @@ The parameters of the command documentation below are as follows:
 | /scene/{1-8}/exists                       | {0,1}    | Does the scene exist?                                      |
 | /scene/{1-8}/name                         | {text}   | The name of the scene.                                     |
 | /scene/{1-8}/selected                     | {0,1}    | Is the scene selected?                                     |
-| /scene/color                              | {color}  | The color of the scene.                                    |
-| /track/{1-8}/clip/{1-8}/name              | {text}   | The name of the clip in the slot (if any).                  |
+| /scene/{1-8}/color                        | {color}  | The color of the scene.                                    |
+| /track/{1-8}/clip/{1-8}/name              | {text}   | The name of the clip in the slot (if any).                 |
 | /track/{1-8}/clip/{1-8}/isSelected        | {0,1}    | Is the slot selected.                                      |
 | /track/{1-8}/clip/{1-8}/hasContent        | {0,1}    | Does the slot has a clip as content.                       |
 | /track/{1-8}/clip/{1-8}/color             | {color}  | The color of the clip.                                     |
@@ -256,7 +258,9 @@ The following values are sent for the last hovered/clicked parameter:
 | :--------------------      |:-----------   |:---------------                                            |
 | /vkb_midi/note/{0-127}/color | {color}     | The color to use for the note. These are colors for root notes, scale notes, out-of-scale notes, pressed or sequence notes (in red if recording is enabled).|
 
-## The following OSC messages can be received by the script
+## Received messages
+
+The following OSC messages can be received by the extension (the DAW).
 
 ### Receive - Global
 
