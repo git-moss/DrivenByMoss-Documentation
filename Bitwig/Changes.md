@@ -1,5 +1,13 @@
 # Changes - Bitwig Studio
 
+**26.4.1**
+
+* Requires Bitwig 5.3+
+* Electra One
+  * Fixed: Last parameter knob on Transport page was not visible.
+* MCU
+  * New: Added configuration presets for iCON P1-M and P1-NANO.
+
 **26.4.0**
 
 * Requires Bitwig 5.3+

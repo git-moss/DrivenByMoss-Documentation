@@ -1,5 +1,13 @@
 # Changes - Cockos Reaper
 
+**26.4.1**
+
+* Requires Reaper 7.22+
+* Electra One
+  * Fixed: Last parameter knob on Transport page was not visible.
+* MCU
+  * New: Added configuration presets for iCON P1-M and P1-NANO.
+
 **26.4.0**
 
 * Requires Reaper 7.22+
