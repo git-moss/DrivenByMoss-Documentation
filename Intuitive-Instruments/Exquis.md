@@ -6,22 +6,11 @@ Support for the Intuitive Instruments Exquis controller.
 
 * The device should be auto detected. If you need to add it manually, select the in- and output with Exquis in the name.
 
-## Global Features
-
-The following controls in the 6th column are identical on all pages:
-
-* **Play**: Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
-* **CLips**: Toggles between the note and session view.
-* **Loop**: Toggles the arrnger loop on/off. Long press to activate the selection view.
-* **Record**: Start/Stop arranger recording.
-* **Left**: Undos the last action.
-* **Right**: Redos the last undone action.
-
 ## Knob Modes
 
 The knobs can control (device) parameters and the mixer. The different modes can be selected by pressing the knobs.
 
-* Press Knob 1: Activates Project parameter mode. Press again to toggle between parameters 1-4 and 5-8.
+* Press Knob 1: Activates Project parameter mode. Press again to toggle between parameters 1-4 and 5-8. Long press to toggle the Arpeggiator mode on/off.
 * Press Knob 2: Activates Track parameter mode. Press again to toggle between parameters 1-4 and 5-8.
 * Press Knob 3: Activates Cursor Device parameter mode. Press again to toggle between parameters 1-4 and 5-8.
 * Press Knob 4: Activates Track mode. Press again to activate Volume mode.
@@ -46,11 +35,31 @@ In this mode the knobs control the volume, panning and send 1/2 of the selected 
 
 In this mode the knobs control the volume of 4 tracks.
 
+### Arpeggiator Mode
+
+* Press Knob 1: Dis-/enables the arpeggiator
+* Press Knob 4: Dis-/enables the hold function (can be used without the arpeggiator as well)
+* Knob 1: Changes the period between the notes
+* Knob 2: Changes the length of the notes
+* Knob 3: Changes the arpeggiator mode
+* Knob 4: Changes the octaves covered by the arpeggiator
+
+## Global Features
+
+The following buttons at the bottom always have the same features:
+
+* **Play**: Start/Stop playback. Double click to move play cursor to start of song. You can configure the behavior on stop in the preferences.
+* **Clips**: Toggles between the note and session view.
+* **Loop**: Toggles the arranger loop on/off. Long press to activate the selection view.
+* **Record**: Start/Stop arranger recording.
+* **Left**: Undos the last action.
+* **Right**: Redos the last undone action.
+
 ## Selection View
 
 Long press the *Loop* button to activate the selection view. The pads allow not to select tracks, devices and parameter pages.
 
-* Top row: the 4 pads in the middle select one of the 4 tracks of the current track page. The left/right most pad move to the previous/next trak page.
+* Top row: the 4 pads in the middle select one of the 4 tracks of the current track page. The left/right most pad move to the previous/next track page.
 * Touchstrip: selects one of the first 6 track/scene pages. Use the Down/Up buttons to switch between selecting tracks or scene pages.
 * Row 1-4: Press one of the lit pads to select a parameter page (depends on the selected parameter mode).
 * Row 5-8: If cursor device mode is active the pads represent the device of the selected track. Press one of the lit pads to select the device.
@@ -70,19 +79,13 @@ The session view allows to control clips and the mixer.
   * New clip: Creates a new clip of the selected length (see settings), activates MIDI overdub and starts playback.
   * Duplicate: Copies a clip. Keep the duplicate pad pressed, then press the source clip pad and then the destination pad.
   * Delete: Hold and select a clip pad to delete the clip.
-* 1st row: This row has a double function which can be toggled with the right-most pad of the row.
+* 1st row (from the bottom): This row has a double function which can be toggled with the right-most pad of the row.
   * Select: Selects a track.
   * Rec-Arm: Toggles record arm of the track.
 * 2nd row: Toggle solo state of the track. The right-most pad defeats all solos.
 * 3rd row: Toggle mute state of the track. The right-most pad defeats all mutes.
 * 4th row: Stops the playback of the clip of the track. The right-most pad stops the playback all clips.
 * All other rows: Start/select/record a clip (see the different options in the settings). Right-most pad starts the scene.
-
-## Project/Track Parameters Page
-
-This provides access to the Project and Track Parameters.
-
-The upper part controls 8 project parameters and the lower part 8 track parameters of the currently selected track. Both provide access to 5 pages of parameters.
 
 ## Preferences Settings
 
@@ -108,9 +111,19 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 These settings are specific to each project.
 
+### Scales
+
 * MPE Pitch Bend Sensitivity: Select the MPE pitch-bend range.
 * Scale: Select the scale
 * Base: Select the base note of the scale
+
+### Note Repeat
+
+* Active: Enable note repeat
+* Period: The repeat rate of the note repeat
+* Length: The length of a repeated note
+* Mode: The arpeggiator mode
+* Octave: The octave range which is used by the arpeggiator
 
 <div style="page-break-after: always; visibility: hidden"> 
 \pagebreak 

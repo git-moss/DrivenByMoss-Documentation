@@ -1,5 +1,26 @@
 # Changes - Cockos Reaper
 
+**26.5.0**
+
+* Requires Reaper 7.55+
+  * New: Switched to using the new functions introduced in 7.55 to retrieve the MIDI in-/outputs with their original (no alias) name.
+  * Fixed: Shutdown is working fine again.
+  * Fixed: The order browser filter columns was mixed up.
+  * Fixed: The DrivenByMoss window position/size and the option to display notification messages was not saved.
+* Generic Flexi
+  * New: All parameters are now saved and loaded to/from the configuration file to be able to swap configuration files with other users.
+* Intuitive Instruments Exquis
+  * New: Added arpeggiator mode (long-press knob 1).
+  * New: Changes of the tempo, base note and scale are now also notified in the DAW.
+  * New: The play settings are stored and restored when changing tracks (does not alwqays work reliably across track pages).
+  * Fixed: Switching between project parameters and track parameters did not always work.
+* Launchpad
+  * New: Piano view has now play controls as well (toggle with scene button 4).
+  * New: Show notification message when toggling between play and chords view.
+* MCU
+  * New: Renamed User parameters mode to Project/Track parameters mode and the assignment acronym to 'PP'/'tP'.
+  * New: Pressing the DEVICE (PLUG-IN) button multiple times toggles between cursor device parameters, project parameters and track parameters.
+
 **26.4.1**
 
 * Requires Reaper 7.22+

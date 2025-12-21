@@ -146,7 +146,6 @@ _Long press_ to enter birds-eye-view.
 * The buttons on the grid start/record the clips. The behaviour depends on the clip launch and launch release settings (Bitwig only).
 * The 8 scene buttons on the right start the scenes.
 * Hold **Shift** to execute the alternative action of the clip and scene (Bitwig only).
-* Use **Shift + clip/scene** buttons to execute the alternative clip/scene functions (Bitwig only).
 * The arrow keys scroll the grid.
 * Hold **Delete** and press a clip/scene button to delete the clip/scene.
 
@@ -218,6 +217,7 @@ Press _"Note"_ twice to enter.
 * The white lit pads are the white keys.
 * The gray lit pads are the black keys.
 * You get 4 octaves to play with
+* The 4th scene button (green) in the play mode activates additional controls in the first pad row. First pad toggles sustain. Second and third pad are pitch down/up and the following pads switch to different intensities of the modulation wheel. You can slide these modulation wheel pads to imitate a modulation wheel.
 
 ![Play Mode - Piano](Diagrams/Launchpad/play-mode-piano.png)
 

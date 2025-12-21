@@ -156,7 +156,7 @@ Press the **Drum** button three times to activate. The DRUM LED is lit bright re
 ### Note editing
 
 Note editing is available in all sequencers.
-Note edit mode is de-/activated with **Alt+STEP** or **Alt+DRUM**. Press the pad(s) with the note(s) to edit.
+Note edit mode is activated by long-pressing a note. Press additional note(s) to edit at once. If no note is selected anymore the edit mode is automatically closed.
 Selected notes are lit in dark yellow. Then use the knobs as follow:
 
 * **Volume knob**: Changes the gain of the note

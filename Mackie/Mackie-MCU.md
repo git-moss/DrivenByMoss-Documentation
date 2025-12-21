@@ -220,9 +220,8 @@ Keep the Option button pressed to show the parameter pages of the selected devic
 Works like the Device edit mode but for the equalizer device on the track (Bitwig: EQ+, Reaper: ReaEQ).
 When the EQ mode is active and a track is selected which does not yet have an equalizer device, one is automatically added.
 
-### Project/Track Parameter edit mode (uS)
+### Project/Track Parameter edit mode (PP/tP)
 
-* **Shift+Device** (MCU DEVICE, PLUG-IN) - Toggles between project/track parameters.
 * **Device Knobs 1-8** - Change the currently selected 8 parameters.
 
 ### Browser mode (Br)
