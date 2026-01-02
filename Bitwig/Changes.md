@@ -1,7 +1,14 @@
 # Changes - Bitwig Studio
 
+**26.5.1**
+
+* Requires Bitwig 5.3+
+* Electra One
+  * Fixed: Session view was broken. There were 6 scenes instead of 5 which also interfered with the 6th navigation column.
+
 **26.5.0**
 
+* Requires Bitwig 5.3+
 * Fire
   * New: Note edit mode is now activated by simply long-pressing a note in a sequencer.
 * Generic Flexi

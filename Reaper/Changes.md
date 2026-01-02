@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**26.5.1**
+
+* Requires Reaper 7.55+
+* Electra One
+  * Fixed: Session view was broken. There were 6 scenes instead of 5 which also interfered with the 6th navigation column.
+
 **26.5.0**
 
 * Requires Reaper 7.55+
