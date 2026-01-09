@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**26.5.2**
+
+* Requires Reaper 7.55+
+* Closing the configuration Reaper controller dialog caused an error ("Could not start Java Virtual Maschine").
+* Some MIDI commands were not forwarded to Reaper.
+
 **26.5.1**
 
 * Requires Reaper 7.55+
