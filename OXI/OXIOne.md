@@ -1,6 +1,6 @@
-# OXI One
+# OXI One Mk1/Mk2
 
-Support script for OXI Instruments One controller and sequencer.
+Support script for OXI Instruments One Mk1 and Mk2 controller and sequencer.
 
 ## Global Function Buttons
 
@@ -10,18 +10,20 @@ Support script for OXI Instruments One controller and sequencer.
 * **Shift+Play (Tap)**: Press the knob multiple times to tap the tempo.
 * **Stop**: Stop playback. If already stopped the play cursor is set to the start of the arranger timeline. Double click to move play cursor to the end of the arranger timeline. You can configure the behavior on Stop in the preferences.
 * **Shift+Stop (Sync)**: Opens the Transport mode.
-* **Record**: Start/Stop recording
-* **Shift+Record**: Toggle launcher overdub. If the selected slot on the selected track is recording it stops the recording instead.
+* **Record**: Can be configured in the settings (see [Transport](#transport)).
+* **Shift+Record**: Can be configured in the settings (see [Transport](#transport)).
 * **32/Up**: Select the previous scene page.
 * **48/Down**: Select the previous scene page.
 * **Shift+32/Up**: Scrolls the scene page back by 1
 * **Shift+48/Down**: Scrolls the scene page forward by 1
 * **1-4**: Starts scene 1-4 of the currently selected scene page.
+* **5-8** (only Mk2): Starts scene 5-8 of the currently selected scene page.
 * **Shift+1-4**: Alternative start the scene 1-4 of the currently selected scene page.
+* **Shift+5-8**: Alternative start the scene 5-8 of the currently selected scene page.
 * **Mute**: Unmutes all tracks.
 * **Shift+Mute**: Unsoloes all tracks.
-* **Shift+Random**: Toggle device window.
 * **Random**: Quantizes the selected clip using the amount setting (see below).
+* **Shift+Random**: Toggle device window.
 
 ## Knob Modes
 
@@ -149,9 +151,45 @@ Use the edit knobs as follow:
 * **Knob 3**: Changes the duration of the note
 * **Knob 4**: Changes the velocity of the note
 * **Shift+Knob 1**: Changes the pressure of the note
-* **Shift+Knob 1**: Changes the timbre of the note
-* **Shift+Knob 1**: Changes the chance of the note
-* **Shift+Knob 1**: Changes the velocity spread of the note
+* **Shift+Knob 2**: Changes the timbre of the note
+* **Shift+Knob 3**: Changes the chance of the note
+* **Shift+Knob 4**: Changes the velocity spread of the note
+
+### Groove Mode
+
+*Only Mk2*.
+
+Press SHIFT+FLOW to activate the Groove Mode.
+
+* **Knob 1**: Dis-/Enables Groove
+* **Knob 2**: -
+* **Knob 3**: Shuffle Amount
+* **Knob 4**: Shuffle Rate
+* **Shift+Knob 1**: -
+* **Shift+Knob 2**: Accent Phase
+* **Shift+Knob 3**: Accent Amount
+* **Shift+Knob 4**: Accent Rate
+
+### Generator Mode
+
+*Only Mk2*.
+
+Press GEN to activate the Generator Mode. This mode provides Euclidean pattern generation.
+**It works currently only with the Drum 8 sequencer.**
+
+To use it:
+
+1. Set the parameters accordingly
+2. Press any pad on the sequencer row on which notes should be generated.
+
+* **Knob 1**: Sets the note pulse
+* **Knob 2**: Sets the pattern length
+* **Knob 3**: Sets the pattern rotation
+* **Knob 4**: Sets the density
+* **Shift+Knob 1**: -
+* **Shift+Knob 2**: -
+* **Shift+Knob 3**: -
+* **Shift+Knob 4**: -
 
 ### Sequencer Configuration Mode
 
@@ -175,6 +213,8 @@ This mode gives access to 16 tracks at once. The pads of the rows have the follo
 * **Row 7**: Toggle mute
 * **Row 8**: Select the track. The selected track is blinking. The pads use the color of the track (as close as possible). If the track is a folder and it is already selected, the folder is opened/closed.
 
+**Note Mk2**: The clips represent always the first 4 scenes of a clip page. Switch to the Session Mode to access all 8.
+
 Clip combination buttons:
 
 * **Shift**: Keep the shift button pressed and select a track to stop the playing clip of the track.
@@ -184,6 +224,12 @@ Clip combination buttons:
 * **Delete (Paste)**: Keep the delete button pressed and select a clip to delete it.
 * **Mute**: Turn off mute on all tracks; the LED is lit red if there is at least one muted track.
 * **Shift+Mute**: Turn off solo on all tracks; the LED is lit green if there is at least one soloed track.
+
+### Session Mode
+
+** Only Mk2**.
+
+Press the **ARRANGER** button twice to activate this mode. This gives you the full 8x16 clip grid. Button combinations are like in the Mix mode.
 
 ## Play Modes
 
@@ -214,6 +260,7 @@ Press the **KEYBOARD** button twice to activate this mode.
 * When the last note is deactivated for editing, the note edit mode is closed.
 * Pressing a pad which does not contain a note closes the edit mode as well.
 * Pressing a pad which does contain the continuation of a note, does nothing.
+* *Only Mk2*: Keep FLOW pressed and press a note to toggle between the note play modes: Always, Fill, Not Fill. Fill mode is de-/activated by pressing the FLOW button.
 
 ### Drum 8 Sequencer Mode
 
@@ -226,7 +273,7 @@ This mode gives 8 rows (sounds) with 16 steps.
 * Keep the **LFO** button pressed to increase the ratcheting setting of the note.
 * Keep the **Step Chord** button pressed to decrease the ratcheting setting of the note.
 * Press **MOD** to edit notes (see above).
-* Press **Y Div** to configure the sequencer mode (see above).
+* Press **Y Div (Mk1) / Page (Mk2)** to configure the sequencer mode (see above).
 * Keep the **Duplicate** button pressed and press a pad to store the note. Then (still keeping Duplicate pressed). Select different pads to insert the note with its settings.
 * Keep the **Mute** button pressed which changes the content of the pads:
     * Column 1: Selects the drum instrument of the row and shows its name in the display.
@@ -237,7 +284,7 @@ This mode gives 8 rows (sounds) with 16 steps.
 
 ### Drum XoX Sequencer Mode
 
-Press the **ARRANGER** button twice to activate this mode. This mode is inspired by the Roland XoX devices but in contrast you get 96 steps at once!
+Press the **SEQUENCER (HOLD)** button twice to activate this mode. This mode is inspired by the Roland XoX devices but in contrast you get 96 steps at once!
 
 * The *first row* (from the top) represent 16 slots (clips) of the currently selected track.
   * The pads have the same color as the clips.
@@ -269,27 +316,27 @@ Press the **ARRANGER** button twice to activate this mode. This mode is inspired
 
 ### Note Sequencer Mode
 
-Press the **SEQUENCER (HOLD)** button twice to activate this mode.
+Press the **SEQUENCER (HOLD)** button three times to activate this mode.
 
 This mode works the same as the Drum 8 Sequencer Mode. The difference is that the rows do not represent the drum sounds but the notes of the selected scale. Root notes are drawn in the color of the track. Button combinations work the same except Mute.
 
 ### Poly Sequencer Mode
 
-Press the **SEQUENCER (HOLD)** button three times to activate this mode.
+Press the **SEQUENCER (HOLD)** button four times to activate this mode.
 
 Play a chord (= several notes) in the lower part then enable steps in the upper chord which will be filled with the played chord.
 Button combinations work the same as in note sequencer except that there is no ratcheting.
 
 ### Raindrop sequencer
 
-Press the **SEQUENCER (HOLD)** button four times to activate this mode.
+Press the **SEQUENCER (HOLD)** button five times to activate this mode.
 
 This works best with a clip which 32 bars long. Only work on the 1st sequencer page. 
 
 * The lowest row displays the playable notes in the active scale.
 * The row above a note starts a raindrop. The height defines the interval between the single notes.
 * If the raindrop reaches the bottom the note is played.
-* Use the sequencer setup (Y-DIV) to change the visible note range.
+* Use the sequencer setup (Y-DIV/Page) to change the visible note range.
 
 ## Preferences Settings
 

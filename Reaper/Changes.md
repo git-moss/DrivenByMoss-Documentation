@@ -1,5 +1,16 @@
 # Changes - Cockos Reaper
 
+**26.6.0**
+
+* Requires Reaper 7.55+
+* Fixed a potential crash when retrieving MIDI in-/outputs.
+* Added support for OXI One Mk2
+* OXI One Mk1
+  * New: Drum XoX has been moved to other sequencers on the ARP button.
+  * Fixed: Shift+Play did not trigger tap tempo.
+  * Fixed: Arp button was not lit when Raindrop sequencer was selected.
+  * Fixed: Starting non-existing scenes did show an empty text box.
+
 **26.5.2**
 
 * Requires Reaper 7.55+
