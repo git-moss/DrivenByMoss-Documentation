@@ -2,6 +2,8 @@
 
 Support script for Ableton's Push 1, Push 2 and Push 3 controller. You can control track parameters, devices, transport, session view and get a plenty of sequencers.
 
+For Push 3 Hardware differences see https://github.com/danielknng/push3-protocol-docs
+
 ## Installation
 
 To add the controller manually, choose **Ableton -> Push X**, where X is the version of your specific controller. On **Push 1** make sure that for MIDI in- and output the 2nd port is selected (**MIDIIN2 (Ableton Push)** and **MIDIOUT2 (Ableton Push)** on Windows). For **Push 2** and **Push 3** it is the first port.
