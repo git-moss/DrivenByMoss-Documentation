@@ -159,6 +159,7 @@ In this mode one pad represents an 8x5 area in the clip grid. Press a pad to qui
 * *Scene Launch button 5* - Transpose notes 1 block down. The new key range is displayed on the computer screen.
 
 Additional combination buttons in the loop area:
+
 * **Button 1**: Keep pressed and select a drum pad to select it without sounding it.
 * **Button 2**: Keep pressed and select a drum pad to toggle its' mute state.
 * **Button 3**: Keep pressed and select a drum pad to toggle its' solo state.

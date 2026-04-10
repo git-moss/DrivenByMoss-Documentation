@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**26.6.1**
+
+* Requires Reaper 7.55+
+* New: If auto-detect could not find a controller a warning is displayed to activate the MIDI ports in Reaper.
+* Fixed: Prevent accidently firing of long button press event when quickly changing between two buttons.
+* Electra One
+  * Fixed: Update of transport positions was only slowed down in mixer mode.
+  * Fixed: Values might not have been updated when switching modes.
+* OXI One Mk1/Mk2
+  * New: Made Note Edit and Automation mode temporary so it can be closed with the BACK button as well.
+* OXI One Mk2
+  * New: Made Generator and Groove mode temporary so it can be closed with the BACK button as well.
+  * Fixed: BACK button was not working.
+
 **26.6.0**
 
 * Requires Reaper 7.55+

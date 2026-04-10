@@ -1,5 +1,18 @@
 # Changes - Bitwig Studio
 
+**26.6.1**
+
+* Requires Bitwig 5.3+
+* New: Prevent accidently firing of long button press event when quickly changing between two buttons.
+* Fixed: Electra One
+  * Fixed: Update of transport positions was only slowed down in mixer mode.
+  * Fixed: Values might not have been updated when switching modes.
+* OXI One Mk1/Mk2
+  * New: Made Note Edit and Automation mode temporary so it can be closed with the BACK button as well.
+* OXI One Mk2
+  * New: Made Generator and Groove mode temporary so it can be closed with the BACK button as well.
+  * Fixed: BACK button was not working.
+
 **26.6.0**
 
 * Requires Bitwig 5.3+
