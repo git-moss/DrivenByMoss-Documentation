@@ -1,5 +1,20 @@
 # Changes - Bitwig Studio
 
+**26.6.2**
+
+* Requires Bitwig 5.3+
+* Removed calling selectInEditor() for clips which is no longer necessary as a workaround in Bitwig 6 and prevents now unncessarily opening the clip editor.
+* Akai APCmini mk1
+  * Fixed: Pad did not blink when pressed and waiting for play/rec.
+* MCU
+  * Fixed: Don't overwrite VU mode in startup, it has already been set by config.
+* OSC
+  * New: Made /time/signature settable.
+* Push
+  * Fixed: Drum view: Don't activate layer menu when SELECT is used in combination with a drum pad.
+* Push 2/3
+  * New: Parameter names are now a bit smaller and therefore show now 12 instead of 9 characters.
+
 **26.6.1**
 
 * Requires Bitwig 5.3+

@@ -1,5 +1,19 @@
 # Changes - Cockos Reaper
 
+**26.6.2**
+
+* Requires Reaper 7.55+
+* Akai APCmini mk1
+  * Fixed: Pad did not blink when pressed and waiting for play/rec.
+* MCU
+  * Fixed: Don't overwrite VU mode in startup, it has already been set by config.
+* OSC
+  * New: Made /time/signature settable.
+* Push
+  * Fixed: Drum view: Don't activate layer menu when SELECT is used in combination with a drum pad.
+* Push 2/3
+  * New: Parameter names are now a bit smaller and therefore show now 12 instead of 9 characters.
+
 **26.6.1**
 
 * Requires Reaper 7.55+

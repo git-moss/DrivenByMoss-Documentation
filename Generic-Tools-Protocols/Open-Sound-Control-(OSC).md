@@ -309,6 +309,7 @@ The following OSC messages can be received by the extension (the DAW).
 | /tempo/raw            | {0-666}       | Set the tempo. Can be a decimal value.                                   |
 | /tempo/tap            | {1,-}         | Trigger the tapping the tempo.                                           |
 | /tempo/{+,-}          |               | In-/decreases the tempo by 1.                                            |
+| /time/signature       | {text}        | Set the global signature: numerator/denominator, e.g. 3/4                |
 | /time                 | {0-N}         | Set the transport playback position. The new playback position in beats. |
 | /position/{+,-}       |               | Small in-/decrease of play position.                                     |
 | /position/{++,--}     |               | Large in-/decrease of play position.                                     |
