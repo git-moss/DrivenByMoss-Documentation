@@ -61,6 +61,27 @@ Tip: This is also the path in which Reaper stores all configuration files includ
 If you get an error when starting DrivenByMoss that says *jvm.dll could not be loaded - Error 126* make sure that the latest C++ redistributable packet for Visual Studio is installed. It can be downloaded here:
 https://aka.ms/vs/17/release/vc_redist.x64.exe
 
+#### Accessing the startup logging
+
+If DrivenByMoss does not startup correctly or there are issues with storing the settings, there might be incompatibilities with other extensions.
+You can have a look at the startup process log with SysInternal DebugView (simply start it before running Reaper). It should output something like this:
+
+```DrivenByMoss: Loading project settings.
+DrivenByMoss: Project settings loaded.
+DrivenByMoss: Creating JVM.
+DrivenByMoss: Registering CPP callbacks.
+DrivenByMoss: Starting application.
+DrivenByMoss: JVM startup finished.
+DrivenByMoss: Creating surface.
+DrivenByMoss: Surface created.
+DrivenByMoss: Saving project settings.
+DrivenByMoss: Project settings saved.
+DrivenByMoss: Shutting down controllers.
+DrivenByMoss: Shutting down JVM.
+DrivenByMoss: Release JVM library resources.```
+
+Get DebugView from here: https://learn.microsoft.com/de-de/sysinternals/downloads/debugview
+
 ### MacOS specifics
 
 If you get the following error when starting Reaper:  `"reaper_drivenbymoss.dylib" can't be opened because Apple cannot check it for malicious software.`,
@@ -87,6 +108,7 @@ This should install the missing files.
 1. Start Reaper
 2. Open the Preferences (Ctrl+P)
 3. Scroll down and select "Control/OSC/web"
+4. Make sure that the options "Close control surface devices when stopped and not active application" and "Close control surface devices when rendering" at the bottom are off.
 4. Click on "Add"
 5. In the "Control surface mode" select "DrivenByMoss4Reaper" (if it is not 
    there, you put the reaper_drivenbymoss library file into a wrong location).

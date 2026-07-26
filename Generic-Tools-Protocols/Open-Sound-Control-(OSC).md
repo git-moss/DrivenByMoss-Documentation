@@ -516,18 +516,19 @@ The following commands are supported for the last hovered/clicked parameter.
 
 ### Receive - Browser
 
-| Command                     | Value | Comment                                                                        |
-| :----------------           |:------|:---------------                                                                |
-| /browser/preset             |       | Activates the browser to browse for presets of the currently selected device.  |
-| /browser/device             |       | Activates the browser to insert a device after the currently selected device.  |
-| /browser/device/after       |       | Same as /browser/device.                                                       |
-| /browser/device/before      |       | Activates the browser to insert a device before the currently selected device. |
-| /browser/commit             |       | Commits the current selection in the browser.                                  |
-| /browser/cancel             |       | Cancels the current browser session.                                           |
-| /browser/filter/{1-6}/{+,-} |       | The columns are as follows: 1: Favorites, 2: Location, 3: File Type, 4: Category, 5: Tags, 6: Creator |
-| /browser/filter/{1-6}/reset |       | Resets the filter of the column.                                               |
-| /browser/result/{+,-}       |       | Select the next/previous result.                                               |
-| /browser/tab/{+,-}          |       | Select the next/previous tab (Devices/Presets/Multisamples/...).               |
+| Command                     | Value     | Comment                                                                        |
+| :---------------------------|:----------|:-------------------------------------------------------------------------------|
+| /browser/preset             |           | Activates the browser to browse for presets of the currently selected device.  |
+| /browser/device             |           | Activates the browser to insert a device after the currently selected device.  |
+| /browser/device/after       |           | Same as /browser/device.                                                       |
+| /browser/device/before      |           | Activates the browser to insert a device before the currently selected device. |
+| /browser/commit             |           | Commits the current selection in the browser.                                  |
+| /browser/cancel             |           | Cancels the current browser session.                                           |
+| /browser/filter/{1-6}/{+,-} |           | The columns are as follows: 1: Favorites, 2: Location, 3: File Type, 4: Category, 5: Tags, 6: Creator |
+| /browser/filter/{1-6}/reset |           | Resets the filter of the column.                                               |
+| /browser/result/{+,-}       |           | Select the next/previous result.                                               |
+| /browser/tab/{+,-}          |           | Select the next/previous tab (Devices/Presets/Multisamples/...).               |
+| /browser/insertClap         | {clap-id} | Bitwig only: Inserts a CLAP plugin, e.g. /browser/insertClap "com.jmoss.dsp-lab" |
 
 ### Receive - Play
 

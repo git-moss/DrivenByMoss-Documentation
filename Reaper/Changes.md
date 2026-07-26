@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**26.6.3**
+
+* Requires Reaper 7.55+
+* Fire
+  * Fixed: Noted editing could not be activated in XoX mode.
+* Push 3
+  * New: MPE: extreme sliding jumps (by accidently touching a note in the row above or below) are filtered.
+  * Fixed: MPE sliding downwards was not correct.
+
 **26.6.2**
 
 * Requires Reaper 7.55+

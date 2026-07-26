@@ -1,5 +1,18 @@
 # Changes - Bitwig Studio
 
+**26.6.3**
+
+* Requires Bitwig 5.3+
+* Fire, Launchpad, MaschineJam, MaschineJamOxiOne
+  * Fixed: The fixed velocity setting is now automatically forwarded to the velocity setting of the note repeat.
+* Fire
+  * Fixed: Noted editing could not be activated in XoX mode.
+* OSC
+  * Added /browser/insertClap
+* Push 3
+  * New: MPE: extreme sliding jumps (by accidently touching a note in the row above or below) are filtered.
+  * Fixed: MPE sliding downwards was not correct.
+
 **26.6.2**
 
 * Requires Bitwig 5.3+
