@@ -1,5 +1,10 @@
 # Changes - Cockos Reaper
 
+**26.6.4**
+
+* Requires Reaper 7.55+
+* 2.6.3 introduced some critical bugs which made most of the extensions crash.
+
 **26.6.3**
 
 * Requires Reaper 7.55+
