@@ -1,5 +1,17 @@
 # Changes - Bitwig Studio
 
+**26.6.5**
+
+* Ableton Push
+  * New: SHIFT + MASTER triggers 'Return to Arrangement' for all tracks.
+  * New: Push 2/3: Nicer layout for the Cue Volume and Cue Mix in Master mode.
+  * Fixed: 'Return to Arrangement' could not be triggered for tracks. The function is now back and can be execute with SHIFT in (Locked) Mute mode.
+  * Fixed: Push 1: On startup no 2nd row mode was active, which therefore showed the behaviour of the Push 2/3 buttons. Now the Mute mode is active.
+* Native Instruments Kontrol Mk3
+  * New: Program Change is routed to the DAW as well (useful for manual MIDI mapping).
+* Maschine
+  * Fixed: On devices where the SHIFT button is emulated by STOP, switching to slow mode for the encoders did not work.
+
 **26.6.3**
 
 * Requires Bitwig 5.3+

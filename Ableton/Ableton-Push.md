@@ -132,7 +132,7 @@ After you have copied the file reboot your computer.
 1. **Volume** - Push 1: Press "Volume" to enter - Push 2/3: Press "Mix" and "Volume" above the display
     * 8 edit knobs: Change volume of selected 8 tracks. Hold **Shift** for fine adjustments.
     * 1st 8 button row: If tracks are hierarchical (see settings): Press to select a track, press again to enter a group. Combine with the **Select** button to select multiple tracks (Reaper only). To rec arm a track, keep the record button pressed and select the channel (first button row). Use in combination with the Delete button to delete a track. Long press a button to leave a track group.
-    * 2nd 8 button row: Toggle mute or solo of track, dependent of Mute or Solo button selection.
+    * 2nd 8 button row (Push 1): Toggle mute or solo of tracks or Stop clips, dependent of Mute, Solo or Stop button selection. In Stop mode, combine with Shift-button to trigger 'return to arrangement' for the track.
     * Left/Right arrows: Select next/previous track page.
     * Shift+Left/right arrows: Moves the selected track.
 
@@ -262,7 +262,7 @@ All the buttons and knobs behave like in Play mode with the following exceptions
 * Hold **Select** to select a clip or scene without starting it.
 * Hold **Shift+Select** to switch to the birds-eye view. In this mode each pad represents 8x8 clips. Select a pad to quickly jump to that area.
 * The arrow keys up/down scroll the scenes. Hold **Shift** to scroll in blocks of 8.
-* Pressing **Shift+1st row buttons** returns to the arrangement for that track.
+* In locked Stop mode, pressing **Shift+1st row buttons** returns to the arrangement for that track.
 * Press the **Fixed Length** button to choose the length for new clips.
 * Press **Clip** to display the current clip in the editor.
 * The ribbon controls the crossfader. Press Shift and touch the Ribbon to center the crossfader.

@@ -1,5 +1,22 @@
 # Known Issues
 
+## Configuring MPE
+
+Setting up MPE is a bit tricky. So, here are some things to check to make it work with e.g. Push 3, Exquise and Generic Flexi.
+
+### Bitwig
+
+In the Inspector Panel of track which contains the MPE device to be played make sure that the following settings are made:
+
+* Channel: All -> Same
+* P.Bend: -> Expr. (enabled) -24 24
+* For VST3 plugins make sure that MPE is enabled in the Inspector Panel of the device and in the device itself.
+
+### Reaper
+
+* Make sure that the pitch bend range of the MPE capable plugin is set to the same value as on the controller (e.g. 24).
+* Ensure that all input MIDI channels from the controller are routed to the track.
+
 ## Windows
 
 * You might get the following error on Windows: **Could not open MIDI output. There is not enough Memory for this Task**. This error means that Windows cannot open the device since another process already opened it. Check if you have accidently assigned it to another script or any MIDI tool which is runing in the background. If it is a Native Instruments device also check if the NI background services work correctly.

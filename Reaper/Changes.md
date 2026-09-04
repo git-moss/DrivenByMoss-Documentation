@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**26.6.5**
+
+* Ableton Push 1
+  * Fixed: On startup no 2nd row mode was active, which therefore showed the behaviour of the Push 2/3 buttons. Now the Mute mode is active.
+* Native Instruments Kontrol Mk3
+  * New: Program Change is routed to the DAW as well (useful for manual MIDI mapping).
+* Maschine
+  * Fixed: On devices where the SHIFT button is emulated by STOP, switching to slow mode for the encoders did not work.
+
 **26.6.4**
 
 * Requires Reaper 7.55+
