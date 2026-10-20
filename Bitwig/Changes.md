@@ -11,6 +11,8 @@
   * New: Program Change is routed to the DAW as well (useful for manual MIDI mapping).
 * Maschine
   * Fixed: On devices where the SHIFT button is emulated by STOP, switching to slow mode for the encoders did not work.
+* Launchpad
+  * New: The first two scene buttons can be configured to select the previous/next track instead of changing the scale layout. In this mode, the buttons show the color of the adjacent track.
 
 **26.6.3**
 
