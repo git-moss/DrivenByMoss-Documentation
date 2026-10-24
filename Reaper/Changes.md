@@ -1,5 +1,14 @@
 # Changes - Cockos Reaper
 
+**26.6.6** (work-in-progress)
+
+* Launchpad
+  * Fixed: Cursor keys were not lit in Tempo mode.
+  * Fixed: Project parameter mode did crash when there were no pages and the 1st page was selected.
+* Native Instruments Maschine
+  * Fixed: On devices where the SHIFT button is emulated by STOP, it did still stop playback when used with knobs.
+  * Fixed: On Maschine Mk3 the 8 knobs do not send data when SHIFT is pressed. As a workaround slow change is active when the SHIFT mode is active.
+
 **26.6.5**
 
 * Ableton Push 1

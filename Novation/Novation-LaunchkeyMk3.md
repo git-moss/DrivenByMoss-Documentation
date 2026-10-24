@@ -102,10 +102,10 @@ The Session mode is quite complex since it provides several sub-modes for contro
 If one of the sub-modes is enabled, the lower pad row changes and displays the states of the sub-mode. Press one of these pads to toggle the state. The following sub-modes are available:
 
 1) **Record Arm**: Toggle the recording armed state of the 8 tracks on the selected track bank page.
-2) **Track select**:  Select one of the 8 tracks on the selected track bank page.
-3) **Mute**:  Toggle the mute state of the 8 tracks on the selected track bank page.
-4) **Solo**:  Toggle the solo of the 8 tracks on the selected track bank page.
-5) **Stop clip**:  Stop the playing clip on one of the 8 tracks on the selected track bank page.
+2) **Track select**: Select one of the 8 tracks on the selected track bank page.
+3) **Mute**: Toggle the mute state of the 8 tracks on the selected track bank page.
+4) **Solo**: Toggle the solo of the 8 tracks on the selected track bank page.
+5) **Stop clip**: Stop the playing clip on one of the 8 tracks on the selected track bank page.
 
 #### Drum Mode
 

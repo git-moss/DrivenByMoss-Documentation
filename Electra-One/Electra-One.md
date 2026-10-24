@@ -6,11 +6,11 @@ Support for the Electra One Mk I as well as the Mk II controller.
 
 * Make sure that at least Firmware 3.5 is installed on the device.
 * Send the DrivenByMoss Electra One preset (DrivenByMoss.eproj) to the device which is located in the resources folder in the sub-folder Electra One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss**.
-* The device should be auto detected. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
+* The device should be auto detected but it might be confused with the Electra One Mini extension since the MIDI ports have the same name, therefore make should you select the normal version. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 
 ## Global Features and Page navigation
 
-The DrivenByMoss preset contains 7 pages with different features. Switching pages works like any other Electra One preset. But there is a faster way: touch 3 consecutive knobs to select a page!
+The DrivenByMoss preset contains 7 pages with different features. Switching pages works like any other Electra One preset. But there is a faster way: touch 3 knobs to select a page!
 
 The knobs to use can be configured in the settings (or turned off completely).
 The following *touch gestures* are configured by default (knob numbering starts with 1 on the top row):
@@ -113,7 +113,7 @@ The two buttons on the left move the marker page to the previous/next 8 markers.
 ### GLOBAL area
 
 * **REDO**: Redoes the last undone command.
-* **UNDO**: Undoes the last undone command.
+* **UNDO**: Undoes the last command.
 * **CLICK**: Toggle the metronome on/off.
 * **CLICK VOLUME**: Change the volume of the metronome click.
 * **CUE VOLUME**: Changes the cue volume.

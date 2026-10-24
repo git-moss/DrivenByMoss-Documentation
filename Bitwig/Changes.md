@@ -1,15 +1,24 @@
 # Changes - Bitwig Studio
 
+**26.6.6** (work-in-progress)
+
+* Launchpad
+  * Fixed: Cursor keys were not lit in Tempo mode.
+  * Fixed: Project parameter mode did crash when there were no pages and the 1st page was selected.
+* Native Instruments Maschine
+  * Fixed: On devices where the SHIFT button is emulated by STOP, it did still stop playback when used with knobs.
+  * Fixed: On Maschine Mk3 the 8 knobs do not send data when SHIFT is pressed. As a workaround slow change is active when the SHIFT mode is active.
+
 **26.6.5**
 
 * Ableton Push
   * New: SHIFT + MASTER triggers 'Return to Arrangement' for all tracks.
   * New: Push 2/3: Nicer layout for the Cue Volume and Cue Mix in Master mode.
-  * Fixed: 'Return to Arrangement' could not be triggered for tracks. The function is now back and can be execute with SHIFT in (Locked) Mute mode.
+  * Fixed: 'Return to Arrangement' could not be triggered for tracks. The function is now back and can be execute with SHIFT in (Locked) Stop Clip mode.
   * Fixed: Push 1: On startup no 2nd row mode was active, which therefore showed the behaviour of the Push 2/3 buttons. Now the Mute mode is active.
 * Native Instruments Kontrol Mk3
   * New: Program Change is routed to the DAW as well (useful for manual MIDI mapping).
-* Maschine
+* Native Instruments Maschine
   * Fixed: On devices where the SHIFT button is emulated by STOP, switching to slow mode for the encoders did not work.
 
 **26.6.3**
