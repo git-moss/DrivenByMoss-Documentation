@@ -69,7 +69,7 @@ The Transport page gives options for transport control as well as some global fu
 
 * **Knob 1**: Changes the position of the play cursor in the arranger.
 * **Knob 2**: -
-* **Knob 3**: -
+* **Knob 3**: In-/Decreases the swing by 1.
 * **Knob 4**: In-/Decreases the tempo by 1.
 * **Knob 5**: Changes the last hovered/clicked parameter.
 * **Knob 6**: Change the volume of the metronome click.
@@ -78,8 +78,8 @@ The Transport page gives options for transport control as well as some global fu
 * **Shift + Knob 1-8**: Changes parameters slowly
 * **Knob 1 press**: Redoes the undone command.
 * **Knob 2 press**: Undoes the last command.
-* **Knob 3 press**: Toggle the automation recording in the arranger on/off.
-* **Knob 4 press**: Toggle the automation recording in the launcher on/off.
+* **Knob 3 press**: Toggle the automation recording on/off.
+* **Knob 4 press**: Toggles arranger overdub.
 * **Knob 5 press**: Creates a new clip on the selected track and slot, starts playback and enables overdub.
 * **Knob 6 press**: Start recording of a clip in the currently selected slot.
 * **Knob 7 press**: Quantize the selected clip.

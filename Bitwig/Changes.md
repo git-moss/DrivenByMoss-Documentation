@@ -1,7 +1,9 @@
 # Changes - Bitwig Studio
 
-**26.6.6** (work-in-progress)
+**26.7.0** (work-in-progress)
 
+* Requires Bitwig 5.3+
+* Added support for Electra One Mini. Requires Firmware 5.0.5 or later.
 * Launchpad
   * Fixed: Cursor keys were not lit in Tempo mode.
   * Fixed: Project parameter mode did crash when there were no pages and the 1st page was selected.
