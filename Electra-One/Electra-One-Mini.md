@@ -5,7 +5,7 @@ Support for the Electra One Mini controller.
 ## Configuration
 
 * Make sure that at least Firmware 5 is installed on the device.
-* Send the DrivenByMoss Electra One Mini preset (DrivenByMossMini.eproj) to the device which is located in the resources folder in the sub-folder Electra One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss MINI**.
+* Send the DrivenByMoss Electra One Mini preset (DrivenByMossMini.eproj) to the device which is located in the resources folder in the sub-folder Electra One. It can be stored in any slot you prefer but the name must not be changed and be **DrivenByMoss Mini**.
 * The device should be auto detected but it might be confused with the normal Electra One extension since the MIDI ports have the same name, therefore make should you select the Mini version. If you need to add it manually, select the first and third (CTRL) MIDI in-/output.
 
 ## Global Features and Page navigation
