@@ -338,8 +338,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behavior on Stop: Sets the action to be executed when playback is stopped with the Stop button
 * Behavior on Pause: Sets the action to be executed when playback is stopped with the Play button
+* Behavior on Stop: Sets the action to be executed when playback is stopped with the Stop button
+* Double click PLAY returns to zero: Option to disable this feature.
+* Double click STOP jumps to end of arranger: Option to disable this feature.
 * Flip arranger and clip record: if enabled, the functionality of the Record button when used with Shift is flipped with the function when not using Shift. Enable this if you tend to work more in the Clip Launcher than the Arranger.
 
 ### Play and Sequence

@@ -71,6 +71,8 @@ Press the **PLUG-IN** button multiple times to toggle between the following mode
 * Track Parameters
 * Project Parameters
 
+Press the selected plugin tab again (or SHIFT + tab) to show the remote control pages of the device on the display buttons. Pressing a page tab selects the page directly. Press the selected page tab again (or SHIFT + tab) to return to the device list. While the pages are shown, Page Left/Right jump by 8 pages.
+
 In all modes, hold the **SHIFT** button to make slower changes of values.
 
 ### Volume mode
@@ -164,8 +166,10 @@ You can set several preferences which are stored when you exit the DAW. These ar
 
 ### Transport
 
-* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button.
 * Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
+* Behaviour on Stop: Sets the action to be executed when playback is stopped with the Stop button.
+* Double click PLAY returns to zero: Option to disable this feature.
+* Double click STOP jumps to end of arranger: Option to disable this feature.
 * Record button: Select the function of the record button.
 * Shift + Record button: Select the function of the record button when used in combination with the Shift key.
 

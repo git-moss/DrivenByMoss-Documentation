@@ -135,6 +135,7 @@ You can set several preferences which are stored when you exit the DAW. These ar
 ### Transport
 
 * Behaviour on Pause: Sets the action to be executed when playback is stopped with the Play button.
+* Double click PLAY returns to zero: Option to disable this feature.
 
 ### Play and Sequence
 

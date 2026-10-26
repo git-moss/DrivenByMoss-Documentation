@@ -4,9 +4,16 @@
 
 * Requires Bitwig 5.3+
 * Added support for Electra One Mini. Requires Firmware 5.0.5 or later.
+* New: Added setting to disable double click on the PLAY button to return to zero: Akai APC40 Mk1/2, Akai MPC/Force, Ableton Push 1-3, Akai Fire, Electra One, Mackie HUI/MCU, NI Kontrol Mk1-3, NI Maschine, NI Maschine JAM, Novation Launchcontrol XL, Novation Launchkey Mk3, Novation Launchpad, Novation SL Mk1,2,3, Oxi One Mk1/2, Yaeltex Turn
+* New: Added setting to disable double click on the STOP button to jump to the end of the arranger: Akai Fire, Akai MPC/Force, Intuitive Instruments Exquis, NI Kontrol Mk1-3, Novation Launchkey Mk3, Mackie HUI/MCU, Novation SL Mk1,2,3, Oxi One Mk1/2, Yaeltex Turn
 * Launchpad
+  * Fixed: Do not leave Project view when the previous/next project is selected.
   * Fixed: Cursor keys were not lit in Tempo mode.
   * Fixed: Project parameter mode did crash when there were no pages and the 1st page was selected.
+* MCU
+  * New: Support for more display colors on Behringer X-Touch with Firmware 1.25.
+* Native Instruments Kontrol Mk3
+  * New: Press the selected plugin tab again (or SHIFT + tab) to show the remote control pages of the device on the display buttons. Pressing a page tab selects the page directly. Press the selected page tab again (or SHIFT + tab) to return to the device list. While the pages are shown, Page Left/Right jump by 8 pages.
 * Native Instruments Maschine
   * Fixed: On devices where the SHIFT button is emulated by STOP, it did still stop playback when used with knobs.
   * Fixed: On Maschine Mk3 the 8 knobs do not send data when SHIFT is pressed. As a workaround slow change is active when the SHIFT mode is active.
