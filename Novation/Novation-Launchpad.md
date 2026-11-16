@@ -101,7 +101,7 @@ If you press and release the Shift button the grid changes to the Shift mode. If
 * The buttons in the center control note repeat for play modes. The blue button on top de-/activates note repeat. The two red buttons right to it de-/increase the octave range. The pads of the first two columns below change the note repeat period and the other two columns the note length.
 * Up/down cursor buttons activate **Tempo mode**.
 * Left/right cursor buttons activate **Swing mode**.
-* The red button in the lower right corner stops the playback of all clips.
+* The red button in the lower right corner stops the playback of all clips (*stop all*).
 
 ### Non-pro models
 

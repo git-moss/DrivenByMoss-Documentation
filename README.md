@@ -1,8 +1,7 @@
 ---
-title: The DrivenByMoss Manual
+title: The DrivenByMoss 26.7.0 Manual
 author: 
 - Jürgen Moßgraber
-- Ryan Bateman (Launchpad images)
 header-includes:
     \usepackage{fancyhdr}
     \pagestyle{fancy}
@@ -20,6 +19,8 @@ date:   \today
 DrivenByMoss is an extension for the digital audio workstations (DAW) **Bitwig Studio** and **Cockos Reaper**. It provides support for many hardware controllers as well as protocols like OSC. Furthermore, it brings some tools and utilities.
 
 DrivenByMoss is written by [Jürgen Moßgraber](https://mossgrabers.de) also known as MOSS.
+
+Thanks to Ryan Bateman for the Launchpad images.
 
 ## Feedback and Bug Reports
 Post all questions, bug reports wishes and discussion

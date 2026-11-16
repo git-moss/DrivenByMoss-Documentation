@@ -1,9 +1,9 @@
 # Changes - Bitwig Studio
 
-**26.7.0** (work-in-progress)
+**26.7.0**
 
 * Requires Bitwig 5.3+
-* Added support for Electra One Mini. Requires Firmware 5.0.5 or later.
+* Added support for Electra One Mini. Requires Firmware 5.1.0 or later.
 * New: Added setting to disable double click on the PLAY button to return to zero: Akai APC40 Mk1/2, Akai MPC/Force, Ableton Push 1-3, Akai Fire, Electra One, Mackie HUI/MCU, NI Kontrol Mk1-3, NI Maschine, NI Maschine JAM, Novation Launchcontrol XL, Novation Launchkey Mk3, Novation Launchpad, Novation SL Mk1,2,3, Oxi One Mk1/2, Yaeltex Turn
 * New: Added setting to disable double click on the STOP button to jump to the end of the arranger: Akai Fire, Akai MPC/Force, Intuitive Instruments Exquis, NI Kontrol Mk1-3, Novation Launchkey Mk3, Mackie HUI/MCU, Novation SL Mk1,2,3, Oxi One Mk1/2, Yaeltex Turn
 * Launchpad
@@ -12,6 +12,7 @@
   * Fixed: Project parameter mode did crash when there were no pages and the 1st page was selected.
 * MCU
   * New: Support for more display colors on Behringer X-Touch with Firmware 1.25.
+  * New: Added support for up to 5 extenders.
 * Native Instruments Kontrol Mk3
   * New: Press the selected plugin tab again (or SHIFT + tab) to show the remote control pages of the device on the display buttons. Pressing a page tab selects the page directly. Press the selected page tab again (or SHIFT + tab) to return to the device list. While the pages are shown, Page Left/Right jump by 8 pages.
 * Native Instruments Maschine
