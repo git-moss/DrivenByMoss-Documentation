@@ -1,5 +1,11 @@
 # Changes - Bitwig Studio
 
+**26.7.1**
+
+* Requires Bitwig 5.3+
+* MCU
+  * Controller extension with 4 or 5 extenders did crash.
+
 **26.7.0**
 
 * Requires Bitwig 5.3+

@@ -1,5 +1,11 @@
 # Changes - Cockos Reaper
 
+**26.7.1**
+
+* Requires Reaper 7.55+
+* MCU
+  * Controller extension with 4 or 5 extenders did crash.
+
 **26.7.0**
 
 * Requires Reaper 7.55+

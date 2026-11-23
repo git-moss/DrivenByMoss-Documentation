@@ -1,5 +1,5 @@
 ---
-title: The DrivenByMoss 26.7.0 Manual
+title: The DrivenByMoss 26.7.1 Manual
 author: 
 - Jürgen Moßgraber
 header-includes:
